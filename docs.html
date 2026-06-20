@@ -26,27 +26,49 @@
     <main class="docs-pane">
       <div class="docs-section">
         <h1>Instructions</h1>
-        <p>A static, client-side editor for encoding Roman/Latin inscriptions as
-        <a href="https://epidoc.stoa.org/" target="_blank" rel="noopener">EpiDoc</a>/TEI XML and
-        committing them to GitHub. There is no backend: the XML is built in your browser and saved
-        through the GitHub Contents API with your own personal access token.</p>
+        <p>This page walks through the editing workflow. simple-edep is a simple rewrite of the EDEP
+        edition tool for serverless deployment, so the steps mirror EDEP's, with one difference: there
+        is no backend — the XML is built in your browser and saved to GitHub with your own token.</p>
       </div>
 
       <div class="docs-section">
-        <h2>Signing in &amp; saving</h2>
-        <p>You can browse the catalogue, map and reading views without an account. To <strong>save</strong>,
-        create a GitHub <a href="https://github.com/settings/tokens/new?scopes=public_repo&description=simple-edep" target="_blank" rel="noopener">personal access token</a>
-        with <code>public_repo</code> scope (or <code>repo</code> for a private data repo) and paste it on the
-        sign-in page. The token lives only in this browser. “② Save to GitHub” commits the record to
-        <code>records/&lt;file&gt;.xml</code>; you can also Copy or Download the XML and commit it by hand.</p>
+        <h2>1 · Access</h2>
+        <p>Reading is open to everyone: you can browse <a href="catalog.html">Inscriptions</a>,
+        <a href="map.html">Geodata</a> and <a href="people.html">People</a> without an account. To
+        <strong>create or save</strong> a record you sign in once with a GitHub
+        <a href="https://github.com/settings/tokens/new?scopes=public_repo&description=simple-edep" target="_blank" rel="noopener">personal access token</a>
+        (<code>public_repo</code> scope, or <code>repo</code> for a private corpus). The token is kept
+        only in your browser and is sent solely to the GitHub API.</p>
       </div>
 
       <div class="docs-section">
-        <h2>The Leiden+ editor</h2>
+        <h2>2 · Create or open a record</h2>
+        <p>Start a fresh record with <strong>+ New inscription</strong>, or open an existing one from
+        <a href="catalog.html">Inscriptions</a> with <em>Edit</em> — its metadata and transcription load
+        back into the form. Give each record a short file name (e.g. <code>rom_001</code>); it becomes
+        <code>records/&lt;file&gt;.xml</code>.</p>
+      </div>
+
+      <div class="docs-section">
+        <h2>3 · Describe the object and its context</h2>
+        <p>Fill the metadata sections from the top down. The right-hand pane shows the EpiDoc XML live
+        and flags whether it is well-formed.</p>
+        <ul class="docs-list">
+          <li><strong>Identity &amp; IDs</strong> — title, editor, and cross-references (EDH, EDCS, EDR, Trismegistos, PHI, CIL → <code>idno</code>).</li>
+          <li><strong>Object &amp; support</strong> — object type and material (with EAGLE / Getty AAT URIs), dimensions, letter heights, condition.</li>
+          <li><strong>Layout &amp; lettering</strong> — columns, lines, script (<code>handNote</code>).</li>
+          <li><strong>Text type &amp; dating</strong> — EDH text type and <code>origDate</code> (see step 5).</li>
+          <li><strong>Find spot</strong> — modern country/region/settlement, coordinates (used by Geodata), provenance, repository.</li>
+        </ul>
+      </div>
+
+      <div class="docs-section">
+        <h2>4 · Transcribe the text</h2>
         <p>The transcription pane is a live <strong>Leiden+ → EpiDoc</strong> editor
-        (<a href="https://github.com/JinnElements/jinn-codemirror" target="_blank" rel="noopener">jinn-codemirror</a>).
-        Type with Leiden conventions and the EpiDoc XML is produced automatically. You can also paste raw
-        text from <strong>EDCS</strong> or <strong>PHI</strong> and use the <em>Import</em> buttons to convert it.</p>
+        (<a href="https://github.com/JinnElements/jinn-codemirror" target="_blank" rel="noopener">jinn-codemirror</a>,
+        the same Leiden engine EDEP uses). Type with Leiden conventions and the EpiDoc XML is produced
+        automatically. You can also paste raw text from <strong>EDCS</strong> or <strong>PHI</strong> and
+        use the <em>Import</em> buttons to convert it.</p>
         <table class="docs-table">
           <thead><tr><th>You type (Leiden+)</th><th>EpiDoc XML</th><th>Meaning</th></tr></thead>
           <tbody>
@@ -62,25 +84,25 @@
       </div>
 
       <div class="docs-section">
-        <h2>What gets encoded</h2>
-        <ul class="docs-list">
-          <li><strong>Identity &amp; IDs</strong> — title, editor, and cross-references (EDH, EDCS, EDR, Trismegistos, PHI, CIL → <code>idno</code>).</li>
-          <li><strong>Object &amp; support</strong> — object type and material (with EAGLE / Getty AAT URIs), dimensions, letter heights, condition.</li>
-          <li><strong>Layout &amp; lettering</strong> — columns, lines, script (<code>handNote</code>).</li>
-          <li><strong>Text type &amp; dating</strong> — EDH text type, <code>origDate</code> with <code>@when/@notBefore/@notAfter/@datingMethod</code>, place (Pleiades URI), province.</li>
-          <li><strong>Find spot</strong> — modern country/region/settlement, coordinates (for the map), provenance, repository.</li>
-          <li><strong>Edition, apparatus, translation, commentary, bibliography</strong> — standard EpiDoc <code>div</code> structure.</li>
-        </ul>
-        <p>Every record validates as well-formed XML against the EpiDoc RNG processing instructions and follows the
-        <a href="https://epidoc.stoa.org/gl/latest/" target="_blank" rel="noopener">EpiDoc Guidelines</a>.</p>
+        <h2>5 · Names, places and dates</h2>
+        <p>Add the apparatus, translation, commentary and bibliography in their own sections. For
+        <strong>dating</strong>, give <code>origDate</code> a year or range (<code>@when</code> /
+        <code>@notBefore</code> / <code>@notAfter</code>), a dating method, and the date as expressed on
+        the stone. <strong>Places</strong> carry a Pleiades / Trismegistos Geo URI and the Roman province,
+        and the find-spot coordinates place the record on <a href="map.html">Geodata</a>. Persons named in
+        an inscription are kept in the <a href="people.html">People</a> register and linked back to it.</p>
       </div>
 
       <div class="docs-section">
-        <h2>Data &amp; deployment</h2>
-        <p>Records live in <code>records/*.xml</code> in the public repository
+        <h2>6 · Save and export</h2>
+        <p><strong>② Save to GitHub</strong> commits the record to <code>records/&lt;file&gt;.xml</code> in
+        the public repository
         <a href="https://github.com/pleuston/simple-edep" target="_blank" rel="noopener">pleuston/simple-edep</a>,
-        served as static files. The catalogue and map read <code>data/records-index.json</code>; rebuild it after
-        bulk-editing with <code>node scripts/build-index.js</code>.</p>
+        served back as a static file; you can also <strong>Copy XML</strong> or <strong>Download</strong> and
+        commit by hand. Every record is emitted with the EpiDoc RNG/Schematron processing instructions and
+        follows the <a href="https://epidoc.stoa.org/gl/latest/" target="_blank" rel="noopener">EpiDoc Guidelines</a>.
+        The Inscriptions list and Geodata map read <code>data/records-index.json</code>; after bulk edits,
+        rebuild it with <code>node scripts/build-index.js</code>.</p>
       </div>
     </main>
   </body>

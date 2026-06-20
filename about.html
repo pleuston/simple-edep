@@ -28,52 +28,63 @@
 
     <main class="docs-pane">
       <div class="docs-section">
-        <h1>About simple-edep</h1>
-        <p><strong>simple-edep</strong> is a lightweight, browser-based editor for Roman and Latin
-        inscriptions. It encodes inscriptions as <a href="https://epidoc.stoa.org/" target="_blank" rel="noopener">EpiDoc</a>/TEI
-        XML and stores them in a public GitHub repository — there is no server and no database.
-        The XML is built entirely in your browser and committed through the GitHub Contents API
-        with your own access token.</p>
+        <h1>About</h1>
+        <p><strong>simple-edep is a simple rewrite of the EDEP edition tool for serverless
+        deployment.</strong> It reproduces the working model of the
+        <a href="https://edep.adw.uni-heidelberg.de/" target="_blank" rel="noopener">EDEP — Editionstools für eine digitale Epigraphik</a>
+        project at Heidelberg (open source: <a href="https://github.com/eeditiones/edep" target="_blank" rel="noopener">eeditiones/edep</a>),
+        but strips out the server: instead of a TEI Publisher / eXist-db backend it runs entirely in
+        the browser as static files, and records are stored directly in a GitHub repository. There is
+        nothing to host and nothing to maintain beyond the repository itself.</p>
       </div>
 
       <div class="docs-section">
-        <h2>Scope</h2>
-        <p>The corpus collects Roman/Latin inscriptions — funerary, votive, honorific, building and
-        milestone texts among others — each encoded with object and support description, layout and
-        lettering, dating, find spot, edition, apparatus, translation, commentary and bibliography,
-        following the <a href="https://epidoc.stoa.org/gl/latest/" target="_blank" rel="noopener">EpiDoc Guidelines</a>.
-        Records cross-reference the major databases (EDH, EDCS, EDR, Trismegistos, PHI, CIL) and use
-        authority vocabularies from EAGLE, the Getty AAT and Pleiades.</p>
+        <h2>Aim</h2>
+        <p>The tool lets epigraphers create and edit editions of Roman/Latin inscriptions and publish
+        them as standards-conformant <a href="https://epidoc.stoa.org/" target="_blank" rel="noopener">EpiDoc</a>/TEI
+        XML. It keeps the parts of EDEP that matter for day-to-day encoding — a structured metadata
+        form and a live Leiden editor — while removing the operational overhead of running a database
+        and application server.</p>
       </div>
 
       <div class="docs-section">
-        <h2>How it is built</h2>
-        <p>The editing model follows the <strong>EDEP</strong> project at Heidelberg
-        (<a href="https://edep.adw.uni-heidelberg.de/" target="_blank" rel="noopener">edep.adw.uni-heidelberg.de</a>)
-        and the open-source <a href="https://github.com/eeditiones/edep" target="_blank" rel="noopener">eeditiones/edep</a>
-        framework, reimagined as a static site so it can run from GitHub Pages alone. The live
-        <strong>Leiden+ → EpiDoc</strong> transcription editor is the
-        <a href="https://github.com/JinnElements/jinn-codemirror" target="_blank" rel="noopener">jinn-codemirror</a>
-        component, the same Leiden engine used by EDEP. The application structure is modelled on the
-        <a href="https://pleuston.github.io/epiwen/" target="_blank" rel="noopener">epiwen</a> token-based editing framework.</p>
-      </div>
-
-      <div class="docs-section">
-        <h2>Sections</h2>
+        <h2>What the tool does</h2>
         <ul class="docs-list">
-          <li><strong><a href="catalog.html">Inscriptions</a></strong> — browse, search and edit the corpus.</li>
-          <li><strong><a href="map.html">Geodata</a></strong> — find spots plotted on a map.</li>
-          <li><strong><a href="people.html">People</a></strong> — register of persons named in the inscriptions.</li>
-          <li><strong><a href="docs.html">Instructions</a></strong> — how to encode and save a record.</li>
+          <li>A form for the full description of an inscription: object and support, dimensions and
+          lettering, layout, text type, dating, find spot, edition, apparatus, translation,
+          commentary and bibliography.</li>
+          <li>A live <strong>Leiden+ → EpiDoc</strong> transcription editor that converts Leiden
+          conventions to EpiDoc markup as you type, and imports text pasted from EDCS or PHI.</li>
+          <li>Browse, search and re-edit existing records; a find-spot map; and a register of persons.</li>
+          <li>One-click save to GitHub, plus copy and download of the raw XML.</li>
         </ul>
       </div>
 
       <div class="docs-section">
-        <h2>Licence &amp; credits</h2>
-        <p>Application code: MIT. Inscription records: CC BY 4.0 unless stated otherwise. The Leiden
-        editor (jinn-codemirror) is © JinnTec GmbH, MIT. EpiDoc is maintained by the EpiDoc
-        Collaborative. This is an independent project and is not affiliated with the Heidelberg
-        Academy of Sciences.</p>
+        <h2>Encoding model</h2>
+        <p>Records follow the <a href="https://epidoc.stoa.org/gl/latest/" target="_blank" rel="noopener">EpiDoc Guidelines</a>
+        and are emitted with the standard EpiDoc RNG/Schematron processing instructions. They
+        cross-reference the major databases (EDH, EDCS, EDR, Trismegistos, PHI, CIL) and draw
+        authority vocabularies from EAGLE, the Getty AAT and Pleiades.</p>
+      </div>
+
+      <div class="docs-section">
+        <h2>Technical basis</h2>
+        <p>Plain HTML and JavaScript, no build step and no backend. The transcription editor is the
+        <a href="https://github.com/JinnElements/jinn-codemirror" target="_blank" rel="noopener">jinn-codemirror</a>
+        Leiden component — the same Leiden engine EDEP uses — embedded standalone. Persistence is the
+        GitHub Contents API: a personal access token, stored only in your browser, commits each record
+        to <code>records/*.xml</code>. The site is served from GitHub Pages. The application skeleton
+        follows the <a href="https://pleuston.github.io/epiwen/" target="_blank" rel="noopener">epiwen</a>
+        token-based editing framework.</p>
+      </div>
+
+      <div class="docs-section">
+        <h2>Credits &amp; licence</h2>
+        <p>This is an independent, unaffiliated rewrite that adapts the open-source EDEP / eeditiones
+        model; it is not endorsed by or connected to the Heidelberg Academy of Sciences. Application
+        code: MIT. Inscription records: CC BY 4.0 unless stated otherwise. jinn-codemirror is © JinnTec
+        GmbH (MIT); EpiDoc is maintained by the EpiDoc Collaborative.</p>
         <p>Source code: <a href="https://github.com/pleuston/simple-edep" target="_blank" rel="noopener">github.com/pleuston/simple-edep</a>.</p>
       </div>
     </main>
