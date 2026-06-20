@@ -12,8 +12,6 @@
     <header class="topbar">
       <div class="brand">
         <a href="index.html" class="brand-home">simple-edep</a>
-        <span class="brand-sep">·</span>
-        <span>Geodata</span>
       </div>
       <nav class="sitenav sitenav-editor">
         <a href="catalog.html" class="sitenav-link">Inscriptions</a>
@@ -22,9 +20,15 @@
         <a href="about.html" class="sitenav-link">About</a>
         <a href="docs.html" class="sitenav-link">Instructions</a>
       </nav>
-      <div class="controls">
+      <div class="topbar-right">
         <span id="map-count" class="catalog-meta"></span>
-        <a href="catalog.html" class="btn">Catalogue</a>
+        <div class="lang-box"><span>Language</span>
+          <select aria-label="Interface language"><option>English</option></select>
+        </div>
+        <a class="account-link" data-account href="login.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="8.5" r="3.5"/><path d="M5 20c0-3.6 3.1-5.5 7-5.5s7 1.9 7 5.5"/></svg>
+          <span class="account-label">Login</span>
+        </a>
       </div>
     </header>
     <div class="map-wrap"><div id="map"></div></div>

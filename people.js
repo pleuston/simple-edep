@@ -23,7 +23,7 @@
       if (!q) return true;
       return [p.name, p.role, p.place, p.date].join(" ").toLowerCase().indexOf(q) !== -1;
     });
-    countEl.textContent = "· " + rows.length + (rows.length === 1 ? " person" : " people");
+    countEl.textContent = "Found " + rows.length + (rows.length === 1 ? " person" : " people");
     if (!rows.length) { listEl.innerHTML = '<div class="catalog-empty">No people' + (q ? " match “" + esc(q) + "”." : ".") + "</div>"; return; }
     listEl.innerHTML = rows.map(rowHtml).join("");
   }

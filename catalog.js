@@ -10,14 +10,17 @@
 (function () {
   "use strict";
   var NS = "http://www.tei-c.org/ns/1.0";
-  var listEl, searchEl, countEl;
+  var listEl, searchEl, sortEl, pagerEl;
   var ENTRIES = [];   // {file, titleEn, settlement, region, date, textType, ...}
+  var PAGE = 0, PER = 12;
 
   document.addEventListener("DOMContentLoaded", function () {
     listEl = document.getElementById("cat-list");
     searchEl = document.getElementById("cat-search");
-    countEl = document.getElementById("cat-count");
-    searchEl.addEventListener("input", renderList);
+    sortEl = document.getElementById("cat-sort");
+    pagerEl = document.getElementById("cat-pager");
+    searchEl.addEventListener("input", function () { PAGE = 0; renderList(); });
+    if (sortEl) sortEl.addEventListener("change", function () { PAGE = 0; renderList(); });
     var editId = new URLSearchParams(location.search).get("edit");
     if (editId) { openInEditor(editId.replace(/[^A-Za-z0-9_\-.]/g, "") + ".xml"); return; }
     loadList();
@@ -60,12 +63,44 @@
       if (!q) return true;
       return [e.titleEn, e.settlement, e.region, e.textType, e.objectType, e.file].join(" ").toLowerCase().indexOf(q) !== -1;
     });
-    countEl.textContent = "· " + rows.length + (rows.length === 1 ? " record" : " records");
-    if (!rows.length) {
+    rows.sort(sorter(sortEl ? sortEl.value : "title"));
+    var total = rows.length;
+    var pages = Math.max(1, Math.ceil(total / PER));
+    if (PAGE >= pages) PAGE = 0;
+    if (!total) {
       listEl.innerHTML = '<div class="catalog-empty">No records' + (q ? " match “" + esc(q) + "”." : ". <a href=\"editor.html\">Add the first one →</a>") + "</div>";
+      if (pagerEl) pagerEl.innerHTML = "";
       return;
     }
-    listEl.innerHTML = rows.map(rowHtml).join("");
+    listEl.innerHTML = rows.slice(PAGE * PER, PAGE * PER + PER).map(rowHtml).join("");
+    renderPager(total, pages);
+  }
+
+  function sorter(key) {
+    return function (a, b) {
+      if (key === "date") return String(a.date || "").localeCompare(String(b.date || ""));
+      if (key === "place") return String(a.settlement || "").localeCompare(String(b.settlement || ""));
+      return String(a.titleEn || a.file).localeCompare(String(b.titleEn || b.file));
+    };
+  }
+
+  function renderPager(total, pages) {
+    if (!pagerEl) return;
+    var html = "";
+    if (pages > 1) {
+      html += '<button data-pg="first"' + (PAGE === 0 ? " disabled" : "") + ">|&lt;</button>";
+      for (var i = 0; i < pages; i++) html += '<button data-pg="' + i + '" class="' + (i === PAGE ? "on" : "") + '">' + (i + 1) + "</button>";
+      html += '<button data-pg="last"' + (PAGE === pages - 1 ? " disabled" : "") + ">&gt;|</button>";
+    }
+    html += '<span class="register-count">Found ' + total + " item" + (total === 1 ? "" : "s") + "</span>";
+    pagerEl.innerHTML = html;
+    Array.prototype.forEach.call(pagerEl.querySelectorAll("button[data-pg]"), function (b) {
+      b.addEventListener("click", function () {
+        var v = b.getAttribute("data-pg");
+        PAGE = v === "first" ? 0 : v === "last" ? pages - 1 : parseInt(v, 10);
+        renderList();
+      });
+    });
   }
 
   function rowHtml(e) {
@@ -75,7 +110,7 @@
     var meta = [e.settlement, e.region, e.date].filter(Boolean).join(" · ");
     return '<div class="catalog-item"><div class="catalog-monument"><div class="catalog-info">' +
       '<span class="catalog-filename">' + esc(e.file) + "</span>" +
-      '<div class="catalog-title">' + esc(e.titleEn || id) + "</div>" +
+      '<div class="catalog-title"><a href="viewer.html?id=' + encodeURIComponent(id) + '">' + esc(e.titleEn || id) + "</a></div>" +
       (meta ? '<span class="catalog-meta">' + esc(meta) + "</span>" : "") +
       (tags ? '<div class="catalog-tags">' + tags + "</div>" : "") +
       "</div><div class=\"catalog-actions\">" +

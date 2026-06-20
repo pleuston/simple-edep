@@ -26,21 +26,38 @@
     if (sessionStorage.getItem(SESSION_KEY) !== username) { redirect(); return; }
   }
 
-  // Patch any topbar Sign out button with avatar + @username after DOM loads
+  // Patch the topbar account control (and legacy sign-out button) after DOM loads
   document.addEventListener("DOMContentLoaded", function () {
-    var btn = document.querySelector('[data-signout]');
-    if (!btn) return;
     var u = localStorage.getItem(USERNAME_KEY);
-    if (!u) { btn.textContent = "Sign in"; btn.onclick = function () { window.location.href = LOGIN; }; return; }
     var av = localStorage.getItem("edep_gh_avatar") || "";
-    var name = localStorage.getItem("edep_gh_name") || u;
-    var img = av
-      ? '<img src="' + av + '" width="18" height="18" alt="" '
-        + 'style="border-radius:50%;vertical-align:middle;margin-right:.3rem;display:inline-block"> '
-      : "";
-    btn.innerHTML = img + "@" + u;
-    btn.title = name + " · click to sign out";
-    btn.onclick = function () { EpiAuth.signOut(); };
+    var name = localStorage.getItem("edep_gh_name") || u || "";
+
+    // EDEP-style account link: person icon + "Login" / "@username"
+    var acct = document.querySelector("[data-account]");
+    if (acct) {
+      var label = acct.querySelector(".account-label");
+      if (u) {
+        if (label) label.textContent = "@" + u;
+        acct.removeAttribute("href");
+        acct.title = name + " · click to sign out";
+        acct.onclick = function (e) { e.preventDefault(); EpiAuth.signOut(); };
+      } else {
+        if (label) label.textContent = "Login";
+        acct.setAttribute("href", LOGIN);
+      }
+    }
+
+    // legacy sign-out button (editor toolbar)
+    var btn = document.querySelector("[data-signout]");
+    if (btn) {
+      if (!u) { btn.textContent = "Sign in"; btn.onclick = function () { window.location.href = LOGIN; }; }
+      else {
+        var img = av ? '<img src="' + av + '" width="18" height="18" alt="" style="border-radius:50%;vertical-align:middle;margin-right:.3rem;display:inline-block"> ' : "";
+        btn.innerHTML = img + "@" + u;
+        btn.title = name + " · click to sign out";
+        btn.onclick = function () { EpiAuth.signOut(); };
+      }
+    }
   });
 })();
 

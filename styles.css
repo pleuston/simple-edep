@@ -1,22 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
 :root {
   --bg: #ffffff;
-  --ink: #1a1714;
-  --muted: #6b6258;
-  --line: #e4ddd3;
-  --accent: #6e1423;        /* imperial porphyry / Pompeian red */
+  --ink: #1a1a1a;
+  --muted: #6f6f6f;
+  --line: #e7e7e7;
+  --accent: #cc0000;        /* EDEP red */
   --accent-ink: #fff;
-  --code-bg: #1e1b18;
+  --code-bg: #1f2023;
   --code-ink: #ece6dd;
-  --field-bg: #faf8f4;
+  --field-bg: #fafafa;
   --ok: #1a7f37;
   --bad: #b42318;
-  font-size: 15px;
+  --serif-display: "Cinzel", "Trajan Pro", Georgia, serif;
+  --serif-body: "EB Garamond", Georgia, "Times New Roman", serif;
+  font-size: 16px;
 }
 
 * { box-sizing: border-box; }
 html, body { margin: 0; height: 100%; }
 body {
-  font-family: "Inter", "Helvetica Neue", system-ui, sans-serif;
+  font-family: var(--serif-body);
+  font-size: 1rem;
   color: var(--ink);
   background: var(--bg);
   display: flex;
@@ -295,3 +300,86 @@ jinn-epidoc-editor[valid="false"] { border-color: var(--bad); }
   .sitenav-editor { display: none; }
   .viewer-pane.image-pane { border-right: 0; border-bottom: 1px solid var(--line); }
 }
+
+/* ============================================================
+   EDEP-style theme — serif identity, red accents, register lists
+   ============================================================ */
+
+/* topbar / identity */
+.topbar { padding: 0.7rem 1.5rem; align-items: center; }
+.brand-home { font-family: var(--serif-display); font-weight: 700; font-size: 1.6rem; color: var(--accent); letter-spacing: 0.01em; }
+.brand-sep, .brand span:not(.brand-home) { font-family: var(--serif-body); color: var(--muted); font-weight: 400; }
+.sitenav { gap: 0.1rem; }
+.sitenav-editor { margin-left: 1.6rem; }
+.sitenav-link { font-family: var(--serif-body); font-size: 1.02rem; color: var(--ink); border: 0; padding: 0.3rem 0.7rem; }
+.sitenav-link:hover { border: 0; color: var(--accent); }
+.sitenav-link.active { color: var(--accent); font-weight: 600; }
+
+/* topbar right: language + login */
+.topbar-right { display: flex; align-items: center; gap: 1.4rem; }
+.lang-box { display: flex; flex-direction: column; font-size: 0.72rem; color: var(--muted); line-height: 1.1; }
+.lang-box select { font-family: var(--serif-body); font-size: 0.95rem; color: var(--ink); border: 0; border-bottom: 1px solid var(--line); border-radius: 0; background: transparent; padding: 0.1rem 1.2rem 0.1rem 0; }
+.account-link { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--ink); text-decoration: none; font-family: var(--serif-body); font-size: 1rem; background: transparent; border: 0; cursor: pointer; }
+.account-link:hover { color: var(--accent); }
+.account-link svg { width: 22px; height: 22px; }
+
+/* big serif page titles */
+.page-title { font-family: var(--serif-display); font-weight: 600; font-size: 2.1rem; color: var(--ink); letter-spacing: 0.01em; margin: 1.6rem 0 1.4rem; }
+
+/* form & docs headings in serif */
+.section-title { font-family: var(--serif-display); font-weight: 600; text-transform: none; letter-spacing: 0.02em; color: var(--accent); font-size: 0.95rem; }
+.docs-section h1 { font-family: var(--serif-display); font-weight: 600; color: var(--ink); }
+.docs-section h2 { font-family: var(--serif-display); font-weight: 600; text-transform: none; letter-spacing: 0.02em; color: var(--accent); font-size: 1.1rem; }
+.docs-section p, .docs-list { font-size: 1.02rem; line-height: 1.6; }
+.landing-hero h1 { font-family: var(--serif-display); font-weight: 700; color: var(--accent); }
+.landing-sub { font-family: var(--serif-body); }
+.landing-intro { font-size: 1.05rem; }
+
+/* register list (inscriptions / people / places) — red serif titles */
+.register-controls { display: flex; gap: 1.6rem; align-items: flex-end; flex-wrap: wrap; margin: 0.4rem 0 0.6rem; }
+.register-controls .field-col { display: flex; flex-direction: column; gap: 0.2rem; font-size: 0.72rem; color: var(--muted); }
+.register-controls select,
+.register-controls input[type="search"] { font-family: var(--serif-body); font-size: 1rem; color: var(--ink); border: 0; border-bottom: 1px solid var(--line); border-radius: 0; background: transparent; padding: 0.25rem 0.1rem; min-width: 150px; }
+.register-controls input[type="search"] { min-width: 240px; }
+.register-controls select:focus, .register-controls input:focus { outline: 0; border-bottom-color: var(--accent); }
+.btn-new { display: inline-flex; align-items: center; gap: 0.35rem; color: var(--accent); font-family: var(--serif-body); font-weight: 600; font-size: 1.02rem; background: transparent; border: 0; cursor: pointer; padding: 0.5rem 0; text-decoration: none; }
+.btn-new:hover { text-decoration: underline; }
+.btn-new .plus { font-size: 1.2rem; line-height: 1; }
+.register-pager { display: flex; align-items: center; gap: 0.7rem; font-size: 0.95rem; color: var(--muted); margin: 0.2rem 0 0.6rem; }
+.register-pager button { font-family: var(--serif-body); border: 0; background: transparent; cursor: pointer; color: var(--ink); font-size: 1rem; padding: 0.1rem 0.4rem; }
+.register-pager button.on { background: #333; color: #fff; border-radius: 50%; width: 1.8rem; height: 1.8rem; }
+.register-pager button:disabled { color: var(--line); cursor: default; }
+
+/* list items — EDEP register look */
+.catalog-item { border: 0; border-top: 1px solid var(--line); border-radius: 0; margin: 0; }
+.catalog-item:last-child { border-bottom: 1px solid var(--line); }
+.catalog-monument { background: transparent; padding: 0.85rem 0.2rem; }
+.catalog-title { font-family: var(--serif-display); font-weight: 600; font-size: 1.05rem; color: var(--accent); letter-spacing: 0.01em; }
+.catalog-title a { color: inherit; text-decoration: none; }
+.catalog-title a:hover { text-decoration: underline; }
+.catalog-filename, .catalog-meta { font-family: var(--serif-body); color: var(--muted); }
+.catalog-tag { background: transparent; color: var(--muted); border: 1px solid var(--line); border-radius: 2px; font-family: var(--serif-body); }
+.catalog-actions .btn { font-family: var(--serif-body); }
+.catalog-head h2, .catalog-wrap > .page-title { font-family: var(--serif-display); }
+
+/* two-column register (people, places) */
+.register-two-col .catalog-monument { padding: 0.6rem 0.2rem; }
+@media (min-width: 760px) {
+  .register-two-col #cat-list, .register-two-col #ppl-list { columns: 2; column-gap: 3.5rem; }
+  .register-two-col .catalog-item { break-inside: avoid; border-top: 0; border-bottom: 1px solid var(--line); }
+}
+
+/* buttons in serif */
+.btn { font-family: var(--serif-body); }
+.btn.primary { background: var(--accent); border-color: var(--accent); }
+
+/* reading view headings */
+.reading-title { font-family: var(--serif-display); font-weight: 600; color: var(--ink); }
+.reading-section h3 { font-family: var(--serif-display); text-transform: none; letter-spacing: 0.02em; color: var(--accent); font-size: 1rem; }
+
+/* editor section titles keep serif but compact */
+.field .label { font-family: var(--serif-body); font-size: 0.85rem; }
+
+/* viewer action row */
+.viewer-actions { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
+.viewer-actions .btn { font-size: 0.85rem; }
