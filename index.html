@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>simple-edep — EpiDoc editor for Roman epigraphy</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="auth.js"></script>
+  </head>
+  <body class="landing-page">
+    <header class="landing-header">
+      <div class="landing-brand">
+        <strong>simple-edep</strong>
+        <span class="landing-tagline">EpiDoc editor for Roman epigraphy</span>
+      </div>
+      <div class="controls">
+        <a href="docs.html" class="btn">Docs</a>
+        <button data-signout type="button" class="btn small">Sign in</button>
+      </div>
+    </header>
+
+    <main class="landing-main">
+      <p class="landing-intro">
+        A browser-based editor that turns <strong>Leiden+ transcriptions into EpiDoc/TEI XML</strong>
+        and commits them straight to GitHub with your own token — no server, no database.
+        Built on the
+        <a href="https://github.com/JinnElements/jinn-codemirror" target="_blank" rel="noopener">jinn-codemirror</a>
+        Leiden engine, modelled on the
+        <a href="https://pleuston.github.io/epiwen/" target="_blank" rel="noopener">epiwen</a> framework.
+      </p>
+
+      <div class="landing-cards">
+        <a class="landing-card card-primary" href="editor.html">
+          <div class="card-label">Editor →</div>
+          <div class="card-desc">Encode an inscription with the live Leiden+ ↔ EpiDoc editor and save to GitHub.</div>
+        </a>
+        <a class="landing-card" href="catalog.html">
+          <div class="card-label">Catalogue →</div>
+          <div class="card-desc">Browse, search and re-edit the inscriptions already in the corpus.</div>
+        </a>
+        <a class="landing-card" href="map.html">
+          <div class="card-label">Map →</div>
+          <div class="card-desc">See find spots on a map; click a marker to read the inscription.</div>
+        </a>
+      </div>
+    </main>
+
+    <footer class="foot">
+      Client-side only · EpiDoc/TEI · records committed to
+      <a href="https://github.com/pleuston/simple-edep" target="_blank" rel="noopener">pleuston/simple-edep</a>.
+      Leiden conventions follow the EpiDoc Guidelines (<a href="https://epidoc.stoa.org/" target="_blank" rel="noopener">epidoc.stoa.org</a>).
+    </footer>
+  </body>
+</html>

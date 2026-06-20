@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>simple-edep · Map</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
+    <script src="auth.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <a href="index.html" class="brand-home">simple-edep</a>
+        <span class="brand-sep">·</span>
+        <span>Find-spot map</span>
+      </div>
+      <nav class="sitenav sitenav-editor">
+        <a href="catalog.html" class="sitenav-link">Catalogue</a>
+        <a href="map.html" class="sitenav-link active">Map</a>
+        <a href="editor.html" class="sitenav-link">Editor</a>
+        <a href="docs.html" class="sitenav-link">Docs</a>
+      </nav>
+      <div class="controls">
+        <span id="map-count" class="catalog-meta"></span>
+        <a href="catalog.html" class="btn">Catalogue</a>
+      </div>
+    </header>
+    <div class="map-wrap"><div id="map"></div></div>
+    <script src="vendor/leaflet/leaflet.js"></script>
+    <script src="map.js"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>simple-edep · Inscription</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="auth.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <a href="index.html" class="brand-home">simple-edep</a>
+        <span class="brand-sep">·</span>
+        <span id="rec-id">Inscription</span>
+      </div>
+      <nav class="sitenav sitenav-editor">
+        <a href="catalog.html" class="sitenav-link">Catalogue</a>
+        <a href="map.html" class="sitenav-link">Map</a>
+        <a href="docs.html" class="sitenav-link">Docs</a>
+      </nav>
+      <div class="controls">
+        <a id="btn-edit" href="#" class="btn">Edit</a>
+        <a id="btn-xml" href="#" class="btn" target="_blank">Raw XML</a>
+        <a href="catalog.html" class="btn">← Catalogue</a>
+      </div>
+    </header>
+
+    <main class="viewer-layout">
+      <section class="viewer-pane image-pane">
+        <div id="image-host"><div class="viewer-noimage">No image for this record.</div></div>
+      </section>
+      <section class="viewer-pane reading-pane">
+        <div id="reading"><p class="catalog-loading">Loading…</p></div>
+      </section>
+    </main>
+
+    <div id="toast" role="status" aria-live="polite"></div>
+    <script src="reading.js"></script>
+    <script>
+      (function () {
+        var id = new URLSearchParams(location.search).get("id") || "";
+        if (!id) { document.getElementById("reading").innerHTML = "<p>No record specified.</p>"; return; }
+        id = id.replace(/[^A-Za-z0-9_\-.]/g, "");
+        document.getElementById("rec-id").textContent = id;
+        var url = "records/" + id + ".xml";
+        document.getElementById("btn-xml").href = url;
+        document.getElementById("btn-edit").href = "catalog.html"; // edit via catalogue (loads into editor)
+        fetch(url).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
+          .then(function (xml) {
+            document.getElementById("reading").innerHTML = EpiDocReader.render(xml);
+            var m = xml.match(/<graphic url="([^"]+)"/);
+            if (m) {
+              document.getElementById("image-host").innerHTML =
+                '<img class="viewer-image" src="' + m[1].replace(/"/g, "&quot;") + '" alt="Facsimile of ' + id + '">';
+            }
+            // wire Edit to round-trip via the catalogue loader
+            document.getElementById("btn-edit").addEventListener("click", function (e) {
+              e.preventDefault();
+              try { sessionStorage.setItem("edep_view_edit", id); } catch (x) {}
+              location.href = "catalog.html?edit=" + encodeURIComponent(id);
+            });
+          })
+          .catch(function (e) { document.getElementById("reading").innerHTML = "<p>Could not load record: " + e.message + "</p>"; });
+      })();
+    </script>
+  </body>
+</html>

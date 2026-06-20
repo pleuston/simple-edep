@@ -1,0 +1,72 @@
+/* auth.js — GitHub-identity session gate.
+ * Runs immediately on every protected page.
+ * Identity is established at login.html via GET /user with the stored PAT.
+ * localStorage holds the identity across browser restarts;
+ * sessionStorage holds the live session (cleared when the tab/browser closes).
+ *
+ * NOTE: browsing the public catalog/map/viewer works WITHOUT a token, so those
+ * pages are ungated. Only the editor (which saves) requires sign-in. */
+(function () {
+  var UNGATED = ["login.html", "index.html", "catalog.html", "viewer.html",
+                 "map.html", "docs.html", ""];
+  var USERNAME_KEY = "edep_gh_username";
+  var SESSION_KEY  = "edep_authed";
+  var LOGIN        = "login.html";
+
+  var page = window.location.pathname.split("/").pop() || "index.html";
+  var gated = UNGATED.indexOf(page) === -1;
+
+  function redirect() {
+    window.location.replace(LOGIN + "?r=" + encodeURIComponent(window.location.href));
+  }
+
+  if (gated) {
+    var username = localStorage.getItem(USERNAME_KEY);
+    if (!username) { redirect(); return; }
+    if (sessionStorage.getItem(SESSION_KEY) !== username) { redirect(); return; }
+  }
+
+  // Patch any topbar Sign out button with avatar + @username after DOM loads
+  document.addEventListener("DOMContentLoaded", function () {
+    var btn = document.querySelector('[data-signout]');
+    if (!btn) return;
+    var u = localStorage.getItem(USERNAME_KEY);
+    if (!u) { btn.textContent = "Sign in"; btn.onclick = function () { window.location.href = LOGIN; }; return; }
+    var av = localStorage.getItem("edep_gh_avatar") || "";
+    var name = localStorage.getItem("edep_gh_name") || u;
+    var img = av
+      ? '<img src="' + av + '" width="18" height="18" alt="" '
+        + 'style="border-radius:50%;vertical-align:middle;margin-right:.3rem;display:inline-block"> '
+      : "";
+    btn.innerHTML = img + "@" + u;
+    btn.title = name + " · click to sign out";
+    btn.onclick = function () { EpiAuth.signOut(); };
+  });
+})();
+
+window.EpiAuth = {
+  getUser: function () {
+    return {
+      username: localStorage.getItem("edep_gh_username") || "",
+      avatar:   localStorage.getItem("edep_gh_avatar")   || "",
+      name:     localStorage.getItem("edep_gh_name")     || "",
+      token:    localStorage.getItem("edep_gh_token")    || ""
+    };
+  },
+  isSignedIn: function () {
+    var u = localStorage.getItem("edep_gh_username");
+    return !!u && sessionStorage.getItem("edep_authed") === u;
+  },
+  /* full=true clears stored identity + token (switch account);
+     full=false (default) keeps identity, just ends the session. */
+  signOut: function (full) {
+    sessionStorage.removeItem("edep_authed");
+    if (full) {
+      ["edep_gh_username", "edep_gh_avatar", "edep_gh_name",
+       "edep_gh_token", "edep_gh_owner", "edep_gh_repo",
+       "edep_gh_branch", "edep_gh_path"
+      ].forEach(function (k) { localStorage.removeItem(k); });
+    }
+    window.location.href = "login.html";
+  }
+};

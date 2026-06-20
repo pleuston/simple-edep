@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Milestone of Maximinus Thrax</title>
+        <title xml:lang="la">Imp Caes</title>
+        <editor role="editor">simple-edep</editor>
+      </titleStmt>
+      <publicationStmt>
+        <authority>simple-edep</authority>
+        <idno type="filename">demo_milestone</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <region>Auvergne-Rhône-Alpes</region>
+            <settlement>Lyon</settlement>
+            <repository>Musée gallo-romain de Lyon-Fourvière</repository>
+            <idno type="inventory">ML 401</idno>
+            <idno type="EDCS">EDCS-12300456</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Sandstone milestone recording road repair under the emperor Maximinus.</summary>
+            <msItem>
+              <rs type="textType" ref="https://www.eagle-network.eu/voc/typeins/lod/96.html">Milestone</rs>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <material ref="http://vocab.getty.edu/aat/300011727">Sandstone</material>
+                  <objectType ref="https://www.eagle-network.eu/voc/typeobject/lod/177.html">Milestone</objectType>
+                  <dimensions unit="cm">
+                    <height>180</height>
+                    <width>55</width>
+                    <depth>55</depth>
+                  </dimensions>
+                  <dimensions type="letterHeight" unit="cm">
+                    <height min="4" max="6"/>
+                  </dimensions>
+                </support>
+                <condition>Lower part lost.</condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="6"/>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>Capitalis monumentalis</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate datingMethod="#nomina" when="0236" notBefore="0235" notAfter="0238">236 CE, by imperial titulature.</origDate>
+              <origPlace ref="https://pleiades.stoa.org/places/167717">Lugdunum (Gallia Lugdunensis)</origPlace>
+              <location>
+                <geo>45.7600 4.8357</geo>
+              </location>
+            </origin>
+            <provenance type="found">
+              <p>Found along the via Agrippa.</p>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="#texttype">
+          <term ref="https://www.eagle-network.eu/voc/typeins/lod/96.html">Milestone</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-06-20">Seed record.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" xml:lang="la" xml:space="preserve">
+        <ab>
+          <lb n="1"/><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan>
+          <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius
+          <lb n="3"/>Verus
+          <lb n="4"/>Maximinus
+          <lb n="5"/><expan><abbr>p</abbr><ex>ius</ex></expan> <expan><abbr>f</abbr><ex>elix</ex></expan> <expan><abbr>Aug</abbr><ex>ustus</ex></expan>
+          <lb n="6"/>viam restituit
+        </ab>
+      </div>
+      <div type="translation" xml:lang="en">
+        <p>The Emperor Caesar Gaius Iulius Verus Maximinus, Pius Felix Augustus, restored the road.</p>
+      </div>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>CIL XVII-2 1</bibl>
+          <bibl>AE 2025, 100</bibl>
+        </listBibl>
+      </div>
+    </body>
+  </text>
+</TEI>

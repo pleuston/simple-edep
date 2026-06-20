@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>simple-edep · Documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="auth.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <a href="index.html" class="brand-home">simple-edep</a>
+        <span class="brand-sep">·</span><span>Documentation</span>
+      </div>
+      <nav class="sitenav sitenav-editor">
+        <a href="catalog.html" class="sitenav-link">Catalogue</a>
+        <a href="map.html" class="sitenav-link">Map</a>
+        <a href="editor.html" class="sitenav-link">Editor</a>
+        <a href="docs.html" class="sitenav-link active">Docs</a>
+      </nav>
+      <div class="controls"><button data-signout type="button" class="btn small">Sign in</button></div>
+    </header>
+
+    <main class="docs-pane">
+      <div class="docs-section">
+        <h1>simple-edep</h1>
+        <p>A static, client-side editor for encoding Roman/Latin inscriptions as
+        <a href="https://epidoc.stoa.org/" target="_blank" rel="noopener">EpiDoc</a>/TEI XML and
+        committing them to GitHub. There is no backend: the XML is built in your browser and saved
+        through the GitHub Contents API with your own personal access token.</p>
+      </div>
+
+      <div class="docs-section">
+        <h2>Signing in &amp; saving</h2>
+        <p>You can browse the catalogue, map and reading views without an account. To <strong>save</strong>,
+        create a GitHub <a href="https://github.com/settings/tokens/new?scopes=public_repo&description=simple-edep" target="_blank" rel="noopener">personal access token</a>
+        with <code>public_repo</code> scope (or <code>repo</code> for a private data repo) and paste it on the
+        sign-in page. The token lives only in this browser. “② Save to GitHub” commits the record to
+        <code>records/&lt;file&gt;.xml</code>; you can also Copy or Download the XML and commit it by hand.</p>
+      </div>
+
+      <div class="docs-section">
+        <h2>The Leiden+ editor</h2>
+        <p>The transcription pane is a live <strong>Leiden+ → EpiDoc</strong> editor
+        (<a href="https://github.com/JinnElements/jinn-codemirror" target="_blank" rel="noopener">jinn-codemirror</a>).
+        Type with Leiden conventions and the EpiDoc XML is produced automatically. You can also paste raw
+        text from <strong>EDCS</strong> or <strong>PHI</strong> and use the <em>Import</em> buttons to convert it.</p>
+        <table class="docs-table">
+          <thead><tr><th>You type (Leiden+)</th><th>EpiDoc XML</th><th>Meaning</th></tr></thead>
+          <tbody>
+            <tr><td><code>[Imp]</code></td><td><code>&lt;supplied reason="lost"&gt;Imp&lt;/supplied&gt;</code></td><td>Lost text, restored</td></tr>
+            <tr><td><code>(C(aesar))</code></td><td><code>&lt;expan&gt;&lt;abbr&gt;C&lt;/abbr&gt;&lt;ex&gt;aesar&lt;/ex&gt;&lt;/expan&gt;</code></td><td>Abbreviation expanded</td></tr>
+            <tr><td><code>〚abc〛</code></td><td><code>&lt;del rend="erasure"&gt;abc&lt;/del&gt;</code></td><td>Erasure (rasura)</td></tr>
+            <tr><td><code>a&#x323;</code> (underdot)</td><td><code>&lt;unclear&gt;a&lt;/unclear&gt;</code></td><td>Unclear letter</td></tr>
+            <tr><td><code>[.5]</code></td><td><code>&lt;gap reason="lost" quantity="5" unit="character"/&gt;</code></td><td>Lacuna, 5 lost letters</td></tr>
+            <tr><td><code>1.&nbsp;…</code></td><td><code>&lt;lb n="1"/&gt;…</code></td><td>Line number</td></tr>
+          </tbody>
+        </table>
+        <p>Use the toolbar buttons for the common cases, and <code>↩</code> to (re)number lines.</p>
+      </div>
+
+      <div class="docs-section">
+        <h2>What gets encoded</h2>
+        <ul class="docs-list">
+          <li><strong>Identity &amp; IDs</strong> — title, editor, and cross-references (EDH, EDCS, EDR, Trismegistos, PHI, CIL → <code>idno</code>).</li>
+          <li><strong>Object &amp; support</strong> — object type and material (with EAGLE / Getty AAT URIs), dimensions, letter heights, condition.</li>
+          <li><strong>Layout &amp; lettering</strong> — columns, lines, script (<code>handNote</code>).</li>
+          <li><strong>Text type &amp; dating</strong> — EDH text type, <code>origDate</code> with <code>@when/@notBefore/@notAfter/@datingMethod</code>, place (Pleiades URI), province.</li>
+          <li><strong>Find spot</strong> — modern country/region/settlement, coordinates (for the map), provenance, repository.</li>
+          <li><strong>Edition, apparatus, translation, commentary, bibliography</strong> — standard EpiDoc <code>div</code> structure.</li>
+        </ul>
+        <p>Every record validates as well-formed XML against the EpiDoc RNG processing instructions and follows the
+        <a href="https://epidoc.stoa.org/gl/latest/" target="_blank" rel="noopener">EpiDoc Guidelines</a>.</p>
+      </div>
+
+      <div class="docs-section">
+        <h2>Data &amp; deployment</h2>
+        <p>Records live in <code>records/*.xml</code> in the public repository
+        <a href="https://github.com/pleuston/simple-edep" target="_blank" rel="noopener">pleuston/simple-edep</a>,
+        served as static files. The catalogue and map read <code>data/records-index.json</code>; rebuild it after
+        bulk-editing with <code>node scripts/build-index.js</code>.</p>
+      </div>
+    </main>
+  </body>
+</html>
