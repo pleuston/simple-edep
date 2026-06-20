@@ -25,7 +25,19 @@
         });
         var c = document.getElementById("map-count");
         if (c) c.textContent = pts.length + (pts.length === 1 ? " find spot" : " find spots");
-        if (pts.length) map.fitBounds(pts, { padding: [50, 50], maxZoom: 7 });
+
+        // The container is sized after layout + web-font load; Leaflet must be
+        // told to recompute its size or it loads only one tile and mis-places
+        // markers (the "0×0 at init" race).
+        function refit() {
+          map.invalidateSize();
+          if (pts.length) map.fitBounds(pts, { padding: [50, 50], maxZoom: 7 });
+        }
+        refit();
+        setTimeout(refit, 60);
+        setTimeout(refit, 400);
+        if (document.fonts && document.fonts.ready) document.fonts.ready.then(refit);
+        window.addEventListener("resize", function () { map.invalidateSize(); });
       })
       .catch(function () {});
   });

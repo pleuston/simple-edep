@@ -241,8 +241,8 @@ jinn-epidoc-editor[valid="false"] { border-color: var(--bad); }
 .bibl-list { font-size: 0.84rem; line-height: 1.6; padding-left: 1.2rem; margin: 0; }
 
 /* ---- map ---- */
-#map { flex: 1; min-height: 0; }
-.map-wrap { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+#map { flex: 1 1 auto; min-height: 480px; height: 100%; }
+.map-wrap { flex: 1 1 auto; display: flex; flex-direction: column; min-height: 480px; }
 .leaflet-popup-content { font-size: 0.84rem; }
 .leaflet-popup-content a { color: var(--accent); }
 
@@ -365,8 +365,8 @@ jinn-epidoc-editor[valid="false"] { border-color: var(--bad); }
 /* two-column register (people, places) */
 .register-two-col .catalog-monument { padding: 0.6rem 0.2rem; }
 @media (min-width: 760px) {
-  .register-two-col #cat-list, .register-two-col #ppl-list { columns: 2; column-gap: 3.5rem; }
-  .register-two-col .catalog-item { break-inside: avoid; border-top: 0; border-bottom: 1px solid var(--line); }
+  .register-two-col #cat-list, .register-two-col #ppl-list { display: grid; grid-template-columns: 1fr 1fr; column-gap: 3.5rem; align-items: start; }
+  .register-two-col .catalog-item { border-top: 0; border-bottom: 1px solid var(--line); }
 }
 
 /* buttons in serif */
