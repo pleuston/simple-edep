@@ -11,10 +11,16 @@
     <header class="landing-header">
       <div class="landing-brand">
         <strong>simple-edep</strong>
-        <span class="landing-tagline">EpiDoc editor for Roman epigraphy</span>
+        <span class="landing-tagline">Edition tools for Roman digital epigraphy</span>
       </div>
+      <nav class="sitenav">
+        <a href="catalog.html" class="sitenav-link">Inscriptions</a>
+        <a href="map.html" class="sitenav-link">Geodata</a>
+        <a href="people.html" class="sitenav-link">People</a>
+        <a href="about.html" class="sitenav-link">About</a>
+        <a href="docs.html" class="sitenav-link">Instructions</a>
+      </nav>
       <div class="controls">
-        <a href="docs.html" class="btn">Docs</a>
         <button data-signout type="button" class="btn small">Sign in</button>
       </div>
     </header>
@@ -23,10 +29,9 @@
       <p class="landing-intro">
         A browser-based editor that turns <strong>Leiden+ transcriptions into EpiDoc/TEI XML</strong>
         and commits them straight to GitHub with your own token — no server, no database.
-        Built on the
-        <a href="https://github.com/JinnElements/jinn-codemirror" target="_blank" rel="noopener">jinn-codemirror</a>
-        Leiden engine, modelled on the
-        <a href="https://pleuston.github.io/epiwen/" target="_blank" rel="noopener">epiwen</a> framework.
+        Modelled on the <a href="https://edep.adw.uni-heidelberg.de/" target="_blank" rel="noopener">EDEP</a>
+        framework (<a href="https://github.com/eeditiones/edep" target="_blank" rel="noopener">eeditiones/edep</a>),
+        with the same <a href="https://github.com/JinnElements/jinn-codemirror" target="_blank" rel="noopener">jinn-codemirror</a> Leiden engine.
       </p>
 
       <div class="landing-cards">
@@ -35,12 +40,16 @@
           <div class="card-desc">Encode an inscription with the live Leiden+ ↔ EpiDoc editor and save to GitHub.</div>
         </a>
         <a class="landing-card" href="catalog.html">
-          <div class="card-label">Catalogue →</div>
-          <div class="card-desc">Browse, search and re-edit the inscriptions already in the corpus.</div>
+          <div class="card-label">Inscriptions →</div>
+          <div class="card-desc">Browse, search and re-edit the inscriptions in the corpus.</div>
         </a>
         <a class="landing-card" href="map.html">
-          <div class="card-label">Map →</div>
-          <div class="card-desc">See find spots on a map; click a marker to read the inscription.</div>
+          <div class="card-label">Geodata →</div>
+          <div class="card-desc">Find spots plotted on a map; click a marker to read the text.</div>
+        </a>
+        <a class="landing-card" href="people.html">
+          <div class="card-label">People →</div>
+          <div class="card-desc">Register of persons named in the inscriptions.</div>
         </a>
       </div>
     </main>
@@ -48,7 +57,7 @@
     <footer class="foot">
       Client-side only · EpiDoc/TEI · records committed to
       <a href="https://github.com/pleuston/simple-edep" target="_blank" rel="noopener">pleuston/simple-edep</a>.
-      Leiden conventions follow the EpiDoc Guidelines (<a href="https://epidoc.stoa.org/" target="_blank" rel="noopener">epidoc.stoa.org</a>).
+      See <a href="about.html">About</a> and <a href="docs.html">Instructions</a>.
     </footer>
   </body>
 </html>

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "iulia-secunda",
+    "name": "Iulia Secunda",
+    "role": "deceased",
+    "gender": "female",
+    "place": "Mogontiacum",
+    "date": "2nd c. CE",
+    "inscriptions": ["demo_altar"]
+  },
+  {
+    "id": "aurelius-victor",
+    "name": "Aurelius Victor",
+    "role": "dedicant",
+    "gender": "male",
+    "place": "Aquincum",
+    "date": "early 3rd c. CE",
+    "inscriptions": ["demo_votive"]
+  },
+  {
+    "id": "maximinus-thrax",
+    "name": "C. Iulius Verus Maximinus (Maximinus Thrax)",
+    "role": "emperor",
+    "gender": "male",
+    "place": "Roman Empire",
+    "date": "235–238 CE",
+    "inscriptions": ["demo_milestone"]
+  }
+]

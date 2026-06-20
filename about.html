@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>simple-edep · About</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="auth.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <a href="index.html" class="brand-home">simple-edep</a>
+        <span class="brand-sep">·</span><span>About</span>
+      </div>
+      <nav class="sitenav sitenav-editor">
+        <a href="catalog.html" class="sitenav-link">Inscriptions</a>
+        <a href="map.html" class="sitenav-link">Geodata</a>
+        <a href="people.html" class="sitenav-link">People</a>
+        <a href="about.html" class="sitenav-link active">About</a>
+        <a href="docs.html" class="sitenav-link">Instructions</a>
+      </nav>
+      <div class="controls">
+        <a href="editor.html" class="btn primary">+ New inscription</a>
+        <button data-signout type="button" class="btn small">Sign in</button>
+      </div>
+    </header>
+
+    <main class="docs-pane">
+      <div class="docs-section">
+        <h1>About simple-edep</h1>
+        <p><strong>simple-edep</strong> is a lightweight, browser-based editor for Roman and Latin
+        inscriptions. It encodes inscriptions as <a href="https://epidoc.stoa.org/" target="_blank" rel="noopener">EpiDoc</a>/TEI
+        XML and stores them in a public GitHub repository — there is no server and no database.
+        The XML is built entirely in your browser and committed through the GitHub Contents API
+        with your own access token.</p>
+      </div>
+
+      <div class="docs-section">
+        <h2>Scope</h2>
+        <p>The corpus collects Roman/Latin inscriptions — funerary, votive, honorific, building and
+        milestone texts among others — each encoded with object and support description, layout and
+        lettering, dating, find spot, edition, apparatus, translation, commentary and bibliography,
+        following the <a href="https://epidoc.stoa.org/gl/latest/" target="_blank" rel="noopener">EpiDoc Guidelines</a>.
+        Records cross-reference the major databases (EDH, EDCS, EDR, Trismegistos, PHI, CIL) and use
+        authority vocabularies from EAGLE, the Getty AAT and Pleiades.</p>
+      </div>
+
+      <div class="docs-section">
+        <h2>How it is built</h2>
+        <p>The editing model follows the <strong>EDEP</strong> project at Heidelberg
+        (<a href="https://edep.adw.uni-heidelberg.de/" target="_blank" rel="noopener">edep.adw.uni-heidelberg.de</a>)
+        and the open-source <a href="https://github.com/eeditiones/edep" target="_blank" rel="noopener">eeditiones/edep</a>
+        framework, reimagined as a static site so it can run from GitHub Pages alone. The live
+        <strong>Leiden+ → EpiDoc</strong> transcription editor is the
+        <a href="https://github.com/JinnElements/jinn-codemirror" target="_blank" rel="noopener">jinn-codemirror</a>
+        component, the same Leiden engine used by EDEP. The application structure is modelled on the
+        <a href="https://pleuston.github.io/epiwen/" target="_blank" rel="noopener">epiwen</a> token-based editing framework.</p>
+      </div>
+
+      <div class="docs-section">
+        <h2>Sections</h2>
+        <ul class="docs-list">
+          <li><strong><a href="catalog.html">Inscriptions</a></strong> — browse, search and edit the corpus.</li>
+          <li><strong><a href="map.html">Geodata</a></strong> — find spots plotted on a map.</li>
+          <li><strong><a href="people.html">People</a></strong> — register of persons named in the inscriptions.</li>
+          <li><strong><a href="docs.html">Instructions</a></strong> — how to encode and save a record.</li>
+        </ul>
+      </div>
+
+      <div class="docs-section">
+        <h2>Licence &amp; credits</h2>
+        <p>Application code: MIT. Inscription records: CC BY 4.0 unless stated otherwise. The Leiden
+        editor (jinn-codemirror) is © JinnTec GmbH, MIT. EpiDoc is maintained by the EpiDoc
+        Collaborative. This is an independent project and is not affiliated with the Heidelberg
+        Academy of Sciences.</p>
+        <p>Source code: <a href="https://github.com/pleuston/simple-edep" target="_blank" rel="noopener">github.com/pleuston/simple-edep</a>.</p>
+      </div>
+    </main>
+  </body>
+</html>

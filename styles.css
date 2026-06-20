@@ -166,7 +166,7 @@ jinn-epidoc-editor[valid="false"] { border-color: var(--bad); }
 .landing-intro { max-width: 560px; text-align: center; margin: 0 0 2.5rem; font-size: 0.88rem; line-height: 1.7; color: var(--muted); }
 .landing-intro a { color: var(--accent); }
 .landing-intro strong { color: var(--ink); }
-.landing-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; max-width: 760px; width: 100%; }
+.landing-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 1rem; max-width: 940px; width: 100%; }
 .landing-card { display: block; text-decoration: none; border: 1px solid var(--line); border-radius: 10px; padding: 1.4rem 1.2rem; background: #fff; transition: border-color 0.15s, box-shadow 0.15s; }
 .landing-card:hover { border-color: var(--accent); box-shadow: 0 4px 18px rgba(110,20,35,0.12); }
 .card-primary { background: var(--accent); border-color: var(--accent); }

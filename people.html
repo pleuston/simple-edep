@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>simple-edep · Inscriptions</title>
+    <title>simple-edep · People</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="auth.js"></script>
   </head>
@@ -11,13 +11,12 @@
     <header class="topbar">
       <div class="brand">
         <a href="index.html" class="brand-home">simple-edep</a>
-        <span class="brand-sep">·</span>
-        <span>Inscriptions</span>
+        <span class="brand-sep">·</span><span>People</span>
       </div>
       <nav class="sitenav sitenav-editor">
-        <a href="catalog.html" class="sitenav-link active">Inscriptions</a>
+        <a href="catalog.html" class="sitenav-link">Inscriptions</a>
         <a href="map.html" class="sitenav-link">Geodata</a>
-        <a href="people.html" class="sitenav-link">People</a>
+        <a href="people.html" class="sitenav-link active">People</a>
         <a href="about.html" class="sitenav-link">About</a>
         <a href="docs.html" class="sitenav-link">Instructions</a>
       </nav>
@@ -29,16 +28,14 @@
 
     <div class="catalog-wrap">
       <div class="catalog-head">
-        <h2>Inscriptions <span id="cat-count" class="catalog-meta"></span></h2>
+        <h2>People <span id="ppl-count" class="catalog-meta"></span></h2>
         <div class="catalog-head-actions">
-          <input id="cat-search" class="catalog-searchbox" type="search" placeholder="Search title, place, type…" />
+          <input id="ppl-search" class="catalog-searchbox" type="search" placeholder="Search name, role, place…" />
         </div>
       </div>
-      <div id="cat-list"><div class="catalog-loading">Loading…</div></div>
+      <div id="ppl-list"><div class="catalog-loading">Loading…</div></div>
     </div>
 
-    <div id="toast" role="status" aria-live="polite"></div>
-    <script src="data.js"></script>
-    <script src="catalog.js"></script>
+    <script src="people.js"></script>
   </body>
 </html>
