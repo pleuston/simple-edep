@@ -11,6 +11,19 @@
   "use strict";
   var NS = "http://www.tei-c.org/ns/1.0";
 
+  // Linked external identifiers (upstream edep #15) — resolve idno values to the
+  // record in the source database so they render as outbound links.
+  var ID_LINKS = {
+    EDH: function (v) { return "https://edh.ub.uni-heidelberg.de/edh/inschrift/" + encodeURIComponent(v); },
+    EDCS: function (v) { return "https://db.edcs.eu/epigr/edcs_id.php?s_sprache=en&p_edcs_id=" + encodeURIComponent(v); },
+    EDR: function (v) { return "https://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=" + encodeURIComponent(v); },
+    TM: function (v) { var n = String(v).replace(/\D/g, ""); return n ? "https://www.trismegistos.org/text/" + n : ""; },
+    PHI: function (v) { var n = String(v).replace(/\D/g, ""); return n ? "https://inscriptions.packhum.org/text/" + n : ""; },
+    Wikidata: function (v) { return "https://www.wikidata.org/wiki/" + encodeURIComponent(v); }
+  };
+  var ID_ORDER = ["EDH", "EDCS", "EDR", "TM", "PHI", "CIL", "Wikidata", "inventory"];
+  var ID_LABELS = { EDH: "EDH", EDCS: "EDCS", EDR: "EDR", TM: "Trismegistos", PHI: "PHI", CIL: "CIL", Wikidata: "Wikidata", inventory: "Inv. no." };
+
   function esc(s) { return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
   function parse(xml) {
     var doc = new DOMParser().parseFromString(xml, "application/xml");
@@ -118,6 +131,21 @@
     if (titleEn) html += '<h2 class="reading-title">' + esc(titleEn) + "</h2>";
     var sub = [settlement, dateText].filter(Boolean).join(" · ");
     if (sub) html += '<p class="reading-sub">' + esc(sub) + "</p>";
+
+    // linked external identifiers
+    var idnos = ns(doc, "idno"), idItems = [];
+    ID_ORDER.forEach(function (type) {
+      for (var i = 0; i < idnos.length; i++) {
+        if (idnos[i].getAttribute("type") !== type) continue;
+        var v = txt(idnos[i]); if (!v) continue;
+        var url = ID_LINKS[type] ? ID_LINKS[type](v) : "";
+        var label = ID_LABELS[type] || type;
+        var showLabel = String(v).toLowerCase().indexOf(label.toLowerCase()) !== 0;
+        idItems.push('<span class="id-item">' + (showLabel ? '<span class="id-type">' + esc(label) + "</span> " : "") +
+          (url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(v) + "</a>" : esc(v)) + "</span>");
+      }
+    });
+    if (idItems.length) html += '<div class="reading-ids">' + idItems.join("") + "</div>";
 
     var ed = renderEditionHtml(doc);
     if (ed) html += '<div class="reading-section"><h3>Text</h3>' + ed + "</div>";

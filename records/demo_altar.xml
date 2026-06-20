@@ -25,7 +25,9 @@
             <repository>Landesmuseum Mainz</repository>
             <idno type="inventory">S 137</idno>
             <idno type="EDH">HD000000</idno>
+            <idno type="TM">234567</idno>
             <idno type="CIL">CIL XIII 0000</idno>
+            <idno type="Wikidata">Q12345</idno>
           </msIdentifier>
           <msContents>
             <summary>Marble funerary altar dedicated to the Manes of Iulia Secunda.</summary>

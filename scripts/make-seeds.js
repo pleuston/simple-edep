@@ -11,7 +11,7 @@ var records = [
     titleLa: "D M",
     summary: "Marble funerary altar dedicated to the Manes of Iulia Secunda.",
     editor: "simple-edep",
-    edh: "HD000000", cil: "CIL XIII 0000",
+    edh: "HD000000", cil: "CIL XIII 0000", tm: "234567", wikidata: "Q12345",
     objectType: "Altar", objectTypeRef: "https://www.eagle-network.eu/voc/typeobject/lod/2.html",
     material: "Marble", materialRef: "http://vocab.getty.edu/aat/300011443",
     heightCm: "78", widthCm: "42", depthCm: "30", letterMin: "2", letterMax: "3.5",

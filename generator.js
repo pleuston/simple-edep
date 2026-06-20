@@ -181,9 +181,33 @@
       paras.length ? paras.map(function (p) { return h("p", null, p); }) : h("p", null, text));
   }
 
+  // --- normalize free-form fields (upstream edep #23) ---------------------
+  // Irrelevant whitespace (trailing spaces, tabs, stray newlines from paste or
+  // contenteditable) is XML-significant but unwanted. Normalize at the data
+  // root, before building — never touching the edition fragment (texts[].editionXml).
+  var SINGLE_FIELDS = ["titleEn", "titleLa", "summary", "editor", "country", "region",
+    "settlement", "repository", "condition", "layoutNote", "script", "decoration",
+    "textType", "dateText", "origPlace", "province", "inventory", "edh", "edcs", "edr",
+    "tm", "phi", "cil", "wikidata", "material", "objectType", "changeNote", "changeWho"];
+  var MULTI_FIELDS = ["commentaryText", "provenanceText", "translationEn", "translationDe",
+    "bibliography", "apparatus"];
+  function normalizeData(d) {
+    var out = {};
+    Object.keys(d).forEach(function (k) { out[k] = d[k]; });
+    SINGLE_FIELDS.forEach(function (k) {
+      if (typeof out[k] === "string") out[k] = out[k].replace(/\s+/g, " ").trim();
+    });
+    MULTI_FIELDS.forEach(function (k) {
+      if (typeof out[k] === "string")
+        out[k] = out[k].replace(/\r/g, "").replace(/[ \t]+/g, " ")
+                       .replace(/[ \t]*\n[ \t]*/g, "\n").replace(/\n{3,}/g, "\n\n").trim();
+    });
+    return out;
+  }
+
   // --- main builder -------------------------------------------------------
   function buildEpiDoc(d) {
-    d = d || {};
+    d = normalizeData(d || {});
 
     var titleStmt = hk("titleStmt", null,
       t(d.titleEn) ? h("title", { "xml:lang": "en" }, d.titleEn) : comment("English title"),
@@ -201,7 +225,8 @@
 
     var idnos = [
       idno("EDH", d.edh), idno("EDCS", d.edcs), idno("EDR", d.edr),
-      idno("TM", d.tm), idno("PHI", d.phi), idno("CIL", d.cil)
+      idno("TM", d.tm), idno("PHI", d.phi), idno("CIL", d.cil),
+      idno("Wikidata", d.wikidata)
     ].filter(Boolean);
 
     var msIdentifier = hk("msIdentifier", null,

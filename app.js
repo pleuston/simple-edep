@@ -33,7 +33,9 @@
                { key: "edr",  label: "EDR no.",  ph: "EDR000001" } ] },
       { row: [ { key: "tm",  label: "Trismegistos", ph: "TM no." },
                { key: "phi", label: "PHI no." },
-               { key: "cil", label: "CIL / AE" } ] }
+               { key: "cil", label: "CIL / AE" } ] },
+      { row2: [ { key: "wikidata", label: "Wikidata", ph: "Q12345" },
+                { key: "idURI", label: "Stable URI", ph: "https://…" } ] }
     ]},
     { title: "Object & support", fields: [
       { row2: [ { key: "objectType", label: "Object type", type: "vocabRef", vocab: "OBJECT_TYPES", refKey: "objectTypeRef" },
@@ -247,6 +249,12 @@
     ed.appendChild(leidenToolbar());
     ed.appendChild(xmlToolbar());
 
+    // Fullscreen / distraction-free editing (upstream edep #39)
+    var fs = el("button", "btn small", "⤢ Fullscreen");
+    fs.type = "button";
+    fs.addEventListener("click", function () { toggleFullscreen(ed, fs); });
+    bar.appendChild(fs);
+
     // Direct XML-pane edits re-dispatch the component's own 'update' (Element).
     ed.addEventListener("update", function (e) {
       var s = captureEdition(e.detail && e.detail.content);
@@ -293,6 +301,25 @@
   // nodes. Passing the <ab> element walks the full subtree. It renders as a
   // "<= … =>" section wrapper, which we strip once converted (the component
   // re-wraps bare content in <ab> on its own).
+  function toggleFullscreen(ed, btn) {
+    var on = ed.classList.toggle("editor-fullscreen");
+    document.body.classList.toggle("has-fullscreen-editor", on);
+    if (btn) btn.textContent = on ? "⤢ Exit fullscreen" : "⤢ Fullscreen";
+    ensureFsHint();
+    if (on) { try { var leiden = ed.shadowRoot && ed.shadowRoot.querySelector("jinn-codemirror"); if (leiden && leiden._editor) leiden._editor.focus(); } catch (e) {} }
+  }
+  function exitFullscreen() {
+    var f = document.querySelector("jinn-epidoc-editor.editor-fullscreen");
+    if (!f) return false;
+    f.classList.remove("editor-fullscreen");
+    document.body.classList.remove("has-fullscreen-editor");
+    return true;
+  }
+  function ensureFsHint() {
+    if (document.querySelector(".edition-fs-hint")) return;
+    document.body.appendChild(el("div", "edition-fs-hint", "Press Esc to exit fullscreen"));
+  }
+
   function hydrateEditor(leiden, tx) {
     if (!leiden) return;
     if (tx.editionXml && tx.editionXml.trim()) {
@@ -578,6 +605,10 @@
   }
 
   // ---- init --------------------------------------------------------------
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") exitFullscreen();
+  });
+
   document.addEventListener("DOMContentLoaded", function () {
     formEl = document.getElementById("form");
     wire();

@@ -195,6 +195,7 @@
     st.editor = ed;
     st.edh = idno("EDH"); st.edcs = idno("EDCS"); st.edr = idno("EDR");
     st.tm = idno("TM"); st.phi = idno("PHI"); st.cil = idno("CIL");
+    st.wikidata = idno("Wikidata"); st.idURI = idno("URI");
     st.inventory = idno("inventory");
     st.country = txt(first("country")); st.region = txt(first("region")); st.settlement = txt(first("settlement"));
     st.repository = txt(first("repository"));
