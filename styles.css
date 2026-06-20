@@ -163,9 +163,13 @@ jinn-epidoc-editor[valid="false"] { border-color: var(--bad); }
 .landing-brand strong { font-size: 1.4rem; color: var(--accent); letter-spacing: -0.02em; }
 .landing-tagline { font-size: 0.78rem; color: var(--muted); }
 .landing-main { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 3rem 1.5rem 2rem; }
-.landing-intro { max-width: 560px; text-align: center; margin: 0 0 2.5rem; font-size: 0.88rem; line-height: 1.7; color: var(--muted); }
+.landing-intro { max-width: 580px; text-align: center; margin: 0 auto; font-size: 0.9rem; line-height: 1.7; color: var(--muted); }
 .landing-intro a { color: var(--accent); }
 .landing-intro strong { color: var(--ink); }
+.landing-hero { max-width: 640px; text-align: center; }
+.landing-hero h1 { font-size: 2.6rem; color: var(--accent); margin: 0 0 0.25rem; letter-spacing: -0.02em; }
+.landing-sub { font-size: 1.05rem; color: var(--muted); margin: 0 0 1.5rem; }
+.landing-actions { display: flex; gap: 0.6rem; justify-content: center; margin-top: 1.6rem; flex-wrap: wrap; }
 .landing-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 1rem; max-width: 940px; width: 100%; }
 .landing-card { display: block; text-decoration: none; border: 1px solid var(--line); border-radius: 10px; padding: 1.4rem 1.2rem; background: #fff; transition: border-color 0.15s, box-shadow 0.15s; }
 .landing-card:hover { border-color: var(--accent); box-shadow: 0 4px 18px rgba(110,20,35,0.12); }
