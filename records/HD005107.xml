@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Lucus Augusti &amp;ndash; Lugo (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005107</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005107</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Lugo, Mus. Prov.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/236525">Lucus Augusti</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3117814">Lugo</placeName><placeName type="findspot"/><placeName type="region">Comunidad Autónoma de Galicia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-04-08" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012285" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d200d817-fd13-43dd-9ab6-7912c5f9aed9/file/id/771808/file_version/name/small"/><graphic xml:id="F018039" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/09113ab4-a8e2-45b0-a4d4-4d58fcff24de/file/id/778111/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">Iovi? Optimo? Max(imo)</supplied> <lb n="2"/><expan><abbr><supplied reason="lost">Numi</supplied>ni<supplied reason="lost">b</supplied></abbr><supplied reason="lost"><ex>us</ex></supplied></expan> <supplied reason="lost">Augu</supplied><expan><abbr>stor</abbr><ex>um</ex></expan> <lb n="3"/><supplied reason="lost">Iunoni R</supplied>e<supplied reason="lost">gi</supplied>nae <lb n="4"/>Veneri Victrici <lb n="5"/>Africae Caelesti <lb n="6"/>Frugifero <lb n="7"/>Augustae Emeritae <lb n="8"/>et <expan><abbr>Larib</abbr><ex>us</ex></expan> <expan><abbr>Callaeciar</abbr><ex>um</ex></expan> <lb n="9"/><supplied reason="lost">S</supplied>aturninus <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>lib</abbr><ex>ertus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0595bis.</bibl><bibl>A.M. Canto, ZPE 38, 1980, 141-145; Taf. 5a. (B) - AE 1980.</bibl><bibl>AE 1976, 0312.</bibl><bibl>A. Blanco Freijeiro, in: Actas del Coloquio Internacional sobre el Bimilenario de Lugo (Lugo 1977) 107-155; fig. 1. (B) - AE 1976.</bibl><bibl>P. Le Roux, in: Actas del Coloquio Internacional sobre el Bimilenario de Lugo (Lugo 1977) 86-89; fig. 3. - AE 1976.</bibl><bibl>AE 1973, 0294.</bibl><bibl>F. Arias Vilas, CuadGallegos 28, 1973, 237; Foto. (B) - AE 1973.</bibl><bibl>AE 1978, 0377.</bibl><bibl>HEp 01, 1989, 0457.</bibl><bibl>HEp 04, 1994, 0504.</bibl><bibl>AE 2003, 0948.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

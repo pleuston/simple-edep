@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003770</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003770</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Vat. (Lap. Prof. Ex Lat.)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>21</height><width>(114)</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.6-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="0047" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">47 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Viale Aventino</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003770_1"><persName><name type="praenomen">Ti.+</name><name type="nomen">Claudius+ Caisar (= Caesar)</name><name type="cognomen">Augustus Germanicus</name></persName></person><person xml:id="HD003770_2"><persName><name type="cognomen">Iulianus</name></persName></person><person xml:id="HD003770_3"><persName><name type="praenomen">M.</name><name type="nomen">Livius</name><name type="cognomen">Tanais</name></persName></person><person xml:id="HD003770_4"><persName><name type="cognomen">Attalus+?</name></persName></person><person xml:id="HD003770_5"><persName><name type="praenomen">Ti.</name><name type="nomen">Claudius</name><name type="cognomen">Soterichus</name></persName></person><person xml:id="HD003770_6"><persName><name type="praenomen">Ti.</name><name type="nomen">Iulius</name><name type="cognomen">Olympicus</name></persName></person><person xml:id="HD003770_7"><persName><name type="praenomen">Ti.+</name><name type="nomen">Iulius+</name><name type="cognomen">Daphnus+</name></persName></person><person xml:id="HD003770_8"><persName><name type="praenomen">Cn.</name><name type="nomen">Hosidius</name><name type="cognomen">Geta</name></persName></person><person xml:id="HD003770_9"><persName><name type="praenomen">T.</name><name type="nomen">Flavius</name><name type="cognomen">Sabinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-01-02" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010261" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3cf0b711-8b59-40b6-98de-b06ecc2d62fc/file/id/769781/file_version/name/small"/><graphic xml:id="F026167" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/687fb77e-b467-4252-971d-50d6d142f40b/file/id/786919/file_version/name/small"/><graphic xml:id="F026168" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/aefb2aa7-5f28-4214-b896-8b44080b866c/file/id/786920/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Ti</abbr><ex>berio</ex></expan> Claudio</supplied> Drusi <expan><abbr>f</abbr><ex>ilio</ex></expan> Caisari <note>sic</note> Augusto Germanico <expan><abbr>pontif</abbr><ex>ici</ex></expan> <expan><abbr>maxim</abbr><ex>o</ex></expan> <lb n="2"/><supplied reason="lost">et Larib</supplied>us Domnicis decuriae et collegio Augustiano miori <lb n="3"/><supplied reason="lost"><expan><abbr>mag</abbr><ex>istri</ex></expan> <expan><abbr>coll</abbr><ex>egii</ex></expan></supplied> huius anni <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>d</abbr><ex>ono</ex></expan> <expan><abbr>d</abbr><ex>ederunt</ex></expan> aediculam marmoratam ita uti est <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Aug</abbr><ex>usti</ex></expan> Iulianus <expan><abbr>pediseq</abbr><ex>uus</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> Livius Augustae liberti libertus Tanais <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> At</supplied>talus <expan><abbr>Ti</abbr><ex>berius</ex></expan> Claudius <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> Soterichus <expan><abbr>Ti</abbr><ex>berius</ex></expan> Iulius Olympicus <expan><abbr>q</abbr><ex>uaestor</ex></expan> <expan><abbr>prim</abbr><ex>us</ex></expan> factus ex <expan><abbr>decurion</abbr><ex cert="low">ibus</ex></expan> <lb n="6"/><supplied reason="lost"><expan><abbr>Ti</abbr><ex>berius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Daphnus decu</supplied><expan><abbr>r</abbr><ex>io</ex></expan> dedicatum <expan><abbr>K</abbr><ex>alendis</ex></expan> <expan><abbr>Aug</abbr><ex>ustis</ex></expan> <expan><abbr>Cn</abbr><ex>aeo</ex></expan> Hosidio Geta <expan><abbr>T</abbr><ex>ito</ex></expan> Flavio Sabino co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Vier aneinanderpassende Fragmente erhalten. (B): Giglioli, AE 1953: abweichende Ergänzungen; Z. 5: [---]alus, Olimpicu[s]; Z. 6 (Anfang): dedicatum.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0057A. (B)</bibl><bibl>S. Panciera, QuadStAEtrIt 4, 1980, 206-209, Nr. 11; tav. 49,3; 50, 1 u. 50, 2. - AE 1980.</bibl><bibl>AE 1953, 0024 (B)</bibl><bibl>G.Q. Giglioli, RPAA 25/26, 1949-51, 67-74; fig. 1. - AE 1953.</bibl><bibl>CIL 06, 40414; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

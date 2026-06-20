@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Athenae, bei &amp;ndash; Patrasso - Athínai, zwischen (Achaia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002097</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002097</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Athínai, Epigr. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material>Marmor, geädert / farbig</material><dimensions unit="cm"><height>146</height><width>30</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Achaia</placeName><placeName type="ancient" ref="#">Athenae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0395" notAfter-custom="0397" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">395 AD - 397 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern">Patrasso - Athínai, zwischen</placeName><placeName type="findspot">Dafni, byzantinisches Kloster, bei, sekundär verwendet</placeName><placeName type="region">Attikí</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002097_1" sex="M"><persName><name type="cognomen">Βαλλεντινιανός+</name></persName></person><person xml:id="HD002097_2" sex="M"><persName><name type="cognomen">Βάλης</name></persName></person><person xml:id="HD002097_3" sex="M"><persName ref="https://www.wikidata.org/wiki/Q159369"><name type="cognomen">Arcadius+</name></persName></person><person xml:id="HD002097_4" sex="M"><persName ref="https://www.wikidata.org/wiki/Q159798"><name type="cognomen">Honorius+</name></persName></person><person xml:id="HD002097_5" sex="M"><persName><name type="cognomen">Eusebius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-15" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">Α</supplied>ὐτοκράτορι <lb n="2"/><supplied reason="lost">Κ</supplied>αίσαρι <lb n="3"/><del rend="erasure">[<gap reason="lost" extent="unknown" unit="character"/></del>] <lb n="4"/><supplied reason="lost">Ε</supplied>ὐσεβεῖ Εὐτυχε<supplied reason="lost">ι</supplied> <lb n="5"/>Σεβαστῶι <lb n="6"/><supplied reason="lost">ἐ</supplied>ξ ἄστεως <lb n="7"/>ϛ </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><supplied reason="lost">Σ</supplied>ε<supplied reason="lost">βα </supplied><lb break="no" n="3"/>στοῖς Βαλλ<supplied reason="lost">εν</supplied><lb break="no" n="4"/>τινιανῶ <lb n="5"/>καὶ Βαλέν<lb break="no" n="6"/>τι </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>Dd</abbr><ex>omini</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostri</ex></expan> <lb n="2"/>Arcadiu<supplied reason="lost">s</supplied> <lb n="3"/><supplied reason="lost">e</supplied>t Honor<supplied reason="lost">ius</supplied> <lb n="4"/>sub <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> <lb n="5"/><supplied reason="lost">e</supplied>t specta<supplied reason="lost"><expan><abbr>b</abbr><ex>ili</ex></expan></supplied> <lb n="6"/><expan><abbr>proc</abbr><ex>onsule</ex></expan> <lb n="7"/>Eusebio <lb n="8"/>ς
+            </ab></div></div>
+            <div type="commentary">
+                <p>Meilenstein mit zwei griechischen Inschriften und einer lateinischen. Drei weitere Erwähnungen des proconsuls Eusebius auf Meilensteinen: CIL III 573. 7308. 14203, 27. Entfernungsangabe in griechischen Zeichen. Am Ende der längeren griechischen Inschrift findet das attische Symbol für die Zahl 6 Verwendung. Material: hymettischer Marmor.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 00572.</bibl><bibl>CIL 03, 07306.</bibl><bibl>IG 02 (2. Aufl.) 05204.</bibl><bibl>AE 1984, 0819. (B)</bibl><bibl>G. Molisani, SCO 26, 1977, 307-312; Fotos. (B) - AE 1984.</bibl><bibl>M. Šašel Kos, Inscriptiones Latinae in Graecia repertae. Additamenta ad CIL III (Faenza 1979) 67, Nr. 157.</bibl><bibl>M.C.J. Miller, Inscriptiones Atticae. Supplementum inscriptionum Atticarum 6 (Chicago 1992) 166-171, Nr. 124.</bibl><bibl>E. Sironen, The late Roman and early Byzantine inscriptions of Athens and Attica (Helsinki 1997) 108-110, Nr. 35.</bibl><bibl>IG 02 (2. Aufl.) 13295; tab. 9.</bibl><bibl>PLRE 2 Eusebius 7.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

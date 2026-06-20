@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Verona &amp;ndash; Verona (Venetia et Histria (Regio X))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003989</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003989</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Venetia et Histria (Regio X)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/383816">Verona</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Verona</placeName><placeName type="findspot">S. Procolo, Kirche</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003989_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Spurius</name><name type="cognomen">Senecio</name></persName></person><person xml:id="HD003989_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Spurius</name><name type="cognomen">Secundus</name></persName></person><person xml:id="HD003989_3" sex="W"><persName><name type="nomen">Spuria</name><name type="cognomen">Augustina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-18" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>V</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <lb n="2"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Spurius Senecio <lb n="3"/>sibi et <expan><abbr>Q</abbr><ex>uinto</ex></expan> Spurio <lb n="4"/>Secundo <expan><abbr>fil</abbr><ex>io</ex></expan> et <lb n="5"/>Spuriae Augustinae <lb n="6"/>filiae ex permissu <expan><abbr>colleg</abbr><ex>ii</ex></expan> <lb n="7"/><expan><abbr>iumentarior</abbr><ex>um</ex></expan> <expan><abbr>port</abbr><ex>ae</ex></expan> <expan><abbr>Iov</abbr><ex>iae</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Iumentarii portae Ioviae bereits aus einer Inschrift von Rosegaferro (Villafranca) bekannt, vgl. AE 1975, 0429.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1987, 0452.</bibl><bibl>L. Franzoni, AN 57, 1986, 617-632; fig. 1-5. - AE 1987.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

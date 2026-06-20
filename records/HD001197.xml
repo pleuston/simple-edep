@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Viminacium, bei &amp;ndash; Smederevo (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001197</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001197</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mus. Smederevo</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(73)</height><width>58</width><depth>8</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207549">Viminacium, bei</placeName></origPlace><origDate><origDate when-custom="0202" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">202 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1969"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/785756">Smederevo</placeName><placeName type="findspot">{Festung}, Moschee, sekundär verwendet</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001197_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="praenomen">L.+</name><name type="nomen">Septimius+*</name><name type="cognomen">Severus+</name></persName></person><person xml:id="HD001197_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.+</name><name type="nomen">Aurelius+*</name><name type="cognomen">Antoninus+</name></persName></person><person xml:id="HD001197_3" sex="M"><persName ref="https://www.wikidata.org/wiki/Q183089"><name type="praenomen">P.+++</name><name type="nomen">Septimius+++*</name><name type="cognomen">Geta+++</name></persName></person><person xml:id="HD001197_4" sex="W"><persName><name type="nomen">Iulia</name><name type="cognomen">Domna+</name></persName></person><person xml:id="HD001197_5" sex="M"><persName><name type="cognomen">Pollio+</name></persName></person><person xml:id="HD001197_6" sex="M"><persName><name type="cognomen">Aper+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-10-15" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Impp</abbr><ex>eratoribus</ex></expan> <expan><abbr>Caess</abbr><ex>aribus</ex></expan></supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>L</abbr><ex>ucio</ex></expan> <expan><abbr>Sept</abbr><ex>imio</ex></expan> Severo</supplied> <lb n="3"/><supplied reason="lost">et <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> Anto</supplied><lb break="no" n="4"/>[nino <expan><abbr>Aug<am>g</am></abbr><ex>ustis</ex></expan> et <del rend="erasure"><expan><abbr>P</abbr><ex>ublio</ex></expan></del>] <lb n="5"/><del rend="erasure">[<expan><abbr>Sept</abbr><ex>imio</ex></expan> Getae <expan><abbr>Caes</abbr><ex>ari</ex></expan></del>] <lb n="6"/>et Iuliae Do<supplied reason="lost">m</supplied><lb break="no" n="7"/>nae matri <expan><abbr>cast</abbr><ex>rorum</ex></expan> <lb n="8"/><expan><abbr>vet</abbr><ex>erani</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> VII <expan><abbr>Cl</abbr><ex>audiae</ex></expan> <lb n="9"/>Antoninianae <lb n="10"/>pro<supplied reason="lost"><expan><abbr>b</abbr><ex>ati</ex></expan> Poll</supplied><expan><abbr>io</abbr><ex>ne</ex></expan> et <lb n="11"/>Ap<supplied reason="lost">ro II <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <expan><abbr>m</abbr><ex>issi</ex></expan> <lb n="12"/>h<supplied reason="lost" cert="low">on(esta) miss(ione) Imp(eratore)</supplied> Severo <lb n="13"/><supplied reason="lost">et <expan><abbr>Anton</abbr><ex>ino</ex></expan></supplied> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Die Soldaten wurden 176 rekrutiert. 202 besuchte Septimius Severus Viminacium, wohl Anlaß für Errichtung der Inschrift. Lesung nach IMS II. (B): Abweichungen in Lesung / Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1989, 0633. (B)</bibl><bibl>AE 1982, 0840. (B)</bibl><bibl>AE 1979, 0518.</bibl><bibl>AE 1978, 0704. (B)</bibl><bibl>IMS 2, 054; Foto.</bibl><bibl>B. Lőrincz, ZPE 48, 1982, 142-148; Abb. 1 (Zeichnung). (B) - AE 1982. 1989.</bibl><bibl>J. Fitz, Alba Regia 17, 1979, 351. - AE 1979. (B)</bibl><bibl>M. Mirković, AArchSlov 28, 1977, 283-287; Abb. 1. (B) - AE 1978. 1979.</bibl><bibl>PIR (2. Aufl.) F 209.</bibl><bibl>PIR P 558.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

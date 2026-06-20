@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Boundary inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001264</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001264</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Via della Misericordia 1</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/85">cippus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/71">Travertin</material><dimensions unit="cm"><height>(82)</height><width>63</width><depth>46</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="0048" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">48 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/96">boundary inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001264_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1411"><name type="praenomen">Imp.</name><name type="nomen">Caesar+</name><name type="cognomen">Augustus*</name></persName></person><person xml:id="HD001264_2" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Claudius* Caesar</name><name type="cognomen">Augustus+ Germanicus*</name></persName></person><person xml:id="HD001264_3" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Vitellius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-01-05" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010710" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/23c2c3b9-8a9a-4228-a07f-455e81635dfd/file/id/770230/file_version/name/small"/><graphic xml:id="F026821" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6f7864e5-8cb5-4d68-ab26-d946e0796bb0/file/id/787574/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <supplied reason="lost">Caesar Divi <expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <lb n="2"/><expan><abbr>Aug</abbr><ex>ustus</ex></expan> <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex></expan></supplied><expan><abbr>s</abbr><ex>ul</ex></expan> VI<supplied reason="lost">I a</supplied>d<supplied reason="lost">tribuit</supplied> <lb n="3"/><expan><abbr>Ti</abbr><ex>berius</ex></expan> <expan><abbr>Claud</abbr><ex>ius</ex></expan> Caesar Au<supplied reason="lost"><expan><abbr>g</abbr><ex>ustus</ex></expan></supplied> <lb n="4"/><expan><abbr>Germ</abbr><ex>anicus</ex></expan> <expan><abbr>pontif</abbr><ex>ex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <lb n="5"/><expan><abbr>po<supplied reason="lost">t</supplied>est</abbr><ex>ate</ex></expan> VIII <expan><abbr>imp</abbr><ex>erator</ex></expan> XV <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="6"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Vitellius censores <lb n="7"/>cognita causa ad<lb break="no" n="8"/>tributionem divi <lb n="9"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> pertinentem ad <lb n="10"/>insulam Volusianam <lb n="11"/>con<supplied reason="lost">fi</supplied>rmaverunt
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 2: Panciera, AE 1982: [a]d[trib(uit)]; Z. 7/8: Panciera: ad tributionem; AE 1982: adtributionem; Z. 8/9: AE 1982: kein Zeilenfall; Z. 9: Paniera, AE 1982: [a]d.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0065.</bibl><bibl>S. Panciera, in: I Volusii Saturnini. Archeologia: materiali e problemi 6 (Bari 1982) 90-95; fig. 2. - AE 1982.</bibl><bibl>P. Virgili, BCAR 85, 1976/77, 7-9. (B) - AE 1982.</bibl><bibl>CIL 06, 40887; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

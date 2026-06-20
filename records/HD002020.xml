@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Ticinum, bei &amp;ndash; Bornasco (Transpadana (Regio XI))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002020</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002020</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kirche S. Ambrogio</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(24)</height><width>(50)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Transpadana (Regio XI)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/383798">Ticinum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1976"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Bornasco</placeName><placeName type="findspot">Gualdrasco, S. Ambrogio, Kirche</placeName><placeName type="region">Lombardia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002020_1" sex="W"><persName><name type="nomen">Mania Betutia+</name><name type="cognomen">Pro[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-01-18" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>Mania <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> B<supplied reason="lost">e</supplied>tutia Pro<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>flaminica divae <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Das linke erhaltene Fragment der Inschrift ist in CIL V 6435 publiziert; es befindet sich im Museo del Castello di Pavia und wurde in ders. Kirche gefunden wie das neue rechts anzuschließende Fragment; 30 x 49,5 x 18,5. Vermutlich ist die diva Augusta Livia. Tiefe des 1. Fragments wegen Vermauerung nicht feststellbar. (B): CIL: Z. 1: [-]ania; Ambaglio: Z. 1: Betutia; Baffo - Ambaglio: [d]ivae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0415.</bibl><bibl>D. Ambaglio, Epigraphica 41, 1979, 171-175; fig. 1 u. 2. (B) - AE 1982.</bibl><bibl>CIL 05, 06435. (B)</bibl><bibl>L. Boffo - D. Ambaglio, SupplIt 9 (Roma 1992) 272, Nr. 21; Fotos. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

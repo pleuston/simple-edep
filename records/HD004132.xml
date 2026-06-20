@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004132</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004132</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(26)</height><width>(46)</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="0010" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">10 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Via della Greca</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004132_1"><persName ref="https://www.wikidata.org/wiki/Q1405"><name type="praenomen">Imp.+</name><name type="nomen">Caesar+</name><name type="cognomen">Augustus+</name></persName></person><person xml:id="HD004132_2"><persName><name type="praenomen">P.+</name><name type="cognomen">Dolabella+</name></persName></person><person xml:id="HD004132_3"><persName><name type="praenomen">C.</name><name type="cognomen">Silanus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-03-06" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar Augustus</supplied> <lb n="2"/><supplied reason="lost">pontifex maximus</supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>tribunic</abbr><ex>ia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> XXXII</supplied> <lb n="4"/><supplied reason="lost">ex</supplied> stipe quam <supplied reason="lost">populus</supplied> <lb n="5"/><supplied reason="lost"><expan><abbr>K</abbr><ex>alendis</ex></expan></supplied> Ianuariis ei <supplied reason="lost">contulit</supplied> <lb n="6"/><supplied reason="lost"><expan><abbr>P</abbr><ex>ublio</ex></expan> D</supplied>olabella <expan><abbr>C</abbr><ex>aio</ex></expan> <supplied reason="lost">Silano <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Die Tafel gehörte zu einer der Statuen, die Augustus aus den Neujahrsgaben des Volkes den einzelnen compita gestiftet hatte (Suet.Aug. 57,1; Dio 54,35,2). Weitere derartige Inschriften: CIL VI 30974 = ILS 92; VI 457 (cf. 30771) = ILS 93; VI 458 (cf. 30772); VI 456 (cf. 30770) = ILS 99.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0056.</bibl><bibl>S. Panciera, QuadStAEtrIt 4, 1980, 205-206, Nr. 10; tav. 47, 2. - AE 1980.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

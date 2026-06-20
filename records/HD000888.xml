@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Savaria &amp;ndash; Szombathely (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000888</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000888</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Szombathely, Savaria Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>78</height><width>51</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-3.1</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197498">Savaria</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1936"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044310">Szombathely</placeName><placeName type="findspot">{Rákóczi Ferenc út 14}</placeName><placeName type="region">Vas megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000888_1" sex="W"><persName ref="http://romans1by1.com/rpeople/17203"><name type="nomen">Iulia*</name><name type="cognomen">Priscilla</name></persName></person><person xml:id="HD000888_2" sex="M"><persName ref="http://romans1by1.com/rpeople/17204"><name type="praenomen">Q.</name><name type="nomen">Claudius*</name><name type="cognomen">Martinianus</name></persName></person><person xml:id="HD000888_3" sex="M"><persName ref="http://romans1by1.com/rpeople/17205"><name type="nomen">Claudius*</name><name type="cognomen">Decrianus</name></persName></person><person xml:id="HD000888_4" sex="M"><persName ref="http://romans1by1.com/rpeople/17206"><name type="nomen">Claudius*</name><name type="cognomen">Martinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-23" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Iul</abbr><ex>ia</ex></expan> Priscilla <expan><abbr>v</abbr><ex>iva</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <expan><abbr>s</abbr><ex>ibi</ex></expan> <lb n="2"/>et <expan><abbr>Q</abbr><ex>uinto</ex></expan> <expan><abbr>Cl</abbr><ex>audio</ex></expan> Martiniano <lb n="3"/><expan><abbr>con</abbr><ex>iugi</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXX et <expan><abbr>Claud</abbr><ex>iis</ex></expan> <lb n="4"/>Decriano <expan><abbr>an</abbr><ex>norum</ex></expan> et Mart<lb break="no" n="5"/>ino <expan><abbr>an</abbr><ex>norum</ex></expan> fili<expan><ex>i</ex><abbr>s</abbr></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes eine Nische mit den Büsten einer Frau, eines Mannes und zweier Kinder; in den Zwickeln darüber Trauergenien. Z. 5: spatium hinter AN. (B): Mander: Z. 3/4: Zeilenfall nicht angegeben; Balla - Buocz - Kádár - Mócsy - Szentléleky; AE 1972: Z. 4/5: et Mart/ino an(norum) doppelt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0802.</bibl><bibl>AE 1972, 0401. (B)</bibl><bibl>RIU 0054; Abb. 54 (Zeichnung).</bibl><bibl>J. Fitz, Das Jahrhundert der Pannonier (Budapest 1982) 82; Taf. 43. - AE 1982.</bibl><bibl>L. Balla - T.P. Buocz - Z. Kádár - A. Mócsy - T. Szentléleky, Die römischen Steindenkmäler von Savaria (Amsterdam 1971) 111, Nr. 136; Bild 119. (B) - AE 1972.</bibl><bibl>E. Tóth, Lapidarium Savariense. Savaria római feliratos kőemlékei (Szombathely 2011) 156-157, Nr. 104; Foto.</bibl><bibl>J. Mander, Portraits of children on Roman funerary monuments (Cambridge 2013) 289, Nr. 616; Fig. 108. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

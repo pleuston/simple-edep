@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Carnuntum, bei &amp;ndash; Parndorf, bei (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001226</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001226</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(4)</height><width>(4)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.4-0.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum, bei</placeName></origPlace><origDate><origDate when-custom="0098" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">98 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1979"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769242">Parndorf, bei</placeName><placeName type="findspot"/><placeName type="region">Burgenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001226_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1425"><name type="cognomen">Nerva+ Traianus+</name></persName></person><person xml:id="HD001226_2" sex="M"><persName><name type="praenomen">Cn.+</name><name type="nomen">Pinarius+ Aemilius+ Pompeius+</name><name type="cognomen">Cicatricula+ Longinus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-05-06" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Nervae <expan><abbr>f</abbr><ex>ilius</ex></expan> N</supplied>erva Traia<lb break="no" n="2"/><supplied reason="lost">nus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Germanicus pontife</supplied>x maximus <lb n="3"/><supplied reason="lost"><expan><abbr>tribunic</abbr><ex>ia</ex></expan> <expan><abbr>potestat</abbr><ex>e</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> c</supplied>o<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> II <lb n="4"/><supplied reason="lost">equitibus et peditibus qui mil</supplied>itant in <lb n="5"/><supplied reason="lost">alis duabus<certainty locus="name" match="preceding-sibling::text()" cert="low"/> et cohortibus qu</supplied>attuor <lb n="6"/><supplied reason="lost">quae appellantur Frontoni</supplied>ana et I <lb n="7"/><supplied reason="lost">civium Romanorum et I M</supplied>ont<supplied reason="lost">a</supplied>no<lb break="no" n="8"/>[rum ------ </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ------ et sunt in] <lb n="2"/>Panno<supplied reason="lost">nia sub <expan><abbr>Cn</abbr><ex>aeo</ex></expan> Pinario Aemilio Cica</supplied><lb break="no" n="3"/>tricula P<supplied reason="lost">ompeio Longino item di</supplied><lb break="no" n="4"/>missis h<supplied reason="lost">onesta missione qui quina</supplied> <lb n="5"/>et vicen[a plurave stipendia meruerunt ------
+            </ab></div></div>
+            <div type="commentary">
+                <p>Fragment der tab. I. (B): Außenseite: AE 1982; Weber: Z. 6/7: [quae appellantur Sili]ana et I / [Augusta Ituraeorum et I M]ont[a]no/[rum ---]; Innenseite: Z. 3/4: AE 1982: P[ompeio Longino item di]missis fehlt; AE 1982; Weber: Z. 5: et vicen[a stipendia]. Datierung: Weber: Militärdiplom CIL 16, 00042 wurde unter demselben Statthalter am 20.2.98 ausgestellt; RMD: Ausstellung auch Anfang 99 möglich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0788. (B)</bibl><bibl>E. Weber, RŒ 9/10, 1981/82, 221-223, Nr. 6; Taf. 18, 6; Zeichnungen. (B) - AE 1982.</bibl><bibl>RMD 081.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

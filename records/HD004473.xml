@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Cosa, bei &amp;ndash; Orbetello, bei (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004473</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004473</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>88</height><width>(61)</width><depth>(17)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246360">Cosa, bei</placeName></origPlace><origDate><origDate notBefore-custom="-0012" notAfter-custom="0014" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">12 BC - 14 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Orbetello, bei</placeName><placeName type="findspot">S. Donato</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004473_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1405"><name type="praenomen">Imp.+</name><name type="nomen">Caesar+*</name><name type="cognomen">Augustus</name></persName></person><person xml:id="HD004473_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Lucretius</name><name type="cognomen">Eros Murdianus</name></persName></person><person xml:id="HD004473_3" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Volumnius</name><name type="cognomen">Eros</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-23" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan></supplied> Divi <expan><abbr>f</abbr><ex>ilio</ex></expan> Augusto <expan><abbr>pont</abbr><ex>ifici</ex></expan> ma<supplied reason="lost"><expan><abbr>x</abbr><ex>imo</ex></expan></supplied> <lb n="2"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Lucretius Eros <lb n="3"/>Murdianus </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>ucius</ex></expan> Volumnius <lb n="2"/>Eros </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>mag</abbr><ex>istri</ex></expan> <expan><abbr>Aug</abbr><ex>ustales</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Die Inschrift verteilt sich auf die corona sowie links und rechts eines im Relief gezeigten clipeus im oberen Bereich des Mittelteils. Darunter Reliefdarstellungen eines Laren. Ob das Stück schon in der Antike separat gearbeitet und dann an einem Altar angebracht worden war oder ob es zu sekundären Verwendung von einem Altar abgehauen wurde, läßt sich anhand des Fotos nicht beurteilen. Datierung: 6.3.12 v. Chr. (Wahl zum pont. max.) bis 17.9.14 n.Chr. (Tod des Augustus).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0232.</bibl><bibl>D. Manacorda, Athenaeum 57, 1979, 95, Nr. 3. - AE 1979.</bibl><bibl>P. Raveggi - C. Pietrangeli, NSA 14, 1938, 5-6; Foto. - AE 1939.1979.</bibl><bibl>AE 1939, 0142.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

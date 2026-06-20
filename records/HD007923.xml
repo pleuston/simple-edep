@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Doclea, bei &amp;ndash; Podgorica (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007923</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007923</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>68</height><width>32</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481808">Doclea, bei</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1930"><placeName type="country" ref="https://www.geonames.org/3194884">Montenegro</placeName><placeName type="modern" ref="http://www.geonames.org/3343075">Podgorica</placeName><placeName type="findspot">{Prenkaj}</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007923_1" sex="W"><persName><name type="cognomen">Crinnetisa</name></persName></person><person xml:id="HD007923_2" sex="W"><persName><name type="cognomen">Harmonia*</name></persName></person><person xml:id="HD007923_3" sex="W"><persName><name type="nomen">Libonia+</name><name type="cognomen">Placida</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-11" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>s</abbr><ex>acrum</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Crinnetisa <lb n="2"/><expan><ex>H</ex><abbr>armoniae</abbr></expan> <lb n="3"/><supplied reason="lost">L</supplied>ibonia Pla<lb break="no" n="4"/>cida <expan><abbr>munus</abbr><ex cert="low"/></expan> c<lb break="no" n="5"/>um natis sui<lb break="no" n="6"/>s <expan><abbr>f</abbr><ex>ecerunt</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): Vulić, AE 1986: abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0553. (B)</bibl><bibl>N. Vulić, Spomenik 71, 1931, 123, Nr. 299; Foto. (B) - AE 1986.</bibl><bibl>ILJug 1849.</bibl><bibl>G. Alföldy, Die Personennamen in der römischen Provinz Dalmatia (Heidelberg 1969) 183.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

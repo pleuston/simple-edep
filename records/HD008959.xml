@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Trebula Suffenas &amp;ndash; Ciciliano (Samnium (Regio IV))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008959</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008959</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Samnium (Regio IV)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423103">Trebula Suffenas</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Ciciliano</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2004-12-09" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr><supplied reason="lost">I</supplied>mp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <lb n="2"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arco</ex></expan></supplied> Aurellio <note>sic</note> Antonino <lb n="3"/><supplied reason="lost">Pi</supplied>o Felici <expan><abbr>Aug</abbr><ex>usto</ex></expan> Parthico <lb n="4"/><supplied reason="lost">ma</supplied>ximo Brittannico <lb n="5"/><supplied reason="lost">maxi</supplied>mo <expan><abbr>pontif</abbr><ex>ici</ex></expan> maximo <lb n="6"/><expan><abbr><supplied reason="lost">tribu</supplied>nic</abbr><ex>ia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> XVI <expan><abbr>imp</abbr><ex>eratori</ex></expan> II <lb n="7"/><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> II</supplied><lb break="no" n="8"/>II <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> magno et <supplied reason="lost">invicto ac</supplied> super omnes principes <lb n="9"/><supplied reason="lost">fortissimo</supplied> et felicissimo <lb n="10"/><supplied reason="lost">ex <expan><abbr>d</abbr><ex>ecurionum</ex></expan></supplied> <expan><abbr>d</abbr><ex>ecreto</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1972, 0156.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

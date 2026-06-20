@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Luna &amp;ndash; Luni (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003917</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003917</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(39)</height><width>(91)</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.4-4.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/403235">Luna</placeName></origPlace><origDate><origDate notBefore-custom="0023" notAfter-custom="0068" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">23 AD - 68 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Luni</placeName><placeName type="findspot">Capitolium, bei</placeName><placeName type="region">Massa Carrara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003917_1"><persName ref="https://www.wikidata.org/wiki/Q48174"><name type="praenomen">M.</name><name type="cognomen">Agrippa</name></persName></person><person xml:id="HD003917_2"><persName><name type="praenomen">Drusus</name><name type="cognomen">Caesar</name></persName></person><person xml:id="HD003917_3"><persName><name type="praenomen">Ti.?</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-04-21" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> Divos <note>sic</note> Nerva </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>M</abbr><ex>arcus</ex></expan> Agrippa <lb n="2"/><supplied reason="lost"><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> V&amp;lt;I<certainty match="preceding-sibling::node()" locus="value"/>&amp;gt; </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Drusus Caesar <lb n="2"/><expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> &amp;lt;divi&amp;gt; <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>n</abbr><ex>epos</ex></expan> <lb n="3"/>Divi Iuli pro<supplied reason="lost"><expan><abbr>n</abbr><ex>epos</ex></expan></supplied> <lb n="4"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> II </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>T</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Fasti. Ursprünglich mehrere nebeneinander angebrachte Tafeln. Mehrere aneinanderpassende Fragmente sowie weitere, nicht anpaßbare Fragmente erhalten. Zeilenlinien für die Beschriftung. Z. 1 durchlaufend; darunter in 2 Kolumnen die Namen des Agrippa und des jüngeren Drusus; von einer dritten Kolumne ist nur noch ein kleiner Buchstabenrest erhalten. Datierung: Kolumne 1 und 2 (wegen Anordnung und Buchstabenduktus sicher gleichzeitig): wohl iulisch-claudisch, jedenfalls nicht vor 23 n. Chr. (trib. pot. II des Drusus); Z. 1 dagegen nicht vor Januar 98 n. Chr. (Tod Nervas). (B): AE 1988: Z. 2: [---] Agrippa; Z. 6: Iulii Z. 8: nicht gelesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0564. (B)</bibl><bibl>M.G. Angeli Bertinelli, MEFR 100, 1988, 103-116; fig. 1 u. 2. - AE 1988.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

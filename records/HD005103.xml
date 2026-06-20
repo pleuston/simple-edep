@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Benacum &amp;ndash; Toscolano (Venetia et Histria (Regio X))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005103</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005103</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Verona, Mus. Lap. Maff.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>93</height><width>65</width><depth>57</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Venetia et Histria (Regio X)</placeName><placeName type="ancient" ref="#">Benacum</placeName></origPlace><origDate><origDate notBefore-custom="0188" notAfter-custom="0189" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">188 AD - 189 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Toscolano</placeName><placeName type="findspot">S. Dominico, Abtei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005103_1"><persName ref="https://www.wikidata.org/wiki/Q1434"><name type="praenomen">M.</name><name type="nomen">Aurelius</name><name type="cognomen">Antoninus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-12-03" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F001619" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c7f9eb21-6653-41b5-b88b-99c7124b70d4/file/id/762696/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> An<lb break="no" n="2"/>tonini Pii <expan><abbr>Germ</abbr><ex>anici</ex></expan> <expan><abbr>Sar</abbr><ex>matici</ex></expan> <lb n="3"/><expan><abbr>fil</abbr><ex>io</ex></expan> divi Pii <expan><abbr>nep</abbr><ex>oti</ex></expan> divi Ha<lb break="no" n="4"/>driani <expan><abbr>pronep</abbr><ex>oti</ex></expan> divi Tra<lb break="no" n="5"/>iani <expan><abbr>Parth</abbr><ex>ici</ex></expan> <expan><abbr>abnep</abbr><ex>oti</ex></expan> divi <lb n="6"/><expan><abbr>Nerv</abbr><ex>ae</ex></expan> <expan><abbr>abnep</abbr><ex>oti</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aurel</abbr><ex>io</ex></expan> Com<lb break="no" n="7"/>modo Antonino Pio <expan><abbr>Fel</abbr><ex>ici</ex></expan> <lb n="8"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>Sarm</abbr><ex>atico</ex></expan> <expan><abbr>Germ</abbr><ex>anico</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>Brit</abbr><ex>tanico</ex></expan> <lb n="9"/><expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XIIII <expan><abbr>imp</abbr><ex>eratori</ex></expan> <lb n="10"/>VIII co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> V <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> nobi<lb break="no" n="11"/>lissimo principi <lb n="12"/>Benacenses
+            </ab></div>
+            <div type="commentary">
+                <p>Erhalten ist der Mittelteil einer Basis. Datierung: 10.12.188 - 9.12.189 n. Chr. (trib. pot. XIIII des Commodus).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>G. Alföldy, Römische Statuen in Venetia et Histria. Epigraphische Quellen (Heidelberg 1984) 145, Nr. 272.</bibl><bibl>CIL 05, 04867.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

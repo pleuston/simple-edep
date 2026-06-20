@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Cemenelum, bei &amp;ndash; Tourrette-Levens (Alpes Maritimae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003406</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003406</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Nice, Mus. Arch. Nice</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>44</height><width>59</width><depth>19</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Maritimae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/157834">Cemenelum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1905"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2972195">Tourrette-Levens</placeName><placeName type="findspot">Weinberg</placeName><placeName type="region">Provence-Alpes-Côte d’Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003406_1" sex="M"><persName><name type="cognomen">Gaius</name></persName></person><person xml:id="HD003406_2" sex="M"><persName><name type="cognomen">Clemens</name></persName></person><person xml:id="HD003406_3" sex="M"><persName><name type="cognomen">Eraco</name></persName></person><person xml:id="HD003406_4" sex="M"><persName><name type="cognomen">Publius</name></persName></person><person xml:id="HD003406_5" sex="W"><persName><name type="cognomen">Vectinia</name></persName></person><person xml:id="HD003406_6" sex="M"><persName><name type="cognomen">Enimanuus</name></persName></person><person xml:id="HD003406_7" sex="W"><persName><name type="cognomen">Posila</name></persName></person><person xml:id="HD003406_8" sex="W"><persName><name type="cognomen">Quarta</name></persName></person><person xml:id="HD003406_9" sex="W"><persName><name type="cognomen">Quinta</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-19" who="Cimarosti">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Gaio Clementis <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/>Clementi Eraconis <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="3"/>Publio Clementis <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="4"/>Vectinia Enimanui <expan><abbr>f</abbr><ex>ilia</ex></expan> <lb n="5"/>co<expan><ex>n</ex><abbr>iugi</abbr></expan> et fileis <note>sic</note> et <lb n="6"/>Posila Quarta Quinta <lb n="7"/>patri et fratribus <lb n="8"/><expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>eritis</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Fundstelle strittig. Weitere Angaben: sur la Colline de Revel ou de l&amp;apos;Abadie.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>G. Laguerre, Inscriptions antiques de Nice-Cimiez (Cemenelum, ager Cemenelensis) (Paris 1975) 150-152, 97; pl. 26, 117.</bibl><bibl>S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 424, Nr. 351; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

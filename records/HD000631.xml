@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Arretium &amp;ndash; Arezzo (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000631</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000631</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Arezzo, Museo</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/71">Travertin</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413032">Arretium</placeName></origPlace><origDate><origDate notBefore-custom="0070" notAfter-custom="0079" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 AD - 79 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Arezzo</placeName><placeName type="findspot"/><placeName type="region">Arezzo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000631_1" sex="M"><persName><name type="praenomen">C.+</name><name type="nomen">Petillius+</name><name type="cognomen">Firmus</name></persName></person><person xml:id="HD000631_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1419"><name type="cognomen">Vespasianus*</name></persName></person><person xml:id="HD000631_3" sex="M"><persName><name type="cognomen">Titus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-02-27" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>C</abbr><ex>aio</ex></expan> Petillio <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> P</supplied><expan><abbr>om</abbr><ex>ptina</ex></expan> Firmo <lb n="2"/><supplied reason="lost"><expan><abbr>Xvir</abbr><ex>o</ex></expan> <expan><abbr>stlit</abbr><ex>ibus</ex></expan> iudi</supplied><expan><abbr>c</abbr><ex>andis</ex></expan> <expan><abbr>tr</abbr><ex>ibuno</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> IIII <lb n="3"/><supplied reason="lost"><expan><abbr>Flav</abbr><ex>iae</ex></expan> fel</supplied><expan><abbr>ic</abbr><ex>is</ex></expan> <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>Vesp</abbr><ex>asiani</ex></expan> <expan><abbr>q</abbr><ex>uaestori</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> orn<lb break="no" n="4"/><supplied reason="lost"><expan><abbr>ament</abbr><ex>is</ex></expan> p</supplied>raetoricis a senatu <expan><abbr>auctorib</abbr><ex>us</ex></expan> <lb n="5"/><supplied reason="lost"><expan><abbr>duob</abbr><ex>us</ex></expan> I</supplied><expan><abbr>mperatorib</abbr><ex>us</ex></expan> <expan><abbr>Vesp</abbr><ex>asiano</ex></expan> et Tito <expan><abbr>adlect</abbr><ex>o</ex></expan> <lb n="6"/><supplied reason="lost">ab eisdem I</supplied><expan><abbr>mperator</abbr><ex>ibus</ex></expan> <expan><abbr>d</abbr><ex>onis</ex></expan> <expan><abbr>d</abbr><ex>onato</ex></expan> <expan><abbr>coron</abbr><ex>is</ex></expan> III <expan><abbr>aur</abbr><ex>ea</ex></expan> <lb n="7"/><supplied reason="lost"><expan><abbr>mur</abbr><ex>ali</ex></expan> <expan><abbr>vall</abbr><ex>ari</ex></expan> <expan><abbr>vexill</abbr><ex>is</ex></expan> III</supplied> <expan><abbr>hast</abbr><ex>is</ex></expan> <expan><abbr>pur</abbr><ex>is</ex></expan> III <expan><abbr>praetor</abbr><ex>i</ex></expan> <lb n="8"/><supplied reason="lost"><expan><abbr>d</abbr><ex>ecreto</ex></expan></supplied> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL XI, ILS: Z. 1: [---]I(?) f. Pom.; Bosworth, AE 1980, Dondin-Payre: Z. 5: adiect.; CIL XI, ILS: Z. 7: [---]A(?) hast.; Bosworth, AE 1980, Dondin-Payre: Z. 8: d. d.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0392.</bibl><bibl>M. Dondin-Payre, ZPE 52, 1983, 236-240. (B) - AE 1983.</bibl><bibl>A.B. Bosworth, ZPE 39, 1980, 267-277; Taf. 14. (B) - AE 1980.</bibl><bibl>CIL 11, 01834. (B)</bibl><bibl>ILS 1000. (B)</bibl><bibl>AE 1980, 0468. (B)</bibl><bibl>PIR (2. Aufl.) P 261.</bibl><bibl>AE 2001, 1723.</bibl><bibl>L. Mrozewicz, Eos 88, 2001, 75-79. - AE 2001.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

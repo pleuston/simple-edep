@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from El-Amrouni (Africa Proconsularis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002766</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002766</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/230">grave monument</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Africa Proconsularis</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1894"><placeName type="country" ref="https://www.geonames.org/2464461">Tunisia</placeName><placeName type="modern">El-Amrouni</placeName><placeName type="findspot">Mausoleum</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002766_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Apuleus</name><name type="cognomen">Maxssimus (= Maximus)</name><name type="supernomen">qui et Rideus</name></persName></person><person xml:id="HD002766_2" sex="M"><persName><name type="cognomen">Iuzale</name></persName></person><person xml:id="HD002766_3" sex="M"><persName><name type="cognomen">Iurathe</name></persName></person><person xml:id="HD002766_4" sex="W"><persName><name type="cognomen">Thanubra</name></persName></person><person xml:id="HD002766_5" sex="M"><persName><name type="cognomen">Pudens</name></persName></person><person xml:id="HD002766_6" sex="M"><persName><name type="cognomen">Severus</name></persName></person><person xml:id="HD002766_7" sex="M"><persName><name type="cognomen">Maxsimus (= Maximus)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-12-09" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Dis Manibus <expan><abbr>sac</abbr><ex>rum</ex></expan> <lb n="2"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Apuleus Maxssimus <note>sic</note> <lb n="3"/>qui et Rideus vocaba<lb break="no" n="4"/>tur Iuzale <expan><abbr>f</abbr><ex>ilius</ex></expan> Iurathe <expan><abbr>n</abbr><ex>epos</ex></expan> <lb n="5"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> LXXXX Thanubra <lb n="6"/>coniunx et Pudens et Se<lb break="no" n="7"/>verus et Maxsimus <note>sic</note> <expan><abbr>f</abbr><ex>ilii</ex></expan> <lb n="8"/>piissimi <expan><abbr>p</abbr><ex>atri</ex></expan> amantissimo <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>f</abbr><ex>ecerunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Bilingue Inschrift: Lateinische Inschrift mit neupunischer fast identisch. Der lateinische und neupunische Text war an der Ostseite des Mausoleums angebracht.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0924.</bibl><bibl>F. Vattioni, Helikon 20/21, 1980/81, 293-299. - AE 1982.</bibl><bibl>CIL 08, 22758.</bibl><bibl>P. Berger, RA 26, 1895, 71-83; pl. 3.</bibl><bibl>AE 1895, 0019.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

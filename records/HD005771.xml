@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Sacidava, bei &amp;ndash; Rasova, bei (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005771</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005771</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Constanţa, Muz. Ist. Naţ. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>69</height><width>209</width><depth>29</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.2-4.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216965">Sacidava, bei</placeName></origPlace><origDate><origDate when-custom="0106" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">106 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/669148">Rasova, bei</placeName><placeName type="findspot">"La Pescărie", römische Ruinen</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005771_1"><persName ref="https://www.wikidata.org/wiki/Q1425"><name type="cognomen">Nerva Traianus</name></persName></person><person xml:id="HD005771_2"><persName ref="http://romans1by1.com/rpeople/9358"><name type="praenomen">L.</name><name type="nomen">Fabius</name><name type="cognomen">Iustus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-06-11" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Nervae <expan><abbr>fil</abbr><ex>ius</ex></expan> <lb n="2"/>Nerva Traianus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>Ger</abbr><ex>manicus</ex></expan> <expan><abbr>Dac</abbr><ex>icus</ex></expan> <lb n="3"/>pontifex maximus <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> <lb n="4"/>X <expan><abbr>imp</abbr><ex>erator</ex></expan> VI <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> V fecit <lb n="5"/><del rend="erasure">[sub</del>]<certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>L</abbr><ex>ucio</ex></expan> Fabio Iusto <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>In 2 Teile gebrochen. Inschriftfeld in Form einer tabula ansata. Hederae als Worttrenner.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0746.</bibl><bibl>A. Rădulescu - M. Bărbulescu, Dacia 25, 1981, 356-358; fig. 2 (Foto u. Zeichnung). - AE 1981.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Cecina (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002002</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002002</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mus. Civico Cecina</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>111</height><width>44</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.2-3.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1963"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Cecina</placeName><placeName type="findspot">Flur S. Vincenzino, röm. Vil. an Str. nach Marina di Cecina</placeName><placeName type="region">Livorno</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002002_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Anaenius</name><name type="cognomen">Pharianus</name></persName></person><person xml:id="HD002002_2" sex="M"><persName><name type="cognomen">Autumnalis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-23" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>M</abbr><ex>arci</ex></expan> Anaeni <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ili</ex></expan> <lb n="3"/><expan><abbr>Sab</abbr><ex>atina</ex></expan> Phariani <lb n="4"/><expan><abbr>eq</abbr><ex>uo</ex></expan> <expan><abbr>publ</abbr><ex>ico</ex></expan> ex V <expan><abbr>d</abbr><ex>ecuriis</ex></expan> <lb n="5"/><expan><abbr>pont</abbr><ex>ificis</ex></expan> <expan><abbr>quaesto</abbr><ex>ris</ex></expan> <lb n="6"/><expan><abbr>aed</abbr><ex>ilis</ex></expan> <expan><abbr>IIIIvir</abbr><ex>i</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> <lb n="7"/>q<expan><ex>uin</ex><abbr>q</abbr><ex>uennalis</ex></expan> ex testamen<lb break="no" n="8"/>to ipsius <expan><abbr>cura</abbr><ex>m</ex></expan> <lb n="9"/>agente Autum<lb break="no" n="10"/>nale liberto <lb n="11"/>quisque viat<lb break="no" n="12"/>or transis et <lb n="13"/>hunc titulum <lb n="14"/>leges dices A<lb break="no" n="15"/>n<expan><ex>a</ex><abbr>eni</abbr></expan> Phariane <lb n="16"/>sit tibi terra <lb n="17"/>levis
+            </ab></div>
+            <div type="commentary">
+                <p>(C): 2. Jh. oder 1. Hälfte 3. Jh. 1. Zeugnis für den Ritter M. Anaenius M.f. Pharianus. Vielleicht gehörte die Stele ursprünglich zur römischen Villa an der Straße Cecina - Marina di Cecina. Divergierende Nachrichten über Fundort und Fundzusammenhang. An der rechten Seite der Stele verläuft eine Profilleiste, die schon bei Einmeißelung des Textes vorhanden war. Unklar, ob die Abarbeitung auf eine Zweitverwendung zurückgeht oder ob die Inschrift selbst die Zweitverwendung darstellt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0356. (C)</bibl><bibl>E. Pack, ZPE 43, 1981, 249-270; Taf. 8a. (C) - AE 1982.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

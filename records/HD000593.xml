@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Morro (Umbria (Regio VI))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000593</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000593</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>S. Gregorio Maggiore, Kirche</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">cippus?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>118</height><width>54</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Umbria (Regio VI)</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1955"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Morro</placeName><placeName type="findspot">Kirche von Morro, sekundär verwendet</placeName><placeName type="region">Marche</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000593_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Arrius+?</name><name type="cognomen">[---]ius</name></persName></person><person xml:id="HD000593_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Arrius</name><name type="cognomen">P[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-18" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aio</ex></expan> Ar<supplied reason="lost">rio</supplied><gap reason="lost" extent="unknown" unit="character"/>io <lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> Arrius <lb n="4"/>P<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>p<supplied reason="lost">atri bene m</supplied><expan><abbr>er</abbr><ex>enti</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): A. Rambaldi Z. 2: C. Ap[---] statt C. Ar[---]; G. Alföldy (mündlich), A. Scheithauer: Z. 5: p[atri bene m]er(enti); AE 1983: Z. 5: [fec]er(unt) oder [posu]er(unt) statt [m]er(enti). (C): Grabinschrift des Sohnes für seinen Vater statt der Eltern für ihren Sohn.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0351. (BC)</bibl><bibl>A. Rambaldi, Spoletium 11, 1962, 4, Nr. 6. (BC) - AE 1983.</bibl><bibl>A. Scheithauer, ZPE 76, 1989, 150-151, Nr. 3.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

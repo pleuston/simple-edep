@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Herculaneum &amp;ndash; Ercolano (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003713</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003713</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/432873">Herculaneum</placeName></origPlace><origDate><origDate notBefore-custom="0044" notAfter-custom="0045" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">44 AD - 45 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Ercolano</placeName><placeName type="findspot"/><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003713_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Calpetanius</name><name type="cognomen">Sedatus</name></persName></person><person xml:id="HD003713_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Hordeonius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-06-19" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                III <expan><abbr>K</abbr><ex>alendas</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> Apriles <lb n="2"/><expan><abbr>C</abbr><ex>aio</ex></expan> Calpetanio Sedato <expan><abbr>M</abbr><ex>arco</ex></expan> Hordeonio co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Rekonstruktion des Wortlauts auf Grundlage von THerc 85 p. 3 u. 5. Datierung des Konsulats des C. Calpetanius Rantius Sedatus nach A. Degrassi, I fasti consolari dell&amp;apos;Impero Romana (Roma 1952) 13: &amp;quot;&amp;quot;prima del 45?&amp;quot;&amp;quot;.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0325.</bibl><bibl>G. Camodeca, Puteoli 11, 1987, 18-27. - AE 1988.</bibl><bibl>AE 1991, 0474.</bibl><bibl>G. Camodeca, in: Epigrafia. Actes du Colloque en mémoire de Attilio Degrassi, Rome 1988 (Rome 1991) 49-52. - AE 1991.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

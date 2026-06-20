@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Capreae &amp;ndash; Capri (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003184</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003184</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/432752">Capreae</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Capri</placeName><placeName type="findspot">Villa Narcissus, sekundär verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003184_1"><persName><name type="praenomen">L.</name><name type="nomen">Antonius</name><name type="cognomen">Fortunatus</name></persName></person><person xml:id="HD003184_10"><persName><name type="praenomen">A.</name><name type="nomen">Cossinius</name><name type="cognomen">Eutychus</name></persName></person><person xml:id="HD003184_2"><persName><name type="praenomen">L.</name><name type="nomen">Antonius</name><name type="cognomen">Cerdo</name></persName></person><person xml:id="HD003184_3"><persName><name type="nomen">Nonia</name><name type="cognomen">Crhesime (= Chresime)</name></persName></person><person xml:id="HD003184_4"><persName><name type="cognomen">Euhodus</name></persName></person><person xml:id="HD003184_5"><persName><name type="cognomen">Adiectus</name></persName></person><person xml:id="HD003184_6"><persName><name type="cognomen">Heracla</name></persName></person><person xml:id="HD003184_7"><persName><name type="cognomen">Prima</name></persName></person><person xml:id="HD003184_8"><persName><name type="nomen">Nonia</name><name type="cognomen">Chresime</name></persName></person><person xml:id="HD003184_9"><persName><name type="cognomen">Fortunata</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-21" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Antonius Cerdonis <expan><abbr>lib</abbr><ex>ertus</ex></expan> <lb n="2"/>Fortunatus sibi et Noniae </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Crhesime <note>sic</note> coniugi optumae <lb n="2"/>bene merenti feminae et <lb n="3"/><expan><abbr>L</abbr><ex>ucio</ex></expan> Antonio Cerdoni patrono suo et <lb n="4"/>Euhodo <expan><abbr>lib</abbr><ex>erto</ex></expan> et Adiecto <expan><abbr>lib</abbr><ex>erto</ex></expan> et <lb n="5"/>Heraclae <expan><abbr>lib</abbr><ex>ertae</ex></expan> et Primae <expan><abbr>lib</abbr><ex>ertae</ex></expan> et <lb n="6"/>Noniae Chresimes <expan><abbr>l</abbr><ex>ibertae</ex></expan> Fortunatae <expan><abbr>l</abbr><ex>ibertae</ex></expan> <lb n="7"/>et <expan><abbr>A</abbr><ex>ulo</ex></expan> Cossinio Eutycho amico <lb n="8"/>libertis <expan><abbr>libertabusq</abbr><ex>ue</ex></expan> suis
+            </ab></div></div>
+            <div type="commentary">
+                <p>(C): Sieht in Nonia Fortunata eine Person, die von Nonia Chresime freigelassen wurde.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0343.</bibl><bibl>H. Kesel, ZPE 71, 1988, 197, Nr. 8; Foto. (C) - AE 1988.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

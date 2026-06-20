@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bononia &amp;ndash; Bologna (Aemilia (Regio VIII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007166</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007166</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>166</height><width>56</width><depth>29</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Aemilia (Regio VIII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109008">Bononia</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Bologna</placeName><placeName type="findspot">S. Viola</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007166_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]asius</name><name type="cognomen">Hilarus+?</name></persName></person><person xml:id="HD007166_2" sex="W"><persName><name type="nomen">Cuspia+?</name><name type="cognomen">Secunda+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-07-07" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>asius <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/><supplied reason="lost" cert="low">Hil</supplied>arus Galle<supplied reason="lost" cert="low">c(us)</supplied> <lb n="3"/>sibi et <lb n="4"/><supplied reason="lost" cert="low">Cu</supplied>spiae <expan><abbr>Sp</abbr><ex>uri</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> Secu<supplied reason="lost"><expan><abbr>n</abbr><ex>dae</ex></expan></supplied> <lb n="5"/><expan><abbr>concub</abbr><ex>inae</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Mansuelli: Z. 1-5: $]LVS[---]IV[---]/rus Gal(eria) Le[---] / sibi et [---]/spiae spes ecu/[---] concub(inae).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1976, 0213.</bibl><bibl>G. Susini - R. Pincelli, il lapidario (Bologna 1960) 165, Nr. 190. - AE 1976.</bibl><bibl>G. Mansuelli, Epigraphica 3, 1941, 92, Nr. 3. (B) - AE 1976.</bibl><bibl>G. Susini, ASPR 7, 1955/56, 331-333, Nr. 1. - AE 1976.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

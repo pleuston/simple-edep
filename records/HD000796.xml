@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sala &amp;ndash; Chellah (Mauretania Tingitana)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000796</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000796</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(67)</height><width>55</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Mauretania Tingitana</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/866051">Sala</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1966"><placeName type="country" ref="https://www.geonames.org/2542007">Morocco</placeName><placeName type="modern" ref="http://www.geonames.org/2545977">Chellah</placeName><placeName type="findspot">Nekropole Bab Zaer</placeName><placeName type="region">Rabat</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000796_1" sex="M"><persName><name type="nomen">Valerius</name><name type="cognomen">Veto (= Vetto)</name></persName></person><person xml:id="HD000796_2" sex="M"><persName><name type="cognomen">Lucanus</name></persName></person><person xml:id="HD000796_3" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Flavius*</name><name type="cognomen">Pudens*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-27" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Valeri V<lb break="no" n="2"/>et<expan><ex>t</ex><abbr>onis</abbr></expan> <expan><abbr>m</abbr><ex>ilitis</ex></expan> <lb n="3"/><expan><abbr>c</abbr><ex>ohortis</ex></expan> I <expan><abbr>Lam</abbr><ex>avorum</ex></expan> <note>sic</note> <lb n="4"/><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Lucani <lb n="5"/>hic <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="6"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>cu</abbr><ex>ravit</ex></expan> <expan><abbr>C</abbr><ex>aius</ex></expan> Fl<lb break="no" n="7"/><expan><abbr>avi</abbr><ex>us</ex></expan> <expan><abbr>Pud</abbr><ex>ens</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Y: Datierung aufgrund von Grabbeigaben und des Fehlens von c(ivium) R(omanorum) im Namen der coh. I Lemavorum, cf. Militärdiplom von 109 n.Chr. (CIL 16, 161 = IAM 2, 235), wo dieser Zusatz erstmals belegt ist.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0996.</bibl><bibl>J. Boube, BAM 12, 1979/80, 111-118, Nr. 1; pl. 1. - AE 1983.</bibl><bibl>AE 1980, 0995.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Sabetum? &amp;ndash; La Rambla (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004001</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004001</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>58</height><width>113</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="#">Sabetum?</placeName></origPlace><origDate><origDate when-custom="-049" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">49 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">La Rambla</placeName><placeName type="findspot">Kaserne der Guardia Civil</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004001_1"><persName><name type="praenomen">L.</name><name type="cognomen">Lentulus</name></persName></person><person xml:id="HD004001_2"><persName><name type="praenomen">C.</name><name type="cognomen">Marcellus</name></persName></person><person xml:id="HD004001_3"><persName><name type="praenomen">Q.</name><name type="nomen">Cassius</name><name type="cognomen">Longinus*</name></persName></person><person xml:id="HD004001_4" sex="M"><persName><name type="cognomen">Binsnes</name></persName></person><person xml:id="HD004001_5"><persName><name type="cognomen">Vercello</name></persName></person><person xml:id="HD004001_6" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Coranus</name><name type="cognomen">Alpis</name></persName></person><person xml:id="HD004001_7"><persName><name type="cognomen">Acrinus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2004-07-12" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Lentulo <expan><abbr>C</abbr><ex>aio</ex></expan> Marcello co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="2"/><expan><abbr>Q</abbr><ex>uinto</ex></expan> Cassio <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Long</abbr><ex>ino</ex></expan> <expan><abbr>tr</abbr><ex>ibuno</ex></expan> <expan><abbr>pl</abbr><ex>ebis</ex></expan> pro <expan><abbr>pr</abbr><ex>aetore</ex></expan> <lb n="3"/>Binsnes Vercellonis <expan><abbr>f</abbr><ex>ilius</ex></expan> Xvir <expan><abbr>maxs</abbr><ex>umus</ex></expan> <note>sic</note> <lb n="4"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Coranus <expan><abbr>Acrin</abbr><ex>i</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Alpis <lb n="5"/>aedilis portam <expan><abbr>faciund</abbr><ex>am</ex></expan> <lb n="6"/><expan><abbr>coer</abbr><ex>averunt</ex></expan> <supplied reason="lost">d</supplied>e sua <expan><abbr>pecun</abbr><ex>ia</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Der Block ist in 2 Teile gebrochen. (B): Castillo, AE 1987: Z. 3: max(imus); Lacort Navarro - Portillo - Stylow, AE 1986: Z. 4: Acrini.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1987, 0504. (B)</bibl><bibl>C. Castillo, SDHI 52, 1986, 376-381, Nr. 5. (B) - AE 1987.</bibl><bibl>AE 1986, 0369. (B)</bibl><bibl>P.J. Lacort Navarro - R. Portillo - A.U. Stylow, Faventia 8, 1, 1986 69-78, Nr. 1; fig. 1. (B) - AE 1986.</bibl><bibl>CIL 02 (2. Aufl.) 05, 00521; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

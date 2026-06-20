@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Ephesus (Asia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000876</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000876</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material>Marmor, geädert / farbig</material><dimensions unit="cm"><height>82</height><width>48</width><depth>49</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Asia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/599612">Ephesus</placeName></origPlace><origDate><origDate notBefore-custom="0069" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">69 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1908"><placeName type="country" ref="https://www.geonames.org/298795">Turkey</placeName><placeName type="modern"/><placeName type="findspot">Odeion, bei</placeName><placeName type="region">Izmir</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000876_1" sex="M"><persName><name type="praenomen">T.+</name><name type="nomen">Flavius*</name><name type="cognomen">Pergamus+</name></persName></person><person xml:id="HD000876_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]lius</name><name type="cognomen">Firmus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-30" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>T</abbr><ex>ito</ex></expan></supplied> <expan><abbr>Fl</abbr><ex>avio</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>lib</abbr><ex>erto</ex></expan> <lb n="2"/><supplied reason="lost">P</supplied>ergamo <lb n="3"/><expan><abbr>proc</abbr><ex>uratori</ex></expan> <lb n="4"/><supplied reason="lost">pr</supplied>ovinciae Asiae <lb n="5"/><expan><abbr><supplied reason="lost">pr</supplied>oc</abbr><ex>uratori</ex></expan> <expan><abbr>reg</abbr><ex>ionis</ex></expan> Syriaticae <lb n="6"/><expan><abbr><supplied reason="lost">pr</supplied>oc</abbr><ex>uratori</ex></expan> <expan><abbr>provinc</abbr><ex>iae</ex></expan> Narbo<lb break="no" n="7"/><supplied reason="lost">ne</supplied>nsis item insulae <lb n="8"/><supplied reason="lost">Cyr</supplied>ni acceptorem <note>sic</note> ve<lb break="no" n="9"/><supplied reason="lost">hic</supplied>ulorum <expan><abbr>adiut</abbr><ex>ori</ex></expan> <expan><abbr>proc</abbr><ex>uratoris</ex></expan> <lb n="10"/><supplied reason="lost">a</supplied>b ornamentis <lb n="11"/><supplied reason="lost"><expan><abbr>adi</abbr><ex>utores</ex></expan></supplied> et <expan><abbr>tabel</abbr><ex>larii</ex></expan> <expan><abbr>q</abbr><ex>ui</ex></expan> <expan><abbr>s</abbr><ex>unt</ex></expan> sub cura <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/>li Firmi <expan><abbr>proc</abbr><ex>uratoris</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Stein sekundär als Pilaster der Basiseinfassung verwendet. Y: Der Geehrte ist der Freigelassene eines flavischen Kaisers, er hat seine Laufbahn in flavischer Zeit begonnen, vielleicht auch bereits abgeschlossen, doch ist dies nicht zwingend. [Cyr]ni (griech.) synonym Corsica. Material: blauer Marmor.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0877.</bibl><bibl>H. Engelmann - D. Knibbe, JŒAI 52, 1978/80, 30-31, Nr. 27. - AE 1982.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

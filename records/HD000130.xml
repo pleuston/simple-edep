@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Minhotães (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000130</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000130</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Braga, Mus. Pio XII</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/11">Granit</material><dimensions unit="cm"><height>92</height><width>(30)</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2264397">Portugal</placeName><placeName type="modern" ref="http://www.geonames.org/2737654">Minhotães</placeName><placeName type="findspot">Kirche</placeName><placeName type="region">Braga</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000130_1" sex="M"><persName><name type="cognomen">Arcuius</name></persName></person><person xml:id="HD000130_2" sex="M"><persName><name type="cognomen">Aecorougus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-05" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Arcuius <lb n="2"/>aram pos<supplied reason="lost">u</supplied><lb break="no" n="3"/>it pro vo<supplied reason="lost">t</supplied><lb break="no" n="4"/>o <expan><abbr>dom</abbr><ex>ini</ex></expan> A<supplied reason="lost">e</supplied><lb break="no" n="5"/>corougi a <lb n="6"/>vesu <note>sic</note> con<lb break="no" n="7"/>servis d<lb break="no" n="8"/><supplied reason="lost">e</supplied>o ubicu<supplied reason="lost">e</supplied> <note>sic</note> <lb n="9"/>terraru<supplied reason="lost">m</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Arcuius / aram pos[u]/it pro vo[t]/o dom(ino) A[e]/co Rougia/vesucon/servis d/[e]i ubicu[e] / terraru[m]. (C): kein christlich beeinflußter Nachtrag. Wiedergabe des Textes nach Lesung G. Alföldy.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0558. (BC)</bibl><bibl>L. Dos Santos - P. Le Roux - A. Tranoy, Inscrições romanas do Museu Pio XII em Braga (Braga 1983) 11-12, Nr. 10; lám. 3, 8. (BC)</bibl><bibl>L. Dos Santos - P. Le Roux - A. Tranoy, Bracara Augusta 37, 1983, 190, Nr. 12; lám. 3, 9. (BC) - AE 1983.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

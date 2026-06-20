@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Novi Pazar (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009099</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009099</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>22</height><width>50</width><depth>33</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0401" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD - 500 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/6460771">Novi Pazar</placeName><placeName type="findspot">{Stan}, bei, antike Siedlungsreste</placeName><placeName type="region">Šumen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009099_1" sex="M"><persName><name type="cognomen">Danielus</name></persName></person><person xml:id="HD009099_2" sex="M"><persName><name type="cognomen">Probinus Maiur (= Maior)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-05-29" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>ense</ex></expan> Iunio <expan><abbr>K</abbr><ex cert="low">alen</ex>d</expan>(is<certainty match="preceding-sibling::node()" locus="value"/> zie <note>sic</note> Lun<expan><ex>a</ex><abbr>e</abbr></expan> facta e<supplied reason="lost">st</supplied> <lb n="2"/>eista <note>sic</note> porta en <note>sic</note> zies <note>sic</note> Dani<lb break="no" n="3"/>elo <note>sic</note> bicario <note>sic</note> et Probinu <note>sic</note> <lb n="4"/>Maiure <note>sic</note> <expan><abbr>ind</abbr><ex>ictione</ex></expan> XIIII SERSONSEBD
+            </ab></div>
+            <div type="commentary">
+                <p>Am Anfang der Inschrift ein Kreuz. Trennlinien zwischen den Zeilen. Buchstabe D als Δ geschrieben. Z. 1: statt K(alen)d(is) möglicherweise auch KD als Zahl 24. Z. 4: ind. XIIII ist wahrscheinlich 430/431 n. Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>V. Beševliev, Spätgriechische und spätlateinische Inschriften aus Bulgarien (Berlin 1964) 49-50, Nr. 75; Taf. 27, 75.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

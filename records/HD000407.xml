@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Emerita Augusta &amp;ndash; Mérida (Lusitania)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000407</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000407</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Collección Ezquer Mérida</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lusitania</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/256155">Emerita Augusta</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1975"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2513917">Mérida</placeName><placeName type="findspot">Plaza Luis Chamizo</placeName><placeName type="region">Badajoz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000407_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Caelius</name><name type="cognomen">Philinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1990-11-16" who="Schulzeoben">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F034077" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7ca5d363-cc42-48ce-b9c4-6d45f70330ff/file/id/794906/file_version/name/small"/><graphic xml:id="F034078" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6ee9d0bf-ffcf-458c-b932-90bccf7c8d8b/file/id/794907/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Deae sanctae <lb n="2"/><expan><abbr>sac</abbr><ex>rum</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> Caelius <lb n="3"/>Philinus <expan><abbr>a</abbr><ex>nimo</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Almagro Basch, HAEp: Z.2: I(ulius); AE, Almagro Basch: Z.3: a(ram).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0486. (B)</bibl><bibl>M. Almagro Basch, Guía de Mérida (Valencia 1977) 40-41; lám. 17. (B) - AE 1983.</bibl><bibl>M. Almagro Basch, in: 150 Jahre Deutsches Archäologisches Institut (Mainz 1981) 160; Taf. 72,5. (B) - AE 1983.</bibl><bibl>HAE 2681. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

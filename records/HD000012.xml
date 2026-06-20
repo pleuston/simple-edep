@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio from Aquae Sulis &amp;ndash; Bath (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000012</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000012</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bath, Roman Baths Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material><dimensions unit="cm"><height>4</height><width>12</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79299">Aquae Sulis</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1979"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2656173">Bath</placeName><placeName type="findspot">{Römisches Bad, Sacred Spring}</placeName><placeName type="region">Somerset</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/76">defixio</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000012_1" sex="W"><persName><name type="cognomen">Basilia</name></persName></person><person xml:id="HD000012_2" sex="M"><persName><name type="cognomen">Primurudes</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-03-29" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Primurudem </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Basilia donat in templum Martis ani<lb break="no" n="2"/>lum <note>sic</note> argenteum si servus si liber <lb n="3"/>m<expan><ex>e</ex><abbr>dius</abbr></expan> fuerit vel aliquid de hoc <lb n="4"/>noverit ut <expan><abbr>sanguin</abbr><ex>e</ex></expan> et liminibus <note>sic</note> ob <note>sic</note> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> omnibus <note>sic</note> membris <note>sic</note> configatur vel et<lb break="no" n="2"/>iam intestinis excomesis <expan><ex>om</ex><abbr>nibus</abbr></expan> <expan><abbr>habe</abbr><ex>at</ex></expan> <lb n="3"/>is qui anilum <note>sic</note> involavit <note>sic</note> vel qui medius <lb n="4"/>fuerit
+            </ab></div></div>
+            <div type="commentary">
+                <p>Material: Blei-Zinn-Kupfer-Legierung. Datierung: nach Hassall - Tomlin ins 4. Jh. aufgrund Schriftbild und Name Basilia. Gebet für Gerechtigkeit. (B): In Z. 3 (ta)mdiu siluerit statt m(e)dius fuerit.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0633. (B)</bibl><bibl>M.W.C. Hassall - R.S.O. Tomlin, Britannia 14, 1983, 336, Nr. 3; fig. 33 u. 34 (Zeichnungen). - AE 1983. (B)</bibl><bibl>R.S.O. Tomlin, in: B. Cunliffe (Hrsg.), The Temple of Sulis Minerva at Bath.</bibl><bibl>Volume 2 The Finds from the Sacred Spring.</bibl><bibl>(Oxford 1988) 230-231, Nr. 97; Zeichnungen. (B)</bibl><bibl>AE 1992, 1117.</bibl><bibl>J.N. Adams, Britannia 23, 1992, 9. - AE 1992.</bibl><bibl>A. Kropp, Defixiones. Ein aktuelles Corpus lateinischer Fluchtafeln (Speyer 2008) Nr. 3.2/76.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mediolanum &amp;ndash; Milano (Transpadana (Regio XI))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001523</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001523</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Milano, Università Cattolica del Sacro Cuore, Ist. Filolog.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>68</height><width>43</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Transpadana (Regio XI)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/138459">Mediolanum</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 500 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Milano</placeName><placeName type="findspot">Cimitero di porta Vercellina (Cimitero di Caio)</placeName><placeName type="region">Lombardia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001523_1" sex="W"><persName><name type="nomen">Aurelia*</name><name type="cognomen">Theodora</name></persName></person><person xml:id="HD001523_2" sex="M"><persName><name type="cognomen">Aurelius</name></persName></person><person xml:id="HD001523_3" sex="W"><persName><name type="cognomen">Fructosa</name></persName></person><person xml:id="HD001523_4" sex="M"><persName><name type="cognomen">Aurelius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-06-06" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>B</abbr><ex>onae</ex></expan> <expan><abbr>m</abbr><ex>emoriae</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Aur</abbr><ex>eliae</ex></expan> Theodorae <lb n="2"/>quae vixit in s<expan><ex>a</ex><abbr>eculo</abbr></expan> <lb n="3"/>annis XL cum coniuge <lb n="4"/>annis XXVI Aurelius <lb n="5"/>coniux Fructosa et <lb n="6"/>Aurelius fili contra <lb n="7"/>votum pos<expan><ex>u</ex><abbr>erunt</abbr></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Die Inschrift wurde neuzeitlich schlecht und fehlerhaft mit einem Werkzeug aus Metall nachgezogent: z. B. wurde votum zu votumm.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0404.</bibl><bibl>M.P. Billanovich, Epigraphica 41, 1979, 159, Nr. 1. - AE 1982.</bibl><bibl>A. Calderini, Epigraphica 1, 1939, 41, Nr. 1. - AE 1982.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

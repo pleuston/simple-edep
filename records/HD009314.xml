@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Kerepestarcsa (Barbaricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009314</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009314</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>(64)</height><width>(61)</width><depth>(20)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Barbaricum</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1986"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern">Kerepestarcsa</placeName><placeName type="findspot">mittelalterliche Kirche</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2006-03-29" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> et <expan><abbr>Nep</abbr><ex>tuno</ex></expan> <lb n="2"/><expan><abbr>vex</abbr><ex>illarii</ex></expan> <expan><abbr>cl</abbr><ex>assis</ex></expan> <expan><abbr>F</abbr><ex>laviae</ex></expan> <expan><abbr>Pan</abbr><ex>nonicae</ex></expan> <lb n="3"/><expan><abbr>q</abbr><ex>uae</ex></expan> sunt in Si<lb break="no" n="4"/>[rmio ------
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Soproni, AE 1988: Z. 2: vex(illationes); Z. 3/4: S(armatia) et / [M(arcomannia?).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0940. (B)</bibl><bibl>AE 1991, 1329.</bibl><bibl>TRHR (Suppl.) 234; Abb. 234 (Foto u. Zeichnung).</bibl><bibl>S. Soproni, AAASzeged Suppl. 6, 1987, 91-97; Foto u. Zeichnung. (B) - AE 1988.</bibl><bibl>J. Fitz, Alba Regia 24, 1990, 163. - AE 1991.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

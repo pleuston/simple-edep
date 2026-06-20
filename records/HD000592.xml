@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vicetia &amp;ndash; Vicenza (Venetia et Histria (Regio X))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000592</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000592</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Vicenza, SS. Felice e Fortunato</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>249</height><width>185</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Venetia et Histria (Regio X)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/393513">Vicetia</placeName></origPlace><origDate><origDate notBefore-custom="0431" notAfter-custom="0470" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">431 AD - 470 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1850"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Vicenza</placeName><placeName type="findspot">Via Postumia, Nekropole</placeName><placeName type="region">Veneto</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000592_1" sex="M"><persName><name type="cognomen">Felix</name></persName></person><person xml:id="HD000592_2" sex="M"><persName><name type="cognomen">Fortunatus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-18" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Baeati <note>sic</note> mart<lb break="no" n="2"/>ures <note>sic</note> <lb n="3"/>Felix et <lb n="4"/>Fortuna<lb break="no" n="5"/>tus
+            </ab></div>
+            <div type="commentary">
+                <p>(A): ILCV 04002 statt ILCV 02002; falsche Fundstelle in ILCV. (B): Forlati Tamaro: Fortunatus statt Fortuna/tus; ILCV: beati statt baeati. Irrtümliche Zuweisung des Monumentes zu der Callistus-Katakombe. Märtyrertod von Felix und Fortunatus 304 in Aquileia; Überführung nach Vicenzia, wo ihnen ein Martyrium errichtet wurde. - Stein zweitverwendet; geringe Reste der 1. Inschrift sichtbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0435. (A)</bibl><bibl>B. Forlati Tamaro, in: Atti del V Congresso Nazionale di Archeologia Cristiana 1979 (Viella - Roma 1982) 423-429, Nr. 1; fig. 1 u. 2. (AB) - AE 1983.</bibl><bibl>ILCV 2002. (AB)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

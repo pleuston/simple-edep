@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Newbridge (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006991</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006991</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Edinburgh, Nat. Mus. of Scotland</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(110)</height><width>39</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0140" notAfter-custom="0144" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">140 AD - 144 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1697"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2641698">Newbridge</placeName><placeName type="findspot">{Ingliston}</placeName><placeName type="region">Edinburgh</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006991_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="praenomen">T.+</name><name type="nomen">Aelius+*</name><name type="cognomen">Hadrianus+* Antoninus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-12-01" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                I<supplied reason="lost"><expan><abbr>mp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>T</abbr><ex>ito</ex></expan></supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>Ael</abbr><ex>io</ex></expan> <expan><abbr>Hadr</abbr><ex>iano</ex></expan> Anto</supplied><lb break="no" n="3"/>nino <expan><abbr>Aug</abbr><ex>usto</ex></expan> Pio <lb n="4"/><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <supplied reason="lost">I</supplied>II <lb n="0"/>[<gap reason="lost" quantity="1" unit="line"/>] <lb n="0"/>[<gap reason="lost" quantity="1" unit="line"/>] <lb n="5"/><expan><abbr><supplied reason="lost">co</supplied>h</abbr><ex>ors</ex></expan> I <expan><abbr>Cugernor</abbr><ex>um</ex></expan> <lb n="6"/><expan><abbr><supplied reason="lost">Tri</supplied>monti</abbr><ex>o</ex></expan> <expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Leichte Abweichungen bei der Klammersetzungen in Z. 1, 3 u. 7.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 01085. (B)</bibl><bibl>AE 1975, 0581. (B)</bibl><bibl>R.P. Wright - M.W.C. Hassall, Britannia 4, 1973, 336-337. - AE 1975. (B)</bibl><bibl>RIB 2313; Zeichnung.</bibl><bibl>L.J.F. Keppie - B.J. Arnold, Scotland, CSIR Great Britain 1, 4 (Oxford 1984) 23-24, Nr. 66; Pl. 20, 66.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

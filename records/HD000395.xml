@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Ausa &amp;ndash; Vic (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000395</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000395</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Vic, Kathedrale</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>84</height><width>57</width><depth>46</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246212">Ausa</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3106050">Vic</placeName><placeName type="findspot">Kathedrale</placeName><placeName type="region">Cataluña</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000395_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Cornelius</name><name type="cognomen">Magnio</name></persName></person><person xml:id="HD000395_2" sex="M"><persName><name type="cognomen">Gratus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-09-10" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <del rend="erasure">Dianae</del> <lb n="2"/>ob <expan><abbr>honor</abbr><ex>em</ex></expan> <lb n="3"/>seviratus <lb n="4"/><expan><abbr>C</abbr><ex>aius</ex></expan> Corneli<lb break="no" n="5"/>us Grati <expan><abbr>lib</abbr><ex>ertus</ex></expan> <lb n="6"/>Magnio <lb n="7"/>IIIIIIvir <lb n="8"/>idem aram et <expan><abbr>sed</abbr><ex cert="low">ilia</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Rasur nicht antik. Auf der Basis befinden sich nachantike Graffiti. Hederae. Vorgezeichnete Hilfslinien. Die letzte Zeile stammt offenbar von anderer Hand. Z. 8: statt sed(ilia?) auch sed(em?) oder sed(es?) denkbar. (B): CIL, ILER: Z.1: [[Minervae sacrum]]; AE 1983: [Dianae]; Z.3: ILER: seviratu[s]; AE 1983: seviratu(s).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0623. (B)</bibl><bibl>IRC 1, 031; pl. 12, 31.</bibl><bibl>IRC 5, p. 17.</bibl><bibl>CIL 02, 04618. (B)</bibl><bibl>CIL 02, p. 1054. (B)</bibl><bibl>ILER 0393. (B)</bibl><bibl>G. Fabre - M. Mayer - I. Rodà, Ausa 10, 1982, 294-297, Nr. 1; lám. 1. - AE 1983.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

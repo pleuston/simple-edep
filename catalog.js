@@ -26,35 +26,14 @@
     loadList();
   });
 
+  // The committed index is authoritative — it covers the whole corpus (the
+  // GitHub Contents API only lists the first 1000 files in a directory, so it
+  // can't enumerate a ~10k-record corpus). Rebuild it with build-index.js after
+  // bulk changes.
   function loadList() {
-    // 1) try the live Contents API (authoritative; includes new saves)
-    var viaApi = window.EpiData
-      ? EpiData.list("records").then(function (files) {
-          if (!files || !files.length) return null;
-          return files.filter(function (f) { return /\.xml$/i.test(f.name); })
-                      .map(function (f) { return { file: f.name }; });
-        }).catch(function () { return null; })
-      : Promise.resolve(null);
-
-    viaApi.then(function (apiList) {
-      if (apiList && apiList.length) { mergeIndex(apiList); return; }
-      // 2) fall back to the committed static index
-      fetch("data/records-index.json").then(function (r) { return r.ok ? r.json() : []; })
-        .then(function (idx) { ENTRIES = idx || []; renderList(); })
-        .catch(function () { showError("Could not load the catalogue."); });
-    });
-  }
-
-  // Merge API filenames with the rich static index (so we keep summaries).
-  function mergeIndex(apiList) {
     fetch("data/records-index.json").then(function (r) { return r.ok ? r.json() : []; })
-      .then(function (idx) {
-        var byFile = {};
-        (idx || []).forEach(function (e) { byFile[e.file] = e; });
-        ENTRIES = apiList.map(function (a) { return byFile[a.file] || { file: a.file, titleEn: a.file.replace(/\.xml$/, "") }; });
-        renderList();
-      })
-      .catch(function () { ENTRIES = apiList; renderList(); });
+      .then(function (idx) { ENTRIES = idx || []; renderList(); })
+      .catch(function () { showError("Could not load the catalogue."); });
   }
 
   function renderList() {
@@ -86,19 +65,26 @@
 
   function renderPager(total, pages) {
     if (!pagerEl) return;
+    function btn(pg, label, on, dis) {
+      return '<button data-pg="' + pg + '"' + (on ? ' class="on"' : "") + (dis ? " disabled" : "") + ">" + label + "</button>";
+    }
     var html = "";
     if (pages > 1) {
-      html += '<button data-pg="first"' + (PAGE === 0 ? " disabled" : "") + ">|&lt;</button>";
-      for (var i = 0; i < pages; i++) html += '<button data-pg="' + i + '" class="' + (i === PAGE ? "on" : "") + '">' + (i + 1) + "</button>";
-      html += '<button data-pg="last"' + (PAGE === pages - 1 ? " disabled" : "") + ">&gt;|</button>";
+      html += btn("first", "|&lt;", false, PAGE === 0) + btn(Math.max(0, PAGE - 1), "&lt;", false, PAGE === 0);
+      var start = Math.max(0, PAGE - 2), end = Math.min(pages - 1, PAGE + 2);
+      if (start > 0) html += '<span class="reg-ell">…</span>';
+      for (var i = start; i <= end; i++) html += btn(i, i + 1, i === PAGE, false);
+      if (end < pages - 1) html += '<span class="reg-ell">…</span>';
+      html += btn(Math.min(pages - 1, PAGE + 1), "&gt;", false, PAGE === pages - 1) + btn("last", "&gt;|", false, PAGE === pages - 1);
     }
-    html += '<span class="register-count">Found ' + total + " item" + (total === 1 ? "" : "s") + "</span>";
+    html += '<span class="register-count">' + (pages > 1 ? "Page " + (PAGE + 1) + " / " + pages + " · " : "Found ") + total + " item" + (total === 1 ? "" : "s") + "</span>";
     pagerEl.innerHTML = html;
     Array.prototype.forEach.call(pagerEl.querySelectorAll("button[data-pg]"), function (b) {
       b.addEventListener("click", function () {
         var v = b.getAttribute("data-pg");
         PAGE = v === "first" ? 0 : v === "last" ? pages - 1 : parseInt(v, 10);
         renderList();
+        window.scrollTo(0, 0);
       });
     });
   }

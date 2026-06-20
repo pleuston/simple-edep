@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Grinario (Civitas Sumelocennensis) &amp;ndash; Köngen (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001309</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001309</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stuttgart, Württ. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(6)</height><width>(5)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118706">Grinario (Civitas Sumelocennensis)</placeName></origPlace><origDate><origDate notBefore-custom="0129" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">129 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1976"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2886008">Köngen</placeName><placeName type="findspot">{Parzelle Nr. 3623/16}</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001309_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1427"><name type="cognomen">Traianus Hadrianus+</name></persName></person><person xml:id="HD001309_2" sex="M"><persName><name type="nomen">[---]ius</name><name type="cognomen">Celer</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-01" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi <supplied reason="lost">Traiani Parthici <expan><abbr>f</abbr><ex>ilius</ex></expan> divi Nervae</supplied> <lb n="2"/>nepos Traian<supplied reason="lost">us Hadrianus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan></supplied> <lb n="3"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> XIIII <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="4"/><expan><abbr>equitib</abbr><ex>us</ex></expan> et <expan><abbr>peditib</abbr><ex>us</ex></expan> qui m<supplied reason="lost"><expan><abbr>ilitaver</abbr><ex>unt</ex></expan> in alis III et <expan><abbr>coh</abbr><ex>ortibus</ex></expan></supplied> <lb n="5"/>XVI quae <expan><abbr>appell</abbr><ex>antur</ex></expan> I <expan><abbr>Scub</abbr><ex>ulorum</ex></expan> et <supplied reason="lost">I <expan><abbr>Flav</abbr><ex>ia</ex></expan> Gemina et Indiana</supplied> <lb n="6"/><expan><abbr>Gallor</abbr><ex>um</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> et I <expan><abbr>German</abbr><ex>orum</ex></expan> <supplied reason="lost"><expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I <expan><abbr>Flav</abbr><ex>ia</ex></expan> <expan><abbr>Damascenor</abbr><ex>um</ex></expan> <expan><abbr>M</abbr><ex>miliaria</ex></expan></supplied> <lb n="7"/>et I <expan><abbr>Ligur</abbr><ex>um</ex></expan> et <expan><abbr>Hisp</abbr><ex>anorum</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> e<supplied reason="lost">t I <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I <expan><abbr>Aquit</abbr><ex>anorum</ex></expan> <expan><abbr>veter</abbr><ex>ana</ex></expan> et I</supplied> <lb n="8"/><expan><abbr>Biturig</abbr><ex>um</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I T<supplied reason="lost"><expan><abbr>hrac</abbr><ex>um</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et II <expan><abbr>Aug</abbr><ex>usta</ex></expan> Cyrenaica et II</supplied> <lb n="9"/><expan><abbr>Hisp</abbr><ex>anorum</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> et II R<supplied reason="lost"><expan><abbr>aet</abbr><ex>orum</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et III <expan><abbr>Aquitan</abbr><ex>orum</ex></expan> et III <expan><abbr>Delmat</abbr><ex>arum</ex></expan></supplied> <lb n="10"/><expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> et IIII Aqu<supplied reason="lost"><expan><abbr>itan</abbr><ex>orum</ex></expan> et IIII <expan><abbr>Vindelic</abbr><ex>orum</ex></expan> et V <expan><abbr>Delmat</abbr><ex>arum</ex></expan></supplied> <lb n="11"/>et VII <expan><abbr>Raetor</abbr><ex>um</ex></expan> <supplied reason="lost">et sunt in <expan><abbr>German</abbr><ex>ia</ex></expan> <expan><abbr>super</abbr><ex>iore</ex></expan> sub <gap reason="lost" extent="unknown" unit="character"/></supplied><lb break="no" n="12"/><gap reason="lost" extent="unknown" unit="character"/>io Celere <gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> divi Tra<supplied reason="lost">iani Parthici <expan><abbr>f</abbr><ex>ilius</ex></expan> divi Nervae</supplied> <lb n="2"/>nepos Traianus <supplied reason="lost">Hadrianus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan></supplied> <lb n="3"/><expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XIIII <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="4"/><expan><abbr>eq</abbr><ex>uitibus</ex></expan> et <expan><abbr>ped</abbr><ex>itibus</ex></expan> qui <expan><abbr>mil</abbr><ex>itaverunt</ex></expan> in <supplied reason="lost">alis III et <expan><abbr>coh</abbr><ex>ortibus</ex></expan> XVI quae</supplied> <lb n="5"/><expan><abbr>ap</abbr><ex>pellantur</ex></expan> I <expan><abbr>Scub</abbr><ex>ulorum</ex></expan> et I <expan><abbr>Fl</abbr><ex>avia</ex></expan> <supplied reason="lost">Gemina et Indiana <expan><abbr>Gallor</abbr><ex>um</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan></supplied> <lb n="6"/><supplied reason="lost">et</supplied> I <expan><abbr>Germ</abbr><ex>anorum</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <supplied reason="lost"><expan><abbr>R</abbr><ex>omanorum</ex></expan> et I <expan><abbr>Flav</abbr><ex>ia</ex></expan> <expan><abbr>Damascenor</abbr><ex>um</ex></expan> <expan><abbr>M</abbr><ex>miliaria</ex></expan> et I <expan><abbr>Ligur</abbr><ex>um</ex></expan></supplied> <lb n="7"/><supplied reason="lost">et His</supplied><expan><abbr>p</abbr><ex>anorum</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> e<supplied reason="lost">t I <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I <expan><abbr>Aquit</abbr><ex>anorum</ex></expan> <expan><abbr>veter</abbr><ex>ana</ex></expan> et I <expan><abbr>Biturig</abbr><ex>um</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan></supplied> <lb n="8"/><supplied reason="lost">et I Th</supplied><expan><abbr>rac</abbr><ex>um</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> [<expan><abbr>R</abbr><ex>omanorum</ex></expan> ------
+            </ab></div></div>
+            <div type="commentary">
+                <p>3 aneinanderpassende Fragmente erhalten. Datierung: 10.12.129 - 9.12. 130 n. Chr. Tab. I ext.: Z. 3: Abkürzung ursprünglich tribu. potesta., dann die Endbuchstaben durch Worttrenner ersetzt. (B): Filtzinger, AE 1982: Abweichungen in Lesung / Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0718. (B)</bibl><bibl>K. Dietz, Chiron 12, 1982, 207-209. - AE 1982.</bibl><bibl>P. Filtzinger, FBW 6, 1981, 405-416; Abb. 2; Abb. 1 (Zeichnungen). (B) - AE 1982.</bibl><bibl>RMD 090.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

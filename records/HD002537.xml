@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Thamugadi &amp;ndash; Timgad (Numidia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002537</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002537</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Numidia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/334636">Thamugadi</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0152" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 152 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern" ref="http://www.geonames.org/2476409">Timgad</placeName><placeName type="findspot">Forum, u.a.</placeName><placeName type="region">Batna</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002537_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="praenomen">T.</name><name type="nomen">Aelius</name><name type="cognomen">Hadrianus Antoninus</name></persName></person><person xml:id="HD002537_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Valerius</name><name type="cognomen">Etruscus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-15" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Imperatore! Caesar</supplied>e <note>sic</note> d<supplied reason="lost">ivi Hadriani fi</supplied>lio divi <lb n="2"/><supplied reason="lost">Tr</supplied>aiani Parthici nepote <note>sic</note> <supplied reason="lost">divi Nervae</supplied> pronepote <note>sic</note> <lb n="3"/><expan><abbr>T</abbr><ex>ito</ex></expan> Aelio Hadriano Antonino <expan><abbr>Aug</abbr><ex>usto</ex></expan> <supplied reason="lost">Pio pont</supplied>ifice <note>sic</note> <lb n="4"/>maximo <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XV imperatore <note>sic</note> <supplied reason="lost">II consule! II</supplied>II <expan><abbr>p</abbr><ex>atre</ex></expan> <note>sic</note> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Valerius Etruscus <expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> pro <supplied reason="lost"><expan><abbr>pr</abbr><ex>aetore</ex></expan> patron</supplied>us coloni<lb break="no" n="6"/>ae curiam renovatam et exornatam de<supplied reason="lost">dicavit</supplied> <expan><abbr>dec</abbr><ex>reto</ex></expan> <expan><abbr>dec</abbr><ex>urionum</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>p</abbr><ex>ublica</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Y: 10.12.151 - 9.12.152. (B): Zusammengehörigkeit d. Fragmente nicht erkannt; inzwischen sechs weitere Fragmente gefunden. Höhe nach CIL 8, 17856: 78 cm. Material: blauer Kalkstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0876b.</bibl><bibl>M. Le Glay - S. Tourrenc, AntAfr 21, 1985, 116-117, Nr. 4,2; Foto; Zeichnungen. - AE.</bibl><bibl>CIL 08, 17854. (B)</bibl><bibl>CIL 08, 17856. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

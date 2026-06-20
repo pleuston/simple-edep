@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Zeugma (Seleucia), bei &amp;ndash; Balkis, bei (Syria)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001952</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001952</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Arulis, Steinbruch</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/210">cliff</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Syria</placeName><placeName type="ancient" ref="#">Zeugma (Seleucia), bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/298795">Turkey</placeName><placeName type="modern">Balkis, bei</placeName><placeName type="findspot">Arulis, Steinbruch</placeName><placeName type="region">Urfa</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001952_1" sex="M"><persName><name type="nomen">Iulius*</name><name type="cognomen">Aretinus</name></persName></person><person xml:id="HD001952_2" sex="M"><persName><name type="nomen">Iulius*</name><name type="cognomen">Severus*</name></persName></person><person xml:id="HD001952_3" sex="M"><persName><name type="nomen">Rabilius*</name><name type="cognomen">Beliabus</name></persName></person><person xml:id="HD001952_4" sex="M"><persName><name type="nomen">Decimius*</name><name type="cognomen">Cilicianus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-11-30" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> Silvano <lb n="2"/>conservatori <lb n="3"/>Soli devino <note>sic</note> <lb n="4"/>legeoni<supplied reason="lost">s</supplied> <note>sic</note> IIII <expan><abbr>Scy</abbr><ex>thicae</ex></expan> <expan><abbr>signif</abbr><ex>eri</ex></expan> <lb n="5"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Aretinus <expan><abbr>Iul</abbr><ex>ius</ex></expan> <expan><abbr>Severu</abbr><ex>s</ex></expan> <lb n="6"/><expan><abbr>Rabil</abbr><ex>ius</ex></expan> Beliabus <expan><abbr>tubic</abbr><ex>en</ex></expan> <lb n="7"/><expan><abbr>Dec</abbr><ex>imius</ex></expan> <expan><abbr>Cilician</abbr><ex>us</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> <expan><abbr>l</abbr><ex>ibentes</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>solv</abbr><ex>erunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): IGLS, AE 1908, Cumont Z. 6/7: tubic(en) / de c(enturia) Ciliciani; AE 1984: Z. 6: tubicen; Z. 7: s(olverunt). Inschriftfeld hat Form einer tabula ansata, die in den Fels gemeißelt ist.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0898. (B)</bibl><bibl>M.P. Speidel, in: St. Mitchell (Hrsg.), Armies and Frontiers in Roman and Byzantine Anatolia (Oxford 1983) 9; Zeichnung. - AE 1984.</bibl><bibl>IGLS 01, 0068. (B)</bibl><bibl>AE 1908, 0025. (B)</bibl><bibl>F. Cumont, Études syriennes (Paris 1917) 325-326, Nr. 24; Zeichnung. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

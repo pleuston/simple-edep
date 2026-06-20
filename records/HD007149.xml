@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Venusia &amp;ndash; Venosa (Apulia et Calabria (Regio II))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007149</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007149</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Apulia et Calabria (Regio II)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/442847">Venusia</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Venosa</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2006-09-26" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Hic requi</supplied>escit in pace D<expan><ex>e</ex><abbr>i</abbr></expan> <expan><abbr>famulus</abbr><ex cert="low"/></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>s <expan><abbr>lec</abbr><ex>tor</ex></expan> qui timore Chr<expan><ex>ist</ex><abbr>i</abbr></expan> reli<lb break="no" n="3"/><supplied reason="lost">quit vit</supplied>am saecularem soci<lb break="no" n="4"/><supplied reason="lost">atus servi</supplied>tio aec<expan><ex>c</ex><abbr>lesiae</abbr></expan> <note>sic</note> migra<lb break="no" n="5"/><supplied reason="lost">vit ad <expan><abbr>d</abbr><ex>omi</ex><abbr>n</abbr><ex>u</ex></expan></supplied>m vixit annis <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> mensis <note>sic</note> V dies V de<lb break="no" n="7"/><supplied reason="lost">positus</supplied> est die tertiu <note>sic</note> Idus <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>mb</abbr><ex>res</ex></expan> Opilione <expan><abbr>conss</abbr><ex>sule</ex></expan> <note>sic</note>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1973, 0219.</bibl><bibl>AE 1977, 0228. (B)</bibl><bibl>AE 1981, 0265.</bibl><bibl>AE 2003, 0545.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

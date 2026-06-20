@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Asseria, aus? &amp;ndash; Venezia (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002026</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002026</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Verona, Teatro Romano, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>107</height><width>51</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.1-2.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197145">Asseria, aus?</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1757"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3164603">Venezia</placeName><placeName type="findspot"/><placeName type="region">Veneto</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002026_1" sex="W"><persName><name type="nomen">Arruntia</name><name type="cognomen">Secundina</name></persName></person><person xml:id="HD002026_2" sex="W"><persName><name type="nomen">Claudia</name><name type="cognomen">Secunda</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-06-09" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005803" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/79cae9d5-8a63-4494-a89d-b03cb1dab163/file/id/766578/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Arrun<lb break="no" n="2"/>tiae <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> <lb n="3"/>Secundi<lb break="no" n="4"/>nae <lb n="5"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> VII <lb n="6"/>Cla&amp;lt;u&amp;gt;dia Sec<lb break="no" n="7"/>unda n&amp;lt;e=I&amp;gt;p&amp;lt;t=I&amp;gt;i 
+            </ab></div>
+            <div type="commentary">
+                <p>Sogenannter Liburnischer Cippus; Inschriftfeld von Eroten mit erhobener bzw. gesenkter Fackel flankiert. Vor 1757 von S. Molin nach Venedig gebracht, dann nach Verona. (B): CIL V 2200: Z. 6: Cla[u]dia; CIL V 2200: Z. 7: [f]i[l]i[ae]; CIL V 8852: Z. 7: nepti; CIL III 2190, Z. 2: T(iti) l(ibertae); CIL III 2190: Z. 6/7: Clodia Sec/unda n[e]p[t]i.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1991, 1293.</bibl><bibl>AE 1982, 0400.</bibl><bibl>AE 1981, 0698.</bibl><bibl>CIL 05, 02200. (B)</bibl><bibl>CIL 05, 08852. (B)</bibl><bibl>CIL 05, 08852 add. p. 1095.</bibl><bibl>CIL 03, 02190. (B)</bibl><bibl>I. Fadić, AArchSlov 41, 1990, 714-715. 719, Nr. 1; sl. 1 (Zeichnung). - AE 1991.</bibl><bibl>A. Buonopane, BAHD 74, 1980, 47-52; fig. 1a u. 1b; tav. 19 u. 20. - AE 1981. 1982.</bibl><bibl>I. Fadić, Diadora 10, 1988, 73-88; t. 1 (Fotos u. Zeichnung).</bibl><bibl>I. Fadić, Diadora 12, 1990, 262-263, Nr. 24; t. 7, 1 (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

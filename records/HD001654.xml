@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mesagne (Apulia et Calabria (Regio II))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001654</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001654</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mus. Civico, Lapidarium</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>43</height><width>26</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-2.9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Apulia et Calabria (Regio II)</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Mesagne</placeName><placeName type="findspot"/><placeName type="region">Puglia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001654_1" sex="M"><persName><name type="cognomen">Curus</name></persName></person><person xml:id="HD001654_2" sex="M"><persName><name type="nomen">Petillius</name><name type="cognomen">Severus</name></persName></person><person xml:id="HD001654_3" sex="W"><persName><name type="cognomen">Homulla*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-15" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Curo Pe<lb break="no" n="3"/>tilli Seve<lb break="no" n="4"/>ri <expan><abbr>ser</abbr><ex>vo</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>p</abbr><ex>ius</ex></expan> <lb n="5"/><expan><abbr>an</abbr><ex>nos</ex></expan> XVIIII <lb n="6"/><expan><abbr>Homul</abbr><ex>la</ex></expan> <expan><abbr>con</abbr><ex>iugi</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Das 1. L in Petillius hat die Form eines griechischen Lambda. Das 2. scheint verschrieben. (B): Z. 2/3: Petilui statt Petilli; Z. 6: Homul(ia) statt Homul(la). (C): Unzutreffende Ausführungen zu Curus. Unten links: von anderer Hand P eingemeißelt, gehört nicht zur Inschrift. Material: rosa Kalkstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0210bis.</bibl><bibl>H. Solin, Arctos 15, 1981, 107. - AE 1982.</bibl><bibl>AE 1980, 0322. (BC)</bibl><bibl>C. Marangio, in: C. Santoro - C. Marangio, Studi storico-linguistici in onore di Francesco Ribezzo (Mesagne 1978) 83-85, Nr. 24; tav. 6a. (BC) - AE 1980.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Spinazzola, bei (Apulia et Calabria (Regio II))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002303</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002303</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Apulia et Calabria (Regio II)</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Spinazzola, bei</placeName><placeName type="findspot">Contrada Santissima, masseria Spineto</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002303_1"><persName><name type="praenomen">C.+</name><name type="nomen">Marcius+?</name><name type="cognomen">Cleo</name></persName></person><person xml:id="HD002303_2"><persName><name type="nomen">[---]a</name><name type="cognomen">Haline</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-02-05" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> Κλέ</supplied>ωνος <lb n="3"/><supplied reason="lost">ἰατροῦ ἀγρ</supplied>ός, οἰκία, κῆ<lb break="no" n="4"/><supplied reason="lost">πος, τ</supplied>άφος. <lb n="5"/><supplied reason="lost" cert="low">C(ai) Ma</supplied>rci <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>l</abbr><ex>iberti</ex></expan> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> Cleonis medi<lb break="no" n="7"/><supplied reason="lost">ci ager do</supplied>mus hortus sepul<lb break="no" n="8"/>chrum <note>sic</note> et <lb n="9"/><supplied reason="lost">hic habet</supplied> reliqua omnia secum <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>a <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>l</abbr><ex>iberta</ex></expan> Haline coniux <lb n="11"/>vivit
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1985: Z. 4: [Ma?]ci(i); Chelotti: Abweichungen in Lesung und Ergänzung des Textes.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0297. (B)</bibl><bibl>M. Chelotti, in: M. Chelotti u. a., Epigrafia e territorio, politica e società (Bari 1983) 23-26, Nr. 3; fig. 3. (B) - AE 1985.</bibl><bibl>A. Martin, Epigraphica 46, 1984, 194-198; Zeichnung. - AE 1985.</bibl><bibl>AE 2003, 0385.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Municipium Claudium Virunum &amp;ndash; Maria Saal (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004618</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004618</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Maria Saal, Arndorf, Arndorf 16</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>(105)</height><width>(32)</width><depth>(30)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1974"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2760473">Maria Saal</placeName><placeName type="findspot">{Zollfeld}</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004618_1" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD004618_2" sex="M"><persName><name type="cognomen">Fortunatus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-03" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan></supplied> <expan><abbr>M</abbr><ex>aximo</ex></expan> <expan><abbr>D</abbr><ex>olicheno</ex></expan> <lb n="2"/><supplied reason="lost">pro s</supplied>alute <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="4"/><supplied reason="lost"><expan><abbr>n</abbr><ex>ostri</ex></expan> <expan><abbr>disp</abbr><ex>ensatoris</ex></expan></supplied> monet<lb break="no" n="5"/><supplied reason="lost">ae <expan><abbr>Aug</abbr><ex>usti</ex></expan> F</supplied>ortu<lb break="no" n="6"/><supplied reason="lost">natus v</supplied><expan><abbr>ik</abbr><ex>arius</ex></expan> <note>sic</note> fecit
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1978: Z. 2: pro salute; ILLPRON: Z. 3: [---] / Aug(usti); CCID: abweichende Ergänzungen. Datierung: möglicherweise vor 198 n. Chr. (vor der Samtherrschaft von Septimius Severus und Caracalla). Nach Piccottini (1978) könnten die Genannten Bedienstete einer lokalen Münzstätte für die Prägung von Notgeld gewesen sein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0602. (B)</bibl><bibl>G. Piccottini, in: M.B. de Boer - T.A. Edridge (Hrsg.), Hommage à M.J.</bibl><bibl>Vermaseren 2 (Leiden 1978) 940-945, Nr. 2; tav. 198; fig. 2 (Zeichnung). - AE 1978.</bibl><bibl>AE 1974, 0479.</bibl><bibl>ILLPRON 0759. (B)</bibl><bibl>G. Piccottini, AustrRom 25, 1975, 4, Nr. B1. - AE 1974.</bibl><bibl>CCID 344; Taf. 65. (B)</bibl><bibl>G. Piccottini, Grabstelen, Reiter- und Soldatendarstellungen sowie dekorative Reliefs des Stadtgebiets von Virunum und Nachträge zu CSIR-Österreich II/1-4, CSIR Österreich 2, 5 (Wien 1994) 32, Nr. 443; Taf. 13, 443.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

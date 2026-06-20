@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Velitrae? &amp;ndash; Velletri? (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001730</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001730</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mus. Civico</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78">urn</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>23</height><width>25</width><depth>23</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.7-1.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423117">Velitrae?</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Velletri?</placeName><placeName type="findspot"/><placeName type="region">Roma?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001730_1" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Cladius (= Claudius)</name><name type="cognomen">Ario</name></persName></person><person xml:id="HD001730_2" sex="W"><persName><name type="cognomen">Antonia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1990-10-26" who="Krempl">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Dis Manibus <lb n="2"/><expan><abbr>Ti</abbr><ex>berius</ex></expan> Cla<expan><ex>u</ex><abbr>dius</abbr></expan> Ario <lb n="3"/>Antoniae co<expan><ex>n</ex><abbr>iu</abbr></expan><lb break="no" n="4"/>&amp;lt;g&amp;gt;i bene merenti <lb n="5"/>fecit
+            </ab></div>
+            <div type="commentary">
+                <p>Der Deckel der Urne fehlt. Vertieftes Inschriftfeld deutet auf Zweitverwendung hin. Genaue Herkunft der Urne unbekannt. Dekor: 2 bärtige Masken mit Widderhörnern, an denen Lorbeergirlande hängt; darunter ein Nest mit 2 Vögeln, die von Eltern gefüttert werden. (B): Z.2: Claudius, wohl Tippfehler, vgl. Kontext.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0167.</bibl><bibl>H. Solin - R. Volpe, SupplIt 2 (Roma 1983) 62-63, Nr. 35; Foto. (B) - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

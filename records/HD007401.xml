@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vercellae, bei &amp;ndash; Salussola (Transpadana (Regio XI))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007401</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007401</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>71</height><width>85</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Transpadana (Regio XI)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/383815">Vercellae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0408" notAfter-custom="0588" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">408 AD - 588 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Salussola</placeName><placeName type="findspot">S. Pietro Levita</placeName><placeName type="region">Piemonte</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007401_1" sex="M"><persName><name type="cognomen">Vitales+ (= Vitalis+)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-02-01" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>B</abbr><ex>onae</ex></expan> <expan><abbr>m</abbr><ex>emoriae</ex></expan> <lb n="2"/>hic in <supplied reason="lost">som</supplied>no pace<supplied reason="lost">s! re</supplied>quiescit <lb n="3"/>Vitale<supplied reason="lost" cert="low">s! v(ir)? i(nlustris)</supplied> adol<supplied reason="lost">escen</supplied>s qui vixit <lb n="4"/>in hac pra<supplied reason="lost">e</supplied>senti vita <expan><abbr>n<am>n</am></abbr><ex>um</ex></expan> <expan><abbr>un</abbr><ex>um</ex></expan> <lb n="5"/>et <expan><abbr>m</abbr><ex>enses</ex></expan> VI obi<supplied reason="lost">it s</supplied>ub <expan><abbr>d</abbr><ex>ie</ex></expan> VI <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Mai</abbr><ex>as</ex></expan> <lb n="6"/><expan><abbr>ind</abbr><ex>ictione</ex></expan> VI <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>
+            </ab></div>
+            <div type="commentary">
+                <p>Vierfach gebrochene, oben links fragmentarische Tafel; an den Bruchstellen z.T. starke Beschädigungen auf Kosten der Lesbarkeit der entsprechenden Partien der Inschrift. [v(ir) i(nlustris)]: Ergänzung nach einer Handschrift (vgl. L. Schiaparelli, Tre iscrizioni antiche nel Biellese, AAT 30, 1894/95, 198-200). (B): Z. 5: d(ie) Non(as) Mai(as). Datierung: paläographisch 5. bzw. 6. Jh. n. Chr. naheliegend; innerhalb der VI. Indikation der frühestmögliche Termin im 5. Jh. n. Chr. auf das Jahr 408, der spätestmögliche im 6. Jh. n. Chr. auf das Jahr 588.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0269. (B)</bibl><bibl>S. Roda, Iscrizione latine di Vercelli (Torino 1985) 176, Nr. 104; Foto. - AE 1986.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

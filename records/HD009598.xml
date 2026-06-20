@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Savaria, bei &amp;ndash; Torony (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009598</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009598</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Szombathely, Savaria Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(174)</height><width>(82)</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.2-9.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197498">Savaria, bei</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1929"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3043760">Torony</placeName><placeName type="findspot">{Ondód}, Brunnen, sekundär verwendet</placeName><placeName type="region">Vas megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009598_1" sex="M"><persName ref="http://romans1by1.com/rpeople/17299"><name type="praenomen">L.</name><name type="nomen">Naevius</name><name type="cognomen">Rufus</name></persName></person><person xml:id="HD009598_2" sex="M"><persName><name type="cognomen">Tertius*</name></persName></person><person xml:id="HD009598_3" sex="W"><persName ref="http://romans1by1.com/rpeople/17300"><name type="nomen">Naevia+</name><name type="cognomen">Lucida+</name></persName></person><person xml:id="HD009598_4" sex="M"><persName ref="http://romans1by1.com/rpeople/17301"><name type="praenomen">L.</name><name type="nomen">Naevius</name><name type="cognomen">Silvanus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-06-16" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004435" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/32991cde-62cb-4e91-acdf-a470a0e67752/file/id/765197/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Naevius <expan><abbr>Ter</abbr><ex>ti</ex></expan> <lb n="2"/><expan><abbr>f</abbr><ex>ilius</ex></expan> Rufus <expan><abbr>Medi</abbr><ex>olano</ex></expan> <lb n="3"/><expan><abbr>vet</abbr><ex>eranus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XV <expan><abbr>Apol</abbr><ex>linaris</ex></expan> <lb n="4"/><expan><abbr>deduct</abbr><ex>us</ex></expan> <expan><abbr>c</abbr><ex>oloniam</ex></expan> <expan><abbr>C</abbr><ex>laudiam</ex></expan> <expan><abbr>S</abbr><ex>avariensium</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> LXXV <lb n="5"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="6"/>et Naevi<supplied reason="lost">ae Lu</supplied>cidae <lb n="7"/>coniugi suae <expan><abbr>t</abbr><ex>itulum</ex></expan> <expan><abbr>f</abbr><ex>ieri</ex></expan> <expan><abbr>i</abbr><ex>ussit</ex></expan> <lb n="8"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Naevius Silvanus <lb n="9"/><expan><abbr>lib</abbr><ex>ertus</ex></expan> <expan><abbr>fac</abbr><ex>iendum</ex></expan> <expan><abbr>cur</abbr><ex>avit</ex></expan> <lb n="10"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>m</abbr><ex>onumenti</ex></expan> q<expan><ex>uo</ex><abbr>q</abbr><ex>uo</ex></expan> <lb n="11"/><expan><abbr>v</abbr><ex>ersus</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>edes</ex></expan></supplied> XX
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Giebel mit Gorgoneion; über den Giebelschrägen Delphine. (B): Tóth: Z. 4/ 5: an(norum) / h(ic). Z. 10: q(uo)q(ue).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1972, 0414.</bibl><bibl>RIU 0145; Abb. 145 (Zeichnung).</bibl><bibl>L. Balla - T.P. Buocz - Z. Kádár - A. Mócsy - T. Szentléleky, Die römischen Steindenkmäler von Savaria (Amsterdam 1971) 100-101, Nr. 96; Abb. 79. - AE 1972.</bibl><bibl>M. Mosser, Die Steindenkmäler der legio XV Apollinaris (Wien 2003) 180, Nr. 32; Taf. 7, 32.</bibl><bibl>E. Tóth, Lapidarium Savariense. Savaria római feliratos kőemlékei (Szombathely 2011) 246-247, Nr. 211; Fotos. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Scupi, bei &amp;ndash; Skopje, Kisela Voda (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002203</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002203</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Skopje, Arh. Muz. Mak.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>197</height><width>(72)</width><depth>19</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481987">Scupi, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1949"><placeName type="country" ref="https://www.geonames.org/718075">Macedonia</placeName><placeName type="modern" ref="http://www.geonames.org/791131">Skopje, Kisela Voda</placeName><placeName type="findspot">{Dračevo}, "Stefanovski Do"</placeName><placeName type="region">Skopski region</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002203_1" sex="W"><persName ref="http://romans1by1.com/rpeople/13898"><name type="nomen">Teufia</name><name type="cognomen">Nice</name></persName></person><person xml:id="HD002203_2" sex="M"><persName ref="http://romans1by1.com/rpeople/13899"><name type="nomen">Teufius</name><name type="cognomen">Valerius</name></persName></person><person xml:id="HD002203_3" sex="W"><persName ref="http://romans1by1.com/rpeople/13900"><name type="nomen">Teufia</name><name type="cognomen">Valeria</name><name type="supernomen">quae et Ingenua</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-26" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Teufia Ni<lb break="no" n="2"/>ce Teufi Va<lb break="no" n="3"/>leri <expan><abbr>lib</abbr><ex>erta</ex></expan> <lb n="4"/>vixit <expan><abbr>an</abbr><ex>nos</ex></expan> LXXX <lb n="5"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>ita</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="6"/>Teufia Valeria <lb n="7"/>quae et Inge<lb break="no" n="8"/>nua filia <lb n="9"/><expan><abbr>fac</abbr><ex>iendum</ex></expan> <expan><abbr>cur</abbr><ex>avit</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>gefunden an der Stelle Stefanovski Do. Z. 1 steht zwischen dem Inschriftfeld und der Reliefzone mit Rosette, Kamm und Spiegel darüber. (B): Josifovska, ILJug: Z. 10: f. cur.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0771.</bibl><bibl>ILJug 0046.</bibl><bibl>IMS 6, 146; Foto.</bibl><bibl>B. Josifovska, ZAnt 4, 1954, 194-196, Nr. 1; sl. 1. (B) - AE 1984.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

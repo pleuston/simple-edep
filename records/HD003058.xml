@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription? from Saguntum &amp;ndash; Sagunto (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003058</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003058</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sagunto, Mus. Arq.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(41)</height><width>(60)</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/266021">Saguntum</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1500"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2511619">Sagunto</placeName><placeName type="findspot">Straße nach Valencia</placeName><placeName type="region">Valencia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003058_1" sex="M"><persName><name type="praenomen">L.+?</name><name type="nomen">Baebius+ Pompeius Antonius</name><name type="cognomen">Hispanus Marcell[---] Silo Paulinus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-02-28" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>L</abbr><ex>ucio</ex></expan>? Baebi</supplied>o <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Gal</abbr><ex>eria</ex></expan> Hispano <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> Pompeio Marcell<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> Antonio Siloni <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> Pauli<supplied reason="lost">no</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Material: piedra Saguntina. Inschriftengattung: möglicherweise auch Grabinschrift. P. Beltrán bei F. Beltrán Lloris verbindet CIL II 3838 = II (2. Aufl.) 14, 330 u. II 3839 = II (2. Aufl.) 14, 331 zu einer einzigen Inschrift. amicus des Plinius des Jüngeren (Ep. 1, 24; 6, 25). Polyonymer Senator wohl identisch mit Baebius Hispanus, Z. 3 (Anfang): das A nur handschriftlich überliefert. (B): CIL II 3839: Hispan[o]; Z. 2: [P]ompeio Marcel[lo]; Z. 3: [---]onio; Alföldy, CIL II 3839: Z. 3: Silon[i]; Alföldy: Z. 4: [--- tri]b(uno) mili[tum leg(ionis) ---]; CIL II 3839: Z. 4: [------]; HAEp 509: Z. 4: Paulli; P. Beltrán, MMAP: Z. 4: PAVLL; AE 1955, 161: Z. 4: Paull[o].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0605a.</bibl><bibl>C. Castillo, in: Épigraphie hispanique (Bordeaux 1984) 316-318; fig. 1-3 (Zeichnungen). - AE 1984.</bibl><bibl>F. Beltrán Lloris, Epigrafía latina de Saguntum y su territorium (Valencia 1980) 53-54; Nr. 40; lám. 12. - AE 1984.</bibl><bibl>G. Alföldy, Los Baebii de Saguntum (Valencia 1977) 17-18; lám. 7; fig. 2 (Zeichnung). (mit deutscher Übersetzung). (B)</bibl><bibl>CIL 02, 03839. (B)</bibl><bibl>HAE 0509. (B)</bibl><bibl>AE 1955, 0161. (B)</bibl><bibl>P. Beltrán, MemMusAProvinc 11/12, 1950/51, 124. (B) - AE 1955.</bibl><bibl>CIL 02 (2. Aufl.) 14, 00331.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

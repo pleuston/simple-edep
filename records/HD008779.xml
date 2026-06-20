@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Pompeii &amp;ndash; Pompei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008779</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008779</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170336">Pompei</placeName><placeName type="findspot"/><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1997-07-11" who="Scheithauer">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Ser</abbr><ex>vio</ex></expan> Assinio <note>sic</note> Celere <expan><abbr>Sex</abbr><ex>to</ex></expan> Nonio co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="2"/>IV <expan><abbr>K</abbr><ex>alendas</ex></expan> Septe<expan><ex>m</ex><abbr>beres</abbr></expan> <note>sic</note> <lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> Novius E<supplied reason="lost">u</supplied>nus scripssi <note>sic</note> me <lb n="4"/>debere <supplied reason="lost">Hes</supplied>uco <note>sic</note> <expan><abbr>C</abbr><ex>ai</ex></expan> C<expan><ex>a</ex><abbr>essaris</abbr></expan> <note>sic</note> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="5"/><expan><abbr>Ger</abbr><ex>manici</ex></expan> <expan><abbr><supplied reason="lost">se</supplied>r</abbr><ex>vo</ex></expan> Eueniano <lb n="6"/><expan><abbr>s<supplied reason="lost">e</supplied>sterti</abbr><ex>os</ex></expan> <supplied reason="lost">mille</supplied> centum trigin<expan><ex>t</ex><abbr>a</abbr></expan> <lb n="7"/><expan><abbr>numm</abbr><ex>os</ex></expan> quos ab eo mutuo <lb n="8"/>su<supplied reason="lost">m</supplied>ssi <note>sic</note> qu<supplied reason="lost">os reddam e</supplied>i ipssi <note>sic</note> aut <lb n="9"/><expan><abbr>C</abbr><ex>aio</ex></expan> Sulpicio <supplied reason="lost">Fausto</supplied> cum petiarit <note>sic</note> <lb n="10"/>eosque sestertios mil<expan><ex>l</ex><abbr>e</abbr></expan> <expan><abbr>cent</abbr><ex>um</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> trigin<expan><ex>t</ex><abbr>a</abbr></expan> nu<supplied reason="lost">m</supplied>mos <expan><abbr>q</abbr><ex>uae</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>ripta</ex></expan> <expan><abbr>s</abbr><ex>unt</ex></expan> <lb n="2"/>proba <expan><abbr>rect</abbr><ex>e</ex></expan> <supplied reason="lost">da</supplied>ri <expan><abbr>stipulatu</abbr><ex>s</ex></expan> <lb n="3"/>est <expan><abbr>He</abbr><ex>sychus</ex></expan> <supplied reason="lost"><expan><abbr>C</abbr><ex>ai</ex></expan> C</supplied><expan><ex>a</ex><abbr>essaris</abbr></expan> <note>sic</note> <expan><abbr>August</abbr><ex>i</ex></expan> <lb n="4"/>Germ<supplied reason="lost">anic</supplied>i <expan><abbr>ser</abbr><ex>vus</ex></expan> <expan><abbr>Euenianu</abbr><ex>s</ex></expan> <lb n="5"/>spepo<expan><ex>n</ex><abbr>di</abbr></expan> <note>sic</note> <supplied reason="lost">ego <expan><abbr>C</abbr><ex>aius</ex></expan> No</supplied>vius Eunus <lb n="6"/>actum Put<expan><ex>e</ex><abbr>olis</abbr></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1972, 0088.</bibl><bibl>AE 1980, 0047.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

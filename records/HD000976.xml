@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Stobi, bei &amp;ndash; Sirkovo (Macedonia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000976</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000976</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mus. Sirkovo</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(123)</height><width>75</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Macedonia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/491731">Stobi, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1970"><placeName type="country" ref="https://www.geonames.org/718075">Macedonia</placeName><placeName type="modern" ref="http://www.geonames.org/785871">Sirkovo</placeName><placeName type="findspot"/><placeName type="region">Vardarski region</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000976_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Aeficius</name><name type="cognomen">Maximus</name></persName></person><person xml:id="HD000976_2" sex="W"><persName><name type="nomen">Titia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-12-02" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Aeficio Maximo <lb n="2"/><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Aem</abbr><ex>ilia</ex></expan> Stobis <lb n="3"/><expan><abbr>mil</abbr><ex>iti</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> VII <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> vixit <lb n="4"/><expan><abbr><supplied reason="lost">a</supplied>n</abbr><ex>nos</ex></expan> XXV meruit <expan><abbr>an</abbr><ex>nos</ex></expan> V <lb n="5"/><supplied reason="lost">pos</supplied>uit Titia mater <lb n="6"/><supplied reason="lost">et</supplied> sibi viva
+            </ab></div>
+            <div type="commentary">
+                <p>Genauer Fundort unbekannt. (B): Leseabweichungen. (C): J. Wiseman hält Verbindung zu Seuchenwelle seit 166 n.Chr. für möglich; Strobel datiert Stein etwa Ende 1. bis Mitte 2, Jh.; Wiseman: &amp;quot;&amp;quot;early imperial, no later than the 2nd century;&amp;quot;&amp;quot; AE: 1.-2. Jh.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0883. (BC)</bibl><bibl>J. Wiseman, in: J. Wiseman, Studies in the Antiquity of Stobi (Beograd 1973) 174-176, Nr. 5; fig. 91 u. Korrekturblatt. (BC) - AE.</bibl><bibl>K. Strobel, ZPE 75, 1988, 232-234.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

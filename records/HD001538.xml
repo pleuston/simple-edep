@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Heba &amp;ndash; Magliano (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001538</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001538</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>37</height><width>37</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.8-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413164">Heba</placeName></origPlace><origDate><origDate notBefore-custom="-0100" notAfter-custom="-0001" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">100 BC - 1 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Magliano</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001538_1"><persName><name type="praenomen">L.</name><name type="nomen">Alius</name></persName></person><person xml:id="HD001538_2"><persName><name type="nomen">Alia</name></persName></person><person xml:id="HD001538_3"><persName><name type="nomen">Alia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2000-10-23" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F016011" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/07617b88-271c-47f2-9194-6e877daac6ca/file/id/775589/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Alius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/>an<expan><ex>n</ex><abbr>orum</abbr></expan> natus <lb n="3"/>XXV mortu<expan><ex>u</ex><abbr>s</abbr></expan> est <lb n="4"/>ve&amp;lt;n=V&amp;gt;en&amp;lt;o=E&amp;gt; quia <lb n="5"/>suas iniurias de<lb break="no" n="6"/>fendebat Alias <note>sic</note> <lb n="7"/><expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> fecerunt 
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 4: Saladino: vevene = &amp;quot;&amp;quot;non bene&amp;quot;&amp;quot;, d.h. unverdientermaßen; Solin: verschrieben aus &amp;quot;&amp;quot;veneno&amp;quot;&amp;quot;. (B): AE 1978: Z. 2/3 und Z. 3/4: Zeilentrenner nicht angegeben. AE 1981: Z. 6/7: Zeilentrenner nicht angegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0326.</bibl><bibl>H. Solin, Arctos 15, 1982, 105-106. - AE 1982.</bibl><bibl>AE 1978, 0308. (B)</bibl><bibl>V. Saladino, Prometheus 3, 1977, 183-186; fig. 4. (BC) - AE 1978.</bibl><bibl>AE 1981, 0346. (B)</bibl><bibl>W. Eck - E. Pack, Chiron 11, 1981, 153, Nr. 11. - AE 1981.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

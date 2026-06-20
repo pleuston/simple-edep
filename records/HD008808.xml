@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Portus, bei &amp;ndash; Fiumicino (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008808</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008808</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>43</height><width>131</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118912">Portus, bei</placeName></origPlace><origDate><origDate notBefore-custom="0412" notAfter-custom="0423" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">412 AD - 423 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Fiumicino</placeName><placeName type="findspot">Isola Sacra, ponte di Matidia, bei, Grab, sekundär verwendet</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008808_1"><persName ref="https://www.wikidata.org/wiki/Q159798"><name type="nomen">Flavius</name><name type="cognomen">Honorius</name></persName></person><person xml:id="HD008808_2"><persName><name type="nomen">Flavius</name><name type="cognomen">Theodosius</name></persName></person><person xml:id="HD008808_3"><persName><name type="nomen">Fundanius</name><name type="cognomen">Martyrius Felix</name></persName></person><person xml:id="HD008808_4"><persName><name type="nomen">Flavius</name><name type="cognomen">Splendonius Aufidius</name></persName></person><person xml:id="HD008808_5"><persName><name type="nomen">Iunius</name><name type="cognomen">Pomponius Ammonius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-07-07" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>DD</abbr><ex>ominis</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostris</ex></expan> invictissimis <expan><abbr>principib</abbr><ex>us</ex></expan> Flaviis Honorio et <lb n="2"/>Theodosio Piis <expan><abbr>Felicib</abbr><ex>us</ex></expan> <expan><abbr>victorib</abbr><ex>us</ex></expan> ac <expan><abbr>triumphatorib</abbr><ex>us</ex></expan> <expan><abbr>semp</abbr><ex>er</ex></expan> <expan><abbr>Aug<am>g</am></abbr><ex>ustis</ex></expan> <lb n="3"/>pontem Matidiae transitu intercepto cessantem ac busto <lb n="4"/>obrutum <gap reason="lost" extent="unknown" unit="character"/> Fundanius Martyrius Felix <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan> <lb n="5"/>pra<supplied reason="lost"><expan><abbr>ef</abbr><ex>ectus</ex></expan> urbi <gap reason="lost" extent="unknown" unit="character"/></supplied><expan><abbr>toq</abbr><ex>ae</ex></expan> construc<lb break="no" n="6"/>tum <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">consu</supplied>mmato <lb n="7"/>opere ide<supplied reason="lost">m</supplied>q<supplied reason="lost">ue</supplied> dedicavit </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Florentissimo statu imperii Romani Flavius Splendonius <lb n="2"/>Aufidius <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan> et <expan><abbr>spect</abbr><ex>abilis</ex></expan> <expan><abbr>com</abbr><ex>es</ex></expan> primi <expan><abbr>ord</abbr><ex>inis</ex></expan> et <expan><abbr>praef</abbr><ex>ectus</ex></expan> annonae <lb n="3"/>pontem vetustate labsum <note>sic</note> reparabit <note>sic</note> dedicante <lb n="4"/>mecum pariter Iunio Pomponio Ammonio <lb n="5"/>viro inlustri urbi praefecto
+            </ab></div></div>
+            <div type="commentary">
+                <p>Tafel zweimal für Bauinschriften verwendet (Vorderseite; Rückseite, Ende 5. / Anfang 6. Jh.), schließlich als Grabverschlußplatte eingesetzt. (B): Veloccia Rinaldi, AE 1975: abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1975, 0138. (B)</bibl><bibl>M.L. Veloccia Rinaldi, in: M.L. Veloccia Renaldi - P. Testini, Ricerche archeologiche nell' Isola Sacra. Il pons Matidiae - la basilica di S. Ippolito (Roma 1975) 25-27; fig. 7 (Foto u. Zeichnung). (B) - AE 1975.</bibl><bibl>R. Petriaggi, in: R. Cappelli (Hrsg.), Viae Publicae Romanae, X Mostra Europea del Turismo, Artigianato e delle Tradizioni Culturali, Roma 1991 (Roma 1991) 78-79, Nr. 1; fig. 19 u. 20.</bibl><bibl>AE 1975, 0137. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

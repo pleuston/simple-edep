@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Piercebridge (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007725</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007725</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89274"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1750"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2640299">Piercebridge</placeName><placeName type="findspot"/><placeName type="region">Durham</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007725_1" sex="M"><persName><name type="cognomen">EXN[---]</name></persName></person><person xml:id="HD007725_2" sex="M"><persName><name type="cognomen">Verus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-02-25" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/>EXN<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>German</abbr><ex>iae</ex></expan> Supe<supplied reason="lost"><expan><abbr>r</abbr><ex>ioris</ex></expan></supplied> <lb n="4"/>aetate tr<supplied reason="lost">i</supplied>gin<supplied reason="lost">ta</supplied> <lb n="5"/>b<expan><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>trib</abbr><ex>uni</ex></expan> <supplied reason="lost"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan></supplied> <lb n="6"/>Veri <lb n="7"/>coniunx <lb n="8"/>pientissim<supplied reason="lost">a</supplied> <lb n="9"/><supplied reason="lost">et <gap reason="lost" extent="unknown" unit="character"/> pos</supplied>uerunt <lb n="10"/><supplied reason="lost" cert="low">tit</supplied>ulu<supplied reason="lost">m</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Die Inschrift besteht aus 2 aneinanderpassenden Fragmenten. (B): In Z. 1 [---] statt [D(is) M(anibus)]. In Z. 4 TR[---]CIN[---] statt t[ri]gin[ta]. In Z. 5 [|(centuria) ---] statt [leg(ionis) --- |(centuria)] In Z. 9 [---] vixit [---] statt [tit?]ulu[m].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0462. (B)</bibl><bibl>M.W.C. Hassall - R.S.O. Tomlin, Britannia 17, 1986, 438, Nr. 20; fig. 7 (Foto). - AE 1986. (B)</bibl><bibl>RIB 3258; Zeichnung.</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 27-28, Nr. 18; Zeichnung. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

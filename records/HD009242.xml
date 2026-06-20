@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ruhstorf/Rott (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009242</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009242</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ruhstorf/Rott, Eholfing, Kirche, Südwand, vermauert; Passau, Römermus. Kastell Boiotro (Kopie)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>126</height><width>86</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.0-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1856"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2932879">Ruhstorf/Rott</placeName><placeName type="findspot">Eholfing, {Kirche}, Südwand, sekundär verwendet</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009242_1" sex="W"><persName><name type="nomen">Lollia*</name><name type="cognomen">Attica</name></persName></person><person xml:id="HD009242_2" sex="W"><persName><name type="nomen">Lollia*</name><name type="cognomen">Onesime</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-12-14" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Lol</abbr><ex>liae</ex></expan> Atticae <lb n="2"/>@(obitae) <expan><abbr>a</abbr><ex>nnis</ex></expan> XII <lb n="3"/><expan><abbr>Lol</abbr><ex>lia</ex></expan> Onesime <lb n="4"/><expan><abbr>f</abbr><ex>iliae</ex></expan> <expan><abbr>p</abbr><ex>ientissimae</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Die Lesungen in CIL sind teilweise völlig irrig. Die Lesung D(is) M(anibus) in IBR und AE ist inkorrekt, denn diese Buchstaben fehlen auf dem Stein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05618. (B)</bibl><bibl>IBR 439; tab. 61, 439. (B)</bibl><bibl>AE 1988, 0909. (B)</bibl><bibl>H. Wolff, OstbGrenzm 29, 1987, 209, Nr. 2. - AE 1988.</bibl><bibl>W. Hameter, Die norischen Inschriften Bayerns (Diss. Wien 1992) 128-129, Nr. 95; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

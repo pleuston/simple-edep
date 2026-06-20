@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Palombaro (Umbria (Regio VI))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000815</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000815</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Otricoli, porta S. Severino</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>60</height><width>40</width><depth>23</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Umbria (Regio VI)</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Palombaro</placeName><placeName type="findspot">Via Flaminia</placeName><placeName type="region">Chieti</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000815_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Hortensius</name><name type="cognomen">Priamus</name></persName></person><person xml:id="HD000815_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Servilius*</name><name type="cognomen">Statius*</name></persName></person><person xml:id="HD000815_3" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Attius</name><name type="cognomen">Aiax*</name></persName></person><person xml:id="HD000815_4" sex="M"><persName><name type="cognomen">Philomusus*</name></persName></person><person xml:id="HD000815_5" sex="W"><persName><name type="nomen">Attia</name><name type="cognomen">Nais</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1991-03-27" who="Krempl">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">I</supplied>n <expan><abbr>agr</abbr><ex>o</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> XIX <lb n="2"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Hortensius <expan><abbr>L</abbr><ex>uci</ex></expan> <lb n="3"/><expan><abbr>l</abbr><ex>ibertus</ex></expan> Priamus <lb n="4"/><expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Servil</abbr><ex>ius</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> <expan><abbr>Stati</abbr><ex>us</ex></expan> <lb n="5"/><expan><abbr>C</abbr><ex>aius</ex></expan> Attius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> <expan><abbr>Aia</abbr><ex>x</ex></expan> <lb n="6"/><expan><abbr>CC</abbr><ex>aiorum</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> <expan><abbr>Philomus</abbr><ex>us</ex></expan> <lb n="7"/>Attia <expan><abbr>CC</abbr><ex>aiorum</ex></expan> <expan><abbr>l</abbr><ex>iberta</ex></expan> Nais
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Widerspruch bei Pietrangeli zwischen Umschrift und Auflösung: Z.1: [i]n bzw. [in].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0341. (B)</bibl><bibl>C. Pietrangeli, Epigraphica 3, 1941, 157-158, Nr. 5. (B) - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Nettuno (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008964</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008964</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Nettuno</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1997-07-06" who="Niquet">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/>D<gap reason="lost" extent="unknown" unit="character"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> ex testa<supplied reason="lost">men</supplied><lb break="no" n="2"/><supplied reason="lost">to</supplied><gap reason="lost" extent="unknown" unit="character"/> Malei<supplied reason="lost" cert="low">ani</supplied> <lb n="3"/><supplied reason="lost">ut caduca v</supplied>ind<supplied reason="lost">i</supplied>cata <lb n="4"/><supplied reason="lost">ex<certainty locus="name" match="preceding-sibling::text()" cert="low"/> sente</supplied>ntia iudicis <lb n="5"/><supplied reason="lost">limes<certainty locus="name" match="preceding-sibling::text()" cert="low"/> au</supplied><expan><abbr>tem</abbr><ex cert="low"/></expan> (a) lapide ca<lb break="no" n="6"/><supplied reason="lost">eso a vi</supplied>a deflecsat <note>sic</note> in <lb n="7"/><supplied reason="lost">parte</supplied>m dex<supplied reason="lost">t</supplied>er<supplied reason="lost">i</supplied>orem <lb n="8"/><supplied reason="lost">ad lac</supplied><expan><abbr>um</abbr><ex cert="low"/></expan> quem Voli<supplied reason="lost">s</supplied><lb break="no" n="9"/><supplied reason="lost">si (Croci) la</supplied><expan><abbr>cum</abbr><ex cert="low"/></expan> videre <expan><abbr>es</abbr><ex>t</ex></expan> <lb n="10"/><supplied reason="lost">dei</supplied>n <supplied reason="lost">r</supplied>ecto rigore <lb n="11"/><supplied reason="lost">der</supplied>ig<supplied reason="lost">a</supplied>t at arundi<lb break="no" n="12"/><supplied reason="lost">ne</supplied>ti an<supplied reason="lost">gu</supplied>lum qu<supplied reason="lost">i</supplied> <lb n="13"/><supplied reason="lost">si</supplied>ne consrovirsi<lb break="no" n="14"/>a <note>sic</note> ad poss<expan><ex>ess</ex><abbr>ionem</abbr></expan> Vo<lb break="no" n="15"/><supplied reason="lost">lu</supplied>ssi Croci pertinet <lb n="16"/>dein ab illo angu<lb break="no" n="17"/>lo derig<supplied reason="lost">at</supplied> ad lapi<lb break="no" n="18"/>dem alium vete<lb break="no" n="19"/>rem que&amp;lt;m=N&amp;gt; termi</ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">nus<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>] <lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> ut eius m</supplied>od<supplied reason="lost" cert="low">i</supplied> <lb n="3"/><supplied reason="lost">vi</supplied>am Croc<supplied reason="lost">i</supplied> rigo<supplied reason="lost">r</supplied> <lb n="4"/>interrumpat n<supplied reason="lost">ul</supplied>lis intus lapidi<supplied reason="lost">b</supplied>u<supplied reason="lost">s</supplied> <lb n="5"/>au&amp;lt;t=S&amp;gt; terminis defi<lb break="no" n="6"/>nitus qua mita <note>sic</note> e <lb n="7"/>possessionem <note>sic</note> e<lb break="no" n="8"/>grediatur pr<supplied reason="lost">a</supplied>e<lb break="no" n="9"/>ter limitum <expan><abbr>aute</abbr><ex>m</ex></expan> <lb n="10"/>au&amp;lt;c=O&amp;gt;toritatem a<lb break="no" n="11"/>liquamdiu de <supplied reason="lost">p</supplied>os<lb break="no" n="12"/>sessionis iur<supplied reason="lost">e qu</supplied><lb break="no" n="13"/>aesir<supplied reason="lost">a</supplied>m et e <supplied reason="lost">Vo</supplied><lb break="no" n="14"/>lussi quidem <supplied reason="lost">Cro</supplied><lb break="no" n="15"/>ci parte allega<supplied reason="lost">batu</supplied><lb break="no" n="16"/>r eum a re public<supplied reason="lost">a con</supplied><lb break="no" n="17"/>se<supplied reason="lost">c</supplied>tum ante an<supplied reason="lost">nos</supplied> <lb n="18"/>fere sex semisse e<supplied reason="lost" cert="low">sse</supplied> <lb n="19"/><supplied reason="lost">e</supplied>o de loco <expan><abbr>q</abbr><ex>uo</ex></expan> <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>a</abbr><ex>gitur</ex></expan> s<supplied reason="lost">ine</supplied> <lb n="20"/>intermissione c<supplied reason="lost">on</supplied><lb break="no" n="21"/>tendisse rem pub<supplied reason="lost">lica</supplied><lb break="no" n="22"/>m autem Ostiensi<supplied reason="lost">um ut</supplied> <lb n="23"/>in bonis caduci<supplied reason="lost">s par</supplied><lb break="no" n="24"/>tis Livi Primi </ab></div><div n="3" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>] </ab></div><div n="4" type="textpart"><ab><lb n="1"/> A<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>ET<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>DI<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>MO<gap reason="lost" extent="unknown" unit="character"/> 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Inschrift heute in Pereta (Magliano in Toscana, Grosseto) in Privatbesitz.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1987, 0391.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

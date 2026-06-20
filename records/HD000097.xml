@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Lara de los Infantes? (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000097</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000097</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Gijón, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(43)</height><width>(45)</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Lara de los Infantes?</placeName><placeName type="findspot"/><placeName type="region">Burgos?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000097_1" sex="W"><persName><name type="nomen">Dessica+</name><name type="cognomen">Ambata</name></persName></person><person xml:id="HD000097_2" sex="M"><persName><name type="cognomen">Rufus</name></persName></person><person xml:id="HD000097_3" sex="M"><persName><name type="cognomen">Titus</name></persName></person><person xml:id="HD000097_4" sex="M"><persName><name type="cognomen">Va(---)</name></persName></person><person xml:id="HD000097_5" sex="W"><persName><name type="nomen">Dessica</name><name type="cognomen">Arcea+</name></persName></person><person xml:id="HD000097_6" sex="M"><persName><name type="cognomen">Paternus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-04" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Ambatae <lb n="2"/><supplied reason="lost">D</supplied>essic<lb break="no" n="3"/><supplied reason="lost">a</supplied>e Rufi <lb n="4"/><supplied reason="lost"><expan><abbr>f</abbr><ex>iliae</ex></expan></supplied> <expan><abbr>an</abbr><ex>norum</ex></expan> LV <lb n="5"/>Titus <lb n="6"/><abbr>Va</abbr> soc<lb break="no" n="7"/><supplied reason="lost">e</supplied>rae </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">A</supplied>rceae <lb n="2"/>Dessic<lb break="no" n="3"/>ae Pat<supplied reason="lost">er</supplied><lb break="no" n="4"/>ni <expan><abbr>f</abbr><ex>iliae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> X<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>Titus <lb n="6"/>uxso<supplied reason="lost">ri</supplied> <note>sic</note>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Herkunft des Steins aufgrund des Dekors: Lara de los Infantes oder Monte Cildá. (B): rechte Inschrift: Z.5: Titus fehlt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0600. (B)</bibl><bibl>J. Mangas - I. Cortina, in: Paganismo y cristianismo en el occidente del imperio romano (Oviedo 1983) 269-271; lám. 7. - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

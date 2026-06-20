@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Opitergium, bei &amp;ndash; Campo di Pietra (Venetia et Histria (Regio X))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004460</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004460</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Venetia et Histria (Regio X)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/393459">Opitergium, bei</placeName></origPlace><origDate><origDate notBefore-custom="-0050" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">50 BC - 50 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Campo di Pietra</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004460_1"><persName><name type="nomen">Poblicia*</name><name type="cognomen">Phoebe+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1997-07-01" who="Scheithauer">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>in <expan><abbr>fr</abbr><ex>onte</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> XX <lb n="2"/><expan><abbr>r</abbr><ex>etro</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> XXXX <lb n="3"/><expan><abbr>Pobli</abbr><ex>icia</ex></expan> Phoeb<supplied reason="lost">e</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Forlati-Tamaro gibt keinen Text.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0288.</bibl><bibl>B. Forlati-Tamaro, Iscrizioni lapidarie latine del Museo Civico di Oderzo (Treviso 1976) 96, Nr. 3; foto 8. (B) - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

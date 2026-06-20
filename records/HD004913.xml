@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Aquileia &amp;ndash; Aquileia (Venetia et Histria (Regio X))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004913</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004913</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aquileia, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Venetia et Histria (Regio X)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118569">Aquileia</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Aquileia</placeName><placeName type="findspot"/><placeName type="region">Udine</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004913_1"><persName><name type="praenomen">P.</name><name type="nomen">Aelius</name><name type="cognomen">Mercurialis*</name></persName></person><person xml:id="HD004913_2"><persName><name type="praenomen">Q.</name><name type="nomen">Tessignius</name><name type="cognomen">Maximianus*</name></persName></person><person xml:id="HD004913_3"><persName><name type="praenomen">T.</name><name type="nomen">Aurelius*</name><name type="cognomen">Victor</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-06-25" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F001231" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4af9d7a0-4a4d-4094-b41c-365dfe89f1fe/file/id/762323/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>eo</ex></expan> <expan><abbr>I</abbr><ex>nvicto</ex></expan> <expan><abbr>I</abbr><ex>nvicto</ex></expan> <expan><abbr>M</abbr><ex>ithrae</ex></expan> <lb n="2"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Aelius <lb n="3"/><expan><abbr>Mercur</abbr><ex>ialis</ex></expan> <lb n="4"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Tessig<lb break="no" n="5"/>nius Maxi<lb break="no" n="6"/><expan><abbr>mian</abbr><ex>us</ex></expan> <expan><abbr>patr</abbr><ex>es</ex></expan> <lb n="7"/><expan><abbr>pros</abbr><ex>edente</ex></expan> <expan><abbr>T</abbr><ex>ito</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> <lb n="8"/>Victore <lb n="9"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olverunt</ex></expan> <expan><abbr>l</abbr><ex>ibentes</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0360.</bibl><bibl>G. Alföldy, ZPE 29, 1978, 157-160. - AE.</bibl><bibl>CIL 05, 00805. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

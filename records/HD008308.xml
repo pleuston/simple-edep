@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Porolissum &amp;ndash; Creaca (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008308</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008308</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zalău, Muz. Ist. Artă</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>83</height><width>140</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.5-9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207361">Porolissum</placeName></origPlace><origDate><origDate when-custom="0213" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">213 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1943"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/675302">Creaca</placeName><placeName type="findspot">Jac, {Lager, porta praetoria}, bei</placeName><placeName type="region">Sălaj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008308_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Antoninus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-02-06" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F013036" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b0c3013e-85ea-4c37-8569-102368f1312f/file/id/772564/file_version/name/small"/><graphic xml:id="F005617" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d63f87c3-6fc2-495f-8443-511dfd7ceb0b/file/id/766394/file_version/name/small"/><graphic xml:id="F020591" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d480710e-d14f-4ddc-ba92-4841a0660deb/file/id/780664/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aur</abbr><ex>elius</ex></expan> <lb n="2"/>Antoninus Pius <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <lb n="3"/>Felix <expan><abbr>Part</abbr><ex>hicus</ex></expan> maximus <lb n="4"/>pontifex <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>Brit</abbr><ex>annicus</ex></expan> <lb n="5"/><expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>uniciae</ex></expan> potestatis XV&amp;lt;I&amp;gt; <lb n="6"/><expan><abbr>imp</abbr><ex>erator</ex></expan> II co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IIII <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> proco<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> fecit
+            </ab></div>
+            <div type="commentary">
+                <p>Tabula ansata; gefunden bei der porta praetoria des Lagers. Zeilenlinien für die Beschriftung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0491. (B)</bibl><bibl>ILD 658.</bibl><bibl>E. Tóth, Porolissum. Das castellum in Moigrad. Ausgrabungen von A. Radnóti, 1943 (Budapest 1978) 19-20, Nr. 7; Taf. 5, 7; Abb. 7 (Zeichnung). (B) - AE 1979.</bibl><bibl>N. Gudea - V. Lucăcel, Inscripţii şi monumente sculpturale în Muzeul de Istorie şi Artă Zalău (Zalău 1975) 8, Nr. 1; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

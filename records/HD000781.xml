@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Colonia Ulpia Traiana Sarmizegetusa &amp;ndash; Sarmizegetusa (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000781</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000781</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarmizegetusa, Muz. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(62)</height><width>(77)</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa</placeName></origPlace><origDate><origDate notBefore-custom="0195" notAfter-custom="0198" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">195 AD - 198 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1980"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667964">Sarmizegetusa</placeName><placeName type="findspot">{Praetorium procuratoris}</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000781_1"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="praenomen">L.</name><name type="nomen">Septimius+</name><name type="cognomen">Severus+ Pertinax+</name></persName></person><person xml:id="HD000781_2"><persName><name type="praenomen">[-]</name><name type="nomen">[---]ronius*</name><name type="cognomen">Antonianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-06-02" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005363" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b3189b19-7502-4dc7-9968-86b9a9da5eb4/file/id/766140/file_version/name/small"/><graphic xml:id="F036701" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e7d15f5a-83f0-4917-87dc-4cd858e9922a/file/id/797561/file_version/name/small"/><graphic xml:id="F036702" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/99875691-e72a-44cd-a59e-58bd7be6e4b8/file/id/797562/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> Cae</supplied><expan><abbr>s</abbr><ex>ari</ex></expan> Lu<supplied reason="lost">cio</supplied> <lb n="2"/><supplied reason="lost">Septimi</supplied>o Sev<supplied reason="lost">ero</supplied> <lb n="3"/><supplied reason="lost">Pio Pe</supplied>rtinaci <supplied reason="lost"><expan><abbr>Aug</abbr><ex>usto</ex></expan></supplied> <lb n="4"/><supplied reason="lost">Arab</supplied>ico Adiabe<supplied reason="lost">nico</supplied> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>ron</abbr><ex>ius</ex></expan> Antonian<supplied reason="lost">us</supplied> <lb n="6"/><expan><abbr><supplied reason="lost">pro</supplied>c</abbr><ex>urator</ex></expan> eius <expan><abbr>prov</abbr><ex>inciae</ex></expan> <expan><abbr>Dac</abbr><ex>iae</ex></expan> Apu<supplied reason="lost"><expan><abbr>l</abbr><ex>ensis</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Datierung: zwischen Sommer 195 und Anfang 198 n. Chr., da die Siegerbeinamen Arabicus Adiabenicus bereits vorhanden sind, Parthicus Maximus aber noch fehlt. (B): Daicoviciu - Alicu - Piso; Piso, ZPE; AE 1983; ILD: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0830. (B)</bibl><bibl>I. Piso, ZPE 50, 1983, 238-239, Nr. 5; Taf. 13, 5; Zeichnung. (B) - AE 1983.</bibl><bibl>H. Daicoviciu - D. Alicu - I. Piso, MatCercA 15, 1981, 273, Nr. 1; fig. 24, 1 (Foto u. Zeichnung). (B)</bibl><bibl>ILD 254.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

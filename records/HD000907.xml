@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Libyssa, bei (Bithynia et Pontus)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000907</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000907</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>İzmit, Museum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(105)</height><width>65</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.8-3.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Bithynia et Pontus</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/511305">Libyssa, bei</placeName></origPlace><origDate><origDate notBefore-custom="0238" notAfter-custom="0244" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">238 AD - 244 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1982"><placeName type="country" ref="https://www.geonames.org/298795">Turkey</placeName><placeName type="modern"/><placeName type="findspot">Fluß Dildere, bei</placeName><placeName type="region">Kocaeli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000907_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Antonius</name><name type="cognomen">Gordianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-30" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>B</abbr><ex>ona</ex></expan> <expan><abbr>F</abbr><ex>ortuna</ex></expan> <lb n="2"/><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar <lb n="3"/>divi Gordiani nepos <lb n="4"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Antonius Gordianus <lb n="5"/>Pius Felix <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <lb n="6"/>pontifex maximus <lb n="7"/>t&amp;lt;r=P&amp;gt;ibuniciae potestatis <lb n="8"/>consul <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="9"/>fortissimus felicissimus <lb n="10"/>restituit <lb n="11"/>a Nicomedia ad fines XXIII <lb n="12"/>κγ 
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Zeigt Schreibfehler nicht an.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0899. (B)</bibl><bibl>S. Şahin - M.A. Işin - M.K. Can, EA 1, 1983, 49, Nr. 2; Taf. 5, 2. - AE 1983.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

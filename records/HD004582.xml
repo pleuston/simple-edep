@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Großkrotzenburg (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004582</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004582</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Großkrotzenburg, Heimatmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>99</height><width>40</width><depth>32</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118710"/></origPlace><origDate><origDate when-custom="0223" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">223 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1960"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2915372">Großkrotzenburg</placeName><placeName type="findspot">{Nebenstraße / Haingasse, Ecke}</placeName><placeName type="region">Hessen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004582_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Cossius</name><name type="cognomen">Florentinus</name></persName></person><person xml:id="HD004582_2" sex="M"><persName><name type="cognomen">Maximus+</name></persName></person><person xml:id="HD004582_3" sex="M"><persName><name type="cognomen">Aelianus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-24" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F030213" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/30129d91-fc02-4ebf-bd49-2d2687d0f1f6/file/id/790970/file_version/name/small"/><graphic xml:id="F030214" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6865a079-a356-4750-b774-7f281ecac84f/file/id/790971/file_version/name/small"/><graphic xml:id="F030215" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8f1ef33f-4403-4cf3-b0d9-58953a2ccc32/file/id/790972/file_version/name/small"/><graphic xml:id="F030216" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b5711025-c154-426b-bed6-fa43898cad82/file/id/790973/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> <lb n="2"/><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <expan><abbr>Iun</abbr><ex>oni</ex></expan> <lb n="3"/>Reginae <lb n="4"/><expan><abbr>Gen</abbr><ex>io</ex></expan> loci <lb n="5"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Cossi<lb break="no" n="6"/>us Floren<lb break="no" n="7"/>tinus <expan><abbr>mil</abbr><ex>es</ex></expan> <lb n="8"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> VIII <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <lb n="9"/><expan><abbr>Sev</abbr><ex>erianae</ex></expan> b<expan><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> pro <lb n="10"/>se <expan><abbr>e</abbr><ex>t</ex></expan> su<supplied reason="lost">i</supplied>s <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> &amp;lt;l=I&amp;gt;(ibens) &amp;lt;l=I&amp;gt;(aetus) <expan><abbr>m</abbr><ex>erito</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> XVII <expan><abbr>K</abbr><ex>alendas</ex></expan> Fe<supplied reason="lost"><expan><abbr>b</abbr><ex>ruarias</ex></expan> Maximo e</supplied>t <expan><abbr>Ael</abbr><ex>iano</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Z. 11 befindet sich auf der Profilierung der crepido. (B): Schillinger-Häfele; AE 1978; Mattern: Z. 10: su[is]; l(ibens) l(aetus); Schallmayer - Eibl - Ott - Preuß - Wittkopf: Z. 10: l(ibens) l(aetus); Cubaynes: Z. 10: su[is] v(otum).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0550. (B)</bibl><bibl>U. Schillinger-Häfele, BRGK 58, 1977, 519, Nr. 127; Taf. 4. - AE 1978.</bibl><bibl>H. Lieb, in: M.G. Jarret - B. Dobson, Britain and Rome (London 1965) 140. - AE 1978.</bibl><bibl>M. Mattern, Römische Steindenkmäler vom Taunus- und Wetteraulimes mit Hinterland zwischen Heftrich und Großkrotzenburg, CSIR Deutschland 2, 12 (Mainz 2001) 125-126, Nr. 276; Tafel 100, 276. (B)</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 96-97, Nr. 106; Foto. (B)</bibl><bibl>PIR (2. Aufl.) M 308.</bibl><bibl>PIR (2. Aufl.) R 92.</bibl><bibl>R. Cubaynes, Les hommes de la VIIIe légion Auguste (Autun 2018) 363-364, Nr. 86; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003809</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003809</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Area Sac. L.go Arg.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(42)</height><width>(30)</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0005" notAfter-custom="0006" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">5 AD - 6 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Largo Argentina</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003809_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">0 / Καίσαρ</name><name type="cognomen">0 / Σεβαστός</name></persName></person><person xml:id="HD003809_2" sex="M"><persName><name type="cognomen">Numenius+ / Νουμήνιος+</name></persName></person><person xml:id="HD003809_3" sex="M"><persName><name type="cognomen">Numenius+ / Νουμήνιος</name></persName></person><person xml:id="HD003809_4" sex="M"><persName><name type="cognomen">Strato+ / Στράτων</name></persName></person><person xml:id="HD003809_5" sex="M"><persName><name type="cognomen">Strato+ / Στράτων</name></persName></person><person xml:id="HD003809_6" sex="M"><persName><name type="cognomen">Strato+</name></persName></person><person xml:id="HD003809_7" sex="M"><persName><name type="cognomen">[---]xenus+ / [---]ξενος+</name></persName></person><person xml:id="HD003809_8" sex="M"><persName><name type="cognomen">0 / 0</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-02-16" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F015105" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6cedb500-4302-4c91-90c1-499ea5a0f6e8/file/id/774682/file_version/name/small"/><graphic xml:id="F010368" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3db1bbb3-0b45-4a41-a171-217f2edd51fa/file/id/769888/file_version/name/small"/><graphic xml:id="F026115" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5990b787-aa2a-4de9-a0fd-c90642499c65/file/id/786867/file_version/name/small"/><graphic xml:id="F030599" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/77925391-dd4a-4bf2-b209-2691f089ef1d/file/id/791356/file_version/name/small"/><graphic xml:id="F030603" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/80f7e7c9-4c02-46c3-95af-312135e1e9f6/file/id/791360/file_version/name/small"/><graphic xml:id="F037462" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/aee25378-4406-4210-8dfc-e57d1f0270d3/file/id/798329/file_version/name/small"/><graphic xml:id="F011242" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5cece241-47f1-423a-a426-ac0cb730cb47/file/id/770765/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> eorumq<supplied reason="lost">ue <gap reason="lost" extent="unknown" unit="character"/>? per Numenium Numeni <expan><abbr>f</abbr><ex>ilium</ex></expan> et Stratonem Stratonis <expan><abbr>f</abbr><ex>ilium</ex></expan></supplied> <lb n="2"/><supplied reason="lost">Stratonis nepotem et <gap reason="lost" extent="unknown" unit="character"/>xenum <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>f</abbr><ex>ilium</ex></expan></supplied> legatos basi<supplied reason="lost">m cum <gap reason="lost" extent="unknown" unit="character"/></supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">Αὐτοκράτορι Καίσαρι Θεοῦ υἱῶ</supplied>ι Σεβαστῶι ἀρχιερεῖ μ<supplied reason="lost">εγίστωι ὑπάτ</supplied>ωι τ<supplied reason="lost">ὸ γι αὐτοκράτορι τὸ ςι δημαρχικῆς</supplied> <lb n="2"/><supplied reason="lost">ἐξουσίας τ</supplied>ὸ ηκ πατρὶ πατρίδος <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="3"/><supplied reason="lost">ὁ δῆμος τῆς πόλεως τῶν Σελευκ</supplied>έων ἐν Πειερίαι τῆς ἱ<supplied reason="lost">ερᾶς </supplied> καὶ ἀσύλου καὶ α<supplied reason="lost">ὐτονόμου καὶ </supplied> συμμά<supplied reason="lost">χου Ῥωμαίων</supplied> <lb n="4"/><supplied reason="lost">πρεσβευσάντων Νουμηνί</supplied>ου τοῦ Νουμηνίου Στ<supplied reason="lost">ρ</supplied>άτωνος τοῦ Στράτωνος δίς <gap reason="lost" extent="unknown" unit="character"/>ξένου τ[ου ------
+            </ab></div></div>
+            <div type="commentary">
+                <p>Drei nicht aneinander passende Fragmente erhalten. Maße des größten Fragments (links): s.o.; Maße der übrigen Fragmente: (Mitte): -24,5 x -33 x 5; (rechts): -25 x -12 x 5. Die Maßangaben der Buchstaben beziehen sich nur auf den lateinschen Text. (B): Marchetti Longhi, AE 1948, Kajanto - Nyberg - Steinby: Z. 2: abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>I. Kajanto - U. Nyberg - M. Steinby, in: L'area sacra di Largo Argentina 1 (Roma 1981) 108 u. 110-111, Nr. 27 A; tav. 37,1-3. (B)</bibl><bibl>G. Alföldy, in: Epigrafia. Actes du colloque en mémoire de Attilio Degrassi (Rome 1991) 675-678; Abb. 3; Abb. 4 (Zeichnung). - AE 1991.</bibl><bibl>AE 1948, 0095. (B)</bibl><bibl>AE 1949, p. 57 s. n. 178.</bibl><bibl>CIL 06, 40313, 1; fig. α-γ; fig. δ.</bibl><bibl>(Zeichnung).</bibl><bibl>AE 1992, 0166.</bibl><bibl>AE 1991, 0239.</bibl><bibl>AE 1992, 0067.</bibl><bibl>G. Alföldy, Studi sull'epigrafia augustea e tiberiana di Roma (Roma 1992) 82-84; fig. 43 (Zeichnung). - AE 1992.</bibl><bibl>G. Marchetti Longhi, BCAR 71, 1943-45, 76-79, Nr. 12; fig. 15. (B) - AE 1948.</bibl><bibl>SEG 41, 0869.</bibl><bibl>AE 1964, 0065.</bibl><bibl>G. Marchetti-Longhi, BCAR 78, 1961/62, 71-72, Nr. 90; fig. 1e. - AE 1964.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

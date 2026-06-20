@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Anninus vicus &amp;ndash; Lecce nei Marsi (Samnium (Regio IV))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004769</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004769</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>108</height><width>69</width><depth>43</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-2.1</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Samnium (Regio IV)</placeName><placeName type="ancient" ref="#">Anninus vicus</placeName></origPlace><origDate><origDate notBefore-custom="0014" notAfter-custom="0051" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">14 AD - 51 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Lecce nei Marsi</placeName><placeName type="findspot">S. Lucia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004769_1"><persName><name type="praenomen">A.</name><name type="nomen">Virgius</name><name type="cognomen">Marus</name></persName></person><person xml:id="HD004769_2"><persName><name type="cognomen">Augustus*</name></persName></person><person xml:id="HD004769_3"><persName ref="https://www.wikidata.org/wiki/Q1407"><name type="praenomen">Ti.</name><name type="nomen">Caesar</name><name type="cognomen">Augustus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2006-08-22" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>A</abbr><ex>ulo</ex></expan> Virgio <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> Marso <lb n="2"/><expan><abbr>prim</abbr><ex>o</ex></expan> <expan><abbr>pil</abbr><ex>o</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> III Gallicae <lb n="3"/>iterum <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>castr</abbr><ex>orum</ex></expan> <expan><abbr>Aegy</abbr><ex>pti</ex></expan> <lb n="4"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>fabr</abbr><ex>um</ex></expan> <expan><abbr>tr</abbr><ex>ibuno</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> in <expan><abbr>praet</abbr><ex>orio</ex></expan> <lb n="5"/>divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> et <expan><abbr>Ti</abbr><ex>beri</ex></expan> Caesaris <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="6"/><expan><abbr>cohort</abbr><ex>ium</ex></expan> XI et IIII <expan><abbr>praetoriar</abbr><ex>um</ex></expan> <lb n="7"/><expan><abbr>IIIIvir</abbr><ex>o</ex></expan> <expan><abbr>quinq</abbr><ex>uennali</ex></expan> delato hon<lb break="no" n="8"/>ore ab <expan><abbr>dec</abbr><ex>urionibus</ex></expan> et <expan><abbr>popul</abbr><ex>o</ex></expan> in <expan><abbr>col</abbr><ex>onia</ex></expan> <expan><abbr>Troad</abbr><ex>ensium</ex></expan> <lb n="9"/><expan><abbr>Aug</abbr><ex>usta</ex></expan> et Marru<expan><ex>v</ex><abbr>io</abbr></expan> testamento <lb n="10"/>dedit vicalibus Anninis <expan><abbr>imagin</abbr><ex>es</ex></expan> <lb n="11"/>Caesarum argentias <note>sic</note> quinque <lb n="12"/>et sestertia X milia <lb n="13"/>vicales Annini<surplus>s</surplus> <expan><abbr>honor</abbr><ex>is</ex></expan> <lb n="14"/>causa
+            </ab></div>
+            <div type="commentary">
+                <p>Zum vicus Anninus (bei Marruvium) vgl. CIL 1 (2. Aufl.) 391. Testamentarische Schenkung kaiserlicher imagines an den vicus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0286.</bibl><bibl>C. Letta, Athenaeum 56, 1978, 3-19; Foto. - AE.</bibl><bibl>AE 1996, 0513.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

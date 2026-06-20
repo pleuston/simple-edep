@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005397</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005397</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>(73)</height><width>50</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-1</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="0244" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">244 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Esquilin, S. Antonio Abate, Kirche, bei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005397_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Clodius</name><name type="cognomen">Fortunatus</name></persName></person><person xml:id="HD005397_2" sex="M"><persName><name type="nomen">Aelius</name><name type="cognomen">Florianus</name></persName></person><person xml:id="HD005397_3" sex="M"><persName><name type="nomen">Herennius</name><name type="cognomen">Modestinus</name></persName></person><person xml:id="HD005397_4" sex="M"><persName><name type="nomen">Faltonius</name><name type="cognomen">Restitutianus*</name></persName></person><person xml:id="HD005397_5" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1769"><name type="cognomen">Alexander</name></persName></person><person xml:id="HD005397_6" sex="M"><persName><name type="cognomen">Marcellus</name></persName></person><person xml:id="HD005397_7" sex="M"><persName><name type="cognomen">Peregrinus</name></persName></person><person xml:id="HD005397_8" sex="M"><persName><name type="cognomen">Aemilianus</name></persName></person><person xml:id="HD005397_9" sex="M"><persName><name type="cognomen">Augustus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-01-15" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Herculi sacrum posuit <lb n="2"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Clodius Fortunatus q<expan><ex>uin</ex><abbr>q</abbr><ex>uennalis</ex></expan> perpetuus huius loci </ab></div><div n="2" type="textpart"><ab><lb n="1"/> interlocutiones </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Aeli Floriani Herenni Modestini et Faltoni <lb n="2"/>Rest<expan><ex>it</ex><abbr>utiani</abbr></expan> <expan><abbr>praeff</abbr><ex>ectorum</ex></expan> <expan><abbr>vigil</abbr><ex>um</ex></expan> <expan><abbr>pp</abbr><ex>erfectissimorum</ex></expan> <expan><abbr>vv</abbr><ex>irorum</ex></expan> <lb n="3"/>Florianus <expan><abbr>d</abbr><ex>ixit</ex></expan> quantum ad formam a me datam perti<lb break="no" n="4"/>net quoniam me convenis de hoc inprimis tractan<lb break="no" n="5"/>dum est ita interlocutum me scio esse hesterna <lb n="6"/>die docere partem diversam oportere hoc <lb n="7"/>ex sacra auctoritate descendere ut pensiones <lb n="8"/>non dependerentur et respondit se quibus<lb break="no" n="9"/>cumque rationibus posse ostendere hoc <lb n="10"/>ex sacra auctoritate observari et hodie hoc <lb n="11"/>dicit ex eo tempore inquit ex quo Augustus <lb n="12"/>rem publicam obtinere coepit usque in <expan><abbr>hodier</abbr><ex>num</ex></expan> <lb n="13"/>numquam haec loca pensiones pensitasse <lb n="14"/>et infra Florianus <expan><abbr>d</abbr><ex>ixit</ex></expan> vidi locum dedicatam <lb n="15"/>imaginibus sacris et alio capite <lb n="16"/>Modestinus <expan><abbr>d</abbr><ex>ixit</ex></expan> si quid est iudicatum habet <lb n="17"/>suam auctoritatem si est ut dixi iudicatum <lb n="18"/>interim aput <note>sic</note> me nullae probationes exhi<lb break="no" n="19"/><supplied reason="lost">be</supplied>ntur quibus doceantur fullones in pen<lb break="no" n="20"/><supplied reason="lost">sione</supplied>m iu<supplied reason="lost">r</supplied>e conveniri et alio capite <lb n="21"/>R<supplied reason="lost">est</supplied>it<supplied reason="lost">utia</supplied>nus <expan><abbr>c</abbr><ex>um</ex></expan> <expan><abbr>c</abbr><ex>onsilio</ex></expan> <expan><abbr>c</abbr><ex>ollocutus</ex></expan> <expan><abbr>d</abbr><ex>ixit</ex></expan> manifestum est quid <lb n="22"/>iudicav<supplied reason="lost">erint</supplied> <expan><abbr>pp</abbr><ex>erfectissimi</ex></expan> <expan><abbr>vv</abbr><ex>iri</ex></expan> nam Florianus partibus <lb n="23"/>suis diligentissime functus est qui cum in <lb n="24"/>rem praesentem venisset locum inspexit <lb n="25"/>et universis indiciis examinatis senten</ab></div><div n="4" type="textpart"><ab><lb n="1"/>tiam de eo loco de quo cum maxime <lb n="2"/>qu<expan><ex>a</ex><abbr>eritur</abbr></expan> protulit a qua provoca<supplied reason="lost">tum</supplied> <lb n="3"/>non est et infra Restitutianus <expan><abbr>d</abbr><ex>ixit</ex></expan> <lb n="4"/>Modestinus quoque secutus res <lb n="5"/>a Floriano iudicatas pensiones <lb n="6"/>exigi prohibuit et infra <lb n="7"/>Restitutianus <expan><abbr>d</abbr><ex>ixit</ex></expan> illut <note>sic</note> servabitur <lb n="8"/>fontanis quod obtinuerunt <lb n="9"/>aput <note>sic</note> suos iudices et quod habue<lb break="no" n="10"/>runt in hodiernum sine pensione <lb n="11"/>ex Alexandro <expan><abbr>Aug</abbr><ex>usto</ex></expan> II et Marcello II co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="12"/>litigatum est in <lb n="13"/>Peregrino et Aemiliano co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="14"/>dies <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Von der Basis nur Vorderseite und rechte Nebenseite fragmentarisch erhalten; jew. vermauert in den Musei Capitolini. Maße der Vorderseite: s.o.; Maße der re. Nebenseite: -31,5 x -23, Buchstabenhöhe: 1,9. Rechte Nebenseite im rechten Bereich nicht mehr erhalten; Ergänzungen auf der Grundlage von Fabretti (vgl. CIL VI 266). AE 1980: Keine Textwiedergabe, Verweis auf De Robertis (SDHI); De Robertis (SDHI): abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0037.</bibl><bibl>F.M. De Robertis, SDHI 43, 1977, 113-166. (B) - AE 1980.</bibl><bibl>CIL 06, 00266.</bibl><bibl>F.M. De Robertis, ANRW 2, 14 (Berlin - New York 1982) 791-815.</bibl><bibl>L. Gasperini, in: G. Barbieri (Hrsg.), Il lapidario Zeri di Mentana (Roma 1982) 32-37; fig. 3 (Zeichnung).</bibl><bibl>S. Castellani, in: G.L. Gregori - M. Mattei (Hrsg.), Roma (CIL, IV) 1.</bibl><bibl>Musei Capitolini (Roma 1999) 110-111, Nr. 168; fig. 168, 1 u. 2.</bibl><bibl>PIR (2. Aufl.) F 529.</bibl><bibl>PIR (2. Aufl.) P 536.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

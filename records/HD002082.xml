@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Secinaro, bei (Samnium (Regio IV))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002082</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002082</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Municipio di Secinaro</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>101</height><width>40</width><depth>33</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Samnium (Regio IV)</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="-0050" notAfter-custom="-0001" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">50 BC - 1 BC</origDate></origDate></origin>
+                        <provenance type="found" when="1968"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Secinaro, bei</placeName><placeName type="findspot">Fontana di S. Gregorio, bei, sekundär verwendet</placeName><placeName type="region">L'Aquila</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002082_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Fuficius</name></persName></person><person xml:id="HD002082_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Amaus</name></persName></person><person xml:id="HD002082_3" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Lucius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-15" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Hercules <lb n="2"/>Victor <lb n="3"/>curave<supplied reason="lost">runt</supplied> <lb n="4"/><expan><abbr>T</abbr><ex>itus</ex></expan> Fuficius <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/> <expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <lb n="5"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Amaus <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="6"/><expan><abbr>T</abbr><ex>itus</ex></expan> Lucius <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/> <expan><abbr>f</abbr><ex>ilius</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 4-6: kaum lesbar. Dort stehen vielleicht Namen der magistri fani oder pagi. Material: weißer Kalkstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0292.</bibl><bibl>F. van Wonterghem, Superaequum, Corfinium, Sulmo, Forma Italiae, Regio IV 1 (Firenze 1984) 97, Nr. 14,3a; fig. 79a u. 79b. - AE 1984.</bibl><bibl>M. Buonocore, ZPE 56, 1984, 247, Nr. 1; Taf. 9,1. - AE 1984.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

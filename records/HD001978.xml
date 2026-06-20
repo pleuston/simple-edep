@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquileia, bei &amp;ndash; Aquileia, bei (Venetia et Histria (Regio X))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001978</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001978</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aquileia, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>195</height><width>58</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.2-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Venetia et Histria (Regio X)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118569">Aquileia, bei</placeName></origPlace><origDate><origDate notBefore-custom="-0050" notAfter-custom="-0001" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">50 BC - 1 BC</origDate></origDate></origin>
+                        <provenance type="found" when="1976"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Aquileia, bei</placeName><placeName type="findspot">Nekropole südwestlich der Stadt</placeName><placeName type="region">Udine</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001978_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Flavidius*</name><name type="cognomen">Philogenes</name></persName></person><person xml:id="HD001978_2" sex="W"><persName><name type="nomen">Egnatia</name><name type="cognomen">Amoena</name></persName></person><person xml:id="HD001978_3" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Tudicius*</name></persName></person><person xml:id="HD001978_4" sex="W"><persName><name type="nomen">Baebia</name><name type="cognomen">Frema</name></persName></person><person xml:id="HD001978_5" sex="W"><persName><name type="nomen">Tudicia+</name><name type="cognomen">Secunda</name></persName></person><person xml:id="HD001978_6" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Tudicius*</name><name type="cognomen">Cervolius*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-05-16" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Flavidi</abbr><ex>us</ex></expan> |(mulieris) <expan><abbr>l</abbr><ex>ibertus</ex></expan> <lb n="2"/>Philogenes <lb n="3"/>Egnatia |(mulieris) <expan><abbr>l</abbr><ex>iberta</ex></expan> Amoena <lb n="4"/><expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Tudici</abbr><ex>us</ex></expan> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="5"/>Baebia <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> Frema <lb n="6"/>Secunda <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> <lb n="7"/><expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Tudici</abbr><ex>us</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Cervoli</abbr><ex>us</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 4 und 7: Tucidi(us). (C): Datierung 2. Hälfte des 1. Jh.n. statt v.Chr.; Tucidius. Bei den letzten 4 Personen der Inschrift handelt es sich um romanisierte Einheimische.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0379. (BC)</bibl><bibl>C. Zaccaria, AN 52, 1981, 149-155; Foto. - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

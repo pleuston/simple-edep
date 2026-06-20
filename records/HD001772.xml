@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Minturnae &amp;ndash; Minturno (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001772</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001772</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>62</height><width>220</width><depth>85</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.3-3.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/438787">Minturnae</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Minturno</placeName><placeName type="findspot">Foce del Garigliano bei torre di Pandolfo Capodiferro</placeName><placeName type="region">Latina</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001772_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius</name><name type="cognomen">Bitus</name></persName></person><person xml:id="HD001772_2" sex="W"><persName><name type="nomen">Grania</name><name type="cognomen">Secunda</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-03-17" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio Bito fi<lb break="no" n="3"/>lio dulcissimo et <lb n="4"/><expan><abbr>incomp</abbr><ex>arabili</ex></expan> qui vixit <lb n="5"/><expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XV <expan><abbr>m</abbr><ex>enses</ex></expan> VI <expan><abbr>d</abbr><ex>ies</ex></expan> VII <expan><abbr>h</abbr><ex>oras</ex></expan> III <lb n="6"/>Grania Secunda <expan><abbr>mat</abbr><ex>er</ex></expan> <expan><abbr>fec</abbr><ex>it</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL X 6024: Z. 4: [q]u[i]; Z. 5: an(nis); CIL X 6024 add.: ann(is) XXVIII m(ensibus) II dieb(us) III; CIL X 6024: Z. 6: G[---] Curda m[a]t(er) f[e]c(it); CIL X 6024 add.: [Gr]ania. (C): Datierung nicht vor Ende des 2. Jh.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0179.</bibl><bibl>M. Pagano, RAAN 56, 1981, 122-124; tav. 5. (C) - AE 1984.</bibl><bibl>CIL 10, 06024. (B)</bibl><bibl>CIL 10, 06024 add. p. 1014. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

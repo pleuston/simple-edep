@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Catina? &amp;ndash; Catania? (Sicilia, Melita)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002989</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002989</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><dimensions unit="cm"><height>53</height><width>(26)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Sicilia, Melita</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/462270">Catina?</placeName></origPlace><origDate><origDate notBefore-custom="0401" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1929"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Catania?</placeName><placeName type="findspot">Via Androne, Nekropole?</placeName><placeName type="region">Catania?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002989_1" sex="M"><persName><name type="cognomen">Honorius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2005-01-04" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                ἐτεληώθη ἐν κυ<supplied reason="lost" cert="low">ρίου ὀνόματι</supplied> <lb n="2"/>ν μακαρια τῇ μνήμῃ <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>ηος ζήσας ἔτι ξ <supplied reason="lost">ἰ</supplied>ενα<lb break="no" n="4"/>ρήῳ ις ἠνδικ(τίονος) ιε </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Hic re<supplied reason="lost">quiescit in pa</supplied><lb break="no" n="2"/>ce bon<supplied reason="lost">ae memoriae Hono</supplied><lb break="no" n="3"/>rius N<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>SO<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>III<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>BO<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Auf der Rückseite ist eine griechische Inschrift eingemeißelt. Die Herkunft des Steins ist unbekannt. Es ist schwer zu sagen, ob griech. oder lat. Inschrift früher ist. Griechische Inschrift: wegen Angabe der Indiktion wohl nicht früher als 5./6. Jh.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0440.</bibl><bibl>G. Libertini, Scritti su Catania antica (Catania 1981) 95-96, Nr. 10. - AE.</bibl><bibl>G. Libertini, ASSO 27, 1931, 46. - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

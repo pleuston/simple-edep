@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mutina &amp;ndash; Modena (Aemilia (Regio VIII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006369</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006369</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>218</height><width>64</width><depth>31</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">10-5.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Aemilia (Regio VIII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/383715">Mutina</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Modena</placeName><placeName type="findspot">Viale A. Gramsci, Hausnummer 238</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006369_1"><persName><name type="praenomen">C.</name><name type="nomen">Betilienus</name><name type="cognomen">Silo</name></persName></person><person xml:id="HD006369_2"><persName><name type="nomen">Blaesiena</name><name type="cognomen">Tertia</name></persName></person><person xml:id="HD006369_3"><persName><name type="cognomen">Statius*</name></persName></person><person xml:id="HD006369_4"><persName><name type="praenomen">P.</name><name type="nomen">Veratius</name><name type="cognomen">Chrestus*?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1998-07-03" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Betilienus <expan><abbr>Sp</abbr><ex>uri</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <lb n="2"/>Silo sibi et <lb n="3"/>Blaesienae <expan><abbr>St</abbr><ex>ati</ex></expan> <expan><abbr>l</abbr><ex>ibertae</ex></expan> <lb n="4"/>Tertiae matri suae <lb n="5"/>arbitratu <expan><abbr>P</abbr><ex>ubli</ex></expan> Verati <lb n="6"/><expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>l</abbr><ex>iberti</ex></expan> C<expan><ex>h</ex><abbr>resti</abbr></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1976: Z. 1: Betil[ie]nus; Z. 3: [l(ibertae)].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1976, 0220. (B)</bibl><bibl>F. Rebecchi, AttiMemModena 4, 1969, 264-267, Nr. 4; tav. 2, 1. - AE 1976.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

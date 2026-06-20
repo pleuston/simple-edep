@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tegianum &amp;ndash; S. Rufo (Bruttium et Lucania (Regio III))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000952</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000952</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Bruttium et Lucania (Regio III)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/442816">Tegianum</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">S. Rufo</placeName><placeName type="findspot">Campanella</placeName><placeName type="region">Campania</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000952_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Luxsilius (= Luxilius)</name><name type="cognomen">Macer</name></persName></person><person xml:id="HD000952_2" sex="W"><persName><name type="nomen">Herennia+</name><name type="cognomen">Tertia+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-30" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Luxsilius <note>sic</note> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/><expan><abbr>Pom</abbr><ex>ptina</ex></expan> Macer <lb n="3"/>arma haec quae cernis princeps lu<supplied reason="lost">dend</supplied>o fui <lb n="4"/>id ita fuisse campus urbis te<supplied reason="lost">stis est</supplied> <lb n="5"/><expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnis</ex></expan> XVIIII </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">Here</supplied>nnia <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> <lb n="2"/><supplied reason="lost">T</supplied>ertia <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> talarum vitilem <lb n="4"/><supplied reason="lost" cert="low">ut</supplied><supplied reason="lost">ut</supplied> cordi forem <lb n="5"/><supplied reason="lost"><expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnis</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied>II
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): Z. 4: te [edocet] statt te[stis est] - AE 1927, Della Corte, InscrIt. - Marsfeld in Rom (InscrIt, Solin) statt campus von Tegianum (Della Corte, Devijver). - Verwandter des Luxilius in CIL 10, 00293 = InscrIt 3,1, 0250 belegt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0291.</bibl><bibl>H. Devijver - F. van Wonterghem, ActALov 21, 1982, 96-97, Nr. 17. - AE 1983.</bibl><bibl>AE 1982, 0224.</bibl><bibl>H. Devijver, ActALov 20, 1981, 41-42, Nr. 15. - AE 1982.</bibl><bibl>H. Devijver, RBPh 62, 1984, 171-172. - AE 1982.</bibl><bibl>H. Solin, Zu lukanischen Inschriften (Helsinki - Helsingfors 1981) 54-55, Nr. 266.267. (B) - AE 1982.</bibl><bibl>AE 1927, 0010a-b. (B)</bibl><bibl>M. Della Corte, ArchStorProvSalerno 5, 1926, 3. (unzugänglich) (B) - AE 1927.</bibl><bibl>M. Della Corte, NSA 1926, 258-260. (B)</bibl><bibl>InscrIt 03, 1, 0266. (B)</bibl><bibl>InscrIt 03, 1, 0267. (B)</bibl><bibl>AE 1929, p. 45 s. n. 168.</bibl><bibl>AE 1935, p. 12 s. n. 26.</bibl><bibl>AE 1995, 0383.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

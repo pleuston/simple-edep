@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Mediana &amp;ndash; Niš, Medijana (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001340</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001340</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(64)</height><width>(59)</width><depth>(54)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207273">Mediana</placeName></origPlace><origDate><origDate notBefore-custom="0316" notAfter-custom="0363" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">316 AD - 363 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1981"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/792214">Niš, Medijana</placeName><placeName type="findspot">Brzi Brod, Kaiserpalast, {Horreum}, Mühle?, sekundär verwendet</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001340_1" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Ampelius</name></persName></person><person xml:id="HD001340_2" sex="M"><persName><name type="cognomen">Ampelianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-10-05" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>Co<expan><ex>ho</ex><abbr>rtali</abbr></expan> <lb n="3"/><expan><abbr>Aurel</abbr><ex>ius</ex></expan> Ampelius <expan><abbr>trib</abbr><ex>unus</ex></expan> <expan><abbr>Bat</abbr><ex>avorum</ex></expan> <lb n="4"/>cum filio s<supplied reason="lost">u</supplied>o <supplied reason="lost">Ampel</supplied>iano <lb n="5"/>ob dedicatio<supplied reason="lost">nem</supplied> domus <lb n="6"/>et salutem suam <supplied reason="lost">su</supplied>orum<lb break="no" n="7"/>que omnium votum po<lb break="no" n="8"/>suerunt
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 4: möglicherweise ein abgekürztes praenomen und Lici[ni]o; Z. 4 (Ende): statt R auch L möglich. Datierung: Nach Mirković sind zwei Datierungen wahrscheinlich: a) 316-321 weilte Konstantin in Illyricum; möglicherweise zählte die cohors Batavorum zu den mit ihm ziehenden Truppen; b) Batavii begleiteten Iulian nach Illyricum und wurden von ihm in Sirmium zurückgelassen. - Nach Iulians Tod Weihung eines Tribunen an heidnische Gottheit unwahrscheinlich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0842.</bibl><bibl>AE 1997, 1307.</bibl><bibl>M. Mirković, in: G. Wirth - K.-H. Schwarte - J. Heinrichs (Hrsg.), Romanitas - Christianitas. Untersuchungen zur Geschichte und Literatur der römischen Kaiserzeit (Berlin - New York 1982) 360-366. - AE 1982.</bibl><bibl>P. Petrović, Medijana. Rezidencija rimskich careva. (Mediana. Residence of Roman emperors) (Beograd 1994) 41-46. 91-96; sl. 32; fig. 32. - AE 1997.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

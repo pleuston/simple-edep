@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007441</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007441</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Naz. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(28)</height><width>(30)</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0238" notAfter-custom="0239" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">238 AD - 239 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Via Appia, 4. - 5. Meilenstein, zwischen</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007441_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Iasdius+</name><name type="cognomen">Domitianus</name></persName></person><person xml:id="HD007441_2" sex="M"><persName><name type="nomen">Iasdius</name><name type="cognomen">Domitianus+</name></persName></person><person xml:id="HD007441_3" sex="M"><persName><name type="nomen">Iasdius</name><name type="cognomen">Honoratianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-04-19" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011142" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/280c186f-17a3-45c4-9ada-12929e1f1462/file/id/770665/file_version/name/small"/><graphic xml:id="F011240" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2023c3f3-f2af-46f1-8ef1-591f52bef0c2/file/id/770763/file_version/name/small"/><graphic xml:id="F011243" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9981dc32-b341-43ef-bb1a-84710b6a4c84/file/id/770766/file_version/name/small"/><graphic xml:id="F032360" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5ed67bd6-d48e-4e0a-8c30-27eeea869909/file/id/793154/file_version/name/small"/><graphic xml:id="F032361" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4c842a04-614e-43f0-99f3-724856b84bf7/file/id/793155/file_version/name/small"/><graphic xml:id="F032362" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/815e19cc-07dd-4050-91b7-7497947e2a2a/file/id/793156/file_version/name/small"/><graphic xml:id="F032363" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1efe3cde-2719-46c2-9a96-924387e47fa3/file/id/793157/file_version/name/small"/><graphic xml:id="F040224" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7ed85d29-e473-4e4f-a1af-6356f81a7fbd/file/id/801106/file_version/name/small"/><graphic xml:id="F040225" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/67f1319a-914e-4b8b-a8e6-1da380a19b94/file/id/801107/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/> Iasdio<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Domitiano <expan><abbr>c</abbr><ex>larissimo</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>leg</abbr><ex>ato</ex></expan></supplied> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <supplied reason="lost"><expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>prov</abbr><ex>inciae</ex></expan> III</supplied> Daciaru<supplied reason="lost">m</supplied> <lb n="2"/><supplied reason="lost">et Panno</supplied><expan><abbr>niae</abbr><ex cert="low"/></expan> i<supplied reason="lost">nferioris <expan><abbr>leg</abbr><ex>ato</ex></expan> A</supplied><expan><abbr>ug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> p<supplied reason="lost" cert="low">r(aetore) prov(inciae) ---</supplied> <expan><abbr>cur</abbr><ex>atori</ex></expan> viae <lb n="3"/><supplied reason="lost">Aem</supplied>iliae <expan><abbr>praef</abbr><ex>ecto</ex></expan> al<supplied reason="lost"><expan><abbr>iment</abbr><ex>orum</ex></expan> <expan><abbr>leg</abbr><ex>ato</ex></expan> le</supplied><expan><abbr>g</abbr><ex>ionis</ex></expan> XIIII <expan><abbr>gem</abbr><ex>inae</ex></expan> <supplied reason="lost">et <expan><abbr>leg</abbr><ex>ionis</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>a</supplied>e <expan><abbr>cur</abbr><ex>atori</ex></expan> <lb n="4"/><supplied reason="lost"><expan><abbr>r</abbr><ex>ei</ex></expan></supplied> <expan><abbr>p</abbr><ex>ublicae</ex></expan> Fulginatium <supplied reason="lost"><expan><abbr>praet</abbr><ex>ori</ex></expan> ae</supplied>dili curuli <supplied reason="lost">quaestori <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>prov</abbr><ex>inciae</ex></expan></supplied> <lb n="5"/>Achaiae <expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>lat</abbr><ex>iclavio</ex></expan> l<supplied reason="lost"><expan><abbr>eg</abbr><ex>ionis</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> Iasdii Dom<supplied reason="lost">itianus et Honoratianus</supplied> <lb n="6"/><supplied reason="lost">fecerunt pa</supplied>tri <supplied reason="lost">optimo</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Vier teilweise aneinanderpassende Fragmente erhalten. Maße von Frgm. a s.o.; Maße von Frg. b (aus zwei Teilen zusammengesetzt): -43 x -35 x 10; Frg. c: verschollen. (B): Fitz, AE 1979, Piso: abweichende Textwiedergaben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0018. (B)</bibl><bibl>CIL 06, 41225; fig. α u. β; fig. γ.</bibl><bibl>(Zeichnung).</bibl><bibl>CIL 06, 01428.</bibl><bibl>CIL 06, 31651.</bibl><bibl>CIL 06, 31805.</bibl><bibl>J. Fitz, RBPh 56, 1978, 71-79. (B) - AE 1979.</bibl><bibl>I. Piso, Fasti provinciae Daciae 1. Die senatorischen Amtsträger (Bonn 1993) 192, Nr. 1. (B)</bibl><bibl>PIR (2. Aufl.) I 12.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

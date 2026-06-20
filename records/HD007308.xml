@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Poetovio &amp;ndash; Hajdina (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007308</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007308</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hajdina, Spodnja Hajdina, Mithraeum I</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>84</height><width>38</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197446">Poetovio</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1898"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3190249">Hajdina</placeName><placeName type="findspot">Spodnja Hajdina, Parzelle Nr. 1067 (alter Katasterplan), {Mithraeum I}</placeName><placeName type="region">Podravska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007308_1" sex="M"><persName ref="http://romans1by1.com/rpeople/16865"><name type="cognomen">Theodorus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-02" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F008995" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/21fcf04c-c5e0-4277-97c0-1f441319bf73/file/id/768761/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Invict</abbr><ex>o</ex></expan> Mithrae <lb n="2"/>et Transitu Dei <lb n="3"/>Theodorus <expan><abbr>p</abbr><ex>ublici</ex></expan> <expan><abbr>p</abbr><ex>ortorii</ex></expan> <lb n="4"/><expan><abbr>scrut</abbr><ex>ator</ex></expan> <expan><abbr>stat</abbr><ex>ionis</ex></expan> <expan><abbr>Poet</abbr><ex>ovionensis</ex></expan> <lb n="5"/>ex visu
+            </ab></div>
+            <div type="commentary">
+                <p>Fundjahr: 1898/99. Auf der linken Nebenseite ein Hahn auf einer Schildkröte, auf der rechten (von oben nach unten) Stern, Rabe, Bogen, phrygische Mütze und Dolch.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1899, 0180.</bibl><bibl>CIL 03, 14354, 27.</bibl><bibl>ILS 4244.</bibl><bibl>AIJ 291; Fotos.</bibl><bibl>CIMRM 1496; fig. 381.</bibl><bibl>CIMRM 1497; fig. 381.</bibl><bibl>W. Gurlitt, JŒAI (Beibl.) 2, 1899, 97-99, Nr. 6; Foto. - AE 1899.</bibl><bibl>P. Selem, Les religions orientales dans la Pannonie romaine. Partie en Yougoslavie (Leiden 1980) 102-103, Nr. 37; pl. 21, 2, 37.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

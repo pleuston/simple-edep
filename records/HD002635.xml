@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Alba Fucens &amp;ndash; Massa d'Albe (Samnium (Regio IV))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002635</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002635</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mus. Civico di Avezzano</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(42)</height><width>(39)</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Samnium (Regio IV)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413005">Alba Fucens</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Massa d'Albe</placeName><placeName type="findspot">Albe</placeName><placeName type="region">Abruzzo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002635_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Titius</name><name type="cognomen">Felicianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-11-04" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>s</abbr><ex>acrum</ex></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> Titio Felicia<lb break="no" n="3"/><supplied reason="lost">n</supplied>o <expan><abbr>IIIIvir</abbr><ex>o</ex></expan> <expan><abbr>aed</abbr><ex>ili</ex></expan> qu<supplied reason="lost">i</supplied> <lb n="4"/><expan><abbr><supplied reason="lost">vi</supplied>x</abbr><ex>it</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXIX <expan><abbr>m</abbr><ex>enses</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost">die</supplied>s XXII <lb n="6"/><supplied reason="lost">cur</supplied>atori anno<lb break="no" n="7"/><supplied reason="lost">nae</supplied> operum <lb n="8"/><supplied reason="lost">publi</supplied>cum <note>sic</note> <lb n="9"/><supplied reason="lost">uxo</supplied>r fec<supplied reason="lost">it</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Die Frau als Dedikantin ist nicht namentlich genannt. (B): Z. 9: AE: fecit; Buonocore: fe[cit]. (C): Datierung: 1./2. Jh.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0360. (BC)</bibl><bibl>M. Buonocore, StudRom 30, 1982, 366-370; tav. 6 u. 8,2. (BC) - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

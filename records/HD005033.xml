@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Pompeii, bei &amp;ndash; Pompei, bei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005033</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005033</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii, bei</placeName></origPlace><origDate><origDate when-custom="0037" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">37 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170336">Pompei, bei</placeName><placeName type="findspot">Murécine</placeName><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-12-10" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> C<expan><ex>a</ex><abbr>es</abbr></expan><surplus>sas</surplus>are Germanico <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="2"/><expan><abbr>Ti</abbr><ex>berio</ex></expan> Claudio Germanico co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="3"/>VI Nonas Iulias <expan><abbr>C</abbr><ex>aius</ex></expan> Novius Eunus <lb n="4"/>scrips<surplus>s</surplus>i me accepisse mutua ab <lb n="5"/>Hessco <note>sic</note> Eunni <note>sic</note> <expan><abbr>Ti</abbr><ex>beri</ex></expan> C<expan><ex>a</ex><abbr>es</abbr></expan><surplus>s</surplus>aris Augusti <lb n="6"/><expan><abbr>l</abbr><ex>iberti</ex></expan> Primiani <expan><abbr>ser</abbr><ex>vo</ex></expan> mutua et <lb n="7"/>debere ei sestertia <lb n="8"/>tr<expan><ex>i</ex><abbr>a</abbr></expan> milia <lb n="9"/><expan><abbr>nummu</abbr><ex>m</ex></expan> pr<expan><ex>a</ex><abbr>e</abbr><ex>ter</ex></expan> HS X <expan><abbr>n</abbr><ex>ummum</ex></expan> <lb n="10"/>qu<expan><ex>a</ex><abbr>e</abbr></expan> alio chirographo meo <lb n="11"/>eidem debo et ea sestertia tr<expan><ex>i</ex><abbr>a</abbr></expan> milia <expan><abbr>num</abbr><ex cert="low">erata</ex></expan> <expan><abbr>nummu</abbr><ex>m</ex></expan> <lb n="12"/><expan><abbr>q</abbr><ex>uae</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>cripta</ex></expan> <expan><abbr>s</abbr><ex>unt</ex></expan> <expan><abbr>pr</abbr><ex>obe</ex></expan> rec<surplus>e</surplus>te dari </ab></div><div n="2" type="textpart"><ab><lb n="1"/> stipulatus ets <note>sic</note> Hessucus <note>sic</note> Euni <lb n="2"/><expan><abbr>Ti</abbr><ex>beri</ex></expan> C<expan><ex>a</ex><abbr>es</abbr></expan><surplus>s</surplus>aris Augusti <expan><abbr>l</abbr><ex>iberti</ex></expan> Primiani <lb n="3"/><expan><abbr>ser</abbr><ex>vus</ex></expan> sp&amp;lt;o=E&amp;gt;po<expan><ex>n</ex><abbr>di</abbr></expan> ego <expan><abbr>C</abbr><ex>aius</ex></expan> Novius Eunus <lb n="4"/>in qua om<surplus>i</surplus>nis sum<expan><ex>m</ex><abbr>a</abbr></expan> dedi ei <lb n="5"/>pignoris tridici Al<expan><ex>e</ex><abbr>xandrini</abbr></expan> modi<lb break="no" n="6"/>um <expan><abbr>septe</abbr><ex>m</ex></expan> milia quot <note>sic</note> est pos<surplus>s</surplus>itum <lb n="7"/>in hor<expan><ex>r</ex><abbr>eis</abbr></expan> Bassianis puplicis <note>sic</note> Put<expan><ex>e</ex><abbr>ola</abbr><ex>norum</ex></expan> <lb n="8"/>medi<expan><ex>i</ex><abbr>s</abbr></expan> hor<expan><ex>r</ex><abbr>e</abbr></expan>&amp;lt;is=SI&amp;gt; quod <supplied reason="lost">facit</supplied> et sac<expan><ex>c</ex><abbr>os</abbr></expan> <expan><abbr>ducen</abbr><ex>t</ex></expan><lb break="no" n="9"/>os lentis <supplied reason="lost">ciceris</supplied> <supplied reason="lost">far</supplied>ris monocoxpi <lb n="10"/>et cados in quibus sunt modium <lb n="11"/>quat<expan><ex>t</ex><abbr>uor</abbr></expan> milia qui sunt pos<surplus>s</surplus>iti in <lb n="12"/>isdem hor<expan><ex>r</ex><abbr>eis</abbr></expan> qu<expan><ex>a</ex><abbr>e</abbr></expan> om<surplus>i</surplus>nia ab om<surplus>i</surplus>ni vi p<expan><ex>e</ex><abbr>riculo</abbr></expan> meo est fat<expan><ex>e</ex><abbr>or</abbr></expan> <lb n="13"/>actum Put<expan><ex>e</ex><abbr>olis</abbr></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> chirographum <expan><abbr>C</abbr><ex>ai</ex></expan> Novii Eueni HS <expan><abbr>MMM</abbr><ex>tria milia</ex></expan> mutua praeter alia HS X <gap reason="lost" extent="unknown" unit="character"/> ob pignus triti<supplied reason="lost">c</supplied>i 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Tabula Pompeiana. (B): Mrozek gibt nur den Text von AE 1972, 87b u. 87c.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0116.</bibl><bibl>S. Mrozek, Eos 66, 1978, 153-155. (B) - AE 1978.</bibl><bibl>AE 1972, 0087a-c.</bibl><bibl>C. Giordano, RAAN 45, 1970, 215-217, Nr. 4; tav. 7-8. - AE 1972.</bibl><bibl>AE 1980, 0047.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

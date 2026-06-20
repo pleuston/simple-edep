@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from (Civitas Tribocorum) &amp;ndash; Kauffenheim (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007857</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007857</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Strasbourg, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>115</height><width>45</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5-8.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Tribocorum)</placeName></origPlace><origDate><origDate notBefore-custom="0250" notAfter-custom="0251" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">250 AD - 251 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1858"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3011970">Kauffenheim</placeName><placeName type="findspot"/><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007857_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Messius</name><name type="cognomen">Valens Hostilianus Quintus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-09-06" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F021669" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fd469b6d-c246-439d-a8a4-ff4612359c86/file/id/781748/file_version/name/small"/><graphic xml:id="F021670" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/52140418-710d-4fcc-b14e-9eeb14e34459/file/id/781749/file_version/name/small"/><graphic xml:id="F021671" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/41c5a2b7-ff30-4751-8201-c60f6a5df682/file/id/781750/file_version/name/small"/><graphic xml:id="F021672" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c58c35a6-96eb-4fc7-9948-b91d9faa4c02/file/id/781751/file_version/name/small"/><graphic xml:id="F021673" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c25ccf22-a80a-4f5f-850f-a5c31b036a51/file/id/781752/file_version/name/small"/><graphic xml:id="F038965" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/15904d44-bdcf-40cb-9952-e26f2372d322/file/id/799838/file_version/name/small"/><graphic xml:id="F038966" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/08e830a0-b9ab-4ea4-8f14-f45513c5dbb1/file/id/799839/file_version/name/small"/><graphic xml:id="F038967" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/81823d77-0102-431f-abb7-d0d2a0e7cdc8/file/id/799840/file_version/name/small"/><graphic xml:id="F038968" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8b9a764e-a548-4d16-8dd3-d0453640aae9/file/id/799841/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Valenti H<lb break="no" n="2"/>ostiliano <lb n="3"/>Messio Q<expan><ex>u</ex><abbr>i</abbr></expan><lb break="no" n="4"/>nto nobili<lb break="no" n="5"/>ssimo <expan><abbr>Cae</abbr><ex>sari</ex></expan> <lb n="6"/><expan><abbr>c</abbr><ex>ivitas</ex></expan> <expan><abbr>Trib</abbr><ex>ocorum</ex></expan> <lb n="7"/>a <expan><abbr>Vro</abbr><ex>comago</ex></expan> <lb n="8"/><expan><abbr>l</abbr><ex>eugas</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente einer Leugensäule, ursprünglich vier Fragmente noch erhalten, Lesung nach CIL 13, 09097, wo noch alle vier Fragmente wiedergegeben sind. Funddatum: zwischen 1850 und 1858.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0522.</bibl><bibl>S. Dardaine - M.D. Waton, CAAH 29, 1986, 37-39; fig. 3a u. b; fig. 4 (Zeichnung). - AE 1986.</bibl><bibl>CIL 13, 09097.</bibl><bibl>CIL 17, 02, 00600.</bibl><bibl>(o. Autor), in: P. Flotté u. a., Le Bas-Rhin, Carte Archéologique de la Gaule 67, 1 (Paris 2000) 374-375; fig. 252 (Zeichnung).</bibl><bibl>M. Roth-Zehner, in: B. Schnitzler (Hrsg.), Brumath - Brocomagus. Capitale de la cité des Triboques (Strasbourg 2015) 70; fig. 5.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

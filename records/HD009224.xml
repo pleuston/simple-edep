@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Quintana &amp;ndash; Künzing (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009224</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009224</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118919">Quintana</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2882431">Künzing</placeName><placeName type="findspot"/><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-11-08" who="Osnabrügge">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------ <expan><abbr>equit</abbr><ex>ibus</ex></expan> et peditibus qui <expan><abbr>mil</abbr><ex>itaverunt</ex></expan> in alis -]II q<supplied reason="lost">u</supplied>a<supplied reason="lost">e</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>apell</abbr><ex>antur</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> G</supplied><expan><abbr>e<supplied reason="lost">me</supplied>l</abbr><ex>liana</ex></expan> <lb n="3"/><supplied reason="lost">et <expan><abbr>coh</abbr><ex>ortibus</ex></expan> XIV et I <expan><abbr>Flav</abbr><ex>ia</ex></expan> <expan><abbr>Canath</abbr><ex>enorum</ex></expan> et I</supplied> <expan><abbr>B<supplied reason="lost">r</supplied>eu</abbr><ex>corum</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <lb n="4"/><supplied reason="lost">et I <expan><abbr>Raet</abbr><ex>orum</ex></expan> et II <expan><abbr>Raet</abbr><ex>orum</ex></expan> et II Aqui</supplied><expan><abbr>t<supplied reason="lost">a</supplied>n</abbr><ex>orum</ex></expan> et <lb n="5"/><supplied reason="lost">III <expan><abbr>Brac</abbr><ex>araugustanorum</ex></expan> et III <expan><abbr>Thrac</abbr><ex>um</ex></expan> <expan><abbr>vet</abbr><ex>erana</ex></expan> et III T</supplied>hr<supplied reason="lost"><expan><abbr>ac</abbr><ex>um</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan></supplied> <lb n="6"/><supplied reason="lost">et III <expan><abbr>Brit</abbr><ex>annorum</ex></expan> et IV <expan><abbr>Gall</abbr><ex>orum</ex></expan> et IV <expan><abbr>Tung</abbr><ex>rorum</ex></expan></supplied> <expan><abbr>vex</abbr><ex>illatio</ex></expan> <supplied reason="lost">et V</supplied> <lb n="7"/><supplied reason="lost"><expan><abbr>Brac</abbr><ex>araugustanorum</ex></expan> et VI <expan><abbr>Lus</abbr><ex>itanorum</ex></expan> et IX <expan><abbr>Bat</abbr><ex>avorum</ex></expan> et sunt in</supplied> Rae<supplied reason="lost">tia</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0903.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

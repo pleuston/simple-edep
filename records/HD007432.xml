@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bononia &amp;ndash; Bologna (Aemilia (Regio VIII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007432</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007432</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>62</height><width>22</width><depth>33</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-1.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Aemilia (Regio VIII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109008">Bononia</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Bologna</placeName><placeName type="findspot">Via Oberda/Via degli Albari, Ecke</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007432_1"><persName><name type="nomen">Sosia</name><name type="cognomen">Isias</name></persName></person><person xml:id="HD007432_2"><persName><name type="praenomen">Q.</name><name type="nomen">Sosius</name><name type="cognomen">Argolicus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1998-06-19" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F023340" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/22b1ce53-1c24-45af-997d-3be8b2feeab9/file/id/783999/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Sosiae <lb n="3"/>Isiadis <lb n="4"/>puellae dul<lb break="no" n="5"/><expan><abbr>cissim</abbr><ex>ae</ex></expan> quae <lb n="6"/>vixit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XII <lb n="7"/>menses VII <lb n="8"/>dies XV <lb n="9"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Sosius <lb n="10"/>Argolicus <lb n="11"/>pater desolatus
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1976, 0202.</bibl><bibl>G. Susini - R. Pincelli, Il lapidario (Bologna 1960) 97-98, Nr. 102. - AE 1976.</bibl><bibl>G. Mansuelli, Epigraphica 3, 1941, 95, Nr. 11. - AE 1976.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

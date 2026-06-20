@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription? from Ferentinum? &amp;ndash; Ferentino? (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001544</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001544</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kryptoporticus</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(36)</height><width>(17)</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-6.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/438734">Ferentinum?</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Ferentino?</placeName><placeName type="findspot"/><placeName type="region">Frosinone?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001544_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-11" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> honore co</supplied>ntentu<supplied reason="lost">s</supplied> <lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> impensam remisit i</supplied><expan><abbr>t</abbr><ex>em</ex></expan> ob patroc<supplied reason="lost">inium</supplied> <lb n="3"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> dedit d</supplied><expan><abbr>ecur</abbr><ex>ionibus</ex></expan> q<expan><ex>uibus</ex><abbr>q</abbr><ex>ue</ex></expan> <expan><abbr>i</abbr><ex>us</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <supplied reason="lost"><expan><abbr>u</abbr><ex>na</ex></expan> <expan><abbr>v</abbr><ex>escendi</ex></expan></supplied> <lb n="4"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> HS <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>n</abbr><ex>ummum</ex></expan> et cenam adie</supplied>ctam <lb n="5"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> seviris Au</supplied><expan><abbr>g</abbr><ex>ustalibus</ex></expan> et <expan><abbr>q</abbr><ex>uibus</ex></expan> <expan><abbr>u</abbr><ex>na</ex></expan> <expan><abbr>v</abbr><ex>esci</ex></expan> <supplied reason="lost"><expan><abbr>i</abbr><ex>us</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>sing</abbr><ex>ulis</ex></expan> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">municipib</supplied>us et inco<supplied reason="lost">lis</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> HS IIII <expan><abbr>n</abbr><ex>ummum</ex></expan> <lb n="9"/><supplied reason="lost"><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan></supplied> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Die genaue Herkunft der Tafel ist unbekannt. (A): Zuweisung des Fundortes in falsche Regio Italiae. (B): Bartoli: mehrere Buchstaben falsch gelesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0312. (A)</bibl><bibl>H. Solin, SupplIt 1 (Roma 1981) 47-48, Nr. 16; Foto. - AE 1982.</bibl><bibl>A. Bartoli, RAL 9, 1954, 496, Nr. 7; fig. 6,9. (B) - AE 1982.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

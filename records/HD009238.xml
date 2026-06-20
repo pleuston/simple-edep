@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009238</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009238</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Vat. (Lap. Prof. Ex Lat.); Roma, Mus. Cap.; Roma, Mus. Civ. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>29</height><width>(57)</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-1.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="0052" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">52 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009238_1" sex="M"><persName><name type="praenomen">Ti.+</name><name type="nomen">Claudius+ Caisar+</name><name type="cognomen">Augustus+ Germanicus*</name></persName></person><person xml:id="HD009238_10" sex="W"><persName><name type="nomen">Iulia+</name><name type="cognomen">Saturnina</name></persName></person><person xml:id="HD009238_11" sex="M"><persName><name type="cognomen">Sulla+ Felix</name></persName></person><person xml:id="HD009238_12" sex="M"><persName><name type="nomen">Marcius+</name><name type="cognomen">Barea Soranus+</name></persName></person><person xml:id="HD009238_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Iulianus</name></persName></person><person xml:id="HD009238_3" sex="M"><persName><name type="praenomen">Ti.+</name><name type="nomen">Claudius</name><name type="cognomen">Soterichus</name></persName></person><person xml:id="HD009238_4" sex="M"><persName><name type="praenomen">M.+</name><name type="nomen">Livius+</name><name type="cognomen">Tanais+</name></persName></person><person xml:id="HD009238_5" sex="M"><persName><name type="praenomen">Ti.+</name><name type="nomen">Iulius</name><name type="cognomen">Olympicus</name></persName></person><person xml:id="HD009238_6" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Attalus+?</name></persName></person><person xml:id="HD009238_7" sex="M"><persName><name type="praenomen">Ti.+</name><name type="nomen">Iulius+</name><name type="cognomen">Daphnus</name></persName></person><person xml:id="HD009238_8" sex="M"><persName><name type="nomen">Hosidius*</name><name type="cognomen">Geta</name></persName></person><person xml:id="HD009238_9" sex="M"><persName><name type="nomen">Flavius</name><name type="cognomen">Sabinus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-08-02" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010263" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1cfbff83-c559-4b9b-868f-52993a74a93a/file/id/769783/file_version/name/small"/><graphic xml:id="F010726" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4ffeed56-818e-4b4d-b715-6715891ddc81/file/id/770246/file_version/name/small"/><graphic xml:id="F010264" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/39af014b-0cf1-4767-b45e-f3ed3c7464b0/file/id/769784/file_version/name/small"/><graphic xml:id="F026169" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8fa345da-64d5-458e-86b1-8b039f4ef20b/file/id/786921/file_version/name/small"/><graphic xml:id="F026170" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6b0b85cb-5ed3-40cf-b125-b73004b702ee/file/id/786922/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Ti</abbr><ex>berio</ex></expan> Claudio Caisari Augu</supplied>sto <expan><abbr>German</abbr><ex>ico</ex></expan> <expan><abbr>pontif</abbr><ex>ici</ex></expan> <expan><abbr>maxim</abbr><ex>o</ex></expan> <lb n="2"/><supplied reason="lost"><expan><abbr>Larib</abbr><ex>us</ex></expan> <expan><abbr>domnic</abbr><ex>is</ex></expan> <expan><abbr>decur</abbr><ex>iae</ex></expan> et c</supplied>ollegio Augustiano maiori <expan><abbr>cast</abbr><ex>rensi</ex></expan> <lb n="3"/><supplied reason="lost"><expan><abbr>mag</abbr><ex>istri</ex></expan> <expan><abbr>coll</abbr><ex>egii</ex></expan> huius anni</supplied> <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>d</abbr><ex>ono</ex></expan> <expan><abbr>d</abbr><ex>ederunt</ex></expan> aediculam <expan><abbr>marm</abbr><ex>oratam</ex></expan> ita ut est <lb n="4"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Aug</abbr><ex>usti</ex></expan> Iulianus <expan><abbr>pediseq</abbr><ex>uus</ex></expan> T</supplied><expan><abbr>i</abbr><ex>berius</ex></expan> Claudius <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> Soterichus <lb n="5"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arcus</ex></expan> Livius Augustae liberti <expan><abbr>lib</abbr><ex>ertus</ex></expan> Tanais T</supplied><expan><abbr>i</abbr><ex>berius</ex></expan> Iulius Olympicus <expan><abbr>q</abbr><ex>uaestor</ex></expan> primus <expan><abbr>fact</abbr><ex>us</ex></expan> ex <expan><abbr>decurion</abbr><ex cert="low">ibus</ex></expan> <lb n="6"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> Attalus<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>Ti</abbr><ex>berius</ex></expan> I</supplied>ulius Daphnus <expan><abbr>d</abbr><ex>ecurio</ex></expan> <expan><abbr>dedic</abbr><ex>atum</ex></expan> <expan><abbr>K</abbr><ex>alendis</ex></expan> <expan><abbr>Aug</abbr><ex>ustis</ex></expan> <expan><abbr>Hosid</abbr><ex>io</ex></expan> Geta Flavio <expan><abbr>Sabin</abbr><ex>o</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Iu</supplied>lia Olympici <expan><abbr>f</abbr><ex>ilia</ex></expan> Saturnina <expan><abbr>aedicul</abbr><ex>am</ex></expan> <lb n="8"/><supplied reason="lost">vi terrae motus dilapsam reficiu</supplied><expan><abbr>nd</abbr><ex>am</ex></expan> de <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> curaverunt isdem dedicarunt <lb n="9"/><supplied reason="lost"><expan><abbr>Kal</abbr><ex>endis</ex></expan> <expan><abbr>Aug</abbr><ex>ustis</ex></expan> Sulla Felice Ma</supplied>rcio Barea Soran<supplied reason="lost">o <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 40415; Foto.</bibl><bibl>AE 1953, 0024.</bibl><bibl>AE 1980, 0057B.</bibl><bibl>S. Panciera, QuadStAEtrIt 4, 1980, 207-209, Nr. 11; tab. 50 1 u. 2. - AE 1980.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

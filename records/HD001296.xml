@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Colonia Claudia Augusta? Agrippinensium &amp;ndash; Köln (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001296</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001296</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Köln, Röm.-Germ. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(65)</height><width>(103)</width><depth>72</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108751">Colonia Claudia Augusta? Agrippinensium</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1979"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2886242">Köln</placeName><placeName type="findspot">{Bischofsgartenstraße}</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001296_1" sex="M"><persName><name type="praenomen">[-]?</name><name type="nomen">Lollius+?</name><name type="cognomen">Iustus</name></persName></person><person xml:id="HD001296_2" sex="W"><persName><name type="nomen">Caldinia</name><name type="cognomen">Materna+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-06-09" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F037038" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/eb88bf81-da1a-4b79-9d12-95db11adef96/file/id/797903/file_version/name/small"/><graphic xml:id="F037039" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fd0529f8-6aaf-4235-bca4-7502a0101b69/file/id/797904/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">- Lo</supplied>llius Iustus <lb n="2"/><expan><abbr><supplied reason="lost">neg</supplied>otiat</abbr><ex>or</ex></expan> <expan><abbr>c</abbr><ex>oloniae</ex></expan> <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>A</abbr><ex cert="low">ugustae</ex></expan> <expan><abbr>A</abbr><ex>grippinensium</ex></expan> <lb n="3"/><supplied reason="lost" cert="low">vin</supplied><expan><abbr>ar</abbr><ex>ius</ex></expan> et Caldinia <lb n="4"/><supplied reason="lost" cert="low">Mater</supplied>na coiiunx <note>sic</note> <lb n="5"/><supplied reason="lost" cert="low">eius</supplied> <expan><abbr>pp</abbr><ex>osuerunt</ex></expan> vivi sibi
+            </ab></div>
+            <div type="commentary">
+                <p>Der Block ist links auf Anathyrose gearbeitet. Zu einem Grabdenkmal gehörig (Willer).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0661.</bibl><bibl>B. Galsterer - H. Galsterer, in: EpStud 13 (Köln 1983) 187-189, Nr. 15; Abb. 15. - AE 1984.</bibl><bibl>B. Galsterer - H. Galsterer, Die römischen Steininschriften aus Köln, IKöln (2.</bibl><bibl>Aufl.) (Mainz 2010) 360-361, Nr. 432; Foto.</bibl><bibl>S. Willer, Römische Grabbauten des 2. und 3. Jahrhunderts nach Christus im Rheingebiet (Mainz 2005) 164-165, Nr. 124.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

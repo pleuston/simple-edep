@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004417</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004417</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Nürnberg, German. Nationalmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/141">instrumentum militare</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>19</height><width>30</width><depth>28</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0070" notAfter-custom="0086" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 AD - 86 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1885"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Rhein}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004417_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Mummius*</name><name type="cognomen">Lollianus*</name></persName></person><person xml:id="HD004417_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Lucretius</name><name type="cognomen">Celer</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-02-28" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Leg</abbr><ex>ionis</ex></expan> I <expan><abbr>adiu</abbr><ex>tricis</ex></expan> <lb n="2"/>|(centuriae) <expan><abbr>C</abbr><ex>ai</ex></expan> Mum<expan><ex>m</ex><abbr>i</abbr></expan> Lol<expan><ex>l</ex><abbr>iani</abbr></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>uci</ex></expan> Lucreti <lb n="2"/>Celeris </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>uci</ex></expan> Lucreti Celeris <lb n="2"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> I
+            </ab></div></div>
+            <div type="commentary">
+                <p>Helm; die Inschrift verteilt sich auf die seitlichen Enden des Nackenschutzes. Inschriftfelder der beiden Inschriften Z. 1-3 und Z. 4/5 als tabulae ansatae; Inschrift Z. 6/7 steht kopfüber. Schreibtechnik: gepunzt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0561.</bibl><bibl>U. Schillinger-Häfele, BRGK 58, 1977, 505-506, Nr. 95. - AE 1978.</bibl><bibl>H. Klumbach, JRGZ 8, 1961, 96-105; Taf. 43-45.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

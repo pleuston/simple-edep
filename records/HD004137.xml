@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iulia Concordia, bei &amp;ndash; Portogruaro (Venetia et Histria (Regio X))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004137</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004137</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9.8-4.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Venetia et Histria (Regio X)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/393441">Iulia Concordia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170086">Portogruaro</placeName><placeName type="findspot">Summaga, Bauernhaus, sekundär verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004137_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Vet[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD004137_2"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD004137_3" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Vet[---]+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD004137_4" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Vet[---]+</name><name type="cognomen">Rufus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-01-17" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Vet<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>pater d<supplied reason="lost">ecurio</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Foro C<supplied reason="lost">orneli</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>mater <expan><abbr>C</abbr><ex>aius</ex></expan> <supplied reason="lost">Vet</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>frate<supplied reason="lost">r</supplied> d<supplied reason="lost">ecurio <gap reason="lost" extent="unknown" unit="character"/> Foro</supplied> <lb n="6"/>Cornel<supplied reason="lost">i et <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="7"/>Iulia C<supplied reason="lost">oncordia <gap reason="lost" extent="unknown" unit="character"/> Vet<gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="8"/>Rufu<supplied reason="lost">s</supplied> d<supplied reason="lost">ecurio <gap reason="lost" extent="unknown" unit="character"/> Iulia</supplied> <lb n="9"/>Conc<supplied reason="lost">ordia <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>loc</abbr><ex>us</ex></expan> <expan><abbr>dat</abbr><ex>us</ex></expan> <expan><abbr>decret</abbr><ex>o</ex></expan></supplied> <lb n="10"/><expan><abbr>decur<supplied reason="lost">i</supplied>o</abbr><ex>num</ex></expan> <supplied reason="lost" cert="low">testamento</supplied> <lb n="11"/>fier<supplied reason="lost">i iussit</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Von der Inschrift wurden 2 Fragmente gefunden, von denen das eine erhalten, das andere in Umzeichnung überliefert ist. (B): AE 1986, Broilo: Z. 10: decurio(num); Z. 11: fieri iusssit.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0246. (B)</bibl><bibl>F. Broilo, in: F. Broilo, Xenia (Roma 1985) 10-13; fig. 3; fig. 4 (Zeichnung). (B) - AE 1986.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

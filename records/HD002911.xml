@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Pompeii, bei &amp;ndash; Pompei, bei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002911</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002911</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/123">Holz</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii, bei</placeName></origPlace><origDate><origDate when-custom="0040" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">40 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170336">Pompei, bei</placeName><placeName type="findspot">Murécine</placeName><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002911_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Annius</name><name type="cognomen">Seleucus</name></persName></person><person xml:id="HD002911_2" sex="M?"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD002911_3" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Felix</name></persName></person><person xml:id="HD002911_4" sex="M"><persName><name type="cognomen">Nardus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-23" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ubli</ex></expan> Anni Seleuci <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>ser</abbr><ex>vi</ex></expan> <lb n="3"/><expan><abbr>C</abbr><ex>ai</ex></expan> Iuli Felicis <lb n="4"/>Nardi <expan><abbr>P</abbr><ex>ubli</ex></expan> Anni Seleu<lb break="no" n="5"/>ci <expan><abbr>ser</abbr><ex>vi</ex></expan> <lb n="6"/><expan><abbr>P</abbr><ex>ubli</ex></expan> Anni Seleuci
+            </ab></div>
+            <div type="commentary">
+                <p>Die Tafel ist ein addendum zu Tabula Pompeiana 44 = AE 1973, 167. Y: Datierung nach Tabula Pompeiana 44 = AE 1973, 167.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0210.</bibl><bibl>A. Landi, AAP 29, 1980, 192-193; tav. 5. - AE 1984.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

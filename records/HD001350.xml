@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Colonia Claudia Augusta? Agrippinensium, bei &amp;ndash; Eschweiler (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001350</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001350</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(77)</height><width>45</width><depth>19</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.6-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108751">Colonia Claudia Augusta? Agrippinensium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1980"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2924193">Eschweiler</placeName><placeName type="findspot">Neu-Lohn/Fronhoven, {Fronhoven}, Matronenheiligtum</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001350_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Iulius</name><name type="cognomen">Secundus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-08-26" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019855" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1da3faf0-a55d-4ea9-8ee5-cc79623272c8/file/id/779927/file_version/name/small"/><graphic xml:id="F019857" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/71df8235-8be0-45c0-ad5e-02ba39bc0393/file/id/779929/file_version/name/small"/><graphic xml:id="F019858" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bfe3e219-09fc-4e7f-b78e-986d67571c9d/file/id/779930/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Matronis <lb n="2"/>Amfratnineis <lb n="3"/><expan><abbr>T</abbr><ex>itus</ex></expan> Iulius Secun<lb break="no" n="4"/>dus <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Der Altar ist in der Mitte durchgebrochen. Material: gelb-grauer Sandstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0679.</bibl><bibl>C.B. Rüger, in: EpStud 13 (Köln 1983) 132, Nr. 17; Abb. 17. - AE 1984.</bibl><bibl>F. Biller, Kultische Zentren und Matronenverehrung in der südlichen Germania inferior (Rahden 2010) 256, Nr. IV.2.5.3.o.</bibl><bibl>A.G. Garman, The cult of the matronae in the Roman Rhineland. An historical evaluation of the archaeological evidence (Lewiston 2008) 89, Nr. 8.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Octodurus Varagrorum (Forum Claudii Vallensium) &amp;ndash; Martigny (Alpes Poeninae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006770</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006770</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/52">Schiefer</material><dimensions unit="cm"><height>60</height><width>60</width><depth>8</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Poeninae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167859">Octodurus Varagrorum (Forum Claudii Vallensium)</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1975"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2659748">Martigny</placeName><placeName type="findspot"/><placeName type="region">État du Valais</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006770_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Silius*</name><name type="cognomen">Saturus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-17" who="Masci">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Muros <lb n="2"/>vetustate <lb n="3"/>conruptos <lb n="4"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> <expan><abbr>Sil</abbr><ex>ius</ex></expan> Saturu<lb break="no" n="5"/>s flamen <lb n="6"/>IIvirum <lb n="7"/>cura sua <lb n="8"/>resstituit <note>sic</note>
+            </ab></div>
+            <div type="commentary">
+                <p>Mehrere aneinanderpassende Fragmente erhalten. Tafel in Form einer tabula ansata.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0455.</bibl><bibl>F. Wiblé, AV 50, 1975, 152-154; Zeichnung. - AE 1978.</bibl><bibl>P. Ducrey, Vallesia 33, 1978, 26, Nr. 3. - AE 1978.</bibl><bibl>F. Wiblé, HelvArch 21, 1975, 33; Foto.</bibl><bibl>F. Wiblé, Vallesia 33, 1978, 34, Nr. 46.</bibl><bibl>G. Walser, Römische Inschriften in der Schweiz 3 (Bern 1980) 92-93, Nr. 289; Foto.</bibl><bibl>F. Wiblé, Martigny la Romaine (Lausanne 2008) 225, Nr. 339; Foto.</bibl><bibl>F. Wiblé, in: F. Wiblé - P. Curdy -O. Paccolat M.-A. Haldimann, Vallis Poenina, le Valais à l'époque romaine (Sion 1998) 53, Nr. 35; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

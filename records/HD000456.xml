@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Hippo Regius &amp;ndash; ʿAnnaba (Africa Proconsularis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000456</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000456</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Annaba, Mus. Hippo Regius</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>35</height><width>(80)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Africa Proconsularis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/305090">Hippo Regius</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1962"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern">ʿAnnaba</placeName><placeName type="findspot">Zwischen christlicher Basilika und Nordthermen</placeName><placeName type="region">Wilāya ʿAnnāba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000456_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-08-19" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F000519" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6dde4487-f73f-4b19-8372-a0b8cb3599d2/file/id/761613/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">Numi</supplied>ni <expan><abbr>Aug</abbr><ex>usti</ex></expan> et </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">Ven</supplied>eri <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <expan><abbr>sacr</abbr><ex>um</ex></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied> <expan><abbr>lib</abbr><ex>ertus</ex></expan> <expan><abbr>proc</abbr><ex>urator</ex></expan> telonei maritumi <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Erhalten ist ein Fragment der giebelförmigen Front der corona. (B): Z. 2 Schreibfehler: secrum; Z. 3: [---] Aug(usti). (C): Datierung: 1. Hälfte 2. Jh.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0944. (BC)</bibl><bibl>P. Corbier, ZPE 43, 1981, 90-92, Nr. 2; Taf. 5a. (C) - AE 1982.</bibl><bibl>AE 2000, 1602.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

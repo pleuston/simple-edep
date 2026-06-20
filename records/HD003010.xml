@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Olbia, bei &amp;ndash; Mores (Sardinia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003010</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003010</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sassari, Mus. Naz. G.A. Sanna</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/83">Trachyt</material><dimensions unit="cm"><height>142</height><width>50</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Sardinia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/511337">Olbia, bei</placeName></origPlace><origDate><origDate when-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">270 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1980"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Mores</placeName><placeName type="findspot">Località Silvaru, collina Monte Silvaru, bei</placeName><placeName type="region">Sassari</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003010_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius</name><name type="cognomen">Claudius</name></persName></person><person xml:id="HD003010_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius</name><name type="cognomen">Quintillus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-29" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> CXVIIII <lb n="2"/><expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> <expan><abbr>Imp</abbr><ex>eratori</ex></expan> Ca<lb break="no" n="3"/><expan><abbr>es</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio <lb n="4"/>Claudio <expan><abbr>P</abbr><ex>io</ex></expan> Felici <lb n="5"/>Invictis <note>sic</note> <expan><abbr>Aug<am>g</am></abbr><ex>ustis</ex></expan> <note>sic</note> <lb n="6"/>pontifici maxi<lb break="no" n="7"/><surplus>xi</surplus>mo tr<expan><ex>i</ex><abbr>b</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="8"/>proco<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> viam q<lb break="no" n="9"/>u<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>duc</abbr><ex>it</ex></expan> a <expan><abbr>Kar</abbr><ex>alibus</ex></expan> <expan><abbr>Olb</abbr><ex>iae</ex></expan> ve<lb break="no" n="10"/>tust<surplus>i</surplus>(ate) <expan><abbr>corr</abbr><ex>uptam</ex></expan> <expan><abbr>rest</abbr><ex>ituit</ex></expan> <expan><abbr>cur</abbr><ex>ante</ex></expan> <lb n="11"/><expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio Quin<lb break="no" n="12"/>tillo <expan><abbr>proc</abbr><ex>uratore</ex></expan> suo <lb n="13"/><expan><abbr>e</abbr><ex>gregio</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 9/10: ve/tust(ate) I mit Vermerk, daß Fehler vorliegt. Der Meilenstein ist oben abgerundet. Umfang: 125-155. M. Aurelius Quintillus: Bruder des Kaisers, nach seiner Thronbesteigung wird Inschriftentext nachträglich korrigiert: invicto Aug. in invictis Augg. verbessert. Ursprüngliche Datierung zwischen September und Dezember 268. Die Inschrift muß in der Zeit von September bis November (?) 270 umgearbeitet worden sein. Material: roter Trachyt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0446.</bibl><bibl>A. Boninu - A.U. Stylow, Epigraphica 44, 1982, 37-44, Nr. 3; fig. 3 (Foto u. Zeichnung). (B) - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Conthey (Alpes Poeninae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002180</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002180</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/52">Schiefer</material><dimensions unit="cm"><height>(125)</height><width>90</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-10</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Poeninae</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1901"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2661129">Conthey</placeName><placeName type="findspot">Plan-Conthey, ehemalige Kirche, westlich von, heutiger {Friedhof}, sekundär verwendet</placeName><placeName type="region">État du Valais</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002180_1" sex="M"><persName><name type="nomen">Atticus ++</name><name type="cognomen">Senator++</name></persName></person><person xml:id="HD002180_2" sex="M"><persName><name type="cognomen">Avioxsio (= Avixio)++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-17" who="Masci">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <del rend="erasure">Atticus</del> <lb n="2"/><del rend="erasure">Avioxsonis!</del> <lb n="3"/><del rend="erasure"><expan><abbr>fil</abbr><ex>ius</ex></expan> Senator</del> <lb n="4"/><del rend="erasure"><expan><abbr>a</abbr><ex>nnorum</ex></expan> XXV hic</del> <lb n="5"/><del rend="erasure">situs est</del>
+            </ab></div>
+            <div type="commentary">
+                <p>Inschrift eradiert, wohl aufgrund einer später ins Auge gefaßten Wiederverwendung. Material: ILGN: Marmor.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0654.</bibl><bibl>AE 2004, 0870.</bibl><bibl>G. Walser, Römische Inschriften in der Schweiz 3 (Bern 1980) 52-53, Nr. 269; Foto. - AE 1985.</bibl><bibl>ILGN 018.</bibl><bibl>F. Wiblé, Vallesia 33, 1978, 36, Nr. 51.</bibl><bibl>M. Bossert - C. Neukom, Gallia Narbonensis: Colonia Iulia Vienna: Genava. Vallis Poenina - Raetia - Italia, CSIR Schweiz 2 (Basel 2004) 130, Nr. 15; Taf. 19. - AE 2004.</bibl><bibl>F. Wiblé, RSAA 35, 1978, 158-160; fig. 1 u. 2. - AE 1985.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

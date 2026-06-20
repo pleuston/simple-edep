@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Cnossus, aus &amp;ndash; Iráklion (Creta)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002379</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002379</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Knossos, Arch. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material>Marmor, geädert / farbig</material><dimensions unit="cm"><height>76</height><width>58</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.2-3.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Creta</placeName><placeName type="ancient" ref="#">Cnossus, aus</placeName></origPlace><origDate><origDate notBefore-custom="0175" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">175 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1979"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern">Iráklion</placeName><placeName type="findspot">Bereich älterer Hafen, sekundär verwendet</placeName><placeName type="region">Kríti</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002379_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Refrius</name><name type="cognomen">Theagenes</name></persName></person><person xml:id="HD002379_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Refrius</name><name type="cognomen">Theagenes</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-02-29" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F006998" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cd5ee1c5-b19a-4d72-832b-454ae7229618/file/id/767410/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uinto</ex></expan> Refrio Theagenis <lb n="2"/><expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Col</abbr><ex>lina</ex></expan> Theageni decurioni <lb n="3"/>coloniae Cnosiorum hono<lb break="no" n="4"/>rato quaestura aedilita<lb break="no" n="5"/>te IIviratu <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <lb n="6"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Refrius Theagenes <lb n="7"/>pater
+            </ab></div>
+            <div type="commentary">
+                <p>Y: A. Chaniotis nach paläographischen Kriterien. Art Apices, offenbar Funktion Wortende bzw. -anfang zu markieren, nicht direkt über Buchstaben. Säule. Material: grau-blauer Marmor.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0841.</bibl><bibl>A. Chaniotis, ZPE 58, 1985, 182-188; Taf. 13a. - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

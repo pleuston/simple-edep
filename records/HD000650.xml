@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Lugdunum &amp;ndash; Lyon (Lugdunensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000650</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000650</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><dimensions unit="cm"><height>149</height><width>(68)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lugdunensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167717">Lugdunum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1768"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2996944">Lyon</placeName><placeName type="findspot">Friedhof Ste. Croix, bei, nördl. der Kathedrale, sekundär verwendet</placeName><placeName type="region">Auvergne-Rhône-Alpes</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000650_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Belgisius+?</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-08-12" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>ito</ex></expan> Belgis<supplied reason="lost">io<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/>sacerdot<supplied reason="lost">i ad aram omnibus</supplied> <lb n="3"/><expan><abbr>honorib</abbr><ex>us</ex></expan> <supplied reason="lost">apud suos functo</supplied> <lb n="4"/>statuam <supplied reason="lost" cert="low">equestrem</supplied> <lb n="5"/>cum su<supplied reason="lost">bscriptione</supplied> <lb n="6"/>tres prov<supplied reason="lost">inciae Galliae</supplied> <lb n="7"/>primo u<supplied reason="lost" cert="low">mquam? ex? civit(ate)? sua</supplied> <lb n="8"/>ponend<supplied reason="lost">am curaverunt</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Gentiliz Belgisius ist Hapax. (B): CIL XIII: Z. 2: sacerdoti [ad aram ... omnibus]; Z. 3: honorib[us]. Rekonstruierte Gesamtbreite des Steins ca. 1,70 m.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0694.</bibl><bibl>A. Audin, in: Mélanges de littérature et d'épigraphie latines, d'histoire ancienne et d'archéologie. Hommage à la mémoire de Pierre Wuilleumier (Paris 1980) 7-10. - AE 1983.</bibl><bibl>CIL 13, 01687. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Private legal inscription from Pompeii &amp;ndash; Pompei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003034</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003034</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/123">Holz, Wachs</material><dimensions unit="cm"><height>13</height><width>9</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii</placeName></origPlace><origDate><origDate when-custom="0038" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">38 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1959"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170336">Pompei</placeName><placeName type="findspot">Villa Murécine</placeName><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>private legal inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003034_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Aelius</name><name type="cognomen">Romanus</name></persName></person><person xml:id="HD003034_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Barbatius</name><name type="cognomen">Celer</name></persName></person><person xml:id="HD003034_3" sex="M"><persName><name type="cognomen">Primus</name></persName></person><person xml:id="HD003034_4" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Attius</name><name type="cognomen">Severus</name></persName></person><person xml:id="HD003034_5" sex="M"><persName><name type="cognomen">Menelaus</name></persName></person><person xml:id="HD003034_6" sex="M"><persName><name type="cognomen">Irenaeus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-07-09" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Ἐπὶ ὑπάτων Μάρκου Ἀκύλα Ἰουλι<lb break="no" n="2"/>άνου καὶ Ποπλίου Νωνίου Ἀσ<lb break="no" n="3"/>πρήνα πρὸ τριῶν εἰδῶν <lb n="4"/>Ἀπριλίων ἐν Δικαρχήα. Μενέλαος Εἰρηναίου Κερα<lb break="no" n="5"/>μιήτης ἔγραψα ἄπεχιν μοι <lb n="6"/>παρὰ Πρίμου Ποπλίου Ἀττίου Σεβή<lb break="no" n="7"/>ρου δούλου&amp;lt;λου&amp;gt; δηνάρια χίλια <lb n="8"/>ἐκ ναυλωτικῆς ἐκσφραγισμένης, <lb n="9"/>ἅ καὶ ἀποδώσω ἀποκο&amp;lt;υ&amp;gt;λούθως <lb n="10"/>τῇ ναυλωτικῇ ἥ&amp;lt;ν&amp;gt; πεποίημαι πρὸς αὐτόν· κατέστησα δὲ ἔνγυον <lb n="11"/>ἐις ἔκτισιν τῶν προγεγραμμένων <lb n="12"/>δηναρίων χιλίων Μάρκον Βαρ<lb break="no" n="13"/>βάτιον Κέλερα. </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Q</abbr><ex>uintus</ex></expan> Aelius Romanus scripsi rogatu et <lb n="2"/>mandatu <expan><abbr>M</abbr><ex>arci</ex></expan> Barbati Celeris coram <lb n="3"/>ipso quod is litteras nesciret eum <lb n="4"/>sua fide iubere eos |(denarios) |(mille) <expan><abbr>q</abbr><ex>ui</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>cripti</ex></expan> sunt <lb n="5"/>Primo <expan><abbr>P</abbr><ex>ubli</ex></expan> Atti Severi <expan><abbr>ser</abbr><ex>vo</ex></expan> pro Menela<lb break="no" n="6"/>uo Irenaei <expan><abbr>f</abbr><ex>ilio</ex></expan> Ceramietae ita <lb n="7"/>uti supra scriptum es<supplied reason="lost">t</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): Z. 7: Giordano, AE 1971: iubere 900 + 900 + 1 denarios n(umeratos); Z. 9: Giordano, AE 1971: Pireium coram iftae ita; Z. 10: Giordano, AE 1971: est. AE 1971, Giordano schlagen für iftae et re vor. (C): Wolf: Irenaeus stammt aus athenischem Demos Kerameis. - Maße der 1. Tafel: 13,4 x 9,2. Urkunde besteht aus griech. und lat. Teil. Nach Ankum, Purpura handelt es sich um Seedarlehen, nach Wolf um Seefrachtvertrag.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0227.</bibl><bibl>H. Ankum, Iura 29, 1978, 156-173. - AE 1984.</bibl><bibl>J.G. Wolf, FreiUnBl 65, 1979, 23-36; Fotos. (C) - AE 1984.</bibl><bibl>G. Purpura, AAPal 2, 1981/82, 449-474; tav. 1; tav. 3; tav. 5; tav. 6; tav. 2 u. 4 (Zeichnungen) - AE 1984.</bibl><bibl>AE 1971, 0092. (B)</bibl><bibl>F. Sbordone - C. Giordano, RAAN 43, 1968, 195-202. (B) - AE 1971.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

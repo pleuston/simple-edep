@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000688</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000688</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Alba Iulia, Muz. Unirii</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(56)</height><width>(39)</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0237" notAfter-custom="0238" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">237 AD - 238 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1969"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot">Praetorium des Statthalters?</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000688_1"><persName><name type="praenomen">C.</name><name type="nomen">Iulius++*</name><name type="cognomen">Verus++ Maximinus++</name></persName></person><person xml:id="HD000688_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q518890"><name type="praenomen">C.++</name><name type="nomen">Iulius++*</name><name type="cognomen">Verus+++ Maximus+++*</name></persName></person><person xml:id="HD000688_3" sex="M"><persName ref="http://romans1by1.com/rpeople/6969"><name type="praenomen">Q.?</name><name type="nomen">Iulius++</name><name type="cognomen">Licinianus+++?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-06-14" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005184" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fe3efb90-bfb5-4a62-b1cf-f11f3f280fe0/file/id/765961/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost">pro salute <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><del rend="erasure">d</del><expan><abbr>d</abbr><ex>ominorum</ex></expan> <del rend="erasure">n</del><expan><abbr>n</abbr><ex>ostrorum</ex></expan> Aug<del rend="erasure">[<expan><abbr>g</abbr><ex>ustorum</ex></expan></del>] <lb n="3"/><del rend="erasure"><expan><abbr>C</abbr><ex>ai</ex></expan> <supplied reason="lost">I</supplied><expan><abbr>ul</abbr><ex>i</ex></expan> V<supplied reason="lost">e</supplied>ri M[a</del>]<lb break="no" n="4"/><del rend="erasure">ximin[i <expan><abbr>Aug</abbr><ex>usti</ex></expan> et</del>] <lb n="5"/><del rend="erasure"><expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>Iul</abbr><ex>i</ex></expan> V[eri Maxi</del>]<lb break="no" n="6"/><del rend="erasure"><expan><abbr>m</abbr><ex>i</ex></expan> <expan><abbr>nob</abbr><ex>ilissimi</ex></expan> Ca[<expan><abbr>es</abbr><ex>aris</ex></expan> <expan><abbr>Ger</abbr><ex>manicorum</ex></expan></del>] <lb n="7"/><expan><abbr>m</abbr><ex>aximorum</ex></expan> <expan><abbr>Dac</abbr><ex>icorum</ex></expan> <expan><abbr>m</abbr><ex>aximorum</ex></expan> <expan><abbr>Sar</abbr><ex>maticorum</ex></expan> m<supplied reason="lost" cert="low">ax(imorum)</supplied> <lb n="8"/><expan><abbr>Q</abbr><ex>uintus</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <del rend="erasure">Iulius Licin[ian</del>]<lb break="no" n="9"/><del rend="erasure">us<certainty locus="name" match="preceding-sibling::text()" cert="low"/></del> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> D<supplied reason="lost"><expan><abbr>ac</abbr><ex>iarum</ex></expan> III</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Tafel aus 6 Fragmenten zusammengesetzt. Rechter Teil nicht erhalten. (B): Băluţă - Russu: Z. 3-76: C(ai) I[[ul(i) Ve]]ri M[[a]]/ximin[[i et C(ai) Iul(i) / Veri Maximi / n]]ob(ilissimi) ca[[es(aris) Ger(amini)]] / m(aximi) Dac(ici) M(aximi) Sar(matici) M(aximi).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0737.</bibl><bibl>I. Piso, Tituli 4 (Roma 1982) 489-491, Nr. 1; tav. 2,1; fig. 1 (Zeichnung). - AE 1984.</bibl><bibl>AE 1983, 0802.</bibl><bibl>C.L. Băluţă - I.I. Russu, Apulum 20, 1982, 119-120, Nr. 3; fig. 3 (Foto u. Zeichnung). (B) - AE 1983.</bibl><bibl>I. Piso, ZPE 49, 1982, 230-231, Nr. 5.</bibl><bibl>IDR 3, 5, 429; Foto u. Zeichnung.</bibl><bibl>I. Piso, Fasti provinciae Daciae 1. Die senatorischen Amtsträger (Bonn 1993) 201-203, Nr. 45.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

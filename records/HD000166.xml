@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Luceria, bei &amp;ndash; Lucera, bei (Apulia et Calabria (Regio II))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000166</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000166</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Lucera, Mus. Civ. ""Giuseppe Fiorelli""</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(23)</height><width>61</width><depth>29</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Apulia et Calabria (Regio II)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/442640">Luceria, bei</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0330" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 330 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1979"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Lucera, bei</placeName><placeName type="findspot">Straße nach Troia</placeName><placeName type="region">Foggia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000166_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]us</name><name type="cognomen">Consius Quartus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1997-12-02" who="Scheithauer">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>o Consio Quarto cons<supplied reason="lost">u</supplied><lb break="no" n="2"/>lari <expan><abbr>cor</abbr><ex>rectori</ex></expan> <expan><abbr>Apul</abbr><ex>iae</ex></expan> et <expan><abbr>Calabr</abbr><ex>iae</ex></expan> cui pra<supplied reason="lost">e</supplied><lb break="no" n="3"/>ter haec bona quae cum sin<lb break="no" n="4"/>gulis <expan><abbr>ear</abbr><ex>um</ex></expan> <expan><abbr>reg</abbr><ex>ionum</ex></expan> civitatibus <lb n="5"/><expan><abbr>sun</abbr><ex>t</ex></expan> communia quibus aut se <lb n="6"/>veri <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Y: Sohn des Mannes aus der 1. Hälfte des 4. Jh. bekannt: M. Aurelius Consius Quartus Iunior (cf. PIR II C 1283; PLRE Quartus 2). (C): AE: Datierung des Sohnes in die Zeit nach Diokletian.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0247. (C)</bibl><bibl>M. Bàlice, ASP 34, 1981, 30-31, Nr. 37; Foto. - AE.</bibl><bibl>AE 1994, 0511.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

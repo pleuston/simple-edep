@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tibur, bei? &amp;ndash; Tivoli, bei? (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000580</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000580</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(35)</height><width>25</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423081">Tibur, bei?</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Tivoli, bei?</placeName><placeName type="findspot">Grab bei Fosso Capaldo</placeName><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000580_1" sex="M"><persName><name type="cognomen">Corus</name></persName></person><person xml:id="HD000580_2" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Laetorius</name><name type="cognomen">Laetus+?</name></persName></person><person xml:id="HD000580_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Proculus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1997-07-29" who="Niquet">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Dis Manibu<supplied reason="lost">s</supplied> <lb n="2"/>Cori <lb n="3"/><expan><abbr>P</abbr><ex>ubli</ex></expan> Laetori La<supplied reason="lost" cert="low">eti</supplied> <lb n="4"/>vernae <expan><abbr>E</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="5"/><expan><abbr>rchis</abbr><ex cert="low"/></expan> Pr<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>Proc<supplied reason="lost">ulus<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="7"/>ind[ulgentissimo<certainty match="preceding-sibling::node()" locus="value"/> ------
+            </ab></div>
+            <div type="commentary">
+                <p>Höhenangabe nicht in Originalpublikation enthalten. (B): Z. 3: AE, Solin: Plaetori; Z. 5: AE:[---]his; Z. 6: Mari: proc[uratori?]; Z. 6/7: AE: [patri] ind[ulgentissimo] (?). (C): Z. 4/5: Ergänzung Eparchis wenig plausibel, eher Filiarchis; Z.7: AE: IN[---]. - Corus nicht mit Chorus identisch.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0153. (B)</bibl><bibl>Z. Mari, Tibur, Forma Italiae, Regio I 17 (Firenze 1983) 191-192, Nr. 199; fig. 310. (BC)</bibl><bibl>H. Solin, Arctos 17, 1983, 98. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

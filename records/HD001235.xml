@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Paestum &amp;ndash; Capaccio (Bruttium et Lucania (Regio III))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001235</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001235</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mus. Paestum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>122</height><width>58</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-9.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Bruttium et Lucania (Regio III)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/442733">Paestum</placeName></origPlace><origDate><origDate notBefore-custom="0401" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1967"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Capaccio</placeName><placeName type="findspot">Basilica dell'Annunciata</placeName><placeName type="region">Salerno</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001235_1" sex="W"><persName><name type="cognomen">Petronia</name></persName></person><person xml:id="HD001235_2" sex="W"><persName><name type="cognomen">Adeodata</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1997-08-15" who="Niquet">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Hic posita est <lb n="2"/>Petronia qu<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="3"/>recessit V <expan><abbr>Id</abbr><ex>us</ex></expan> <lb n="4"/><expan><abbr>Aug</abbr><ex>ustas</ex></expan> et Adeo<lb break="no" n="5"/>data reces<lb break="no" n="6"/>sit <expan><abbr>Non</abbr><ex>is</ex></expan> <expan><abbr>Mart</abbr><ex>iis</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Die Tafel besteht aus 5 zusammenhängenden Fragmenten. Verwendung der Tafel als Türschwelle. Y: Todestage: 9.8. und 7.3. (C): wohl 5. Jh.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0222.</bibl><bibl>M. Mello, VetChr 19, 1982, 86-89, Nr. 1; Foto. - AE 1982, AE 1984.</bibl><bibl>AE 1984, 0263. (C)</bibl><bibl>M. Mello, AFLL 5, 1969-1971, 144-147; tav. 17. - AE 1982.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

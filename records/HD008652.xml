@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Rapidum &amp;ndash; Sour Djouab (Mauretania Caesariensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008652</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008652</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Mauretania Caesariensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/295329">Rapidum</placeName></origPlace><origDate><origDate notBefore-custom="0167" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">167 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern" ref="http://www.geonames.org/2486508">Sour Djouab</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008652_1"><persName><name type="nomen">Baia+</name></persName></person><person xml:id="HD008652_2"><persName><name type="cognomen">Hygia</name></persName></person><person xml:id="HD008652_3"><persName><name type="nomen">Baius</name><name type="cognomen">Pudens</name></persName></person><person xml:id="HD008652_4"><persName><name type="cognomen">Verecundus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-05-12" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Dis</supplied> Manibus Ba<supplied reason="lost">iae</supplied> <lb n="2"/><expan><ex>H</ex><abbr>ygiae</abbr></expan> <expan><abbr>lib</abbr><ex>ertae</ex></expan> Bai Puden<lb break="no" n="3"/>tis <expan><abbr>proc</abbr><ex>uratoris</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> Verecun<lb break="no" n="4"/>dus <expan><abbr>lib</abbr><ex>ertus</ex></expan> eiusdem con<lb break="no" n="5"/>iugi karissim<expan><ex>a</ex><abbr>e</abbr></expan> fecit <lb n="6"/>vixit <expan><abbr>an</abbr><ex>nos</ex></expan> XXII
+            </ab></div>
+            <div type="commentary">
+                <p>Datierung: nicht vor der Prokuratur des Baius Pudens in der Mauretania Caesarensis um 167-169 n. Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 203, Nr. 15b.</bibl><bibl>CIL 08, 21007.</bibl><bibl>PIR (2. Aufl.) B 36.</bibl><bibl>H.-G. Pflaum, Les carrières procuratoriennes équestres sous le Haut-Empire romain (Paris 1960/61) 422-434, Nr. 173, 6.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio from Venta Icenorum &amp;ndash; Caistor S. Edmund (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001057</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001057</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/276">tessera</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material><dimensions unit="cm"><height>(6)</height><width>(10)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79735">Venta Icenorum</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1981"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2654042">Caistor S. Edmund</placeName><placeName type="findspot">{Tas-Ufer}</placeName><placeName type="region">Norfolk</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/76">defixio</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001057_1"><persName><name type="cognomen">Nase[---]</name></persName></person><person xml:id="HD001057_2" sex="M"><persName><name type="cognomen">Vroc[---]sius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-04-23" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                A Nase<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>eve<expan><ex>h</ex><abbr>it</abbr></expan> Vroc<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="3"/>sius <expan><abbr>fascia</abbr><ex>m</ex></expan> et armi<supplied reason="lost">lla</supplied><lb break="no" n="4"/>s cap<expan><ex>t</ex><abbr>olare</abbr></expan> <note>sic</note> spectr<supplied reason="lost" cert="low">um</supplied> <lb n="5"/><expan><abbr>cufia</abbr><ex>m</ex></expan> <note>sic</note> duas ocrias X vas<lb break="no" n="6"/>a stagnea si mascel si &amp;lt;f=M&amp;gt;e<lb break="no" n="7"/>mina si puer si pu<expan><ex>e</ex><abbr>lla</abbr></expan> duas <lb n="8"/><expan><abbr>ocri</abbr><ex>as</ex></expan> si vull<expan><ex>u</ex><abbr>eris</abbr></expan> <note>sic</note> factae <expan><abbr>sang</abbr><ex>uine</ex></expan> <lb n="9"/>suo ut <expan><ex>i</ex><abbr>llu</abbr><ex>m</ex></expan> requerat<surplus>at</surplus> <note>sic</note> Neptu<expan><ex>nu</ex><abbr>s</abbr></expan> <lb n="10"/><expan><abbr>e</abbr><ex>t</ex></expan> amictus <expan><abbr>e</abbr><ex>t</ex></expan> <expan><abbr>cufia</abbr><ex>et</ex></expan> arm<expan><ex>i</ex><abbr>lla</abbr></expan><supplied reason="lost">e</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="11"/>denarii XV cape<expan><ex>t</ex><abbr>olare</abbr></expan> <note>sic</note> tunc <expan><abbr>sanguin</abbr><ex>e</ex></expan> <lb n="12"/>fasciam tenet fur e <lb n="13"/>carta <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>cripta</ex></expan> ratio<expan><ex>n</ex><abbr>e</abbr></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>Gebet für Gerechtigkeit.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0669.</bibl><bibl>M.W.C. Hassall - R.S.O. Tomlin, Britannia 13, 1982, 408, Nr. 9; fig. 34 (Zeichnung). - AE 1982.</bibl><bibl>A. Kropp, Defixiones. Ein aktuelles Corpus lateinischer Fluchtafeln (Speyer 2008) Nr. 3.7/1.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

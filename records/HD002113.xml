@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Capena &amp;ndash; Capena (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002113</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002113</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sede comunale di Capena</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>110</height><width>72</width><depth>51</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413062">Capena</placeName></origPlace><origDate><origDate when-custom="0186" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">186 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1931"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Capena</placeName><placeName type="findspot">Civitùcola (Colle di S. Martino)</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002113_1" sex="W"><persName><name type="nomen">Iulia</name><name type="cognomen">Paulina</name></persName></person><person xml:id="HD002113_2" sex="M"><persName><name type="cognomen">Glabrio</name></persName></person><person xml:id="HD002113_3" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Mucius</name><name type="cognomen">Mucianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-10-20" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Iuliae <expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>fil</abbr><ex>iae</ex></expan> Paulinae <lb n="2"/>sacerdoti Cereris <expan><abbr>municip</abbr><ex>ii</ex></expan> <lb n="3"/>Capenatium foederatorum <lb n="4"/>ob honorem sacerdotalem <lb n="5"/>honestissimis caerimoniis <lb n="6"/>praebitum decuriones <lb n="7"/>item municipes <lb n="8"/>et postea sacerdoti Veneris <lb n="9"/>bis epulum et sportulas <expan><abbr>decur</abbr><ex>ionibus</ex></expan> <lb n="10"/>et municipibus praebuit <lb n="11"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> dedicata VI <expan><abbr>Kal</abbr><ex>endas</ex></expan> <expan><abbr>Mar</abbr><ex>tias</ex></expan> <lb n="2"/>Glabrione II <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan></supplied> <lb n="3"/><expan><abbr>curat</abbr><ex>ore</ex></expan> <expan><abbr>L</abbr><ex>ucio</ex></expan> Mucio Mucia<supplied reason="lost">no</supplied> <lb n="4"/>marito eius
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): Mancini, AE 1954: Z. 13: et Maximo coss.; Z. 14: Muciano.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0267.</bibl><bibl>M. Dondin-Payre, Epigraphica 43, 1981, 224-226; Foto. - AE 1982.</bibl><bibl>AE 1954, 0165. (B)</bibl><bibl>G. Mancini, NSA 1953, 21-22, Nr. 3; fig. 3. (B) - AE 1954.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

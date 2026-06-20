@@ -1,43 +1,43 @@
-/* map.js — plot inscription find spots from data/records-index.json on Leaflet. */
+/* map.js — Geodata: plot geolocated inscriptions on a clustered Leaflet map.
+ * Coordinates come from data/records-index.json (joined from the EDH find-spot
+ * gazetteer at build time). Clustering keeps thousands of points usable. */
 (function () {
   "use strict";
   document.addEventListener("DOMContentLoaded", function () {
-    var map = L.map("map", { scrollWheelZoom: true }).setView([46, 8], 4);
+    var map = L.map("map", { scrollWheelZoom: true, worldCopyJump: true }).setView([43, 13], 4);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 18,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · data: <a href="https://edh.ub.uni-heidelberg.de/">EDH</a> (CC BY-SA)'
     }).addTo(map);
 
     fetch("data/records-index.json").then(function (r) { return r.ok ? r.json() : []; })
       .then(function (idx) {
-        var markers = [], pts = [];
-        (idx || []).forEach(function (e) {
-          var lat = parseFloat(e.lat), lng = parseFloat(e.lng);
-          if (isNaN(lat) || isNaN(lng)) return;
-          var id = e.file.replace(/\.xml$/, "");
-          var popup = '<strong>' + esc(e.titleEn || id) + "</strong><br>" +
-            esc([e.settlement, e.date].filter(Boolean).join(" · ")) +
-            (e.textType ? "<br><em>" + esc(e.textType) + "</em>" : "") +
-            '<br><a href="viewer.html?id=' + encodeURIComponent(id) + '">Read →</a>';
-          var m = L.marker([lat, lng]).bindPopup(popup);
-          markers.push(m); pts.push([lat, lng]);
-          m.addTo(map);
+        var spots = (idx || []).filter(function (e) {
+          return e.lat !== "" && e.lng !== "" && !isNaN(+e.lat) && !isNaN(+e.lng);
         });
-        var c = document.getElementById("map-count");
-        if (c) c.textContent = pts.length + (pts.length === 1 ? " find spot" : " find spots");
+        var cluster = (typeof L.markerClusterGroup === "function")
+          ? L.markerClusterGroup({ chunkedLoading: true, maxClusterRadius: 45, spiderfyOnMaxZoom: true })
+          : null;
+        var layer = cluster || map;
+        var pts = [];
+        spots.forEach(function (e) {
+          var lat = +e.lat, lng = +e.lng, id = e.file.replace(/\.xml$/, "");
+          var popup = "<strong>" + esc(e.titleEn || id) + "</strong>" +
+            (e.settlement ? "<br>" + esc(e.settlement) : "") + (e.date ? " · " + esc(e.date) : "") +
+            '<br><a href="viewer.html?id=' + encodeURIComponent(id) + '">Read →</a>';
+          L.marker([lat, lng]).bindPopup(popup).addTo(layer);
+          pts.push([lat, lng]);
+        });
+        if (cluster) map.addLayer(cluster);
 
-        // The container is sized after layout + web-font load; Leaflet must be
-        // told to recompute its size or it loads only one tile and mis-places
-        // markers (the "0×0 at init" race).
-        function refit() {
-          map.invalidateSize();
-          if (pts.length) map.fitBounds(pts, { padding: [50, 50], maxZoom: 7 });
-        }
-        refit();
-        setTimeout(refit, 60);
-        setTimeout(refit, 400);
+        var c = document.getElementById("map-count");
+        if (c) c.textContent = spots.length.toLocaleString() + " geolocated inscriptions";
+
+        function refit() { map.invalidateSize(); }
+        if (pts.length) map.fitBounds(pts, { padding: [40, 40], maxZoom: 6 });
+        refit(); setTimeout(refit, 60); setTimeout(refit, 400);
         if (document.fonts && document.fonts.ready) document.fonts.ready.then(refit);
-        window.addEventListener("resize", function () { map.invalidateSize(); });
+        window.addEventListener("resize", refit);
       })
       .catch(function () {});
   });

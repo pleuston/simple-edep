@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Thamugadi &amp;ndash; Timgad (Numidia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002534</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002534</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Timgad (Thamugadi), röm. Stadt</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>102</height><width>350</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">10.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Numidia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/334636">Thamugadi</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0152" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 152 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern" ref="http://www.geonames.org/2476409">Timgad</placeName><placeName type="findspot"/><placeName type="region">Batna</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002534_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1430"><name type="praenomen">M.</name><name type="nomen">Aurelius</name><name type="cognomen">Antoninus+</name></persName></person><person xml:id="HD002534_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Valerius+</name><name type="cognomen">Etruscus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-15" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F003228" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/413aa904-5e89-4ab5-8dcf-bb16b8a6b25c/file/id/764116/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio <supplied reason="lost">Antonin</supplied>o <expan><abbr>Caes</abbr><ex>ari</ex></expan> <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> Caesar</supplied>is <expan><abbr>T</abbr><ex>iti</ex></expan> <supplied reason="lost">Aeli</supplied> <lb n="2"/><expan><abbr>Had</abbr><ex>riani</ex></expan> Antoni<supplied reason="lost">ni <expan><abbr>Aug</abbr><ex>usti</ex></expan> P</supplied>ii filio <supplied reason="lost"><expan><abbr>trib</abbr><ex>uniciae</ex></expan> <expan><abbr>pot</abbr><ex>estatis</ex></expan> V<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> II</supplied> <lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Va<supplied reason="lost">l</supplied>erius Et<supplied reason="lost">ruscus l</supplied><expan><abbr>eg</abbr><ex>atus</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <supplied reason="lost">pro praeto</supplied><lb break="no" n="4"/>re pa<supplied reason="lost">t</supplied>ronus <supplied reason="lost">coloniae <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>p</abbr><ex>ublica</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Erhalten sind fünf Fragmente. Material: bläulicher Kalkstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0876c.</bibl><bibl>M. Le Glay - S. Tourrenc, AntAfr 21, 1985, 117-118, Nr. 4,3. - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

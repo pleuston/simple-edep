@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Leutstetten (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009445</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009445</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(74)</height><width>117</width><depth>32</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1963"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2878261">Leutstetten</placeName><placeName type="findspot">{S. Alto, Kirche, sekundär verwendet}</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009445_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius*</name><name type="cognomen">Pintamus+</name></persName></person><person xml:id="HD009445_2" sex="W"><persName><name type="nomen">Clementia</name><name type="cognomen">Pompeia*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-31" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/><expan><abbr>C</abbr><ex>aio</ex></expan> <expan><abbr>Iul</abbr><ex>io</ex></expan> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Quir</abbr><ex>ina</ex></expan> Pintam<supplied reason="lost">o</supplied> <lb n="3"/>domo ex <expan><abbr>Hisp</abbr><ex>ania</ex></expan> citerior<supplied reason="lost">e</supplied> <lb n="4"/>Augusta <expan><abbr>Brac</abbr><ex>ara</ex></expan> <expan><abbr>vet</abbr><ex>erano</ex></expan> ex <expan><abbr>dec</abbr><ex>urione</ex></expan> a<supplied reason="lost">lae</supplied> <lb n="5"/>decurioni <expan><abbr>munic</abbr><ex>ipii</ex></expan> Aeli Anto<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>Clementia Po<expan><ex>m</ex><abbr>peia</abbr></expan> uxo<supplied reason="lost">r eius</supplied> <lb n="7"/>marito optimo et sibi <gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/>viva fecit
+            </ab></div>
+            <div type="commentary">
+                <p>Die Tafel war wohl an einem Grabbau angebracht. In Z. 2 ist zu Anfang noch deutlich der Bogen eines C sichtbar; in Z. 3 am Ende noch die Vertikalhaste des R zu erkennen. Die O in Z. 3 u. 6 z. T. klein in die Buchstabenzwischenräume eingefügt, Z. 5: NT-Ligatur?; Z. 6: VX-Ligatur. (B): Schillinger-Häfele: Z. 1: nicht ergänzt; Z. 5: Aeli(i) A&amp;lt;u&amp;gt;g(usti); Z. 6: uxo&amp;lt;r&amp;gt;; Z. 7-8: sibi / viva; AE 1972; Radnóti; Schillinger-Häfele; Hernández Guerra: Z. 2: P(ublio); Radnóti; Schillinger-Häfele: Z. 3: citerio[re]; Hernández Guerra: citeriore; Z. 4: v(eterano); Z. 6: Popeia uxo[r eiu]s.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1972, 0359. (B)</bibl><bibl>A. Radnóti, Chiron 2, 1972, 437-447; Taf. 22 u. 23. (B) - AE 1972.</bibl><bibl>U. Schillinger-Häfele, BRGK 58, 1977, 565-566, Nr. 226. (B)</bibl><bibl>L. Hernández Guerra, in: J.J. Ferrer-Maestro - C. Kunst - D. Hernández de la Fuente - E. Faber (Hrsg.), Entre los mundos: Homenaje a Pedro Barceló. Zwischen den Welten: Festschrift für Pedro Barceló (Toulouse 2017) 384. 407-408, Nr. 21. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Tutugi &amp;ndash; Galera (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001970</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001970</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>79</height><width>41</width><depth>44</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/266078">Tutugi</placeName></origPlace><origDate><origDate notBefore-custom="0222" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1956"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2517432">Galera</placeName><placeName type="findspot">Cerro del Real</placeName><placeName type="region">Granada</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001970_1" sex="M"><persName><name type="nomen">Antoninus+</name><name type="cognomen">Magnus+</name></persName></person><person xml:id="HD001970_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1769"><name type="praenomen">M.</name><name type="nomen">Aurelius</name><name type="cognomen">Severus+ Alexander++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-01" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">D</supplied>ivo An<supplied reason="lost">to</supplied><lb break="no" n="2"/><supplied reason="lost">ni</supplied>no Mag<lb break="no" n="3"/><supplied reason="lost">no</supplied> patri do<lb break="no" n="4"/><supplied reason="lost">min</supplied>i nostri <lb n="5"/><expan><abbr><supplied reason="lost">Im</supplied>p</abbr><ex>eratoris</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> Aureli <lb n="6"/><supplied reason="lost">Se</supplied>veri <del rend="erasure">Alexan</del><lb break="no" n="7"/><supplied reason="lost">dri</supplied> Pii Felicis <lb n="8"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="9"/>res <expan><abbr>p</abbr><ex>ublica</ex></expan> <expan><abbr>Tutug</abbr><ex>itanorum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z.1/2: [Div]o; An[tonin]o; Z.5: Aure&amp;lt;l&amp;gt;i; Z.7: Fe&amp;lt;l&amp;gt;icis - González. - AE 1983. (A): Denkt an Ehreninschrift, Postament. Block wurde vermutlich sek. verwendet. Material: weißlicher Kalkstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0598.</bibl><bibl>J. Alvar, HAnt 9/10, 1979/80, 242-244, Nr. 8; Foto. - AE 1984.</bibl><bibl>AE 1983, 0608. (B)</bibl><bibl>J. González, Mainake 2, 1980, 135-137, Nr. 6; lám. 3. (AB) - AE 1983.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

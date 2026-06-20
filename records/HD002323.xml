@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Docimium &amp;ndash; İscehisar (Asia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002323</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002323</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material>Marmor, geädert / farbig</material><dimensions unit="cm"><height>232</height><width>43</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Asia</placeName><placeName type="ancient" ref="#">Docimium</placeName></origPlace><origDate><origDate notBefore-custom="0105" notAfter-custom="0114" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">105 AD - 114 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/298795">Turkey</placeName><placeName type="modern" ref="http://www.geonames.org/311193">İscehisar</placeName><placeName type="findspot">Bacakale, Steinbruch</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002323_1" sex="M"><persName><name type="cognomen">Candidus*</name></persName></person><person xml:id="HD002323_2" sex="M"><persName><name type="cognomen">Palma*</name></persName></person><person xml:id="HD002323_3" sex="M"><persName><name type="cognomen">Vopiscus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-02-27" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Cand</abbr><ex>ido</ex></expan> II co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Cand</abbr><ex>ido</ex></expan> II co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> <lb n="2"/><abbr>H</abbr> <abbr>B</abbr> VII <expan><abbr>r</abbr><ex cert="low">eprobavit</ex></expan> <expan><abbr>ma</abbr><ex cert="low">gister</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>Pa</abbr><ex>lma</ex></expan> II co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>V</abbr><ex>3</ex></expan> <expan><abbr>F</abbr><ex>3</ex></expan></supplied> <abbr>R</abbr> <expan><abbr>Vop</abbr><ex>isco</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> CXLIV
+            </ab></div></div>
+            <div type="commentary">
+                <p>3 zusammengefügte Säulen mit 5 Inschriften, von denen AE 1984 eine nicht aufnimmt (Nr. 3c). Durchmesser der beiden anderen Säulen: 55 bzw. 43 cm. Material: Pavonazzetto. Datierung: Ti. Iulius Candidus Marius Celsus (cos. II 105), A. Cornelius Palma Frontonianus (cos. II 109) und P. Manlius Vopiscus (cos. 114).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0846a-d.</bibl><bibl>J.C. Fant, ZPE 54, 1984, 174-176, Nr. 3a-b, d, e; Taf. 6, 3; fig. 1 (Zeichnung). - AE 1984.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

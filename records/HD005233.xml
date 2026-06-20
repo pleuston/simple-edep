@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Celeia, bei &amp;ndash; Celje (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005233</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005233</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Celje, Pokrajinski Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>180</height><width>39</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197206">Celeia, bei</placeName></origPlace><origDate><origDate when-custom="0218" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">218 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1974"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3190714">Celje</placeName><placeName type="findspot">{Škofja vas}, Hudinja, Flussbett</placeName><placeName type="region">Savinjska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005233_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1752"><name type="praenomen">M.</name><name type="nomen">Opellius</name><name type="cognomen">Severus Macrinus</name></persName></person><person xml:id="HD005233_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q46840"><name type="praenomen">M.</name><name type="nomen">Opellius</name><name type="cognomen">Antoninus Diadumenianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-18" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar <expan><abbr>M</abbr><ex>arcus</ex></expan> <lb n="2"/>Opellius Severus <lb n="3"/>Macrinus Pius <lb n="4"/>Felix <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>p</abbr><ex>ontifex</ex></expan> <expan><abbr>m</abbr><ex>aximus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <lb n="5"/><expan><abbr>pot</abbr><ex>estate</ex></expan> II <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> pro <lb n="6"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> et <expan><abbr>M</abbr><ex>arcus</ex></expan> Opellius <lb n="7"/>Antoninus <lb n="8"/>Diadumenianus <lb n="9"/>nobilissimus <expan><abbr>Caes</abbr><ex>ar</ex></expan> <lb n="10"/>princebs <note>sic</note> iuventutis <lb n="11"/>providentissimi <lb n="12"/>Augusti fec<expan><ex>e</ex><abbr>ru</abbr><ex>n</ex><abbr>t</abbr></expan> <lb n="13"/>a <expan><abbr>C</abbr><ex>eleia</ex></expan> <expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> <lb n="14"/>III
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Kolšek, AE 1980: abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0664. (B)</bibl><bibl>V. Kolšek, AArchSlov 30, 1979, 167-168, Nr. 3; sl. 3. (B) - AE 1980.</bibl><bibl>CIL 17, 04, 00117; Fig. α u. β; Fig. γ (Zeichnung).</bibl><bibl>ILLPRON 1876.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

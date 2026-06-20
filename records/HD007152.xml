@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma, bei &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007152</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007152</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>(80)</height><width>(27)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Settecamini, Via Tiburtina, km. 14</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007152_1" sex="M"><persName><name type="praenomen">Cn.</name><name type="nomen">Fresidius</name><name type="cognomen">Marsus</name></persName></person><person xml:id="HD007152_2" sex="M"><persName><name type="nomen">Ostorius</name><name type="cognomen">Aprilis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-06-09" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Gn</abbr><ex>aei</ex></expan> Fre<lb break="no" n="2"/>sidi Ma<lb break="no" n="3"/>rsi vet<lb break="no" n="4"/>erano <lb n="5"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> qu<lb break="no" n="6"/><expan><ex>a</ex><abbr>est</abbr><ex>ori</ex></expan> al<lb break="no" n="7"/>umen<lb break="no" n="8"/><expan><abbr>tor</abbr><ex>um</ex></expan> <note>sic</note> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> aedili <lb n="2"/>Ficol<lb break="no" n="3"/>ensium <lb n="4"/>foede<lb break="no" n="5"/>rato<lb break="no" n="6"/>rum </ab></div><div n="4" type="textpart"><ab><lb n="1"/> magis<lb break="no" n="2"/>tratu <note>sic</note> <lb n="3"/>desig<lb break="no" n="4"/>nato <lb n="5"/>Ostori<lb break="no" n="6"/>us Apri<lb break="no" n="7"/>lis pater <lb n="8"/>infelici<lb break="no" n="9"/>ssimus
+            </ab></div></div>
+            <div type="commentary">
+                <p>Grabstein mit dreieckigem Querschnitt; auf allen drei Seiten mit Inschrift versehen. (B): Panciera, AE 1977: Z. 5/6: Zeilenfall nicht angegeben; AE 1977: Z. 12/13: Zeilenfall nicht angegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1977, 0179. (B)</bibl><bibl>S. Panciera, RSA 6/7, 1976/77, 195-213; fig. 1. (B) - AE 1977.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

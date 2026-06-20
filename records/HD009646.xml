@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Gorsium &amp;ndash; Tác (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009646</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009646</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Tác, Gorsium Szabadtéri Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197287">Gorsium</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1972"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044199">Tác</placeName><placeName type="findspot">{Gorsium}, tabernae, sekundär verwendet</placeName><placeName type="region">Fejér megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009646_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Virius</name><name type="cognomen">Mercator</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-12-20" who="Feraudi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004407" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/91205ab1-47e1-4026-92dc-0eef915239f7/file/id/765169/file_version/name/small"/><graphic xml:id="F012666" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cf4daa03-4dee-4692-9b03-6c362330ab19/file/id/772191/file_version/name/small"/><graphic xml:id="F035727" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bb045a7e-9bd8-43e9-bc4b-07b602348091/file/id/796577/file_version/name/small"/><graphic xml:id="F035728" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/13959d35-29c9-40b7-8b12-348f18b1e248/file/id/796578/file_version/name/small"/><graphic xml:id="F035729" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c14b33e5-17ef-4b24-9455-8ac5633ac0d1/file/id/796579/file_version/name/small"/><graphic xml:id="F035730" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0ba0c061-0b08-4251-b6a5-b7d358ec7ce5/file/id/796580/file_version/name/small"/><graphic xml:id="F011748" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3fbaafe0-6e9a-4017-b904-b85b03e3e439/file/id/771270/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Dis Magn<supplied reason="lost">is</supplied> <lb n="2"/>pro salute <lb n="3"/>templensium <lb n="4"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Virius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>fil</abbr><ex>ius</ex></expan> Mer<lb break="no" n="5"/>cator <expan><abbr>sacerd</abbr><ex>os</ex></expan> <lb n="6"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Autopsie G. Alföldy.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1972, 0432.</bibl><bibl>AE 1997, 1278.</bibl><bibl>RIU 1533; Abb. 1533 (Foto u. Zeichnung).</bibl><bibl>G. Alföldy, ZPE 115, 1997, 225-241; Taf. 5, 1; Abb. 1 (Zeichnung). - AE 1997.</bibl><bibl>G. Alföldy, ZPE 179, 2011, 275-278; Abb. 3; Abb. 4 (Zeichnung).</bibl><bibl>B. Lőrincz, in: HPS 19 (Budapest - Debrecen 2011) 552.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

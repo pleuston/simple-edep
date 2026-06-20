@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002169</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002169</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, S. Pietro, Bas., Grotte</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(67)</height><width>(103)</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">13-9.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="0020" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">20 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3164670">Vatican City State</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Grotte Vaticane?</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002169_1" sex="W"><persName ref="https://www.wikidata.org/wiki/Q229413"><name type="nomen">Vipsania+</name><name type="cognomen">Agrippina+</name></persName></person><person xml:id="HD002169_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q48174"><name type="praenomen">M.+</name><name type="cognomen">Agrippa+</name></persName></person><person xml:id="HD002169_3" sex="M"><persName ref="https://www.wikidata.org/wiki/Q165448"><name type="praenomen">Drusus+</name><name type="cognomen">Caesar+</name></persName></person><person xml:id="HD002169_4" sex="M"><persName><name type="nomen">Asinii+</name></persName></person><person xml:id="HD002169_5" sex="M"><persName><name type="praenomen">C.+</name><name type="nomen">Asinius+</name><name type="cognomen">Gallus+</name></persName></person><person xml:id="HD002169_6" sex="W"><persName><name type="nomen">Livia+</name></persName></person><person xml:id="HD002169_7" sex="M"><persName ref="https://www.wikidata.org/wiki/Q156778"><name type="cognomen">Nero+ Drusus+ Germanicus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-11" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010377" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4b926a84-1773-4300-9560-2ac8d2eb9ff9/file/id/769897/file_version/name/small"/><graphic xml:id="F026123" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/da780424-4f03-4eb0-acb2-43c01525e734/file/id/786875/file_version/name/small"/><graphic xml:id="F042889" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ef1672b1-bb7f-4558-b698-819c151f0136/file/id/803995/file_version/name/small"/><graphic xml:id="F042895" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b599be74-56cb-4413-9eee-3f73d28adc31/file/id/804001/file_version/name/small"/><graphic xml:id="F043123" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f49423b1-214e-4b9c-81b7-db424ba3eef5/file/id/804233/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Vipsaniae Agrippinae <expan><abbr>M</abbr><ex>arci</ex></expan> Agrippae <expan><abbr>f</abbr><ex>iliae</ex></expan></supplied> <lb n="2"/><supplied reason="lost">Drusi Ca</supplied>esaris mat<supplied reason="lost">ri</supplied> <lb n="3"/><supplied reason="lost">Drusus Caesar</supplied> frater Asin<supplied reason="lost">iorum</supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>C</abbr><ex>aius</ex></expan> Asinius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Gallus <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></supplied> XVvir <supplied reason="lost"><expan><abbr>s</abbr><ex>acris</ex></expan> <expan><abbr>f</abbr><ex>aciundis</ex></expan> maritus</supplied> <lb n="5"/><supplied reason="lost">Livia Neronis Drusi Germanici <expan><abbr>f</abbr><ex>ilia</ex></expan> D</supplied>rusi <supplied reason="lost">Caesaris uxor</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Tafel ursprünglich aus mehreren Teilen zusammengesetzt; 6 Fragmente eines Teils erhalten. Lesung und Ergänzung nach G. Alföldy.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0050.</bibl><bibl>R.M. Sheldon, in: Atti del Colloquio Internazionale AIEGL su Epigrafia e ordine senatorio 1, Roma 1981, Tituli 4 (Roma 1982) 599-601, Nr. 5; tav. 13,1. - AE 1985.</bibl><bibl>CIL 06, 40321; Foto u. Zeichnung.</bibl><bibl>G. Alföldy, Studi sull' epigrafia augustea e tiberiana di Roma (Roma 1992) 125-129; tav. 17,54.</bibl><bibl>AE 1992, 0182.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Tomi, bei &amp;ndash; Valu lui Traian (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004654</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004654</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Constanţa, Muz. Ist. Naţ. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(80)</height><width>(112)</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217016">Tomi, bei</placeName></origPlace><origDate><origDate notBefore-custom="0364" notAfter-custom="0375" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">364 AD - 375 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1977"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/672620">Valu lui Traian</placeName><placeName type="findspot">Valea Seacă, {Haltestelle Murfatlar}?, bei, Schrankenwärterhaus, südlich</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004654_1"><persName><name type="cognomen">Valentinianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-07-03" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Virtute pariter ac pro<lb break="no" n="2"/>visione veterum princi<lb break="no" n="3"/>pum exempla transgres<lb break="no" n="4"/>so debellatori gentium <lb n="5"/><supplied reason="lost">b</supplied>arbararum domino <lb n="6"/><supplied reason="lost">no</supplied>stro Valentiniano <lb n="7"/><supplied reason="lost">triu</supplied>mfatori semper <supplied reason="lost">fe</supplied><lb break="no" n="8"/>[lici<certainty match="preceding-sibling::node()" locus="value"/> Augusto ------
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 7: AE 1978: [tri]umfatori; IScM, AE 1988: [triumph]atori.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0716. (B)</bibl><bibl>A.V. Rǎdulescu, Pontica 11, 1978, 151-154; fig. 1; fig. 2 (Zeichnung). - AE 1978.</bibl><bibl>AE 1988, 0994.</bibl><bibl>A.V. Rǎdulescu, in: Actes du VIIe Congrès International d'Épigraphie Grecque et Latine, Constantza 1977 (Bucureşti - Paris 1979) 455; fig. 1. - AE 1988.</bibl><bibl>IScM 2, 115. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

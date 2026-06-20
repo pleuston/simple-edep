@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Aquae Granni &amp;ndash; Aachen (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006142</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006142</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aachen, Centre Charlemagne, Neues Stadtmus.; Bonn, Rhein. Landesmus. (Kopie)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>36</height><width>12</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.8-1.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108749">Aquae Granni</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1953"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2940925">Aachen</placeName><placeName type="findspot">Burtscheid, {Burtscheider Markt 22}</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006142_1" sex="W"><persName><name type="nomen">Marcia</name><name type="cognomen">Verecunda</name></persName></person><person xml:id="HD006142_2" sex="M"><persName><name type="cognomen">Vangio</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-08-07" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020400" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a3ba2404-57b8-45e6-82a8-17e1a76bb39a/file/id/780473/file_version/name/small"/><graphic xml:id="F019350" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a196f070-c530-4185-af70-0bb2f1a673f9/file/id/779422/file_version/name/small"/><graphic xml:id="F004132" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5deb6fdb-4f0a-4478-af1f-2dcaf472e3f7/file/id/764894/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Nymphis <lb n="2"/>Marcia <lb n="3"/>Vangionis <lb n="4"/><expan><abbr>li</abbr><ex>berta</ex></expan> Verec<lb break="no" n="5"/>unda <expan><abbr>v</abbr><ex>otum</ex></expan> <lb n="6"/><expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Fundjahr: nach Keller: 1953 bzw. 1955: nach Clauss: 1960. Mit freundlichen Hinweisen zum aktuellen Aufbewahrungsort von Andreas Schaub (Email v. 21.7.2017).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1977, 0544.</bibl><bibl>M. Clauss, in: EpStud 11 (Köln 1976) 3-4, Nr. 2. - AE 1977.</bibl><bibl>AE 2005, 1061.</bibl><bibl>C. Keller, Archäologische Forschungen in Aachen. Katalog der Fundstellen in der Innenstadt und in Burtscheid (Mainz 2004) 80, Nr. 648/019; Abb. 51. - AE 2005.</bibl><bibl>A. Kakoschke, Ortsfremde in den römischen Provinzen Germania inferior und Germania superior (Möhnesee 2002), Nr. 3.3.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

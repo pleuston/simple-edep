@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Bad Münstereifel (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006172</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006172</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(50)</height><width>(37)</width><depth>(28)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1968"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2895534">Bad Münstereifel</placeName><placeName type="findspot">{Iversheim}, bei, "Hohe Ley"</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006172_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">v[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-06-10" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017321" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2b9e60d7-9224-4090-add5-a0ab2a28ebef/file/id/776930/file_version/name/small"/><graphic xml:id="F017406" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b767841e-8e9f-43b2-ab84-720912246173/file/id/777015/file_version/name/small"/><graphic xml:id="F017407" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ed69d821-8722-4a98-a493-8da03c5cedb6/file/id/777016/file_version/name/small"/><graphic xml:id="F017408" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3d35de83-14bd-4bce-9227-5e27e3694974/file/id/777017/file_version/name/small"/><graphic xml:id="F017409" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/60f4199f-c8b7-4c68-97b3-090adabaf76e/file/id/777018/file_version/name/small"/><graphic xml:id="F017410" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/322690e3-a252-4716-b0f6-abab8d83a543/file/id/777019/file_version/name/small"/><graphic xml:id="F017320" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/37fcb261-b31d-4608-9aab-9a733509b6f5/file/id/776929/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">M</supplied>inervae <supplied reason="lost">ve</supplied><lb break="no" n="2"/>xillatio <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="3"/><supplied reason="lost">XX</supplied>X <expan><abbr>U</abbr><ex>lpiae</ex></expan> <expan><abbr>v</abbr><ex>ictricis</ex></expan> sub V<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>LE<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">le</supplied>g</abbr><ex>ionis</ex></expan> eiu<supplied reason="lost"><expan><abbr>sd</abbr><ex>em</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1977, 0560.</bibl><bibl>M. Clauss, in: EpStud 11 (Köln 1976) 17, Nr. 23; Taf. 7, 1. - AE 1977.</bibl><bibl>M. Reuter, Legio XXX Ulpia victrix. Ihre Geschichte, ihre Soldaten, ihre Denkmäler (Darmstadt - Mainz 2012) 176, Nr. 155; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

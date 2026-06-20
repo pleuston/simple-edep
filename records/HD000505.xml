@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Cirpi &amp;ndash; Dunabogdány (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000505</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000505</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(75)</height><width>(142)</width><depth>8</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.8-7.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197208">Cirpi</placeName></origPlace><origDate><origDate notBefore-custom="0185" notAfter-custom="0191" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">185 AD - 191 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1978"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3053495">Dunabogdány</placeName><placeName type="findspot">{Kastell Dunabogdány}, bei, südwestlich</placeName><placeName type="region">Pest megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000505_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1434"><name type="praenomen">M.++</name><name type="nomen">Aurelius+++</name><name type="cognomen">Commodus++ Antoninus</name></persName></person><person xml:id="HD000505_2" sex="M"><persName><name type="nomen">Claudius*</name><name type="cognomen">Claudianus</name></persName></person><person xml:id="HD000505_3" sex="M"><persName><name type="nomen">Prastina+</name><name type="cognomen">Messalinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-04-28" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Iovi Optumo <expan><abbr>Maxim</abbr><ex>o</ex></expan> p<supplied reason="lost">ro</supplied> <lb n="2"/>salute <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <del rend="erasure">Marci A[ureli</del>] <lb n="3"/><del rend="erasure">Commodi</del> Antonini <expan><abbr>Aug</abbr><ex>usti</ex></expan> <supplied reason="lost">Pii</supplied> <lb n="4"/>Felicis <expan><abbr>Cl</abbr><ex>audius</ex></expan> Claudianus pr<supplied reason="lost"><expan><abbr>aef</abbr><ex>ectus</ex></expan></supplied> <lb n="5"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> II Alpinorum templum <lb n="6"/>a fundamentis const<supplied reason="lost">i</supplied><lb break="no" n="7"/>tuit sub cura Prastin<supplied reason="lost">ae</supplied> <lb n="8"/>Messalini <expan><abbr>leg</abbr><ex>ati</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> p<supplied reason="lost"><expan><abbr>r</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1982: Z. 1: Maximo p[ro]; Z. 4 (Ende): p[raef(ectus)].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0776.</bibl><bibl>AE 1982, 0798. (B)</bibl><bibl>TRHR (Suppl.) 135; Abb. 135 (Foto u. Zeichnung).</bibl><bibl>B. Lőrincz, AArchHung 35, 1983, 63-68, Nr. 1; Abb. 2; Abb. 3 (Zeichnung). - AE 1983.</bibl><bibl>J. Fitz, Alba Regia 20, 1983, 275-276. - AE 1983.</bibl><bibl>T. Nagy, AErt 110, 1983, 195-200; Foto. - AE 1984.</bibl><bibl>PIR (2. Aufl.) P 927.</bibl><bibl>J. Fitz, Die Verwaltung Pannoniens in der Römerzeit (Budapest 1993) 501-503, Nr. 296.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

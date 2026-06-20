@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004557</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004557</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(36)</height><width>(40)</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-3.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="0336" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">336 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004557_1" sex="M"><persName><name type="cognomen">Nepotianus+</name></persName></person><person xml:id="HD004557_2" sex="M"><persName><name type="cognomen">Facundus</name></persName></person><person xml:id="HD004557_3" sex="W"><persName><name type="cognomen">Simplicia+</name></persName></person><person xml:id="HD004557_4" sex="W"><persName><name type="cognomen">Simplicia+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-03-28" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Nepotia</supplied>no et Facundo co<supplied reason="lost"><expan><abbr>ns</abbr><ex>ulibus</ex></expan></supplied> <lb n="2"/><supplied reason="lost">Sim</supplied>pliciae fili<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="3"/><supplied reason="lost">Sim</supplied>plicia mater <lb n="4"/><supplied reason="lost">quae v</supplied>ixit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XIIII d<supplied reason="lost">epo</supplied><lb break="no" n="5"/><supplied reason="lost">sit</supplied>io <expan><abbr>prid</abbr><ex>ie</ex></expan> <expan><abbr>Non</abbr><ex>as</ex></expan> F[ebruarias ------
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1976: Z. 4/5: de[posit]io.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1976, 0032. (B)</bibl><bibl>C. Carletti, MemPontAc 2, 1976, 17, Nr. 1; Foto. - AE 1976.</bibl><bibl>ICUR n. s. 26663.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

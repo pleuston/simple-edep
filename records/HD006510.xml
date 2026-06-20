@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Settepolesini (Aemilia (Regio VIII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006510</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006510</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Aemilia (Regio VIII)</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Settepolesini</placeName><placeName type="findspot">Casa di Dio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006510_1"><persName><name type="praenomen">M.</name><name type="nomen">Naevius</name><name type="cognomen">Marcellus</name></persName></person><person xml:id="HD006510_2"><persName><name type="praenomen">M.</name><name type="nomen">Naevius</name><name type="cognomen">Prudens</name></persName></person><person xml:id="HD006510_3"><persName><name type="praenomen">M.</name><name type="nomen">Naevius</name><name type="cognomen">Velox</name></persName></person><person xml:id="HD006510_4"><persName><name type="praenomen">M.</name><name type="nomen">Naevius</name><name type="cognomen">Cultor</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2000-05-10" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>M</abbr><ex>arco</ex></expan> Naevio <lb n="3"/>Marcello <lb n="4"/><expan><abbr>n</abbr><ex>atione</ex></expan> <expan><abbr>Ital</abbr><ex>o</ex></expan> <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> <lb n="5"/>LXXXV <expan><abbr>fil</abbr><ex>i</ex></expan> <expan><abbr>piissi</abbr><ex>mi</ex></expan> <lb n="6"/><expan><abbr>posuer</abbr><ex>unt</ex></expan> <expan><abbr>titul</abbr><ex>um</ex></expan> <lb n="7"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Naevius Pru<lb break="no" n="8"/>dens <expan><abbr>M</abbr><ex>arcus</ex></expan> Naevius <lb n="9"/>Velox <expan><abbr>M</abbr><ex>arcus</ex></expan> Naevius <lb n="10"/>Cultor <expan><abbr>h</abbr><ex>eredes</ex></expan> <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <expan><abbr>p</abbr><ex>onendum</ex></expan> <expan><abbr>c</abbr><ex>uraverunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0343.</bibl><bibl>M. Bollini, RSA 6/7, 1976/77, 351-359; fig. 3. - AE 1978.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

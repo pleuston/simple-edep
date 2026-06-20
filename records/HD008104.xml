@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Vinovia &amp;ndash; Binchester (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008104</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008104</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Barnard Castle, Bowes Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/147">tile</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><dimensions unit="cm"><height>11</height><width>19</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89316">Vinovia</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1978"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern">Binchester</placeName><placeName type="findspot">Lager, Praetorium {Thermen}</placeName><placeName type="region">Durham</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008104_1" sex="M"><persName><name type="cognomen">Matutinus+</name></persName></person><person xml:id="HD008104_10" sex="M"><persName><name type="cognomen">Solinus</name></persName></person><person xml:id="HD008104_11" sex="M"><persName><name type="cognomen">Senicianus+</name></persName></person><person xml:id="HD008104_12" sex="M"><persName><name type="cognomen">Vincentus</name></persName></person><person xml:id="HD008104_13" sex="M"><persName><name type="cognomen">Cunovendus</name></persName></person><person xml:id="HD008104_14" sex="M"><persName><name type="cognomen">Catugnavus</name></persName></person><person xml:id="HD008104_15" sex="M"><persName><name type="cognomen">Carinus</name></persName></person><person xml:id="HD008104_16" sex="M"><persName><name type="cognomen">Marinus</name></persName></person><person xml:id="HD008104_17" sex="M"><persName><name type="cognomen">Lucillianus</name></persName></person><person xml:id="HD008104_18" sex="M"><persName><name type="cognomen">Senicianus</name></persName></person><person xml:id="HD008104_19" sex="M"><persName><name type="cognomen">Vitalin[---]</name></persName></person><person xml:id="HD008104_2" sex="M"><persName><name type="cognomen">Cogitatus</name></persName></person><person xml:id="HD008104_20" sex="M"><persName><name type="cognomen">M[---]</name></persName></person><person xml:id="HD008104_21" sex="M"><persName><name type="cognomen">Constans</name></persName></person><person xml:id="HD008104_22"><persName><name type="cognomen">Titianus</name></persName></person><person xml:id="HD008104_23"><persName><name type="cognomen">Karinius</name></persName></person><person xml:id="HD008104_24" sex="M"><persName><name type="cognomen">Iuvenalis+</name></persName></person><person xml:id="HD008104_25"><persName><name type="cognomen">Karinius</name></persName></person><person xml:id="HD008104_26" sex="M"><persName><name type="cognomen">Vitalis</name></persName></person><person xml:id="HD008104_3" sex="M"><persName><name type="cognomen">Virilis</name></persName></person><person xml:id="HD008104_4" sex="M"><persName><name type="cognomen">Florentinus</name></persName></person><person xml:id="HD008104_5" sex="M"><persName><name type="cognomen">Clemens</name></persName></person><person xml:id="HD008104_6" sex="M"><persName><name type="cognomen">Marinus</name></persName></person><person xml:id="HD008104_7" sex="M"><persName><name type="cognomen">Bellicus</name></persName></person><person xml:id="HD008104_8" sex="M"><persName><name type="cognomen">Iuventianus</name></persName></person><person xml:id="HD008104_9" sex="M"><persName><name type="cognomen">Cupitus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-02-25" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                CIIII <lb n="2"/>Ma<supplied reason="lost">t</supplied>utini <lb n="3"/>Cogitati <lb n="4"/>Virilis <lb n="5"/>Florentini <lb n="6"/>Clementis <lb n="7"/>Marini <lb n="8"/>Bellici <lb n="9"/>Iuventianus <lb n="10"/>Cupiti <lb n="11"/>Solini <lb n="12"/>Seni<supplied reason="lost">c</supplied>iani <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> V <lb n="2"/>Vincenti <lb n="3"/>Cunovendi <lb n="4"/>Catugnavi <lb n="5"/>Carini <lb n="6"/>Marini <lb n="7"/>Lucilliani <lb n="8"/>Senicianii <note>sic</note> <lb n="9"/>Vitalin<gap reason="lost" extent="unknown" unit="character"/> <lb n="10"/>M<gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> CII <lb n="2"/>Constantis <lb n="3"/>Titiani <lb n="4"/>Karinius </ab></div><div n="4" type="textpart"><ab><lb n="1"/> CIII <lb n="2"/>Iuvena<supplied reason="lost">lis</supplied> <lb n="3"/>Karinii <lb n="4"/>Vitalis
+            </ab></div></div>
+            <div type="commentary">
+                <p>Graffito.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0389.</bibl><bibl>R. Goodburn - M.W.C. Hassall - R.S.O. Tomlin, Britannia 10, 1979, 347-348, Nr. 20; fig. 24 (Zeichnung). - AE 1979.</bibl><bibl>RIB 2491, 78; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

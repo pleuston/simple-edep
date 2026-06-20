@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Ganuenta? &amp;ndash; Colijnsplaat (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000346</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000346</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Middelburg, Zeeuws Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>74</height><width>46</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Belgica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109000">Ganuenta?</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1981"><placeName type="country" ref="https://www.geonames.org/2750405">Netherlands</placeName><placeName type="modern" ref="http://www.geonames.org/2757930">Colijnsplaat</placeName><placeName type="findspot">Oosterschelde, Fluss, {Schaar van Colijnsplaat}</placeName><placeName type="region">Zeeland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000346_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Aurelius</name><name type="cognomen">Verus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-08-15" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Deae <lb n="2"/>Nehalenniae <lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> Aurelius <lb n="4"/>Verus <lb n="5"/>negotiator <lb n="6"/>Britannicianus <lb n="7"/>ex voto <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Über der Inschrift Reliefdarstellung der Göttin in einer aedicula; auf den beiden Nebenseiten je ein Füllhorn; auf der Rückseite ein herabhängendes Tuch; auf der Oberseite zwei Äpfel; Vorderseite von Pilastern eingefaßt. Fundjahr: bezieht sich auf das zuletzt gefundene der fünf Fragmente. (B): AE 1978: Z. 4/5: Zeilenfall fehlt. Mit freundlichem Hinweis von Marie-Thérèse Raepsaet-Charlier.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0722. (B)</bibl><bibl>J.E. Bogaers, in: B. Hartley - J. Wacher (Hrsg.), Rome and her northern provinces (Gloucester 1983) 18-21; pl. 4. - AE 1983.</bibl><bibl>AE 2003, 1228.</bibl><bibl>M.-T. Raepsaet-Charlier, AC 72, 2003, 292, Nr. A 11. - AE 2003.</bibl><bibl>P. Stuart - J.E. Bogaers, Nehalennia. Römische Steindenkmäler aus der Oosterschelde bei Colijnsplaat (Leiden 2001) 60-61, Nr. A 11; Taf. 10, A 11.</bibl><bibl>A. Kakoschke, Ortsfremde in den römischen Provinzen Germania inferior und Germania superior (Möhnesee 2002), Nr. 4.7.B.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

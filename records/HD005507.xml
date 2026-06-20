@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Thamugadi - Mascula, inter &amp;ndash; Timgad, bei (Numidia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005507</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005507</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Numidia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/334636">Thamugadi - Mascula, inter</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern">Timgad, bei</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1997-08-17" who="Niquet">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Im</abbr><ex>peratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>C</abbr><ex>aio</ex></expan> Mes<lb break="no" n="2"/>sio <expan><abbr>Q</abbr><ex>uinto</ex></expan> Traia<lb break="no" n="3"/>no Decio Inv<lb break="no" n="4"/>icto Pio <expan><abbr>Felic</abbr><ex>i</ex></expan> <lb n="5"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>P</abbr><ex>io</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <lb n="6"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="7"/>co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> II proco<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <lb n="8"/>et Heren<expan><ex>n</ex><abbr>iae</abbr></expan> <lb n="9"/>Etruscillae <lb n="10"/><expan><abbr>con</abbr><ex>iugi</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> <lb n="11"/>res <expan><abbr>pub</abbr><ex>lica</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <lb n="12"/><supplied reason="lost"><expan><abbr>Thamug</abbr><ex>adensium</ex></expan></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0892.</bibl><bibl>J. Marcillet-Jaubert, AntAfr 16, 1980, 166-167, Nr. 10; fig. 10. - AE. V</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

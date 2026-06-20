@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Pompeii, bei &amp;ndash; Pompei, bei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001925</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001925</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/123">Holz</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii, bei</placeName></origPlace><origDate><origDate notBefore-custom="0010" notAfter-custom="0062" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">10 AD - 62 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170336">Pompei, bei</placeName><placeName type="findspot">Murécine</placeName><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001925_1" sex="M"><persName><name type="nomen">Novius</name><name type="cognomen">Crescens</name></persName></person><person xml:id="HD001925_2" sex="M"><persName><name type="nomen">Claudius</name><name type="cognomen">Venerianus</name></persName></person><person xml:id="HD001925_3" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Ennius</name><name type="cognomen">Crescens</name></persName></person><person xml:id="HD001925_4" sex="M"><persName><name type="nomen">Eunius</name><name type="cognomen">Primigenius</name></persName></person><person xml:id="HD001925_5" sex="M"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD001925_6" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2005-05-27" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Crescentis Novi <lb n="2"/>Claudi Veneriani <lb n="3"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Enni Crescentis <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="4"/><expan><abbr>P</abbr><ex>ubli</ex></expan> Enni Crescentis <lb n="5"/>Primigeni Euni <lb n="6"/><expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Feb</abbr><ex>ruarias</ex></expan> <lb n="7"/><supplied reason="lost">Pr</supplied>imigeni frater <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="8"/><supplied reason="lost">Pr</supplied>imigeni mater
+            </ab></div>
+            <div type="commentary">
+                <p>Tabula Pompeiana. Es handelt sich um atramentum 4. Sicherlich sind P. Ennius Crescens und [-] Ennius Crescens identisch. Y: Datierungsspanne der Tafeln vom Agro Murecine. (B): Z. 1: Crescenti.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0215. (B)</bibl><bibl>A. Landi, AAP 29, 1980, 194; tav. 10. - AE 1984.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

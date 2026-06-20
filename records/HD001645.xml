@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Herdonia &amp;ndash; Ordona (Apulia et Calabria (Regio II))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001645</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001645</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Marmor, geädert / farbig</material><dimensions unit="cm"><height>(55)</height><width>(44)</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.9-2.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Apulia et Calabria (Regio II)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/442613">Herdonia</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1970"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Ordona</placeName><placeName type="findspot">Forum</placeName><placeName type="region">Puglia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001645_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Aurelius</name><name type="cognomen">A[---]</name></persName></person><person xml:id="HD001645_2" sex="M"><persName><name type="praenomen">L.+</name><name type="nomen">Axius</name><name type="cognomen">Successus+</name></persName></person><person xml:id="HD001645_3" sex="M"><persName><name type="nomen">Axius</name><name type="cognomen">Sucula+</name></persName></person><person xml:id="HD001645_4" sex="W"><persName><name type="nomen">Axia</name><name type="cognomen">Lucilla</name></persName></person><person xml:id="HD001645_5" sex="W"><persName><name type="nomen">Appea+ (= Appaea)</name><name type="cognomen">Iusta</name></persName></person><person xml:id="HD001645_6" sex="M"><persName><name type="cognomen">Iustus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-12-27" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Pro sal</supplied>u<supplied reason="lost">te <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan></supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arci</ex></expan></supplied> Aureli A<supplied reason="lost">ntonini <expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>L</abbr><ex>ucius</ex></expan></supplied> Axius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Pap</abbr><ex>iria</ex></expan> S<supplied reason="lost">ucula <expan><abbr>aed</abbr><ex>ilis</ex></expan></supplied> <lb n="4"/>IIIIvir <expan><abbr>q</abbr><ex>uaestor</ex></expan> <expan><abbr>r</abbr><ex>ei</ex></expan> <expan><abbr>u</abbr><ex cert="low">rbanae</ex></expan> <expan><abbr>cur</abbr><ex cert="low">andae</ex></expan> <supplied reason="lost">pater</supplied> <lb n="5"/>Axius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Pap</abbr><ex>iria</ex></expan> Suc<supplied reason="lost">ula</supplied> <lb n="6"/><expan><abbr>aed</abbr><ex>ilis</ex></expan> IVvir <expan><abbr>q</abbr><ex>uaestor</ex></expan> <expan><abbr>r</abbr><ex>ei</ex></expan> <expan><abbr>u</abbr><ex cert="low">rbanae</ex></expan> <expan><abbr>cur</abbr><ex cert="low">andae</ex></expan> <supplied reason="lost"><expan><abbr>fil</abbr><ex>ius</ex></expan></supplied> <lb n="7"/>item Axia <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> Lucilla <supplied reason="lost">Ap</supplied><lb break="no" n="8"/>pea Iusti <expan><abbr>f</abbr><ex>ilia</ex></expan> Iusta ma<supplied reason="lost">ter</supplied> <lb n="9"/>quot <note>sic</note> templum Dafes V<supplied reason="lost"><expan><abbr>ict</abbr><ex>oris</ex></expan>? ve</supplied><lb break="no" n="10"/>tustate dilapsum atq<supplied reason="lost">ue</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="11"/>sua <expan><abbr>pec</abbr><ex>unia</ex></expan> solo restit<supplied reason="lost">uerunt</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Mehrere aneinanderpassende Fragmente erhalten. Material: rot geäderter weißer Marmor. (B): Z. 5: Suc[cessus]. Die letzte Zeile steht auf dem Rand.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0212. (B)</bibl><bibl>J. Smeesters, Ordona 6, 1979, 133-135, Nr. 50; pl. 48, 50; fig. 34 (Zeichnung). - AE 1982.</bibl><bibl>AE 1988, 0357. (B)</bibl><bibl>AE 1989, 0190.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

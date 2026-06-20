@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aeso &amp;ndash; Isona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009313</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009313</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Isona, Mus. de la Conca Dellà</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>71</height><width>(127)</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.2-7.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246147">Aeso</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3120270">Isona</placeName><placeName type="findspot"/><placeName type="region">Cataluña</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009313_1" sex="W"><persName><name type="nomen">Porcia+</name><name type="cognomen">Catulla+</name></persName></person><person xml:id="HD009313_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Licinius</name><name type="cognomen">Silvanus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-11" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Po<supplied reason="lost">r</supplied>ciae <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> <lb n="2"/><supplied reason="lost">Ca</supplied>tullae <lb n="3"/><supplied reason="lost">ex</supplied> voluntate <lb n="4"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Licini Silvan<supplied reason="lost" cert="low">i</supplied> <lb n="5"/>mariti optimi
+            </ab></div>
+            <div type="commentary">
+                <p>Mehrere aneinanderpassende Fragmente. Rechts des gerahmten Inschriftfeldes ist der linke Rand einer weiteren Rahmung erhalten, der an IRC 2, 030 paßt. Am rechten Rand von IRC 2, 030 bzw. am linken Rand der vorliegenden Inschrift sind weitere Rahmungsreste erhalten, so daß von mindestens vier nebeneinander angebrachten Inschriften ausgegangen werden kann. Hederae in Z. 1. Z. 4: statt Silvan[i](?) auch Silvani(?) möglich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1972, 0313.</bibl><bibl>IRC 2, 041; pl. 25, 41.</bibl><bibl>IRC 5, p. 65-67.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

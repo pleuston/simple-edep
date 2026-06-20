@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006072</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006072</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Alba Iulia, katholischer Bischofssitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(44)</height><width>(58)</width><depth>56</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0107" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">107 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1977"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot">Festung, {S. Michael, katholische Kathedrale}</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006072_1" sex="M"><persName ref="http://romans1by1.com/rpeople/9746"><name type="praenomen">T.</name><name type="nomen">Fabius</name><name type="cognomen">Barbatus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-09-07" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005153" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/faca975b-43d8-467b-b8a1-c6212660a518/file/id/765930/file_version/name/small"/><graphic xml:id="F036406" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3c8d26cb-9ea6-4c48-8e41-7ed0c5fce804/file/id/797264/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>atri</ex></expan> <expan><abbr>D</abbr><ex>eum</ex></expan> <expan><abbr>M</abbr><ex>agnae</ex></expan> <lb n="2"/><expan><abbr>T</abbr><ex>itus</ex></expan> Fabius <lb n="3"/>Barba<lb break="no" n="4"/><supplied reason="lost" cert="low">t</supplied>us pro <lb n="5"/><supplied reason="lost">salute<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Fundjahr: zwischen 1968 und 1977. (B): AE 1980; IDR 3, 5: Z. 3/4: Barba/[r]us oder Barba/[t]us; Russu: Z. 3-5: Barba/[r]us pro / [salute sua ---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0737.</bibl><bibl>AE 2010, 1377.</bibl><bibl>IDR 3, 5, 252; Foto u. Zeichnung.</bibl><bibl>I.I. Russu, RevMuz 17, 9, 1980, 34-36, Nr. 1; fig 1 (Foto u. Zeichnung). (B) - AE 1980.</bibl><bibl>R. Ardevan, ACD 46, 2010, 126-127; Abb. 3 (Foto u. Zeichnung). - AE 2010.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

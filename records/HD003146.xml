@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iponoba &amp;ndash; Cerro del Minguillar (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003146</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003146</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>(47)</height><width>(30)</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-1.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="#">Iponoba</placeName></origPlace><origDate><origDate notBefore-custom="-0030" notAfter-custom="0030" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC - 30 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Cerro del Minguillar</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003146_1"><persName><name type="praenomen">P.</name><name type="nomen">Aelius+</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1999-08-24" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ocus</ex></expan> <expan><abbr>p</abbr><ex>edum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Aeliu<supplied reason="lost">s</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><supplied reason="lost">t</supplied>e lapis optest<supplied reason="lost">or leviter super</supplied> <lb n="4"/>ossa r<supplied reason="lost">esidas</supplied> <lb n="5"/><supplied reason="lost">n</supplied>e nostro dole<supplied reason="lost">at conditus</supplied> <lb n="6"/>o<supplied reason="lost">fficio</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Puerta - Stylow, AE 1985: Text setzte sich ursprünglich nach Z.6 noch weiter fort.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0560. (B)</bibl><bibl>C. Puerta - A.U. Stylow, Gerión 3, 1985, 317-319, Nr. 1; fig. 1. - AE 1985.</bibl><bibl>CIL 02 (2. Aufl.) 05, 00372.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

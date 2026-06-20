@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Novae &amp;ndash; Svištov (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006310</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006310</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>77</height><width>60</width><depth>61</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216899">Novae</placeName></origPlace><origDate><origDate when-custom="0184" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">184 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1982"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726534">Svištov</placeName><placeName type="findspot">Lager, {Bischofsbasilika}</placeName><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006310_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Maximius</name><name type="cognomen">Gaetulicus</name></persName></person><person xml:id="HD006310_2" sex="M"><persName><name type="cognomen">Marullus</name></persName></person><person xml:id="HD006310_3" sex="M"><persName><name type="cognomen">Aelianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-03-11" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005221" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0b1926f9-8f9c-4d87-8e54-cd997d84d108/file/id/765998/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Pro salut<supplied reason="lost">e</supplied> I<supplied reason="lost"><expan><abbr>mp</abbr><ex>eratoris</ex></expan></supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Victoriae <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <lb n="2"/>Pantheae sanctis<lb break="no" n="3"/>simae <expan><abbr>L</abbr><ex>ucius</ex></expan> Maximius <lb n="4"/><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Voltiniae Gaetu<lb break="no" n="5"/>licus Viennae quod <lb n="6"/>tiro aput <note>sic</note> <expan><abbr>leg</abbr><ex>ionem</ex></expan> XX <expan><abbr>V</abbr><ex>aleriam</ex></expan> <expan><abbr>v</abbr><ex>ictricem</ex></expan> <lb n="7"/>voveram nunc <lb n="8"/><expan><abbr>p</abbr><ex>rimus</ex></expan> <expan><abbr>p</abbr><ex>ilus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>Ital</abbr><ex>icae</ex></expan> <expan><abbr>stip</abbr><ex>endiorum</ex></expan> <lb n="9"/>LVII <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olveram</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Marullo et Aeliano co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Z. 1 befindet sich auf der corona, Z. 11 auf der crepido. (B): Z. 11: Mrozewicz, IGLNovae: co(n)[s(ulibus)].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0735.</bibl><bibl>L. Mrozewicz, ZPE 57, 1984, 181-184; Taf. 15a; Taf. 15b (Zeichnung). (B) - AE 1985.</bibl><bibl>IGLN 046; pl. 17, 46 (Foto u. Zeichnung). (B)</bibl><bibl>ILNovae 027; Abb. 27a; Abb. 27b (Zeichnung).</bibl><bibl>PIR (2. Aufl.) E 10.</bibl><bibl>PIR (2. Aufl.) P 107.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

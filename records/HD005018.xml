@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Pompeii, bei &amp;ndash; Pompei, bei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005018</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005018</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii, bei</placeName></origPlace><origDate><origDate when-custom="0040" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">40 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170336">Pompei, bei</placeName><placeName type="findspot">Murécine</placeName><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005018_1"><persName><name type="praenomen">C.</name><name type="nomen">Laecanius</name><name type="cognomen">Bassus</name></persName></person><person xml:id="HD005018_2"><persName><name type="praenomen">Q.</name><name type="nomen">Terentius+</name><name type="cognomen">Cullio+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2005-05-27" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Laecanio Basso <expan><abbr>Q</abbr><ex>uinto</ex></expan> Teren<supplied reason="lost">ti</supplied>o Cull<supplied reason="lost">ione</supplied> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> Idi<supplied reason="lost">bus</supplied> Ma<supplied reason="lost">is</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">in</supplied> <lb n="4"/><supplied reason="lost">praediis</supplied> Lepidian<supplied reason="lost">is</supplied> primis Barbatianis superiorib<supplied reason="lost">u</supplied>s <lb n="5"/><supplied reason="lost">libellus</supplied> adfixus <supplied reason="lost">fu</supplied>it medianu<supplied reason="lost">s</supplied> in qu<supplied reason="lost">o</supplied><gap reason="lost" extent="unknown" unit="character"/> chiro<lb break="no" n="6"/>graphum scripsi me itu<supplied reason="lost">rum</supplied> R<supplied reason="lost">omam</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>si Idibus Mais primis ea HS MD <expan><abbr>q</abbr><ex>uae</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>cripta</ex></expan> <expan><abbr>s</abbr><ex>unt</ex></expan> non <lb n="8"/>satisve fecere tum deceat <gap reason="lost" extent="unknown" unit="character"/> <lb n="9"/>sub <supplied reason="lost">p</supplied>raecone de condicione <gap reason="lost" extent="unknown" unit="character"/> <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">q</supplied>uo magis quod superest <gap reason="lost" extent="unknown" unit="character"/> <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> quo minoris venierit triti<supplied reason="lost">cum</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> utique id triticum quo de agitur ab <lb n="13"/>omni periculo esset meo he<supplied reason="lost">re</supplied>disve mei haec <lb n="14"/>mihi tecum ita convenerunt pactusque sum <lb n="15"/>act<supplied reason="lost">u</supplied>m Puteolis
+            </ab></div>
+            <div type="commentary">
+                <p>Entspricht Tabula Pompeiana 69.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0139.</bibl><bibl>F. Sbordone, RAAN 51, 1976, 166-167, Nr. 17; tav. 13, 21. - AE 1978.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

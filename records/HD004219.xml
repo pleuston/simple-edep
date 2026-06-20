@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Interamnia Praetuttiorum &amp;ndash; Teramo (Picenum (Regio V))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004219</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004219</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Picenum (Regio V)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413179">Interamnia Praetuttiorum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Teramo</placeName><placeName type="findspot">Kathedrale, bei, sekundär verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004219_1"><persName><name type="praenomen">L.</name><name type="nomen">Arrius</name><name type="cognomen">Panther+?</name></persName></person><person xml:id="HD004219_2"><persName><name type="nomen">P[---]na</name><name type="cognomen">R[---]</name></persName></person><person xml:id="HD004219_3"><persName><name type="praenomen">L.</name><name type="nomen">Arrius+</name><name type="cognomen">Felix+</name></persName></person><person xml:id="HD004219_4"><persName><name type="praenomen">L.</name><name type="nomen">Arrius</name><name type="cognomen">Auctus+</name></persName></person><person xml:id="HD004219_5"><persName><name type="praenomen">[-]</name><name type="nomen">[---]s</name><name type="cognomen">S[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2006-09-19" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Arrius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> Pan<supplied reason="lost" cert="low">ther</supplied> <lb n="2"/>P<gap reason="lost" extent="unknown" unit="character"/>nae <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>l</abbr><ex>ibertae</ex></expan> R<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><supplied reason="lost">co</supplied>ncubin<supplied reason="lost">ae</supplied> <lb n="4"/><expan><abbr>L</abbr><ex>ucio</ex></expan> <supplied reason="lost">Ar</supplied>rio <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>l</abbr><ex>iberto</ex></expan> Fel<supplied reason="lost">ici</supplied> <lb n="5"/><expan><abbr>L</abbr><ex>ucio</ex></expan> Arrio <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>l</abbr><ex>iberto</ex></expan> Auc<supplied reason="lost">to</supplied> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>s Aucti <expan><abbr>l</abbr><ex>ibertus</ex></expan> S<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Aucti wohl identisch mit L. Arrio L.l. Auc[to].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0381.</bibl><bibl>A. Donati, Epigraphica 32, 1970, 80-81, Nr. 1. - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

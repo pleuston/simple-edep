@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Lugdunum &amp;ndash; Lyon (Lugdunensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001321</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001321</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material>Gesteine</material><dimensions unit="cm"><height>63</height><width>35</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-1.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lugdunensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167717">Lugdunum</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1980"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2996944">Lyon</placeName><placeName type="findspot">Nekropole, rue Pierre-Audry</placeName><placeName type="region">Auvergne-Rhône-Alpes</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001321_1" sex="M"><persName><name type="nomen">Victorius</name><name type="cognomen">Regulus</name></persName></person><person xml:id="HD001321_2" sex="M"><persName><name type="nomen">Vicrius</name><name type="cognomen">Tetricus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-10-10" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> et memoriae <lb n="2"/>aeternae Vic<lb break="no" n="3"/>torio Regulo <lb n="4"/>civi Nemeti et <lb n="5"/><expan><abbr>neg</abbr><ex>otiatori</ex></expan> <expan><abbr>Duro</abbr><ex>cortoro</ex></expan> purpu<lb break="no" n="6"/>rario Vicrius <lb n="7"/>Tetricus <expan><abbr>vet</abbr><ex>eranus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XX<supplied reason="lost">II</supplied> <lb n="8"/><expan><abbr>Pr</abbr><ex>imigeniae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> fratri <expan><abbr>cariss</abbr><ex>imo</ex></expan> <lb n="9"/><expan><abbr>p</abbr><ex>onendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan> <expan><abbr>s</abbr><ex>ub ascia</ex></expan> <expan><abbr>ded</abbr><ex>icavit</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Erste Erwähnung eines civis Nemes unter den Einwohnern von Lugdunum. Anwesenheit von Mannschaften der leg. XXII Primig. in Lugdunum durch weitere dort bestattete Veteranen bezeugt: z.B. CIL 13, 1837 u. 1838 u.a. Der Stein ist aus mehreren aneinanderpassenden Fragmenten zusammengesetzt. (C): Vicrius nach Reynaud - Helly, Le Glay nicht bezeugt; belegt nach Solin - Salomies, Repertorium.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0709. (C)</bibl><bibl>J.-F. Reynaud - B. Helly - M. Le Glay, Gallia 40, 1982, 143-148; fig. 11. (C) - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

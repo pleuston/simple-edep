@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Bellunum &amp;ndash; Belluno (Venetia et Histria (Regio X))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007312</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007312</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Belluno, Mus. Civ.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>180</height><width>94</width><depth>72</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Venetia et Histria (Regio X)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187311">Bellunum</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Belluno</placeName><placeName type="findspot">piazza dei Martiri, sekundär verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007312_1"><persName><name type="praenomen">M.</name><name type="nomen">Carminius</name><name type="cognomen">Pudens</name></persName></person><person xml:id="HD007312_2"><persName><name type="nomen">Iunia</name><name type="cognomen">Vaeriana</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-08-02" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F001172" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/dd4819e7-f3a0-464e-92c8-e275b06bd213/file/id/762264/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> Carminio <lb n="2"/><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> <expan><abbr>Pap</abbr><ex>iria</ex></expan> Pude<lb break="no" n="3"/>nti equo <expan><abbr>pub</abbr><ex>lico</ex></expan> <lb n="4"/>sacerdoti <expan><abbr>Lau</abbr><ex>rentium</ex></expan> <expan><abbr>La</abbr><ex>vinatium</ex></expan> <lb n="5"/>electo ad causas <lb n="6"/>fisci tuendas in pro<lb break="no" n="7"/><expan><abbr>vinc</abbr><ex>ia</ex></expan> Alpium Mariti<lb break="no" n="8"/><expan><abbr>mar</abbr><ex>um</ex></expan> <expan><abbr>patron</abbr><ex>o</ex></expan> rei <expan><abbr>p</abbr><ex>ublicae</ex></expan> Terge<supplied reason="lost">s</supplied><lb break="no" n="9"/><expan><abbr>tinor</abbr><ex>um</ex></expan> patrono <expan><abbr>pleb</abbr><ex>is</ex></expan> <expan><abbr>urb</abbr><ex>anae</ex></expan> <lb n="10"/><expan><abbr>patron</abbr><ex>o</ex></expan> <expan><abbr>colleg</abbr><ex>iorum</ex></expan> dendropho<lb break="no" n="11"/><expan><abbr>ror</abbr><ex>um</ex></expan> et <expan><abbr>fabr</abbr><ex>orum</ex></expan> <expan><abbr>cur</abbr><ex>atori</ex></expan> rei <expan><abbr>p</abbr><ex>ublicae</ex></expan> Mantu<lb break="no" n="12"/><expan><abbr>anor</abbr><ex>um</ex></expan> <expan><abbr>cur</abbr><ex>atori</ex></expan> rei <expan><abbr>p</abbr><ex>ublicae</ex></expan> <expan><abbr>Vicetinor</abbr><ex>um</ex></expan> <lb n="13"/>patrono Catubrinorum <lb n="14"/>plebs urbana patrono <lb n="15"/>ob merita <lb n="16"/>statuam a plebe oblatam <lb n="17"/>Iunia Valeriana remissa <lb n="18"/>plebei <note>sic</note> inpensa pecunia su<lb break="no" n="19"/>a posuit
+            </ab></div>
+            <div type="commentary">
+                <p>Auf der Oberseite Verdübelungsspuren einer Bronzestatue. (B): AE 1976: Z. 7: patrono pleb. urb. fälschlich in die Zeile eingefügt; Z. 8/9: Terg[es]tinor.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1976, 0252a. (B)</bibl><bibl>G. Alföldy, Römische Statuen in Venetia et Histria. Epigraphische Quellen (Heidelberg 1984) 117, Nr. 153; Taf. 4, 4; Abb. 20 (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

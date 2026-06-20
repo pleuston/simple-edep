@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Yvorne (Alpes Poeninae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001114</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001114</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Yvorne, Maison de commune</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Poeninae</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0047" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">47 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1980"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/7669988">Yvorne</placeName><placeName type="findspot">{Versvey}, Kiesgrube</placeName><placeName type="region">Canton de Vaud</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001114_1" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Claudius</name><name type="cognomen">Caesar Augustus+* Germanicus*</name></persName></person><person xml:id="HD001114_2" sex="M"><persName><name type="cognomen">Drusus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-13" who="Masci">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ti</abbr><ex>berius</ex></expan> Claudius Drusi <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/>Caesar <supplied reason="lost"><expan><abbr>Aug</abbr><ex>ustus</ex></expan></supplied> <expan><abbr>Germ</abbr><ex>anicus</ex></expan> <lb n="3"/><expan><abbr>pontif</abbr><ex>ex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> VII <lb n="4"/><expan><abbr>imp</abbr><ex>erator</ex></expan> XII <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IIII <lb n="5"/><expan><abbr>F</abbr><ex>oro</ex></expan> <expan><abbr>C</abbr><ex>laudi</ex></expan> <expan><abbr>A</abbr><ex>ugusti</ex></expan> <lb n="6"/>XXI
+            </ab></div>
+            <div type="commentary">
+                <p>Meilenstein mit gleicher Inschrift in der Kirche S. Saphorin (CIL XII 5528). Datierung: in die ersten Wochen des Jahres 47 (1.1.-28.2.47). (B): AE 1982: Z. 5: F(oro) C(laudio) A(ugusto). 28.2.47).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0673. (B)</bibl><bibl>G. Walser, Historia 29, 1980, 438-462; Foto u. Zeichnung. - AE 1982.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

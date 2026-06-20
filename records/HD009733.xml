@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Resculum vicus Anartorum &amp;ndash; Poieni (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009733</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009733</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cluj-Napoca, Muz. Naţ. Ist. Transilv.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(16)</height><width>(43)</width><depth>(15)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207385">Resculum vicus Anartorum</placeName></origPlace><origDate><origDate notBefore-custom="0238" notAfter-custom="0244" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">238 AD - 244 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1967"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/684264">Poieni</placeName><placeName type="findspot">Bologa, {Lager, principia}, Hof</placeName><placeName type="region">Cluj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009733_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Antonius+*</name><name type="cognomen">Gordianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-12-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> Caesari</supplied> <lb n="2"/><expan><abbr>M</abbr><ex>arco</ex></expan> <supplied reason="lost"><expan><abbr>Ant</abbr><ex>onio</ex></expan> Gor</supplied><lb break="no" n="3"/>d<supplied reason="lost">iano <expan><abbr>P</abbr><ex>io</ex></expan> <expan><abbr>F</abbr><ex>elici</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan></supplied> <lb n="4"/>po<supplied reason="lost"><expan><abbr>nt</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan></supplied> <lb n="5"/>po<supplied reason="lost"><expan><abbr>t</abbr><ex>estate</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan>? <expan><abbr>coh</abbr><ex>ors</ex></expan></supplied> <lb n="6"/>I A<supplied reason="lost"><expan><abbr>el</abbr><ex>ia</ex></expan></supplied> Gae<supplied reason="lost"><expan><abbr>sat</abbr><ex>orum</ex></expan></supplied> <lb n="7"/>Gordia<supplied reason="lost">na</supplied> <lb n="8"/><supplied reason="lost" cert="low">e</supplied>x <expan><abbr>q</abbr><ex>uaestura</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> de<supplied reason="lost">vota</supplied> <lb n="9"/><supplied reason="lost">numini maiesta</supplied><lb break="no" n="10"/><supplied reason="lost">tique eius</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Drei Fragmente, davon die beiden linken (a und b) aneinanderpassend. Fundjahre: 1967 und 1970. Maße beziehen sich auf das größte Fragment (c); Fragment a: (27) x (12) x (14) cm; Fragment b: (16) x (9,5) x (15) cm. Zusammengehörigkeit der Fragmente von I. Piso erkannt. Lesungs- und Ergänzungsvorschlag nach Piso. (B): Gudea, ActaMusNapoca 9, 1972, 416, Nr. 8; ILD 623; AE 1972, 0476: Z. 2: I[mp.; Gudea, ActaMusNapoca 9, 1972, 416, Nr. 8: Z. 3: I(?)[---]; ILD 614d: Z. 3: IM(?); ILD 623: Z. 3: I[---]; AE 1972, 0476: Z. 3: [------]; ILD 614b: Z. 6 (Anfang): IM; Gudea, ActaMusNapoca 9, 1972, 415, Nr. 6; ILD 614a; ILD 621: Z. 6: Ga[esat(orum)]; ILD 614a: Z. 8: D DE.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1972, 0474. (B)</bibl><bibl>AE 1972, 0475.</bibl><bibl>AE 1972, 0476. (B)</bibl><bibl>AE 2015, 1151.</bibl><bibl>ILD 614a. (B)</bibl><bibl>ILD 614b. (B)</bibl><bibl>ILD 614d. (B)</bibl><bibl>ILD 621. (B)</bibl><bibl>ILD 622.</bibl><bibl>ILD 623. (B)</bibl><bibl>N. Gudea, ActaMusNapoca 9, 1972, 415, Nr. 6; fig. 5, 6. (B) - AE 1972.</bibl><bibl>N. Gudea, ActaMusNapoca 9, 1972, 416, Nr. 7; fig. 5, 5. - AE 1972.</bibl><bibl>N. Gudea, ActaMusNapoca 9, 1972, 416, Nr. 8; fig. 5, 3. (B) - AE 1972.</bibl><bibl>I. Piso, ActaMusPorol 37, 2015, 208-209, Nr. 28; fig. 30. - AE 2015.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

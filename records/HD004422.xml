@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Falerii (Novi) (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004422</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004422</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(20)</height><width>(23)</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="#">Falerii (Novi)</placeName></origPlace><origDate><origDate when-custom="0006" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">6 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern"/><placeName type="findspot"/><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004422_1" sex="M"><persName ref="http://data.snapdrgn.net/person/2576"><name type="praenomen">L.+</name><name type="nomen">Nonius+</name><name type="cognomen">Asprenas+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-09-03" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F032024" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4df802e2-4458-40d0-898b-b66de41e0303/file/id/792816/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Municipes et i</supplied>n<supplied reason="lost" cert="low">colae</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>L</abbr><ex>ucio</ex></expan> Nonio <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> A</supplied>spren<supplied reason="lost">ati</supplied> <lb n="3"/><supplied reason="lost">VIIviro ep</supplied>ulonu<supplied reason="lost">m</supplied> <lb n="4"/><supplied reason="lost"> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> III</supplied>Ivir<supplied reason="lost">o</supplied> <lb n="5"/><supplied reason="lost"><expan><abbr>quinq</abbr><ex>uennali</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Es handelt sich um L. Nonius Asprenas, cos.suff. 6 n.Chr. Datierung: im Konsulatsjahr des Geehrten oder bald danach. (B): CIL VI 31690: Z. 1: Buchstabenrest nicht angegeben; CIL VI 31690, CIL XI 7493, Di Stefano Manzella, AE 1979: Z. 2: S nicht gelesen; CIL VI 31690, CIL XI 7493: Z. 4: Xvir oder X]Vvir.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0223. (B)</bibl><bibl>I. Di Stefano Manzella, MemPontAcc 12, 2, 1979, 119-120, Nr. 43; fig. 63. (B) - AE 1979.</bibl><bibl>CIL 06, 31690. (B)</bibl><bibl>CIL 06, p. 4775.</bibl><bibl>CIL 11, 07493. (B)</bibl><bibl>PIR (2. Aufl.) N 118.</bibl><bibl>I. Di Stefano Manzella, SupplIt 1 (Roma 1981) 138, Nr. 14; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

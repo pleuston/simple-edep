@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Saepinum &amp;ndash; Sepino (Samnium (Regio IV))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004997</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004997</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>102</height><width>47</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-3.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Samnium (Regio IV)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433073">Saepinum</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Sepino</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004997_1"><persName><name type="praenomen">C.</name><name type="nomen">Neratius Fufidius</name><name type="cognomen">Atticus</name></persName></person><person xml:id="HD004997_2"><persName><name type="nomen">Fufidius+</name><name type="cognomen">Atticus</name></persName></person><person xml:id="HD004997_3"><persName><name type="nomen">Neratius+</name><name type="cognomen">Priscus</name></persName></person><person xml:id="HD004997_4"><persName><name type="nomen">Accius</name><name type="cognomen">Iulianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2004-07-26" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Neratio <lb n="2"/>Fufidi <lb n="3"/>Attico Fu<supplied reason="lost">fi</supplied><lb break="no" n="4"/>di Attici <expan><abbr>c</abbr><ex>larissimi</ex></expan> <supplied reason="lost"><expan><abbr>v</abbr><ex>iri</ex></expan></supplied> <lb n="5"/><expan><abbr>q</abbr><ex>uaestoris</ex></expan> de<supplied reason="lost">s</supplied>ignati <expan><abbr>fil</abbr><ex>io</ex></expan> <lb n="6"/>Ner<supplied reason="lost">at</supplied>i Prisci co<expan><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> <lb n="7"/>nep<supplied reason="lost">oti</supplied> Acci Iulia<lb break="no" n="8"/><supplied reason="lost">n</supplied>i co<expan><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> pronepoti <lb n="9"/>municipes Sae<lb break="no" n="10"/><supplied reason="lost">pi</supplied>nates
+            </ab></div>
+            <div type="commentary">
+                <p>Vgl. CIL IX 2453, in der Atticus als clarissimus puer bezeichnet wird, obwohl dort sein Vater schon Konsul ist, hier jedoch quaestor designatus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0288.</bibl><bibl>G.A. Pentiti, StudRom 26, 1978, 547-548; tav. 20, 1. - AE 1978.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

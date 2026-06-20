@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Pompeii &amp;ndash; Pompei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002971</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002971</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/123">Holz</material><dimensions unit="cm"><height>12</height><width>11</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii</placeName></origPlace><origDate><origDate when-custom="0052" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">52 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1959"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170336">Pompei</placeName><placeName type="findspot">Villa Murécine</placeName><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002971_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Blossius</name><name type="cognomen">Celadus</name></persName></person><person xml:id="HD002971_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Marcius</name><name type="cognomen">Saturninus</name></persName></person><person xml:id="HD002971_3" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Sulpicius</name><name type="cognomen">Cinnamus</name></persName></person><person xml:id="HD002971_4" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Cossinius</name><name type="cognomen">Priscus</name></persName></person><person xml:id="HD002971_5" sex="M"><persName><name type="praenomen">Faustus+</name><name type="nomen">Cornelius</name><name type="cognomen">Sulla+ Felix+</name></persName></person><person xml:id="HD002971_6" sex="M"><persName><name type="praenomen">Q.+</name><name type="nomen">Marcius</name><name type="cognomen">Barea Soranus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2005-05-27" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Ea res agetur de sponsione <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Blossius Celadus iudex esto <lb n="3"/>si parret <expan><abbr>C</abbr><ex>aium</ex></expan> Marcium Satu<supplied reason="lost">rninum</supplied> <lb n="4"/><expan><abbr>C</abbr><ex>aio</ex></expan> Sulpicio Cinnamo HS <expan><abbr>MMMMMM</abbr><ex>sex milia nummum</ex></expan> d<supplied reason="lost">are</supplied> <lb n="5"/>oportere <expan><abbr>q</abbr><ex>ua</ex></expan> <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>r</abbr><ex>e</ex></expan> agitur <lb n="6"/><expan><abbr>C</abbr><ex>aius</ex></expan> Blossius Celadus iudex <expan><abbr>C</abbr><ex>aium</ex></expan> <lb n="7"/>Marcium Saturninum HS <expan><abbr>MMMMMM</abbr><ex>sex milia nummum</ex></expan> <lb n="8"/><expan><abbr>C</abbr><ex>aio</ex></expan> Sulpicio Cinnamo cond<supplied reason="lost">em</supplied>nato <lb n="9"/>si non parret apsolvito <note>sic</note> <lb n="10"/><expan><abbr>C</abbr><ex>aius</ex></expan> Blossius Celadus iudex esto </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">si par</supplied>ret <expan><abbr>C</abbr><ex>aium</ex></expan> Marcium <supplied reason="lost">Satur</supplied>ninum <lb n="2"/><supplied reason="lost"><expan><abbr>C</abbr><ex>aio</ex></expan></supplied> Sulpicio Cinnam<supplied reason="lost">o</supplied> HS <expan><abbr>MMMMMMMM</abbr><ex>octo milia nummum</ex></expan> <lb n="3"/><supplied reason="lost">d</supplied>are oportere <expan><abbr>q</abbr><ex>ua</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>r</abbr><ex>e</ex></expan> agi</supplied>tur <lb n="4"/><expan><abbr>C</abbr><ex>aius</ex></expan> Blossius Celadus <supplied reason="lost">i</supplied>udex <lb n="5"/><supplied reason="lost"><expan><abbr>C</abbr><ex>aium</ex></expan></supplied> Marcium Satu<supplied reason="lost">r</supplied>ninum <supplied reason="lost">HS</supplied> <expan><abbr>MMMMMMMM</abbr><ex>octo milia nummum</ex></expan> <lb n="6"/><supplied reason="lost"><expan><abbr>C</abbr><ex>aio</ex></expan></supplied> Sulpicio Cinnam<supplied reason="lost">o con</supplied>demnato <lb n="7"/>si non parret apsolvito <note>sic</note> <lb n="8"/>iudicare iussit <expan><abbr>P</abbr><ex>ublius</ex></expan> Cossinius Priscus IIvir <lb n="9"/><supplied reason="lost">actu</supplied>m Puteol<supplied reason="lost">is</supplied> <lb n="10"/><supplied reason="lost">F</supplied>austo Cornelio Sul<supplied reason="lost">la Feli</supplied>ce <lb n="11"/><supplied reason="lost"><expan><abbr>Q</abbr><ex>uinto</ex></expan></supplied> Marcio Barea Sorano co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Tabula Pompeiana. 2 Tafeln, Maße der anderen: 11,9 x 11 cm. Y: Datierung nach dem 1.7. und vor dem 1.11. Es handelt sich um Entwurf einer privaten Zeugenurkunde; Entwurf einer testatio über den Erlaß des Dekrets, das im Wortlaut zitiert wird (iudicium-dare-Dekret). Die Texte sind vermutlich von derselben Hand geschrieben. Die Tafeln gehören zum selben Codex. (B): Lesabweichungen, andere Zahlen. (C): Tafeln als Teilstücke verschiedener codices; Giordano: Datierung: August bis Dezember 52.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0226.</bibl><bibl>J.G. Wolf, SDHI 45, 1979, 141-153. - AE 1984.</bibl><bibl>AE 1973, 0155. (BC)</bibl><bibl>AE 1973, 0156. (BC)</bibl><bibl>C. Giordano, RAAN 46, 1971, 187-188, Nr. 6 u. 7; tav. 7. (BC) - AE 1973.</bibl><bibl>AE 1998, 0356.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

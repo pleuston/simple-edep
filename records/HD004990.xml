@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Ruscino &amp;ndash; Perpignan (Narbonensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004990</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004990</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Narbonensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246348">Ruscino</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0037" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 37 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2982452">Perpignan</placeName><placeName type="findspot">Château-Roussillon</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004990_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Memmius+</name><name type="cognomen">Regulus+</name></persName></person><person xml:id="HD004990_2" sex="M"><persName><name type="praenomen">Ti.+</name><name type="nomen">Caesar+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-07-10" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> Memm<supplied reason="lost">io <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <lb n="2"/>Reg<supplied reason="lost">ul</supplied>o <lb n="3"/>qu<supplied reason="lost">a</supplied>esto<supplied reason="lost">ri <expan><abbr>Ti</abbr><ex>beri</ex></expan></supplied> <lb n="4"/>Caesar<supplied reason="lost">is <expan><abbr>praet</abbr><ex>ori</ex></expan></supplied> <lb n="5"/>co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <supplied reason="lost">septemv</supplied>iro <lb n="6"/>epulo<supplied reason="lost">n</supplied>um <supplied reason="lost">s</supplied>odali <lb n="7"/><supplied reason="lost">August</supplied>ali <expan><abbr>frat</abbr><ex>ri</ex></expan> <supplied reason="lost"><expan><abbr>Arv</abbr><ex>ali</ex></expan></supplied> <lb n="8"/><supplied reason="lost">legat</supplied>o <expan><abbr>Caes</abbr><ex>aris</ex></expan> <supplied reason="lost"><expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied> <lb n="9"/><supplied reason="lost">pat</supplied>rono
+            </ab></div>
+            <div type="commentary">
+                <p>19 Fragmente einer Marmortafel zu Ehren des bekannten Senators und Konsuls des Jahres 31 n. Chr. P. Memmius Regulus. Zwei weitere Fragmente bei Gayraud, die möglicherweise zu dieser Tafel gehören. (B): Thiers, BCTH 1912; AE 1912; Thiers, BCTH 1914; AE 1914: Abweichungen in den Ergänzungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0614.</bibl><bibl>M. Gayraud, RAN Suppl. 7, 1980, 85, Nr. 21; Foto. - AE 1980.</bibl><bibl>AE 1914, 0026. (B)</bibl><bibl>F.-P. Thiers, BCTH 1913, 217-218. - AE 1914.</bibl><bibl>AE 1912, 0152. (B)</bibl><bibl>F.-P. Thiers, BCTH 1912, 80-84. (B) - AE 1912.</bibl><bibl>ILGN 633.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

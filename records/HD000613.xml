@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ferentium &amp;ndash; Ferento (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000613</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000613</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kirche S. Maria della Verità, bei, Viterbo</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><dimensions unit="cm"><height>(78)</height><width>216</width><depth>72</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.4-2.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413132">Ferentium</placeName></origPlace><origDate><origDate when-custom="-067" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">67 BC</origDate></origDate></origin>
+                        <provenance type="found" when="-1920"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Ferento</placeName><placeName type="findspot">Grab der Salvii</placeName><placeName type="region">Viterbo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000613_1" sex="M"><persName><name type="praenomen">A.+</name><name type="nomen">Salvius+</name><name type="cognomen">Crispus+</name></persName></person><person xml:id="HD000613_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Calpurnius+</name><name type="cognomen">Piso</name></persName></person><person xml:id="HD000613_3" sex="M"><persName><name type="praenomen">M'.</name><name type="nomen">Acilius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-12" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F015951" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b955c4c4-ca11-4d4c-870e-c13327fb6770/file/id/775529/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>A</abbr><ex>ulus</ex></expan> Salvius <expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>n</abbr><ex>epos</ex></expan> Cr</supplied>ispus <lb n="2"/><supplied reason="lost"><expan><abbr>vix</abbr><ex>it</ex></expan> annos <gap reason="lost" extent="unknown" unit="character"/> hono</supplied>res omneis <lb n="3"/>functus <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">mort</supplied>em obieit <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> XV <expan><abbr>K</abbr><ex>alendas</ex></expan> <lb n="4"/><expan><abbr>Octob</abbr><ex>res</ex></expan> <expan><abbr>C</abbr><ex>aio</ex></expan> Ca<supplied reason="lost">lpurn</supplied>io Pisone <expan><abbr>M</abbr><ex>anio</ex></expan> Acilio co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="5"/><abbr>mens</abbr> GIGNE<gap reason="lost" extent="unknown" unit="character"/> luna III
+            </ab></div>
+            <div type="commentary">
+                <p>Der Sarkophagdeckel ist nicht erhalten. Reste roter Farbe in den Buchstaben erhalten. Z. 3 (Anfang): functus heute nicht mehr vollständig lesbar; Z. 4: die letzten beiden Buchstaben des Wortes Calpurnio heute nicht mehr lesbar. (B): CIL I, Zei, AE 1922, Degrassi, AE 1963: Z. 1: [--- Sal]vius; CIL I, Zei, AE 1922: Z. 2: functus [---] moriendo VE; Degrassi: Z. 2: functus [---] moriendo Ve[idus]; AE 1963: Z. 2: functus [---] moriendo V[idus]; CIL I, Zei, AE 1922, Degrassi, AE 1963: Z. 4: Octob. [C. Calpurn]io; Z. 5: mens. [--- l]una III.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0394.</bibl><bibl>A. Emiliozzi, MEFR 95, 1983, 701-717; fig. 1 u. 2; fig. 3 u. 4 (Zeichnungen). - AE 1983.</bibl><bibl>AE 1922, 0091. (B)</bibl><bibl>C. Zei, NSA 1921, 221-222, Nr. 9. (B) - AE 1922.</bibl><bibl>CIL 01 (2. Aufl.) 02, 02511. (B)</bibl><bibl>AE 1963, 0035. (B)</bibl><bibl>A. Degrassi, RPAA 34, 1961/62, 71-73. (B) - AE 1963.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

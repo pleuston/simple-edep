@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aradi &amp;ndash; Bou Arada (Africa Proconsularis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000376</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000376</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>205</height><width>68</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Africa Proconsularis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/314887">Aradi</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2464461">Tunisia</placeName><placeName type="modern" ref="http://www.geonames.org/2472261">Bou Arada</placeName><placeName type="findspot">südl. Bordj de Bou Arada</placeName><placeName type="region">Siliana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000376_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Pullaienus</name><name type="cognomen">Papias</name></persName></person><person xml:id="HD000376_2" sex="M"><persName><name type="cognomen">Primigenius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-10" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Dis <expan><abbr>Man</abbr><ex>ibus</ex></expan> <expan><abbr>sac</abbr><ex>rum</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>ucius</ex></expan> Pullaienus <lb n="2"/>Papias pius <lb n="3"/>vixit <expan><abbr>an</abbr><ex>nos</ex></expan> XVIII <lb n="4"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Primigenius pater posuit
+            </ab></div></div>
+            <div type="commentary">
+                <p>Maßangaben beziehen sich auf das Gesamtmonument. (A): Höhe 220 cm. Z.1 und 6 laufen über das gesamte Inschriftenfeld. Z.2-5: linke Hälfte frei für weitere Inschrift. Datierung nach Vorschlag N. Ferchiou.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0953.</bibl><bibl>N. Ferchiou, MDAI(R) 88, 1981, 142-144, Nr. 1; Taf. 43,1. - AE.</bibl><bibl>CIL 08, 23869. (A)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

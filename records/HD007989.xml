@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Cirpi &amp;ndash; Dunabogdány (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007989</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007989</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/15">Andesit</material><dimensions unit="cm"><height>(30)</height><width>(33)</width><depth>9</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197208">Cirpi</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1980"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3053495">Dunabogdány</placeName><placeName type="findspot">{Kastell Dunabogdány}, bei, Lagervicus</placeName><placeName type="region">Pest megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007989_1" sex="M"><persName><name type="nomen">[---]etius</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD007989_2" sex="M"><persName><name type="nomen">Kapatius+?</name><name type="cognomen">[---]orus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-10" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>etius <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><supplied reason="lost"><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>ann</abbr><ex>os</ex></expan></supplied> XL Kapa<supplied reason="lost" cert="low">tius</supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>orus sepul<supplied reason="lost">chrum</supplied> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> posuit m<supplied reason="lost">emoriae</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Fragment mit dem unteren Rand des Inschriftfeldes. (B): In Z. 2 noch der untere Ansatz einer Vertikalhaste, von Soproni und AE nicht gelesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0578. (B)</bibl><bibl>TRHR (Suppl.) 141; Abb. 141 (Foto u. Zeichnung).</bibl><bibl>S. Soproni, StudComitat 17, 1985, 286, Nr. 5; kép. 10; kép. 11 (Zeichnung). (B) - AE 1986.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004539</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004539</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>33</height><width>44</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Via C. Colombo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004539_1"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius</name><name type="cognomen">Secundinus</name></persName></person><person xml:id="HD004539_2"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Augurinus</name></persName></person><person xml:id="HD004539_3"><persName><name type="nomen">Aurelius</name><name type="cognomen">Principius</name></persName></person><person xml:id="HD004539_4"><persName><name type="cognomen">Laurentii</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-08-28" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Aurelius Secundinus <expan><ex>h</ex><abbr>ymno</abbr><ex>l</ex><abbr>eg</abbr></expan>(us) <lb n="3"/><expan><abbr>M</abbr><ex>atris</ex></expan> <expan><abbr>D</abbr><ex>eum</ex></expan> <expan><abbr>Mag</abbr><ex>nae</ex></expan> Idaeae Palatin<expan><ex>a</ex><abbr>e</abbr></expan> fecit sibi <lb n="4"/>et <expan><abbr>Aur</abbr><ex>elio</ex></expan> Augurino alumno suo <lb n="5"/><expan><abbr>q</abbr><ex>ui</ex></expan> <expan><abbr>b</abbr><ex>ixit</ex></expan> <note>sic</note> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XVIIII et Aurelio Principio <lb n="6"/>fratri suo et ceteris libertis li<lb break="no" n="7"/>bertabusque posterisque eorum <lb n="8"/>signum Laurentiorum <expan><abbr>b</abbr><ex>onis</ex></expan> <expan><abbr>b</abbr><ex>ene</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Sabbatini Tumolesi Longo, AE 1976: Z. 5: XVIII; AE 1976: Z. 7/8: verkehrte Angabe des Zeilenfalls.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1976, 0013. (B)</bibl><bibl>P. Sabbatini Tumolesi Longo, Epigraphica 38, 1976, 38-46, Nr. 1; fig. 1. (B) - AE 1976.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

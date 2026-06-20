@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Acclamation from Romuliana &amp;ndash; Zaječar (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008112</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008112</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Gamzigrad, Lapidarium</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material>Gesteine</material><dimensions unit="cm"><height>54</height><width>66</width><depth>19</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207395">Romuliana</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1984"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/790776">Zaječar</placeName><placeName type="findspot">Gamzigrad, Palast des Galerius, {Gebäude 10}, Raum 7</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/73">acclamation</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-10" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028779" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1af9ac89-0ff7-416a-93e9-8c41c49c5dd5/file/id/789536/file_version/name/small"/><graphic xml:id="F028780" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/57362c02-117e-4c2b-b133-c2698c7b5346/file/id/789537/file_version/name/small"/><graphic xml:id="F017556" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2e0ae7ee-39a6-41ff-a577-42e99522b465/file/id/777165/file_version/name/small"/><graphic xml:id="F028778" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7b42ea9e-6a8a-4a8b-8d90-b19c39b388c0/file/id/789535/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Felix <lb n="2"/>Romuli<lb break="no" n="3"/>ana
+            </ab></div>
+            <div type="commentary">
+                <p>Schlüsselstein eines Bogens. Hederae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0625.</bibl><bibl>IMS 3, 2, 114; Foto.</bibl><bibl>D. Srejović, Starinar 36, 1985, 51-67; sl. 1-15 (Foto u. Zeichnung). - AE 1986.</bibl><bibl>D. Srejović, ArchIug 22/23, 1982/83, 48, Fig. 3.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

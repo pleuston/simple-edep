@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sarsina &amp;ndash; Sarsina (Umbria (Regio VI))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004060</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004060</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarsina, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Umbria (Regio VI)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413306">Sarsina</placeName></origPlace><origDate><origDate notBefore-custom="-0030" notAfter-custom="-0001" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC - 1 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Sarsina</placeName><placeName type="findspot">Pian di Bezzo, Nekropole</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004060_1"><persName><name type="praenomen">[-]</name><name type="nomen">Affionius+?</name><name type="cognomen">Rufus</name></persName></person><person xml:id="HD004060_2"><persName><name type="praenomen">A.</name><name type="nomen">Affionius+?</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD004060_3"><persName><name type="nomen">Postumia+</name></persName></person><person xml:id="HD004060_4"><persName><name type="nomen">[---]</name><name type="cognomen">Polla+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-09-10" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F013104" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3240752b-6415-4942-affb-1831f9baeccb/file/id/772632/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <gap reason="lost" quantity="1" unit="character"/><supplied reason="lost">A</supplied><expan><abbr>f</abbr><ex cert="low"/>fionius</expan> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/>Rufus </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>A</abbr><ex>ulus</ex></expan> A<supplied reason="lost">ffionius<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Postum<supplied reason="lost">ia</supplied> <lb n="2"/>mat<supplied reason="lost">er</supplied> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> ex testam<supplied reason="lost">ento</supplied><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> Polla<supplied reason="lost">e</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): Z. 1: Postumia; Z. 2: mater. Z. 1: 1. Buchstabe nicht eindeutig zu entziffern: [A]ffionius oder [A]efionius.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0410. (B)</bibl><bibl>G. Susini, RAL 10, 1955, 243-245, Nr. 4; fig. 4. - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

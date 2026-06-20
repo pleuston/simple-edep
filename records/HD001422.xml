@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from (Civitas Auderiensium) &amp;ndash; Stockstadt/Main (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001422</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001422</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>München, Arch. Staatsslg.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>92</height><width>33</width><depth>41</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118976">(Civitas Auderiensium)</placeName></origPlace><origDate><origDate when-custom="0214" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">214 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2826670">Stockstadt/Main</placeName><placeName type="findspot">{Dolichenum}, bei, Brunnen</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001422_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD001422_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]us</name><name type="cognomen">Celsus</name></persName></person><person xml:id="HD001422_3" sex="M"><persName><name type="cognomen">Messalla+</name></persName></person><person xml:id="HD001422_4" sex="M"><persName><name type="cognomen">Sabinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-05" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                I<supplied reason="lost">n <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan></supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <supplied reason="lost">Dolich</supplied><lb break="no" n="2"/>eno ve<supplied reason="lost"><expan><abbr>x</abbr><ex>illatio</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XXII</supplied> <lb n="3"/><expan><abbr>Pr</abbr><ex>imigeniae</ex></expan> Ant<supplied reason="lost"><expan><abbr>oninian</abbr><ex>ae</ex></expan></supplied> <lb n="4"/><expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> agen<supplied reason="lost">tium in li</supplied><lb break="no" n="5"/><expan><abbr>gna</abbr><ex>riis</ex></expan> <expan><abbr>s</abbr><ex>ub</ex></expan> pr<supplied reason="lost"><expan><abbr>in</abbr><ex>cipe</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>sub cur<supplied reason="lost">a</supplied><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="7"/>i Celsi o<supplied reason="lost">ptioni</supplied><lb break="no" n="8"/>s Messa<supplied reason="lost">lla et</supplied> <lb n="9"/>Sabin<supplied reason="lost">o <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Rechte Hälfte des Altars ergänzt. (B): CIL 13, 11781; RSOR; Mattern: Z. 5/6: agen[s ad abie]/gnas pi[las sec(andas)]; CIL 13, 11781: Z. 8/9: o[pt. leg. s.]/S. Material: roter Sandstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0699.</bibl><bibl>CIL 13, 11781. (B)</bibl><bibl>RSOR 012; Taf. 3, 12. (B)</bibl><bibl>F. Drexel, in: Der obergermanisch-rätische Limes des Römerreiches B, III, 33 (Lieferung 33) 96-97, Nr. 4; Abb. 10.</bibl><bibl>M.P. Speidel, Der Odenwald 30, 1983, 111-114; Foto. - AE 1984.</bibl><bibl>CCID 531; Taf. 116, 531.</bibl><bibl>M. Mattern, Römische Steindenkmäler aus Hessen südlich des Mains sowie vom bayerischen Teil des Mainlimes, CSIR Deutschland 2, 13 (Mainz 2005) 69, Nr. 61; Taf. 18, 61.</bibl><bibl>PIR (2. Aufl.) O 25.</bibl><bibl>PIR (2. Aufl.) V 136.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

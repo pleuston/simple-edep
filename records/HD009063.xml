@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Aquileia &amp;ndash; Aquileia (Venetia et Histria (Regio X))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009063</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009063</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Venetia et Histria (Regio X)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118569">Aquileia</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Aquileia</placeName><placeName type="findspot"/><placeName type="region">Udine</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1997-07-06" who="Niquet">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Au</supplied>relius Fortunatus <lb n="2"/><expan><abbr><supplied reason="lost">v</supplied>et</abbr><ex>e</ex>ranus</expan> legio&amp;lt;n=R&amp;gt;um XI <lb n="3"/><expan><abbr><supplied reason="lost">Cl</supplied>audi</abbr><ex>a</ex>e</expan> co<expan><ex>n</ex><abbr>iugi</abbr></expan> merenti <lb n="4"/><supplied reason="lost">po</supplied>suit qu<expan><ex>a</ex><abbr>e</abbr></expan> vixit <expan><abbr>mecu</abbr><ex>m</ex></expan> <lb n="5"/><supplied reason="lost">an</supplied>nis <note>sic</note> XVIIII et me<expan><ex>n</ex><abbr>sis</abbr></expan> VI <lb n="6"/>et dies V N<supplied reason="lost">ona</supplied>rum VI <lb n="7"/>dign<expan><ex>a</ex><abbr>e</abbr></expan> anim<expan><ex>a</ex><abbr>e</abbr></expan> tu<expan><ex>a</ex><abbr>e</abbr></expan> po<lb break="no" n="8"/>suit non gratulor <lb n="9"/>quod ante <supplied reason="lost">t</supplied>empus me <lb n="10"/>decipisti <note>sic</note> et natos tu<lb break="no" n="11"/>os nutricatos Libersio <lb n="12"/>alomnus <note>sic</note> <gap reason="lost" extent="unknown" unit="character"/> tecum pace 
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1987, 0430.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

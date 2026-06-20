@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Durostorum &amp;ndash; Silistra (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006316</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006316</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Silistra, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>70</height><width>30</width><depth>32</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-2.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216800">Durostorum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727221">Silistra</placeName><placeName type="findspot">{Bulevard Makedonija}</placeName><placeName type="region">Silistra</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006316_1" sex="M"><persName ref="http://romans1by1.com/rpeople/9088"><name type="nomen">Antonius*</name><name type="cognomen">Marcianus</name></persName></person><person xml:id="HD006316_2" sex="M"><persName ref="http://romans1by1.com/rpeople/9089"><name type="nomen">[---]</name><name type="cognomen">Timotheus</name></persName></person><person xml:id="HD006316_3" sex="M"><persName ref="http://romans1by1.com/rpeople/9090"><name type="praenomen">C.</name><name type="nomen">Antonius+*</name><name type="cognomen">Olympus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-18" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Pro <expan><abbr>sal</abbr><ex>ute</ex></expan> <lb n="2"/><expan><abbr>Anto</abbr><ex>ni</ex></expan> Marci<lb break="no" n="3"/>ani et <gap reason="lost" extent="unknown" unit="character"/> Ti<lb break="no" n="4"/>mothei <lb n="5"/>et sua <lb n="6"/><expan><abbr>C</abbr><ex>aius</ex></expan> A<supplied reason="lost"><expan><abbr>nt</abbr><ex>onius</ex></expan></supplied> Olym<lb break="no" n="7"/>pus <supplied reason="lost">ex</supplied> voto
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Donevski: Z. 2/3: Marc(i) / Au(reli) et N; Banev - Lazov, AE 1985: Z. 5: [s]ua; Donevski: Z. 6/7: G(aius) A OLM / pus(uit) voto.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0728. (B)</bibl><bibl>P. Donevski, Arch(Sofia) 18, 4 , 1976, 64, Nr. 5; obr. 5. (B) - AE 1985.</bibl><bibl>K. Banev - R. Lazov, Arch(Sofia) 23, 1981, 43; obr. 7. (B) - AE 1985.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

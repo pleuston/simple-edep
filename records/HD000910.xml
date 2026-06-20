@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Libyssa, bei (Bithynia et Pontus)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000910</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000910</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>İzmit, Museum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>223</height><width>38</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-3.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Bithynia et Pontus</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/511305">Libyssa, bei</placeName></origPlace><origDate><origDate when-custom="0260" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">260 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1982"><placeName type="country" ref="https://www.geonames.org/298795">Turkey</placeName><placeName type="modern"/><placeName type="findspot">Fluß Dildere, bei</placeName><placeName type="region">Kocaeli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000910_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q104475"><name type="praenomen">P.</name><name type="nomen">Licinius*</name><name type="cognomen">Gallienus</name></persName></person><person xml:id="HD000910_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q297494"><name type="praenomen">P.</name><name type="nomen">Licinius* Cornelius*</name><name type="cognomen">Saloninus Oualerianus (= Valerianus)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-12-27" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>B</abbr><ex>ona</ex></expan> <expan><abbr>F</abbr><ex>ortuna</ex></expan> <lb n="2"/><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>P</abbr><ex>ublio</ex></expan> <lb n="3"/><expan><abbr>L</abbr><ex>icinio</ex></expan> Gallieno <lb n="4"/><expan><abbr>P</abbr><ex>io</ex></expan> <expan><abbr>F</abbr><ex>elici</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="5"/>et <expan><abbr>P</abbr><ex>ublio</ex></expan> <expan><abbr>Lic</abbr><ex>inio</ex></expan> <expan><abbr>Cor</abbr><ex>nelio</ex></expan> <lb n="6"/>Salonino <lb n="7"/>Oualeriano <note>sic</note> <lb n="8"/><expan><abbr>nobil</abbr><ex>issimo</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <lb n="9"/>a Nicomedia <expan><abbr>mil</abbr><ex>ia</ex></expan> <lb n="10"/>XXIIII <lb n="11"/>κδ
+            </ab></div>
+            <div type="commentary">
+                <p>Y: Zwischen Valerians Gefangennahme (25.6.) und Anerkennung des Macrianus und Quietus im Orient (29.9.). Stein wurde zum Fundort verschleppt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0902.</bibl><bibl>S. Şahin - M.A. Işin - M.K. Can, EA 1, 1983, 50-51, Nr. 5; Taf. 6,5. - AE 1983.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

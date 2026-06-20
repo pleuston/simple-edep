@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iulia Concordia &amp;ndash; Concordia Sagittaria (Venetia et Histria (Regio X))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003374</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003374</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Udine, Mus. d. Cast.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Venetia et Histria (Regio X)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/393441">Iulia Concordia</placeName></origPlace><origDate><origDate notBefore-custom="-0042" notAfter-custom="-0031" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">42 BC - 31 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3178203">Concordia Sagittaria</placeName><placeName type="findspot">Casa Matta, sekundär verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003374_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Calius</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD003374_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Calius+</name><name type="cognomen">Malliolus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-01-17" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F006269" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/63c26180-21d2-4c4e-8eb5-7dba95963868/file/id/767044/file_version/name/small"/><graphic xml:id="F013302" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/35b6fbce-6f5b-4221-8dc6-67f09cccdf42/file/id/772830/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Calius <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Cla</abbr><ex>udia</ex></expan> Cremona <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>Concordia decurio quaes<supplied reason="lost">tor</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>operis publicis in Bithynia fuit <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> Calio <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <lb n="4"/><expan><abbr>Cla</abbr><ex>udia</ex></expan> Cremona Malliolo fratri <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>et in operis publicis in Asia et <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Y: Zwischen 42 und 40 v.Chr.: Concordia wird colonia. (B): CIL: Abweichungen in Lesung und Ergänzung. Nach CIL V 8666 = ILS 1468 von Inschrift auf rechter Seite noch mehr erhalten (durch Abschrift aus dem 16. Jh. überliefert): Z. 1: Na[talis]; Z. 2: quaestor; Z. 3 is tes[tamento]; Z. 4: is fo[---]; Z. 5: Isau[ria].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0453.</bibl><bibl>S. Panciera, in: F. Broilo, Xenia. Scritti in onore di Piero Treves (Roma 1985) 129-140. - AE 1985.</bibl><bibl>CIL 05, 00977. (B)</bibl><bibl>ILS 1468.</bibl><bibl>CIL 05, 08666.</bibl><bibl>E. Pais, Corporis inscriptionum Latinarum supplementa Italica I. Additamenta ad vol. V Galliae Cisalpinae (Romae 1884) 50, Nr. 396. - AE 1985.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

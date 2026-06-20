@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Horta &amp;ndash; Orte (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003310</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003310</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>43</height><width>59</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.7-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413172">Horta</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Orte</placeName><placeName type="findspot">Piana del Tesoro</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003310_1"><persName><name type="nomen">Tuccia</name><name type="cognomen">Salvia</name></persName></person><person xml:id="HD003310_2"><persName><name type="praenomen">Cn.</name><name type="nomen">Tuccius</name><name type="cognomen">Apollonius</name></persName></person><person xml:id="HD003310_3"><persName><name type="praenomen">L.</name><name type="nomen">Aburnius+?</name><name type="cognomen">Iucundus</name></persName></person><person xml:id="HD003310_4"><persName><name type="praenomen">L.?</name><name type="nomen">Io[---]?</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD003310_5"><persName><name type="nomen">Arin[---]?</name><name type="cognomen">Arin[---]?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2001-07-11" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Tuccia <expan><abbr>Cn</abbr><ex>aei</ex></expan> <expan><abbr>l</abbr><ex>iberta</ex></expan> Salvia <lb n="2"/>fecit sibi et <expan><abbr>Cn</abbr><ex>aeo</ex></expan> Tuccio <lb n="3"/><expan><abbr>Cn</abbr><ex>aei</ex></expan> <expan><abbr>l</abbr><ex>iberto</ex></expan> Apollonio <expan><abbr>patro</abbr><ex>no</ex></expan> <lb n="4"/>suo et <expan><abbr>L</abbr><ex>ucio</ex></expan> Abu<supplied reason="lost" cert="low">rn</supplied>io Iucundo <lb n="5"/>et <expan><abbr>L</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>O</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> et <lb n="6"/><expan><abbr>ARI</abbr><ex cert="low"/>N</expan><certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/> ma<supplied reason="lost" cert="low">tr</supplied>i
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1981: Z. 6: ARN.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0361. (B)</bibl><bibl>W. Eck, Epigraphica 41, 1979, 106-107, Nr. 14; fig. 12. - AE 1981.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

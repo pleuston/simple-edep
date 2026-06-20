@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Buthrotum &amp;ndash; Ksamil, bei (Epirus)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007184</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007184</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Butrint, Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(27)</height><width>(22)</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Epirus</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/530824">Buthrotum</placeName></origPlace><origDate><origDate notBefore-custom="0200" notAfter-custom="0211" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">200 AD - 211 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/783754">Albania</placeName><placeName type="modern" ref="http://www.geonames.org/363394">Ksamil, bei</placeName><placeName type="findspot"/><placeName type="region">Qarku i Vlorës</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007184_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.</name><name type="nomen">Aurelius+++</name><name type="cognomen">Antoninus+++</name></persName></person><person xml:id="HD007184_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="praenomen">L.+</name><name type="nomen">Septimius+</name><name type="cognomen">Severus+ Pertinax+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-02-04" who="Ehmig">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> C</supplied>aesar<supplied reason="lost">i <expan><abbr>L</abbr><ex>uci</ex></expan> Septimi</supplied> <lb n="2"/><supplied reason="lost">Se</supplied>veri Pii Per<supplied reason="lost">tinacis</supplied> <lb n="3"/><expan><abbr><supplied reason="lost">Au</supplied>g</abbr><ex>usti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> <del rend="erasure"><expan><abbr>Aur</abbr><ex>elio</ex></expan> Anto</del><lb break="no" n="4"/><del rend="erasure">nino</del> Pio <supplied reason="lost">Felici <expan><abbr>Aug</abbr><ex>usto</ex></expan></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Bei Anamali - Ceka - Deniaux wurde in Z. 4-5 Aur(elio) Anto/nino nicht als in Rasur stehender Textteil gekennzeichnet.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>A. de Franciscis, RAAN 21, 1941, 289-290, Nr. 12; tav. 4, 7. - AE 1950. AE 1978.</bibl><bibl>P.C. Sestieri, Studime e Tekste 2, 1, 1943, 14. 65, Nr. 13. - AE 1978.</bibl><bibl>AE 1950, p. 59 s. n. 173.</bibl><bibl>AE 1978, 0771.</bibl><bibl>S. Anamali - H. Ceka - É. Deniaux, Corpus des inscriptions latines d’Albanie (Rome 2009) 179, Nr. 240. (B)</bibl><bibl>U. Ehmig - R. Haensch, Die lateinischen Inschriften aus Albanien (LIA) (Bonn 2012) 608-609, Nr. 256; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

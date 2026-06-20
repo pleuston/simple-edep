@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Dyrrachium &amp;ndash; Durrës (Macedonia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004387</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004387</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Durrës, Ark. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>83</height><width>58</width><depth>47</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Macedonia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481818">Dyrrachium</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1931"><placeName type="country" ref="https://www.geonames.org/783754">Albania</placeName><placeName type="modern" ref="http://www.geonames.org/3185728">Durrës</placeName><placeName type="findspot"/><placeName type="region">Qarku i Durrësit</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004387_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Clodius</name><name type="cognomen">Hermadion</name></persName></person><person xml:id="HD004387_2" sex="W"><persName><name type="nomen">Novellia</name><name type="cognomen">Pia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-01-07" who="Ehmig">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020167" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2a0539cf-e9d6-40ad-bdce-fb50c707ee96/file/id/780240/file_version/name/small"/><graphic xml:id="F020168" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/22dcb741-3fbc-4528-8674-e1e5b48012b4/file/id/780241/file_version/name/small"/><graphic xml:id="F020169" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a2ae9bc6-ece0-4708-9f21-f4c1119973ac/file/id/780242/file_version/name/small"/><graphic xml:id="F020170" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f013f10f-b4e3-461f-b0ce-a7be038755c9/file/id/780243/file_version/name/small"/><graphic xml:id="F024141" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/dbd3c38c-f5e4-4102-9ad8-b372dd89a399/file/id/784806/file_version/name/small"/><graphic xml:id="F024432" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1c21f8a9-3936-4134-8e8f-d067594fee27/file/id/785097/file_version/name/small"/><graphic xml:id="F024881" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0f83c0d6-a593-4231-b383-326df4ac2642/file/id/785549/file_version/name/small"/><graphic xml:id="F024882" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/96d1f289-75ce-4773-a152-d24cf39b801f/file/id/785550/file_version/name/small"/><graphic xml:id="F024883" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c5701730-d5d4-43d9-b1d7-5f06c027548f/file/id/785551/file_version/name/small"/><graphic xml:id="F024951" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/56d40bba-4bd8-4183-859c-813ecd898f93/file/id/785620/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublius</ex></expan> Clodius <lb n="2"/>Hermadion <lb n="3"/><expan><abbr>Aug</abbr><ex>ustalis</ex></expan> sibi et <lb n="4"/>Novelliae <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> <lb n="5"/>Piae coniugi <lb n="6"/>optimae <expan><abbr>q</abbr><ex>uae</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> <lb n="7"/>XLII <expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Bruhl: Z. 4/5: l(audabili) f(eminae) piae; Z. 6: vixit; optimae fehlt; Bruhl; Sestieri; AE 1978: Z. 7: XLII m(ense) I (uno).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>A. Bruhl, Albania 5, 1935, 92-93, Nr. 3; pl. 29, 1 u. 29, 3; fig. 3 (Zeichnung). (B) - AE 1978.</bibl><bibl>P.C. Sestieri, Studime e Tekste 2, 1, 1943, 33-34. 84-85, Nr. 50. (B) – AE 1978.</bibl><bibl>AE 1978, 0740. (B)</bibl><bibl>S. Anamali - H. Ceka - É. Deniaux, Corpus des inscriptions latines d’Albanie (Rome 2009) 59-60, Nr. 63; Foto.</bibl><bibl>U. Ehmig - R. Haensch, Die lateinischen Inschriften aus Albanien (LIA) (Bonn 2012) 174-176, Nr. 65; Fotos u. Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

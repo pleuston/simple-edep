@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008176</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008176</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>91</height><width>47</width><depth>36</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.8-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1976"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">Ballplatz 2, {Mithraeum}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008176_1" sex="M"><persName><name type="nomen">Secundinius</name><name type="cognomen">Amantius</name></persName></person><person xml:id="HD008176_2" sex="M"><persName><name type="cognomen">Primulus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-01-04" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012793" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2b27eb8e-4fd0-4e4f-b49b-618208c3410e/file/id/772318/file_version/name/small"/><graphic xml:id="F014440" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/da0d4e5a-70a5-49cb-bd00-2ec44daac85f/file/id/773974/file_version/name/small"/><graphic xml:id="F016215" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4597b418-a008-4523-b999-eb847bb044c7/file/id/775793/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>eo</ex></expan> <expan><abbr>I</abbr><ex>nvicto</ex></expan> <expan><abbr>M</abbr><ex>ithrae</ex></expan> <lb n="2"/>et Marti <lb n="3"/>Secundini<lb break="no" n="4"/>us Amantius <lb n="5"/><expan><abbr>cornicu</abbr><ex>larius</ex></expan> <lb n="6"/><expan><abbr>praef</abbr><ex>ecti</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="7"/>XXII permi<lb break="no" n="8"/>ttente Pri<lb break="no" n="9"/>mulo patre <lb n="10"/>ex voto pos<lb break="no" n="11"/>uit <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Reste von roter Farbe in den Buchstaben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0425.</bibl><bibl>P. Herz, MZ 73/74, 1978/79, 277-278, Nr. 5; Taf. 51,5. - AE 1979.</bibl><bibl>W. Selzer, Römische Steindenkmäler. Mainz in römischer Zeit. Katalog zur Sammlung in der Steinhalle (Mainz 1988) 209, Nr. 186; Foto.</bibl><bibl>AE 2008, 0968.</bibl><bibl>I. Huld-Zetsche, Der Mithraskult in Mainz und das Mithräum am Ballplatz (Mainz 2008) 82, Nr. 565; Taf. 76, 566b. - AE 2008.</bibl><bibl>H.G. Frenz, Denkmäler römischen Götterkultes aus Mainz und Umgebung, CSIR Deutschland 2, 4 (Mainz 1992) 125, Nr. 110; Tafel 92, 110.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

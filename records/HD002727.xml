@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Olbia &amp;ndash; Olbia (Sardinia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002727</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002727</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Olbia, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Sardinia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/511337">Olbia</placeName></origPlace><origDate><origDate notBefore-custom="0401" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Olbia</placeName><placeName type="findspot">Küste, in hortis Petri Tamponi</placeName><placeName type="region">Sassari</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002727_1" sex="M"><persName><name type="cognomen">Victor+</name></persName></person><person xml:id="HD002727_2" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Iulius</name><name type="cognomen">A[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2006-08-31" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------ Victo]r <expan><abbr>S</abbr><ex>anctae</ex></expan> <expan><abbr>E</abbr><ex>cclesiae</ex></expan> <expan><abbr>m</abbr><ex>inister</ex></expan> L<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>entades<gap reason="lost" extent="unknown" unit="character"/> baeatissi <note>sic</note><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>sia in ruin<gap reason="lost" extent="unknown" unit="character"/> aut virtuti <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>umque di<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost">in nomine C</supplied>hri<supplied reason="lost">s</supplied>ti <expan><abbr>Ti</abbr><ex>beri</ex></expan> Iuli A<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>ce civitatis <gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>rnci <gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Z.1: Auch [defenso]r oder [ministe]r S(anctae) E(cclesiae) möglich. Von der Tafel sind 3 Fragmente erhalten. Inschrift auf der Vorderseite (= CIL 10, 7975) ist früher und stammt aus dem 4. Jh.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0440.</bibl><bibl>M. Bonello Lai, Atti del Ce. RDAC 10, 1978/79, 195-197. - AE. (unzugänglich).</bibl><bibl>CIL 10, 07976.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

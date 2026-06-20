@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Belalis Maior &amp;ndash; Henchir el Faouar (Africa Proconsularis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005467</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005467</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Africa Proconsularis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/314900">Belalis Maior</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2464461">Tunisia</placeName><placeName type="modern">Henchir el Faouar</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-05-14" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ebasi <expan><ex>h</ex><abbr>umile</abbr><ex>s</ex></expan> <lb n="2"/><supplied reason="lost">lo</supplied>cus <expan><ex>i</ex><abbr>ste</abbr></expan> tene<supplied reason="lost">t</supplied> <lb n="3"/>sed corpore ta<supplied reason="lost">n</supplied><lb break="no" n="4"/>tum nam vibit <note>sic</note> o<supplied reason="lost">b</supplied> <lb n="5"/><expan><abbr>via</abbr><ex>m</ex></expan> <expan><abbr>prole</abbr><ex>m</ex></expan> Optat<supplied reason="lost">i</supplied> <lb n="6"/>sibi superstit<supplied reason="lost"><expan><abbr>e</abbr><ex>m</ex></expan></supplied> <lb n="7"/>relinquit <expan><ex>h</ex><abbr>abita</abbr></expan><lb break="no" n="8"/>bit ergo in <expan><ex>i</ex><abbr>sto</abbr></expan> tem<lb break="no" n="9"/>porali s<expan><ex>a</ex><abbr>eculo</abbr></expan> l<expan><ex>a</ex><abbr>e</abbr></expan><lb break="no" n="10"/>tus usque in die <lb n="11"/>pridie quam ad <lb n="12"/>c<expan><ex>a</ex><abbr>elum</abbr></expan> migraret <lb n="13"/>per annis <note>sic</note> LXXVII <lb n="14"/>d<expan><ex>e</ex><abbr>p</abbr><ex>ositus</ex></expan> die VIII <expan><abbr>Id</abbr><ex>us</ex></expan> Octo<lb break="no" n="15"/>bres <expan><abbr>ind</abbr><ex>ictione</ex></expan> V
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0872. (B)</bibl><bibl>A. Mahjoubi, Recherches d'histoire et d'archéologie à Henchir el-Faouar (Tunis 1978) 344; fig. 131. - AE. V</bibl></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

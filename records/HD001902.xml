@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Marcomagus &amp;ndash; Nettersheim (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001902</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001902</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(40)</height><width>40</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109013">Marcomagus</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1909"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2866336">Nettersheim</placeName><placeName type="findspot">{Matronenheiligtum ('Görresburg')}</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001902_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Summius</name><name type="cognomen">Agrestis</name></persName></person><person xml:id="HD001902_2" sex="M"><persName><name type="nomen">Novius</name><name type="cognomen">Priscus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-21" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F018810" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c5ccc71a-59fb-458e-bfe4-c569c092d60f/file/id/778882/file_version/name/small"/><graphic xml:id="F018811" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3847f093-5e84-437e-b8a9-82c734e1d919/file/id/778883/file_version/name/small"/><graphic xml:id="F018812" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/28e51b1e-da47-453f-b668-cee78af3e9d0/file/id/778884/file_version/name/small"/><graphic xml:id="F018813" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/57dad60a-a006-429d-98e9-6289d41244c1/file/id/778885/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Matroni<supplied reason="lost">s</supplied> <lb n="2"/>Aufaniabus <lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> Summius Ag<lb break="no" n="4"/>restis b<expan><ex>ene</ex><abbr>f</abbr><ex>icarius</ex></expan> Nov<supplied reason="lost">i</supplied> <lb n="5"/>Prisci <expan><abbr>leg</abbr><ex>ati</ex></expan> A<supplied reason="lost" cert="low">ug(usti)</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1911, 0154.</bibl><bibl>AE 1984, 0696.</bibl><bibl>CIL 13, 11990.</bibl><bibl>H. Lehner, BJ 119, 1910, 308. - AE 1911.</bibl><bibl>W. Eck, BJ 184, 1984, 111-115, Nr. 3; Abb. 7 u. 8. - AE 1984.</bibl><bibl>G. Alföldy, in: EpStud 5 (Düsseldorf 1968) 5, Anm. 9..</bibl><bibl>A.G. Garman, The cult of the matronae in the Roman Rhineland. An historical evaluation of the archaeological evidence (Lewiston 2008) 110, Nr. 109.</bibl><bibl>H. Lehner, Die antiken Steindenkmäler des Provinzialmuseums in Bonn (Bonn 1918) 135, Nr. 284; Zeichnung.</bibl><bibl>F. Biller, Kultische Zentren und Matronenverehrung in der südlichen Germania inferior (Rahden 2010) 43, Nr. IV.1.1.3.k.</bibl><bibl>PIR (2. Aufl.) N 184.</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1. Corpus der griechischen und lateinischen Beneficiarier-Inschriften des Römischen Reiches (Stuttgart 1990) 73-74, Nr. 77; Fotos.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

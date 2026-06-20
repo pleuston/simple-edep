@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Public legal inscription from Odessus &amp;ndash; Varna (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004903</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004903</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Varna, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(24)</height><width>(14)</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.6-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216904">Odessus</placeName></origPlace><origDate><origDate when-custom="0301" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1961"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726050">Varna</placeName><placeName type="findspot">ulica 8-mi noemvri, {Thermen}</placeName><placeName type="region">Varna</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/5">public legal inscription</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-06" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020231" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ae468015-f01d-4060-bcae-6295c5be1fd1/file/id/780304/file_version/name/small"/><graphic xml:id="F020232" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d60365ad-9c3a-4f0e-b525-aa559829e220/file/id/780305/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><expan><abbr>pis</abbr><ex>a</ex>e</expan> frac</supplied>t<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>k</abbr><ex>astrensem</ex></expan> <supplied reason="lost"><expan><abbr>mo</abbr><ex>dium</ex></expan> C</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>pis</abbr><ex>a</ex>e</expan> non</supplied> fract<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>k</abbr><ex>astrensem</ex></expan> <supplied reason="lost"><expan><abbr>mo</abbr><ex>dium</ex></expan> LX</supplied> <lb n="3"/><supplied reason="lost">cice</supplied>ris <expan><abbr>k</abbr><ex>astrensem</ex></expan> <expan><abbr>mo</abbr><ex>dium</ex></expan> <supplied reason="lost">C</supplied> <lb n="4"/><supplied reason="lost">he</supplied>rbi <expan><abbr>k</abbr><ex>astrensem</ex></expan> <expan><abbr>mo</abbr><ex>dium</ex></expan> <supplied reason="lost">C</supplied> <lb n="5"/><expan><abbr><supplied reason="lost">ave</supplied>n</abbr><ex>a</ex>e</expan> <expan><abbr>k</abbr><ex>astrensem</ex></expan> <expan><abbr>mo</abbr><ex>dium</ex></expan> <supplied reason="lost">XXX</supplied> <lb n="6"/><supplied reason="lost"><expan><abbr>f</abbr><ex>a</ex>eni</expan></supplied> graeci <expan><abbr>k</abbr><ex>astrensem</ex></expan> m<supplied reason="lost"><expan><abbr>o</abbr><ex>dium</ex></expan> C</supplied> <lb n="7"/><supplied reason="lost">lupin</supplied>i crudi <expan><abbr>k</abbr><ex>astrensem</ex></expan> <supplied reason="lost"><expan><abbr>mo</abbr><ex>dium</ex></expan> LX</supplied> <lb n="8"/><supplied reason="lost">lupini</supplied> cocti <supplied reason="lost"><expan><abbr>s</abbr><ex>exarium</ex></expan> <expan><abbr>Ital</abbr><ex>icum</ex></expan> IV</supplied> <lb n="9"/><supplied reason="lost">fasioli</supplied> sicci <supplied reason="lost"><expan><abbr>k</abbr><ex>astrensem</ex></expan> <expan><abbr>mo</abbr><ex>dium</ex></expan> C</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Teil der Tarife des Diokletianischen Preisediktes (erlassen zwischen dem 20.11. und 9.12.301 n. Chr.). Rekonstruktion nach dem korrespondierenden griechischen Text (s. Mihailov). (B): AE 1978: Z. 6: gracci.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0714. (B)</bibl><bibl>G. Mihailov, in: Stele tomos eis mnemen Nikolaou Kontoleontos (Athen 1978) 147-148; tav. 48b. - AE 1978.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

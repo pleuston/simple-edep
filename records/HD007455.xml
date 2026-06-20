@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Boundary inscription from Mirobriga Turdulorum, bei &amp;ndash; Valdecaballeros (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007455</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007455</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>94</height><width>65</width><depth>57</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="#">Mirobriga Turdulorum, bei</placeName></origPlace><origDate><origDate when-custom="0073" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">73 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2510045">Valdecaballeros</placeName><placeName type="findspot"/><placeName type="region">Extremadura</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/96">boundary inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007455_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1419"><name type="cognomen">Vespasianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-02-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <lb n="2"/>Vespasianus po<lb break="no" n="3"/><expan><abbr>ntif</abbr><ex>ex</ex></expan> <supplied reason="lost"><expan><abbr>max</abbr><ex>imus</ex></expan></supplied> <expan><abbr>trib</abbr><ex>unicia</ex></expan> p<lb break="no" n="4"/><expan><abbr>ot</abbr><ex>estate</ex></expan> <supplied reason="lost">IIII i</supplied><expan><abbr>mp</abbr><ex>erator</ex></expan> X <expan><abbr>p</abbr><ex>ater</ex></expan> <lb n="5"/><expan><abbr>p</abbr><ex>atriae</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IIII <expan><abbr>design</abbr><ex>atus</ex></expan> <lb n="6"/>V <expan><abbr>ter</abbr><ex cert="low">minavit</ex></expan> inter Laci<lb break="no" n="7"/><expan><abbr>nimurg</abbr><ex>enses</ex></expan> et Ucu<lb break="no" n="8"/>bitanos <expan><abbr>c</abbr><ex>olonos</ex></expan> <expan><abbr>c</abbr><ex>oloniae</ex></expan> Clarita<lb break="no" n="9"/>tis Iuliae
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0323.</bibl><bibl>CIL 02 (2. Aufl.) 07, 00870; tab. 22, 1.</bibl><bibl>D. Vaquerizo Gil, RevEstExtremeños 42, 1986, 130-133, Nr. 14. - AE 1986.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

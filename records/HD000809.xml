@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Petronell-Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000809</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000809</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Deutsch-Altenburg, Arch. Mus. Carnuntinum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>210</height><width>77</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0090" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">90 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1914"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="findspot">{Gräberstraße}</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000809_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Alfienus+</name><name type="cognomen">N[---]a</name></persName></person><person xml:id="HD000809_2" sex="M"><persName><name type="cognomen">Venustus+</name></persName></person><person xml:id="HD000809_3" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Alfienus+</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-25" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> Alfie<supplied reason="lost">nus</supplied> <lb n="2"/><expan><abbr>M</abbr><ex>arci filius</ex></expan> <expan><abbr>Col</abbr><ex>lina</ex></expan> N<gap reason="lost" extent="unknown" unit="character"/>a <lb n="3"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>mil</abbr><ex>es</ex></expan> le</supplied><expan><abbr>g</abbr><ex>ionis</ex></expan> <supplied reason="lost">X</supplied>V <lb n="4"/>Apo<supplied reason="lost"><expan><abbr>l</abbr><ex>linaris</ex></expan></supplied> <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> V<supplied reason="lost">e</supplied>nusti <lb n="5"/>sti<supplied reason="lost"><expan><abbr>p</abbr><ex>endiorum</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>an</abbr><ex>norum</ex></expan> L <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="6"/><expan><abbr>M</abbr><ex>arcus</ex></expan> <supplied reason="lost">Al</supplied>f<supplied reason="lost">ienus</supplied> <expan><abbr>M</abbr><ex>arci filius</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="7"/>frater et <expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>2 aneinanderpassende Teile. (B): Z. 3: [--- mil(es) leg(ionis) X]V. Z.6: AE, Vorbeck: [Al]f[ienus M(arci filius) ---]; Mosser; Genser: M(arcus) [...f...].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0755. (B)</bibl><bibl>E. Vorbeck, Militärinschriften aus Carnuntum (2. Aufl. Wien 1980) 61-62, Nr. 155. (B) - AE 1983.</bibl><bibl>J. Bortlik, RLŒ 16, 1926, 27-28, Nr. 22. - AE 1983.</bibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Niederösterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 70-71, Nr. 117.</bibl><bibl>M.-L. Krüger, Die Reliefs des Stadtgebietes von Carnuntum 2. Die dekorativen Reliefs, CSIR Österreich 1, 4 (Wien 1972) 44, Nr. 528; Taf. 42, 528.</bibl><bibl>M. Mosser, Die Steindenkmäler der legio XV Apollinaris (Wien 2003) 177, Nr. 24.</bibl><bibl>K. Genser, Römische Steindenkmäler aus Carnuntum I (Wien 2005) 68-69.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

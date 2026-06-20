@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Public legal inscription from Tarracina &amp;ndash; Terracina (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008427</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008427</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(31)</height><width>(47)</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.8-1.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433143">Tarracina</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Terracina</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/5">public legal inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008427_1"><persName><name type="nomen">Verrius+</name><name type="cognomen">Eubulides+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2004-07-28" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Quod <gap reason="lost" extent="unknown" unit="character"/>? <expan><abbr>v</abbr><ex>erba</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> de Verrio Eubulide</supplied> <lb n="2"/><supplied reason="lost">de ea re ita censue</supplied>runt hodie <lb n="3"/><supplied reason="lost">cum semper imitatu</supplied>s pietatem praeterita<supplied reason="lost">m</supplied> <lb n="4"/><supplied reason="lost">ad Capitoli</supplied>ni Io<supplied reason="lost">vis</supplied> cultum se sibi aemulum <lb n="5"/><supplied reason="lost">fecerit c</supplied><expan><abbr>umq</abbr><ex>ue</ex></expan> t<supplied reason="lost">abel</supplied>lis suis vel aliena liberal<supplied reason="lost">i</supplied><lb break="no" n="6"/>tate conten<supplied reason="lost">derit</supplied> placere huic ordini comm<supplied reason="lost">e</supplied><lb break="no" n="7"/>m<expan><ex>or</ex><abbr>ari</abbr></expan> grat<supplied reason="lost">iss</supplied>imam populi voluntatem dar<supplied reason="lost"><expan><abbr>iq</abbr><ex>ue</ex></expan></supplied> <lb n="8"/>Verrio E<supplied reason="lost">ub</supplied>ulidi biselli honorem cui co<supplied reason="lost">m</supplied><lb break="no" n="9"/>mendat<supplied reason="lost">i</supplied>onem iudiciorum nostrum pare<supplied reason="lost">m</supplied> <lb n="10"/>facet <note>sic</note> <expan><abbr>censuer</abbr><ex>unt</ex></expan> <expan><abbr>adfuer</abbr><ex>unt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1987: Z. 3: si sibi. Ergänzungen von H. Solin. Ehrendekret.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1987, 0239. (B)</bibl><bibl>AE 1990, 0138.</bibl><bibl>H. Solin, Tyche 2, 1987, 183-187, Nr. 1; Taf. 13. - AE 1987.1990.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Valentia &amp;ndash; Valencia (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009244</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009244</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Valencia, Mus. Hist. Med.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>126</height><width>72</width><depth>65</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/442845">Valentia</placeName></origPlace><origDate><origDate notBefore-custom="0270" notAfter-custom="0275" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">270 AD - 275 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1928"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Valencia</placeName><placeName type="findspot">Kathedrale - Basilica de N. S. de los Desamparados, zwischen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009244_1"><persName ref="https://www.wikidata.org/wiki/Q1762"><name type="praenomen">M.+++</name><name type="nomen">Aurelius+++*</name><name type="cognomen">Antoninus+++</name></persName></person><person xml:id="HD009244_2"><persName ref="https://www.wikidata.org/wiki/Q46780"><name type="praenomen">L.</name><name type="nomen">Domitius*</name><name type="cognomen">Aurelianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-07-22" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F006545" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/852b235a-cdaf-489b-9c21-f8fa81b57b65/file/id/767319/file_version/name/small"/><graphic xml:id="F017741" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3759a027-19f6-49b4-91ae-b39f907175c3/file/id/777352/file_version/name/small"/><graphic xml:id="F011797" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ab0c48c1-6187-40cf-a3ec-ad0f20b235c3/file/id/771320/file_version/name/small"/><graphic xml:id="F017765" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cfa94d7b-ab4b-4e8b-910a-eade2ed97fde/file/id/777376/file_version/name/small"/><graphic xml:id="F028349" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/17b7946f-434f-4a79-8394-c09bc883afd4/file/id/789106/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <del rend="erasure"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> Caesari [<expan><abbr>M</abbr><ex>arco</ex></expan></del>] <lb n="2"/><del rend="erasure">A<supplied reason="lost"><expan><abbr>ur</abbr><ex>elio</ex></expan> A</supplied>n<supplied reason="lost">tonin</supplied>o</del> <lb n="3"/><del rend="erasure"><expan><abbr>P</abbr><ex>io</ex></expan> F<supplied reason="lost"><expan><abbr>el</abbr><ex>ici</ex></expan></supplied> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan></del> <lb n="4"/><del rend="erasure">t<supplied reason="lost"><expan><abbr>r</abbr><ex>ibuniciae</ex></expan></supplied> p<supplied reason="lost">o</supplied><expan><abbr>t</abbr><ex>estatis</ex></expan> I<supplied reason="lost">I <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></supplied> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></del> <lb n="5"/><del rend="erasure"><expan><abbr>proco</abbr><ex>n</ex></expan><supplied reason="lost"><expan><abbr>s</abbr><ex>uli</ex></expan></supplied> Valen</del><lb break="no" n="6"/><del rend="erasure">tini <expan><abbr>veteran</abbr><ex>i</ex></expan></del> <lb n="7"/><del rend="erasure">et vete[<expan><abbr>r</abbr><ex>es</ex></expan></del>] <lb n="8"/><del rend="erasure"><supplied reason="lost">ex</supplied> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan></del> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>ucio</ex></expan> <expan><abbr>Dom</abbr><ex>itio</ex></expan> Aureli<lb break="no" n="2"/>ano deo <lb n="3"/>Valentini veterani <lb n="4"/>et veteres
+            </ab></div></div>
+            <div type="commentary">
+                <p>Die beiden Inschriften verteilen sich auf Vorder- und Rückseite der Basis. Maße und Datierung beziehen sich auf die jüngere Inschrift für Aurelian. Die ältere eradierte Inschrift für Elagabal wurde erst von Alföldy, ZPE publiziert: Buchstabenhöhe: 7-5 cm; Zeilenlinien für die Beschriftung; Datierung: 10.-31.12.218 n. Chr. Die Fundstelle befindet sich im Bereich des antiken Forums.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2002, 0851.</bibl><bibl>AE 1972, 0284.</bibl><bibl>AE 1938, 0024.</bibl><bibl>CIL 02 (2. Aufl.) 14, 00019; tab. 1, 6.</bibl><bibl>A. García y Bellido, BAHist 169, 1972, 252. - AE 1972.</bibl><bibl>P. Battle i Huguet, AInstCat 8, 1927-1931, 374. - AE 1938.</bibl><bibl>G. Alföldy, ZPE 141, 2002, 257-260; Taf. 9, 1 u. 2; Abb. 1 (Zeichnung). - AE 2002.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

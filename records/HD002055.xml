@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Scupi, bei &amp;ndash; Skopje, Karpoš (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002055</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002055</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Skopje, Arh. Muz. Mak.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>195</height><width>59</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481987">Scupi, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1952"><placeName type="country" ref="https://www.geonames.org/718075">Macedonia</placeName><placeName type="modern" ref="http://www.geonames.org/7576125">Skopje, Karpoš</placeName><placeName type="findspot">Vlae, {Lepenec-Brücke}, westlich</placeName><placeName type="region">Skopski region</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002055_1" sex="M"><persName ref="http://romans1by1.com/rpeople/13310"><name type="praenomen">L.</name><name type="nomen">Apuleius</name><name type="cognomen">Valens</name></persName></person><person xml:id="HD002055_2" sex="W"><persName ref="http://romans1by1.com/rpeople/13311"><name type="cognomen">Maxima</name></persName></person><person xml:id="HD002055_3" sex="W"><persName ref="http://romans1by1.com/rpeople/13312"><name type="cognomen">Hesperis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-18" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028871" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b8ed4d92-9669-453e-a52b-420774da224e/file/id/789628/file_version/name/small"/><graphic xml:id="F028872" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a5b719de-302b-42c9-ac45-194c0f9f2ea1/file/id/789629/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Apuleius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/>Scaptia Valens <lb n="3"/>Berua <expan><abbr>vet</abbr><ex>eranus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> V <lb n="4"/><expan><abbr>Mac</abbr><ex>edonicae</ex></expan> <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> L <expan><abbr>mil</abbr><ex>itavit</ex></expan> <lb n="5"/><expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXII <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="6"/><expan><abbr>h</abbr><ex>eredes</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uraverunt</ex></expan> Maxima <expan><abbr>f</abbr><ex>ilia</ex></expan> <lb n="7"/>et Hesperis <expan><abbr>lib</abbr><ex>erta</ex></expan> <lb n="8"/>itemque <expan><abbr>con</abbr><ex>iunx</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Über dem Inschriftfeld ein Totenmahlrelief.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0761.</bibl><bibl>IMS 6, 043; Foto.</bibl><bibl>ILJug 0029.</bibl><bibl>B. Josifovska, ZAnt 5, 1955, 402; Foto. - AE 1984.</bibl><bibl>AE 1961, 0125.</bibl><bibl>B. Josifovska, ZborMuzSkopje 1, 1955/56, 78-89; Foto. - AE 1961.</bibl><bibl>FA 12, 1957, 242, Nr. 3781.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

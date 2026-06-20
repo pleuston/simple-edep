@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Herculaneum &amp;ndash; Ercolano (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004337</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004337</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/432873">Herculaneum</placeName></origPlace><origDate><origDate notBefore-custom="0011" notAfter-custom="0014" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">11 AD - 14 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Ercolano</placeName><placeName type="findspot">Cardo III, decumanus maximus</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004337_1" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Lucius</name><name type="cognomen">Proculus</name></persName></person><person xml:id="HD004337_2" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Lucius</name><name type="cognomen">Iulianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-21" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Augusto <expan><abbr>sacr</abbr><ex>um</ex></expan> <lb n="2"/><expan><abbr>AA</abbr><ex>uli</ex></expan> Lucii <expan><abbr>A</abbr><ex>uli</ex></expan> filii <expan><abbr>Men</abbr><ex>enia</ex></expan> <lb n="3"/>Proculus et Iulianus <lb n="4"/><expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>s</abbr><ex>ua</ex></expan> <lb n="5"/>dedicatione decurionibus et <lb n="6"/>Augustalibus cenam dederunt
+            </ab></div>
+            <div type="commentary">
+                <p>Datierung: Vor dem Tode des Augustus / nach dem J. 11 n. Chr.; vgl. den frühesten inschriftlichen Beleg von Augustales bei R. Duthoy, Epigr. Stud. 11, 1976, 192.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0169.</bibl><bibl>G. Guadagno, CronErc 8, 1978, 132-134, Nr. 1; Foto u. Zeichnung. - AE 1979.</bibl><bibl>AE 1986, 0164.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Lugdunum &amp;ndash; Lyon (Lugdunensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005179</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005179</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Lyon, Mus. Gallo-Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lugdunensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167717">Lugdunum</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2996944">Lyon</placeName><placeName type="findspot"/><placeName type="region">Auvergne-Rhône-Alpes</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-28" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F023872" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/11cc452a-7ac4-49d8-864f-82dc75ec3b1d/file/id/784532/file_version/name/small"/><graphic xml:id="F003729" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/666d83d3-3ed8-4fc0-8cfe-e826f7524087/file/id/764487/file_version/name/small"/><graphic xml:id="F023787" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8d888235-27e0-4930-873a-1452d43f8594/file/id/784447/file_version/name/small"/><graphic xml:id="F023871" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/de25a1ca-c5df-473d-a078-fb382e688de1/file/id/784531/file_version/name/small"/><graphic xml:id="F023873" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8f3787fd-ec58-45e4-86f1-fd4ecfa696df/file/id/784533/file_version/name/small"/><graphic xml:id="F023874" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7de55bab-ba0f-4b56-aed6-90deef4cccf5/file/id/784534/file_version/name/small"/><graphic xml:id="F023875" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/937b7893-690a-4a71-8c47-a3b6d00e1faa/file/id/784535/file_version/name/small"/><graphic xml:id="F028637" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1f0fd041-5fae-4f37-a495-cbbcb9aa5672/file/id/789394/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Q</abbr><ex>uinto</ex></expan> Licinio Ult</supplied>ori Licini Taurici <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/><supplied reason="lost">cui duo et vi</supplied>ginti annos nato <lb n="3"/><supplied reason="lost">conventu</supplied>s sacerdotium <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ge</supplied>rere permisit <lb n="5"/><supplied reason="lost">tres pro</supplied>vinciae Galliae <lb n="6"/><supplied reason="lost"><expan><abbr>Q</abbr><ex>uinto</ex></expan> Licinio Ult</supplied>ori Lemovici et <gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>Q</abbr><ex>uinto</ex></expan> Lic</supplied>inio Taurico <gap reason="lost" quantity="1" unit="line"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0635.</bibl><bibl>J.-P. Boucher, Gallia 38, 1980, 521-522. - AE 1980.</bibl><bibl>CIL 13, 01700. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Pompeii, bei &amp;ndash; Pompei, bei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004401</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004401</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0079" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 79 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170336">Pompei, bei</placeName><placeName type="findspot">Murécine</placeName><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004401_1"><persName><name type="praenomen">C.</name><name type="nomen">Publicius</name><name type="cognomen">Carus+</name></persName></person><person xml:id="HD004401_2"><persName><name type="praenomen">Q.</name><name type="nomen">Castricius</name><name type="cognomen">Fructus</name></persName></person><person xml:id="HD004401_3"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD004401_4"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD004401_5"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD004401_6"><persName><name type="praenomen">A.</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD004401_7"><persName><name type="praenomen">C.</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD004401_8"><persName><name type="praenomen">L.</name><name type="nomen">M[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD004401_9"><persName><name type="praenomen">Q.</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2005-05-27" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Vadimoniu<supplied reason="lost">m factum</supplied> <expan><abbr>C</abbr><ex>aio</ex></expan> Publicio <lb n="2"/>Ca<supplied reason="lost">ro i</supplied>n XI<supplied reason="lost">II <expan><abbr>K</abbr><ex>alendas</ex></expan> De</supplied><expan><abbr>cembr</abbr><ex>es</ex></expan> <expan><abbr>pr<supplied reason="lost">i</supplied>m</abbr><ex>as</ex></expan> <lb n="3"/><supplied reason="lost">Roma</supplied>e in <supplied reason="lost">foro</supplied> Augusto ante <lb n="4"/>aram <supplied reason="lost">M</supplied>artis Ultoris pr<supplied reason="lost">o</supplied>xum<supplied reason="lost">e</supplied> <lb n="5"/>gradus hora quarta HS MMMMM <lb n="6"/>acturus ex vendito da<supplied reason="lost">r</supplied>i <lb n="7"/>stipulatus est <expan><abbr>Q</abbr><ex>uintus</ex></expan> Castricius <lb n="8"/>Fructus sp<supplied reason="lost">o</supplied>p<supplied reason="lost">o</supplied>ndit <expan><abbr>C</abbr><ex>aius</ex></expan> Publicius </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">Carus</supplied> <lb n="2"/><supplied reason="lost">actum</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>V</abbr><ex>adimonium</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan></supplied> <expan><abbr>C</abbr><ex>aio</ex></expan> Publi<supplied reason="lost">cio Caro in</supplied> XIII <expan><abbr>K</abbr><ex>alendas</ex></expan> D<supplied reason="lost"><expan><abbr>ec</abbr><ex>embres</ex></expan></supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>pr</abbr><ex>imas</ex></expan></supplied> Romae in foro Augusto an<supplied reason="lost">te</supplied> <lb n="3"/><supplied reason="lost">ara</supplied>m Martis Ultori<supplied reason="lost">s proxume gradus</supplied> <lb n="4"/><supplied reason="lost">hor</supplied>a quarta HS <supplied reason="lost">MMMMM dari <expan><abbr>stipul</abbr><ex>atus</ex></expan> est</supplied> <lb n="5"/><supplied reason="lost"><expan><abbr>Q</abbr><ex>uintus</ex></expan></supplied> Castricius Fructus <supplied reason="lost">spopondit <expan><abbr>C</abbr><ex>aius</ex></expan></supplied> <lb n="6"/><supplied reason="lost">Publ</supplied>icius Carus <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="4" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><expan><abbr>A</abbr><ex>ulus</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>L</abbr><ex>ucius</ex></expan> M<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Es handelt sich um Tabula Pompeiana 33 + inv. Pompei 14470. (B): Leseabweichungen; AE 1973, Giordano: nur Wiedergabe von tab. 1, pag. 2. Wiedergabe der signatores fehlt bei AE 1986.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0182. (B)</bibl><bibl>G. Camodeca, Puteoli 7/8, 1983/84, 58-60, Nr. 15. - AE 1986.</bibl><bibl>AE 1973, 0154. (B)</bibl><bibl>C. Giordano, RAAN 46, 1971, 186, Nr. 5; tav. 5. (B) - AE 1973.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

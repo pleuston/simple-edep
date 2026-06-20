@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ostia &amp;ndash; Roma, Ostia (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002540</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002540</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Ostia, Ostia antica, Mus. Ost.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>32</height><width>41</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-1.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/422995">Ostia</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma, Ostia</placeName><placeName type="findspot">Ostia antica</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002540_1" sex="W"><persName><name type="nomen">Plaetoria</name><name type="cognomen">Tertia</name></persName></person><person xml:id="HD002540_2" sex="W"><persName><name type="nomen">Titia</name><name type="cognomen">Felicitas</name></persName></person><person xml:id="HD002540_3" sex="W"><persName><name type="nomen">Terentia</name><name type="cognomen">Primitiva</name></persName></person><person xml:id="HD002540_4" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aelius</name><name type="cognomen">Daphnus</name></persName></person><person xml:id="HD002540_5" sex="W"><persName><name type="nomen">Aelia</name><name type="cognomen">Sophe</name></persName></person><person xml:id="HD002540_6" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Cornelius</name><name type="cognomen">Euander</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-02-10" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Plaetoriae Tertiae et Titiae <lb n="3"/>Felicitati et Terentiae <lb n="4"/>Primitivae sorori <expan><abbr>b</abbr><ex>onae</ex></expan> <expan><abbr>carissim</abbr><ex>ae</ex></expan> <lb n="5"/>et <expan><abbr>P</abbr><ex>ublio</ex></expan> Aelio Daphno patri <lb n="6"/>et Aeliae Sophe matri <lb n="7"/>carissimae et piissimae <lb n="8"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Cornelius Euander <lb n="9"/>et sibi libertis <expan><abbr>libertabusq</abbr><ex>ue</ex></expan> <lb n="10"/>posterisque eorum
+            </ab></div>
+            <div type="commentary">
+                <p>Z.6 Spuren von Eradierung bei Aelius, wohl Fehler des Steinmetzen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0228.</bibl><bibl>R. Palmieri, BCAR 88, 1982/83, 144-145, Nr. 82; tav. 77,82. - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

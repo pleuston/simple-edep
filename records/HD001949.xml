@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Caesarea Cappadociae &amp;ndash; Kayseri (Cappadocia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001949</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001949</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mus. Kayseri</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>224</height><width>48</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Cappadocia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/629035">Caesarea Cappadociae</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/298795">Turkey</placeName><placeName type="modern">Kayseri</placeName><placeName type="findspot"/><placeName type="region">Kayseri</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001949_1" sex="M"><persName><name type="praenomen">C. / Γ.</name><name type="nomen">Coesius / Κοίσιος</name><name type="cognomen">Florus / Φλῶρος</name></persName></person><person xml:id="HD001949_2" sex="W"><persName><name type="nomen">Grania / Γρανία</name><name type="cognomen">Nigella / Νιγέλλα</name></persName></person><person xml:id="HD001949_3" sex="M"><persName><name type="praenomen">C. / Γ.</name><name type="nomen">Coesius / Κοίσιος</name><name type="cognomen">Florus Licinnianus (= Licinianus) / Φλῶρος Λικιννιανός</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-02-28" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Coesio <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/><expan><abbr>Fab</abbr><ex>ia</ex></expan> Floro <expan><abbr>p</abbr><ex>rimo</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>ilo</ex></expan></supplied> <lb n="3"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> IV <expan><abbr>Scyt</abbr><ex>hicae</ex></expan> <lb n="4"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <lb n="5"/><expan><abbr>Cl</abbr><ex>audiae</ex></expan> piae fidelis <lb n="6"/>Grania Nigel<lb break="no" n="7"/>la uxor et <expan><abbr>C</abbr><ex>aius</ex></expan> Coe<lb break="no" n="8"/>sius Florus Licin<lb break="no" n="9"/>nianus <note>sic</note> filius </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Γ(αίῳ) Κοισίῳ Γα<lb break="no" n="2"/>ίου υἱῷ Φαβίᾳ Φλώ<lb break="no" n="3"/>ρῳ, πρειμιπιλα<lb break="no" n="4"/>ρίῳ λεγ(ιῶνος) Δ Σκυθι<lb break="no" n="5"/>κῆς, ἐπάρχῳ λεγ(ιῶνος) ΙΑ Κλαυ<lb break="no" n="6"/>δίας εὐσεβοῦς πιστῆς, Γρα<lb break="no" n="7"/>νία Νιγέλλα ἀνδρὶ ἀγα<lb break="no" n="8"/>θῷ καὶ Γ(αίος) Κοίσιος Φλῶρος <lb n="9"/>Λικιννιανὸς ὁ υἱὸς μνή<lb break="no" n="10"/>μης ἕνεκα
+            </ab></div></div>
+            <div type="commentary">
+                <p>Dem lateinischen folgt der gleichlautende griechische Text. Praef. leg. wohl als praef. (castrorum) leg. aufzufassen. Material: weißer Kalkstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0893.</bibl><bibl>D.H. French, in: St. Mitchell (Hg.), Armies and Frontiers in Roman and Byzantine Anatolia (Oxford 1983) 51-52; fig. 5,1 (Zeichnung). - AE 1984.</bibl><bibl>SEG 33, 1194.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

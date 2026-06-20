@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mediolanum &amp;ndash; Milano (Transpadana (Regio XI))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009118</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009118</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Milano, Cripta degli scavi</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(44)</height><width>82</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Transpadana (Regio XI)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/138459">Mediolanum</placeName></origPlace><origDate><origDate notBefore-custom="0471" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">471 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1959"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Milano</placeName><placeName type="findspot">S. Eustorgio, Friedhof</placeName><placeName type="region">Lombardia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009118_1" sex="M"><persName><name type="cognomen">Heliodorus+ Macedo</name></persName></person><person xml:id="HD009118_2" sex="M"><persName><name type="cognomen">Theoctes</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-06-03" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F034363" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/79cd01b3-13f4-4ce4-a5d4-0d1270729503/file/id/795197/file_version/name/small"/><graphic xml:id="F034364" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a620ee58-77e9-44f8-9948-2f8204f24154/file/id/795198/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Heliod</supplied>or<supplied reason="lost">o</supplied> Macedoni <lb n="2"/>q<supplied reason="lost">ui</supplied> vixit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> <expan><abbr>pl</abbr><ex>us</ex></expan> <expan><abbr>m</abbr><ex>inus</ex></expan> LXX <lb n="3"/>Theoctes <expan><abbr>fr</abbr><ex>atris</ex></expan> <expan><abbr>fil</abbr><ex>ius</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>e</abbr><ex>gregiae</ex></expan> <expan><abbr>me</abbr><ex>moriae</ex></expan> p<expan><ex>o</ex><abbr>s</abbr><ex>ui</ex><abbr>t</abbr></expan> <lb n="4"/><expan><abbr>d</abbr><ex>ie</ex></expan> III <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>D</abbr><ex>ecembres</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Eingeritzte Darstellung eines Orans. 13 mehrheitlich aneinander passende Fragmente des unteren Teils der Tafel erhalten. Textwiedergabe nach Cuscito. (B): Bovini, AE 1972: abweichende Lesungen / Ergänzungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1972, 0216. (B)</bibl><bibl>G. Bovini, RSL 37, 1971, 73-74. (B) - AE 1972.</bibl><bibl>AE 1994, 0735.</bibl><bibl>G. Cuscito, RAComo 176, 1994, 145-146, Nr. 8; Foto. - AE 1994.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

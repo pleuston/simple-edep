@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Sarmizegetusa Regia &amp;ndash; Orăştioara de Sus (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000763</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000763</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cluj-Napoca, Muz. Naţ. Ist. Transilv.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>40</height><width>50</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207425">Sarmizegetusa Regia</placeName></origPlace><origDate><origDate when-custom="0102" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">102 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1980"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/676805">Orăştioara de Sus</placeName><placeName type="findspot">Grădiştea de Munte, {Lager}, Südtor</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-05-26" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Vex</abbr><ex>illatio</ex></expan> <lb n="2"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> VI <lb n="3"/><expan><abbr>ferr</abbr><ex>atae</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Inschrift innerhalb eines Eichenkranzes. Datierung: Bau des Lagers am Ende des 1. Dakerkrieges 102 n. Chr. oder bald danach.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0825.</bibl><bibl>H. Daicoviciu u. a., MatCercA 15, 1983, 233, Nr. 1b. - AE 1983.</bibl><bibl>IDR 3, 3, 270.</bibl><bibl>AE 2001, 1716.</bibl><bibl>C. Opreanu, EphNapocensis 10, 2000, 157; fig. 3, 2 (Zeichnung). - AE 2001.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

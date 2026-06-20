@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Durostorum &amp;ndash; Silistra (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005832</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005832</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><dimensions unit="cm"><height>(110)</height><width>(62)</width><depth>(55)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216800">Durostorum</placeName></origPlace><origDate><origDate notBefore-custom="0284" notAfter-custom="0302" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">284 AD - 302 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1975"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727221">Silistra</placeName><placeName type="findspot">{Ulica Patriarh Evtimij}, sekundär verwendet</placeName><placeName type="region">Silistra</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005832_1" sex="M"><persName ref="http://romans1by1.com/rpeople/9021"><name type="nomen">Silvius+</name><name type="cognomen">Silvanus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-18" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan></supplied> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> Sal<supplied reason="lost">uta</supplied>ri <lb n="2"/>Iunoni Reginae <lb n="3"/>ceterisque <lb n="4"/>diis inmortalibus <lb n="5"/><supplied reason="lost">S</supplied>ilvius Silvanus <lb n="6"/><expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>p</abbr><ex>erfectissimus</ex></expan> praeses <expan><abbr>prov</abbr><ex>inciae</ex></expan> <lb n="7"/>Moesiae <expan><abbr>infer</abbr><ex>ioris</ex></expan> <lb n="8"/>pro salute sua <lb n="9"/>et suorum votum <lb n="10"/>solvit
+            </ab></div>
+            <div type="commentary">
+                <p>Altar oder Statuenbasis; in sekundärer Verwendung für ein Gebäude des 4./5. Jhs. n. Chr. gefunden. (B): Velkov, AE 1980: Z. 3: ceteris[que]. Datierung: Zeitraum, den Velkov für die Statthalterschaft des Silvanus annimmt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0793, 1. (B)</bibl><bibl>V. Velkov, AArchSlov 28, 1977, 421-424, Nr. 1. (B) - AE 1980.</bibl><bibl>P. Donevski, Arch(Sofia) 18, 4, 1976, 61-62, Nr. 2; obr. 2. - AE 1980.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

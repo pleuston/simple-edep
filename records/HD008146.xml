@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ulpia Noviomagus Batavorum &amp;ndash; Nijmegen (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008146</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008146</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Nijmegen, Mus. Het Valkhof</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(69)</height><width>(67)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/98921">Ulpia Noviomagus Batavorum</placeName></origPlace><origDate><origDate notBefore-custom="0096" notAfter-custom="0104" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">96 AD - 104 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1465"><placeName type="country" ref="https://www.geonames.org/2750405">Netherlands</placeName><placeName type="modern" ref="http://www.geonames.org/2750053">Nijmegen</placeName><placeName type="findspot">Valkhof, {S. Nicolaaskapel}, vermauert</placeName><placeName type="region">Gelderland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008146_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Pudens</name></persName></person><person xml:id="HD008146_2" sex="M"><persName><name type="nomen">Iulius*</name><name type="cognomen">Iunius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-12-28" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F035046" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4c5bdd58-41b6-4aae-ac58-b6a7e01a239d/file/id/795892/file_version/name/small"/><graphic xml:id="F035047" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/64cf6992-c1eb-4204-a295-a44c82b2a290/file/id/795893/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Dis Manibus <lb n="2"/><expan><abbr>C</abbr><ex>aio</ex></expan> Iulio <expan><abbr>Clau</abbr><ex>dia</ex></expan> <lb n="3"/>Pudenti <expan><abbr>Emona</abbr><ex cert="low"/></expan> <lb n="4"/><expan><abbr>vet</abbr><ex>erano</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> X <expan><abbr>g</abbr><ex>eminae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <lb n="5"/><expan><abbr>an</abbr><ex>norum</ex></expan> L et <expan><abbr>Iul</abbr><ex>io</ex></expan> <lb n="6"/>Iunio <expan><abbr>f</abbr><ex>ilio</ex></expan> eius <lb n="7"/><expan><abbr>o</abbr><ex>ssa</ex></expan> <expan><abbr>h</abbr><ex>oc</ex></expan> <expan><abbr>l</abbr><ex>oco</ex></expan> <expan><abbr>s</abbr><ex>epulta</ex></expan> <expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 3 (Ende): AE 1979, Faust: Liovia(?).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0414. (B)</bibl><bibl>CIL 13, 08735; Zeichnung.</bibl><bibl>W. Faust, Die Grabstelen des 2. und 3. Jahrhunderts im Rheingebiet (Köln 1998) 151-152, Nr. 192. (B)</bibl><bibl>J.E. Bogaers, in: D. Letema (Hrsg.), Noviomagus. Auf den Spuren der Römer in Nijmegen (Nijmegen 1979) 10-11; Abb. 1. - AE 1979.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

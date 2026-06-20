@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Dürrlauingen (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004624</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004624</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dürrlauingen, Pfarrkirche S. Nikolaus</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>122</height><width>66</width><depth>48</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1960"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2934317">Dürrlauingen</placeName><placeName type="findspot">{S. Nikolaus, Kirche}, sekundär verwendet</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004624_1" sex="M"><persName><name type="nomen">Gemelius</name><name type="cognomen">Dignianus</name></persName></person><person xml:id="HD004624_2" sex="M"><persName><name type="nomen">Gemelius+</name><name type="cognomen">Dignus</name></persName></person><person xml:id="HD004624_3" sex="W"><persName><name type="nomen">[-]A[-]IORA[---]?</name><name type="cognomen">[-]A[-]IORA[---]?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-08-02" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>s</abbr><ex>acrum</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Gemelio Digniano vix<lb break="no" n="2"/>it annos <expan><abbr>no</abbr><ex>vem</ex></expan> menses VII <lb n="3"/><supplied reason="lost">G</supplied>emelius Dignus <expan><abbr>mil</abbr><ex>es</ex></expan> <lb n="4"/><supplied reason="lost"><expan><abbr>leg</abbr><ex>ionis</ex></expan> I</supplied>II Ita<supplied reason="lost"><expan><abbr>l</abbr><ex>icae</ex></expan> e</supplied>t <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>A</abbr><ex cert="low"/></expan><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>IORA<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Inschrift ab Z. 5 wegen Verwendung des Steines als Altarsockel zerstört. Z. 1 steht über dem profilierten Gesims. In einer halbrunden Nische Knabe mit Ball im Relief, der die rechte Hand nach einer Taube(?) ausstreckt. In Z. 5 noch die oberen Ansätze der Buchstaben erhalten, statt A auch N möglich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0582.</bibl><bibl>U. Schillinger-Häfele, BRGK 58, 1977, 569-570, Nr. 233; Taf. 5. - AE 1978.</bibl><bibl>A. Mayer - E. Philipp - F. Wagner, BVBl 26, 1961, 290. - AE 1978.</bibl><bibl>G. Gamer - A. Rüsch, Raetia (Bayern südlich des Limes) und Noricum (Chiemseegebiet), CSIR Deutschland 1, 1 (Bonn 1973) 56, Nr. 174; Taf. 53, 174.</bibl><bibl>J. Mander, Portraits of children on Roman funerary monuments (Cambridge 2013) 263, Nr. 490.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Minturnae &amp;ndash; Minturno (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001660</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001660</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Römisches Theater</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(104)</height><width>119</width><depth>41</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/438787">Minturnae</placeName></origPlace><origDate><origDate notBefore-custom="0200" notAfter-custom="0209" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">200 AD - 209 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Minturno</placeName><placeName type="findspot"/><placeName type="region">Latina</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001660_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="praenomen">L.</name><name type="nomen">Septimius*</name><name type="cognomen">Severus</name></persName></person><person xml:id="HD001660_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Antoninus</name></persName></person><person xml:id="HD001660_3" sex="M"><persName ref="https://www.wikidata.org/wiki/Q183089"><name type="praenomen">P.+++</name><name type="nomen">Septimius+++*</name><name type="cognomen">Geta+++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2004-11-25" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Septim</abbr><ex>ius</ex></expan> <lb n="2"/>Severus Pius Pertinax <lb n="3"/><expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>Arabic</abbr><ex>us</ex></expan> <expan><abbr>Adiab</abbr><ex>enicus</ex></expan> <lb n="4"/><expan><abbr>Parthic</abbr><ex>us</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> et <lb n="5"/><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aurel</abbr><ex>ius</ex></expan> <lb n="6"/>Antoninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Pius <lb n="7"/>Felix <del rend="erasure">[et</del>] <lb n="8"/><del rend="erasure">[<expan><abbr>P</abbr><ex>ublius</ex></expan> <expan><abbr>Septim</abbr><ex>ius</ex></expan> Geta</del>] <lb n="9"/><del rend="erasure">[<expan><abbr>nobiliss</abbr><ex>imus</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan></del>] <lb n="10"/>viam quae ducit a Min<supplied reason="lost">turnis ad</supplied> <lb n="11"/><supplied reason="lost">Aquas Vescinas</supplied> <lb n="12"/><supplied reason="lost">sua <expan><abbr>pec</abbr><ex>unia</ex></expan> <expan><abbr>straver</abbr><ex>unt</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1982: Z. 2: Pertin(ax); Z. 3: Arab(icus); Z. 5: Caes(ar); Inschrift ab Min[turnis] weggebrochen; Z. 9: Cavuoto: [[Caesar]]; Z. 10: viam; Cavuoto: duci statt ducit; Codognone: Z. 10: via.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0153b. (B)</bibl><bibl>P. Cavuoto, in: MGR 8 (Roma 1982) 511-512, Nr. 8; tav. 6, 9. (B) - AE 1982.</bibl><bibl>H. Solin, Arctos 18, 1984, 117.</bibl><bibl>AE 1989, 0145. (B)</bibl><bibl>A. Codognone u. a., in: F. Coarelli (Hrsg.), Minturnae (Roma 1989) 159, Nr. 27; tav. 48, 1b. - AE 1989.</bibl><bibl>M. Horster, Bauinschriften römischer Kaiser (Stuttgart 2001) 267-268, Nr. Ia 9,1.</bibl><bibl>G. Alföldy, Epigraphica 64, 2002, 120, Nr. 8.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

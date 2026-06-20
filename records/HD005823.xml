@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Rahovec / Orahovac (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005823</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005823</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Prizren, Muz. Ark.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>148</height><width>55</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/831053">Kosovo</placeName><placeName type="modern" ref="http://www.geonames.org/783804">Rahovec / Orahovac</placeName><placeName type="findspot">Xërxë / Zrze, bei, {Ura e Shenjtë / Švanjskog Most}, südöstlich, Nekropole</placeName><placeName type="region">Gjakovë / Đakovica</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005823_1" sex="M"><persName ref="http://romans1by1.com/rpeople/14066"><name type="cognomen">Posidonius</name></persName></person><person xml:id="HD005823_2" sex="M"><persName><name type="cognomen">Bitus</name></persName></person><person xml:id="HD005823_3" sex="W"><persName ref="http://romans1by1.com/rpeople/14067"><name type="cognomen">Iusta</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-18" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F029510" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1a728846-d0e5-4c54-8c1b-bea635801f80/file/id/790267/file_version/name/small"/><graphic xml:id="F029511" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b3017e8f-79c8-4c7e-9c49-410607605e17/file/id/790268/file_version/name/small"/><graphic xml:id="F029512" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0e9894aa-e1cb-4162-b901-5d748ddbe594/file/id/790269/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Pos<surplus>s</surplus>ido<lb break="no" n="3"/>nius Bit<lb break="no" n="4"/>i vixit a<lb break="no" n="5"/><expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> LXX <lb n="6"/>Iusta <expan><abbr>co</abbr><ex>n</ex></expan><lb break="no" n="7"/>iunx et h<lb break="no" n="8"/>eres mari<lb break="no" n="9"/>to et sibi vi<lb break="no" n="10"/>va <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erentibus</ex></expan> <lb n="11"/>posuit
+            </ab></div>
+            <div type="commentary">
+                <p>Auf dem Rahmen des Inschriftfeldes eine Efeuranke; Worttrenner teils als hederae. Miridita, AE 1981: Z. 5 (Ende): [et] bzw. (et). (B): Mirdita: Z. 4/5: a/nnis; Z. 7/8: co/iux.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0727.</bibl><bibl>Z. Mirdita, AArchSlov 31, 1980, 188, Nr. 4; Taf. 2, 4. (B) - AE 1981.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Saturnia, bei &amp;ndash; Marsiliana, bei (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008961</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008961</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(78)</height><width>56</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.7-5.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413044">Saturnia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Marsiliana, bei</placeName><placeName type="findspot">Riparossa</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008961_1"><persName><name type="praenomen">[-]</name><name type="nomen">Petronius+?</name><name type="cognomen">[---]nus+</name></persName></person><person xml:id="HD008961_2"><persName><name type="praenomen">[-]</name><name type="nomen">Petronius+?</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD008961_3"><persName><name type="praenomen">[-]</name><name type="nomen">Petronius+?</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-08-26" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                ------<certainty match="preceding-sibling::node()" locus="value"/>] <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> P</supplied>etro<supplied reason="lost" cert="low">nii</supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>nu<supplied reason="lost">s</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ------<certainty match="preceding-sibling::node()" locus="value"/>] <lb n="2"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>L</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>ER<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="4"/>dulciss<supplied reason="lost">imus</supplied> <lb n="5"/>qui vix<supplied reason="lost">it an</supplied><lb break="no" n="6"/>nis XXXX<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>hic dispos<lb break="no" n="8"/><surplus>s</surplus>iti <note>sic</note> <supplied reason="lost">s</supplied>unt tres <lb n="9"/>fra<supplied reason="lost">t</supplied>res
+            </ab></div></div>
+            <div type="commentary">
+                <p>3 Fragmente erhalten; Maße beziehen sich auf Fragment c (aus 5 Teilen zusammengesetzt); Maße Fragment a: (15) x (11) x (15) cm; Fragment b: (14) x (13) x (15) cm. Fragment a läßt sich an Fragment c anpassen. (B): Jacques: Z. 3/4: [1]I(?)[3] / ER[3]; AE 1987: Z. 3: nicht angegeben; Z. 4: ER; Z. 7/8: Zeilenfall nicht angegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1987, 0390. (B)</bibl><bibl>F. Jacques, Epigraphica 48, 1986, 222-224, Nr. 16; fig. 16. (B) - AE 1987.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Pone Navata (= Ponte Navata?) &amp;ndash; Visegrád (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009544</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009544</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Visegrád, Mátyás Király Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>90</height><width>102</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.2-4.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197452">Pone Navata (= Ponte Navata?)</placeName></origPlace><origDate><origDate when-custom="0372" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">372 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1955"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3042824">Visegrád</placeName><placeName type="findspot">Steinbruch, Wachturm, Eingang, bei</placeName><placeName type="region">Pest megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009544_1" sex="M"><persName><name type="cognomen">Valentinianus+</name></persName></person><person xml:id="HD009544_2" sex="M"><persName><name type="cognomen">Valens</name></persName></person><person xml:id="HD009544_3" sex="M"><persName ref="https://www.wikidata.org/wiki/Q189108"><name type="cognomen">Gratianus</name></persName></person><person xml:id="HD009544_4" sex="M"><persName><name type="cognomen">Equitius</name></persName></person><person xml:id="HD009544_5" sex="M"><persName><name type="cognomen">Foscanus+</name></persName></person><person xml:id="HD009544_6" sex="M"><persName><name type="cognomen">Modestus</name></persName></person><person xml:id="HD009544_7" sex="M"><persName><name type="cognomen">Arentheus (= Arintheus)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-28" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Iudicio principali <expan><abbr>d<am>dd</am></abbr><ex>ominorum</ex></expan> <expan><abbr>n<am>nn</am></abbr><ex>ostrorum</ex></expan> <supplied reason="lost">Valentiniani</supplied> <lb n="2"/>Valentis et Gratiani principum <supplied reason="lost">maximorum</supplied> <lb n="3"/>dispositionem <note>sic</note> etiam inlustris viri <supplied reason="lost">utriusque</supplied> <lb n="4"/><supplied reason="lost">mi</supplied>litiae magistri Equiti comitis Fo<supplied reason="lost">scanus</supplied> <lb n="5"/>p<expan><ex>rae</ex><abbr>p</abbr><ex>ositus</ex></expan> legionis primae Martiorum u<supplied reason="lost">na cu</supplied>m <lb n="6"/>militibus sibi creditis hunc bu<supplied reason="lost">r</supplied>gum <lb n="7"/>a fondamentis <note>sic</note> et construxit et ad sum<expan><ex>m</ex><abbr>am</abbr></expan> <lb n="8"/>manum operis consulatus Modesti et <lb n="9"/>Arenthei <note>sic</note> <expan><abbr>vv</abbr><ex>irorum</ex></expan> <expan><abbr>cc</abbr><ex>larissimorum</ex></expan> fecit pervenire
+            </ab></div>
+            <div type="commentary">
+                <p>11 aneinanderpassende Fragmente erhalten. (B): RIU: Z. 8/9: Zeilenfall fehlt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0804; Abb. 804 (Foto u. Zeichnung). (B)</bibl><bibl>S. Soproni, Der spätrömische Limes zwischen Esztergom und Szentendre. Das Verteidigungssystem der Provinz Valeria im 4. Jahrhundert (Budapest 1978) 53; Tafel 57 (Zeichnung).</bibl><bibl>S. Soproni, Die letzten Jahrzehnte des pannonischen Limes (München1985) 111-112; Abb. 52; Abb. 51 (Zeichnung).</bibl><bibl>PLRE 1 Foscanus.</bibl><bibl>PLRE 1 Modestus 2.</bibl><bibl>PLRE 1 Arinthaeus.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

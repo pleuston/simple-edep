@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Cibalae, bei &amp;ndash; Negoslavci (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004855</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004855</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197207">Cibalae, bei</placeName></origPlace><origDate><origDate when-custom="0065" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">65 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3194552">Negoslavci</placeName><placeName type="findspot"/><placeName type="region">Vukovarsko-srijemska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004855_1" sex="M"><persName><name type="nomen">Claudius</name><name type="cognomen">Nero</name></persName></person><person xml:id="HD004855_10" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Caecina</name><name type="cognomen">Hermas</name></persName></person><person xml:id="HD004855_11" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Picatius</name><name type="cognomen">Carpus</name></persName></person><person xml:id="HD004855_12" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Hostilius</name><name type="cognomen">Blaesus</name></persName></person><person xml:id="HD004855_13" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Trebonius</name><name type="cognomen">Hyginus</name></persName></person><person xml:id="HD004855_14" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Annius</name><name type="cognomen">Potens</name></persName></person><person xml:id="HD004855_2" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Sulpicius Scribonius</name><name type="cognomen">Proculus</name></persName></person><person xml:id="HD004855_3" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Licinius</name><name type="cognomen">Nerva Silianus</name></persName></person><person xml:id="HD004855_4" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Pasidienus</name><name type="cognomen">Firmus</name></persName></person><person xml:id="HD004855_5" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Numisius</name><name type="cognomen">Maximus</name></persName></person><person xml:id="HD004855_6" sex="M"><persName><name type="cognomen">Liccaius</name></persName></person><person xml:id="HD004855_7" sex="M"><persName><name type="cognomen">Liccaius</name></persName></person><person xml:id="HD004855_8" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Marcius</name><name type="cognomen">Nobilis</name></persName></person><person xml:id="HD004855_9" sex="M"><persName><name type="praenomen">Sex.</name><name type="nomen">Teius</name><name type="cognomen">Niceros</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-19" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Nero Claudius divi Claudi <expan><abbr>f</abbr><ex>ilius</ex></expan> Germani<supplied reason="lost">ci</supplied> <lb n="2"/>Caesaris <expan><abbr>n</abbr><ex>epos</ex></expan> <expan><abbr>Ti</abbr><ex>beri</ex></expan> Caesaris <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pron</abbr><ex>epos</ex></expan> divi <lb n="3"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>abn</abbr><ex>epos</ex></expan> Caesar <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Germanicus <lb n="4"/><expan><abbr>pont</abbr><ex>ifex</ex></expan> <lb n="5"/><expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XI <expan><abbr>imp</abbr><ex>erator</ex></expan> VIIII <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IIII <lb n="6"/>peditibus et equitibus qui militant &amp;lt;in&amp;gt; <lb n="7"/>cohortibus tribus quae appellant<lb break="no" n="8"/>ur I et II Thracum et VII Breucorum <lb n="9"/>et sunt in Germania sub <expan><abbr>P</abbr><ex>ublio</ex></expan> Sulpicio <lb n="10"/>Scribonio Proculo qui quina et vice<lb break="no" n="11"/>na stipendia aut plura meruerant <lb n="12"/>quorum nomina subscripta sunt ips<lb break="no" n="13"/>is liberis posterisque eorum civit<lb break="no" n="14"/>atem dedit et conubium cum uxori<lb break="no" n="15"/>bus quas tunc habuissent cum est civ<lb break="no" n="16"/>itas iis data aut siqui caelibes essent <lb n="17"/>cum iis quas postea duxissent dum<lb break="no" n="18"/>taxat singuli singulas <lb n="19"/><expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> XV <expan><abbr>K</abbr><ex>alendas</ex></expan> Iulias <lb n="20"/><expan><abbr>A</abbr><ex>ulo</ex></expan> Licinio Nerva Siliano <lb n="21"/><expan><abbr>P</abbr><ex>ublio</ex></expan> Pasidieno Firmo co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="22"/>pediti <expan><abbr>coh</abbr><ex>ortis</ex></expan> VII Breucorum cui <lb n="23"/>praeest <expan><abbr>C</abbr><ex>aius</ex></expan> Numisius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Vel</abbr><ex>ina</ex></expan> <expan><abbr>Max</abbr><ex>imus</ex></expan> <lb n="24"/>Liccaio Liccai <expan><abbr>f</abbr><ex>ilio</ex></expan> Breuco <lb n="25"/>descriptum et recognitum ex tabu<lb break="no" n="26"/>la aenia<lb break="no" n="27"/>quae fixa est Romae in <lb n="28"/>Capitolio ante aerarium milita<lb break="no" n="29"/>re in basi Claudiorum Marcellor<lb break="no" n="30"/>um </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>ai</ex></expan> Marci Nobilis Emoniensis <lb n="2"/><expan><abbr>Sex</abbr><ex>ti</ex></expan> Tei Nicerotis Aquileiensis <lb n="3"/><expan><abbr>C</abbr><ex>ai</ex></expan> Caecinae Hermaes <note>sic</note> Aquileiensis <lb n="4"/><expan><abbr>T</abbr><ex>iti</ex></expan> Picati Carpi Aquileiensis <lb n="5"/><expan><abbr>L</abbr><ex>uci</ex></expan> Hostili Blaesi Emoniensis <lb n="6"/><expan><abbr>M</abbr><ex>arci</ex></expan> Treboni Hygini Aquileiensis <lb n="7"/><expan><abbr>L</abbr><ex>uci</ex></expan> Anni Potentis Aquileiensis
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0658.</bibl><bibl>S. Dušanić, Germania 56, 1978, 461-475; pl. 47-48. - AE 1978.</bibl><bibl>AE 1989, 0626.</bibl><bibl>A. Dorn, in: Archäologische Forschungen in Ostslawonien und Baranja. Tagung Vukovar 6.-9.X.1981 (Zagreb 1984) 165-174; Fotos; Zeichnung. - AE 1989.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

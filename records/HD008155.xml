@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Bingium &amp;ndash; Bingen/Rhein (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008155</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008155</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bingen/Rhein, Burg Klopp</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(208)</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108809">Bingium</placeName></origPlace><origDate><origDate when-custom="0121" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">121 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1976"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2948825">Bingen/Rhein</placeName><placeName type="findspot">Altes Rathaus, bei</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008155_1" sex="M"><persName><name type="cognomen">Traianus+ Hadrianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-03-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F030189" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a45ae92a-f759-401b-8984-ab1061fb7ffb/file/id/790946/file_version/name/small"/><graphic xml:id="F030188" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/163b4072-bd1d-4f38-9b76-e358eb76f22f/file/id/790945/file_version/name/small"/><graphic xml:id="F030190" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2a104e2f-ee9b-43aa-9ce3-93df6361de0c/file/id/790947/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> divi</supplied> <lb n="2"/>Tra<supplied reason="lost">iani Par</supplied><lb break="no" n="3"/>thici <supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan> div</supplied>i Ne<lb break="no" n="4"/>rvae ne<supplied reason="lost">po</supplied>ti Tr<supplied reason="lost">a</supplied><lb break="no" n="5"/>iano H<supplied reason="lost">a</supplied>driano <lb n="6"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>pontif</abbr><ex>ici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <lb n="7"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> V <lb n="8"/><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> III</supplied> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="9"/>a <expan><abbr>col</abbr><ex>onia</ex></expan> <expan><abbr>Aug</abbr><ex>usta</ex></expan> <supplied reason="lost"><expan><abbr>mil</abbr><ex>ia</ex></expan></supplied> <lb n="10"/>LXXII
+            </ab></div>
+            <div type="commentary">
+                <p>Mehrere Fragmente erhalten; Aufbewahrung, Material und Höhe nach lupa 27226. (B): Schillinger-Häfele; AE 1979: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0417. (B)</bibl><bibl>U. Schillinger-Häfele, MZ 73/74, 1978/79, 367, Nr. a. (B) - AE 1979.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

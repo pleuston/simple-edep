@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005031</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005031</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(55)</height><width>(32)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">SS. Pietro e Marcellino, Katakombe</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005031_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Aurelius</name><name type="cognomen">Secundus+</name></persName></person><person xml:id="HD005031_2" sex="M"><persName><name type="nomen">Atennius</name><name type="cognomen">Probus+</name></persName></person><person xml:id="HD005031_3" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Ulpius</name><name type="cognomen">Respectus+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-07-07" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>T</abbr><ex>ito</ex></expan> Aurelio Sec<supplied reason="lost">un</supplied><lb break="no" n="3"/>do <expan><abbr>eq</abbr><ex>uiti</ex></expan> <expan><abbr>sing</abbr><ex>ulari</ex></expan> Au<supplied reason="lost"><expan><abbr>g</abbr><ex>usti</ex></expan></supplied> <lb n="4"/><expan><abbr>tur</abbr><ex>ma</ex></expan> Atenni <supplied reason="lost">Pro</supplied><lb break="no" n="5"/>bi <expan><abbr>nat</abbr><ex>ione</ex></expan> Thrac<supplied reason="lost">ia</supplied> <lb n="6"/>Ulpia Tonzo <supplied reason="lost"><expan><abbr>q</abbr><ex>ui</ex></expan></supplied> <lb n="7"/><expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> XXX <expan><abbr>mil</abbr><ex>itavit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/><expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>M</abbr><ex cert="low">arcus</ex></expan> Ulpius Resp<supplied reason="lost"><expan><abbr>ect</abbr><ex>us</ex></expan></supplied> <lb n="9"/><expan><abbr>sesq</abbr><ex>uiplicarius</ex></expan> <lb n="10"/><expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>b</abbr><ex>ene</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>erenti</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1981: Z. 7: nach XXX fälschliche Angabe eines Zeilenfalls; Z. 9: nicht wiedergegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0094. (B)</bibl><bibl>S. Panciera, in: L. Gasperini, Scritti sul mondo antico in memoria di Fulvio Grosso (Roma 1981) 465-474; tav. 47. - AE 1981.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

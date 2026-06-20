@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Scupi, bei &amp;ndash; Skopje, Gazi Baba (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009814</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009814</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material>Gesteine</material><dimensions unit="cm"><height>(220)</height><width>82</width><depth>35</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481987">Scupi, bei</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/718075">Macedonia</placeName><placeName type="modern" ref="http://www.geonames.org/785897">Skopje, Gazi Baba</placeName><placeName type="findspot">{Čento}, "Kamnik (Kamenik)", spätantikes Grab, sekundär verwendet</placeName><placeName type="region">Skopski region</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009814_1" sex="M"><persName ref="http://romans1by1.com/rpeople/13562"><name type="cognomen">Cesus</name></persName></person><person xml:id="HD009814_2" sex="M"><persName><name type="cognomen">Mestrius</name></persName></person><person xml:id="HD009814_3" sex="M"><persName ref="http://romans1by1.com/rpeople/13563"><name type="cognomen">Delus</name></persName></person><person xml:id="HD009814_4" sex="M"><persName ref="http://romans1by1.com/rpeople/13564"><name type="cognomen">Bithus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-11" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F029452" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0f70dd17-656a-4fa8-83ea-4e99a019efb9/file/id/790209/file_version/name/small"/><graphic xml:id="F029453" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f9e060f5-de97-48b3-a3b3-0e54ef24f4d5/file/id/790210/file_version/name/small"/><graphic xml:id="F029454" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bfc7b911-1761-4229-9318-f110068f08f4/file/id/790211/file_version/name/small"/><graphic xml:id="F029455" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a9936312-a20a-49cc-953d-c874d5788acc/file/id/790212/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Cesus Mes<lb break="no" n="2"/>tri <expan><abbr>f</abbr><ex>ilius</ex></expan> Mace<lb break="no" n="3"/>do Apeunen<lb break="no" n="4"/>ses <note>sic</note> <expan><abbr>vix</abbr><ex>it</ex></expan> annis <lb n="5"/>LXX <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="6"/>Delus co<expan><ex>n</ex><abbr>iux</abbr></expan> <lb n="7"/>et Bit<expan><ex>h</ex><abbr>us</abbr></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Cesu<lb break="no" n="8"/>nis <note>sic</note> heres bene <expan><abbr>merit</abbr><ex>o</ex></expan> <lb n="9"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uraverunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1972, 0510.</bibl><bibl>B. Drogojević-Josifovska, ZAnt 21, 1971, 231-236, Nr. 1; sl. 1 u. 2. - AE 1972.</bibl><bibl>IMS 6, 099; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Nola, bei &amp;ndash; Somma Vesuviana (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005942</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005942</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/432981">Nola, bei</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Somma Vesuviana</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1998-07-13" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Publilio <expan><abbr>M</abbr><ex>arci</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <lb n="2"/>Probato <expan><abbr>c</abbr><ex>larissimo</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan> <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></supplied> <lb n="3"/><expan><abbr>cur</abbr><ex>atori</ex></expan> <expan><abbr>r</abbr><ex>ei</ex></expan> <expan><abbr>p</abbr><ex>ublicae</ex></expan> municipi e<supplied reason="lost">t <expan><abbr>pat</abbr><ex>rono</ex></expan></supplied> <lb n="4"/><expan><abbr>cur</abbr><ex>atori</ex></expan> Beneventan<supplied reason="lost">orum</supplied> <lb n="5"/>legato <expan><abbr>provinc</abbr><ex>iae</ex></expan> <supplied reason="lost">Afri</supplied><lb break="no" n="6"/>cae per Numidiam <supplied reason="lost" cert="low">cur(atori) Lu</supplied><lb break="no" n="7"/>nensium et Volater<supplied reason="lost"><expan><abbr>ranor</abbr><ex>um</ex></expan></supplied> <lb n="8"/><expan><abbr>praet</abbr><ex>ori</ex></expan> kandidato le<supplied reason="lost">cto <expan><abbr>int</abbr><ex>er</ex></expan></supplied> <lb n="9"/>tribunicios <expan><abbr>IIIIvir</abbr><ex>o</ex></expan> v<supplied reason="lost">iarum</supplied> <lb n="10"/>curandarum <expan><abbr>pont</abbr><ex>ifici</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="11"/>ordo popul<supplied reason="lost"><expan><abbr>usq</abbr><ex>ue</ex></expan></supplied> <lb n="12"/>Nolanus
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1976, 0143.</bibl><bibl>AE 1937, 0054.</bibl><bibl>AE 1933, 0155.</bibl><bibl>AE 1979, 0183.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Colonia Claudia Augusta? Agrippinensium, bei &amp;ndash; Eschweiler (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001344</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001344</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>73</height><width>45</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.4-4.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108751">Colonia Claudia Augusta? Agrippinensium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0225" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 225 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1980"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2924193">Eschweiler</placeName><placeName type="findspot">Neu-Lohn/Fronhoven, {Fronhoven}, Matronenheiligtum</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001344_1" sex="W"><persName><name type="nomen">Caesonia*</name><name type="cognomen">Iar[-]stu[---]</name></persName></person><person xml:id="HD001344_2" sex="W"><persName><name type="nomen">Caesonia*</name><name type="cognomen">[---]ia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-01-27" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019853" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/07056b10-436f-47fc-8e5d-da5762d4fd0d/file/id/779925/file_version/name/small"/><graphic xml:id="F019852" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/21c17b9e-2bc3-41b1-adff-8f13dcbc2b8b/file/id/779924/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Alaferhuiabu<supplied reason="lost">s</supplied> <lb n="2"/>C<expan><ex>a</ex><abbr>esoniae</abbr></expan> Iar<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><lb break="no" n="3"/>stu<supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> et <gap reason="lost" extent="unknown" unit="character"/></supplied>ia <expan><abbr>l</abbr><ex>ibentes</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0677.</bibl><bibl>C.B. Rüger, in: EpStud 13 (Köln 1983) 128-129, Nr. 14; Abb. 14. - AE 1984.</bibl><bibl>F. Biller, Kultische Zentren und Matronenverehrung in der südlichen Germania inferior (Rahden 2010) 256, Nr. IV.2.5.3.m.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

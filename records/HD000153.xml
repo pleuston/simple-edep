@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma? &amp;ndash; Roma? (Roma?)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000153</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000153</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mentana, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>63</height><width>21</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma?</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma?</placeName></origPlace><origDate><origDate notBefore-custom="0014" notAfter-custom="0068" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">14 AD - 68 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma?</placeName><placeName type="findspot"/><placeName type="region">Lazio?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000153_1" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Claudius*</name><name type="cognomen">Onesimus</name></persName></person><person xml:id="HD000153_2" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Claudius*</name><name type="cognomen">Onesimus</name></persName></person><person xml:id="HD000153_3" sex="W"><persName><name type="nomen">Claudia*</name><name type="cognomen">Palmyris</name></persName></person><person xml:id="HD000153_4" sex="W"><persName><name type="nomen">Iulia</name><name type="cognomen">Felicula</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-05" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F023532" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5166f188-cf0c-4430-8b88-8d4d5d3acfa1/file/id/784192/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ti</abbr><ex>berio</ex></expan> Cladio <note>sic</note> <lb n="2"/>Onesimo os<lb break="no" n="3"/>tiario Imper<lb break="no" n="4"/>atoris Caes<lb break="no" n="5"/>aris <expan><abbr>l</abbr><ex>iberto</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> C <lb n="6"/><expan><abbr>Ti</abbr><ex>berius</ex></expan> Cladius <note>sic</note> <lb n="7"/>Onesimus <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="8"/>Cladia <note>sic</note> Palm<lb break="no" n="9"/>yris <expan><abbr>f</abbr><ex>ilia</ex></expan> et <lb n="10"/>Iulia Felicu<lb break="no" n="11"/>la contube<lb break="no" n="12"/>rnali suo <lb n="13"/>bene merenti <lb n="14"/>fecerunt
+            </ab></div>
+            <div type="commentary">
+                <p>Vermutlich stadtrömische Inschrift.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0064.</bibl><bibl>R. Palmieri, in: G. Barbieri (Hrsg.), Il lapidario Zeri di Mentana (Roma 1982) 119-121, Nr. 55; tav. 50. - AE 1983.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

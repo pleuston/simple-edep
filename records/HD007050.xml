@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Byllis &amp;ndash; Hekal (Macedonia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007050</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007050</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hekal</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>90</height><width>(40)</width><depth>35</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Macedonia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481777">Byllis</placeName></origPlace><origDate><origDate when-custom="0137" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">137 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/783754">Albania</placeName><placeName type="modern">Hekal</placeName><placeName type="findspot">Forum</placeName><placeName type="region">Qarku i Fierit</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007050_1" sex="M"><persName><name type="praenomen">L.+</name><name type="nomen">Aelius+</name><name type="cognomen">Caesar</name></persName></person><person xml:id="HD007050_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1427"><name type="cognomen">Traianus+ Hadrianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-01-20" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F024783" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/83386bff-c940-43bd-9d2c-8d76a608ff2e/file/id/785450/file_version/name/small"/><graphic xml:id="F002467" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ee4ebc0b-a619-4397-b257-01c6a2c3eceb/file/id/763540/file_version/name/small"/><graphic xml:id="F024633" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e243a8d4-650f-4ed4-a8eb-f1890ad1728f/file/id/785299/file_version/name/small"/><graphic xml:id="F024782" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ea886d85-8337-4526-856e-b4119e8e816d/file/id/785449/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>L</abbr><ex>ucio</ex></expan> Aeli</supplied>o Ca<supplied reason="lost">e</supplied><lb break="no" n="2"/><supplied reason="lost">sari <expan><abbr>Imp</abbr><ex>eratoris</ex></expan></supplied> Tr<supplied reason="lost">aiani</supplied> <lb n="3"/><supplied reason="lost">Hadrian</supplied>i <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="4"/><supplied reason="lost">divi Trai</supplied>ani Par<lb break="no" n="5"/><supplied reason="lost">thici <expan><abbr>n</abbr><ex>epoti</ex></expan> di</supplied>vi Nervae <lb n="6"/><supplied reason="lost"><expan><abbr>pron</abbr><ex>epoti</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan></supplied> <expan><abbr>pot</abbr><ex>estate</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> II <lb n="7"/><supplied reason="lost"><expan><abbr>pub</abbr><ex>lice</ex></expan></supplied> ex <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Fragment wohl vom Mittelteil einer Statuenbasis.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2011, 1167.</bibl><bibl>AE 1985, 0773.</bibl><bibl>P.R. Franke, Albanien im Altertum (Mainz 1983) 26; Abb. 55. – AE 1985.</bibl><bibl>H. Freis, ZPE 61, 1985, 226-228, Nr. 2; Taf. 9b. – AE 1985.</bibl><bibl>N. Ceka, Iliria 17, 2, 1987, 102, Nr. 57; Fig. 35.</bibl><bibl>S. Anamali - H. Ceka - É. Deniaux, Corpus des inscriptions latines d’Albanie (Rome 2009) 147-148, Nr. 189; Foto. - AE 2011.</bibl><bibl>U. Ehmig - R. Haensch, Tyche 26, 2011, 77-80; Taf. 8, 1. - AE 2011.</bibl><bibl>U. Ehmig - R. Haensch, Die lateinischen Inschriften aus Albanien (LIA) (Bonn 2012) 484-486, Nr. 199; Fotos. - AE 2011.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

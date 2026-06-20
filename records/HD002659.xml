@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Regio Tratturo (Samnium (Regio IV))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002659</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002659</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>(48)</height><width>(52)</width><depth>40</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Samnium (Regio IV)</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="-0070" notAfter-custom="-0031" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 BC - 31 BC</origDate></origDate></origin>
+                        <provenance type="found" when="1964"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Regio Tratturo</placeName><placeName type="findspot">Casino Santoro</placeName><placeName type="region">L'Aquila</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002659_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Agrius?</name><name type="cognomen">Cicero+?</name></persName></person><person xml:id="HD002659_2" sex="M"><persName><name type="cognomen">Eros</name></persName></person><person xml:id="HD002659_3" sex="M"><persName><name type="cognomen">Apamus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2006-07-26" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uinto</ex></expan> <expan><abbr>Agrio</abbr><ex cert="low"/></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>Cice<supplied reason="lost" cert="low">ro</supplied> <lb n="3"/>Eros Apami <supplied reason="lost"><expan><abbr>ser</abbr><ex>vus</ex></expan>? <gap reason="lost" extent="unknown" unit="character"/></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 1 Ende: Reste eines Rundbuchstabens vorhanden: eher O als C. Cognomen: z.B. Cice[ro], Cice[ronianus].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0306.</bibl><bibl>F. van Wonterghem, Superaequum, Corfinium, Sulmo, Forma Italiae, Regio IV 1 (Firenze 1984) 193, Nr. 84; fig. 244. - AE 1984.</bibl><bibl>M. Buonocore, SupplIt 3 (Roma 1987) 167-168, Nr. 33; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Carnuntum &amp;ndash; Bad Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001202</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001202</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Deutsch-Altenburg, Arch. Mus. Carnuntinum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(103)</height><width>(73)</width><depth>(35)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate when-custom="0297" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">297 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1982"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="findspot">{Pfaffenberg, Tempelbezirk}</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001202_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q43107"><name type="cognomen">Diocletianus+</name></persName></person><person xml:id="HD001202_2" sex="M"><persName><name type="cognomen">Maximianus+</name></persName></person><person xml:id="HD001202_3" sex="M"><persName><name type="cognomen">Constantius</name></persName></person><person xml:id="HD001202_4" sex="M"><persName><name type="cognomen">Maximianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-08-25" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <expan><abbr>K</abbr><ex>arnuntino</ex></expan> <lb n="2"/><supplied reason="lost">p</supplied>ro salute <expan><abbr>d<am>d</am></abbr><ex>ominorum</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostrorum</ex></expan> <lb n="3"/><supplied reason="lost">Di</supplied>ocle<supplied reason="lost">tiani et</supplied> <lb n="4"/>M<supplied reason="lost">aximiani <expan><abbr>Aug</abbr><ex>ustorum</ex></expan></supplied> et <lb n="5"/>C<supplied reason="lost">onstanti et Max</supplied>i<lb break="no" n="6"/>m<supplied reason="lost">iani</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Dederunt <supplied reason="lost"><expan><abbr>d</abbr><ex>edicaverunt</ex></expan></supplied> III <supplied reason="lost">Idus</supplied> <lb n="2"/>I<supplied reason="lost">u</supplied>nias d<supplied reason="lost"><expan><abbr>d</abbr><ex>ominis</ex></expan> <expan><abbr>nn</abbr><ex>ostris</ex></expan></supplied> <lb n="3"/><supplied reason="lost">Ma</supplied>ximi<lb break="no" n="4"/><supplied reason="lost">ano Au</supplied><expan><abbr>g</abbr><ex>usto</ex></expan> V e<supplied reason="lost">t Maxi</supplied><lb break="no" n="5"/><supplied reason="lost">mi</supplied>ano n<supplied reason="lost"><expan><abbr>ob</abbr><ex>ilissimo</ex></expan></supplied> <lb n="6"/><expan><abbr><supplied reason="lost">Ca</supplied>es</abbr><ex>are</ex></expan> II c<supplied reason="lost"><expan><abbr>o</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>13 z.T. aneinanderpassende Fragmente. Z. 1: nach Vorschlag von Scherrer möglicherweise auch K(asio) aufzulösen. Der zweite Teil der Inschrift befindet sich auf der rechten Nebenseite. Piso 2003: Neue Lesung durch zwei neu gefundene Fragmente. Die Maßangabe bezieht sich auf das erhaltene Monument als Ganzes. (B): Z. 3: [Di]ocle[tiani et Maximiani ---] / [------; kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0783. (B)</bibl><bibl>D. Knibbe, MittGesCarnuntum 3, 1982, 12-15, Nr. 4; Abb. 4 (Zeichnung). (B) - AE 1982.</bibl><bibl>AE 1992, 1398. (B)</bibl><bibl>P. Scherrer, in: H. Vetters - M. Kandler (Hrsg.), Akten des 14. Internationalen Limeskongresses, Carnuntum 1986 (Wien 1990) 625-638. (B) - AE 1992.</bibl><bibl>E. Weber - R. Selinger, RŒ 19/20, 1991/92, 192, Nr. 133. (B) - AE 1992.</bibl><bibl>I. Piso, Das Heiligtum des Jupiter Optimus Maximus auf dem Pfaffenberg/Carnuntum 1. Die Inschriften (Wien 2003) 42-43, Nr. 38; Foto u. Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

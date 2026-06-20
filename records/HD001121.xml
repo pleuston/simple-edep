@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001121</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001121</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Milano, Cast. Sforzesco; Firenze, Mus. Naz. Bargello</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/118">diptych</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/120">Elfenbein</material><dimensions unit="cm"><height>34</height><width>12</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="0541" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">541 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001121_1" sex="M"><persName><name type="nomen">Anicius*</name><name type="cognomen">Faustus* Albinus* Basilius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-11" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Anic</abbr><ex>ius</ex></expan> <expan><abbr>Faust</abbr><ex>us</ex></expan> <expan><abbr>Albin</abbr><ex>us</ex></expan> Basilius <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> et <expan><abbr>inl</abbr><ex>ustris</ex></expan> ex <expan><abbr>com</abbr><ex>ite</ex></expan> <expan><abbr>dom</abbr><ex>esticorum</ex></expan> <expan><abbr>pat</abbr><ex>ricius</ex></expan> <expan><abbr>cons</abbr><ex>ul</ex></expan> <expan><abbr>ord</abbr><ex>inarius</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> bono rei public<expan><ex>a</ex><abbr>e</abbr></expan> et iterum
+            </ab></div></div>
+            <div type="commentary">
+                <p>Die beiden Paneele des Diptychons befinden sich heute getrennt voneinander in Florenz (Mus. Naz. del Bargello: erster Teil der Inschrift, Maße wie angegeben) und Mailand (Castello Sforzesco: zweiter und dritter Teil der Inschrift, Maße 19,9 cm x 12,4 cm). Datierung Volbach: 480 n. Chr. aus stilistischen Gründen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0058.</bibl><bibl>A. Cameron - D. Schauer, JRS 72, 1982, 126-137; pl. 4 u. 5. - AE 1982.</bibl><bibl>W.F. Volbach, Elfenbeinarbeiten der Spätantike und des frühen Mittel- (Mainz 1976) 31, Nr. 5; Taf. 3,5. - AE 1982.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

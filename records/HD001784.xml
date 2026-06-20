@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Forum Popili &amp;ndash; Carinola, bei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001784</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001784</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>59</height><width>81</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/442586">Forum Popili</placeName></origPlace><origDate><origDate notBefore-custom="0069" notAfter-custom="0079" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">69 AD - 79 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1915"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Carinola, bei</placeName><placeName type="findspot">Civitarotta, proprietà Sciandone Nicola</placeName><placeName type="region">Caserta</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001784_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Messius</name><name type="cognomen">Scaeva*</name></persName></person><person xml:id="HD001784_2" sex="M"><persName><name type="cognomen">Scaeva</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2006-07-26" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Messio <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>n</abbr><ex>epoti</ex></expan> <expan><abbr>Scaev</abbr><ex>ae</ex></expan> <lb n="2"/><expan><abbr>IIvir</abbr><ex>o</ex></expan> <expan><abbr>tert</abbr><ex>ium</ex></expan> <lb n="3"/>cui lege Flavia datum est <lb n="4"/>primus sententiam sui ordinis <lb n="5"/>interrogaretur cuique <lb n="6"/>post mortem publice funus <lb n="7"/>locusque sepulturae decretus <lb n="8"/>est Scaeva <expan><abbr>f</abbr><ex>ilius</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 1: Johannowsky: Q.l.; Z. 8: AE erwägt f(ilius) oder f(ecit). Lex Flavia ist nach Johannowsky noch unbekanntes Gesetz, das Machtbefugnisse der munizipalen Beamten regelt. Pagano interpretiert lex Flavia als Gesetz, das die colonia Forum Popilii organisiert oder reorganisiert. Sie gesteht denen besonderes Privileg zu, die mehrmals Duumvirat bekleideten. Y: Lex Flavia wahrscheinlich von Vespasian erlassen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0188.</bibl><bibl>W. Johannowsky, RAAN 50, 1975, 32-33. (B) - AE.</bibl><bibl>M. Pagano, RAAN 56, 1981, 113-115. - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

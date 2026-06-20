@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Pollentia &amp;ndash; Pollenzo (Liguria (Regio IX))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001963</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001963</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Torino, Sopr. Arch. Piemonte</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(72)</height><width>55</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Liguria (Regio IX)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/383745">Pollentia</placeName></origPlace><origDate><origDate notBefore-custom="0175" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">175 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Pollenzo</placeName><placeName type="findspot"/><placeName type="region">Piemonte</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001963_1" sex="W"><persName><name type="nomen">[---]na?</name><name type="cognomen">[---]na?</name></persName></person><person xml:id="HD001963_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Restitutus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-11-17" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F014609" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3fdafbc2-5fde-4bc5-a54b-aab7d4b1d7bb/file/id/774143/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>nae <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> Re</supplied>stituti <lb n="3"/><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex></expan></supplied><expan><abbr>s</abbr><ex>ulis</ex></expan> <expan><abbr>desig</abbr><ex>nati</ex></expan> <lb n="4"/>sacerdoti <lb n="5"/>divae Plotinae <lb n="6"/>Pollentiae <lb n="7"/>divae Faustinae <lb n="8"/>Taurinis <lb n="9"/>divae Faustinae maioris <lb n="10"/>Concordiae <lb n="11"/><expan><abbr>coll</abbr><ex>egium</ex></expan> <expan><abbr>dendr</abbr><ex>ophorum</ex></expan> <expan><abbr>Poll</abbr><ex>entinorum</ex></expan> <lb n="12"/>ob insignia eius <lb n="13"/>merita <lb n="14"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Die Tafel bildete vermutlich die Verkleidung eines Statuenpostaments. Durch Neulesung der Inschrift Erweiterung der Zahl der uns bekannten Angehörigen der senatorischen Oberschicht Norditaliens. (B): CIL, ILS, InscrIt: noch ohne Berücksichtigung von Kopien des 17. und 18. Jahrhunderts und daher weniger vollständig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0376.</bibl><bibl>G. Alföldy, ZPE 47, 1982, 201-205; Taf. 12c. - AE 1982.</bibl><bibl>CIL 05, 07617. (B)</bibl><bibl>ILS 6750. (B)</bibl><bibl>InscrIt 09, 1, 0130; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

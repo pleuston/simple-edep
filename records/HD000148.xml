@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Portus, bei &amp;ndash; Fiumicino (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000148</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000148</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><dimensions unit="cm"><height>51</height><width>209</width><depth>69</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-1.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118912">Portus, bei</placeName></origPlace><origDate><origDate notBefore-custom="0271" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">271 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1979"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Fiumicino</placeName><placeName type="findspot">Isola Sacra, Santuario di S. Ippolito</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000148_1" sex="M"><persName><name type="praenomen">Iulius</name><name type="nomen">Tannonius</name><name type="cognomen">Donatus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-05-21" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F034239" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0f735ec1-6a18-438d-90c6-e83ec93c0562/file/id/795071/file_version/name/small"/><graphic xml:id="F034240" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/14c23f6b-95a1-4c95-9358-7822edbc9fed/file/id/795072/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Iulius Ta<lb break="no" n="2"/>nnonius <lb n="3"/>Donatus <lb n="4"/>in hoc munum<lb break="no" n="5"/>ento loco co<lb break="no" n="6"/>ncesso sibi sar<lb break="no" n="7"/>cophagum pos<lb break="no" n="8"/>uit si quis aute<lb break="no" n="9"/>m in hoc sarco<lb break="no" n="10"/>fago <note>sic</note> aliut <note>sic</note> cor<lb break="no" n="11"/>pus intulerit imfere</ab></div><div n="3" type="textpart"><ab><lb n="1"/>t <note>sic</note> <expan><abbr>a</abbr><ex>erario</ex></expan> <expan><abbr>p</abbr><ex>opuli</ex></expan> <expan><abbr>R</abbr><ex>omani</ex></expan> SS <expan><abbr>L</abbr><ex>quinquaginta milia</ex></expan> <expan><abbr>n</abbr><ex>ummum</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0135.</bibl><bibl>D. Mazzoleni, QuadIstLat 1, 1979, 81-83, Nr. 1; fig. 1. - AE 1983.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

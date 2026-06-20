@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tubusuctu &amp;ndash; El-Kseur (Tiklat) (Mauretania Caesariensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002999</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002999</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Mauretania Caesariensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/305171">Tubusuctu</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern">El-Kseur (Tiklat)</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002999_1" sex="M"><persName><name type="cognomen">Felicianus</name></persName></person><person xml:id="HD002999_2" sex="W"><persName><name type="cognomen">Euphrosyne</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-08-23" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ter senos an<lb break="no" n="2"/>nos natus in flo<lb break="no" n="3"/>re iuventae <lb n="4"/>hunc tumulum <lb n="5"/>raptus Felici<lb break="no" n="6"/>anus habet <lb n="7"/>spes ut magna pa<lb break="no" n="8"/>tris sit maxima <lb n="9"/>causa doloris <lb n="10"/>Euphrosynes ma<lb break="no" n="11"/>tris protegit <lb n="12"/>ossa suae <lb n="13"/>quos pius et con<lb break="no" n="14"/>iux <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> NIIOPCA <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/>OSC<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>VT <gap reason="lost" extent="unknown" unit="character"/> <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/>OSTE<gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Säule. Distichisches Gedicht.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0894.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

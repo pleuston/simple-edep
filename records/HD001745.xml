@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Velitrae, bei &amp;ndash; Velletri, bei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001745</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001745</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/30">Tuff</material><dimensions unit="cm"><height>130</height><width>70</width><depth>60</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423117">Velitrae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1901"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Velletri, bei</placeName><placeName type="findspot">Kreuzung v. Appia antica-Appia nuova bei cast. di S. Gennaro</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001745_1" sex="M"><persName><name type="nomen">Iulius</name><name type="cognomen">Silbanus (= Silvanus)</name></persName></person><person xml:id="HD001745_2" sex="W"><persName><name type="nomen">Aurelia</name><name type="cognomen">Thiofila+ (= Theophila+)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-12-27" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Mem<supplied reason="lost">o</supplied>riae bonae <lb n="2"/>Iulio Silbano <note>sic</note> <lb n="3"/>Aurelia Thiofil<supplied reason="lost">a</supplied> <note>sic</note> <lb n="4"/>coniugi incompa<lb break="no" n="5"/>rabili con <note>sic</note> quo v<expan><ex>i</ex><abbr>x</abbr><ex>it</ex></expan> <expan><abbr>m</abbr><ex>ensem</ex></expan> I <lb n="6"/><expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> f<expan><ex>e</ex><abbr>c</abbr><ex>it</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Der Block ist in 2 Teile zerbrochen. Er gehörte wahrscheinlich zu einem Grabmonument.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0170.</bibl><bibl>H. Solin - R. Volpe, SupplIt 2 (Roma 1983) 65, Nr. 40. - AE.</bibl><bibl>O. Nardini, NSA 1901, 495-496. - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

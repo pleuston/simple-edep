@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sarsina, bei &amp;ndash; Sarsina, bei (Umbria (Regio VI))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002962</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002962</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mus. Naz. Sarsina</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Umbria (Regio VI)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413306">Sarsina, bei</placeName></origPlace><origDate><origDate notBefore-custom="-0070" notAfter-custom="-0031" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 BC - 31 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Sarsina, bei</placeName><placeName type="findspot">Fluß Savio, bei, Mühle</placeName><placeName type="region">Forli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002962_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Horatius+</name><name type="cognomen">Balbus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-04" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Hora<supplied reason="lost" cert="low">tius - f(ilius)</supplied> <lb n="2"/>Balb<supplied reason="lost">us<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3"/>municipibus <supplied reason="lost">su</supplied><lb break="no" n="4"/>eis incoleisque <supplied reason="lost">lo</supplied><lb break="no" n="5"/>ca sepultura<supplied reason="lost">e</supplied> <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> dat <lb n="6"/>extra au<supplied reason="lost">ct</supplied>orateis et <lb n="7"/>quei sibei <supplied reason="lost">la</supplied>queo <expan><abbr>manu</abbr><ex>m</ex></expan> <lb n="8"/>attulissent et quei <lb n="9"/>quaestum spurcum <lb n="10"/>professi essent singuleis <lb n="11"/>in fronte <expan><abbr>p</abbr><ex>edes</ex></expan> X in agrum <expan><abbr>p</abbr><ex>edes</ex></expan> X <lb n="12"/>inter pontem Sapis et titu<lb break="no" n="13"/>lum superiorem qui est in <lb n="14"/>fine fundi Fangoniani <lb n="15"/>in quibus loceis nemo huma<lb break="no" n="16"/>tus erit qui volet sibei <lb n="17"/>vivous monumentum fa<lb break="no" n="18"/>ciet in quibus loceis hu<lb break="no" n="19"/>mati erunt ei d<expan><ex>um</ex><abbr>t</abbr><ex>axat</ex></expan> quei <lb n="20"/>humatus erit postereis<lb break="no" n="21"/>que eius monumentum <lb n="22"/>fieri licebit
+            </ab></div>
+            <div type="commentary">
+                <p>Ursprung des fundus Fangonianus: Susini bringt ihn mit C. Fuficius Fango in Verbindung, einem centurio, der unter Caesar Senator wurde (CIL X 3578 aus Acerrae). Herkunft der Fuficii Fangones: Campania. (A): Tafel. (B): Z. 1: Horat[tius].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0376.</bibl><bibl>G. Susini, StudRomagn 20, 1969, 333-339; fig. 1. (B) - AE.</bibl><bibl>CIL 01 (2. Aufl.) 02, 02123. (A)</bibl><bibl>CIL 11, 06528. (A)</bibl><bibl>ILLRP 0662. (A)</bibl><bibl>ILS 7846.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

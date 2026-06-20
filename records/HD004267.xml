@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Arenacum &amp;ndash; Kleve (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004267</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004267</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kleve, Rindern, S. Willibrord, Kirche, Altar, sekundär verwendet</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(101)</height><width>(82)</width><depth>(70)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/98976">Arenacum</placeName></origPlace><origDate><origDate notBefore-custom="0066" notAfter-custom="0068" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">66 AD - 68 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1600"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2846688">Kleve</placeName><placeName type="findspot">Rindern, {S. Willibrord, Kirche}, sekundär verwendet</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004267_1" sex="M"><persName><name type="praenomen">Nero++</name><name type="nomen">Claudius Caesar</name><name type="cognomen">Augustus+* Germanicus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-03-11" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F002709" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/55f01e2b-fd28-4dbd-a303-9b4ce3eb9d77/file/id/763782/file_version/name/small"/><graphic xml:id="F012646" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/37191084-08aa-4632-b4e2-85c9c92bd6b7/file/id/772171/file_version/name/small"/><graphic xml:id="F020520" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/54cc5bf9-a420-4ad9-ac7b-3ced5ddbf04e/file/id/780593/file_version/name/small"/><graphic xml:id="F020521" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/96a53524-e200-40df-b404-671f6f676faf/file/id/780594/file_version/name/small"/><graphic xml:id="F020522" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d087e7b6-6843-4e41-a0ae-8d6e5b880aa3/file/id/780595/file_version/name/small"/><graphic xml:id="F020523" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/433a2afd-1452-4b06-a6ed-bb3a9325f1be/file/id/780596/file_version/name/small"/><graphic xml:id="F034603" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b7118cb3-ddbf-40a8-a3c4-17ac935147a7/file/id/795440/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Marti Camulo <lb n="2"/>sacrum pro <lb n="3"/>salute <del rend="erasure">Neronis</del> <lb n="4"/>Claudi Caesaris <lb n="5"/><expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>usti</ex></expan> Germanici <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <lb n="6"/>cives Remi qui <lb n="7"/><supplied reason="lost">t</supplied>emplum constitu<lb break="no" n="8"/>erunt </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>o</abbr><ex>b</ex></expan> <expan><abbr>c</abbr><ex>ives</ex></expan> <expan><abbr>s</abbr><ex>ervatos</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Ursprünglicher Verwendungszweck wohl als Statuenbasis. Z. 3: Tiberii neuzeitlich eingemeißelt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0656.</bibl><bibl>M. Le Glay, BSAF 1977, 103-105, Nr. 2. - AE 1980.</bibl><bibl>CIL 13, 08701; Zeichnung.</bibl><bibl>ILS 0235.</bibl><bibl>H.U. Instinsky, JRGZMainz 6, 1959, 140-141; Taf. 59. - AE 1980.</bibl><bibl>CF-GeI-34 [hdl.handle.net/11471/504.50.34] (08.02.2019).</bibl><bibl>A. Kakoschke, Ortsfremde in den römischen Provinzen Germania inferior und Germania superior (Möhnesee 2002), Nr. 1.23.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

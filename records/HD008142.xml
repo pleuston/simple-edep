@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Alexandria &amp;ndash; Alexandria (Aegyptus)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008142</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008142</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>25</height><width>27</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Aegyptus</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/876562">Alexandria</placeName></origPlace><origDate><origDate when-custom="0065" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">65 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1982"><placeName type="country" ref="https://www.geonames.org/357994">Egypt</placeName><placeName type="modern">Alexandria</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008142_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Servilius</name><name type="cognomen">Rufus*</name></persName></person><person xml:id="HD008142_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Rogatus</name></persName></person><person xml:id="HD008142_3" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Caecilius*</name><name type="cognomen">Martialis</name></persName></person><person xml:id="HD008142_4" sex="M"><persName><name type="nomen">Antius</name><name type="cognomen">Vibianus</name></persName></person><person xml:id="HD008142_5" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Maesius*</name><name type="cognomen">Demetrius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-01-09" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Servili&amp;lt;u=X&amp;gt;s <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Pa<expan><ex>la</ex><abbr>t</abbr><ex>ina</ex></expan> <lb n="3"/><expan><abbr>Ruf</abbr><ex>us</ex></expan> Lepci <expan><abbr>Mag</abbr><ex>na</ex></expan> <lb n="4"/>vixit annis <lb n="5"/>XXVIII militavit <lb n="6"/>annis IV <lb n="7"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Rogatus <lb n="8"/><expan><abbr>h</abbr><ex>eres</ex></expan> eius </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Q</abbr><ex>uintus</ex></expan> C<expan><ex>a</ex><abbr>ec</abbr><ex>i</ex><abbr>lius</abbr></expan> Martialis m<lb break="no" n="2"/>iles <expan><abbr>leg</abbr><ex>ionis</ex></expan> III Cy&amp;lt;i&amp;gt;<expan><abbr>r</abbr><ex>enaicae</ex></expan> |(centuriae) Anti <lb n="3"/>Vibiani <expan><abbr>vix</abbr><ex>it</ex></expan> an<expan><ex>n</ex><abbr>is</abbr></expan> XXXV <lb n="4"/><expan><abbr>mil</abbr><ex>itavit</ex></expan> an<expan><ex>n</ex><abbr>is</abbr></expan> XIII <expan><abbr>cura</abbr><ex>m</ex></expan> <lb n="5"/>egit <expan><abbr>G</abbr><ex>aius</ex></expan> M<expan><ex>a</ex><abbr>esius</abbr></expan> Deme<lb break="no" n="6"/>trius <expan><abbr>leg</abbr><ex>ionis</ex></expan> eiusdem |(centuriae) <lb n="7"/>eiusdem <expan><ex>h</ex><abbr>eres</abbr></expan> eius <lb n="8"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Beidseitig beschrieben; die spätere Inschrift (AE 1986, 0701) befindet sich auf der Rückseite der Tafel. Buchstabenhöhe bezieht sich auf Inschrift a (AE 1986, 0700); Inschrift b: 2,2 cm. Vorgezeichnete Hilfslinien bei beiden Inschriften.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0700.</bibl><bibl>AE 1986, 0701.</bibl><bibl>AE 1987, 0973.</bibl><bibl>D. Abdo-Daoud - G. Wagner, ZPE 61, 1985, 209-212, Nr. 1 u. 2; Taf. 8a u. 8b. - AE 1986, 0700; AE 1986, 0701.</bibl><bibl>G. Paci, AFLM 18, 1986, 203-215; tav. 1, 1 u. 1, 2. - AE 1987.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

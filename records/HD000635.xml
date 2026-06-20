@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Divodurum, bei &amp;ndash; Metz, bei (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000635</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000635</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Metz, Mus. Nat. Hist. Art</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(62)</height><width>(135)</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Belgica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108927">Divodurum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern">Metz, bei</placeName><placeName type="findspot">Sur le glacis de la lunette d'Arçon, sekundär verwendet</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000635_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Carathounus+</name></persName></person><person xml:id="HD000635_2" sex="M"><persName><name type="praenomen">Sex.</name><name type="nomen">Massius</name><name type="cognomen">Gen[---]</name></persName></person><person xml:id="HD000635_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]lianus</name></persName></person><person xml:id="HD000635_4" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Celsius</name><name type="cognomen">Mattosus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-07-15" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F024113" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e9a201e4-88d2-43c8-b152-a10e0892dcef/file/id/784778/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">In h</supplied>onorem domu<supplied reason="lost">s Augustae</supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Carat</supplied>hounus <expan><abbr>Sex</abbr><ex>tus</ex></expan> Massius Gen<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>lianus <expan><abbr>C</abbr><ex>aius</ex></expan> Celsius Mattos<supplied reason="lost">us<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="4"/><supplied reason="lost">IIIIIIviri Au</supplied>gustales aquam ab origin<supplied reason="lost">e usque Divodurum</supplied> <lb n="5"/><supplied reason="lost">perduxeru</supplied>nt et nymphaeum cum su<supplied reason="lost">is omnibus ornamentis</supplied> <lb n="6"/><supplied reason="lost">et</supplied> por<supplied reason="lost">ticu suo impendio dedicaverunt</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 4-6: Abweichungen in Lesung und Ergänzung. G. Alföldy: Z. 3: Statt Mattos[us] möglicherweise auch Matto S[---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0705.</bibl><bibl>Y. Burnand, in: Mélanges de littérature et d'épigraphie latines, d'histoire ancienne et d'archéologie. Hommage à la mémoire de Pierre Wuilleumier (Paris 1980) 52-53. - AE 1983.</bibl><bibl>Y. Burnand, in: Y. Burnand, Études d'architecture gallo-romaine (Nancy 1983) 17-20. (B) - AE 1983.</bibl><bibl>F. Möller, WDZ 2, 1883, 286-287. (B)</bibl><bibl>CIL 13, 04325. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

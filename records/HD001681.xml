@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Matrica &amp;ndash; Százhalombatta (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001681</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001681</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Százhalombatta, Matrica Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(95)</height><width>75</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197372">Matrica</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044821">Százhalombatta</placeName><placeName type="findspot">{Lager}, bei, südliches Gräberfeld, bei</placeName><placeName type="region">Pest megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001681_1" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]ina*</name></persName></person><person xml:id="HD001681_2" sex="M"><persName><name type="nomen">Claudius*</name><name type="cognomen">Valerius</name></persName></person><person xml:id="HD001681_3" sex="M"><persName><name type="nomen">Claudius*</name><name type="cognomen">Valerinus</name></persName></person><person xml:id="HD001681_4" sex="W"><persName><name type="nomen">Claudia*</name><name type="cognomen">Valerina*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-12-12" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/><lb break="no" n="1"/>in<expan><ex>a</ex><abbr>e</abbr></expan> vix<supplied reason="lost">it</supplied> <lb n="2"/><expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXIII <lb n="3"/>coniugi mere<lb break="no" n="4"/>ntissim<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>Cl</abbr><ex>audius</ex></expan> Valeri<lb break="no" n="5"/>us <expan><abbr>mil</abbr><ex>es</ex></expan> l<supplied reason="lost"><expan><abbr>eg</abbr><ex>ionis</ex></expan> I</supplied> <expan><abbr>It</abbr><ex>alicae</ex></expan> et <expan><abbr>Cl</abbr><ex>audio</ex></expan> <lb n="6"/>Valerino filio <lb n="7"/>et <expan><abbr>Cl</abbr><ex>audiae</ex></expan> Valerin<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="8"/>fili<expan><ex>a</ex><abbr>e</abbr></expan> vivis </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>o</abbr><ex>pto</ex></expan> <expan><abbr>t</abbr><ex>ibi</ex></expan> <expan><abbr>t</abbr><ex>erram</ex></expan> <expan><abbr>l</abbr><ex>evem</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Z.5: Vorschlag Topál: mil(es) [leg(ionis) II] It(alicae), [coh(ortis)]I T(hracum). (B): Topál, Z.6: V f[i]lio; Z.5 et fehlt (in Umzeichnung vorhanden); Topál, AE: Z.8: vivi s(ibi); RIU: Z. 1: vixit, Z. 5: l(egionis) [II]. Die Schlußformel befindet sich in einem Kreis. Textwiedergabe nach RIU und Géza Alföldy (für Z. 1 und Z. 5).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0814. (B)</bibl><bibl>J. Topál, The Southern Cemetry of Matrica (Százhalombatta - Dunafüred) (Budapest 1981) 99, Nr. 3; fig. 4 (Zeichnung). (B) - AE 1982.</bibl><bibl>RIU 1438; Abb. 1438 (Foto u. Zeichnung). (B)</bibl><bibl>G. Alföldy, SpNov 16, 2000, 63-64. - AE 2001.</bibl><bibl>AE 2001, 1685g.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

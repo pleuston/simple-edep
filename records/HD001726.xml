@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Betifulum &amp;ndash; Scanno (Samnium (Regio IV))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001726</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001726</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kirche S. Giovanni Battista</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Samnium (Regio IV)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/438694">Betifulum</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Scanno</placeName><placeName type="findspot">Kirche S. Giovanni Battista</placeName><placeName type="region">L'Aquila</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001726_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Caidius</name><name type="cognomen">Praesens</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-06-13" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Caidio <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/><surplus>S</surplus><expan><abbr>Ser</abbr><ex>gia</ex></expan> Praesenti <lb n="3"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XXXIIX <lb n="4"/>decurio <lb n="5"/>primus a <lb n="6"/>Betifulo
+            </ab></div>
+            <div type="commentary">
+                <p>Wiederverwendung des Steins. Verschiedene Fundorte überliefert. Zu einem weiteren Caidius, einem möglichen Verwandten, vgl. AE 1982, 232 = AE 1968, 149. Das 1. S in Z. 2 scheint von einer anderen Hand zu stammen. Vielleicht stammt diese Inschrift wie CIL IX 3104 und 3117 aus Sulmo und wurde als Baumaterial nach Scanno verschleppt. (B): Z. 1: CIL, ILS: Gaidio statt Caidio; Z. 2: CIL: S. Ser(gia) statt {S}Ser(gia).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0233.</bibl><bibl>G. Forni, Epigraphica 41, 1979, 147-151; fig. 2. - AE 1982.</bibl><bibl>CIL 09, 03088. (B)</bibl><bibl>ILS 6531. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

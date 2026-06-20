@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Cosa &amp;ndash; Ansedonia (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005253</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005253</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>(24)</height><width>(42)</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.7-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="#">Cosa</placeName></origPlace><origDate><origDate notBefore-custom="-0002" notAfter-custom="0002" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">2 BC - 2 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Ansedonia</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005253_1"><persName ref="https://www.wikidata.org/wiki/Q313735"><name type="praenomen">L.</name><name type="nomen">Caesar+</name></persName></person><person xml:id="HD005253_2"><persName ref="https://www.wikidata.org/wiki/Q1405"><name type="cognomen">Augustus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2001-03-07" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Caesa<supplied reason="lost">ri Augusti <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <lb n="2"/>Divi <supplied reason="lost">nepoti</supplied> <lb n="3"/>co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>des</abbr><ex>ignato</ex></expan> <supplied reason="lost">auguri principi</supplied> <lb n="4"/><expan><abbr>iu<supplied reason="lost">ventu</supplied>t</abbr><ex>is</ex></expan> patro<supplied reason="lost">no</supplied> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>R</abbr><ex cert="low"/>D</expan><certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>us iter<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Es sind 2 nicht aneinanderpassende Fragmente erhalten. Maße beziehen sich auf Fragment a; Maße Fragment b: (18) x (39) x 26 cm. (B): Saladino, AE 1977: L. Caesa[ri Aug. f.] / Divi [n. auguri] / cos. des. [principi] / iu[vent.] patro[no] / [---]us iter[---]. Dieser Ergänzungsvorschlag hätte aber eine unharmonische Zeilenordination zur Folge. Neuer Vorschlag nach G. Alföldy. Datierung: 2 v. Chr. (Annahme des Beinamens princeps iuventutis; cos. des.; augur.) bis 20.8.2 n. Chr. (Tod d. L. Caesar).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1977, 0249. (B)</bibl><bibl>V. Saladino, Epigraphica 39, 1977, 143-145, Nr. 2; fig. 2 u. 3. (B) - AE 1977.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

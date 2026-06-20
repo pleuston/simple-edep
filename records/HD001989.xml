@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Boundary inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001989</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001989</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Naz. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/85">cippus</objectType><material>Gesteine</material><dimensions unit="cm"><height>275</height><width>95</width><depth>50</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0123" notAfter-custom="0124" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">123 AD - 124 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Portuense, Lungotevere di Pietra Papa</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/96">boundary inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001989_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1427"><name type="cognomen">Traianus Hadrianus</name></persName></person><person xml:id="HD001989_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Messius</name><name type="cognomen">Rusticus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-04" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010725" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0fdf0572-f1d7-453b-a516-5bf0cfcc0228/file/id/770245/file_version/name/small"/><graphic xml:id="F016373" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/57343cfc-e256-482d-af85-a3347430356a/file/id/775954/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ex auctoritate <lb n="2"/><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> Caesaris divi <lb n="3"/>Traiani Parthici <expan><abbr>f</abbr><ex>ilii</ex></expan> <lb n="4"/>divi Nervae nepotis <lb n="5"/>Traiani Hadriani <lb n="6"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pontif</abbr><ex>icis</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <lb n="7"/><expan><abbr>potest</abbr><ex>ate</ex></expan> VIII <expan><abbr>imp</abbr><ex>eratoris</ex></expan> IIII co<expan><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> III <lb n="8"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Messius Rusticus curator <lb n="9"/>alvei et riparum Tiberis et <lb n="10"/><supplied reason="lost">cloacar</supplied>um urbis <expan><abbr>r</abbr><ex>ecto</ex></expan> <expan><abbr>r</abbr><ex>igore</ex></expan> restituit <lb n="11"/><supplied reason="lost">sec</supplied>undum praecedentem <lb n="12"/>terminationem proximi cippi <lb n="13"/><expan><abbr>ped</abbr><ex>es</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Fornari, AE 1917/18: geringfügig abweichende Textwiedergabe; keine Unterscheidung des jeweils eigenen Erhaltungszustandes der beiden (CIL VI 40865. 40866) nahezu identischen Inschrifttexte. Terminalcippus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1917/18, 0108. (B)</bibl><bibl>CIL 06, 40866.</bibl><bibl>F. Fornari, NSA 13, 1961, 318-320. (B) - AE 1917/18.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

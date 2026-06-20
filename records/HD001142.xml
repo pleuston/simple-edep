@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Gabii &amp;ndash; Castiglione (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001142</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001142</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>59</height><width>(51)</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">11-7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/422932">Gabii</placeName></origPlace><origDate><origDate notBefore-custom="0117" notAfter-custom="0138" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">117 AD - 138 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Castiglione</placeName><placeName type="findspot">Tempel der Juno</placeName><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001142_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1427"><name type="cognomen">Traianus+ Hadrianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-05-07" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011582" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1d51a3b3-3b0b-4589-aa27-7af7c0cd624c/file/id/771105/file_version/name/small"/><graphic xml:id="F042512" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7c957885-27dc-4d3d-900c-ec075f33df08/file/id/803620/file_version/name/small"/><graphic xml:id="F011581" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/548e38e9-7259-4743-9c35-6748465cceb1/file/id/771104/file_version/name/small"/><graphic xml:id="F042513" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e5a8859a-5267-4191-9ab6-9cf6d7212d5e/file/id/803621/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Imp<supplied reason="lost">erator Caesar divi Traiani</supplied> <lb n="2"/>Par<supplied reason="lost">thici filius divi Nervae nepos</supplied> <lb n="3"/>Tra<supplied reason="lost">ian</supplied>u<supplied reason="lost">s Hadrianus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> pontifex</supplied> <lb n="4"/><supplied reason="lost">m</supplied>aximus <supplied reason="lost" cert="low">trib(unicia) po(estate) --- co(n)s(ul) III aquae? ductum</supplied> <lb n="5"/><supplied reason="lost">Gab</supplied>inis vetu<supplied reason="lost" cert="low">state conlapsum ad? novam? faciem</supplied> <lb n="6"/><supplied reason="lost">restituit</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost">municipio Gabie</supplied>nsi <lb n="2"/><supplied reason="lost">restituer</supplied>unt
+            </ab></div></div>
+            <div type="commentary">
+                <p>3 aneinanderpassende Fragmente einer beidseitig beschriebenen Tafel. Buchstabenhöhe u. Datierung beziehen sich auf den Text der Vorderseite (a). Text b: Buchstabenhöhe: 15-18 cm; Datierung: spätes 3.-4. Jh. n. Chr. (B): Basas Faure, AE 1982: Z. 1-2: Imp[erator Caesar] / P(ublius) Ae[lius divi Traiani f(ilius)]; Basas Faure: Z. 3: Traianu[s Augustus pont(ifex)]; AE 1982: Z. 3: [T]ra[ianus Augustus pont(ifex)]; Basas Faure: Z. 4:[m]aximus [tr(ibunicia) pot(estate) --- co(n)s(ul) --- p(ater) p(atriae)]; AE 1982: Z. 4: [m]aximus tr(ibunicia) [pot(estate) -- co(n)s(ul) -- p(ater) p(atriae)]; Basas Faure, AE 1982: Z. 5/6: [ru]inis vetu[state prostratum] / [restituit]; Basas Faure: Z. 7/8: [mun(icipio) Gabiens]isi / [deder]unt; AE 1982: Z. 7/8: [----]isi / [----]unt; Horster: abweichende Textwiedergabe. Rekonstruierte Breite: ca. 370 cm. Inschrift b war ursprünglich noch wesentlich höher als a. Die Fragmente gelangten wahrscheinlich im Mittelalter in den Tempelbezirk. Material: lunensischer Marmor.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0142. (B)</bibl><bibl>C. Basas Faure, in: M. Almagro-Gorbea, El santuario de Juno en Gabii (Roma 1982) 226-227, Nr. 16; lám. 31, 10 u. 11; fig. 2a u. b (Zeichnungen). (B) - AE 1982.</bibl><bibl>G. Alföldy, Arctos 32, 1998, 27-44; Abb. 1 u. 3; Abb. 2 u. 4-6 (Zeichnungen).</bibl><bibl>AE 1995, 0258.</bibl><bibl>M. Horster, Bauinschriften römischer Kaiser (Stuttgart 2001) 85. 262-264, Nr. Ia 7, 2. (B)</bibl><bibl>G. Alföldy, Epigraphica 64, 2002, 117-118, Nr. 5.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Novaria &amp;ndash; Novara (Transpadana (Regio XI))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007404</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007404</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>91</height><width>(59)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Transpadana (Regio XI)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/383717">Novaria</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Novara</placeName><placeName type="findspot">S. Pietro al Rosario, Kirche</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007404_1"><persName><name type="praenomen">C.</name><name type="nomen">Ovinius+</name><name type="cognomen">Severianus+</name><name type="supernomen">Victorinus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-07-16" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F025096" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fddb3669-da4a-44ae-8350-7d458d50f4be/file/id/785848/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Ov<supplied reason="lost">inio <gap reason="lost" quantity="1" unit="character"/> <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <lb n="2"/>Seve<supplied reason="lost" cert="low">riano</supplied> <lb n="3"/>Victo<supplied reason="lost" cert="low">rino c(larissimo)? v(iro)</supplied> <lb n="4"/><expan><abbr>iur</abbr><ex>idico</ex></expan> <expan><abbr>reg</abbr><ex>ionis</ex></expan> <supplied reason="lost"><expan><abbr>Tansp</abbr><ex>adanae</ex></expan></supplied> <lb n="5"/>curatori <gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>Marsoru<supplied reason="lost">m Marruviorum</supplied> <lb n="7"/><expan><abbr>it</abbr><ex>em</ex></expan> Corf<supplied reason="lost">iniensium</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/><expan><abbr>pr</abbr><ex>aetori</ex></expan> <expan><abbr>k</abbr><ex>andidato</ex></expan> t<supplied reason="lost"><expan><abbr>rib</abbr><ex>uno</ex></expan> plebis <expan><abbr>k</abbr><ex>andidato</ex></expan> divi</supplied> <lb n="9"/>Ver<supplied reason="lost">i Augusti</supplied> <lb n="10"/><supplied reason="lost"><expan><abbr>q</abbr><ex>uaestori</ex></expan> <expan><abbr>pr</abbr><ex>ovinciae</ex></expan></supplied> Sic<supplied reason="lost">iliae <expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>milit</abbr><ex>um</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied> <lb n="11"/><supplied reason="lost">I Mi</supplied>n<supplied reason="lost">erviae<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="12"/>IIIN<gap reason="lost" extent="unknown" unit="character"/> <lb n="13"/>I P<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE, Mennella: Z. 1 Ovi[nio C(ai)? f(ilio)]; Z. 6/7: Marruviorum] it(em); Z. 7: Corfi[niensium; Z. 8: tr[ib(uno); Z. 10: [q(uaestori) p]r(ovinciae); AE: Z. 13: P[---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0270. (B)</bibl><bibl>G. Mennella, RPAA 57, 1984/85, 111-127; fig. 1-5; fig. 6 (Zeichnung). (B) - AE 1986.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Amiternum, bei &amp;ndash; L'Aquila (Samnium (Regio IV))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002755</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002755</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mus. Naz. Chieti</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>45</height><width>27</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.3-0.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Samnium (Regio IV)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413013">Amiternum, bei</placeName></origPlace><origDate><origDate when-custom="0335" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">335 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1929"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">L'Aquila</placeName><placeName type="findspot">Preturo, Grottoni</placeName><placeName type="region">Abruzzo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002755_1" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Constantius</name></persName></person><person xml:id="HD002755_2" sex="M"><persName><name type="nomen">Rufius</name><name type="cognomen">Albinus</name></persName></person><person xml:id="HD002755_3" sex="M"><persName><name type="nomen">Antistius+</name><name type="cognomen">Lucentius</name></persName></person><person xml:id="HD002755_4" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Sallius</name><name type="cognomen">Sofronius</name></persName></person><person xml:id="HD002755_5" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Sallius</name><name type="cognomen">Sofronius Pompeianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-11-04" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Fl</abbr><ex>avio</ex></expan> Constantino et Rufio Albino co<expan><ex>n</ex><abbr>ss</abbr><ex>ulibus</ex></expan> <lb n="2"/>XV <expan><abbr>Kal</abbr><ex>endas</ex></expan> Ienuarias <note>sic</note> <lb n="3"/>cum universi pagani seu vicani Forulani in <supplied reason="lost">e</supplied><lb break="no" n="4"/>pulo <expan><abbr>Aug</abbr><ex cert="low">usteo</ex></expan> frequentes obvenissent ibi Antis<supplied reason="lost">tius</supplied> <lb n="5"/>Lucentius <expan><abbr>proc</abbr><ex>urator</ex></expan> eorum <expan><abbr>v</abbr><ex>erba</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> quanta sit b<supplied reason="lost" cert="low">enivo</supplied><lb break="no" n="6"/>lentia <expan><abbr>quantus</abbr><ex>que</ex></expan> honor olim proscriptum ge<supplied reason="lost">nus</supplied> <lb n="7"/>Salliorum patronatus patriae <expan><abbr>n</abbr><ex>ostrae</ex></expan> Amiternin<supplied reason="lost"><expan><abbr>or</abbr><ex>um</ex></expan></supplied> <lb n="8"/>semper vos domini convicani omnes meminis<supplied reason="lost">se</supplied> <lb n="9"/>certus sum et quia pro<expan><ex>vo</ex><abbr>cat</abbr></expan> nos dignitas a<expan><ex>t</ex><abbr>que</abbr></expan> a<supplied reason="lost"><expan><abbr>mo</abbr><ex>r</ex></expan></supplied> <lb n="10"/><expan><abbr>C</abbr><ex>ai</ex></expan> Sallii Sofronii <expan><abbr>iun</abbr><ex>ioris</ex></expan> patroni <expan><abbr>ord</abbr><ex>inis</ex></expan> et <expan><abbr>patr</abbr><ex>iae</ex></expan> <expan><abbr>n</abbr><ex>ostrae</ex></expan> Amit<supplied reason="lost"><expan><abbr>er</abbr><ex>ninorum</ex></expan></supplied> <lb n="11"/>filius <note>sic</note> <expan><abbr>C</abbr><ex>ai</ex></expan> Salli Sofroni Pompeiani <expan><abbr>p</abbr><ex>erfectissimi</ex></expan> <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>pat</abbr><ex>roni</ex></expan> ordi<supplied reason="lost">nis</supplied> <lb n="12"/>populi civitatum Amiterninorum Reatinorum <lb n="13"/>Interamnatium Praetuttinorum et Ave<expan><ex>ia</ex><abbr>tium</abbr></expan> <supplied reason="lost"><expan><abbr>V</abbr><ex>estinorum</ex></expan></supplied> <lb n="14"/>cuius refoveamus benignum honorem adque <note>sic</note> r<supplied reason="lost">eno</supplied><lb break="no" n="15"/>vandam dignitatem omnes igitur domini h<supplied reason="lost">unc</supplied> <lb n="16"/>iuvenem Sallium Sofronium patronum nobis et vi<supplied reason="lost">co</supplied> <lb n="17"/>praeficiamus <expan><abbr>cuiusq</abbr><ex>ue</ex></expan> fides et benivola affectio qu<supplied reason="lost">anta</supplied> <lb n="18"/>et qualia erga eius in nobis ante<surplus>h</surplus>a proces<supplied reason="lost">serit</supplied> <lb n="19"/>de cuius pr<expan><ex>a</ex><abbr>estantia</abbr></expan> plur<surplus>i</surplus>a in nos conferr<supplied reason="lost">i spere</supplied><lb break="no" n="20"/>mus <expan><abbr>q</abbr><ex>uid</ex></expan> <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>e</abbr><ex>a</ex></expan> <expan><abbr>r</abbr><ex>e</ex></expan> <expan><abbr>f</abbr><ex>ieri</ex></expan> <expan><abbr>p</abbr><ex>laceret</ex></expan> <expan><abbr>u</abbr><ex>niversi</ex></expan> <expan><abbr>i</abbr><ex>ta</ex></expan> <expan><abbr>c</abbr><ex>ensuerunt</ex></expan> placet et nobis ius<supplied reason="lost">ta</supplied> <lb n="21"/>legatio tua et eius paterna benivola fama nobi<supplied reason="lost">s et</supplied> <lb n="22"/>patriae <expan><abbr>n</abbr><ex>ostrae</ex></expan> olim titulis patronatus pro<expan><ex>s</ex><abbr>cripta</abbr></expan> hab<supplied reason="lost">eri</supplied> <lb n="23"/>et eius Sofroni <expan><abbr>iun</abbr><ex>ioris</ex></expan> affectio sincera<surplus>ra</surplus> et lau<supplied reason="lost">dabi</supplied><lb break="no" n="24"/>lis prudentia quam omnes <expan><abbr>viriq</abbr><ex>ue</ex></expan> scimus erga <lb n="25"/>nos amorem conferre unde spes magna et def<supplied reason="lost">ens</supplied><lb break="no" n="26"/>i<expan><ex>o</ex><abbr>nis</abbr></expan> auxilia beneficiis concurrentibus plur<surplus>i</surplus>a <supplied reason="lost">in nos</supplied> <lb n="27"/>conferri speremus <expan><abbr>petendumq</abbr><ex>ue</ex></expan> sit de eius <supplied reason="lost">digna</supplied><lb break="no" n="28"/>tione ut hanc scripturam nostram aere in<supplied reason="lost">cisam</supplied> <lb n="29"/>tabula hospitali suscipiat et in aedibu<supplied reason="lost">s suis lo</supplied><lb break="no" n="30"/>co sacrari praecipiat feliciter
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1937: kleinere Abweichungen in Lesung und Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1937, 0121. (B)</bibl><bibl>AE 1984, 0280a.</bibl><bibl>AE 1992, 0386.</bibl><bibl>M. Buonocore, in: MGR 9 (Roma 1984) 234-241, Nr. 3, 1; tav. 7 u. 8. - AE 1984.</bibl><bibl>S. Segenni, SupplIt 9 (Roma 1992) 90-92, Nr. 35; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

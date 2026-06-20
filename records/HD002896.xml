@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Beneventum &amp;ndash; Benevento (Apulia et Calabria (Regio II))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002896</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002896</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mus. del Sannio</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>69</height><width>180</width><depth>34</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Apulia et Calabria (Regio II)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/432721">Beneventum</placeName></origPlace><origDate><origDate notBefore-custom="-0030" notAfter-custom="-0001" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC - 1 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Benevento</placeName><placeName type="findspot"/><placeName type="region">Campania</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002896_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Numisius</name><name type="cognomen">Amphio</name></persName></person><person xml:id="HD002896_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Numisius</name></persName></person><person xml:id="HD002896_3" sex="W"><persName><name type="nomen">Numisia</name><name type="cognomen">Secunda</name></persName></person><person xml:id="HD002896_4" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Numisius</name><name type="cognomen">Primus</name></persName></person><person xml:id="HD002896_5" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Numisius</name><name type="cognomen">Auctus</name></persName></person><person xml:id="HD002896_6" sex="W"><persName><name type="nomen">Numisia</name><name type="cognomen">Peregrina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-23" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Numisius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> Amphio <expan><abbr>Aug</abbr><ex>ustalis</ex></expan> <lb n="2"/>sibi <supplied reason="lost">et</supplied> <lb n="3"/><expan><abbr>C</abbr><ex>aio</ex></expan> Numisio <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Ste</abbr><ex>llatina</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> VI patrono <lb n="4"/>Numisiae <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>l</abbr><ex>ibertae</ex></expan> Secundae <expan><abbr>concubin</abbr><ex>ae</ex></expan> <lb n="5"/><expan><abbr>C</abbr><ex>aio</ex></expan> Numisio <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>l</abbr><ex>iberto</ex></expan> Primo <expan><abbr>C</abbr><ex>aio</ex></expan> Numisio <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>l</abbr><ex>iberto</ex></expan> <lb n="6"/>Aucto Numisiae <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>l</abbr><ex>ibertae</ex></expan> Peregrinae
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1968, Z. 3: Stel(latina); Z. 5: Cavuoto: liberto; AE 1968: (liberto). (C): Datierung: 1. Hälfte 1.Jh.n.Chr. C. Numisius kam wahrscheinlich 42 v.Chr. nach Beneventum, als die Triumvirn es zur Deduktion einer Militärkolonie bestimmten. AE 1968 schlägt mit Vorbehalt vor, statt leg. VI cognomen Leoni zu lesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0260.</bibl><bibl>G. Forni, Vichiana 12, 1983, 193-194, Nr. 7. - AE 1984.</bibl><bibl>AE 1968, 0127. (BC)</bibl><bibl>P. Cavuoto, Epigraphica 30, 1968, 140-142, Nr. 10; fig. 9. (BC) - AE 1968.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

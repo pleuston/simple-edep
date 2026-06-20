@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Urbs Salvia &amp;ndash; Urbisaglia (Picenum (Regio V))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004536</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004536</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Picenum (Regio V)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413364">Urbs Salvia</placeName></origPlace><origDate><origDate notBefore-custom="-0030" notAfter-custom="0030" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC - 30 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Urbisaglia</placeName><placeName type="findspot">Fiastrae in domo Bandiniorum</placeName><placeName type="region">Marche</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004536_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Herennius</name><name type="cognomen">0?</name></persName></person><person xml:id="HD004536_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Aufidius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-11-02" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>] <lb n="1"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Herennius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="2"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Aufidius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> III<supplied reason="lost">Iviri</supplied> <lb n="3"/>viam ad campum la<supplied reason="lost">pide</supplied> <expan><abbr>sternend</abbr><ex>am</ex></expan> <expan><abbr>curaver</abbr><ex>unt</ex></expan> <supplied reason="lost">de</supplied> <lb n="4"/><expan><abbr>pob</abbr><ex>lico</ex></expan> <expan><abbr>long</abbr><ex>am</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> DLXX <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Abweichungen in Lesung und Ergänzung. Z. 4/5: weitere Ergänzungsmöglichkeit: viam ad campum la[cum] / sternend(os) curaver(unt).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0225.</bibl><bibl>U. Moscatelli, AFLM 17, 1984, 353-368; tav. 1,1bis; tav. 1,1 (Zeichnung). - AE.</bibl><bibl>CIL 09, 05541. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

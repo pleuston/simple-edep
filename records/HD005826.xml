@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Pejë / Peć (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005826</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005826</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>195</height><width>65</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1978"><placeName type="country" ref="https://www.geonames.org/831053">Kosovo</placeName><placeName type="modern" ref="http://www.geonames.org/787157">Pejë / Peć</placeName><placeName type="findspot">{Batteriefabrik}, bei</placeName><placeName type="region">Pejë / Peć</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005826_1" sex="M"><persName ref="http://romans1by1.com/rpeople/14063"><name type="cognomen">Valens</name></persName></person><person xml:id="HD005826_2" sex="W"><persName ref="http://romans1by1.com/rpeople/14064"><name type="nomen">Daeda*</name><name type="cognomen">Iuncta</name></persName></person><person xml:id="HD005826_3" sex="W"><persName ref="http://romans1by1.com/rpeople/14065"><name type="cognomen">Ania</name></persName></person><person xml:id="HD005826_4" sex="M"><persName><name type="cognomen">Dasius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-08-30" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Valens <lb n="3"/>sitae sibi <lb n="4"/>coni<supplied reason="lost">ugi</supplied> <lb n="5"/>Daed<expan><ex>a</ex><abbr>e</abbr></expan> Iunc<lb break="no" n="6"/>tae <expan><abbr>idemq</abbr><ex>ue</ex></expan> <lb n="7"/>Aniae Dasi <lb n="8"/>vivae vivus <lb n="9"/>posuit
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes drei Büsten, unterhalb des Inschriftfeldes Kantharos mit Weinranken. (B): Mirdita: Z. 6/7: idemq[ue] Aniae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0726.</bibl><bibl>Z. Mirdita, AArchSlov 31, 1980, 187-188, Nr. 3; Taf. 1, 3. (B) - AE 1981.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

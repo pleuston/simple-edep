@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Novae &amp;ndash; Svištov (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002125</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002125</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>(83)</height><width>(139)</width><depth>(47)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216899">Novae</placeName></origPlace><origDate><origDate when-custom="0208" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">208 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1976"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726534">Svištov</placeName><placeName type="findspot">Lager, {Bischofsbasilika}, Fußbodenbelag, sekundär verwendet</placeName><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002125_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="cognomen">Severus</name></persName></person><person xml:id="HD002125_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="cognomen">Antoninus</name></persName></person><person xml:id="HD002125_3" sex="M"><persName ref="https://www.wikidata.org/wiki/Q183089"><name type="praenomen">P.+++</name><name type="nomen">Septimius+++</name><name type="cognomen">Geta+++</name></persName></person><person xml:id="HD002125_4" sex="W"><persName><name type="nomen">Iulia</name></persName></person><person xml:id="HD002125_5" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius</name><name type="cognomen">Paulinus</name></persName></person><person xml:id="HD002125_6" sex="M"><persName><name type="nomen">Iulius*</name><name type="cognomen">Faustinianus+</name></persName></person><person xml:id="HD002125_7" sex="M"><persName><name type="nomen">Valerius*</name><name type="cognomen">Q[---]tianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-01-26" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005222" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f8da53d5-3790-4695-90c5-d454ba3d5eca/file/id/765999/file_version/name/small"/><graphic xml:id="F012979" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cb5957d4-8788-474c-922c-759a4fa89247/file/id/772504/file_version/name/small"/><graphic xml:id="F012980" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a1216bdd-2555-4c66-b5f7-25ea0c361a34/file/id/772505/file_version/name/small"/><graphic xml:id="F028186" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/31409a1d-2e72-49b0-b0fe-2252a9a50624/file/id/788943/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Signum originis <lb n="2"/>pro salute dominorum nn<del rend="erasure">[<expan><abbr>n</abbr><ex>ostrorum</ex></expan></del>] <expan><abbr>Immpp</abbr><ex>eratorum</ex></expan> <lb n="3"/>Severi et Antonini <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <del rend="erasure">[et <expan><abbr>P</abbr><ex>ubli</ex></expan> Septimi</del>] <lb n="4"/><del rend="erasure">[Getae <expan><abbr>nob</abbr><ex>ilissimi</ex></expan> Caesaris</del>] et Iuliae Augustae <lb n="5"/>matris Augusti <del rend="erasure">[et <expan><abbr>Caes</abbr><ex>aris</ex></expan></del>] et kastrorum <lb n="6"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Aurelius <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Aelia <lb n="7"/>Paulinus Ovilavis <expan><abbr>p</abbr><ex>rimus</ex></expan> <expan><abbr>p</abbr><ex>ilus</ex></expan> <lb n="8"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>Ital</abbr><ex>icae</ex></expan> Aquilae <expan><abbr>d</abbr><ex>ono</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Felicissi<supplied reason="lost">mis tem</supplied><lb break="no" n="2"/>poribus dd<supplied reason="lost"><expan><abbr>d</abbr><ex>ominorum</ex></expan> <expan><abbr>nnn</abbr><ex>ostrorum</ex></expan></supplied> <lb n="3"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> Anton<supplied reason="lost">ino <expan><abbr>Aug</abbr><ex>usto</ex></expan></supplied> <lb n="4"/>ter <del rend="erasure">et Geta <expan><abbr>Caes</abbr><ex>are</ex></expan></del> <lb n="5"/>iterum co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> I<supplied reason="lost"><expan><abbr>d</abbr><ex>ibus</ex></expan></supplied> <lb n="6"/>Mais dedi<supplied reason="lost">cante</supplied> <lb n="7"/><expan><abbr>Iul</abbr><ex>io</ex></expan> Faustin<supplied reason="lost">iano</supplied> <lb n="8"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulari</ex></expan> et <expan><abbr>Val</abbr><ex>erio</ex></expan> Q<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="9"/>tiano le<supplied reason="lost"><expan><abbr>g</abbr><ex>ato</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0849.</bibl><bibl>L. Mrozewicz, Archeologia 28, 1977, 117-124; Zeichnung. - AE 1982.</bibl><bibl>L. Mrozewicz, Archeologia 31, 1980, 101-112; fig. 1-5; fig. 6 (Zeichnung). - AE 1982.</bibl><bibl>L. Mrozewicz, in: Novae - Sektor Zachodni 1976 (Poznań 1981) 128-130; ryc. 51-53. - AE 1982.</bibl><bibl>AE 1993, 1362.</bibl><bibl>ILBulg 268ter.</bibl><bibl>ILNovae 028; Abb. 28 a-c; Abb. 28 d-e (Zeichnungen).</bibl><bibl>IGLN 047; pl. 18 (Fotos u. Zeichnungen).</bibl><bibl>J. Kolendo, Archeologia 44, 1993, 126.</bibl><bibl>L. Mrozewicz, ZPE 95, 1995, 221-225. - AE 1993.</bibl><bibl>PIR (2. Aufl.) I 304.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

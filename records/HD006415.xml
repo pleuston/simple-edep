@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Lopodunum (Civitas Ulpia Sueborum Nicrensium) &amp;ndash; Ladenburg (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006415</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006415</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ladenburg, Lobdengau-Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/102">honorific/grave/votive column</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>410</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118813">Lopodunum (Civitas Ulpia Sueborum Nicrensium)</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1973"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2881980">Ladenburg</placeName><placeName type="findspot">{Trajanstraße 19a}</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006415_1" sex="M"><persName><name type="nomen">Novanius</name><name type="cognomen">Augustus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-07" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F002704" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0fe864fc-ab25-49a1-a6b9-32cbb8df082e/file/id/763778/file_version/name/small"/><graphic xml:id="F037789" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bc61cabe-c667-4967-9bd4-dc18b4c0b557/file/id/798657/file_version/name/small"/><graphic xml:id="F037790" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/01008165-2b1e-4929-abb6-5b5224446e03/file/id/798658/file_version/name/small"/><graphic xml:id="F037791" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c7da182f-0a6e-4666-9409-fd9290436b2b/file/id/798659/file_version/name/small"/><graphic xml:id="F037792" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ad0a8eb0-d9a4-43b6-8b18-b1a531436442/file/id/798660/file_version/name/small"/><graphic xml:id="F037793" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a6e8630e-4078-4275-91b1-7528cfcc407b/file/id/798661/file_version/name/small"/><graphic xml:id="F037794" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d1540f54-9fc9-4200-a365-4d85609cb150/file/id/798662/file_version/name/small"/><graphic xml:id="F037795" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/442c31a8-3c17-453e-b5c2-971789f59cc6/file/id/798663/file_version/name/small"/><graphic xml:id="F037796" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/479eaa45-5158-4a5c-8658-a9647d5f8383/file/id/798664/file_version/name/small"/><graphic xml:id="F037797" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/efc4d454-ff5a-4e20-8715-ffc3c25eb61f/file/id/798665/file_version/name/small"/><graphic xml:id="F037798" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/083b3b4b-d5e0-461c-aa86-bb528019bbaf/file/id/798666/file_version/name/small"/><graphic xml:id="F037799" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bc59f0f3-d5ff-47cb-8a0f-77bd237ec6c6/file/id/798667/file_version/name/small"/><graphic xml:id="F037800" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a84df98c-e4c6-42cf-b931-1e2091bc87d1/file/id/798668/file_version/name/small"/><graphic xml:id="F037801" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/36133b0a-2e4e-459d-a1ea-973ce32508d8/file/id/798669/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>et Iunoni <lb n="3"/>Regin<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="4"/>Novanius <lb n="5"/>Augustus <lb n="6"/>in suo &amp;lt;p=R&amp;gt;(osuit) 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Die Inschrift(en) befindet/n sich auf dem Zwischensockel (40 x 76 x 76) der Jupitergigantensäule. Zwei Textversionen erkennbar, deren erste getilgt und überschrieben wurde. Rekonstruktion der Z. 2-7 des getilgten Textes: [I(ovi) O(ptimo) M(aximo)] / [Iunoni?] / [Reginae?] / [------] / [------] / [v(otum)] s(olvit) l(aetus) l(ibens) m(erito).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2000, 1083.</bibl><bibl>R. Wiegels, Lopodunum II. Inschriften und Kulturdenkmäler aus dem römischen Ladenburg am Neckar (Stuttgart 2000) 44-48, Nr. 8a; Abb. 10 n-o. - AE 2000.</bibl><bibl>G. Bauchhenß, in: G. Bauchhenß - P. Noelke, Die Iupitersäulen in den germanischen Provinzen, BJ (Beih.) 41 (Köln - Bonn 1981) 155-156, Nr. 250.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Djebel Mansour (Africa Proconsularis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000409</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000409</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(152)</height><width>55</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Africa Proconsularis</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0193" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">193 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2464461">Tunisia</placeName><placeName type="modern">Djebel Mansour</placeName><placeName type="findspot">Ferme Romans</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000409_1" sex="W"><persName><name type="cognomen">Saturnina</name></persName></person><person xml:id="HD000409_2" sex="M"><persName><name type="cognomen">Mzandulis?</name></persName></person><person xml:id="HD000409_3" sex="M"><persName><name type="cognomen">Rufus</name></persName></person><person xml:id="HD000409_4" sex="M"><persName><name type="cognomen">Sen[---]lisus?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-11" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>s</abbr><ex>acrum</ex></expan> Sat<lb break="no" n="2"/>urnina <abbr>M</abbr><certainty match="preceding-sibling::node()" locus="value"/> Za<lb break="no" n="3"/>ndulis <expan><abbr>fil</abbr><ex>ia</ex></expan> vix<lb break="no" n="4"/>it <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> LXXV <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>ita</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>s</abbr><ex>acrum</ex></expan></supplied> <lb n="2"/>Rufus Sen<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="3"/><expan><abbr>lisi</abbr><ex cert="low"/></expan> <expan><abbr>f</abbr><ex cert="low">ilius</ex></expan> pius vixi<supplied reason="lost">t</supplied> <lb n="4"/><expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> LXXXV <expan><abbr>h</abbr><ex>ic</ex></expan> <supplied reason="lost"><expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan></supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>AE erwägt statt Mzandulis M(arci) Zandulis aufzulösen. (A): Sen[---]LIS II. (B): Höhe inkorrekt. Material: gelblicher Kalkstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0965. (AB)</bibl><bibl>N. Ferchiou, MDAI(R) 88, 1981, 164-165, Nr. 14; pl. 53,1. (B) - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

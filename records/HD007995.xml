@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ulcisia Castra &amp;ndash; Szentendre (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007995</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007995</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Szentendre, Ferenczy Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(98)</height><width>73</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.1-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197564">Ulcisia Castra</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1977"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044681">Szentendre</placeName><placeName type="findspot">{Dunakanyar körút 14}, spätantikes Gräberfeld</placeName><placeName type="region">Pest megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007995_1" sex="W"><persName><name type="cognomen">Solia</name></persName></person><person xml:id="HD007995_2" sex="M"><persName><name type="nomen">Medullio*</name><name type="cognomen">Brutus</name></persName></person><person xml:id="HD007995_3" sex="M"><persName><name type="cognomen">Risimarus</name></persName></person><person xml:id="HD007995_4" sex="M"><persName><name type="cognomen">Scutalo*</name></persName></person><person xml:id="HD007995_5" sex="W"><persName><name type="cognomen">Duca</name></persName></person><person xml:id="HD007995_6" sex="M"><persName><name type="cognomen">Dimiucus</name></persName></person><person xml:id="HD007995_7" sex="M"><persName><name type="cognomen">Ritimaurus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-05" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F002310" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8b65a0da-eed4-42b7-8c96-35ce269fefc4/file/id/763383/file_version/name/small"/><graphic xml:id="F033565" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9e4a2af8-d8e9-45e5-9501-3e3bc971ea3e/file/id/794372/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Solia Medul<expan><ex>l</ex><abbr>ionis</abbr></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> Bruti </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Risimarus <expan><abbr>Scutaloni</abbr><ex>s</ex></expan> <lb n="2"/><expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>t</abbr><ex>itulum</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan> sibi vivo et co<expan><ex>n</ex><abbr>iugi</abbr></expan> <lb n="3"/>Ducae Dimiuci <expan><abbr>f</abbr><ex>iliae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> LX <lb n="4"/>et Ritimauro <expan><abbr>fil</abbr><ex>io</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXX
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): TRHR: Z. 5: Ritimaro; Visiy: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0580.</bibl><bibl>TRHR (Suppl.) 149; Abb. 149 (Foto u. Zeichnung). (B)</bibl><bibl>É. Maróti, Die römischen Steindenkmäler von Szentendre - Ulcisia Castra (Szentendre 2003) 44, Nr. 38; Foto.</bibl><bibl>S. Soproni, StudComitat 17, 1985, 291-294, Nr. 9; 18. kép.; 1. kép. (Zeichnung). - AE 1986.</bibl><bibl>Z. Visy, Die Wagendarstellungen der pannonischen Grabsteine (Pécs 1996) 19, Nr. 18. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

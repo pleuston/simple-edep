@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Savaria, bei &amp;ndash; Torony (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009586</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009586</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Szombathely, Savaria Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(108)</height><width>88</width><depth>23</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197498">Savaria, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1929"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3043760">Torony</placeName><placeName type="findspot">{Ondód}, Brunnen, sekundär verwendet</placeName><placeName type="region">Vas megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009586_1" sex="M"><persName ref="http://romans1by1.com/rpeople/17288"><name type="cognomen">Damanaeus</name></persName></person><person xml:id="HD009586_2" sex="M"><persName><name type="cognomen">Burus</name></persName></person><person xml:id="HD009586_3" sex="W"><persName ref="http://romans1by1.com/rpeople/17289"><name type="cognomen">Sunaminis*</name></persName></person><person xml:id="HD009586_4" sex="M"><persName ref="http://romans1by1.com/rpeople/17290"><name type="cognomen">Disdosi</name></persName></person><person xml:id="HD009586_5" sex="M"><persName ref="http://romans1by1.com/rpeople/17291"><name type="cognomen">Blegissa</name></persName></person><person xml:id="HD009586_6" sex="W"><persName ref="http://romans1by1.com/rpeople/17292"><name type="nomen">Claudia+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD009586_7" sex="W"><persName ref="http://romans1by1.com/rpeople/17293"><name type="nomen">[---]</name><name type="cognomen">[---]cia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-06-01" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Damanaeus <lb n="2"/>Buri <expan><abbr>f</abbr><ex>ilius</ex></expan> <supplied reason="lost"><expan><abbr>v</abbr><ex>ivus</ex></expan></supplied> sibi et <lb n="3"/>S<supplied reason="lost">u</supplied>namini matri <lb n="4"/>et fratribus Dis<lb break="no" n="5"/>dosini <supplied reason="lost">e</supplied>t Blegis<lb break="no" n="6"/>sae et <supplied reason="lost">Cl</supplied>audiae <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>ciae <lb n="8"/><expan><abbr>an</abbr><ex>norum</ex></expan> XXX <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>iti</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Vier aneinanderpassende Fragmente erhalten. Z. 7 (Ende): noch die oberen Enden von vier nicht mehr eindeutig identifizierbarer Buchstaben erhalten. (B): Balla - Buocz - Kádár - Mócsy - Szentléleky; AE 1972; RIU 0141; Tóth: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1972, 0411. (B)</bibl><bibl>RIU 0141; Abb. 141 (Foto u. Zeichnung). (B)</bibl><bibl>L. Balla - T.P. Buocz - Z. Kádár - A. Mócsy - T. Szentléleky, Die römischen Steindenkmäler von Savaria (Amsterdam 1971) 107-108, Nr. 120; Abb. 104. (B) - AE 1972.</bibl><bibl>E. Tóth, Lapidarium Savariense. Savaria római feliratos kőemlékei (Szombathely 2011) 243-244, Nr. 208. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

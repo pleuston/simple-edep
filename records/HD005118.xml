@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Private legal inscription from Roma? &amp;ndash; Roma? (Roma?)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005118</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005118</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>70</height><width>(102)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-1</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma?</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma?</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma?</placeName><placeName type="findspot"/><placeName type="region">Lazio?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>private legal inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005118_1"><persName><name type="praenomen">M.</name><name type="nomen">Ulpius*</name><name type="cognomen">Hermadio</name></persName></person><person xml:id="HD005118_2"><persName><name type="nomen">Claudia*</name><name type="cognomen">Saturnina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2004-07-28" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Ulp</abbr><ex>ius</ex></expan> Hermadio <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>lib</abbr><ex>ertus</ex></expan> voluntate <expan><abbr>Cl</abbr><ex>audiae</ex></expan> <lb n="2"/>Saturninae uxoris suae sanctissumae <note>sic</note> monimentum coepit <lb n="3"/>viba <note>sic</note> ea quod effectum est post obitum eiusdem Saturninae <lb n="4"/>cuius monimenti ius liberi eorundem habebunt liberti <lb n="5"/>quoque libertaeque <expan><abbr>p</abbr><ex>osterique</ex></expan> <expan><abbr>e</abbr><ex>orum</ex></expan> in quo ipsa parum posita e<supplied reason="lost">s</supplied>t eo quod non <lb n="6"/>peracto opere monimenti vita functa sit iusseritque se verbis <lb n="7"/>testamenti in atrio praetorii e<supplied reason="lost">t cum<certainty locus="name" match="preceding-sibling::text()" cert="low"/> viro<certainty locus="name" match="preceding-sibling::text()" cert="low"/> p</supplied>oni ad cuius moniment<lb break="no" n="8"/>i pertinebit tam atrium <expan><abbr>ta</abbr><ex>m</ex></expan> cubiculum qu<supplied reason="lost">od e</supplied>st contra sarcofagum <lb n="9"/>item alit <note>sic</note> cubiculum adplicitum cum cellariolis duobus iuxta <expan><abbr>dimi</abbr><ex>dium</ex></expan> <lb n="10"/>in parte sinistra quae sunt in conpluvio item ad ius monimenti se<supplied reason="lost"><expan><abbr>q</abbr><ex>uentur</ex></expan></supplied> <lb n="11"/>et sarcofagi quod <note>sic</note> et in atrio pe<supplied reason="lost">rt</supplied>enebunt <note>sic</note> membra X et triclinius <note>sic</note> <lb n="12"/>seposito solario quae sunt adsces<expan><ex>s</ex><abbr>u</abbr></expan> <note>sic</note> sinistro a cubiculis <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptis</ex></expan> et <expan><abbr>di</abbr><ex>midia</ex></expan> <lb n="13"/>anascala <note>sic</note> prima item scala breviore superiore adscensu sinistro et mo<lb break="no" n="14"/>nimenti atri etiam super eadem cubicula et atrium sed et porticus quorum <lb n="15"/>omnium menbrorum <note>sic</note> itum ambitum ius habebunt personae <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptae</ex></expan> cuius monumenti et atri ante faciem <lb n="16"/>terrae <expan><abbr>p</abbr><ex>edes</ex></expan> XXX pertinebunt ad personas <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptas</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Inschrift in Lapidario Zeri in Mentana aufbewahrt (in eine Wand eingelassen). (B): Cavuoto, Z. 2: li(bertus); AE 1977: Z. 2: Ulpius; Palmieri: Z. 8: moniment(um); Z. 10: adplicatum; AE 1977: Z. 12/13: keine Angabe des Zeilenfalls; Z 16: monimenti. Testament.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1977, 0031. (B)</bibl><bibl>P. Cavuoto, Vichiana 3, 1974, 239-251; tav. 250. (B) - AE 1977.</bibl><bibl>R. Palmieri, in: G. Barbieri (Hrsg.), Il lapidario Zeri di Mentana (Roma 1982) 263-265, Nr. 182; Taf. 136. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

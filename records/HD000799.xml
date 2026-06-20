@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Sala &amp;ndash; Chellah (Mauretania Tingitana)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000799</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000799</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Forum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material>Marmor, geädert / farbig</material><dimensions unit="cm"><height>144</height><width>56</width><depth>68</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Mauretania Tingitana</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/866051">Sala</placeName></origPlace><origDate><origDate notBefore-custom="0140" notAfter-custom="0149" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">140 AD - 149 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1959"><placeName type="country" ref="https://www.geonames.org/2542007">Morocco</placeName><placeName type="modern" ref="http://www.geonames.org/2545977">Chellah</placeName><placeName type="findspot">Forum</placeName><placeName type="region">Rabat</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000799_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Minicius</name><name type="cognomen">Pulcher</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-27" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F039480" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/da0e4fe7-6dfa-4351-b9f5-1bece82377be/file/id/800359/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Minicio <lb n="2"/><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Gal</abbr><ex>eria</ex></expan> <lb n="3"/>Pulchro <lb n="4"/>domo Tigul<lb break="no" n="5"/>lis exs <note>sic</note> <lb n="6"/>Liguria <lb n="7"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>eq</abbr><ex>uitum</ex></expan> <lb n="8"/>amici <lb n="9"/>Salenses <lb n="10"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Auf der linken Seite des Monuments befindet sich eine Ehreninschrift für Constantinus I. (= AE 1963, 66 = IAM II 304b). Datierung: Boube: Kommando des Geehrten als praef(ectus) eq(uitum) - wahrscheinlich der ala II Syrorum civium Romanorum - ist vielleicht zwischen 144 und 149, sicher aber in die Zeit des Antoninus Pius zu datieren. (A): Falsche Maßangaben. Material: &amp;quot;&amp;quot;marbre de l&amp;apos;oued Akrech&amp;quot;&amp;quot;, grau-blau.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0997.</bibl><bibl>J. Boube, BAM 12, 1979/80, 118-124, Nr. 2; pl. 2 u. 3. - AE 1983.</bibl><bibl>AE 1982, 0992. (A)</bibl><bibl>IAM 2, 304a; Zeichnung.</bibl><bibl>AE 1992, 0629.</bibl><bibl>AE 1992, 1944.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

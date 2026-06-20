@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Brigetio &amp;ndash; Komárom (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005781</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005781</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze, Silber</material><dimensions unit="cm"><height>(8)</height><width>(11)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197180">Brigetio</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044294">Komárom</placeName><placeName type="findspot">{Szőny}</placeName><placeName type="region">Komárom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005781_1" sex="M"><persName ref="http://romans1by1.com/rpeople/17767"><name type="praenomen">T.</name><name type="nomen">Sere(---)</name><name type="cognomen">Diogenes+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-04-15" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan></supplied> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>aximo</ex></expan></supplied> <lb n="2"/>e<supplied reason="lost">xau</supplied>ditor<supplied reason="lost">i</supplied> <lb n="3"/>et F<supplied reason="lost">o</supplied>rtun<supplied reason="lost">ae</supplied> <lb n="4"/>fortissima<supplied reason="lost">e</supplied> <lb n="5"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>adi</abbr><ex>utricis</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> Se<supplied reason="lost"><expan><abbr>v</abbr><ex>erianae</ex></expan></supplied> <lb n="6"/><expan><abbr>T</abbr><ex>itus</ex></expan> <abbr>Sere</abbr> Diogen<supplied reason="lost">es</supplied> <lb n="7"/>|(centurio) <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Bronzeblech. Schreibtechnik: Buchstaben aus Silberblech in entsprechende Vertiefungen eingelegt. (B): AE 1991: Z. 5: leg. I / ad.; CIL 03, 10992; Tóth: Z. 5 (Ende): S[; CIL 03, 10992: Z. 7: cust[os? arm(orum)?]; Tóth: Z. 7: [-] v. s. l. m.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0716.</bibl><bibl>AE 1991, 1306. (B)</bibl><bibl>CIL 03, 10992. (B)</bibl><bibl>E. Tóth, FolA 32, 1981, 162-165. 167, Nr. 56; Abb. 11, 56; Abb. 12, 56 (Zeichnung). (B) - AE 1981, AE 1991.</bibl><bibl>M.P. Speidel, AArchHung 41, 1989, 361-363, Nr. 4; fig. 2; fig. 3 (Zeichnung). - AE 1991.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

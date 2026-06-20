@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Poetovio &amp;ndash; Ptuj (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009302</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009302</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>110</height><width>51</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197446">Poetovio</placeName></origPlace><origDate><origDate when-custom="0207" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">207 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1985"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3192241">Ptuj</placeName><placeName type="findspot"/><placeName type="region">Podravska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009302_1" sex="M"><persName ref="http://romans1by1.com/rpeople/157"><name type="cognomen">Gaetulicus</name></persName></person><person xml:id="HD009302_2" sex="M"><persName ref="http://romans1by1.com/rpeople/158"><name type="cognomen">Gaetulicianus*</name></persName></person><person xml:id="HD009302_3" sex="W"><persName ref="http://romans1by1.com/rpeople/159"><name type="cognomen">Veneranda</name></persName></person><person xml:id="HD009302_4" sex="W"><persName ref="http://romans1by1.com/rpeople/160"><name type="cognomen">Laeta</name></persName></person><person xml:id="HD009302_5" sex="M"><persName ref="http://romans1by1.com/rpeople/161"><name type="cognomen">Hilarus</name></persName></person><person xml:id="HD009302_6" sex="M"><persName><name type="cognomen">Aper</name></persName></person><person xml:id="HD009302_7" sex="M"><persName><name type="cognomen">Maximus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-10" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Fonti et Nym<lb break="no" n="2"/>phis pro salute <lb n="3"/>Gaetulici et <lb n="4"/><expan><abbr>Gaetulician</abbr><ex>i</ex></expan> <lb n="5"/>et Venerandae <lb n="6"/>et Laetae dom<lb break="no" n="7"/>inorum meorum <lb n="8"/>Hilarus vika<lb break="no" n="9"/>rius <note>sic</note> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> <lb n="10"/>X <expan><abbr>Kal</abbr><ex>endas</ex></expan> Maias <lb n="11"/>Apro et Maximo <lb n="12"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0934.</bibl><bibl>I. Tušek, AArchSlov 37, 1986, 364-365. 369; t. 15, 2. - AE 1988.</bibl><bibl>PIR (2. Aufl.) A 671.</bibl><bibl>PIR (2. Aufl.) S 489.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

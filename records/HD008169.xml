@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Hippo Regius &amp;ndash; ʿAnnaba (Africa Proconsularis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008169</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008169</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(90)</height><width>40</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Africa Proconsularis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/305090">Hippo Regius</placeName></origPlace><origDate><origDate when-custom="0276" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">276 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern">ʿAnnaba</placeName><placeName type="findspot"/><placeName type="region">Wilāya ʿAnnāba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008169_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q199946"><name type="praenomen">M.+</name><name type="nomen">Annius+</name><name type="cognomen">Florianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-02-18" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>arco</ex></expan> A</supplied>nnio <lb n="2"/>Floriano <supplied reason="lost">Pi</supplied>o <expan><abbr>Fel</abbr><ex>ici</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="3"/><expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr><supplied reason="lost">for</supplied>tissim</abbr><ex>o</ex></expan> <lb n="4"/><expan><abbr>adq</abbr><ex>ue</ex></expan> <note>sic</note> <expan><abbr>indu<supplied reason="lost">lgen</supplied>tissim</abbr><ex>o</ex></expan> <lb n="5"/>principi r<supplied reason="lost">estit</supplied>utori <lb n="6"/>orbis pot<supplied reason="lost"><expan><abbr>est</abbr><ex>ate</ex></expan> c</supplied>o<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> II <lb n="7"/><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>p<supplied reason="lost">roc</supplied>o</abbr><ex>n</ex>s</expan>(uli) <lb n="8"/>res <expan><abbr>p</abbr><ex>ublica</ex></expan> co<supplied reason="lost"><expan><abbr>l</abbr><ex>oniae</ex></expan> Hipp</supplied><expan><abbr>o</abbr><ex>nensium</ex></expan> <expan><abbr>Reg</abbr><ex>iorum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1960, 0104.</bibl><bibl>AE 1986, 0725.</bibl><bibl>AE 2005, 1693.</bibl><bibl>P. Salama, in: A. Mastino (Hrsg.), L'Africa romana. Atti del III Convegno di Studio su "L'Africa romana", Sassari 1985 (Sassari 1986) 227-229; Zeichnung. - AE 1986.</bibl><bibl>D. Lavergne, in: X. Delestre (Hrsg.), Hippone (Aix-en-Provence 2005) 173-174. - AE 2005.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

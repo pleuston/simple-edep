@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Iader &amp;ndash; Zadar (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004544</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004544</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/40">fountain</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197312">Iader</placeName></origPlace><origDate><origDate notBefore-custom="-0027" notAfter-custom="-0025" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">27 BC - 25 BC</origDate></origDate></origin>
+                        <provenance type="found" when="1984"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3186952">Zadar</placeName><placeName type="findspot">{Forum}, Brunnen</placeName><placeName type="region">Zadarska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004544_1" sex="M"><persName ref="http://data.snapdrgn.net/person/5332"><name type="praenomen">Cn.</name><name type="cognomen">Tamphilus Vala</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-31" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F034470" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/02329773-a7e6-4bd0-9680-0140c503f814/file/id/795306/file_version/name/small"/><graphic xml:id="F034471" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c4044b64-0235-40fa-925a-5e6dccd7e2f9/file/id/795307/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Cn</abbr><ex>aeus</ex></expan> Tamphilus Vala proco<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Teil einer rechteckigen Brunneneinfassung; die Inschrift befand sich auf einer der Schmalseiten; unterhalb der Inschrift Relief mit Muster eines Zauns. Der genannte Proconsul ist identisch mit Cn. Baebius Tamphilus Vala Numonianus, bekannt aus CIL VI 1360.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0547.</bibl><bibl>I. Fadić, AArchSlov 37, 1986, 409-433; sl. 2-11; sl. 1 u. 12-14 (Zeichnungen); t. 1 u. 2. - AE 1986.</bibl><bibl>AE 2000, 1181.</bibl><bibl>I. Fadić, Histria Antiqua 5, 1999, 47-54; sl. 2. - AE 2000.</bibl><bibl>AE 2008, 1031.</bibl><bibl>I. Jardić - Ž. Miletić, ArchAdriatica 11, 2008, 82-83; sl. 4. - AE 2008.</bibl><bibl>PIR (2. Aufl.) B 28.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

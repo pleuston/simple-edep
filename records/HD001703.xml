@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001703</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001703</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Civ. Rom. (vorm. P.zzo Esp.); Roma, Antiq. Celio</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>29</height><width>40</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0236" notAfter-custom="0238" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">236 AD - 238 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001703_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q518890"><name type="praenomen">C.+++</name><name type="nomen">Iulius+++</name><name type="cognomen">Verus+++ Maximus+++</name></persName></person><person xml:id="HD001703_2" sex="M"><persName><name type="praenomen">C.+++</name><name type="nomen">Iulius+++</name><name type="cognomen">Verus+++ Maximinus+++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-11-27" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010559" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f9f8af6c-1b93-4094-a27d-e4fa813f6c82/file/id/770079/file_version/name/small"/><graphic xml:id="F026478" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/989a5346-35cf-48a4-a02b-0cbd813b12fc/file/id/787230/file_version/name/small"/><graphic xml:id="F032171" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/896b889a-a073-4882-bdea-7e08643e5c99/file/id/792964/file_version/name/small"/><graphic xml:id="F032172" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/614ec500-0ab8-479b-9798-c4372cb4a8bf/file/id/792965/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <del rend="erasure">[<expan><abbr>C</abbr><ex>aio</ex></expan> Iulio Vero Maximo</del>] <lb n="2"/><supplied reason="lost"><expan><abbr>nobil</abbr><ex>issimo</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> Ge</supplied>rmanico <lb n="3"/><supplied reason="lost">Dacico</supplied> Sarmati<lb break="no" n="4"/><supplied reason="lost">co <expan><abbr>max</abbr><ex>imo</ex></expan> p</supplied>rincipi iuven<lb break="no" n="5"/><supplied reason="lost">tutis f</supplied>ilio <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <lb n="6"/><del rend="erasure"><supplied reason="lost"><expan><abbr>C</abbr><ex>ai</ex></expan> Iuli V</supplied>eri Max<supplied reason="lost">i</supplied>mini</del> <lb n="7"/><supplied reason="lost">Pii Feli</supplied>cis <expan><abbr>Aug</abbr><ex>usti</ex></expan> Germa<lb break="no" n="8"/><supplied reason="lost">nici ma</supplied><expan><abbr>x</abbr><ex>imi</ex></expan> D<supplied reason="lost">acici <expan><abbr>max</abbr><ex>imi</ex></expan></supplied> <lb n="9"/><supplied reason="lost">Sarmatici <expan><abbr>max</abbr><ex>imi</ex></expan> <expan><abbr>pont</abbr><ex>ificis</ex></expan></supplied> <lb n="10"/><supplied reason="lost"><expan><abbr>max</abbr><ex>imi</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente erhalten. Maße des größeren Fragments: s.o.; Maße des kleineren Fragments: 20 x 23. (B): CIL VI 3788. 31386, Peachin, AE 1984: geringfügig abweichende Textwiedergaben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0027. (B)</bibl><bibl>M. Peachin, Historia 33, 1984, 123-126; Fotos. (B) - AE 1984.</bibl><bibl>CIL 06, 03788. (B)</bibl><bibl>CIL 06, 40688.</bibl><bibl>CIL 06, 31386. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

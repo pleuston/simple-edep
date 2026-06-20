@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Luna &amp;ndash; Luni (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004631</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004631</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(35)</height><width>(51)</width><depth>(38)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.3-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/403235">Luna</placeName></origPlace><origDate><origDate notBefore-custom="0258" notAfter-custom="0260" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">258 AD - 260 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Luni</placeName><placeName type="findspot">Forum, bei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004631_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q297494"><name type="praenomen">P.</name><name type="nomen">Licinius+</name><name type="cognomen">Valerianus Saloninus</name></persName></person><person xml:id="HD004631_2" sex="M"><persName><name type="cognomen">Valerianus+</name></persName></person><person xml:id="HD004631_3" sex="M"><persName ref="https://www.wikidata.org/wiki/Q104475"><name type="cognomen">Gallienus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-05-16" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> Lici<supplied reason="lost">nio</supplied> Valeri<lb break="no" n="2"/>ano Salonino C<supplied reason="lost">ae</supplied><lb break="no" n="3"/>sari nepoti Vale<supplied reason="lost">ri</supplied><lb break="no" n="4"/>ani <expan><abbr>Aug</abbr><ex>usti</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan> Gallieni</supplied> <lb n="5"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> f<supplied reason="lost" cert="low">rat(ri)? divi? Vale</supplied><lb break="no" n="6"/><supplied reason="lost">riani<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 5 (Ende): statt F auch E oder vielleicht D möglich. Zur Voranstellung von nepoti und filio vor dem Namen vgl. etwa AE 1971, 124. (B): Calabi-Limentani; AE 1978: Abweichungen in Lesung / Ergänzung. Calabi-Limentani, AE 1978: Abweichungen in der Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0322. (B)</bibl><bibl>AE 2014, 0444.</bibl><bibl>I. Calabi-Limentani, in: A. Frova (Hrsg.), Scavi di Luni (Roma 1973) 827-828, Nr. 65; tav. 228, 65. (B) - AE 1978.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

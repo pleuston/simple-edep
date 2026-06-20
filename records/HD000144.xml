@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000144</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000144</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1863"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Porta Pia, ehem. vigna Nardi</placeName><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000144_1" sex="M"><persName><name type="nomen">Aurelius</name><name type="cognomen">Thiras (= Therais?)</name></persName></person><person xml:id="HD000144_2" sex="W"><persName><name type="nomen">Aurelia</name><name type="cognomen">Iulia</name></persName></person><person xml:id="HD000144_3" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-12-10" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F014020" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c68a63da-d21c-45e1-8e13-6e9046b9922a/file/id/773551/file_version/name/small"/><graphic xml:id="F032060" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3024b045-8aa6-4e10-9307-8f441519fd0c/file/id/792852/file_version/name/small"/><graphic xml:id="F043071" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e3a7ccad-aaaf-4db6-8acf-801607c0cb5a/file/id/804180/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Aureli Thire <note>sic</note> qui vixi <note>sic</note> a<supplied reason="lost">nnos</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>dulcissimo cum que <note>sic</note> vix<supplied reason="lost">it annos <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="4"/>Aurelia Iulia <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> fe<supplied reason="lost">cit</supplied> <lb n="5"/>et <expan><abbr>soro</abbr><ex>r</ex></expan> et &amp;lt;h=T&amp;gt;eres <gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>bene merenti <lb n="7"/><expan><abbr>eq</abbr><ex>uiti</ex></expan> Romano posu<supplied reason="lost">erunt</supplied> 
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0076.</bibl><bibl>A. Ferrua, RAL 36, 1981, 107, Nr. 1. - AE 1983.</bibl><bibl>CIL 06, 31846.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

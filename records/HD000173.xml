@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Nursia, bei &amp;ndash; Castellina (Samnium (Regio IV))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000173</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000173</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>97</height><width>49</width><depth>29</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Samnium (Regio IV)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413229">Nursia, bei</placeName></origPlace><origDate><origDate notBefore-custom="-0100" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">100 BC - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1975"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Castellina</placeName><placeName type="findspot">Piazza S. Benedetto</placeName><placeName type="region">Umbria</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000173_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Sertorius</name><name type="cognomen">Eutichus</name></persName></person><person xml:id="HD000173_2" sex="W"><persName><name type="nomen">Sertoria</name><name type="cognomen">Antiopa</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-05" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uintus</ex></expan> Sertorius <expan><abbr>Q</abbr><ex>uinti</ex></expan> <supplied reason="lost"><expan><abbr>l</abbr><ex>ibertus</ex></expan></supplied> <lb n="2"/>Eutichus <lb n="3"/>Sertoria <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>l</abbr><ex>iberta</ex></expan> <lb n="4"/>Antiopa
+            </ab></div>
+            <div type="commentary">
+                <p>(A): Datierung: Wegen des knappen Formulars in die späte Republik oder frühe Kaiserzeit. AE: 1. Jh. v. Chr; Cordella - Criniti: Kaiserzeit. (B): Antiopa statt Antiope.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0292. (AB)</bibl><bibl>R. Cordella - N. Criniti, Iscrizioni latine di Norcia e dintorni (Spoleto 1982) 63-64, Nr. 1; fig. 32. (A) - AE.</bibl><bibl>AE 1996, 0552.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

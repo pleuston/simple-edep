@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Saguntum &amp;ndash; Sagunto (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004063</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004063</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sagunto, Mus. Arq.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>24</height><width>40</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/266021">Saguntum</placeName></origPlace><origDate><origDate notBefore-custom="-0030" notAfter-custom="0068" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC - 68 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2511619">Sagunto</placeName><placeName type="findspot">plaza del Cronista Chabret</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004063_1"><persName><name type="praenomen">C.</name><name type="nomen">Marius</name><name type="cognomen">Amphio</name></persName></person><person xml:id="HD004063_2"><persName><name type="praenomen">C.</name><name type="nomen">Marius*</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD004063_3"><persName><name type="nomen">Maria</name><name type="cognomen">Corenis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-11-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F006813" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/53f4807c-872a-4dd4-88c7-856ca448a33b/file/id/767377/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Marius <lb n="2"/>Amphio hic <lb n="3"/>situs est <lb n="4"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Ma</abbr><ex>rius ---</ex></expan> <lb n="5"/>Maria <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>l</abbr><ex>iberta</ex></expan> Corenis
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL II (2. Aufl.) 14, 498: Z. 1: M(arius). Z. 4: Buchstaben nach Ansicht von Beltrán Lloris vom Steinmetz versehentlich eingemeißelt. Nach Auffassung von G. Alföldy wurden zunächst Z. 1-3 eingemeißelt, später Z. 5 und von einer dritten Hand dann Z. 4, die den Namen eines weiteren Verstorbenen nennen sollte, aber wegen des engen Platzes nicht vollendet wurde.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0595.</bibl><bibl>F. Beltrán Lloris, Epigrafía latina de Saguntum y su territorium (Valencia 1980) 159, Nr. 180; lám. 51. - AE 1980.</bibl><bibl>CIL 02 (2. Aufl.) 14, 00498; tab. 9, 2. (B)</bibl><bibl>G. Alföldy, ZPE 41, 1981, 239, Nr. 24; Taf. 15, 24.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

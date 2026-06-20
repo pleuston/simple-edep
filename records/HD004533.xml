@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Carthago Nova &amp;ndash; Cartagena (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004533</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004533</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>40</height><width>(24)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/265849">Carthago Nova</placeName></origPlace><origDate><origDate notBefore-custom="-0019" notAfter-custom="-0012" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">19 BC - 12 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2520058">Cartagena</placeName><placeName type="findspot">Castillo de la Concepción, Kastellturm, verbaut</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004533_1"><persName ref="https://www.wikidata.org/wiki/Q48174"><name type="praenomen">M.</name><name type="cognomen">Agrippa+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2005-07-11" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> Ag<supplied reason="lost">rippae</supplied> <lb n="2"/><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <supplied reason="lost" cert="low">III quinq(uennali)</supplied> <lb n="3"/>patron<supplied reason="lost">o coloni</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Von dem für den Mauerbau zurechtgeschlagenen Block ist noch die linke Hälfte vorhanden. Er gehörte ursprünglich wohl zu einer Statuenbasis. Y: 19/18 v. Chr.: Besuch Agrippas in Carthago Nova; 12 v. Chr.: Tod Agrippas. Ergänzung der Inschrift in Analogie zu CIL II 3414. 3417. 5930. Ergänzung von Z. 2: L.f. cos. [tert. imp.]; L.f. cos. [III tr. pot.]; L.f. cos. [III quinq.].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0366.</bibl><bibl>M. Koch, Chiron 9, 1979, 205-214; Zeichnung. - AE.</bibl><bibl>A. Beltrán, AEA 23, 1950, 411, Nr. 57. - AE.</bibl><bibl>D. Jiménez de Cisneros Hervas, Boll. R. Acad. Hisp. 96, 1930, 250. - AE. (unzugänglich)</bibl><bibl>J.M. Abascal Palazón - S.F. Ramallo Asensio, La ciudad de Carthago Nova: la documentación epigráfica (Murcia 1997) 175-177, Nr. 42; lám. 48.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

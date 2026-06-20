@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Lucus Feroniae &amp;ndash; Lucus Feroniae (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003932</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003932</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>87</height><width>56</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.3-2.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413184">Lucus Feroniae</placeName></origPlace><origDate><origDate notBefore-custom="0027" notAfter-custom="0028" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">27 AD - 28 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Lucus Feroniae</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003932_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1407"><name type="praenomen">Ti.</name><name type="nomen">Caesar</name><name type="cognomen">Augustus</name></persName></person><person xml:id="HD003932_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Appius+</name><name type="cognomen">Largus+?</name></persName></person><person xml:id="HD003932_3" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Pinarius+</name><name type="cognomen">Faustus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-23" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ti</abbr><ex>berio</ex></expan> Caesari divi <lb n="2"/>Augusti <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="3"/>Divi Iulii <expan><abbr>n</abbr><ex>epoti</ex></expan> <lb n="4"/>Augusto <lb n="5"/>co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> IIII <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XXIX <expan><abbr>imp</abbr><ex>eratori</ex></expan> VIII <lb n="6"/><expan><abbr>pontif</abbr><ex>ici</ex></expan> <expan><abbr>maxim</abbr><ex>o</ex></expan> auguri <lb n="7"/><expan><abbr>XVvir</abbr><ex>o</ex></expan> <expan><abbr>s</abbr><ex>acris</ex></expan> <expan><abbr>f</abbr><ex>aciundis</ex></expan> <expan><abbr>VIIvir</abbr><ex>o</ex></expan> <expan><abbr>epu<supplied reason="lost">lo</supplied>n</abbr><ex>um</ex></expan> <lb n="8"/>seviri Au<supplied reason="lost">g</supplied>usta<supplied reason="lost">les</supplied> <expan><abbr>M</abbr><ex>arcus</ex></expan> Ap<supplied reason="lost">piu</supplied>s <supplied reason="lost" cert="low">La</supplied>rgu<supplied reason="lost">s</supplied> <lb n="9"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Pin<supplied reason="lost">a</supplied>rius <supplied reason="lost">F</supplied>austu<supplied reason="lost">s</supplied> <lb n="10"/>ex honoraria sum<supplied reason="lost">ma</supplied> <lb n="11"/><expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Mehr als 50 aneinanderpassende Fragmente. Datierung: 26.6.27-25.6.28 n. Chr. (29. trib. pot. des Tiberius). (B): Sensi; AE 1988: Z. 7: epu[lon]i.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0549.</bibl><bibl>L. Sensi, AFLPer 9, 1985/86, 285-286, Nr. 6; tav. 3,6; tav. 4,6 (Zeichnung). - AE 1988.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Public legal inscription from Calpurniana?, bei &amp;ndash; Cañete de las Torres, bei (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000270</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000270</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>57</height><width>27</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="#">Calpurniana?, bei</placeName></origPlace><origDate><origDate when-custom="0034" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">34 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Cañete de las Torres, bei</placeName><placeName type="findspot">Cortijo de Los Alamillos</placeName><placeName type="region">Andalucía</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/5">public legal inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000270_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Marcius</name><name type="cognomen">Barea</name></persName></person><person xml:id="HD000270_2" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Rustius Nummius+</name><name type="cognomen">Gallus</name></persName></person><person xml:id="HD000270_3" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Fabius</name><name type="cognomen">Rufus</name></persName></person><person xml:id="HD000270_4" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Terentius</name><name type="cognomen">Macer</name></persName></person><person xml:id="HD000270_5" sex="M"><persName><name type="cognomen">Philippus+++</name></persName></person><person xml:id="HD000270_6" sex="M"><persName><name type="cognomen">Philippus+++</name></persName></person><person xml:id="HD000270_7" sex="M"><persName><name type="cognomen">Bellus Licinianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-11" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uinto</ex></expan> Marcio Barea <lb n="2"/><expan><abbr>T</abbr><ex>ito</ex></expan> Rustio Nu<supplied reason="lost">mmio</supplied> <lb n="3"/>Gallo <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <lb n="4"/>senatus populusque Baxonensis <lb n="5"/>hospitium fecit cum colonis co<lb break="no" n="6"/>loniae Claritatis Iuliae ipsis <lb n="7"/>liberis posterisque suis <lb n="8"/>egerunt <expan><abbr>leg</abbr><ex>ati</ex></expan> <lb n="9"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Fabius <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Rufus <lb n="10"/><expan><abbr>C</abbr><ex>aius</ex></expan> Terentius <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Macer </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Armeni felix <lb n="2"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <del rend="erasure">[Philippo</del>] <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="3"/>et <del rend="erasure">Ph[ilippo</del>] <expan><abbr>Caes</abbr><ex>are</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="4"/>collegium corporis fabro<lb break="no" n="5"/>rum sub<expan><ex>a</ex><abbr>edianorum</abbr></expan> Patri<lb break="no" n="6"/>c<expan><ex>i</ex><abbr>ensium</abbr></expan> Cordubensium <lb n="7"/>Bellum Licinianum se libe<lb break="no" n="8"/><expan><abbr>rosq</abbr><ex>ue</ex></expan> suos patronum coopta<lb break="no" n="9"/>verunt postea Bellus Licinia<lb break="no" n="10"/>nus corpus <expan><abbr>fabror</abbr><ex>um</ex></expan> sub<expan><ex>a</ex><abbr>edianor</abbr><ex>um</ex></expan> <lb n="11"/>Cordubensium Patric<expan><ex>i</ex><abbr>ens</abbr><ex>ium</ex></expan> in <lb n="12"/>familiam clientelamque suam <lb n="13"/>recepit
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): Leseabweichungen. Rückseite der Bronzetafel ist sekundär mit einer tabula patronatus beschriftet worden; Datierung: 247 n. Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0530. (B)</bibl><bibl>J.F. Rodríguez Neila - J.M. Santero Santurino, Habis 13, 1982, 105-163. (B) - AE 1983.</bibl><bibl>A.U. Stylow, in: D. Ortiz Juárez - J. Bernier Luque - M. Nieto Cumplido - F. Lara Arrebolda, Catálogo artístico y monumental de la provincia de Córdoba II (Córdoba 1983) 157. (BC) - AE 1983.</bibl><bibl>AE 1985, 0564. (B)</bibl><bibl>C. Puerta - A.U. Stylow, Gerión 3, 1985, 326-331, Nr. 5. - AE 1985.</bibl><bibl>CIL 02 (2. Aufl.) 07, 00187.</bibl><bibl>D. Ortiz Juárez u. a., Catálogo artistico y monumental de la provincia de Córdoba 2 (Córdoba 1983) 157. - AE 1983.</bibl><bibl>CIL 02 (2. Aufl.) 07, 00188.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

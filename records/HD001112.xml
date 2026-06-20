@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Monte Compatri (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001112</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001112</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stadtgarten</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/71">Travertin</material><dimensions unit="cm"><height>73</height><width>205</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Monte Compatri</placeName><placeName type="findspot">Stadtgarten</placeName><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001112_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Lallius</name><name type="cognomen">Licinus</name></persName></person><person xml:id="HD001112_2" sex="M"><persName><name type="nomen">Lallius</name><name type="cognomen">Alexander</name></persName></person><person xml:id="HD001112_3" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Lallius</name><name type="cognomen">Licinus</name></persName></person><person xml:id="HD001112_4" sex="W"><persName><name type="praenomen">L.</name><name type="nomen">Lallia</name><name type="cognomen">Salvia</name></persName></person><person xml:id="HD001112_5" sex="W"><persName><name type="nomen">Acestia</name><name type="cognomen">Gemella</name></persName></person><person xml:id="HD001112_6" sex="W"><persName><name type="nomen">Lallia</name><name type="cognomen">Soteris</name></persName></person><person xml:id="HD001112_7" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Acestius</name><name type="cognomen">Salvitto</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1990-11-21" who="Scheithauer">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Lallius <expan><abbr>L</abbr><ex>uci libertus</ex></expan> Licinus testamento fieri <lb n="2"/>iussit sibi et Lallio <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>l</abbr><ex>iberto</ex></expan> Alexandro <lb n="3"/>et <expan><abbr>L</abbr><ex>ucio</ex></expan> Lallio <expan><abbr>L</abbr><ex>uci liberto</ex></expan> Licino et <expan><abbr>L</abbr><ex>uciae</ex></expan> Lalliae <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>l</abbr><ex>ibertae</ex></expan> Salviae <lb n="4"/>et Acestiae <expan><abbr>Sp</abbr><ex>uri</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> Gemellae et Lalliae <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>l</abbr><ex>ibertae</ex></expan> Soterini <lb n="5"/>et <expan><abbr>L</abbr><ex>ucio</ex></expan> Acestio <expan><abbr>L</abbr><ex>uci liberto</ex></expan> Salvittoni <lb n="6"/><expan><abbr>h</abbr><ex>eredes</ex></expan> <expan><abbr>f</abbr><ex>amiliae</ex></expan> <expan><abbr>e</abbr><ex>xterae</ex></expan> <expan><abbr>seq</abbr><ex>uantur</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 1: AE: Licinius; Z. 2: AE: L(ucio) Lallio L(uci) l(iberto) Alexandro.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0145. (B)</bibl><bibl>E.M. Béranger - P. Fortini, Epigraphica 41, 1979, 144, Nr. 4. - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

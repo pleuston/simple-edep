@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aeso &amp;ndash; Isona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003129</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003129</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Isona, Kirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>95</height><width>60</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-5.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246147">Aeso</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3120270">Isona</placeName><placeName type="findspot">Pfarrkirche, sekundär verwendet</placeName><placeName type="region">Cataluña</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003129_1" sex="W"><persName><name type="nomen">Atilia*</name><name type="cognomen">Paterna</name></persName></person><person xml:id="HD003129_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Atilius*</name><name type="cognomen">Maternus</name></persName></person><person xml:id="HD003129_3" sex="M"><persName><name type="nomen">Licinius*</name><name type="cognomen">Oppidanus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-15" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Atil</abbr><ex>iae</ex></expan> Paternae <lb n="2"/>Aesaonensis <note>sic</note> <lb n="3"/><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>Atil</abbr><ex>i</ex></expan> Materni <lb n="4"/><expan><abbr>fil</abbr><ex>iae</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Licin</abbr><ex>ius</ex></expan> Op<lb break="no" n="5"/>pidanus so<lb break="no" n="6"/>cr<expan><ex>a</ex><abbr>e</abbr></expan> obsequ<lb break="no" n="7"/>entissimae be<lb break="no" n="8"/>ne <expan><abbr>m</abbr><ex>eritae</ex></expan> quae sic <lb n="9"/>egit mecum et <lb n="10"/><expan><abbr>fil</abbr><ex>ia</ex></expan> sua quae vi<lb break="no" n="11"/><supplied reason="lost">x</supplied>it <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> LXXV
+            </ab></div>
+            <div type="commentary">
+                <p>Datierung nach G. Alföldy. Material: grauer Kalkstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0635.</bibl><bibl>AE 1987, 0732.</bibl><bibl>G. Fabre - M. Mayer - I. Rodà, in: Cronica del XVII Congreso Arqueológico Nacional, Zaragoza 1985 (Zaragoza 1985) 675-677; lám. 11-14. - AE 1985. 1987.</bibl><bibl>IRC 2, 033; pl. 18, 33 u. pl. 19; pl. 20 (Fotos u. Zeichnung).</bibl><bibl>IRC 5, p. 67.</bibl><bibl>ILER 1652.</bibl><bibl>CIL 02, 04462. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

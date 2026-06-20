@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Parma &amp;ndash; Parma (Aemilia (Regio VIII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003859</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003859</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(91)</height><width>31</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.6-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Aemilia (Regio VIII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/383738">Parma</placeName></origPlace><origDate><origDate when-custom="0069" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">69 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Parma</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003859_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-01-04" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------ <expan><abbr>leg</abbr><ex>ionis</ex></expan>] <lb n="2"/>IIII <expan><abbr>Mac</abbr><ex>edonicae</ex></expan> <lb n="3"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XXV <lb n="4"/><expan><abbr>stip</abbr><ex>endiorum</ex></expan> II <lb n="5"/>vexillari <lb n="6"/><expan><abbr>leg</abbr><ex>ionum</ex></expan> trium <lb n="7"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> IIII <expan><abbr>Mac</abbr><ex>edonicae</ex></expan> <lb n="8"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XXI <expan><abbr>rap</abbr><ex>acis</ex></expan> <lb n="9"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XXII <expan><abbr>Pri</abbr><ex>migeniae</ex></expan> <lb n="10"/><expan><abbr>p</abbr><ex>osuerunt</ex></expan> <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>uo</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Datierung: Grabstein eines Soldaten aus dem Heer des Vitellius, der 69 in den Kämpfen in Oberitalien fiel.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0566.</bibl><bibl>M.G. Arrigoni Bertini, Epigraphica 50, 1988, 179-189; fig. 1b; fig. 1a (Zeichnung). - AE 1988.</bibl><bibl>CIL 11, 01196.</bibl><bibl>ILS 2284.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

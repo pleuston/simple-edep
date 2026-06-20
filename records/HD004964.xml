@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Pompeii, bei &amp;ndash; Pompei, bei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004964</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004964</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii, bei</placeName></origPlace><origDate><origDate when-custom="0035" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">35 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170336">Pompei, bei</placeName><placeName type="findspot">Murécine</placeName><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004964_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Puteolanus</name><name type="cognomen">Aquila</name></persName></person><person xml:id="HD004964_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Sulpicius</name><name type="cognomen">Faustus</name></persName></person><person xml:id="HD004964_3" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Castricius+</name><name type="cognomen">Hermeros+ Hordionianus+</name></persName></person><person xml:id="HD004964_4" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Castricius</name><name type="cognomen">Isochrysus+</name></persName></person><person xml:id="HD004964_5" sex="M"><persName><name type="praenomen">C.+</name><name type="nomen">Cestius+</name></persName></person><person xml:id="HD004964_6" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Servilius</name><name type="cognomen">Nonianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-09-03" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Interrog<supplied reason="lost">av</supplied>it <expan><abbr>A</abbr><ex>ulum</ex></expan> Ca<supplied reason="lost">stricium</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>ex &amp;lt;qu=C&amp;gt;ota parte <lb n="3"/>heres esset <expan><abbr>C</abbr><ex>aius</ex></expan> Sul<supplied reason="lost">picius</supplied><gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">in iu</supplied>re aput <note>sic</note> <expan><abbr>Q</abbr><ex>uintum</ex></expan> Puteolanum <lb n="2"/>Aquilam <expan><abbr>iud</abbr><ex>icem</ex></expan> adiectum <lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> Sulpicius Faustus <lb n="4"/>interrogavit <expan><abbr>A</abbr><ex>ulum</ex></expan> <lb n="5"/><supplied reason="lost">Ca</supplied>str<supplied reason="lost">ici</supplied>um <supplied reason="lost">Herme</supplied>rotem <lb n="6"/><supplied reason="lost">Hordio</supplied>nianum esset<lb break="no" n="7"/><supplied reason="lost">ne he</supplied>res aut bonorum <lb n="8"/><supplied reason="lost">possessor</supplied> <expan><abbr>A</abbr><ex>uli</ex></expan> Castrici <lb n="9"/><supplied reason="lost">Iso</supplied>crusi <note>sic</note> et quota ex <expan><abbr>part</abbr><ex>e</ex></expan> <lb n="10"/><supplied reason="lost"><expan><abbr>A</abbr><ex>ulus</ex></expan> Castricius He</supplied>rmeros <expan><abbr>Hordionian</abbr><ex>us</ex></expan> <lb n="11"/><supplied reason="lost">r</supplied>espondit se <expan><abbr>A</abbr><ex>uli</ex></expan> Castrici <lb n="12"/><supplied reason="lost">Is</supplied>ochrysi ex X<gap reason="lost" extent="unknown" unit="character"/> parte <supplied reason="lost">here</supplied><lb break="no" n="13"/><supplied reason="lost">dem</supplied> esse sor<gap reason="lost" extent="unknown" unit="character"/> <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/>media <lb n="15"/><supplied reason="lost">act</supplied>um <expan><abbr>Put</abbr><ex>eolis</ex></expan> IIII <expan><abbr>K</abbr><ex>alendas</ex></expan> Maias <lb n="16"/><supplied reason="lost"><expan><abbr>C</abbr><ex>aio</ex></expan> Ce</supplied>stio <expan><abbr>M</abbr><ex>arco</ex></expan> Servilio Noniano co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Tabula Pompeiana. Interrogatio de iure über eine Testamentsfolge, vgl. hierzu AE 1972, 85. Entspricht Tabula Pompeiana 63.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0129.</bibl><bibl>F. Sbordone, RAAN 51, 1976, 158-159, Nr. 12; tav. 7,12; tav. 8, 13 u. 9, 14 (Zeichnungen). - AE 1978.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

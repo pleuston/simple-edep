@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Boundary inscription from Goujoim (Lusitania)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004395</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004395</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/85">cippus</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lusitania</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0046" notAfter-custom="0059" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">46 AD - 59 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2264397">Portugal</placeName><placeName type="modern" ref="http://www.geonames.org/2738895">Goujoim</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/96">boundary inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004395_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Claudius+ Caesar+</name><name type="cognomen">Augustus* Germanicus+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-11" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Inte<supplied reason="lost">r</supplied> <lb n="2"/>Coila<supplied reason="lost"><expan><abbr>r</abbr><ex cert="low">nos</ex></expan></supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> Claudio Cae</supplied><lb break="no" n="2"/><supplied reason="lost">sa</supplied>ri <expan><abbr>Aug</abbr><ex>usto</ex></expan> Ge<supplied reason="lost"><expan><abbr>r</abbr><ex>manico</ex></expan></supplied> <lb n="3"/><expan><abbr><supplied reason="lost">p</supplied>ont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> tr<supplied reason="lost">i</supplied><lb break="no" n="4"/><expan><abbr><supplied reason="lost">b</supplied>u</abbr><ex>nicia</ex></expan> potestate V<lb break="no" n="5"/>I <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> III ter<lb break="no" n="6"/><expan><abbr>mi</abbr><ex>nus</ex></expan> <expan><abbr>Aug</abbr><ex>ustalis</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> I<expan><ex>n</ex><abbr>ter</abbr></expan> <lb n="2"/>Raba<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Fundumstände unbekannt. Datierung: Zuweisung der Inschrift zu Claudius oder Nero möglich. Vermutlich handelt es sich eher um Claudius. trib.pot. VI des Claudius: 25.1.46 - 24.1.47; trib.pot. VI Neros: 13.10.59-31.12.59.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0331.</bibl><bibl>J. Vaz, Conimbriga 18, 1979, 135-138; est. 1, 1 u. 2, 2 u. 2, 3. - AE 1979.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

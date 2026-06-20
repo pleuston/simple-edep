@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Pompeii &amp;ndash; Pompei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004547</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004547</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0079" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 79 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170336">Pompei</placeName><placeName type="findspot">Porta Nocera</placeName><placeName type="region">Campania</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004547_1"><persName><name type="praenomen">P.</name><name type="nomen">Vesonius</name><name type="cognomen">Phileros</name></persName></person><person xml:id="HD004547_2"><persName><name type="nomen">Vesonia</name></persName></person><person xml:id="HD004547_3"><persName><name type="praenomen">M.</name><name type="nomen">Orfellius</name><name type="cognomen">Faustus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-07-09" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublius</ex></expan> Vesonius |(mulieris) <expan><abbr>l</abbr><ex>ibertus</ex></expan> <lb n="2"/>Phileros Augustalis <lb n="3"/>vivos <expan><abbr>monument</abbr><ex>um</ex></expan> fecit sibi et suis </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Vesoniae <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>liae</ex></expan> <lb n="2"/>patronae et </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>M</abbr><ex>arco</ex></expan> Orfellio <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/>Fausto amico
+            </ab></div></div>
+            <div type="commentary">
+                <p>Maiuri und Ciprotti bieten keinen Text. - Nachträgliche Änderung des in drei Kolumnen geschriebenen Textes durch Hinzufügung von Augustalis (Z. 2) und suis (Z. 4). - Die unterhalb der Grabinschrift angebrachte Defixio (AE 1986, 0166b) nimmt Stellung zu jenem im Sepulkraltext genannten amicus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0116a.</bibl><bibl>A. Maiuri, Pompei (Roma 1958) 88. - AE 1986.</bibl><bibl>P. Ciprotti, SDHI 29, 1963, 279-280. - AE 1986.</bibl><bibl>P. Ciprotti, Helikon 4, 1964, 304-305, Nr. 5. - AE 1986.</bibl><bibl>M. Elefante, PP 40, 1985, 431-432, Anm. 2; Foto. - AE 1986.</bibl><bibl>AE 1964, 0160.</bibl><bibl>AE 2002, 0335.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

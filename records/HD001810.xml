@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Colonia Ulpia Traiana Sarmizegetusa &amp;ndash; Sarmizegetusa (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001810</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001810</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarmizegetusa, Muz. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>105</height><width>(122)</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.7-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa</placeName></origPlace><origDate><origDate notBefore-custom="0222" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1930"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667964">Sarmizegetusa</placeName><placeName type="findspot">Forum Vetus, {Basilica}</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001810_1" sex="M"><persName ref="http://romans1by1.com/rpeople/1538"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]er</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-09-05" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004864" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a5a6d207-39dd-49e8-9cf5-122c55705181/file/id/765619/file_version/name/small"/><graphic xml:id="F012931" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0e36d903-5550-42f5-80f2-97126e6ab1ce/file/id/772456/file_version/name/small"/><graphic xml:id="F036493" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a9238139-0664-4c31-a75c-027710732876/file/id/797351/file_version/name/small"/><graphic xml:id="F036494" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4340a787-c46d-403f-8576-007093c1b408/file/id/797352/file_version/name/small"/><graphic xml:id="F036495" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6494435c-a0b7-4b52-bcd2-13e8625b86ad/file/id/797353/file_version/name/small"/><graphic xml:id="F036496" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a0d62074-1088-4cf7-9e8f-8bc69dfc74f5/file/id/797354/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ex permiss<supplied reason="lost">u</supplied> spl<supplied reason="lost">e</supplied>ndidis<lb break="no" n="2"/>simi ordi<supplied reason="lost">nis c</supplied><expan><abbr>ol</abbr><ex>oniae</ex></expan> <expan><abbr>Sarmiz</abbr><ex>egetusae</ex></expan> <lb n="3"/>m<supplied reason="lost">e</supplied>tr<supplied reason="lost">opo</supplied>lis <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>er <expan><abbr>Aug</abbr><ex>ustalis</ex></expan> <expan><abbr><supplied reason="lost">co</supplied>l</abbr><ex>oniae</ex></expan> <expan><abbr>eiusd</abbr><ex>em</ex></expan> <lb n="5"/><supplied reason="lost">aedem co</supplied>llegarum v<supplied reason="lost">e</supplied>tus<lb break="no" n="6"/><supplied reason="lost">tate dilap</supplied>sam s<supplied reason="lost">u</supplied>mptib<supplied reason="lost">us</supplied> <lb n="7"/>suis re<supplied reason="lost">s</supplied>titu<supplied reason="lost">it</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>23 Fragmente erhalten; Maßangaben rekonstruiert.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0832.</bibl><bibl>I. Piso, StudClas 18, 1979, 142-144, Nr. 4; Abb. 4 a; Abb. 4 b (Zeichnung). - AE 1982.</bibl><bibl>IDR 3, 2, 005; fig. 5 (Zeichnung).</bibl><bibl>I. Piso, in: I. Piso (Hrsg.), Le forum vetus de Sarmizegetusa 1 (Bucureşti 2006) 263-265, Nr. 41; Fig. 3, 39 (Foto u. Zeichnung).</bibl><bibl>I. Piso, in: HPS 13 (Debrecen 2006) 107.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

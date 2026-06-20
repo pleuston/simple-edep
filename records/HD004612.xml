@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Cruciniacum (Civitas Vangionum?) &amp;ndash; Bad Kreuznach (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004612</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004612</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Kreuznach, Römerhalle</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109427">Cruciniacum (Civitas Vangionum?)</placeName></origPlace><origDate><origDate when-custom="0234" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">234 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1966"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2953416">Bad Kreuznach</placeName><placeName type="findspot">Hüffelsheimer Straße, {römische Villa, zentraler Raum mit Apsis (Raum 10)}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004612_1" sex="M"><persName><name type="cognomen">Maximus</name></persName></person><person xml:id="HD004612_2" sex="M"><persName><name type="cognomen">Urbanus?+</name></persName></person><person xml:id="HD004612_3" sex="M"><persName><name type="cognomen">Victorinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-05-30" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028020" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/443f3a08-846e-4ba1-97a3-680dd27a856b/file/id/788777/file_version/name/small"/><graphic xml:id="F028021" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/14313d87-b8ff-4a94-af31-2c49f79e5071/file/id/788778/file_version/name/small"/><graphic xml:id="F028022" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/97095cbe-f9d9-440d-b8f5-71546485b530/file/id/788779/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Maximo et U<supplied reason="lost" cert="low">rbano? co(n)s(ulibus)</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Victorinus <expan><abbr>tess</abbr><ex>erarius</ex></expan> <expan><abbr>fec</abbr><ex>it</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Datierung nicht völlig gesichert. Schreibtechnik: Mosaik. Mosaikboden, um einen zentralen hexagonalen Brunnen angeordnet. Darstellung des Oceanus, flankiert von zwei Hippocampen, in der zentralen Apsis, zahlreiches Meeresgetier, Küsten-, Hafen- und Schifffahrtsszenen mit Architektur. Text 1 befindet sich am Rand entlang der dem Oceanus gegenüberliegenden Seite, Text 2 dazu um 180° gedreht über der Darstellung eines Steuermanns im nordwestlichen Quadranten. Nach Stümpel könnte das Mosaik von einer dünnen Schicht Wasser aus dem Brunnen bedeckt worden sein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0554.</bibl><bibl>U. Schillinger-Häfele, BRGK 58, 1977, 525, Nr. 139. - AE 1978.</bibl><bibl>B. Stümpel, MZ 63/64, 1968/69, 196-198; Taf. 56; Abb. 22 u. 23 (Zeichnungen). - AE 1978.</bibl><bibl>PIR (2. Aufl.) C 1179.</bibl><bibl>PIR V 676.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

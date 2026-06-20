@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Poetovio &amp;ndash; Hajdina (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006053</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006053</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Graz, Landesmus. Joanneum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/24">relief</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(21)</height><width>30</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197446">Poetovio</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1895"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3190249">Hajdina</placeName><placeName type="findspot">{Spodnja Hajdina}</placeName><placeName type="region">Podravska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006053_1" sex="M"><persName ref="http://romans1by1.com/rpeople/17202"><name type="cognomen">Haeliodorus* (= Heliodorus*)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-02-02" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">Nutr(icibus)</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Aug</abbr><ex>ustis</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><ex>H</ex><abbr>aeliodorus</abbr></expan> <note>sic</note> |(contra)<lb break="no" n="2"/><expan><abbr>s</abbr><ex>criptor</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> ex voto <expan><abbr>pos</abbr><ex>uit</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Vom Reliefbild nur noch ein Rest des unteren Teils mit den Füßen einer sitzenden Frau links und einer stehenden rechts; die erste erhaltene Zeile AVG befindet sich auf der noch erkennbaren crepido eines Altars zwischen den beiden Figuren. (B): CIL 03, 10873: Abweichende Lesung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 10873. (B)</bibl><bibl>CIL 03, 10873 add. p. 2279.</bibl><bibl>CIL 03, 14062.</bibl><bibl>AIJ 335; Zeichnung.</bibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 438, Nr. 419.</bibl><bibl>V. Skrabar, JŒAI (Beibl.) 19/20, 1919, 284-286; Abb. 129 (Zeichnung).</bibl><bibl>M. Šašel Kos, Pre-Roman divinities of the Eastern Alps and Adriatic (Ljubljana 1999) 159-160, Nr. 6; Fig. 7.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

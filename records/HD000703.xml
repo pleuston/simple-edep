@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Aquincum, bei &amp;ndash; Alsószentiván (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000703</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000703</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(6)</height><width>(9)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum, bei</placeName></origPlace><origDate><origDate when-custom="0159" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">159 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3056052">Alsószentiván</placeName><placeName type="findspot"/><placeName type="region">Fejér megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000703_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Pomponius</name><name type="cognomen">Musa</name></persName></person><person xml:id="HD000703_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Cassius</name><name type="cognomen">Iuvenalis</name></persName></person><person xml:id="HD000703_3" sex="M"><persName><name type="nomen">Titius</name><name type="cognomen">Modestus</name></persName></person><person xml:id="HD000703_4" sex="M"><persName><name type="nomen">Ulpius</name><name type="cognomen">Biuasco</name></persName></person><person xml:id="HD000703_5" sex="M"><persName><name type="cognomen">Bitumarus</name></persName></person><person xml:id="HD000703_6" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="praenomen">T.</name><name type="nomen">Aelius</name><name type="cognomen">Hadrianus+ Antoninus+ Pius</name></persName></person><person xml:id="HD000703_7" sex="M"><persName><name type="nomen">Geminnius* (= Geminius*)</name><name type="cognomen">Iapellianus+ (= Capellianus+)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-04" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost">XXV plu</supplied>rib<expan><ex>us</ex><abbr>ve</abbr></expan> <expan><abbr>stip</abbr><ex>endiis</ex></expan> em<supplied reason="lost"><expan><abbr>er</abbr><ex>itis</ex></expan> <expan><abbr>dim</abbr><ex>issis</ex></expan> ho</supplied><lb break="no" n="2"/><expan><abbr>nest</abbr><ex>a</ex></expan> <expan><abbr>miss</abbr><ex>ione</ex></expan> <expan><abbr>quor</abbr><ex>um</ex></expan> <expan><abbr>nom</abbr><ex>ina</ex></expan> <expan><abbr>subscript</abbr><ex>a</ex></expan> <lb n="3"/>sunt <expan><abbr>civit</abbr><ex>atem</ex></expan> <expan><abbr>Roman</abbr><ex>am</ex></expan> qui <expan><abbr>eor</abbr><ex>um</ex></expan> non <lb n="4"/><expan><abbr>haber</abbr><ex>ent</ex></expan> <expan><abbr>ded</abbr><ex>it</ex></expan> et <expan><abbr>conub</abbr><ex>ium</ex></expan> cum <expan><abbr>uxorib</abbr><ex>us</ex></expan> <lb n="5"/>quas tunc <expan><abbr>habuis</abbr><ex>sent</ex></expan> cum est <expan><abbr>civit</abbr><ex>as</ex></expan> is <lb n="6"/><expan><abbr>dat</abbr><ex>a</ex></expan> aut cum is quas <expan><abbr>post</abbr><ex>ea</ex></expan> <expan><abbr>duxis</abbr><ex>sent</ex></expan> du<lb break="no" n="7"/>mtaxat singulis <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> VI <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Ian</abbr><ex>uarias</ex></expan> <lb n="8"/><expan><abbr>Q</abbr><ex>uinto</ex></expan> Pomponio Musa <expan><abbr>L</abbr><ex>ucio</ex></expan> Cassio Iuvenale co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="9"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> I <expan><abbr>Alpinor</abbr><ex>um</ex></expan> <expan><abbr>equit</abbr><ex>atae</ex></expan> cui prae<expan><ex>e</ex><abbr>st</abbr></expan> <lb n="10"/>Titius Modestus <lb n="11"/>ex equite <lb n="12"/>Ulpio Bitumari <expan><abbr>f</abbr><ex>ilio</ex></expan> Biuasconi <expan><abbr>Eravisc</abbr><ex>o</ex></expan> <lb n="13"/><expan><abbr>descript</abbr><ex>um</ex></expan> et <expan><abbr>recognit</abbr><ex>um</ex></expan> ex <expan><abbr>tabu</abbr><ex>la</ex></expan> <expan><abbr>aer</abbr><ex>ea</ex></expan> <lb n="14"/>quae fixa est <expan><abbr>Rom</abbr><ex>ae</ex></expan> in <expan><abbr>mur</abbr><ex>o</ex></expan> post <lb n="15"/><expan><abbr>templ</abbr><ex>um</ex></expan> divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> ad Minervam </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> divi Hadria</supplied>ni <expan><abbr>f</abbr><ex>ilius</ex></expan> divi Traiani <lb n="2"/><supplied reason="lost"><expan><abbr>Par</abbr><ex>thici</ex></expan> <expan><abbr>nep</abbr><ex>os</ex></expan> divi Nervae p</supplied><expan><abbr>ronep</abbr><ex>os</ex></expan> <expan><abbr>T</abbr><ex>itus</ex></expan> Aelius Ha<lb break="no" n="3"/><supplied reason="lost">drianus Antoninu</supplied>s <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Pius <expan><abbr>pont</abbr><ex>ifex</ex></expan> <lb n="4"/><supplied reason="lost"><expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XXII i</supplied><expan><abbr>mp</abbr><ex>erator</ex></expan> II co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IV <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/><supplied reason="lost">equitibus et ped</supplied><expan><abbr>it</abbr><ex>ibus</ex></expan> <expan><abbr>q</abbr><ex>ui</ex></expan> <expan><abbr>n</abbr><ex>ilitaverunt</ex></expan> <note>sic</note> in <expan><abbr>al</abbr><ex>is</ex></expan> V quae <expan><abbr>app</abbr><ex>ellantur</ex></expan> <lb n="6"/><supplied reason="lost">I <expan><abbr>Fl</abbr><ex>avia</ex></expan> <expan><abbr>Britan</abbr><ex>nica</ex></expan> <expan><abbr>M</abbr><ex>miliaria</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et</supplied> I <expan><abbr>Thr</abbr><ex>acum</ex></expan> <expan><abbr>vet</abbr><ex>erana</ex></expan> <expan><abbr>sagit</abbr><ex>tariorum</ex></expan> et I <expan><abbr>Aug</abbr><ex>usta</ex></expan> <lb n="7"/><supplied reason="lost"><expan><abbr>Itur</abbr><ex>aeorum</ex></expan> <expan><abbr>sagit</abbr><ex>tariorum</ex></expan> et I <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et</supplied> I <expan><abbr>Brit</abbr><ex>tonum</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et <expan><abbr>coh</abbr><ex>ortibus</ex></expan> XIII <lb n="8"/><supplied reason="lost">I <expan><abbr>Nor</abbr><ex>icorum</ex></expan> et III <expan><abbr>Lusit</abbr><ex>anorum</ex></expan> et</supplied> II <expan><abbr>Ast</abbr><ex>urum</ex></expan> et <expan><abbr>Call</abbr><ex>aecorum</ex></expan> et VII <lb n="9"/><supplied reason="lost"><expan><abbr>Breuc</abbr><ex>orum</ex></expan> et II <expan><abbr>Aug</abbr><ex>usta</ex></expan> <expan><abbr>Thr</abbr><ex>acum</ex></expan> et</supplied> I <expan><abbr>Lusit</abbr><ex>anorum</ex></expan> et I <expan><abbr>Mont</abbr><ex>anorum</ex></expan> et I <lb n="10"/><supplied reason="lost"><expan><abbr>Camp</abbr><ex>anorum</ex></expan> <expan><abbr>vol</abbr><ex>untariorum</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I <expan><abbr>Thr</abbr><ex>acum</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan></supplied> <expan><abbr>Ro</abbr><ex>manorum</ex></expan> et I <expan><abbr>Alp</abbr><ex>inorum</ex></expan> <expan><abbr>equat</abbr><ex>ata</ex></expan> <note>sic</note> et <lb n="11"/><supplied reason="lost">III <expan><abbr>Batavor</abbr><ex>um</ex></expan> et I Th</supplied><expan><abbr>r</abbr><ex>acum</ex></expan> <expan><abbr>Germ</abbr><ex>anica</ex></expan> et I <expan><abbr>Alp</abbr><ex>inorum</ex></expan> <expan><abbr>ped</abbr><ex>itata</ex></expan> <lb n="12"/><supplied reason="lost">et sunt in <expan><abbr>Pann</abbr><ex>onia</ex></expan> <expan><abbr>inf</abbr><ex>eriore</ex></expan> s</supplied>ub <expan><abbr>n<am>n</am></abbr><ex>io</ex></expan> <note>sic</note> &amp;lt;C=I&amp;gt;apellia<lb break="no" n="13"/><supplied reason="lost">no <expan><abbr>leg</abbr><ex>ato</ex></expan> XXV <expan><abbr>plurib</abbr><ex>us</ex>ve</expan> sti</supplied><expan><abbr>p</abbr><ex>endiis</ex></expan> <expan><abbr>emer</abbr><ex>itis</ex></expan> <expan><abbr>dim</abbr><ex>issis</ex></expan> <expan><abbr>hon</abbr><ex>esta</ex></expan> <expan><abbr>mis</abbr><ex>sione</ex></expan> <lb n="14"/><supplied reason="lost"><expan><abbr>quor</abbr><ex>um</ex></expan> <expan><abbr>nomin</abbr><ex>a</ex></expan> subscri</supplied><expan><abbr>p</abbr><ex>ta</ex></expan> sunt <expan><abbr>civi</abbr><ex>tatem</ex></expan> <expan><abbr>Rom</abbr><ex>anam</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> 
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): Abweichung in Lesung und Ergänzung. 5 aneinanderpassende Fragmente.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0787a.</bibl><bibl>Z. Visy, SzekBalAdMuz 10/11, 1979/80, 71-75, Nr. 5; Abb. 30 u. 31; Abb. 32 u. 33 (Zeichnung). - AE 1983.</bibl><bibl>CIL 16, 00112. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

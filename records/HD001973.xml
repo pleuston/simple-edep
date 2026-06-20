@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aelia Capitolina &amp;ndash; Jerusalem (Iudaea)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001973</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001973</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>66</height><width>50</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Iudaea</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/687928">Aelia Capitolina</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/294640">Isreal</placeName><placeName type="modern">Jerusalem</placeName><placeName type="findspot">Stadtmauer, Damaskustor - Tor des Herodes</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001973_1" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Claudius*</name><name type="cognomen">Fatalis</name></persName></person><person xml:id="HD001973_2" sex="W"><persName><name type="nomen">Claudia*</name><name type="cognomen">Ionice</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-09" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ti</abbr><ex>berius</ex></expan> <expan><abbr>Cl</abbr><ex>audius</ex></expan> <expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Pop</abbr><ex>lilia</ex></expan> Fatalis <lb n="2"/>Roma |(centurio) <expan><abbr>leg</abbr><ex>ionis</ex></expan> II <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XX <lb n="3"/><expan><abbr>vic</abbr><ex>tricis</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> II <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <lb n="4"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XIV <expan><abbr>g</abbr><ex>eminae</ex></expan> <expan><abbr>M</abbr><ex>artiae</ex></expan> <expan><abbr>v</abbr><ex>ictricis</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XII <expan><abbr>ful</abbr><ex>minatae</ex></expan> <lb n="5"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> X <expan><abbr>fr</abbr><ex>etensis</ex></expan> III <expan><abbr>hast</abbr><ex>atus</ex></expan> <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> <lb n="6"/>XLII <expan><abbr>mil</abbr><ex>itavit</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXIII <expan><abbr>Cl</abbr><ex>audia</ex></expan> <lb n="7"/>Ionice <expan><abbr>lib</abbr><ex>erta</ex></expan> et heres ob me<lb break="no" n="8"/>rita eius <expan><abbr>o</abbr><ex>ssa</ex></expan> <expan><abbr>t</abbr><ex>ibi</ex></expan> <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>q</abbr><ex>uiescant</ex></expan> <expan><abbr>t</abbr><ex>erra</ex></expan> <expan><abbr>t</abbr><ex>ibi</ex></expan> <expan><abbr>l</abbr><ex>evis</ex></expan> <expan><abbr>s</abbr><ex>it</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1939, Avi-Yonah, Lifshitz: Z.2: Roma(nus) statt Roma, origo des Centurio; Z.3: Lifshitz: Cl(audiae). Avi-Yonah löst Nomenklatur des Verstorbenen im Dativ auf.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0912.</bibl><bibl>G. Forni, Vichiana 12, 1983, 197, Nr. 10. - AE 1984.</bibl><bibl>AE 1939, 0157. (B)</bibl><bibl>M. Avi-Yonah, QAP 8, 1938, 54-57; pl. 36,3. (B) - AE 1939.</bibl><bibl>B. Lifshitz, ANRW 2, 8 (Berlin - New York 1977) 470-471. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

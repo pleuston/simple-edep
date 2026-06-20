@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Colonia Ulpia Traiana Sarmizegetusa &amp;ndash; Sarmizegetusa (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000778</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000778</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarmizegetusa, Muz. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><dimensions unit="cm"><height>87</height><width>55</width><depth>49</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa</placeName></origPlace><origDate><origDate notBefore-custom="0182" notAfter-custom="0185" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">182 AD - 185 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1979"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667964">Sarmizegetusa</placeName><placeName type="findspot">{Praetorium procuratoris}</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000778_1" sex="M"><persName ref="http://romans1by1.com/rpeople/536"><name type="praenomen">C.</name><name type="nomen">Sempronius*</name><name type="cognomen">Urbanus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-06-02" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F013069" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f3e8700f-8cb3-4701-b8f8-04d0f5f42907/file/id/772597/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Marti Singili <lb n="2"/>et Minervae <lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Sempron</abbr><ex>ius</ex></expan> <lb n="4"/>Urbanus <lb n="5"/><expan><abbr>proc</abbr><ex>urator</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Altar oder Statuenbasis. Datierung: C. Sempronius Urbanus war bald nach 181 n. Chr. Finanzprokurator in Dakien. (B): ILD: Z. 3: Semproni(us).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0829.</bibl><bibl>AE 1996, 0873.</bibl><bibl>ILD 253. (B)</bibl><bibl>I. Piso, ZPE 50, 1983, 237-238, Nr. 4; Taf. 13, 4. - AE 1983.</bibl><bibl>S. Dardaine, Ktema 21, 1996, 295-304. - AE 1996.</bibl><bibl>H.-G. Pflaum, Les carrières procuratoriennes équestres sous le Haut-Empire romain (Paris 1960/61) 542-543, Nr. 200.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

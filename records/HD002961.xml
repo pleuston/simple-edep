@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Thamugadi &amp;ndash; Timgad (Numidia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002961</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002961</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">11</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Numidia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/334636">Thamugadi</placeName></origPlace><origDate><origDate notBefore-custom="0170" notAfter-custom="0171" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">170 AD - 171 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1908"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern" ref="http://www.geonames.org/2476409">Timgad</placeName><placeName type="findspot">Bogen, östliche Vorstadt</placeName><placeName type="region">Batna</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002961_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1430"><name type="praenomen">M.</name><name type="nomen">Aurelius+</name><name type="cognomen">Antoninus+</name></persName></person><person xml:id="HD002961_2" sex="M"><persName><name type="cognomen">Verus+</name></persName></person><person xml:id="HD002961_3" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Modius</name><name type="cognomen">Iustus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-15" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> <supplied reason="lost">Aurelio An</supplied>tonino Armeniaco Par<supplied reason="lost">thico ma</supplied>ximo Medico <lb n="2"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> po<supplied reason="lost"><expan><abbr>ntif</abbr><ex>ici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> po</supplied><expan><abbr>test</abbr><ex>ate</ex></expan> XXV <expan><abbr>imp</abbr><ex>eratori</ex></expan> V co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> II<supplied reason="lost">I <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> divi An</supplied>tonini filio <lb n="3"/>divi <supplied reason="lost">Veri <expan><abbr>Parth</abbr><ex>ici</ex></expan> max</supplied>imi fratr<supplied reason="lost">i divi Hadriani nepoti</supplied> divi Traiani Par<lb break="no" n="4"/>thici pro<supplied reason="lost">nepoti divi N</supplied>ervae a<supplied reason="lost">bnepoti arcu</supplied>m cum statuis et <gap reason="lost" extent="unknown" unit="character"/>T<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><expan><abbr>C</abbr><ex>aius</ex></expan> Modius Iu<supplied reason="lost">stus <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></supplied> legat<supplied reason="lost">us</supplied> Augusti <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> patronus coloni<lb break="no" n="6"/>ae dedicav<supplied reason="lost">it decreto decur</supplied>ionum pecunia publica <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> Ca</supplied><expan><abbr>es</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> <supplied reason="lost">Aurelio Ant</supplied>onino Armeniac<supplied reason="lost">o Parthico maximo</supplied> <lb n="7"/><supplied reason="lost">Medico <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> pot</supplied><expan><abbr>estat</abbr><ex>e</ex></expan> XXV <expan><abbr>imp</abbr><ex>eratori</ex></expan> V co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> II<supplied reason="lost">I <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> divi Antonini</supplied> <lb n="8"/><supplied reason="lost">filio divi Veri Parthici max</supplied>imi fratr<supplied reason="lost">i di</supplied>vi H<supplied reason="lost">adriani nepoti divi Tra</supplied><lb break="no" n="9"/><supplied reason="lost">iani Parthici pronepoti divi N</supplied>ervae a<supplied reason="lost">bnepoti arcum <gap reason="lost" extent="unknown" unit="character"/>m cum statuis</supplied> <lb n="10"/><supplied reason="lost">et <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>C</abbr><ex>aius</ex></expan> Modius Iustus</supplied> legat<supplied reason="lost">us <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> patronus coloni</supplied><lb break="no" n="11"/><supplied reason="lost">ae dedicavit decreto decurionum pecunia publica</supplied> <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> Caes</supplied>ari <supplied reason="lost"><expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio Antonino</supplied> Arme<supplied reason="lost">niaco <expan><abbr>Part</abbr><ex>hico</ex></expan> m</supplied><expan><abbr>ax</abbr><ex>imo</ex></expan> Med<supplied reason="lost">ico <expan><abbr>Aug</abbr><ex>usto</ex></expan></supplied> <lb n="12"/><supplied reason="lost"><expan><abbr>trib</abbr><ex>unicia</ex></expan> potes</supplied><expan><abbr>tat</abbr><ex>e</ex></expan> <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>imp</abbr><ex>eratori</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> NE<gap reason="lost" extent="unknown" unit="character"/>DAM<gap reason="lost" extent="unknown" unit="character"/>IONEM AE<gap reason="lost" extent="unknown" unit="character"/> <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/>ERI<gap reason="lost" extent="unknown" unit="character"/>IT<gap reason="lost" extent="unknown" unit="character"/> <lb n="14"/><expan><abbr>C</abbr><ex>aius</ex></expan> Modius Iustus legatus <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <supplied reason="lost"><expan><abbr>pr</abbr><ex>aetore</ex></expan> patron</supplied>us coloni<supplied reason="lost">ae dedicavit</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Tafel zum östlichen Stadttor gehörig; ursprüngliche Länge circa 6 m. Ältere Lesung (CIL, AE 1916) durch weitere Fragmente ergänzt bzw. berichtigt. Y: 10. 12. 170 - 9. 12. 171 n. Chr. Maße CIL VIII 2373 (1. Fragment): (98) x (70). Material: bläulicher Kalkstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0879.</bibl><bibl>M. Le Glay - S. Tourrenc, AntAfr 21, 1985, 124-125, Nr. 7; Fotos. - AE 1985.</bibl><bibl>AE 1916, 0086.</bibl><bibl>CIL 08, 02373.</bibl><bibl>R. Cagnat, BCTH 1915, 235-241. - AE 1916.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

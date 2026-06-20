@@ -8,7 +8,8 @@
  * pages are ungated. Only the editor (which saves) requires sign-in. */
 (function () {
   var UNGATED = ["login.html", "index.html", "catalog.html", "viewer.html",
-                 "map.html", "docs.html", "about.html", "people.html", ""];
+                 "map.html", "docs.html", "about.html", "people.html",
+                 "bibliography.html", ""];
   var USERNAME_KEY = "edep_gh_username";
   var SESSION_KEY  = "edep_authed";
   var LOGIN        = "login.html";

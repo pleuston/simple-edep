@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from (Civitas Alisinensium) &amp;ndash; Osterburken (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004736</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004736</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(32)</height><width>(24)</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118898">(Civitas Alisinensium)</placeName></origPlace><origDate><origDate notBefore-custom="0158" notAfter-custom="0160" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">158 AD - 160 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1908"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2856637">Osterburken</placeName><placeName type="findspot">{S. Kilian, Kirche} (Vorgängerbau) (Fragment a); {Kohortenlager, Porta praetoria}, bei (Fragment b)</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004736_1" sex="M"><persName><name type="nomen">Veranius</name><name type="cognomen">Saturninus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-12-13" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004477" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/55f7aed6-d090-47c3-ae97-08998fb7fae5/file/id/765239/file_version/name/small"/><graphic xml:id="F011807" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d4e843ff-ae91-4a5a-b06e-62ba57133c7d/file/id/771330/file_version/name/small"/><graphic xml:id="F026020" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/04bc7b9e-39d5-4f6d-b1ff-4aa654392a54/file/id/786772/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Genio pr<supplied reason="lost">aep</supplied><lb break="no" n="2"/>ositorum <lb n="3"/>et Genio con<lb break="no" n="4"/><expan><abbr>legi</abbr><ex>i</ex></expan><surplus>s</surplus> secutor<lb break="no" n="5"/>um eorum sub <expan><abbr>cur</abbr><ex>a</ex></expan> <lb n="6"/>Verani Saturnini <lb n="7"/><supplied reason="lost">|(centurionis)</supplied> <expan><abbr>leg</abbr><ex>ionis</ex></expan> V<supplied reason="lost">III A</supplied>u<supplied reason="lost"><expan><abbr>g</abbr><ex>ustae</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Es sind zwei aneinanderpassende Teile erhalten: oberer Teil (a) gefunden beim Abbruch der Kirche S. Kilian (1971), unterer Teil (b) nahe der Porta Praetoria (1908). CIL XIII, 11766: nur unterer Teil publiziert; Schillinger-Häfele, AE 1978: nur oberer Teil publiziert. (B): Schillinger-Häfele; AE 1978; Speidel - Neumaier; AE 1981; RSO 017: Z. 1/2: p[raep]/ositorum; Speidel - Neumaier, AE 1981: Z. 6: Venant(i) Saturni[ni]; Z. 7: nicht gelesen; Alföldy; AE 2004: Z. 7: (centurionis). Datierung: um 159 n. Chr. (vgl. AE 1986, 0523).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0531. (B)</bibl><bibl>U. Schillinger-Häfele, FBW 1, 1974, 544, Nr. 7; Abb. 6. (B)</bibl><bibl>U. Schillinger-Häfele, BRGK 58, 1977, 484, Nr. 50. (B) - AE 1978.</bibl><bibl>AE 1981, 0693. (B)</bibl><bibl>M.P. Speidel - H. Neumaier, FBW 6, 1981, 565-570; Abb. 1. (B) - AE 1981.</bibl><bibl>AE 1986, 0524.</bibl><bibl>M.P. Speidel, FBW 11, 1986, 309. - AE 1986.</bibl><bibl>AE 2004, 1007. (B)</bibl><bibl>G. Alföldy, in: E. Schallmayer (Hrsg.), Limes Imperii Romani. Beiträge zum Forschungskolloquium "Weltkulturerbe Limes", Lich-Arnsburg 2001 (Bad Homburg v. d. H. 2004) 14-16. (B) - AE 2004.</bibl><bibl>CIL 13, 11766. (B)</bibl><bibl>C. Schmidt Heidenreich, Le glaive et l'autel. Camps et piété militaires sous le Haut-Empire romain (Rennes 2013) 321, Nr. C228.</bibl><bibl>R. Cubaynes, Les hommes de la VIIIe légion Auguste (Autun 2018) 554-556, Nr. 168 b; Foto.</bibl><bibl>RSO 014.</bibl><bibl>RSO 017. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

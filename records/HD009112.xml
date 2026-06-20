@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mediolanum &amp;ndash; Milano (Transpadana (Regio XI))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009112</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009112</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>42</height><width>46</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Transpadana (Regio XI)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/138459">Mediolanum</placeName></origPlace><origDate><origDate when-custom="0377" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">377 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Milano</placeName><placeName type="findspot"/><placeName type="region">Lombardia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009112_1" sex="M"><persName><name type="cognomen">Victurinus (= Victorinus)</name></persName></person><person xml:id="HD009112_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q189108"><name type="cognomen">Gratianus</name></persName></person><person xml:id="HD009112_3" sex="M"><persName><name type="cognomen">Merobandes</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-06-03" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F034361" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6df9ae47-e0b2-4e31-a878-423cabab6af0/file/id/795195/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Dexp</abbr><ex>ositio</ex></expan> <note>sic</note> Victurini <note>sic</note> <lb n="2"/>exsorcist<expan><ex>a</ex><abbr>e</abbr></expan> <note>sic</note> die <lb n="3"/>III <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Nob</abbr><ex>embres</ex></expan> <note>sic</note> Gra<lb break="no" n="4"/>tiano <expan><abbr>Aug</abbr><ex>usto</ex></expan> IIII et <lb n="5"/>Merobaude cons<expan><ex>ulibu</ex><abbr>s</abbr></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Sartori: Z. 1: De(positio); Z. 2: exorcist(a)e; AE 1972, Bovini: Z. 2: exsorcistae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1972, 0214. (B)</bibl><bibl>G. Bovini, RSL 37, 1971, 72. (B)</bibl><bibl>A. Sartori, in: Milano capitale dell'impero romano (286-402 d.C.) (Milano 1990) 116, Nr. 2a.21a; fig. 2a.21a. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Susqueda (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003053</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003053</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Vic, Mus. Episc.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(55)</height><width>27</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-4.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3108474">Susqueda</placeName><placeName type="findspot">Heiligtum "del Coll"</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003053_1" sex="M"><persName><name type="cognomen">Campanus+</name></persName></person><person xml:id="HD003053_2" sex="M"><persName><name type="cognomen">Maximus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-06-14" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>eo</ex></expan> Sei<lb break="no" n="2"/>tund<lb break="no" n="3"/>o <expan><abbr>ara</abbr><ex>m</ex></expan> <lb n="4"/>voti<lb break="no" n="5"/>vam </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">C</supplied>am<lb break="no" n="2"/>pan<lb break="no" n="3"/>us et <lb n="4"/>Max<lb break="no" n="5"/><expan><abbr>im</abbr><ex>us</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Rückseitiges Inschriftfeld: 38,4 x 24,9 cm; Buchstabenhöhe: 6-4,8 cm. (B): Falscher Zeilenfall.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0633. (B)</bibl><bibl>I. Rodà i de Llanza, Catàleg de l'epigrafia i de l'escultura clàssiques del Museu Episcopal de Vic (Vic 1989) 34, Nr. 16; Fotos.</bibl><bibl>IRC 3, 010; pl. 8, 10.</bibl><bibl>IRC 5, p. 83.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

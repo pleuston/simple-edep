@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004237</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004237</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>117</height><width>65</width><depth>43</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.3-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="-0030" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC - 70 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Via Latina / Via Talamone, Kreuzung</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004237_1"><persName><name type="cognomen">Arphocras</name></persName></person><person xml:id="HD004237_2"><persName><name type="praenomen">C.</name><name type="nomen">Sulpicius</name><name type="cognomen">Galba</name></persName></person><person xml:id="HD004237_3"><persName><name type="cognomen">Corinthus</name></persName></person><person xml:id="HD004237_4"><persName><name type="cognomen">Faustus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-04-06" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Arphocras <expan><abbr>C</abbr><ex>ai</ex></expan> Sulpici Galbae unctor se vivo locum emit sibi et <lb n="2"/>Corintho denaris XXC et ossuarium denaris CLXXV </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Arphocras <expan><abbr>C</abbr><ex>ai</ex></expan> Sulpici <lb n="2"/>Galbae <expan><abbr>s</abbr><ex>ervus</ex></expan> unctor </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Corinthus <expan><abbr>C</abbr><ex>ai</ex></expan> Sulpici <lb n="2"/>Galbae <expan><abbr>s</abbr><ex>ervus</ex></expan> <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XXV </ab></div><div n="4" type="textpart"><ab><lb n="1"/> Faustus <expan><abbr>C</abbr><ex>ai</ex></expan> Galbae <lb n="2"/>a manu <lb n="3"/>ollam donavit <lb n="4"/><expan><abbr>C</abbr><ex>aius</ex></expan> Sulpicius Arpocras
+            </ab></div></div>
+            <div type="commentary">
+                <p>Die insgesamt 4 Inschriften verteilen sich auf den Architrav, die Fläche unter der linken Büste, die Fläche unter der rechten Büste und den Sockel der Ädikula. (B): AE 1980: Z. 6/7: keine Angabe des Zeilenfalls. C. Sulpicius Galba: wohl Verwandter des Kaisers Galba.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0150. (B)</bibl><bibl>P. Pensabene, BCAR 86, 1978/79, 17-27 u. 29-38; tav. 5,1. - AE 1980.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

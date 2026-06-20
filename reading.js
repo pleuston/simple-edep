@@ -14,6 +14,7 @@
   // Linked external identifiers (upstream edep #15) — resolve idno values to the
   // record in the source database so they render as outbound links.
   var ID_LINKS = {
+    localID: function (v) { return "https://edh.ub.uni-heidelberg.de/edh/inschrift/" + encodeURIComponent(v); },
     EDH: function (v) { return "https://edh.ub.uni-heidelberg.de/edh/inschrift/" + encodeURIComponent(v); },
     EDCS: function (v) { return "https://db.edcs.eu/epigr/edcs_id.php?s_sprache=en&p_edcs_id=" + encodeURIComponent(v); },
     EDR: function (v) { return "https://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=" + encodeURIComponent(v); },
@@ -21,8 +22,8 @@
     PHI: function (v) { var n = String(v).replace(/\D/g, ""); return n ? "https://inscriptions.packhum.org/text/" + n : ""; },
     Wikidata: function (v) { return "https://www.wikidata.org/wiki/" + encodeURIComponent(v); }
   };
-  var ID_ORDER = ["EDH", "EDCS", "EDR", "TM", "PHI", "CIL", "Wikidata", "inventory"];
-  var ID_LABELS = { EDH: "EDH", EDCS: "EDCS", EDR: "EDR", TM: "Trismegistos", PHI: "PHI", CIL: "CIL", Wikidata: "Wikidata", inventory: "Inv. no." };
+  var ID_ORDER = ["localID", "EDH", "EDCS", "EDR", "TM", "PHI", "CIL", "Wikidata", "inventory"];
+  var ID_LABELS = { localID: "EDH", EDH: "EDH", EDCS: "EDCS", EDR: "EDR", TM: "Trismegistos", PHI: "PHI", CIL: "CIL", Wikidata: "Wikidata", inventory: "Inv. no." };
 
   function esc(s) { return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
   function parse(xml) {
@@ -30,7 +31,11 @@
     return doc.getElementsByTagName("parsererror").length ? null : doc;
   }
   function ns(doc, name) { return doc.getElementsByTagNameNS(NS, name); }
-  function txt(node) { return node ? node.textContent.trim() : ""; }
+  function deEntity(s) {
+    return String(s).replace(/&ndash;/g, "–").replace(/&mdash;/g, "—")
+      .replace(/&nbsp;|&#160;/g, " ").replace(/&amp;/g, "&");
+  }
+  function txt(node) { return node ? deEntity(node.textContent).trim() : ""; }
   function attr(node, a) { return node && node.getAttribute(a) || ""; }
 
   // walk an edition node -> display HTML (Leiden rendering)

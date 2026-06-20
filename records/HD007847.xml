@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Ostia &amp;ndash; Roma, Ostia (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007847</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007847</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Ostia</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/422995">Ostia</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma, Ostia</placeName><placeName type="findspot">Ostia antica</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-02-15" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F034149" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/59b9e68b-19fd-4fd7-8034-281dba74d436/file/id/794980/file_version/name/small"/><graphic xml:id="F002576" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2c735399-964c-46f6-80d2-a31b9bc71191/file/id/763649/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Egriliae Clusinae item <lb n="3"/>libertis libertabusque qui <lb n="4"/>quaeve iam sunt qui quaeve futuri <lb n="5"/><expan><abbr>A</abbr><ex>ulus</ex></expan> Egrilius Hilarus coactor <lb n="6"/>argentarius sevir <expan><abbr>Aug</abbr><ex>ustalis</ex></expan> idem q<expan><ex>uin</ex><abbr>q</abbr><ex>uennalis</ex></expan> q<expan><ex>uin</ex><abbr>q</abbr><ex>uennalis</ex></expan> <expan><abbr>col</abbr><ex>legii</ex></expan> <lb n="7"/><expan><abbr>fabr</abbr><ex>um</ex></expan> <expan><abbr>tign</abbr><ex>uariorum</ex></expan> <expan><abbr>Ost</abbr><ex>iensium</ex></expan> lustri XXVI et <lb n="8"/>Egrilia Iustina patroni <lb n="9"/>fecerunt et posteris<lb break="no" n="10"/><expan><abbr>q</abbr><ex>ue</ex></expan> eorum earumve in <expan><abbr>f</abbr><ex>ronte</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> XIII in <expan><abbr>ag</abbr><ex>ro</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> XXV
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0204.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

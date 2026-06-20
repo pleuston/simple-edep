@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Libarna &amp;ndash; Serravalle Scrivia (Liguria (Regio IX))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003156</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003156</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Genova, Pegli, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Marmor, geädert / farbig</material><dimensions unit="cm"><height>(21)</height><width>(20)</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.5-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Liguria (Regio IX)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/383694">Libarna</placeName></origPlace><origDate><origDate when-custom="0519" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">519 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Serravalle Scrivia</placeName><placeName type="findspot"/><placeName type="region">Piemonte</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003156_1" sex="M"><persName><name type="cognomen">Florianus+</name></persName></person><person xml:id="HD003156_2"><persName><name type="cognomen">Eutharicus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-02-28" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>B</abbr><ex>onae</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>emoriae</ex></expan></supplied> <lb n="2"/>hic requies<supplied reason="lost">cit in</supplied> <lb n="3"/>pace Floria<supplied reason="lost">nus</supplied> <lb n="4"/>qui vixit an<supplied reason="lost">nos</supplied> <lb n="5"/><expan><abbr>p</abbr><ex>lus</ex></expan> <expan><abbr>m</abbr><ex>inus</ex></expan> duo et m<supplied reason="lost">enses</supplied> <lb n="6"/>tres recess<supplied reason="lost" cert="low">it s(ub)</supplied> <lb n="7"/>die XVI Ka<supplied reason="lost"><expan><abbr>l</abbr><ex>endas</ex></expan> Iu</supplied><lb break="no" n="8"/><expan><abbr>n</abbr><ex>ias</ex></expan> E<supplied reason="lost" cert="low">utharico v(iro) c(larissimo) co(n)s(ule)</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Material: grauer Marmor. Ergänzung zu E[utharico] hypothetisch.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0423.</bibl><bibl>G. Mennella, BollMusCivGen 2, 1980, 97-98, Nr. 8; fig. 8. - AE 1985.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

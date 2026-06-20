@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ariminum &amp;ndash; Rimini (Aemilia (Regio VIII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002839</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002839</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bibliotheca Gambalungae</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Aemilia (Regio VIII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/393379">Ariminum</placeName></origPlace><origDate><origDate when-custom="0523" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">523 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1863"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Rimini</placeName><placeName type="findspot">SS. Andrea e Donato, Kirche, sekundär verwendet</placeName><placeName type="region">Forli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002839_1" sex="M"><persName><name type="cognomen">Leo</name></persName></person><person xml:id="HD002839_2" sex="M"><persName><name type="cognomen">Maximus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-06-06" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F035941" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/12c44025-b26c-43c8-b401-1b9beaaa097f/file/id/796791/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Hic requiescit in <lb n="2"/>pace Leo qui fuit <lb n="3"/>conductor dom<expan><ex>i</ex><abbr>ni</abbr></expan> <lb n="4"/>nostri an<expan><ex>n</ex><abbr>us</abbr></expan> <note>sic</note> XX et vix<lb break="no" n="5"/>it annus <note>sic</note> LXX et menses <lb n="6"/>VIII dies XX et sepultus <lb n="7"/>Maximo <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> cons<lb break="no" n="8"/>ule diae <note>sic</note> <expan><abbr>Kalend</abbr><ex>arum</ex></expan> <lb n="9"/>Iuliarum indi<lb break="no" n="10"/>ctione prima
+            </ab></div>
+            <div type="commentary">
+                <p>Wiederverwendung der Stele als Stufe. Z. 7 ff.: flüchtiger eingemeißelt, nach Bestattung genaues Datum nachgetragen. Q ähnelt einem P. (B): ILCV 351, de Rossi: Z. 4/5: vix/it annus XXX; CIL XI 549: Z. 1: requeiscit.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0401.</bibl><bibl>N. Duval, StudRomagn 21, 1970, 389-392; fig. 1; fig. 2 (Zeichnung). - AE 1984.</bibl><bibl>CIL 11, 00549. (B)</bibl><bibl>ILCV 0351. (B)</bibl><bibl>G.B. de Rossi, BullArchCrist 2, 1864, 15. (B) - AE 1984.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

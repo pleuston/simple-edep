@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Boundary inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001488</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001488</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, S. Omobono</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/85">cippus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/71">Travertin</material><dimensions unit="cm"><height>(85)</height><width>71</width><depth>(11)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="-0023" notAfter-custom="0044" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">23 BC - 44 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Forum Boarium, bei</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/96">boundary inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001488_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Sallvius+*</name></persName></person><person xml:id="HD001488_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Calpurnius</name><name type="cognomen">Piso</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-01-07" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010707" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ad115056-be07-4cbd-ac17-47b30566047c/file/id/770227/file_version/name/small"/><graphic xml:id="F026817" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4e3301c7-cdd6-4fc0-aa33-63ba596ed195/file/id/787570/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> Sall<expan><ex>u</ex><abbr>vi</abbr></expan><supplied reason="lost">us</supplied> <lb n="2"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Calpurnius Piso <lb n="3"/><expan><abbr>pr</abbr><ex>aetores</ex></expan> <expan><abbr>aer</abbr><ex>arii</ex></expan> <lb n="4"/>aream ex <expan><abbr>s</abbr><ex>enatus</ex></expan> <expan><abbr>c</abbr><ex>onsulto</ex></expan> a privatis <lb n="5"/>publica pecunia <lb n="6"/>re<supplied reason="lost">d</supplied>emptam <expan><abbr>terminaver</abbr><ex>unt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1984: Z. 5: pecunia publica. Terminalcippus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0035. (B)</bibl><bibl>P. Scelfo - S. Panciera, in: Atti del Colloquio Internazionale AIEGL su Epigrafia e ordine senatorio 1 (Roma 1982) 597-599, Nr. 4; tav. 12,2. - AE 1984.</bibl><bibl>CIL 06, 40884.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

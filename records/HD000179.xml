@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Beneventum &amp;ndash; Benevento (Apulia et Calabria (Regio II))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000179</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000179</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>140</height><width>36</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Apulia et Calabria (Regio II)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/432721">Beneventum</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Benevento</placeName><placeName type="findspot"/><placeName type="region">Campania</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000179_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Egnatius</name><name type="cognomen">[---]rtio</name></persName></person><person xml:id="HD000179_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Egnatius</name><name type="cognomen">[---]gentus</name></persName></person><person xml:id="HD000179_3" sex="W"><persName><name type="nomen">Vettia</name><name type="cognomen">Perusa+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-01" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> Egnatio <expan><abbr>Q</abbr><ex>uinti</ex></expan> <gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="2"/>rtioni <lb n="3"/><expan><abbr>M</abbr><ex>arco</ex></expan> Egnatio <expan><abbr>C</abbr><ex>ai</ex></expan> <gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="4"/>genti <lb n="5"/>Vettiae |(mulieris) <expan><abbr>l</abbr><ex>ibertae</ex></expan> Pe<supplied reason="lost">r</supplied><lb break="no" n="6"/>usae
+            </ab></div>
+            <div type="commentary">
+                <p>Mögliche Ergänzung Z. 1/2: [Qua]rtioni.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0260.</bibl><bibl>G. Gatti, NSA 1897, 161, Nr. a. - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

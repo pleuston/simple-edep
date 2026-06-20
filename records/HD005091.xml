@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005091</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005091</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>31</height><width>73</width><depth>9</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="0372" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">372 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">S. Callisto, Katakombe</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005091_1"><persName><name type="cognomen">Quiracus (= Cyriacus)</name></persName></person><person xml:id="HD005091_2"><persName><name type="cognomen">Modestus</name></persName></person><person xml:id="HD005091_3"><persName><name type="cognomen">Arontheus* (= Arintheus)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2005-09-20" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Mir<expan><ex>a</ex><abbr>e</abbr></expan> innocentiae <lb n="2"/>hac <note>sic</note> sapientiae studio <lb n="3"/>plenus Quiracus <note>sic</note> <expan><abbr>q</abbr><ex>ui vixit</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> <lb n="4"/><expan><abbr>p</abbr><ex>lus</ex></expan> <expan><abbr>m</abbr><ex>inus</ex></expan> LV <expan><abbr>d</abbr><ex>ies</ex></expan> <expan><abbr>pr</abbr><ex>idie</ex></expan> Idus No<expan><ex>vem</ex><abbr>br</abbr><ex>es</ex></expan> in pace </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Modesto et Ar<expan><ex>onthe</ex><abbr>o</abbr></expan> <note>sic</note> <lb n="2"/>mir<expan><ex>a</ex><abbr>e</abbr></expan> innocentiae <lb n="3"/><expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXXI mensis <note>sic</note> VII <lb n="4"/>CIT bene INMERIS A
+            </ab></div></div>
+            <div type="commentary">
+                <p>Offenbar zwei Inschrifttafeln, die zu einem einzigen Monument gehören. Maße der zweiten Inschrift: 31 x 70 x 9. Buchstabenhöhe: 4,5.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0100.</bibl><bibl>U.M. Fasola, RAC 56, 1980, 245-246. - AE 1981.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

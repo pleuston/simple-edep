@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Klosterneuburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009287</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009287</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Klosterneuburg, Stiftsmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>178</height><width>66</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118577"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2773913">Klosterneuburg</placeName><placeName type="findspot">{Stift Klosterneuburg, Leopoldihof (Kuchelhof)}, römische Zisterne</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009287_1" sex="M"><persName><name type="nomen">Aelius*</name><name type="cognomen">Festus</name></persName></person><person xml:id="HD009287_2" sex="W"><persName><name type="nomen">Ulpia*</name><name type="cognomen">Iaiia</name></persName></person><person xml:id="HD009287_3" sex="M"><persName><name type="nomen">Cocceius*</name><name type="cognomen">Festivus</name></persName></person><person xml:id="HD009287_4" sex="W"><persName><name type="nomen">Aelia*</name><name type="cognomen">Festa</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-04-20" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>Ael</abbr><ex>io</ex></expan> Fes<lb break="no" n="3"/>to <expan><abbr>vet</abbr><ex>erano</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <lb n="4"/>II <expan><abbr>Bat</abbr><ex>avorum</ex></expan> et <lb n="5"/><expan><abbr>Ul</abbr><ex>piae</ex></expan> Iaiiae <lb n="6"/><expan><abbr>parentib</abbr><ex>us</ex></expan> <lb n="7"/>et <expan><abbr>Coc</abbr><ex>ceio</ex></expan> Fes<lb break="no" n="8"/>tivo filio <lb n="9"/><expan><abbr>Ael</abbr><ex>ia</ex></expan> Festa <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Inz zwei Teile gebrochen. Inschriftfeld von Halbsäulen eingefasst; darüber Giebelfeld mit Adler; über den Giebelschrägen Delphine. Z. 3: vom V möglicherweise noch das rechte obere cornu erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0928.</bibl><bibl>H. Ubl, Das römische Lapidarium (Klosterneuburg 1991) 103-104, Nr. 7; Foto.</bibl><bibl>H. Ubl, RŒ 13/14, 1985/86, 318. - AE 1988.</bibl><bibl>B. Lőrincz, Die römischen Hilfstruppen in Pannonien während der Prinzipatszeit 1. Die Inschriften (Wien 2001) 234, Nr. 254.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

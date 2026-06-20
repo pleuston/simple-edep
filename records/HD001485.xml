@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001485</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001485</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Lap. For.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(53)</height><width>(48)</width><depth>(47)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0457" notAfter-custom="0472" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">457 AD - 472 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Forum Romanum?</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001485_1" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Macrobius Plotinus+ Eustathius+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-06-10" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011064" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/db56a9a6-5380-4053-966a-9241a4ba8cb6/file/id/770587/file_version/name/small"/><graphic xml:id="F029632" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/37b9512d-0a93-46c2-bd90-6cce8d2bdd34/file/id/790389/file_version/name/small"/><graphic xml:id="F029633" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ef77e638-2d35-45b5-a36e-1866c2ae6779/file/id/790390/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Fl</abbr><ex>avius</ex></expan> Macrobius Pl<supplied reason="lost">otinus</supplied> <lb n="2"/><supplied reason="lost">E</supplied>ustathius <expan><abbr>v</abbr><ex>ir</ex></expan> <supplied reason="lost"><expan><abbr>c</abbr><ex>larissimus</ex></expan> et <expan><abbr>inl</abbr><ex>ustris</ex></expan> <expan><abbr>praef</abbr><ex>ectus</ex></expan></supplied> <lb n="3"/><supplied reason="lost">urbi</supplied><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>mes</abbr><ex cert="low"/></expan> ob<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><supplied reason="lost">ex ab</supplied>strusis loc<supplied reason="lost">is</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>paene</abbr><ex cert="low"/></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente erhalten. (B): Panciera, AE 1984: abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0034. (B)</bibl><bibl>S. Panciera, in: Atti del Colloquio Internazionale AIEGL su Epigrafia e ordine senatorio 1, Roma 1981, Tituli 4 (Roma 1982) 658-660, Nr. 38; tav. 24,1. (B) - AE 1984.</bibl><bibl>CIL 06, 41394; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

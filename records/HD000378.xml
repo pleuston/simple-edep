@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Emerita Augusta &amp;ndash; Mérida (Lusitania)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000378</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000378</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mérida, Mus. Arq.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>75</height><width>90</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lusitania</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/256155">Emerita Augusta</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2513917">Mérida</placeName><placeName type="findspot">Cuartel de Artillería</placeName><placeName type="region">Extremadura</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000378_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Varius</name><name type="cognomen">Ligus+</name></persName></person><person xml:id="HD000378_2" sex="W"><persName><name type="nomen">Licinia</name><name type="cognomen">Thelis+</name></persName></person><person xml:id="HD000378_3" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Varius</name><name type="cognomen">Severus</name></persName></person><person xml:id="HD000378_4" sex="W"><persName><name type="nomen">Varia</name><name type="cognomen">Avita</name></persName></person><person xml:id="HD000378_5" sex="M"><persName><name type="praenomen">Q.++</name><name type="nomen">Iulius++</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000378_6" sex="W"><persName><name type="nomen">Iulia</name><name type="cognomen">Severa</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-11" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> Vario <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Pap</abbr><ex>iria</ex></expan> Ligu<supplied reason="lost">ri</supplied> <lb n="2"/>Liciniae <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>l</abbr><ex>ibertae</ex></expan> Thelid<supplied reason="lost">i</supplied> <lb n="3"/><expan><abbr>P</abbr><ex>ublio</ex></expan> Vario <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Pap</abbr><ex>iria</ex></expan> Severo <lb n="4"/>Variae <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> Avitae <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>uo</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan> <lb n="5"/><del rend="erasure">[<expan><abbr>Q</abbr><ex>uintus</ex></expan> Iulius <gap reason="lost" extent="unknown" unit="character"/></del>] <lb n="6"/>socero socrui socerino <lb n="7"/>uxsori <note>sic</note> <del rend="erasure">[dedicavit</del>] <lb n="8"/>Iulia <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> Severa <lb n="9"/><expan><abbr>h</abbr><ex>oc</ex></expan> <expan><abbr>m</abbr><ex>onumentum</ex></expan> <expan><abbr>s</abbr><ex>ive</ex></expan> <expan><abbr>s</abbr><ex>epulcrum</ex></expan> <expan><abbr>e</abbr><ex>xterum</ex></expan> <expan><abbr>h</abbr><ex>eredem</ex></expan> <expan><abbr>n</abbr><ex>on</ex></expan> <expan><abbr>s</abbr><ex>equetur</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z.2: Abweichungen in Lesung und Ergänzung. (C): P. Varius Q.f. Ligur (García Iglesias). Verwandte des Schwiegervaters in Italien mit hohem soz. Rang bekannt (cf. Tac., Ann. 4,42,3; 6,30,1; ILS 171; Dio 60,23,3). Socerinus als hapax. Ergänzungsvorschlag für gründliche Rasur: [[Q(uintus) Iulius ---]], [[dedicavit]] (vgl. Rasur bei CIL II 1660).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0494. (BC)</bibl><bibl>L. García Iglesias, RevEstExtremeños 39, 1983, 586-588; lám. 6. (B) - AE 1983.</bibl><bibl>ILER 3669. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

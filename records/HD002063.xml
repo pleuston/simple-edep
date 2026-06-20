@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from (Civitas Alisinensium) &amp;ndash; Osterburken (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002063</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002063</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>153</height><width>72</width><depth>36</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118898">(Civitas Alisinensium)</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0231" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 231 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1982"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2856637">Osterburken</placeName><placeName type="findspot">{Benefiziarierweihebezirk}, Tempel der Dea Candida, vor</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002063_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Essimnius</name><name type="cognomen">Tertius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-12-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004472" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b77ca18a-b1dd-4245-b2a8-79accf870c17/file/id/765234/file_version/name/small"/><graphic xml:id="F028256" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0a715708-0e75-4a28-8372-79d239eb7cbc/file/id/789013/file_version/name/small"/><graphic xml:id="F028141" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4d807b25-b911-4f6f-a38f-83619d432e24/file/id/788898/file_version/name/small"/><graphic xml:id="F034900" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/dfc4aba6-2ec5-43ac-bfe0-4a5217c8592c/file/id/795737/file_version/name/small"/><graphic xml:id="F034901" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/488b433b-3c91-401f-9233-411733cc8753/file/id/795738/file_version/name/small"/><graphic xml:id="F034902" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fa6f1570-02e6-48d6-b917-be3208daebc7/file/id/795739/file_version/name/small"/><graphic xml:id="F034903" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7a075017-b436-4e02-b957-9c907e3799e8/file/id/795740/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>et Iunoni <lb n="3"/>Reginae <lb n="4"/><expan><abbr>T</abbr><ex>itus</ex></expan> Essimni<lb break="no" n="5"/>us Tertius b<expan><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> pro <lb n="6"/>se et suos <note>sic</note> <lb n="7"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0689.</bibl><bibl>E. Schallmayer, in: Der Keltenfürst von Hochdorf (Stuttgart 1985) 398, Nr. 5; Abb. 598. - AE 1985.</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 132-134, Nr. 147; Fotos.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

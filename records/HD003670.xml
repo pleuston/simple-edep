@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Solva &amp;ndash; Esztergom (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003670</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003670</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Esztergom, Balassa Bálint Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(160)</height><width>103</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197519">Solva</placeName></origPlace><origDate><origDate notBefore-custom="0222" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1990"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3053163">Esztergom</placeName><placeName type="findspot">Flur Bánom, {spätantike Nekropole}, Grab 308</placeName><placeName type="region">Komárom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003670_1" sex="M"><persName><name type="nomen">Septimius*</name><name type="cognomen">Valens+</name></persName></person><person xml:id="HD003670_2" sex="W"><persName><name type="nomen">Septimia*</name><name type="cognomen">Saturnina</name></persName></person><person xml:id="HD003670_3" sex="W"><persName><name type="nomen">Septimia*</name><name type="cognomen">Constantina+</name></persName></person><person xml:id="HD003670_4" sex="M"><persName><name type="nomen">Septimius*</name><name type="cognomen">Sil[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-02-03" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Sept</abbr><ex>imio</ex></expan> Va<supplied reason="lost">le</supplied>nti <expan><abbr>veter</abbr><ex>ano</ex></expan> <lb n="2"/>ex vexi<supplied reason="lost">ll</supplied>ario <expan><abbr>coh</abbr><ex>ortis</ex></expan> <lb n="3"/>|(miliariae) <expan><abbr>n</abbr><ex>ovae</ex></expan> <expan><abbr>S</abbr><ex>everianae</ex></expan> qui vixit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> <lb n="4"/>LXX et <expan><abbr>Sept</abbr><ex>imiae</ex></expan> S&amp;lt;at=N&amp;gt;<expan><abbr>urnina</abbr><ex>e</ex></expan> <lb n="5"/>qui <note>sic</note> vixit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XL et <lb n="6"/><expan><abbr>Sept</abbr><ex>imiae</ex></expan> <expan><abbr>Constan<supplied reason="lost">t</supplied>ina</abbr><ex>e</ex></expan> <lb n="7"/>vivae co<supplied reason="lost">niugi</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/>et <expan><abbr>Sept</abbr><ex>imio</ex></expan> Sil<gap reason="lost" extent="unknown" unit="character"/> <lb n="9"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> viv<supplied reason="lost">o</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> 
+            </ab></div>
+            <div type="commentary">
+                <p>Das Erhaltene ist in mehrere Stücke gebrochen. Linker und rechter Rahmen des Inschriftfeldes mit Efeuranken verziert; oberhalb des Inschriftfeldes Opferszene; darüber Reste von vier Büsten. Zahlreiche Ligaturen. Z. 4: an der beabsichtigten AT-Ligatur fehlen die Querhasten, die möglicherweise nur aufgemalt waren. (B): AE 2003: Z. 6: Constantinae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2003, 1370. (B)</bibl><bibl>TRHR (Suppl.) 123; Abb. 123 (Foto u. Zeichnung).</bibl><bibl>B. Lőrincz, in: Á. Szabó - E. Tóth (Hrsg.), Pannonica provincialia et archaeologia (Budapest 2003) 253-254, Nr. 3; Abb. 5; Abb. 6 (Zeichnung). - AE 2003.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

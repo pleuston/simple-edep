@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Corduba &amp;ndash; Córdoba (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004847</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004847</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>121</height><width>54</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-1.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/256128">Corduba</placeName></origPlace><origDate><origDate when-custom="0607" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">607 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2519240">Córdoba</placeName><placeName type="findspot">Camino Viejo de Almodóvar</placeName><placeName type="region">Andalucía</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004847_1"><persName><name type="cognomen">Chintio+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-02-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020925" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f128ceb8-93fc-4d30-a2e3-34bd9989995b/file/id/780999/file_version/name/small"/><graphic xml:id="F020928" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a5dfcfee-ef3d-4b6d-9e81-7dc95aac14eb/file/id/781002/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">C</supplied>hintio fam<lb break="no" n="2"/><supplied reason="lost">ul</supplied>us XP<expan><ex>Christ</ex><abbr>i</abbr></expan> vix<lb break="no" n="3"/><supplied reason="lost">it</supplied> <expan><abbr><supplied reason="lost">an</supplied>n</abbr><ex>o</ex>s</expan> XXV <lb n="4"/><supplied reason="lost">reces</supplied>sit in pa<lb break="no" n="5"/><supplied reason="lost">ce d</supplied>ie XVI <lb n="6"/><supplied reason="lost"><expan><abbr>Kalend</abbr><ex>a</ex>s</expan></supplied> Apri<lb break="no" n="7"/><supplied reason="lost">les aera DC</supplied>XLV
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Castro Sánchez, AE 1978: abweichende Lesung und Datierung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0423. (B)</bibl><bibl>J. Castro Sánchez, Habis 8, 1977, 452-454, Nr. 5; lám. 46 c. (B) - AE 1978.</bibl><bibl>CIL 02 (2. Aufl.) 07, 00649; tab. 19, 1.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

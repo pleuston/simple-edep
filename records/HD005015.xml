@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Lucus Augusti &amp;ndash; Lugo (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005015</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005015</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>96</height><width>44</width><depth>35</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/236525">Lucus Augusti</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3117814">Lugo</placeName><placeName type="findspot"/><placeName type="region">Comunidad Autónoma de Galicia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005015_1" sex="W"><persName><name type="cognomen">Philtate</name></persName></person><person xml:id="HD005015_2" sex="W"><persName><name type="nomen">C[[[---]]]ia++</name><name type="cognomen">Cattunilla++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-04-06" who="Feraudi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011646" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3494ca48-2cae-4426-a5f4-6b1c53e92a39/file/id/771168/file_version/name/small"/><graphic xml:id="F011483" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bc06fb96-bf04-4f1e-91b5-70050b6c86d6/file/id/771006/file_version/name/small"/><graphic xml:id="F011645" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d55340b3-ba42-49e4-973e-325fa94eca88/file/id/771167/file_version/name/small"/><graphic xml:id="F011643" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f4b07b55-6131-44e3-8a7e-197d34b9f669/file/id/771165/file_version/name/small"/><graphic xml:id="F040820" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/906a20b8-854f-411f-8f2a-d56157ad704d/file/id/801700/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Philtates <lb n="3"/>ornatricis <lb n="4"/>C<del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/>iae</del> <lb n="5"/><del rend="erasure">Cattunillae</del> <lb n="6"/><supplied reason="lost"><expan><abbr>c</abbr><ex>larissimae</ex></expan> <expan><abbr>f</abbr><ex>eminae</ex></expan></supplied> <lb n="7"/>domo <expan><abbr>August</abbr><ex>is</ex></expan> <lb n="8"/>Taurinis <lb n="9"/>conservi <lb n="10"/>eius
+            </ab></div>
+            <div type="commentary">
+                <p>(B): abweichende Interpretation und Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0430. (B)</bibl><bibl>A.M. Canto, Gallaecia 3/4, 1979, 304-306. (B) - AE 1978.</bibl><bibl>AE 1976, 0311. (B)</bibl><bibl>P. Le Roux, in: Actas del coloquio internacional sobre el bimilenario de Lugo (Lugo 1977) 83-86. (B) - AE 1976.</bibl><bibl>IRG 2, 033. (B)</bibl><bibl>G. Alföldy, ZPE 136, 2001, 233-238.</bibl><bibl>G. Alföldy, in: G. Alföldy, Provincia Hispania Superior (Santiago de Compostela 2002) 83-91; fig. 3 u. 4.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

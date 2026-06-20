@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Thessalonica &amp;ndash; Thessaloníki (Macedonia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004108</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004108</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Thessaloníki, Arch. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>82</height><width>76</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.2-1.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Macedonia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/491741">Thessalonica</placeName></origPlace><origDate><origDate notBefore-custom="-0070" notAfter-custom="-0001" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 BC - 1 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern">Thessaloníki</placeName><placeName type="findspot">Westliche Nekropole</placeName><placeName type="region">Kentrikí Makedonía</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004108_1" sex="M"><persName><name type="praenomen">L. / Λ.</name><name type="nomen">Cornelius / Κορνήλιος</name><name type="cognomen">Neon / Νέων</name></persName></person><person xml:id="HD004108_2" sex="M"><persName><name type="praenomen">P. / Π.</name><name type="nomen">Tetrinius / Τετρήνιος</name><name type="cognomen">Amphio / Ἀμφίων</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-06-07" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Cornelio <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>l</abbr><ex>iberto</ex></expan> Neoni <lb n="2"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Tetrinius <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Amphio </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Λευκίωι Κορνηλίωι Νέωνι <lb n="2"/>Πόπλιος Τετρήνιος Ἀμφίων
+            </ab></div></div>
+            <div type="commentary">
+                <p>Beim griechischen Text der Inschrift fehlt die Filiation bzw. Pseudofiliation. Datierung nach dem Stil des Reliefs.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0845.</bibl><bibl>J.-P. Michaud, BCH 95, 1971, 954; fig. 346. - AE 1980.</bibl><bibl>M. Šašel Kos, Inscriptiones Latinae in Graecia repertae. Additamenta ad CIL III (Faenza 1979) 93-94, Nr. 220. - AE 1980.</bibl><bibl>P. Petsas, AD 24 B, 1969, 300; pín. 310b. - AE 1980; SEG 47.</bibl><bibl>SEG 47, 0970.</bibl><bibl>AE 1997, 1354.</bibl><bibl>E. Voutiras, in: G. Despinis - T. Stefanidou-Tiveriou - E. Voutiras (Hrsg.), Catalogue of sculpture in the Archaeological Museum of Thessaloniki 1 (Thessaloniki 1997) 84-85, Nr. 61; fig. 143. - AE 1997.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

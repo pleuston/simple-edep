@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Lugdunum &amp;ndash; Lyon (Lugdunensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004153</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004153</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lugdunensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167717">Lugdunum</placeName></origPlace><origDate><origDate notBefore-custom="0054" notAfter-custom="0068" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">54 AD - 68 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2996944">Lyon</placeName><placeName type="findspot">Fourvière, Verbe incarné, Heiligtum, Kryptoporticus</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004153_1" sex="M"><persName><name type="praenomen">Nero+</name><name type="nomen">Claudius+ Caesar+</name><name type="cognomen">Augustus+* Germanicus+</name></persName></person><person xml:id="HD004153_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD004153_3" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Epulanius+?</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-28" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Pro salute Ne</supplied>ro<supplied reason="lost">nis Claudi divi Claudi <expan><abbr>f</abbr><ex>ilii</ex></expan> Germanici <expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>n</abbr><ex>epotis</ex></expan> <expan><abbr>Ti</abbr><ex>beri</ex></expan> Caesaris <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pron</abbr><ex>epotis</ex></expan> divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>abn</abbr><ex>epotis</ex></expan> Caesaris <expan><abbr>Aug</abbr><ex>usti</ex></expan> Germanici</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>p</abbr><ex>ontificis</ex></expan> <expan><abbr>m</abbr><ex>aximi</ex></expan> tr</supplied>ib<supplied reason="lost"><expan><abbr>un</abbr><ex>icia</ex></expan> p</supplied>otes<supplied reason="lost"><expan><abbr>t</abbr><ex>ate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>imp</abbr><ex>eratoris</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>praef</abbr><ex>ectus</ex></expan> fa</supplied><expan><abbr>br</abbr><ex>um</ex></expan> <expan><abbr>q</abbr><ex>uaestor</ex></expan> <expan><abbr>aed</abbr><ex>ilis</ex></expan> IIvir<supplied reason="lost">alibus ornamentis honoratus IIvir <expan><abbr>desig</abbr><ex>natus</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> curator civium</supplied> <lb n="4"/><expan><abbr><supplied reason="lost">Roma</supplied>noru</abbr><ex>m</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> Epu[lanius<certainty match="preceding-sibling::node()" locus="value"/> ------
+            </ab></div>
+            <div type="commentary">
+                <p>Epu[---]: Ergänzung Epu[lanius] oder Epu[rius].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0639.</bibl><bibl>J. Lesfargues - M. Le Glay, CRAI 1980, 410-414, Nr. 3; fig. 3. - AE 1980.</bibl><bibl>AE 2000, 0948.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

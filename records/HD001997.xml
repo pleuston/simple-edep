@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Zeugma - Edessa, inter &amp;ndash; Kizilburç, bei (Mesopotamia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001997</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001997</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kizilburç</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>180</height><width>70</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Mesopotamia</placeName><placeName type="ancient" ref="#">Zeugma - Edessa, inter</placeName></origPlace><origDate><origDate when-custom="0205" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">205 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/298795">Turkey</placeName><placeName type="modern">Kizilburç, bei</placeName><placeName type="findspot">Römische Straße, bei</placeName><placeName type="region">Urfa</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001997_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="praenomen">L.</name><name type="nomen">Septimius</name><name type="cognomen">Severus Pertinax</name></persName></person><person xml:id="HD001997_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Antoninus</name></persName></person><person xml:id="HD001997_3" sex="M"><persName ref="https://www.wikidata.org/wiki/Q183089"><name type="praenomen">P.++</name><name type="nomen">Septimius++</name><name type="cognomen">Geta++</name></persName></person><person xml:id="HD001997_4" sex="M"><persName><name type="nomen">Septimius*</name><name type="cognomen">Abarus (= Abgarus)</name></persName></person><person xml:id="HD001997_5" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Aelius</name><name type="cognomen">Ianuarius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1997-07-24" who="Niquet">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> Septimius <lb n="2"/>Severus Pius Pertinax <lb n="3"/><expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>Arab</abbr><ex>icus</ex></expan> <expan><abbr>Adiab</abbr><ex>enicus</ex></expan> <expan><abbr>Parth</abbr><ex>icus</ex></expan> <lb n="4"/><expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <lb n="5"/>XIII <expan><abbr>imp</abbr><ex>erator</ex></expan> XII co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="6"/>et <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aurel</abbr><ex>ius</ex></expan> <lb n="7"/>Antoninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Augusti <lb n="8"/><expan><abbr>n</abbr><ex>ostri</ex></expan> <expan><abbr>fil</abbr><ex>ius</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> VIII co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <lb n="9"/>II et <del rend="erasure"><expan><abbr>P</abbr><ex>ublius</ex></expan> Septimius Geta</del> <lb n="10"/><expan><abbr>Caes</abbr><ex>ar</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <expan><abbr>fil</abbr><ex>ius</ex></expan> et frater <lb n="11"/><expan><abbr>Aug</abbr><ex>ustorum</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostrorum</ex></expan> viam ab Euphrate <lb n="12"/>usque ad fines regni <expan><abbr>Sept</abbr><ex>imi</ex></expan> <lb n="13"/>Ab<expan><ex>g</ex><abbr>ari</abbr></expan> a novo munierunt <lb n="14"/>per <expan><abbr>L</abbr><ex>ucium</ex></expan> Aelium Ianuarium <lb n="15"/><expan><abbr>proc</abbr><ex>uratorem</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>prov</abbr><ex>inciae</ex></expan> Osrhoenam <note>sic</note> <lb n="16"/><expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> XXXXVIII
+            </ab></div>
+            <div type="commentary">
+                <p>L. Aelius Ianuarius durch CIL 2, 4135 (= ILS 1365 = RIT 154) bekannt. (A): Höhe: 205.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0920. (A)</bibl><bibl>J. Wagner, in: St. Mitchell (Hg.), Roman Armies and Frontiers in Roman and Byzantine Anatolia (Oxford 1983) 114-116; pl. 8,5c; fig. 8,3c (Zeichnung). - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

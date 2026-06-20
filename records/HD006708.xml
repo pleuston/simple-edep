@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Public legal inscription from Vardacate &amp;ndash; Casale Monferrato - Teruggia (Liguria (Regio IX))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006708</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006708</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(34)</height><width>49</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Liguria (Regio IX)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/383809">Vardacate</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Casale Monferrato - Teruggia</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/5">public legal inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006708_1"><persName><name type="cognomen">Nerva+?</name></persName></person><person xml:id="HD006708_2"><persName><name type="nomen">Clodius</name><name type="cognomen">Secundus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-01-23" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">Imp(erator) Nerva</supplied> Caesar Aug<supplied reason="lost" cert="low">ustus</supplied> <lb n="2"/>Clodio Secundo suo salutem <lb n="3"/>liberti eorum qui secundum voluntatem suam cooptati sunt m<supplied reason="lost">u</supplied><lb break="no" n="4"/>nicipes Vardacate alterius condicionis sunt quam patroni nisi si et <lb n="5"/>ipsi coopt<supplied reason="lost">ari</supplied> volunt et utroque loco munere f<supplied reason="lost">u</supplied>ngi id est et in eo in quo c<supplied reason="lost">o</supplied><lb break="no" n="6"/>o<supplied reason="lost">ptati sunt et</supplied> in eo loco ex quo patroni eorum oriundi sunt <lb n="7"/>pecunia<supplied reason="lost">e q</supplied>uae sine decurionum decreto erogatae sunt ab IIIS restitui rei <lb n="8"/>publicae oportet qui eas dederunt su<supplied reason="lost">a</supplied> sponte ita ut petitio eis sit adversus <lb n="9"/>eos quibus crediderunt <lb n="10"/>magistratus qui parum idoneos pra<expan><ex>e</ex><abbr>des</abbr></expan> acceperunt cum cavendum esset rei <lb n="11"/>publicae ipsi obligati sunt quod si praedes tunc quidem idonei fuerunt cum <lb n="12"/>acciperentur postea vero aliqua ex caussa minuerunt facultates non e<supplied reason="lost">st</supplied> <lb n="13"/>fortuna praedum magistratibus imputanda vale
+            </ab></div>
+            <div type="commentary">
+                <p>Mit freundlichen Hinweisen von G. Mennella. (B): AE 1947: Z. 1: [P]ro[cu]rator Aug[ust.]; Z. 4: Vardacati; Z. 5: cooptari; fungi; Z. 5/6: in eo in quo co/op[t]ati sunt [e]t; Z. 7: pecuniae quae; Z. 8: sua; Z. 12 (Ende): est; AE 1949: [Imp. Cae]sar Aug[ustus].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0390.</bibl><bibl>AE 1949, 0024. (B)</bibl><bibl>AE 1947, 0044. (B)</bibl><bibl>A. Degrassi, Athenaeum 26, 1948, 254-258. - AE 1949.</bibl><bibl>V. Arangio-Ruiz - A. Vogliano, Athenaeum 20, 1942, 1-10. - AE 1947.</bibl><bibl>P. Fraccaro, Athenaeum 20, 1942, 10-11. - AE 1947.</bibl><bibl>W.V. Harris, Athenaeum 59, 1981, 338-352. - AE 1981.</bibl><bibl>AE 2000, 0586.</bibl><bibl>E. Gabba, in: M. Cébeillac-Gervasoni (Hrsg.), Les élites municipales de l'Italie péninsulaire de la mort de César à la mort de Domitien entre continuité et rupture. Classes sociales dirigeantes et pouvoir central (Rome 2000) 457-461. - AE 2000.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

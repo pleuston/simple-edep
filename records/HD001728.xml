@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma? &amp;ndash; Roma? (Roma?)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001728</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001728</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Naz. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/71">Travertin</material><dimensions unit="cm"><height>96</height><width>(119)</width><depth>29</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-7.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma?</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma?</placeName></origPlace><origDate><origDate notBefore-custom="-0070" notAfter-custom="-0031" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 BC - 31 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma?</placeName><placeName type="findspot"/><placeName type="region">Lazio?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001728_1" sex="M"><persName><name type="praenomen">Q.+?</name><name type="nomen">[---]aelius</name></persName></person><person xml:id="HD001728_2" sex="M?"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name></persName></person><person xml:id="HD001728_3" sex="W"><persName><name type="nomen">Licinia</name><name type="cognomen">Athena</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-12-27" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F029580" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c57ab4c8-1a1b-4f2a-9599-10711fe9e42e/file/id/790337/file_version/name/small"/><graphic xml:id="F029581" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f5f03106-03a4-48b8-a768-9a22eb78bcfb/file/id/790338/file_version/name/small"/><graphic xml:id="F040579" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f9104ae9-9df5-4d01-9601-386cf371c333/file/id/801461/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Q</abbr><ex>uintus</ex></expan>? <gap reason="lost" extent="unknown" unit="character"/></supplied>aelius <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> praeco et dissignato<supplied reason="lost">r</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost" cert="low">Q(uintus)</supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">Q(uinti)</supplied> <expan><abbr>f</abbr><ex cert="low">ilius</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Licinia <expan><abbr>Cn</abbr><ex>aei</ex></expan> <expan><abbr>l</abbr><ex>iberta</ex></expan> Athena </ab></div><div n="4" type="textpart"><ab><lb n="1"/> in <expan><abbr>fr</abbr><ex>onte</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> XIIX
+            </ab></div></div>
+            <div type="commentary">
+                <p>Genaue Herkunft des Steins unbekannt. Büsten eines Mannes und einer Frau. Links noch Reste des Arms eines 3. Verstorbenen erkennbar, wohl eher ein Sohn als eine Tochter. Mann trägt toga exigua, Frau palla. Maße des 2. Inschriftfeldes: 6-7 x 119. Nomen gentile: [C]aelius, [L]aelius, [M]aelius o.ä. Name von Licinia Athena: von anderer Hand hinzugefügt, vielleicht später auf einer Rasur. (B): Teil der Inschrift nicht wiedergegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0106. (B)</bibl><bibl>E. Fileri - S. Priuli, in: A. Giuliano (Hrsg.), Museo Nazionale Romano 1, 7 (Roma 1984) 482-486, Nr. 15, 41; Foto. - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

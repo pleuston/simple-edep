@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Code &amp;ndash; Toralba (Sardinia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007933</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007933</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Sardinia</placeName><placeName type="ancient" ref="#">Code</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Toralba</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1997-06-30" who="Scheithauer">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Impp</abbr><ex>eratoribus</ex></expan> <expan><abbr>Caess</abbr><ex>aribus</ex></expan> <lb n="2"/><expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> Flavio Val<supplied reason="lost">erio</supplied> <lb n="3"/><expan><abbr>Const</abbr><ex>antino</ex></expan> Aurelio Galerio <lb n="4"/><supplied reason="lost"><expan><abbr>Maxim</abbr><ex>iano</ex></expan></supplied> <expan><abbr>piss</abbr><ex>imis</ex></expan> <expan><abbr>feliciss</abbr><ex>imis</ex></expan> <expan><abbr>Aug</abbr><ex>ustis</ex></expan> <lb n="5"/><expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> Galerio Valerio Maximiniano <lb n="6"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>ustorum</ex></expan></supplied> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr><supplied reason="lost">t</supplied>r</abbr><ex>ibunicia</ex></expan> <expan><abbr>p<supplied reason="lost">o</supplied>t</abbr><ex>estate</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> I <note>sic</note> <expan><abbr>res</abbr><ex>tituente</ex></expan> <supplied reason="lost">et</supplied> <lb n="7"/><supplied reason="lost">curan</supplied>te Os<gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>proc</abbr><ex>uratore</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0303.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

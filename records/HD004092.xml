@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Lepcis Magna &amp;ndash; Al Khums (Africa Proconsularis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004092</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004092</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Africa Proconsularis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/344448">Lepcis Magna</placeName></origPlace><origDate><origDate notBefore-custom="0042" notAfter-custom="0043" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">42 AD - 43 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2215636">Libya</placeName><placeName type="modern" ref="http://www.geonames.org/2219905">Al Khums</placeName><placeName type="findspot">{Stadtmauer des 4. Jh., Porta Oea}, sekundär verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004092_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1411"><name type="praenomen">Ti.+</name><name type="nomen">Claudius+ Caesar+</name><name type="cognomen">Augustus+*</name></persName></person><person xml:id="HD004092_2" sex="M"><persName><name type="praenomen">Q.+</name><name type="nomen">Marcius+</name><name type="cognomen">Barea+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-23" who="Bigi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Ti</abbr><ex>berio</ex></expan> Claudio Caesari A</supplied><expan><abbr>ug</abbr><ex>usto</ex></expan> <expan><abbr>pont</abbr><ex>ifici</ex></expan> <supplied reason="lost"><expan><abbr>max</abbr><ex>imo</ex></expan> tribunicia pot</supplied>estat<supplied reason="lost">e II <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> II <expan><abbr>des</abbr><ex>ignato</ex></expan> III <expan><abbr>imp</abbr><ex>eratori</ex></expan> III patri patriae</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>Q</abbr><ex>uintus</ex></expan> Marcius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> B</supplied>area <expan><abbr>co</abbr><ex>n</ex></expan><supplied reason="lost"><expan><abbr>s</abbr><ex>ul</ex></expan> XVvir sacris faci</supplied>undis f<supplied reason="lost">etialis <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> II dedicavit</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Y: Datierung zwischen 1.7.42 und 24.1.43; trib.pot. II: 25.1.42-24.1. 43; cos. II: 1.1.-28.2.42. (B): Abweichungen in Lesung und Ergänzung. (C): Zusammengehörigkeit der Fragmente nicht erkannt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1987, 0989.</bibl><bibl>F. Silvestrini, AFLPer 22, 1984/85, 279-283; fig. 1 (Zeichnung). - AE 1987.</bibl><bibl>IRT 482. (BC)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

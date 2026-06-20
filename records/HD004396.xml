@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Petronell-Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004396</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004396</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Petronell-Carnuntum, Lapidarium</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>147</height><width>85</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">10.0-5.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1934"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="findspot">Gräberstraße, {Parzelle Nr. 316}</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004396_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Sentius</name><name type="cognomen">Sabinus+</name></persName></person><person xml:id="HD004396_2" sex="M"><persName><name type="nomen">Sempronius</name><name type="cognomen">Niger</name></persName></person><person xml:id="HD004396_3" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Valerius</name><name type="cognomen">Genialis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-23" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004361" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8036e66a-4a2e-487c-81e0-e486f570c34e/file/id/765123/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Sentius <lb n="2"/><expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Serg</abbr><ex>ia</ex></expan> Sa<lb break="no" n="3"/>b<supplied reason="lost">i</supplied>nus Iader <lb n="4"/><expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> X<supplied reason="lost">V A</supplied><expan><abbr>p</abbr><ex cert="low"/></expan><supplied reason="lost"><expan><abbr>o</abbr><ex>llinaris</ex></expan></supplied> <lb n="5"/><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Semproni Ni<lb break="no" n="6"/>gri <expan><abbr>an</abbr><ex>norum</ex></expan> XXXVI <lb n="7"/><expan><abbr>stip</abbr><ex>endiorum</ex></expan> XVI <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <expan><abbr>fec</abbr><ex>it</ex></expan> <lb n="8"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Valerius Geni<lb break="no" n="9"/>alis eques <expan><abbr>fr</abbr><ex cert="low">atri</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente, Bruchlinie quer durch das Inschriftfeld. In Z. 4 noch Reste eines Buchstaben mit senkrechter Haste zu erkennen, P? Zeile 1: TI-Ligatur; Zeile 8: NI-Ligatur. Zeile 9: fr(atri) oder fr(ater). (B): Z. 2: Vorbeck 1980: Ser(gia); Z. 3: Hild; Vorbeck 1971; Krüger; AE 1978: X[---]; Vorbeck 1980: [V Apo(llinaris)].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0632. (B)</bibl><bibl>E. Vorbeck, Freilichtmuseum Carnuntum. Lapidarium (Wien 1971) 13, Nr. 25. - AE 1978.</bibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Niederösterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 164-165, Nr. 240. (B)</bibl><bibl>E. Vorbeck, Militärinschriften aus Carnuntum (2. Aufl. Wien 1980) 78-79, Nr. 203. (B)</bibl><bibl>M.-L. Krüger, Die Reliefs des Stadtgebietes von Carnuntum 2. Die dekorativen Reliefs, CSIR Österreich 1, 4 (Wien 1972) 42, Nr. 520; Taf. 40, 520.</bibl><bibl>M. Mosser, Die Steindenkmäler der legio XV Apollinaris (Wien 2003) 181-182, Nr. 34; Taf. 7, 34.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

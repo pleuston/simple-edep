@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Axima (Forum Claudii Ceutronum) &amp;ndash; Aime-en-Tarentaise (Alpes Graiae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002081</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002081</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aime en Tarentaise, Mus. S. Martin</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(32)</height><width>(50)</width><depth>46</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Graiae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167663">Axima (Forum Claudii Ceutronum)</placeName></origPlace><origDate><origDate when-custom="0283" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">283 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1964"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3038426">Aime-en-Tarentaise</placeName><placeName type="findspot"/><placeName type="region">Auvergne-Rhône-Alpes</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002081_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q190097"><name type="praenomen">M.++</name><name type="nomen">Aurelius++*</name><name type="cognomen">Carinus++</name></persName></person><person xml:id="HD002081_2" sex="M"><persName><name type="nomen">Latinius+</name><name type="cognomen">Martinianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-09-22" who="Masci">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> Caesari <lb n="2"/><del rend="erasure"><expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aurel</abbr><ex>io</ex></expan> Carino</del> <lb n="3"/>Pio <expan><abbr>Fel</abbr><ex>ici</ex></expan> <supplied reason="lost"><expan><abbr>Invict</abbr><ex>o</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan></supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>pot</abbr><ex>estate</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>F</abbr><ex>oro</ex><abbr>cl</abbr><ex>audienses</ex></expan></supplied> <lb n="5"/><supplied reason="lost">Ceutrones publice</supplied> <lb n="6"/><supplied reason="lost">curante Latinio Marti</supplied><lb break="no" n="7"/><supplied reason="lost">niano <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>e</abbr><ex>gregio</ex></expan> <expan><abbr>proc</abbr><ex>uratore</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 3-7 ergänzt nach CIL XII 110 und AE 1948, 163. Material: weißer Kalkstein. (B): Rosso: Z. 1: [I]mp(eratori).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0643.</bibl><bibl>B. Rémy, Inscriptions latines des Alpes (I.L.Alpes) 1. Alpes Graies (Chambéry - Grenoble 1998) 65-67, Nr. 18; Foto.</bibl><bibl>G. Walser, Epigraphica 47, 1985, 56-57, Nr. 3; Abb. 3. - AE 1985.</bibl><bibl>(o. Autor), in: B. Rémy u. a., La Savoie, Carte archéologique de la Gaule 73 (Paris 1996) 100, Nr. 60.</bibl><bibl>E. Rosso, L'image de l'empereur en Gaule Romaine. Portraits et inscriptions (Paris 2006) 512-513, Nr. 262; Fig. 201. (B)</bibl><bibl>G. Walser, in: G. Walser, Studien zur Alpengeschichte in antiker Zeit (Stuttgart 1994) 95, Nr. 3; Tafel 6.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ostia &amp;ndash; Roma, Ostia (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003509</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003509</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/422995">Ostia</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma, Ostia</placeName><placeName type="findspot">Ostia antica, Casa a Giardino, lato esterna destro</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003509_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Rennius</name><name type="cognomen">Platanus</name></persName></person><person xml:id="HD003509_2" sex="M"><persName><name type="cognomen">Asper</name></persName></person><person xml:id="HD003509_3" sex="W"><persName><name type="nomen">Egrilia</name><name type="cognomen">Quarta</name></persName></person><person xml:id="HD003509_4" sex="W"><persName><name type="nomen">Rennia</name><name type="cognomen">Procula</name></persName></person><person xml:id="HD003509_5" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Rennius</name><name type="cognomen">Philodoxus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-11" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Rennius Aspri <expan><abbr>lib</abbr><ex>ertus</ex></expan> <lb n="2"/>Platanus sevir Augustalis <lb n="3"/>fecit sibi in parte dexteriore et <lb n="4"/>Egriliae <expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>lib</abbr><ex>ertae</ex></expan> Quartae coniugi suae <lb n="5"/>et Renniae Proculae vernae <lb n="6"/>et <expan><abbr>L</abbr><ex>ucio</ex></expan> Rennio <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>lib</abbr><ex>erto</ex></expan> Philodoxo et <lb n="7"/>libertis libertabus suis posterisque eorum in <expan><abbr>fr</abbr><ex>onte</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> XXXX in <expan><abbr>agr</abbr><ex>o</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> <expan><abbr>XXXIS</abbr><ex>semis</ex></expan> <lb n="8"/><expan><abbr>h</abbr><ex>oc</ex></expan> <expan><abbr>m</abbr><ex>onumentum</ex></expan> <expan><abbr>h</abbr><ex>eredem</ex></expan> non <expan><abbr>s</abbr><ex>equetur</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Zur Person vgl. CIL XIV 4563 und 407.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0199.</bibl><bibl>A. Marinucci, in: MGR 13 (Roma 1988) 208, Nr. 37; tav. 32, 1. - AE 1988.</bibl><bibl>AE 1989, 0129.</bibl><bibl>H.L. Royden, The magistrates of the Roman professional collegia in Italy (Pisa 1988) 243, Nr. 7. - AE 1989.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

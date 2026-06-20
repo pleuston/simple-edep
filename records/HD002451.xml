@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Thamugadi &amp;ndash; Timgad (Numidia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002451</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002451</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Timgad (Thamugadi), Forum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>112</height><width>47</width><depth>46</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Numidia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/334636">Thamugadi</placeName></origPlace><origDate><origDate notBefore-custom="0199" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">199 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1961"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern" ref="http://www.geonames.org/2476409">Timgad</placeName><placeName type="findspot">Forum</placeName><placeName type="region">Batna</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002451_1" sex="M"><persName><name type="praenomen">Sex.</name><name type="nomen">Anicius</name><name type="cognomen">Faustus Paulinianus</name></persName></person><person xml:id="HD002451_2" sex="M"><persName><name type="nomen">Anicius</name></persName></person><person xml:id="HD002451_3" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Tegonius</name><name type="cognomen">Latinus</name></persName></person><person xml:id="HD002451_4" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Tegonius</name><name type="cognomen">Saturninus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-15" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F000376" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0acd62d1-7592-41c0-adf6-7af84f13d7c4/file/id/761473/file_version/name/small"/><graphic xml:id="F000377" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4b8971ce-f9c8-4654-9d45-b8f81158dd6e/file/id/761475/file_version/name/small"/><graphic xml:id="F028182" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0f0aa894-1e5d-433c-9acb-fa00c3fc5726/file/id/788939/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Sex</abbr><ex>to</ex></expan> Anicio <lb n="2"/>Fausto Ani<lb break="no" n="3"/>ci consu<lb break="no" n="4"/>laris fili<lb break="no" n="5"/>o Paulini<lb break="no" n="6"/>ano <expan><abbr>c</abbr><ex>larissimo</ex></expan> <expan><abbr>p</abbr><ex>uero</ex></expan> <expan><abbr>Q</abbr><ex>uintus</ex></expan> <lb n="7"/>Tegonius <lb n="8"/>Latinus <expan><abbr>Q</abbr><ex>uinti</ex></expan> <lb n="9"/>Tegoni Satur<lb break="no" n="10"/>nini <expan><abbr>fl</abbr><ex>aminis</ex></expan> p<expan><ex>er</ex><abbr>p</abbr><ex>etui</ex></expan> <lb n="11"/><expan><abbr>fil</abbr><ex>ius</ex></expan> patro<lb break="no" n="12"/>no
+            </ab></div>
+            <div type="commentary">
+                <p>Photothek HD F000376f. 1961 gefundenes Teil passt an CIL VIII 17890. Angaben zu Maßen = Maße des zusammengesetzten Steins. (B): Z. 5/6: Paulini/iano. Vgl. BAC 1909, 109. Material: weißer Kalkstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0881d.</bibl><bibl>M. Le Glay - S. Tourrenc, AntAfr 21, 1985, 135-136, Nr. 9,4; Foto. (B) - AE 1985.</bibl><bibl>AE 1986, 0005.</bibl><bibl>M. Christol, MEFR 98, 1986, 141-146. - AE 1986.</bibl><bibl>CIL 08, 17890.</bibl><bibl>AE 1987, 1074.</bibl><bibl>AE 1988, 1125.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

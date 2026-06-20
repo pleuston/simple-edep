@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Aeso &amp;ndash; Isona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008936</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008936</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Pfarrkirche</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(81)</height><width>(65)</width><depth>(55)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.7-2.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246147">Aeso</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3120270">Isona</placeName><placeName type="findspot">Pfarrkirche</placeName><placeName type="region">Cataluña</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008936_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Marius*</name><name type="cognomen">Calpurnianus</name></persName></person><person xml:id="HD008936_2" sex="M"><persName><name type="nomen">Marius*</name><name type="cognomen">Marianus</name></persName></person><person xml:id="HD008936_3" sex="W"><persName><name type="nomen">Maria</name><name type="cognomen">Calpurnia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-12-07" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> <expan><abbr>Mari</abbr><ex>o</ex></expan> Mariani filio <lb n="2"/>Calpurniano Or<lb break="no" n="3"/><expan><abbr>ret</abbr><ex>ano</ex></expan> defuncto <expan><abbr>an</abbr><ex>norum</ex></expan> <supplied reason="lost">X</supplied>VIII <lb n="4"/><expan><abbr>Mari</abbr><ex>us</ex></expan> Marianus <supplied reason="lost">co</supplied>mmuni <lb n="5"/>adfectione Mariae Calpurni<lb break="no" n="6"/>ae uxoris et matris recep<lb break="no" n="7"/>to in clientelam civium <lb n="8"/><expan><abbr>Aesonens</abbr><ex>ium</ex></expan> <lb n="9"/>et liberalibus <lb n="10"/>studiis erudito impetra<lb break="no" n="11"/>to loco ex <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>ord</abbr><ex>inis</ex></expan> <lb n="12"/>statua equestri memo<lb break="no" n="13"/>riam piaetatis <note>sic</note> hono<lb break="no" n="14"/>rav<expan><ex>i</ex><abbr>t</abbr></expan> datisque spor<lb break="no" n="15"/>tulis dedicavit
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL, IRC, AE 1988: geringfügig abweichende Textwiedergaben. Nach IRC einzige im Nordteil der iberischen Halbinsel bekannte Ehrung mit einer Reiterstatue.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0831. (B)</bibl><bibl>CIL 02, 04465. (B)</bibl><bibl>IRC 2, 035; pl. 21, 8. (B)</bibl><bibl>J.J. Segui, Studia Historica 2/3, 1984/85, 129-140; Foto u. Zeichnung. - AE 1988.</bibl><bibl>IRC 5, p. 68.</bibl><bibl>AE 1994, 0810.</bibl><bibl>P. Le Roux, in: M. Chelotti - M. Pani (Hrsg.), Epigrafia e territorio. Politica e società. Temi di antichità romane (Bari 1994) 176-177, Nr. 1. - AE 1994.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

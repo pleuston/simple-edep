@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Colonia Claudia Augusta? Agrippinensium, Divitia &amp;ndash; Köln (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005413</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005413</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Köln, Röm.-Germ. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(58)</height><width>(40)</width><depth>(12)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108863">Colonia Claudia Augusta? Agrippinensium, Divitia</placeName></origPlace><origDate><origDate when-custom="0252" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">252 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1976"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2937790">Köln</placeName><placeName type="findspot">Deutz, {Kastell Deutz, Lager}, Turm, sekundär verwendet</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005413_1" sex="M"><persName><name type="nomen">Priminius*</name><name type="cognomen">Octavius</name></persName></person><person xml:id="HD005413_2" sex="M"><persName><name type="nomen">Verinius+*</name><name type="cognomen">Felicio*?</name></persName></person><person xml:id="HD005413_3" sex="M"><persName><name type="nomen">Quartius</name><name type="cognomen">Quetus+</name></persName></person><person xml:id="HD005413_4" sex="M"><persName><name type="nomen">Mi[---]</name><name type="cognomen">Vitalis+?</name></persName></person><person xml:id="HD005413_5" sex="M"><persName><name type="cognomen">Gallus+</name></persName></person><person xml:id="HD005413_6" sex="M"><persName><name type="cognomen">Volusianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-08-17" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020268" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a9510a9c-5f73-406d-aac4-f4f09924901a/file/id/780341/file_version/name/small"/><graphic xml:id="F034780" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/680aaae6-1307-4b7a-8fca-b3b6ee5841c1/file/id/795617/file_version/name/small"/><graphic xml:id="F034781" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0397be59-8323-44e9-99c9-0f39588e2a4e/file/id/795618/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">I</supplied>n <supplied reason="lost"><expan><abbr>h</abbr><ex>onorem</ex></expan></supplied> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> <supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimno</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></supplied> <lb n="2"/>et Genio lo<supplied reason="lost">ci et</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Ambiamarcis <lb n="2"/>Ambiorenesibus <lb n="3"/>Marti Victori Mer<lb break="no" n="4"/>curio Neptuno <lb n="5"/>Cereri Diis <expan><abbr>Deabusq</abbr><ex>ue</ex></expan> <lb n="6"/>omnibus <expan><abbr>Primini</abbr><ex>us</ex></expan> <lb n="7"/>Octavius <expan><abbr>Ver</abbr><ex cert="low">inius</ex></expan> <expan><abbr>Felic</abbr><ex cert="low">io</ex></expan> <lb n="8"/>Quartius <supplied reason="lost">Q</supplied>uetus <lb n="9"/>et Mi<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> Vi</supplied>talis <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olverunt</ex></expan> <expan><abbr>l</abbr><ex>ibentes</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> <lb n="10"/><expan><abbr>Imp</abbr><ex>eratoribus</ex></expan> d<supplied reason="lost"><expan><abbr>d</abbr><ex>ominis</ex></expan> <expan><abbr>nn</abbr><ex>ostris</ex></expan> Ga</supplied>llo <lb n="11"/>et V<supplied reason="lost">olus</supplied>iano <expan><abbr>Aug</abbr><ex>ustis</ex></expan> <lb n="12"/><expan><abbr><supplied reason="lost">c</supplied>o</abbr><ex>n</ex>s</expan>(ulibus)
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): Galsterer - Galsterer 1981 u. 2010, AE 1981: Abweichungen in Lesung und Ergänzungen. Textwiedergabe nach Kakoschke.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0660. (B)</bibl><bibl>B. Galsterer - H. Galsterer, in: EpStud 12 (Köln 1981) 228-232, Nr. 3; Abb. 3. (B) - AE 1981.</bibl><bibl>A. Kakoschke, FeRA 32, 2017, 1-4, Nr. 1; Abb. 1; Abb. 2 (Zeichnung). - AE 2017.</bibl><bibl>B. Galsterer - H. Galsterer, Die römischen Steininschriften aus Köln, IKöln (2.</bibl><bibl>Aufl.) (Mainz 2010) 30-32, Nr. 3; Foto. (B)</bibl><bibl>CF-GeI-106 [hdl.handle.net/11471/504.50.106] (11.02.2019).</bibl><bibl>AE 2017, 1005.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

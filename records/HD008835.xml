@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Bonna, aus &amp;ndash; Bonn (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008835</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008835</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108818">Bonna, aus</placeName></origPlace><origDate><origDate when-custom="0231" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">231 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1898"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2949619">Bonn</placeName><placeName type="findspot">Beuel, {Konrad-Adenauer-Platz}, bei (ehemals Kaiserstraße)</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008835_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius</name><name type="cognomen">Severus+ Alexander</name></persName></person><person xml:id="HD008835_2" sex="W"><persName><name type="nomen">Iulia+*</name><name type="cognomen">Mamaea+</name></persName></person><person xml:id="HD008835_3" sex="M"><persName><name type="nomen">Titius</name><name type="cognomen">Rufinus</name></persName></person><person xml:id="HD008835_4" sex="M"><persName><name type="nomen">Flavius+</name><name type="cognomen">Aelianus+?</name></persName></person><person xml:id="HD008835_5" sex="M"><persName><name type="cognomen">Pompeianus+</name></persName></person><person xml:id="HD008835_6" sex="M"><persName><name type="cognomen">Paelignianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-01-17" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F018449" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8c72dfce-6ad9-4c81-b8cf-80f1782d0568/file/id/778521/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan></supplied> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">Marti</supplied> Propugnatori <lb n="2"/><supplied reason="lost">Victo</supplied>riae Saluti <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <lb n="3"/><supplied reason="lost">Seve</supplied>ri Alexandri <expan><abbr>Aug</abbr><ex>usti</ex></expan> et <lb n="4"/><supplied reason="lost"><expan><abbr>Iul</abbr><ex>iae</ex></expan> M</supplied>amaeae <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <expan><abbr>matri</abbr><ex>s</ex></expan> eius <lb n="5"/><supplied reason="lost">et e</supplied>xercitus <expan><abbr>M</abbr><ex>arci</ex></expan> Aureli Se<lb break="no" n="6"/><supplied reason="lost">ver</supplied>i Alexandri Pii Felicis <lb n="7"/><supplied reason="lost">Inv</supplied>icti Augusti totiu<supplied reason="lost">s</supplied><lb break="no" n="8"/><supplied reason="lost">qu</supplied>e domus divin<expan><ex>a</ex><abbr>e</abbr></expan> eius <lb n="9"/><expan><abbr><supplied reason="lost">le</supplied>g</abbr><ex>io</ex></expan> I <expan><abbr>M</abbr><ex>inervia</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>ia</ex></expan></supplied> <expan><abbr>f</abbr><ex>idelis</ex></expan> Severiana Ale<lb break="no" n="10"/><supplied reason="lost">xa</supplied>and<supplied reason="lost">ria</supplied>na cum auxilii<supplied reason="lost">s</supplied> <lb n="11"/><supplied reason="lost">si</supplied>gna r<supplied reason="lost">e</supplied>bus peractis <lb n="12"/><supplied reason="lost">c</supplied>umq<supplied reason="lost">ue</supplied> Titio Rufino <lb n="13"/><supplied reason="lost"><expan><abbr>c</abbr><ex>larissimo</ex></expan></supplied> <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>leg</abbr><ex>ato</ex></expan> <supplied reason="lost">l</supplied>egionis eiu<supplied reason="lost">s</supplied><lb break="no" n="14"/><supplied reason="lost">de</supplied>m ag<supplied reason="lost">en</supplied>te sub Flav<supplied reason="lost">io</supplied> <lb n="15"/><supplied reason="lost" cert="low">Ael</supplied>ian<supplied reason="lost">o <expan><abbr>c</abbr><ex>larissimo</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan> c</supplied>o<expan><ex>n</ex><abbr>s</abbr><ex>ulari</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> po<lb break="no" n="16"/><supplied reason="lost">n</supplied>enda <supplied reason="lost">cur</supplied>avit VI <expan><abbr>Kal</abbr><ex>endas</ex></expan> <lb n="17"/><expan><abbr><supplied reason="lost">N</supplied>o<supplied reason="lost">v</supplied></abbr><supplied reason="lost"><ex>embres</ex></supplied></expan> <supplied reason="lost">Pompeiano</supplied> et Pae<lb break="no" n="18"/><supplied reason="lost">ligniano</supplied> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1899, 0007.</bibl><bibl>CIL 13, 08017.</bibl><bibl>H. Lehner, Die antiken Steindenkmäler des Provinzialmuseums in Bonn (Bonn 1918) 50-51, Nr. 106; Zeichnung.</bibl><bibl>PIR (2. Aufl.) C 972.</bibl><bibl>PIR (2. Aufl.) P 55.</bibl><bibl>G. Alföldy, Die Hilfstruppen der römischen Provinz Germania Inferior, EpStud 6 (Düsseldorf 1968) 168-169, Nr. 12.</bibl><bibl>G. Barbieri, L'albo senatorio da Settimio Severo a Carino (193-285) 209-210, Nr. 1037.</bibl><bibl>H. Nissen, BJ 102, 1898, 110-114. - AE 1899.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

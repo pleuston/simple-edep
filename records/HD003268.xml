@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Carseoli, bei &amp;ndash; Peréto (Samnium (Regio IV))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003268</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003268</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Samnium (Regio IV)</placeName><placeName type="ancient" ref="#">Carseoli, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Peréto</placeName><placeName type="findspot">Pié die Serra Secca</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003268_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Otatius+</name><name type="cognomen">Eros</name></persName></person><person xml:id="HD003268_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Lollius+</name><name type="cognomen">Secundus+*</name></persName></person><person xml:id="HD003268_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Didius+</name><name type="cognomen">Primus+</name></persName></person><person xml:id="HD003268_4" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Albinovanus+</name><name type="cognomen">Philoxenus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-23" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Otat<supplied reason="lost">ius</supplied> Eros <lb n="2"/><gap reason="lost" quantity="1" unit="character"/><supplied reason="lost">L</supplied>ollius Sec<supplied reason="lost"><expan><abbr>und</abbr><ex>us</ex></expan></supplied> <lb n="3"/><gap reason="lost" quantity="1" unit="character"/><supplied reason="lost">Di</supplied>dius Prim<supplied reason="lost">us</supplied> <lb n="4"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Albinova<supplied reason="lost">nus</supplied> <lb n="5"/>Philoxenus <lb n="6"/><expan><abbr>M</abbr><ex>entis</ex></expan> <expan><abbr>n</abbr><ex>umini</ex></expan> <expan><abbr>d</abbr><ex>ederunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0468.</bibl><bibl>M. Buonocore, PP 40, 1985, 384-386; Foto. - AE 1988.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

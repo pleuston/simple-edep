@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Pompeii &amp;ndash; Pompei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001702</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001702</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/123">Holz</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii</placeName></origPlace><origDate><origDate notBefore-custom="0038" notAfter-custom="0054" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">38 AD - 54 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170336">Pompei</placeName><placeName type="findspot"/><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001702_1" sex="M"><persName><name type="praenomen">L.+</name><name type="nomen">Lucretius+</name><name type="cognomen">Firmus</name></persName></person><person xml:id="HD001702_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Aelius</name><name type="cognomen">Repentinus+?</name></persName></person><person xml:id="HD001702_3" sex="M"><persName><name type="cognomen">Felix</name></persName></person><person xml:id="HD001702_4" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Axius</name></persName></person><person xml:id="HD001702_5" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Mussidius</name><name type="cognomen">Pollianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2005-05-27" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>L</abbr><ex>ucius</ex></expan> Lucr</supplied>etius Firmus <lb n="2"/><supplied reason="lost">denu</supplied>ntiavit <expan><abbr>L</abbr><ex>ucio</ex></expan> Aelio <lb n="3"/><supplied reason="lost" cert="low">Rep</supplied>entino uti puerum <lb n="4"/>Felicem servum in potesta<lb break="no" n="5"/>te sua haberet <lb n="6"/>actum Capuae <lb n="7"/>VI <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Sept</abbr><ex>embres</ex></expan> <expan><abbr>T</abbr><ex>ito</ex></expan> Axio <expan><abbr>T</abbr><ex>ito</ex></expan> Mussidio <lb n="8"/>Polliano co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Tabula Pompeiana 79. (B): Weniger gelesen bzw. Leseabweichungen. (C): Engere Datierung. T. Mussidius Pollianus aus CIL VI 1466 = ILS 913 bekannt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0192. (B)</bibl><bibl>F. Sbordone, RAAN 53, 1978, 252, Nr. 10; fig. 1. (B) - AE 1982.</bibl><bibl>W. Eck, ZPE 42, 1981, 252-254. - AE 1982.</bibl><bibl>AE 1986, 0181. (C)</bibl><bibl>G. Camodeca, Puteoli 7/8, 1983/84, 52-55. (C) - AE 1986.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

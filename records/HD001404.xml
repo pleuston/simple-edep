@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001404</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001404</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>210</height><width>72</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-7.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1881"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">Adolf-Kolping-Straße, {Klarastraße - Lotharstraße, zwischen}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001404_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Valerius*</name><name type="cognomen">Secundus+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-01-04" who="Esch">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F015245" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d53b6e94-e47e-4235-a477-1b90e71400aa/file/id/774822/file_version/name/small"/><graphic xml:id="F015246" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8834a560-67ff-40ed-8e86-5cc49e819ee9/file/id/774823/file_version/name/small"/><graphic xml:id="F015244" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e4597222-a135-4582-9e48-c55d8168ae36/file/id/774821/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Ga<supplied reason="lost">l</supplied>e<supplied reason="lost">r</supplied>i<supplied reason="lost">a</supplied> <lb n="2"/><expan><abbr><supplied reason="lost">S</supplied>ecu</abbr><ex>n</ex>dus</expan> C<supplied reason="lost">l</supplied>u<supplied reason="lost" cert="low">nia mil(es)</supplied> <lb n="3"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XIIII <supplied reason="lost"><expan><abbr>gem</abbr><ex>inae</ex></expan> <expan><abbr>Mar</abbr><ex>tiae</ex></expan> <expan><abbr>vic</abbr><ex>tricis</ex></expan></supplied> <lb n="4"/><expan><abbr>an</abbr><ex>norum</ex></expan> XL <expan><abbr>sti</abbr><ex>pendiorum</ex></expan> XIX <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <supplied reason="lost"><expan><abbr>e</abbr><ex>st</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Autopsie R. Wiegels. Oberhalb des Inschriftfeldes die stehende Figur eines Soldaten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0698.</bibl><bibl>G. Forni, Vichiana 12, 1983, 197-198, Nr. 11; fig. 2 (Zeichnung). - AE 1984.</bibl><bibl>CIL 13, 06911.</bibl><bibl>W. Boppert, Militärische Grabdenkmäler aus Mainz und Umgebung, CSIR Deutschland 2, 5 (Mainz 1992) 102-103, Nr. 8; Tafel 9.</bibl><bibl>W. Selzer, Römische Steindenkmäler. Mainz in römischer Zeit. Katalog zur Sammlung in der Steinhalle (Mainz 1988) 131, Nr. 37; Foto.</bibl><bibl>É. Espérandieu, Recueil général des bas-reliefs, statues et bustes de la Gaule romaine (Paris 1918) 318-319, Nr. 5799; Foto.</bibl><bibl>K. Körber, MZ 11, 1916, 64, Nr. 10; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Boundary inscription from Tipasa, bei &amp;ndash; Tipasa, bei (Mauretania Caesariensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002921</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002921</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Tipasa, Musée</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/85">cippus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>159</height><width>62</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Mauretania Caesariensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/344519">Tipasa, bei</placeName></origPlace><origDate><origDate notBefore-custom="0202" notAfter-custom="0209" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">202 AD - 209 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern">Tipasa, bei</placeName><placeName type="findspot">See Halloula, ausgetrockneter</placeName><placeName type="region">Alger</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/96">boundary inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002921_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="praenomen">L.</name><name type="nomen">Septimius*</name><name type="cognomen">Severus Pertinax*</name></persName></person><person xml:id="HD002921_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.</name><name type="nomen">Aurelius</name><name type="cognomen">Antoninus</name></persName></person><person xml:id="HD002921_3" sex="M"><persName ref="https://www.wikidata.org/wiki/Q183089"><name type="praenomen">P.++</name><name type="nomen">Septimius++*</name><name type="cognomen">Geta++</name></persName></person><person xml:id="HD002921_4" sex="M"><persName><name type="cognomen">Iuba</name></persName></person><person xml:id="HD002921_5" sex="M"><persName><name type="cognomen">Augustus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-23" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Sept</abbr><ex>imius</ex></expan> Severus Pius <lb n="2"/><expan><abbr>Pert</abbr><ex>inax</ex></expan> <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>Arab</abbr><ex>icus</ex></expan> <expan><abbr>Adiab</abbr><ex>enicus</ex></expan> <expan><abbr>Part</abbr><ex>hicus</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <lb n="3"/><expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> et <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> Aure<lb break="no" n="4"/>lius Antoninus Pius <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>Arab</abbr><ex>icus</ex></expan> <lb n="5"/><expan><abbr>Adiab</abbr><ex>enicus</ex></expan> <expan><abbr>Part</abbr><ex>hicus</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <del rend="erasure">et <expan><abbr>P</abbr><ex>ublius</ex></expan> <expan><abbr>Sept</abbr><ex>imius</ex></expan> Geta</del> <lb n="6"/><del rend="erasure">[<gap reason="lost" extent="unknown" unit="character"/></del>] castellanis Thude<lb break="no" n="7"/>densibus fines et immunitatem <lb n="8"/>a rege Iuba per <expan><abbr>confirmatione</abbr><ex cert="low"/></expan> <lb n="9"/>divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> concessos post <lb n="10"/><supplied reason="lost">m</supplied>ultis maximisque saecu<lb break="no" n="11"/>lis felicissimis temporibus <lb n="12"/>suis divino iudicio restituerunt <lb n="13"/>Thude<expan><ex>de</ex><abbr>nses</abbr></expan> determinatione s<expan><ex>a</ex><abbr>e</abbr></expan><lb break="no" n="14"/>culi terminos posuerunt <lb n="15"/>et <expan><abbr>ded</abbr><ex>icaverunt</ex></expan> <expan><abbr>felic</abbr><ex>iter</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Y: Ab 202 ist Caracalla pater patriae; nach 209 Geta auch Pius (Länge der Rasur läßt keinen Platz für Pius Aug(ustus).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0972.</bibl><bibl>M. Bouchenaki - P.A. Février, BAA 7, 1977/79 (1985) 193-215; fig. 2 u. 3. - AE 1985. (unzugänglich).</bibl><bibl>AE 1993, 1782.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

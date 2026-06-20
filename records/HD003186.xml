@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Rusellae &amp;ndash; Roselle (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003186</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003186</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Grosseto, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Marmor, geädert / farbig</material><dimensions unit="cm"><height>(15)</height><width>(19)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.2-5.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413288">Rusellae</placeName></origPlace><origDate><origDate notBefore-custom="-0017" notAfter-custom="0004" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">17 BC - 4 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1966"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roselle</placeName><placeName type="findspot">Forum, "Vano Statue"</placeName><placeName type="region">Toscana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003186_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q298162"><name type="praenomen">C.+</name><name type="nomen">Caesar+</name></persName></person><person xml:id="HD003186_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1405"><name type="cognomen">Augustus+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-04-08" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>C</abbr><ex>aio</ex></expan> Ca</supplied>e<supplied reason="lost">s</supplied>ari <supplied reason="lost"><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> patron<supplied reason="lost">o</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>3 teilweise aus mehreren Teilen zusammengesetzte Fragmente erhalten; Maße beziehen sich auf Fragment a; Maße Fragment b und c: (6,2) x (6,6) cm und (9,3) x (5,3) cm. Material: grau geäderter weißer Marmor. Datierung: zwischen 17 v. Chr. (Adoption durch Augustus) und dem 21. (22.?)2. 4 n. Chr. (Tod des L. Caesar).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0449.</bibl><bibl>V. Saladino, ZPE 39, 1980, 219-221, Nr. 9; Taf. 7, 9. - AE 1980.</bibl><bibl>AE 1998, 0444.</bibl><bibl>S. Conti, SupplIt 16 (Roma 1998) 113, Nr. 7; Foto. - AE 1998.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

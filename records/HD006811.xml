@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006811</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006811</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>22</height><width>46</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="0085" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">85 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006811_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Herenius</name><name type="cognomen">Pollio</name></persName></person><person xml:id="HD006811_10" sex="M"><persName><name type="cognomen">Alexander</name></persName></person><person xml:id="HD006811_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Annius Herenius</name><name type="cognomen">Pollio</name></persName></person><person xml:id="HD006811_3" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Macilius+</name><name type="cognomen">Surus</name></persName></person><person xml:id="HD006811_4" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Cosius+</name><name type="cognomen">Epaprhoditus (= Epaphroditus)</name></persName></person><person xml:id="HD006811_5" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Trollius</name><name type="cognomen">Longus+</name></persName></person><person xml:id="HD006811_6" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Antonius</name><name type="cognomen">Tyrannus+</name></persName></person><person xml:id="HD006811_7" sex="M"><persName><name type="cognomen">Himer</name></persName></person><person xml:id="HD006811_8" sex="M"><persName><name type="cognomen">Nymphycus</name></persName></person><person xml:id="HD006811_9" sex="M"><persName><name type="cognomen">Nicostratus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-02-01" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> Herenio Pollione <expan><abbr>M</abbr><ex>arco</ex></expan> Annio Herenio <lb n="2"/>Pollione <expan><abbr>f</abbr><ex>ilio</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> magistri Fontani <lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> Mac<supplied reason="lost">i</supplied>lius Surus I <lb n="4"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Cosi<supplied reason="lost">us</supplied> Epaprh<expan><ex>o</ex><abbr>ditus</abbr></expan> <note>sic</note> I <lb n="5"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Trollius Lo<supplied reason="lost">n</supplied>gus <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="6"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Antonius Tyra<supplied reason="lost">nnus <gap reason="lost" quantity="1" unit="character"/></supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ministri <lb n="2"/>Himer I <lb n="3"/>Nymphycus I <lb n="4"/>Nicostratus II <lb n="5"/>Alexander I
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): AE 1975: Z. 6/7 u. 10/11: keine Angabe der Zeilenfälle.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1975, 0021. (B)</bibl><bibl>S. Panciera, RSA 3, 1973, 95-101; fig. 3. - AE 1975.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

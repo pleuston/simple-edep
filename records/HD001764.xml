@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Savaria, bei &amp;ndash; Ostffyasszonyfa (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001764</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001764</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ostffyasszonyfa, katholische Kirche, Chor, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>98</height><width>(53)</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197498">Savaria, bei</placeName></origPlace><origDate><origDate notBefore-custom="0194" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">194 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3046852">Ostffyasszonyfa</placeName><placeName type="findspot">{Christi Himmelfahrt, Kirche}, sekundär verwendet</placeName><placeName type="region">Vas megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001764_1" sex="M"><persName ref="http://romans1by1.com/rpeople/17212"><name type="praenomen">L.+</name><name type="nomen">Caecilius+</name><name type="cognomen">Viator</name></persName></person><person xml:id="HD001764_10" sex="M"><persName ref="http://romans1by1.com/rpeople/17221"><name type="nomen">Muttius*?</name><name type="cognomen">Victorinus*</name></persName></person><person xml:id="HD001764_11" sex="M"><persName ref="http://romans1by1.com/rpeople/17222"><name type="nomen">Octavius*</name><name type="cognomen">Firmus</name></persName></person><person xml:id="HD001764_12" sex="M"><persName ref="http://romans1by1.com/rpeople/17223"><name type="nomen">Catinius*</name><name type="cognomen">Trofimus</name></persName></person><person xml:id="HD001764_13" sex="M"><persName ref="http://romans1by1.com/rpeople/17224"><name type="nomen">Iulius*</name><name type="cognomen">Lentinus</name></persName></person><person xml:id="HD001764_14" sex="M"><persName ref="http://romans1by1.com/rpeople/17225"><name type="nomen">Iulius*</name><name type="cognomen">Primio</name></persName></person><person xml:id="HD001764_15" sex="M"><persName ref="http://romans1by1.com/rpeople/17226"><name type="nomen">Aurelius*</name><name type="cognomen">Patronius*?</name></persName></person><person xml:id="HD001764_2" sex="M"><persName ref="http://romans1by1.com/rpeople/17213"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Felix</name></persName></person><person xml:id="HD001764_3" sex="M"><persName ref="http://romans1by1.com/rpeople/17214"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Lucius</name></persName></person><person xml:id="HD001764_4" sex="M"><persName ref="http://romans1by1.com/rpeople/17215"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Adiutor</name></persName></person><person xml:id="HD001764_5" sex="M"><persName ref="http://romans1by1.com/rpeople/17216"><name type="praenomen">[-]</name><name type="nomen">Caecilius+*</name><name type="cognomen">Viatorianus</name></persName></person><person xml:id="HD001764_6" sex="M"><persName ref="http://romans1by1.com/rpeople/17217"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Germanus</name></persName></person><person xml:id="HD001764_7" sex="M"><persName ref="http://romans1by1.com/rpeople/17218"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Eutichas (= Eutychas)</name></persName></person><person xml:id="HD001764_8" sex="M"><persName ref="http://romans1by1.com/rpeople/17219"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Viator</name></persName></person><person xml:id="HD001764_9" sex="M"><persName ref="http://romans1by1.com/rpeople/17220"><name type="nomen">Iulius*</name><name type="cognomen">Celer</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-24" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan></supplied> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/><supplied reason="lost">nu</supplied>mini <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="3"/><supplied reason="lost"><expan><abbr>L</abbr><ex>ucius</ex></expan> C</supplied>aecilius Viator <lb n="4"/><expan><abbr><supplied reason="lost">Au</supplied>g</abbr><ex>ustalis</ex></expan> <expan><abbr>mun</abbr><ex>icipii</ex></expan> <expan><abbr>Brig</abbr><ex>etionis</ex></expan> col<lb break="no" n="5"/><supplied reason="lost">le</supplied>gio <expan><abbr>libertinor</abbr><ex>um</ex></expan> <lb n="6"/><supplied reason="lost">ob</supplied> <expan><abbr>honore</abbr><ex>m</ex></expan> cente<lb break="no" n="7"/><expan><abbr><supplied reason="lost">na</supplied>ria</abbr><ex>m</ex></expan> <expan><abbr>d</abbr><ex>onum</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/> Felix <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> Lucius <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> Adiutor <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> Viatorianus <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> Germanus <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> Eutichas <note>sic</note> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> Viator </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Celer <lb n="2"/><expan><abbr>Mutt</abbr><ex cert="low">ius</ex></expan> <expan><abbr>Victorin</abbr><ex>us</ex></expan> <lb n="3"/><expan><abbr>Oct</abbr><ex>avius</ex></expan> Firmus <lb n="4"/><expan><abbr>Catin</abbr><ex>ius</ex></expan> Trofimus <lb n="5"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Lentinus <lb n="6"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Primio <lb n="7"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> <expan><abbr>Patroni</abbr><ex>us</ex></expan><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Die Namensliste unterhalb von Z. 7 ist in zwei Kolumnen aufgeteilt. Zahlreiche Ligaturen. Z. 5 (Anfang): vom G ist noch das rechte obere cornu erkennbar. Z. 21: IN- oder NI-Ligatur; daher möglicherweise auch Patroinus (für Patruinus). (B): Buócz, AE 1984; TRHR; Tóth: geringfügig abweichende Textwiedergaben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0723. (B)</bibl><bibl>TRHR (Suppl.) 027; Abb. 27 (Foto u. Zeichnung). (B)</bibl><bibl>T. Buócz, Savaria 11/12, 1977/78, 165-176; Fotos u. Zeichnung. (B) - AE 1984.</bibl><bibl>E. Tóth, Lapidarium Savariense. Savaria római feliratos kőemlékei (Szombathely 2011) 215-216, Nr. 181; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Pompeii, bei &amp;ndash; Pompei, bei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004973</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004973</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii, bei</placeName></origPlace><origDate><origDate when-custom="0035" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">35 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170336">Pompei, bei</placeName><placeName type="findspot">Murécine</placeName><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004973_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Cestius</name></persName></person><person xml:id="HD004973_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Servilius</name><name type="cognomen">Nonianus</name></persName></person><person xml:id="HD004973_3" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Castricius</name><name type="cognomen">Celer</name></persName></person><person xml:id="HD004973_4" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Sulpicius</name><name type="cognomen">Faustus</name></persName></person><person xml:id="HD004973_5" sex="M"><persName><name type="praenomen">C.+</name><name type="nomen">Iulius+</name><name type="cognomen">Ruphus+ (= Rufus+)</name></persName></person><person xml:id="HD004973_6" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Titinius</name><name type="cognomen">Maior</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-18" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Cestio <expan><abbr>M</abbr><ex>arco</ex></expan> Servilio Noniano co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Feb</supplied>ruar<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>A</abbr><ex>ulus</ex></expan> Castricius Celer scripsi me convenisse cum <expan><abbr>C</abbr><ex>aio</ex></expan> Sulpicio Fausto <expan><abbr>m</abbr><ex>erc</ex></expan><lb break="no" n="4"/>atore de rebus ratio<supplied reason="lost">ni</supplied>bus controversiis actionibus petitioni<supplied reason="lost">bus</supplied> <lb n="5"/>persecutionibusque quae sunt in<supplied reason="lost">ter me</supplied> et eum quaeque inter m<supplied reason="lost">e</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><expan><abbr>A</abbr><ex>ulum</ex></expan> Castricium Celerem <supplied reason="lost">pro servis qui</supplied> sunt fuerunt meis et <supplied reason="lost">eum</supplied> <lb n="7"/><supplied reason="lost">convent</supplied>us qui <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> inter <supplied reason="lost">nos inter</supplied> <lb n="8"/><supplied reason="lost"><expan><abbr>C</abbr><ex>aium</ex></expan> Sulpicium</supplied> Faustum m<expan><ex>erc</ex><abbr>ator</abbr></expan><supplied reason="lost">em et <expan><abbr>C</abbr><ex>aium</ex></expan> Iulium Ru</supplied>phum m<expan><ex>erc</ex><abbr>atorem</abbr></expan> <lb n="9"/>in <gap reason="lost" extent="unknown" unit="character"/> ante Idus <expan><abbr>April</abbr><ex>es</ex></expan> non erit quod per me <supplied reason="lost"><expan><abbr>A</abbr><ex>ulum</ex></expan> Castricium Cele</supplied><lb break="no" n="10"/><supplied reason="lost">rem</supplied> non fiat et quom <note>sic</note> i<supplied reason="lost">am</supplied> non fiat quo ma<supplied reason="lost">gis non fiat</supplied> quominus <lb n="11"/>is <expan><abbr>A</abbr><ex>ulus</ex></expan> Titinius Maior addicatur iud<supplied reason="lost">ex</supplied> <lb n="12"/>pro his <expan><abbr>omn</abbr><ex>ibus</ex></expan> HS centum millia <note>sic</note> nummum <expan><abbr>p</abbr><ex>robe</ex></expan> <expan><abbr>r</abbr><ex>ecte</ex></expan> <lb n="13"/><expan><abbr>d</abbr><ex>ari</ex></expan> stipulatus est <expan><abbr>C</abbr><ex>aius</ex></expan> Sulpicius Faustus m<expan><ex>erc</ex><abbr>ator</abbr></expan> spopon<supplied reason="lost">di</supplied>t <expan><abbr>A</abbr><ex>ulus</ex></expan> <lb n="14"/><supplied reason="lost">C</supplied>astricius Celer <lb n="15"/>Actum Puteo<supplied reason="lost">l</supplied>is
+            </ab></div>
+            <div type="commentary">
+                <p>Entspricht Tabula Pompeiana 58. Rekonstruktion basiert auf drei sich ergänzenden Abschriften.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0124.</bibl><bibl>F. Sbordone, RAAN 51, 1976, 153-154, Nr. 7; tav. 4, 7 (Zeichnung). - AE 1978.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

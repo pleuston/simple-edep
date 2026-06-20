@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Albulae &amp;ndash; Aïn-Témouchent (Mauretania Caesariensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002957</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002957</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>135</height><width>50</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Mauretania Caesariensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/285412">Albulae</placeName></origPlace><origDate><origDate notBefore-custom="0231" notAfter-custom="0271" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">231 AD - 271 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern">Aïn-Témouchent</placeName><placeName type="findspot"/><placeName type="region">Oran</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002957_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Gellius</name><name type="cognomen">Felix</name></persName></person><person xml:id="HD002957_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Gellius</name><name type="cognomen">Felix</name></persName></person><person xml:id="HD002957_3" sex="M"><persName><name type="nomen">Lelia (= Laelia)</name><name type="cognomen">Serana</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-15" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>s</abbr><ex>acrum</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Gellius <lb n="3"/>Felix <lb n="4"/><expan><abbr>C</abbr><ex>ai</ex></expan> Gelli Felicis <lb n="5"/>et L<expan><ex>a</ex><abbr>eli</abbr><ex>a</ex><abbr>e</abbr></expan> Se<lb break="no" n="6"/>ran<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>S</abbr><ex cert="low"/></expan> vixit <lb n="7"/>vixit <lb n="8"/>annos L <lb n="9"/>reliquos here<lb break="no" n="10"/>s meus adicit
+            </ab></div>
+            <div type="commentary">
+                <p>Z.6: Alleinstehendes S verschrieben für F(ilius) oder Genitiv-S von Seranes. Zur Schlußformel &amp;quot;&amp;quot;reliquos heres meus adicit&amp;quot;&amp;quot; vgl. CIL 08, 04619.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0985.</bibl><bibl>J. Marcillet-Jaubert, BAA 7, 1977/79 (1985) 96-98, Nr. 12; fig. 12. - AE. (unzugänglich).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

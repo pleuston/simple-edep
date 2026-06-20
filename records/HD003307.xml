@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Blera, bei &amp;ndash; Civitella Cesi, bei (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003307</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003307</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>38</height><width>54</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413054">Blera, bei</placeName></origPlace><origDate><origDate notBefore-custom="-0050" notAfter-custom="0014" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">50 BC - 14 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Civitella Cesi, bei</placeName><placeName type="findspot">Monte Monastero</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003307_1"><persName><name type="praenomen">C.</name><name type="nomen">Rosius</name></persName></person><person xml:id="HD003307_2"><persName><name type="nomen">Turrania</name></persName></person><person xml:id="HD003307_3"><persName><name type="praenomen">C.</name><name type="nomen">Rosius</name></persName></person><person xml:id="HD003307_4"><persName><name type="praenomen">[-]</name><name type="nomen">Rosius</name><name type="cognomen">Sabinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-09-03" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Rosio <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Arn</abbr><ex>ensi</ex></expan> <expan><abbr>eq</abbr><ex>uiti</ex></expan> <lb n="2"/>Turraniae <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> uxori <lb n="3"/><expan><abbr>C</abbr><ex>aio</ex></expan> Rosio <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ili</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Arn</abbr><ex>ensi</ex></expan> <lb n="4"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Rosio <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ili</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Arn</abbr><ex>ensi</ex></expan> Sabino <lb n="5"/><supplied reason="lost"><expan><abbr>trib</abbr><ex>uno</ex></expan></supplied> <expan><abbr>mil</abbr><ex>itum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> IIII <lb n="6"/><supplied reason="lost"><expan><abbr>hered</abbr><ex>es</ex></expan>? fa</supplied>ciendum <lb n="7"/><supplied reason="lost">curaver</supplied>unt
+            </ab></div>
+            <div type="commentary">
+                <p>(B) Eck: Z. 1: G(aio); G(ai); Z. 2: G(ai); Z. 3: G(aio); G(ai); AE 1981: Z. 3: C(ai) f(ilio); Z. 4: C(ai) f(ilio); Eck: Z. 4: G(ai).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0363. (B)</bibl><bibl>W. Eck, Epigraphica 41, 1979, 108-111, Nr. 16; fig. 14. (B) - AE 1981.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

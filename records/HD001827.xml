@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Identification inscription from Dyrrachium &amp;ndash; Durrës (Macedonia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001827</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001827</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Durrës, Ark. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material><dimensions unit="cm"><height>(92)</height><width>21</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-2.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Macedonia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481818">Dyrrachium</placeName></origPlace><origDate><origDate notBefore-custom="0117" notAfter-custom="0138" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">117 AD - 138 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/783754">Albania</placeName><placeName type="modern" ref="http://www.geonames.org/3185728">Durrës</placeName><placeName type="findspot"/><placeName type="region">Qarku i Durrësit</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>identification inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001827_1" sex="M"><persName><name type="cognomen">Eutychius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-11-20" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020104" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f156b96f-1b99-4a2c-972c-e63cd346e249/file/id/780177/file_version/name/small"/><graphic xml:id="F024963" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0f5f0cd7-3e0b-41f2-94fe-9f45be60d50b/file/id/785632/file_version/name/small"/><graphic xml:id="F024964" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/df070964-b128-457f-a99f-734366368a7b/file/id/785633/file_version/name/small"/><graphic xml:id="F024965" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c48b41c9-21ab-4482-9291-b8ab37f709b3/file/id/785634/file_version/name/small"/><graphic xml:id="F002456" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/904fdb53-b59e-4d7d-a802-5ca1653715be/file/id/763529/file_version/name/small"/><graphic xml:id="F024959" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/777e9c1d-e234-47cd-af15-75bbb91c3da8/file/id/785628/file_version/name/small"/><graphic xml:id="F024958" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/095ad44d-ed3c-4a4e-81ee-26c1f6634646/file/id/785627/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Aquae <expan><abbr>Ha<supplied reason="lost">d</supplied>rian</abbr><ex>ae</ex></expan> <lb n="2"/><expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Iul</abbr><ex>iae</ex></expan> <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <expan><abbr>Dyrr</abbr><ex>achinorum</ex></expan> <lb n="3"/><expan><abbr>offic</abbr><ex>inator</ex></expan> Eutychius <expan><abbr>PE</abbr><ex cert="low"/></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Aquae <expan><abbr>Hadrian</abbr><ex>ae</ex></expan> <lb n="2"/><expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Iul</abbr><ex>iae</ex></expan> <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <expan><abbr>Dyrr</abbr><ex>achinorum</ex></expan> <lb n="3"/><expan><abbr>off<supplied reason="lost">i</supplied>c</abbr><ex>inator</ex></expan> Eutychius <expan><abbr>PE</abbr><ex cert="low"/></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>2 unterschiedliche Stempel in entgegengesetzter Leserichtung auf einer fistula. Lesung auf Grundlage der Scheden von G. Alföldy. Z. 3 (Ende): hinter H eine senkrechte und eine schräg aufsteigende Haste; vom S bei Text b nur der oberste Teil, von P in Text a nur die senkrechte Haste erhalten; dahinter in Text a Reste einer senkrechten Haste, in Text b der untere Teil einer senkrechten Haste und davon abgehend eine waagrechte Haste erhalten (E oder L). (B): Miraj - Myrto; Freis, ZPE 53, 1983; Freis, ZPE 58, 1985; Miraj; AE 1994: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0812. (B)</bibl><bibl>F. Miraj - H. Myrto, Iliria 12, 1, 1982, 133-134, Nr. 2; fig. 2. (B) - AE 1984.</bibl><bibl>H. Freis, ZPE 53, 1983, 118, Nr. 2. (B) - AE 1984.</bibl><bibl>H. Freis, ZPE 58, 1985, 194; Taf. 14c. (B)</bibl><bibl>AE 1994, 1573. (B)</bibl><bibl>L. Miraj, Iliria 21, 1/2, 1991, 250; fig. 1. (B) - AE 1994.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

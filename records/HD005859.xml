@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Superaequum &amp;ndash; Castelvecchio Subequo (Samnium (Regio IV))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005859</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005859</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>L'Aquila, Mus. Naz. Abruzzo</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Samnium (Regio IV)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413326">Superaequum</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Castelvecchio Subequo</placeName><placeName type="findspot"/><placeName type="region">L'Aquila</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-07-09" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F002838" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a665baa8-fc3b-4951-96c1-84a33675afc2/file/id/763911/file_version/name/small"/><graphic xml:id="F029358" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/27b20273-f708-4282-bfab-4506e0909b91/file/id/790115/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uintus</ex></expan> Octavius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>n</abbr><ex>epos</ex></expan> <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>pron</abbr><ex>epos</ex></expan> <expan><abbr>Ser</abbr><ex>gia</ex></expan> <lb n="2"/>Sagitta <lb n="3"/>IIvir <expan><abbr>quinq</abbr><ex>uennalis</ex></expan> III <expan><abbr>praef</abbr><ex>ectus</ex></expan> <expan><abbr>fab</abbr><ex>rum</ex></expan> <expan><abbr>prae</abbr><ex>fectus</ex></expan> <expan><abbr>equi</abbr><ex>tum</ex></expan> <lb n="4"/><expan><abbr>trib</abbr><ex>unus</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> a populo <expan><abbr>procurat</abbr><ex>or</ex></expan> Caesaris <lb n="5"/>Augusti in Vindalicis <note>sic</note> et Raetis et in valle Poe<lb break="no" n="6"/>nina per annos IIII et in Hispania provincia <lb n="7"/>per annos X et in Suria <note>sic</note> biennium
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1977, 0241.</bibl><bibl>R. Heuberger, Klio 34, 1941, 290-292. - AE 1977.</bibl><bibl>E. Meyer, BZG 42, 1943, 77-78. - AE 1977.</bibl><bibl>H.G. Pflaum, RHD 1968, 374-375. - AE 1977.</bibl><bibl>U. Laffi, Athenaeum 55, 1977, 369-379. - AE 1977.</bibl><bibl>AE 1902, 0189. (B)</bibl><bibl>A. De Nino, NSA 1902, 123-124. (B) - AE 1902.</bibl><bibl>ILS 9007. (B)</bibl><bibl>AE 1912, p. 66 s. n. 219.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

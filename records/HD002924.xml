@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aïn-Bessem (Mauretania Caesariensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002924</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002924</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/112">cupa</objectType><dimensions unit="cm"><height>58</height><width>54</width><depth>118</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Mauretania Caesariensis</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern">Aïn-Bessem</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002924_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aelius</name><name type="cognomen">[---]us</name></persName></person><person xml:id="HD002924_2" sex="W"><persName><name type="nomen">Aelia*</name><name type="cognomen">Audif</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-08-23" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>P</abbr><ex>ublio</ex></expan> Aelio <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>o dul<lb break="no" n="3"/><expan><abbr><supplied reason="lost">ci</supplied>s</abbr><ex>s</ex>ime</expan> <lb n="4"/><supplied reason="lost">f</supplied>lore pu<lb break="no" n="5"/>erorum <lb n="6"/><supplied reason="lost"><expan><abbr>v</abbr><ex>ixit</ex></expan></supplied> <expan><abbr>an</abbr><ex>nos</ex></expan> XIII <lb n="7"/>raptum <lb n="8"/><expan><abbr>Ael</abbr><ex>ia</ex></expan> Audif<lb break="no" n="9"/><surplus>fil</surplus> <expan><abbr>fil</abbr><ex>io</ex></expan> d<expan><ex>e</ex><abbr>d</abbr><ex>icavit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Vgl. flore iuventae (CIL VIII 9142) zu flos puerorum. Gleichnamige Aelia Audif in CIL VIII 9045 bezeugt, die ihrem Vater P. Aelius Primianus eine Stele errichten ließ (gest. 225).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0974.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

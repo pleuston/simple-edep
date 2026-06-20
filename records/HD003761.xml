@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Pompeii &amp;ndash; Pompei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003761</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003761</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii</placeName></origPlace><origDate><origDate when-custom="0047" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">47 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170336">Pompei</placeName><placeName type="findspot"/><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003761_1" sex="M"><persName><name type="praenomen">Cn.</name><name type="nomen">Hosidius</name><name type="cognomen">Geta</name></persName></person><person xml:id="HD003761_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Volasenna</name><name type="cognomen">Severus</name></persName></person><person xml:id="HD003761_3" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Sulpicius</name><name type="cognomen">Cinnamus</name></persName></person><person xml:id="HD003761_4" sex="M"><persName><name type="cognomen">Alcimus</name></persName></person><person xml:id="HD003761_5" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Eprius?</name><name type="cognomen">Valgus+</name></persName></person><person xml:id="HD003761_6" sex="M"><persName><name type="cognomen">Faustus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-12-27" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Cn</abbr><ex>aeo</ex></expan> Hosidio Geta <expan><abbr>C</abbr><ex>aio</ex></expan> Volasenna Severo co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="2"/><expan><abbr>pr</abbr><ex>idie</ex></expan> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Ianuar</abbr><ex>ias</ex></expan> <lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> Sulpicius Cinnamus scripsi me accepisse <lb n="4"/>ab Alcimo <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>Epri</abbr><ex cert="low"/></expan> <supplied reason="lost">V</supplied>algi <expan><abbr>ser</abbr><ex>vo</ex></expan> HS XXX in <lb n="5"/>debitum Fausti patroni mei ex HS MMMMMMM <lb n="6"/>ex qua summa accep<supplied reason="lost">i</supplied> <expan><abbr>pr</abbr><ex>idie</ex></expan> <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Dec</abbr><ex>embres</ex></expan> <lb n="7"/>HS XXIIX et hac die <supplied reason="lost">H</supplied>S II <lb n="8"/>actum Puteoli<supplied reason="lost">s</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Tabula Pompeiana. (B): AE 1988: kleinere Leseabweichungen; AE 1973: Leseabweichungen ab Z. 4. (C): in von AE 1973 angegebener Originalpublikation Inschrift nicht enthalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0328. (B)</bibl><bibl>G. Camodeca, Puteoli 9/10, 1986, 18, Nr. 2; fig. 3. - AE 1988.</bibl><bibl>AE 1973, 0151. (BC)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

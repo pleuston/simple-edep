@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Titulcia, bei &amp;ndash; Ciempozuelos (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000490</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000490</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Madrid, Mus. Arq. Nac.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>62</height><width>(634)</width><depth>42</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">25-13</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/236684">Titulcia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1977"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3125082">Ciempozuelos</placeName><placeName type="findspot">Casa de Román, bei, Bett des Jarama</placeName><placeName type="region">Madrid</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000490_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Sextius*?</name><name type="cognomen">Priscus</name></persName></person><person xml:id="HD000490_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000490_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Severus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-12" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F006983" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7f27a7fa-dc4e-4647-adf8-68810d235c81/file/id/767395/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <expan><abbr>Sex</abbr><ex cert="low">tio</ex></expan> Prisco filio <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Quir</abbr><ex>ina</ex></expan> Severus nepo<supplied reason="lost">ti</supplied> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> eidem<supplied reason="lost">q</supplied>ue <note>sic</note> dedicarunt
+            </ab></div>
+            <div type="commentary">
+                <p>Inschrift erstreckt sich über 5 Blöcke; Breite der einzelnen Blöcke: 136; 142.8; 102.5; 105; 147.5; Blöcke stammen wahrscheinlich von einem Mausoleum. Vermutlich von demselben Monument wurden noch Gesimsblöcke gefunden. Material: brauner Sandstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0603.</bibl><bibl>S. Mariner Bigorra, in: Homenaje al Prof. M. Almagro Basch III (Madrid 1983) 347-352; lám. 1,1-6 u. 2. - AE.</bibl><bibl>AE 2004, 0805.</bibl><bibl>HEp 04, 1994, 0532.</bibl><bibl>HEp 13, 2003, 0450.</bibl><bibl>AE 1997, 0940.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

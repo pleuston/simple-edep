@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Ephesus (Asia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002119</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002119</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ephesos</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(118)</height><width>60</width><depth>60</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.3-1.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Asia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/599612">Ephesus</placeName></origPlace><origDate><origDate notBefore-custom="0098" notAfter-custom="0117" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">98 AD - 117 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1968"><placeName type="country" ref="https://www.geonames.org/298795">Turkey</placeName><placeName type="modern"/><placeName type="findspot">Scholastikiatherme, sekundär verwendet</placeName><placeName type="region">Izmir</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002119_1" sex="M"><persName><name type="praenomen">Ti. / Τι.</name><name type="nomen">Claudius / Κλαύδιος*</name><name type="cognomen">Classicus / Κλασσικός</name></persName></person><person xml:id="HD002119_2" sex="M"><persName><name type="praenomen">T. / Τ.</name></persName></person><person xml:id="HD002119_3" sex="M"><persName><name type="cognomen">Nerva / Νέρουα</name></persName></person><person xml:id="HD002119_4" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1425"><name type="cognomen">Nerva Traianus</name></persName></person><person xml:id="HD002119_5" sex="M"><persName><name type="praenomen">C. / Γ.+</name><name type="nomen">Iulius / Ἰούλιος</name><name type="cognomen">Photinus Celer / Φωτεινὸς Κέλερ</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-12-11" who="Cowey">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F023953" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bb7912fd-0d07-4f89-a3ee-32fb5fcc74ec/file/id/784612/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Ti</abbr><ex>berio</ex></expan> Claudio <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>lib</abbr><ex>erto</ex></expan> <lb n="2"/>Classico <lb n="3"/>divi <expan><abbr>T</abbr><ex>iti</ex></expan> a cubiculo et <expan><abbr>proc</abbr><ex>uratori</ex></expan> <lb n="4"/>castrensi divi Nervae <lb n="5"/><expan><abbr>proc</abbr><ex>uratori</ex></expan> a voluptatibus <lb n="6"/><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> Nervae Traiani Caesaris <lb n="7"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> Germanici Dacici <expan><abbr>proc</abbr><ex>uratori</ex></expan> <lb n="8"/>a voluptatibus et ad ludum ma<lb break="no" n="9"/>tutinum et <expan><abbr>proc</abbr><ex>uratori</ex></expan> Alexandreae <lb n="10"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Photinus Celer adiutor <lb n="11"/>in procuratione Alexandreae <lb n="12"/>ob merita eius </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ἡ <supplied reason="lost">β</supplied>ουλὴ καὶ ὁ δῆμος ἐτείμησαν <lb n="2"/>Τι(βέριον) Κλ(αύδιον) Σεβαστοῦ ἀπελεύθερον <lb n="3"/>Κλασσικόν, θεοῦ Τίτου ἐπὶ τοῦ <lb n="4"/>κοιτῶνος καὶ ἐπίτροπον κασ<lb break="no" n="5"/>τρήσιον θεοῦ Νέρουα ἐπίτρο<lb break="no" n="6"/><supplied reason="lost">πον</supplied> ἐπὶ τῶν ἀπολαύσεων Αὐ<lb break="no" n="7"/><supplied reason="lost">τοκ</supplied>ράτορος Νέρουα Τραιανοῦ <lb n="8"/>Καίσαρος Σεβαστοῦ Γερμανικοῦ <lb n="9"/><supplied reason="lost">Δ</supplied>ακικοῦ ἐπίτροπον ἐπὶ τῶν <lb n="10"/><supplied reason="lost">ἀπ</supplied>ολαύσεων καὶ λούδου μα<lb break="no" n="11"/>τουτείνου καὶ ἐπίτροπον κα<lb break="no" n="12"/>θολικ̣ὸ̣ν ἐν Ἀλεξανδρείᾳ <lb n="13"/><supplied reason="lost">Γ(άϊος)</supplied> Ἰούλιος Φωτεινὸς Κέλερ βοη<lb break="no" n="14"/>θὸς αὐτοῦ γενόμενος ἐν Ἀλεξαν<lb break="no" n="15"/>δρείᾳ τὸν ἴδιον εὐεργέτην
+            </ab></div></div>
+            <div type="commentary">
+                <p>Erhalten ist das Mittelteil der Basis. Auf den lateinischen Text folgen 15 Zeilen griechische Paraphrase.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0862.</bibl><bibl>G. Boulvert, ZPE 43, 1981, 31-41. - AE 1982.</bibl><bibl>AE 1972, 0574.</bibl><bibl>D. Knibbe, JŒAI (Beibl.) 49, 1968-1971, 19-21, Nr. 3; Abb. 6.- AE 1972.</bibl><bibl>SEG 30, 1308.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

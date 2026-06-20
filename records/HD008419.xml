@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ratiaria &amp;ndash; Dimovo (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008419</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008419</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>216</height><width>57</width><depth>32</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207376">Ratiaria</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1968"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/733642">Dimovo</placeName><placeName type="findspot">{Arčar}, bei, Nekropole, sekundär verwendet</placeName><placeName type="region">Vidin</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008419_1" sex="M"><persName ref="http://romans1by1.com/rpeople/14203"><name type="praenomen">L.</name><name type="nomen">Septimius+</name><name type="cognomen">Dulacenus+</name></persName></person><person xml:id="HD008419_2" sex="M"><persName><name type="cognomen">Antoninus+</name></persName></person><person xml:id="HD008419_3" sex="M"><persName ref="http://romans1by1.com/rpeople/14204"><name type="cognomen">Aiacartus+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-07-11" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> <supplied reason="lost">S</supplied>eptimius <lb n="2"/>Dul<supplied reason="lost">a</supplied>cenus <lb n="3"/>ex <supplied reason="lost">s</supplied>ignifero <lb n="4"/>vixit an<lb break="no" n="5"/>nis <supplied reason="lost" cert="low">X</supplied>L <expan><abbr>mil</abbr><ex>itavit</ex></expan> <lb n="6"/>a<supplied reason="lost">nnis</supplied> <expan><abbr>X</abbr><ex cert="low"/>X</expan><certainty match="preceding-sibling::node()" locus="value"/>I<supplied reason="lost" cert="low">I</supplied> <lb n="7"/>Ant<supplied reason="lost">o</supplied>ni<lb break="no" n="8"/>nu<supplied reason="lost">s</supplied> A<supplied reason="lost">i</supplied>a<lb break="no" n="9"/><expan><abbr>cartu</abbr><ex>s</ex></expan> <lb n="10"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>s</abbr><ex>unt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 6: Nach der Zeichnung: am Zeilenanfang aufsteigende Schräghaste, danach Raum für circa 4 Buchstaben, am Ende IVI[1-2]. (B): Athanassova - Gerassimova-Tomova, AE 1979: Z. 1: [Se]ptimius; AE 1979: Z. 2/3 und Z. 3/4: Zeilenfall fehlt; Athanassova - Gerassimova-Tomova, AE 1979: Z. 5/6: mil/i[t(avit) an]ni[s ---]; AE 1979: Z. 10 h(ic) s(itus) e(st).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0539. (B)</bibl><bibl>Y. Athanassova - V. Gerasimova-Tomova, BullSocHistBulg 32, 1978, 26-29, Nr. 3; obr. 5; obr. 6 (Zeichnung). (B) - AE 1979.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

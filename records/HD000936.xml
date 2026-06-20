@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Carteia &amp;ndash; El Rocadillo (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000936</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000936</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/147">tile</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/256063">Carteia</placeName></origPlace><origDate><origDate when-custom="-045" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">45 BC</origDate></origDate></origin>
+                        <provenance type="found" when="-1973"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">El Rocadillo</placeName><placeName type="findspot">Cortijo de El Rocadillo; casa de Torre Cartagena</placeName><placeName type="region">Cádiz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000936_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Petrucidius</name></persName></person><person xml:id="HD000936_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Licinius*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-30" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> Petrucidius <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/><expan><abbr>leg</abbr><ex>atus</ex></expan> pro <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Lici</abbr><ex>nius</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Während der Ausgrabungen im Cortijo de El Rocadillo (1972/73) und in der Zone der Torre Cartagena (1974/75) wurden mehrere Ziegel mit demselben Stempeltyp gefunden. Von diesem Typ sind bereits mehrere Exemplare bekannt, s. CIL II 4967; AE 1952, 111. M. Petrucidius M.f. war 45 v. Chr. proconsul der Baetica, M. Licinius sein legatus pro praetore, s. G. Alföldy, Fasti Hispanienses (Wiesbaden 1969) 174. Der Ziegel ist aus 2 aneinanderpassenden Hälften zusammengesetzt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0546.</bibl><bibl>F.J. Presedo Velo, u. a., Carteia I. Excavaciones arqueológicas en España 121 (Madrid 1982) 279-282, Nr. 1; lám. 9. - AE 1982.</bibl><bibl>AE 1990, 0531a.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

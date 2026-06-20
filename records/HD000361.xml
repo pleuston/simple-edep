@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Belginum &amp;ndash; Morbach (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000361</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000361</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Trier, Rhein. Landesmus.; Morbach, Wederath, bei, Archäologiepark Belginum (Kopie)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>75</height><width>(68)</width><depth>19</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-3.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108802">Belginum</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1925"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2813453">Morbach</placeName><placeName type="findspot">Wederath, bei, {Archäologiepark Belginum, Heiliger Bezirk}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000361_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Capitonius</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000361_2" sex="M"><persName><name type="nomen">Capitonius+</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-02-14" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F025908" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7491dd60-eb5c-4ed9-bb74-6630ea8f5d06/file/id/786660/file_version/name/small"/><graphic xml:id="F038759" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/828d6bb9-622c-429a-8255-2d7d95c3b4b6/file/id/799631/file_version/name/small"/><graphic xml:id="F030800" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c465287c-4873-47ad-86e1-4a4e04d63527/file/id/791557/file_version/name/small"/><graphic xml:id="F025907" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/76d1df44-13d7-4905-a652-76d050ae8a0a/file/id/786659/file_version/name/small"/><graphic xml:id="F025895" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cfad0f1a-f7b1-4e71-b5e7-84a069f9515c/file/id/786647/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                In <expan><abbr>honor</abbr><ex>em</ex></expan> <expan><abbr>dom</abbr><ex>us</ex></expan> d<supplied reason="lost"><expan><abbr>ivin</abbr><ex>ae</ex></expan></supplied> <lb n="2"/>deo Creto<supplied reason="lost">ni et</supplied> <lb n="3"/>Genio <supplied reason="lost">p</supplied>agi <expan><abbr>AC</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Capitonius <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>ad excol<supplied reason="lost">endam</supplied> <lb n="6"/>memor<supplied reason="lost">iam</supplied> <lb n="7"/>Capiton<supplied reason="lost">i</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/>pat<supplied reason="lost">roni</supplied> <lb n="9"/>prosc<supplied reason="lost">aenium</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Finke: Z. 2: [C?]reto[ni?; AE 1983: Z. 3: pagi; FInke; AE 1983: Z. 6: memo[riam]; Finke: Z. 7: Capitoni; AE 1983: Z. 7: Capit[onii ---] AE 1929: Z. 7: Gabiton[ii? ---]; Z. 9: prosce[nium; AE 1983: Z. 9: prosc[aenium] d(ono) d(edit). Drei aneinanderpassende Fragmente erhalten. Z. 3 (Ende): statt C auch G möglich. Z. 6: Buchstaben MO doppelt und leicht versetzt zueinander eingemeißelt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1929, 0174. (B)</bibl><bibl>J.B. Keune, TZ 2, 1927, 12-21; Abb. 2. - AE 1929.</bibl><bibl>H. Finke, BRGK 17, 1927, 79-80; Nr. 238. (B)</bibl><bibl>AE 1983, 0728. (B)</bibl><bibl>H. Cüppers, La civilisation romaine de la Moselle à la Sarre. Catalogue d'exposition, Musée du Luxembourg, Paris (Mainz 1983) 240-242; Foto. - AE 1983.</bibl><bibl>W. Binsfeld - K. Goethert-Polaschek - L. Schwinden, Katalog der römischen Steindenkmäler des Rheinischen Landesmuseums Trier. 1. Götter- und Weihedenkmäler, CSIR Deutschland 4, 3 (Mainz 1988) 30, Nr. 46; Taf. 10, 46.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

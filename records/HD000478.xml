@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Aquae Flaviae &amp;ndash; Chaves (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000478</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000478</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Chaves, Arch. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/11">Granit</material><dimensions unit="cm"><height>212</height><width>55</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9.5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/236334">Aquae Flaviae</placeName></origPlace><origDate><origDate when-custom="0079" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">79 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1980"><placeName type="country" ref="https://www.geonames.org/2264397">Portugal</placeName><placeName type="modern" ref="http://www.geonames.org/2740761">Chaves</placeName><placeName type="findspot">Rio Tâmega, Flußbett</placeName><placeName type="region">Vila Real</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000478_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1419"><name type="cognomen">Vespasianus+*</name></persName></person><person xml:id="HD000478_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1419"><name type="cognomen">Vespasianus*</name></persName></person><person xml:id="HD000478_3" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1423"><name type="cognomen">Domitianus++?</name></persName></person><person xml:id="HD000478_4" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Calpetanus Rantius+ Valerius*</name><name type="cognomen">Quirinalis+ Festus</name></persName></person><person xml:id="HD000478_5" sex="M"><persName><name type="praenomen">D.</name><name type="nomen">Cornelius</name><name type="cognomen">Maecianus+</name></persName></person><person xml:id="HD000478_6" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Arruntius</name><name type="cognomen">Maximus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-09-24" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012266" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/81d47d57-f634-4dbb-ad0d-eed8b9c9b143/file/id/771793/file_version/name/small"/><graphic xml:id="F012267" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d8dcde52-26c5-46f7-85d2-16da73bc56fd/file/id/771794/file_version/name/small"/><graphic xml:id="F012268" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2c8d12d0-3183-48b4-832a-f23e280902ff/file/id/771795/file_version/name/small"/><graphic xml:id="F012265" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/10df67e2-27bf-4fee-9f56-d4c4c8acec77/file/id/771792/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> Ve<supplied reason="lost"><expan><abbr>sp</abbr><ex>asiano</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>pont</abbr><ex>ifici</ex></expan></supplied> <lb n="2"/><expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <supplied reason="lost">X <expan><abbr>imp</abbr><ex>eratori</ex></expan> XX <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> IX</supplied> <lb n="3"/><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Vesp</abbr><ex>asiano</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> Au<supplied reason="lost"><expan><abbr>g</abbr><ex>usti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan></supplied> <lb n="4"/>VIII <expan><abbr>imp</abbr><ex>eratori</ex></expan> XIIII <expan><abbr>co</abbr><ex>n</ex></expan><supplied reason="lost" cert="low">s(uli) VII</supplied> <lb n="5"/><del rend="erasure">[<expan><abbr>Imp</abbr><ex>eratori</ex></expan>? Domitiano<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>Caes</abbr><ex>ari</ex></expan>? <expan><abbr>Aug</abbr><ex>usti</ex></expan>? <expan><abbr>f</abbr><ex>ilio</ex></expan>? <gap reason="lost" extent="unknown" unit="character"/></del>] <lb n="0"/>[[<gap reason="lost" quantity="1" unit="line"/>]] <lb n="6"/><expan><abbr>G</abbr><ex>aio</ex></expan> Calpetano Ra<supplied reason="lost">ntio Quirinali</supplied> <lb n="7"/><expan><abbr>Val</abbr><ex>erio</ex></expan> Festo <expan><abbr>leg</abbr><ex>ato</ex></expan> A<supplied reason="lost"><expan><abbr>ug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied> <lb n="8"/><expan><abbr>D</abbr><ex>ecimo</ex></expan> Cornelio Ma<supplied reason="lost">eciano <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied> <lb n="9"/><expan><abbr>L</abbr><ex>ucio</ex></expan> Arruntio Max<supplied reason="lost">imo <expan><abbr>proc</abbr><ex>uratori</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied> <lb n="10"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> VII <expan><abbr>gem</abbr><ex>inae</ex></expan> <supplied reason="lost"><expan><abbr>fel</abbr><ex>icis</ex></expan></supplied> <lb n="11"/>civitates <supplied reason="lost">X</supplied> <lb n="12"/>Aquiflavien<supplied reason="lost">ses Aobrigenses</supplied> <lb n="13"/>Bibali Coel<supplied reason="lost">erni Equaesi</supplied> <lb n="14"/>Interamic<supplied reason="lost" cert="low">i Limici Aebisoci</supplied> <lb n="15"/>Quarque<supplied reason="lost">r</supplied>ni Ta<supplied reason="lost">magani</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Bereits bekannte Inschrift (CIL II 2477 = 5616) ist Kopie der vorliegenden. Ergänzungen nach CIL II 2477 vorgenommen. AE: Anzahl der Konsulate von Titus unsicher ebenso wie der Gemeindename [Aebisoci] in Z.13. Y: Falls Ergänzung von 7. Konsulat bei Titus zutrifft, wäre die Inschrift vom 1. Januar bis Ende Februar 79 zu datieren.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0586.</bibl><bibl>A. Coelho - F. da Silva, Portugalia 2/3, 1981/82, 90-92, Nr. 2; est. 4,3 u. 4,4. - AE.</bibl><bibl>CIL 02, 02477.</bibl><bibl>CIL 02, 05616.</bibl><bibl>AE 1994, 0939.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

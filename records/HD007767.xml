@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Thamugadi &amp;ndash; Timgad (Numidia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007767</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007767</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Timgad (Thamugadi), Tempel d. Genius Coloniae, bei</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Numidia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/334636">Thamugadi</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern" ref="http://www.geonames.org/2476409">Timgad</placeName><placeName type="findspot"/><placeName type="region">Batna</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-05-12" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F000315" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/556852dc-33a6-42cd-b0d0-ebfad7df39b1/file/id/761419/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>Caes</abbr><ex>are</ex></expan> divi <lb n="2"/>Hadriani <expan><abbr>fil</abbr><ex>io</ex></expan> <lb n="3"/>divi Traiani <lb n="4"/>Parthici <expan><abbr>nepo</abbr><ex>te</ex></expan> <lb n="5"/>divi Nervae pro<lb break="no" n="6"/>nepote <expan><abbr>T</abbr><ex>ito</ex></expan> Aelio Ha<lb break="no" n="7"/>driano Antonino <lb n="8"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> Pio <expan><abbr>p</abbr><ex>atre</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>imp</abbr><ex>eratore</ex></expan> II <lb n="9"/><expan><abbr>ponitf</abbr><ex>ice</ex></expan> maximo <lb n="10"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>potestat</abbr><ex>e</ex></expan> XIIII <lb n="11"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> IIII <lb n="12"/>plateam stratam <lb n="13"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Valerius Etruscus <lb n="14"/><expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> patro<lb break="no" n="15"/>nus <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>dedic</abbr><ex>avit</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>p</abbr><ex>ublica</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1899, 0003.</bibl><bibl>ILS 5351.</bibl><bibl>B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 150-151, Nr. 30b.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquae S[---] &amp;ndash; Ilidža (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008664</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008664</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarajevo, Zem. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(145)</height><width>68</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197128">Aquae S[---]</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1975"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3199145">Ilidža</placeName><placeName type="findspot">{Željeznica, Fluss}, Brücke</placeName><placeName type="region">Sarajevski kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008664_1" sex="M"><persName><name type="nomen">Aelius*</name><name type="cognomen">Celsus</name></persName></person><person xml:id="HD008664_2" sex="W"><persName><name type="nomen">Vivia</name><name type="cognomen">[--]l[--]?</name></persName></person><person xml:id="HD008664_3" sex="W"><persName><name type="nomen">Ulpia*</name><name type="cognomen">Successa</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-11-02" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Ael</abbr><ex>io</ex></expan> Celso <expan><abbr>c</abbr><ex>oniugi</ex></expan> <lb n="2"/><expan><abbr>be</abbr><ex>ne</ex></expan> <expan><abbr>me</abbr><ex>renti</ex></expan> con <note>sic</note> quo <lb n="3"/>vixit <expan><abbr>an</abbr><ex>nos</ex></expan> XXXII <lb n="4"/>et Viviae <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>L</abbr><ex cert="low"/></expan><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="5"/><expan><abbr>def</abbr><ex>unctae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> LIII <expan><abbr>Ulp</abbr><ex>i</ex></expan><lb break="no" n="6"/>a Successa <lb n="7"/>et sibi viv<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Oberhalb des gerahmten Inschriftfeldes weibliche und männliche Büste. Z. 1. befindet sich auf dem oberen Rahmen des Inschriftfeldes. (B): Imamović; AE 1980; Škegro; AE 2004: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2004, 1110.</bibl><bibl>AE 1980, 0694. (B)</bibl><bibl>A. Škegro, VjesAMuzZagreb 36, 2003, 148-149, Nr. 11; sl. 13 (Zeichnung). - AE 2004.</bibl><bibl>E. Imamović, GlasSarajevo 33, 1978, 127-131; sl. 1 u. 2. (B) - AE 1980.</bibl><bibl>A. Škegro, OpuscArchZagreb 21, 1997, 102, Nr. 120. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

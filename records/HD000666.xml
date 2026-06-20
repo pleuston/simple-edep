@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Lissus &amp;ndash; Lezha (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000666</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000666</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Lezha</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>58</height><width>116</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481896">Lissus</placeName></origPlace><origDate><origDate notBefore-custom="-0060" notAfter-custom="-0048" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">60 BC - 48 BC</origDate></origDate></origin>
+                        <provenance type="found" when="1968"><placeName type="country" ref="https://www.geonames.org/783754">Albania</placeName><placeName type="modern" ref="http://www.geonames.org/3184935">Lezha</placeName><placeName type="findspot">Stadtmauer, Gaviarius-Tor, bei, {Turm}, bei</placeName><placeName type="region">Qarku i Lezhës</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000666_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Gaviarius</name></persName></person><person xml:id="HD000666_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Meges</name></persName></person><person xml:id="HD000666_3" sex="M"><persName><name type="cognomen">Caesar</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-12-14" who="Ehmig">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F024124" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/51dd3912-6604-4b61-9e01-4afeb2a25bbe/file/id/784789/file_version/name/small"/><graphic xml:id="F024126" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/91e5c53a-7408-4bb1-adb5-6a11ab103b7c/file/id/784791/file_version/name/small"/><graphic xml:id="F024127" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4ce80813-b871-4bba-840b-abe13b666a0d/file/id/784792/file_version/name/small"/><graphic xml:id="F024128" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/166793e8-6c24-4161-9b5e-951c0718cd87/file/id/784793/file_version/name/small"/><graphic xml:id="F024129" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/90547fc0-c612-4923-8bcf-786e5813b736/file/id/784794/file_version/name/small"/><graphic xml:id="F024130" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b3b17876-4b5a-4490-946a-0c7eecf6c2e7/file/id/784795/file_version/name/small"/><graphic xml:id="F024131" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2db14818-aeab-4676-b0e0-cffc0d0ff230/file/id/784796/file_version/name/small"/><graphic xml:id="F024132" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0fe391f8-c297-4d3e-add3-4cc808f3f73c/file/id/784797/file_version/name/small"/><graphic xml:id="F024133" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/40c5a638-f9f8-4547-a998-25f924f82799/file/id/784798/file_version/name/small"/><graphic xml:id="F024134" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e1ccbb65-8063-4468-8257-9f20d4d36260/file/id/784799/file_version/name/small"/><graphic xml:id="F024135" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/969668b2-751d-4ab1-972b-5aa4fc3b2b60/file/id/784800/file_version/name/small"/><graphic xml:id="F024418" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8a3372ac-298b-43fb-adce-f60fb7290e7a/file/id/785084/file_version/name/small"/><graphic xml:id="F024908" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fc2951f0-c281-4607-9a9b-34f451b05289/file/id/785577/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Gaviarius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>n</abbr><ex>epos</ex></expan> <lb n="2"/><expan><abbr>aug</abbr><ex>ur</ex></expan> <expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Caes<lb break="no" n="3"/>aris <expan><abbr>l</abbr><ex>ibertus</ex></expan> Meges <expan><abbr>IIvir</abbr><ex>i</ex></expan> <expan><abbr>quinque</abbr><ex>nnales</ex></expan> <lb n="4"/>murum ex <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> reficiundum <expan><abbr>c</abbr><ex>uraverunt</ex></expan> <lb n="5"/>i&amp;lt;s&amp;gt;demque probaverunt <expan><abbr>c</abbr><ex>onstat</ex></expan> HS ||(quattuor milium)CC
+            </ab></div>
+            <div type="commentary">
+                <p>Weitere Inschrift von Gaviarius und Meges: AE 1982, 765. Z. 5 (Ende): hinter HS Zahlzeichen für 1000 und Zahlzeichen für 3000.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0766.</bibl><bibl>F. Prendi, Iliria 11, 2, 1981, 153-163, Nr. 2; fig. 2 (Foto u. Zeichnung). - AE 1982.</bibl><bibl>S. Anamali - H. Ceka - É. Deniaux, Corpus des inscriptions latines d'Albanie (Rome 2009) 39-40, Nr. 24; Foto u. Zeichnung.</bibl><bibl>U. Ehmig - R. Haensch, Die lateinischen Inschriften aus Albanien (LIA) (Bonn 2012) 69-71, Nr. 22; Foto u. Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Pujarnol, bei (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000122</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000122</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(13)</height><width>(27)</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="-0004" notAfter-custom="0014" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">4 BC - 14 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1980"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Pujarnol, bei</placeName><placeName type="findspot">Villa Vilauba</placeName><placeName type="region">Gerona</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000122_1" sex="M"><persName><name type="nomen">Caesar</name><name type="cognomen">Germanicus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-10-12" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">Germanic</supplied>o Caesari <lb n="2"/><supplied reason="lost" cert="low">Ti(beri) Caesa</supplied>ris f<supplied reason="lost"><expan><abbr>il</abbr><ex>io</ex></expan></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Y: Adoption des Germanicus am 27. (28.?) 6. 4 v.Chr.; Tiberius noch nicht Augustus. (B): AE 1983: [... Dru]so Caesari / [Germanici Caesa]ris f[il(io) / ...]. (C): Aus Symmetriegründen ist die Inschrift eher Germanicus als Drusus zuzuordnen. Datierung: AE 1983: 23-30.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0631. (B)</bibl><bibl>R.F. Jones, Antiquaries Journal 62, 1982, 273; pl. 37a. - AE 1983.</bibl><bibl>IRC 3, 007; pl. 7, 7.</bibl><bibl>IRC 5, p. 81-82.</bibl><bibl>HEp 02, 1990, 0401.</bibl><bibl>HEp 04, 1994, 0457.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

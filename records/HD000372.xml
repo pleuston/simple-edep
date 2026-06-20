@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000372</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000372</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mentana, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/53">base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>60</height><width>44</width><depth>39</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0205" notAfter-custom="0208" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">205 AD - 208 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Via del Pellegrino, Wohnhaus</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000372_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Ve[---]ius</name><name type="cognomen">C[---]tus</name></persName></person><person xml:id="HD000372_2" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">A[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000372_3" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.</name><name type="nomen">Aurelius</name><name type="cognomen">Antoninus+</name></persName></person><person xml:id="HD000372_4" sex="M"><persName ref="https://www.wikidata.org/wiki/Q183089"><name type="praenomen">L.++</name><name type="nomen">Septimius++*</name><name type="cognomen">Geta++</name></persName></person><person xml:id="HD000372_5" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Caesonius</name><name type="cognomen">Probus</name></persName></person><person xml:id="HD000372_6" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Iunius</name><name type="cognomen">Alexander+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-06-28" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F042759" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/886a6506-c4a0-4f96-846b-c08fd801d9dc/file/id/803865/file_version/name/small"/><graphic xml:id="F042760" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/050da048-69c8-4b0a-967e-d6b262ddafd2/file/id/803866/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Genio <lb n="2"/>corporis <expan><abbr>imm</abbr><ex>unium</ex></expan> <lb n="3"/>L<gap reason="lost" extent="unknown" unit="character"/><expan><abbr>C</abbr><ex cert="low"/></expan> <lb n="4"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Ve<gap reason="lost" extent="unknown" unit="character"/>ius C<gap reason="lost" extent="unknown" unit="character"/>tus <lb n="5"/><supplied reason="lost">sc</supplied>riba <supplied reason="lost">et</supplied> <lb n="6"/><expan><abbr>P</abbr><ex>ublius</ex></expan> A<gap reason="lost" extent="unknown" unit="character"/><expan><abbr>R</abbr><ex cert="low"/>ITH</expan><gap reason="lost" extent="unknown" unit="character"/>tus <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="7"/>devoti <expan><abbr>n</abbr><ex cert="low">umini</ex></expan> e<supplied reason="lost">i</supplied>us <lb n="8"/><expan><abbr>d</abbr><ex>ono</ex></expan> <expan><abbr>d</abbr><ex>ederunt</ex></expan> <lb n="9"/><expan><abbr>q</abbr><ex>uod</ex></expan> in <expan><abbr>ord</abbr><ex>inem</ex></expan> <expan><abbr>corp</abbr><ex>oris</ex></expan> ab iis <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex cert="low">usceptum</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Ded</abbr><ex>icatum</ex></expan> <expan><abbr>Kal</abbr><ex>endis</ex></expan> <expan><abbr>Ian</abbr><ex>uariis</ex></expan> <lb n="2"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio Ant<supplied reason="lost">oni</supplied><lb break="no" n="3"/>no Pio Felice <expan><abbr>Aug</abbr><ex>usto</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><del rend="erasure">[et <expan><abbr>L</abbr><ex>ucio</ex></expan> <expan><abbr>Sept</abbr><ex>imio</ex></expan> Geta <gap reason="lost" extent="unknown" unit="character"/></del>] <lb n="5"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="6"/><expan><abbr>M</abbr><ex>arco</ex></expan> Caesonio Probo <lb n="7"/><expan><abbr>M</abbr><ex>arco</ex></expan> Iunio Alexand<supplied reason="lost">ro</supplied> <lb n="8"/>q<expan><ex>uin</ex><abbr>q</abbr><ex>uennalibus</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Inschriften auf der Vorder- und der linken Nebenseite. Wiederverwendung des Steines in der Neuzeit mit moderner Inschrift auf der Rückseite und starker Beschädigung in der Mitte der Vorderseite. Im rechten Viertel der linken Nebenseite stark verwittert; Z. 4 derselben Seite eradiert. (B): AE 1983: Vorderseite: Z. 3: l[ib---]C; Z. 6: A[---]ith[---]tus Zwei Datierungen möglich: 205 oder 208 n. Chr. (gemeinsame Konsulatsjahre von Caracalla und Geta).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0042. (B)</bibl><bibl>L. Gasperini, in: G. Barbieri (Hrsg.), Il lapidario Zeri di Mentana (Roma 1982), 42-47, Nr. 17; tav. 14 u. 15; fig. 5 (Zeichnung). - AE 1983.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

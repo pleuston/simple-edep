@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Sestinum &amp;ndash; Sestino (Umbria (Regio VI))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003398</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003398</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Umbria (Regio VI)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413315">Sestinum</placeName></origPlace><origDate><origDate notBefore-custom="0014" notAfter-custom="0037" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">14 AD - 37 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Sestino</placeName><placeName type="findspot"/><placeName type="region">Toscana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003398_1"><persName><name type="praenomen">L.</name><name type="nomen">Volusius</name><name type="cognomen">Clemens</name></persName></person><person xml:id="HD003398_2"><persName><name type="cognomen">Augustus*</name></persName></person><person xml:id="HD003398_3"><persName ref="https://www.wikidata.org/wiki/Q1407"><name type="praenomen">Ti.</name><name type="nomen">Caesar*</name><name type="cognomen">Augustus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-21" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011898" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/33198520-9123-4393-b403-c68ab8f0e577/file/id/771421/file_version/name/small"/><graphic xml:id="F030282" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a03a9fd9-9c80-47b0-954b-fee603968c13/file/id/791039/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Voluseno <lb n="2"/><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Clu</abbr><ex>stumina</ex></expan> Clementi <lb n="3"/><expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <expan><abbr>praef</abbr><ex>ecto</ex></expan> <lb n="4"/><expan><abbr>equit</abbr><ex>um</ex></expan> <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>tir</abbr><ex>onum</ex></expan> <lb n="5"/><expan><abbr>Gall</abbr><ex>iae</ex></expan> Na<supplied reason="lost">rbonen</supplied><lb break="no" n="6"/>sis it<supplied reason="lost">em<certainty locus="name" match="preceding-sibling::text()" cert="low"/> in<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Pan</supplied><lb break="no" n="7"/>non<supplied reason="lost">ia</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/>accepit missus a <lb n="9"/>divo <expan><abbr>Aug</abbr><ex>usto</ex></expan> hic cum <lb n="10"/>mitteretur a <expan><abbr>Ti</abbr><ex>berio</ex></expan> <expan><abbr>Caes</abbr><ex>are</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="11"/>in <expan><abbr>Aegypt</abbr><ex>um</ex></expan> ad <expan><abbr>iur</abbr><ex>is</ex></expan> <expan><abbr>dict</abbr><ex>ionem</ex></expan> <lb n="12"/>decessit (in) <expan><abbr>provinc</abbr><ex>ia</ex></expan> <lb n="13"/>Aquitania
+            </ab></div>
+            <div type="commentary">
+                <p>Procurator Augusti für census Pannoniae unter Augustus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0375.</bibl><bibl>G. Firpo, Epigraphica 47, 1985, 21-33. - AE.</bibl><bibl>CIL 11, 06011.</bibl><bibl>ILS 2691.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

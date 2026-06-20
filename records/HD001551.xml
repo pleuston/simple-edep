@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001551</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001551</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Naz. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/71">Travertin</material><dimensions unit="cm"><height>188</height><width>59</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Ponte Milvio, bei, rechtes Ufer</placeName><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001551_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Lartius</name><name type="cognomen">Priscus</name></persName></person><person xml:id="HD001551_2" sex="M"><persName><name type="nomen">Licinius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-04-06" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F009094" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/eef521fb-661e-47d7-a0df-54175a30a846/file/id/768860/file_version/name/small"/><graphic xml:id="F031383" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1b002c35-102b-420b-b02e-b18dc3110a64/file/id/792144/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uintus</ex></expan> Lartius <lb n="2"/><expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Lem</abbr><ex>onia</ex></expan> <lb n="3"/>Priscus <lb n="4"/>Bononia <lb n="5"/><expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> X <expan><abbr>pr</abbr><ex>aetoriae</ex></expan> <lb n="6"/><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Licini <lb n="7"/><expan><abbr>mil</abbr><ex>itavit</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XVII <lb n="8"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XXXX <lb n="9"/>testamento <lb n="10"/>poni iussit
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Donati, AE 1979: unvollständige Wiedergabe des Inschrifttextes.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0061.</bibl><bibl>A. Ambrogi - S. Panciera, in: A. Giuliano (Hrsg.), Museo Nazionale Romano 1, 7 (Roma 1984) 167-168, Nr. 5, 281; Foto. - AE 1984.</bibl><bibl>AE 1979, 0086. (B)</bibl><bibl>A. Donati, StudRomagn 27, 1976, 192, Nr. 298. (B) - AE 1979.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

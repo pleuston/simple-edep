@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Trebula Suffenas &amp;ndash; Ciciliano (Samnium (Regio IV))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008980</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008980</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Samnium (Regio IV)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423103">Trebula Suffenas</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Ciciliano</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2004-12-09" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>A</abbr><ex>ulo</ex></expan> Sempronio <expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> Vero <lb n="2"/><expan><abbr>IIvir</abbr><ex>o</ex></expan> quinquennali <lb n="3"/>Salio qu<expan><ex>a</ex><abbr>estori</abbr></expan> <expan><abbr>p</abbr><ex>ecuniae</ex></expan> <expan><abbr>publ</abbr><ex>icae</ex></expan> seviro <expan><abbr>quinq</abbr><ex>uennali</ex></expan> <lb n="4"/>eiusdem ordinis <lb n="5"/>seviri Augustali <note>sic</note> sua pecunia ponendam <lb n="6"/><expan><abbr>censuer</abbr><ex>unt</ex></expan> <expan><abbr>loc</abbr><ex>us</ex></expan> <expan><abbr>dat</abbr><ex>us</ex></expan> <lb n="7"/>ex <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> dedicata III Nonas <expan><abbr>Aug</abbr><ex>ustas</ex></expan> <lb n="2"/><expan><abbr>Q</abbr><ex>uinto</ex></expan> Sossio Falconi <note>sic</note> <expan><abbr>C</abbr><ex>aio</ex></expan> Erucio Claro co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="3"/><expan><abbr>IIvir</abbr><ex>um</ex></expan> <lb n="4"/><expan><abbr>Q</abbr><ex>uinti</ex></expan> Fuficolini Aproniiani <note>sic</note> et <lb n="5"/><expan><abbr>C</abbr><ex>ai</ex></expan> Iuli Felicissimi
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1972, 0163.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

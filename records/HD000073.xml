@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000073</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000073</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>27</height><width>(30)</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-2.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0212" notAfter-custom="0213" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">212 AD - 213 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000073_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.</name><name type="nomen">Aurellius (= Aurelius)</name><name type="cognomen">Antoninus+</name></persName></person><person xml:id="HD000073_2" sex="W"><persName ref="https://www.wikidata.org/wiki/Q229246"><name type="nomen">Iulia+</name></persName></person><person xml:id="HD000073_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000073_4" sex="M"><persName><name type="cognomen">Pompeianus+</name></persName></person><person xml:id="HD000073_5" sex="M"><persName><name type="cognomen">Severus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-01-04" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010543" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/088e26d4-4087-43a2-9abe-9534565c356b/file/id/770063/file_version/name/small"/><graphic xml:id="F026438" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3a8356c7-4ee1-4e63-9058-1682ebef869e/file/id/787190/file_version/name/small"/><graphic xml:id="F043142" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/17da55b6-1c0d-4c80-b1d1-13bb32c156e4/file/id/804252/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Numini<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> Caesaris</supplied> <expan><abbr>M</abbr><ex>arci</ex></expan> Aurelli <note>sic</note> Ant<supplied reason="lost">onini Pii Felicis</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>Parth</abbr><ex>ici</ex></expan> maximi Br</supplied><expan><abbr>itt</abbr><ex>anici</ex></expan> maximi <supplied reason="lost">f</supplied>o<supplied reason="lost">rtissimi principis<certainty locus="name" match="preceding-sibling::text()" cert="low"/> et</supplied> <lb n="3"/><supplied reason="lost">Iuliae <expan><abbr>Aug</abbr><ex>ustae</ex></expan> matris</supplied> senatus et ca<supplied reason="lost">strorum et pat</supplied><lb break="no" n="4"/><supplied reason="lost">riae et matris</supplied> domini nostr<supplied reason="lost">i Antonini <expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied> <lb n="5"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> Augu</supplied>sti <expan><abbr>lib</abbr><ex>erti</ex></expan> cum conl<supplied reason="lost">ibertis suis et</supplied> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>c</abbr><ex cert="low"/>ianis</expan> devoti n<supplied reason="lost">umini eorum</supplied> <lb n="7"/><supplied reason="lost" cert="low">dedicaverunt</supplied><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">Iu</supplied>n</abbr><ex>ias</ex></expan> Pompeian<supplied reason="lost">o et Severo</supplied> <lb n="8"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1965. 1983; Gordon; Dietz: Z. 2: maximi p[---]. Datierung: keine Nennung von Septimius Severus und Geta (terminus ante quem non: 212 n. Chr.), noch kein Siegerbeiname Germanicus maximus (terminus ad quem: Sept. 213 n. Chr.).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0028. (B)</bibl><bibl>K. Dietz, Chiron 13, 1983, 381-404; Abb. 1 (Zeichnung). (B) - AE 1983.</bibl><bibl>AE 1965, 0338. (B)</bibl><bibl>A.E. Gordon - J.S. Gordon, Album of dated Latin inscriptions 3 (Berkeley - Los Angeles 1965) 26-31, Nr. 269; pl. 126b u. 126d. (B) - AE 1965.</bibl><bibl>CIL 06, 40646.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

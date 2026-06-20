@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Cluviae, bei &amp;ndash; Piano Laroma (Samnium (Regio IV))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005999</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005999</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Samnium (Regio IV)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413097">Cluviae, bei</placeName></origPlace><origDate><origDate when-custom="0383" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">383 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Piano Laroma</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-03-21" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Honori <lb n="2"/>patrone vivas felicem <note>sic</note> et venerabilem <note>sic</note> s<expan><ex>a</ex><abbr>eculo</abbr></expan> <lb n="3"/><supplied reason="lost">hui</supplied>c universi Cluvi<expan><ex>e</ex><abbr>nses</abbr></expan> Carricini consilium <lb n="4"/><supplied reason="lost">sib</supplied>i habintes <note>sic</note> it <note>sic</note> cum primum fausta et filicia <note>sic</note> dicta <expan><abbr>esse</abbr><ex>nt</ex></expan> id <lb n="5"/>cum universa ferentes quanta sit claritas tantaque <lb n="6"/>benignitasque <note>sic</note> Aureli Euagri huius candor indu<lb break="no" n="7"/>stria omnibus nobis cognita est huius hubus <note>sic</note> et pater <lb n="8"/>veteri tesitmonio <note>sic</note> patrono <note>sic</note> sinuerunt <note>sic</note> idcirco <lb n="9"/>renovarunt clarum genus ut suo merito tabulam <lb n="10"/>patroniciam in <expan><ex>a</ex><abbr>eternum</abbr></expan> hospitalem <note>sic</note> patro<surplus>tro</surplus>nati <note>sic</note> <lb n="11"/>huius offeramus <expan><ex>h</ex><abbr>ortato</abbr></expan> sibi honore patriam civi<lb break="no" n="12"/>umque <note>sic</note> Cluviatium <note>sic</note> amare ac diligere non desit et secundum placitum omniumque <note>sic</note> nostrorum <lb n="13"/>frequenter felicem <note>sic</note> diem <note>sic</note> ornamentum condignum <lb n="14"/>aeternum claritati censori<expan><ex>a</ex><abbr>eque</abbr></expan> candori huiu<supplied reason="lost">s o</supplied>ffe<lb break="no" n="15"/>ramus hoc conpleto honore clara dignit<supplied reason="lost">as</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="16"/>fovere dilegere <note>sic</note> dignabitur sobpleto <note>sic</note> <gap reason="lost" extent="unknown" unit="character"/> <lb n="17"/>in perpetuum maxsimas <note>sic</note> grati<supplied reason="lost">as</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="18"/><expan><abbr>dat</abbr><ex>um</ex></expan> III Nonas Maias po<supplied reason="lost">st consulatum</supplied> <lb n="19"/>Merobaudis iterum et <supplied reason="lost">Saturnini</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1975, 0367.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

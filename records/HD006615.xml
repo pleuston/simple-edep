@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006615</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006615</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>36</height><width>60</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Via Appia, S. Sebastiano, Katakombe</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006615_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Pituanius</name><name type="cognomen">Eros</name></persName></person><person xml:id="HD006615_2" sex="W"><persName><name type="nomen">Pituania</name><name type="cognomen">Helpis</name></persName></person><person xml:id="HD006615_3" sex="W"><persName><name type="nomen">Pituania</name><name type="cognomen">Heuresis</name></persName></person><person xml:id="HD006615_4" sex="W"><persName><name type="nomen">Pituania</name><name type="cognomen">Isiades</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-02-27" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F029576" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b6d92d90-8730-48f0-af30-3605c493a063/file/id/790333/file_version/name/small"/><graphic xml:id="F040577" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4b44f420-6931-4929-a970-e773401a38ad/file/id/801459/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Pituanius Eros <lb n="2"/><expan><abbr>scr</abbr><ex>iba</ex></expan> <expan><abbr>libr</abbr><ex>arius</ex></expan> <expan><abbr>aedil</abbr><ex>ium</ex></expan> et <lb n="3"/>Pituania Helpis <expan><abbr>fecer</abbr><ex>unt</ex></expan> <lb n="4"/>Pituaniae Heuresidi <expan><abbr>f</abbr><ex>iliae</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> XV <expan><abbr>m</abbr><ex>enses</ex></expan> IX <expan><abbr>d</abbr><ex>ies</ex></expan> III <expan><abbr>h</abbr><ex>oras</ex></expan> VI <lb n="5"/>Pituaniae Isiadi filiae vixit <lb n="6"/><expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> VI <expan><abbr>mens</abbr><ex>es</ex></expan> V dies IV <expan><abbr>hor</abbr><ex>as</ex></expan> IX et sibi et <lb n="7"/>libertis <expan><abbr>libertabusq</abbr><ex>ue</ex></expan> suis posterisque eorum
+            </ab></div>
+            <div type="commentary">
+                <p>Unter Z. 4 eradierte Stelle zwischen Pitu- und VI.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1975, 0044.</bibl><bibl>A. Ferrua, RAL 29, 1974, 128, Nr. 4; tav. 1,2. - AE 1975.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

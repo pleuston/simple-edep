@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Baetulo &amp;ndash; Badalona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001858</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001858</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Badalona, Mus. Mun.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(38)</height><width>(36)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.3-4.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246221">Baetulo</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1957"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3129028">Badalona</placeName><placeName type="findspot">Can Paxau, sekundär verwendet</placeName><placeName type="region">Barcelona</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001858_1" sex="W"><persName><name type="nomen">Caecilia+</name><name type="cognomen">Anthis+</name></persName></person><person xml:id="HD001858_2" sex="W"><persName><name type="nomen">Propertia</name><name type="cognomen">Iucunda*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-03-15" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> Caecil<supplied reason="lost">iae</supplied> <lb n="1"/>Anthid<supplied reason="lost">i</supplied> <lb n="2"/>Propertia <expan><abbr>Q</abbr><ex>uinti</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Iuc<expan><ex>u</ex><abbr>nda</abbr></expan> <lb n="4"/><expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>uo</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1982: Z. 1/2: Caecil[iae oder io ..?] / Anthid[ae oder o ?]. Guitart Durán: Z. 1/2: Caecil(ius) / Anthi(d/b); Z. 3: AE 1982: Propertia [. f(ilia)]; Guitart Durán: (Quinti filia?), Filiation in Umschrift dagegen richtig wiedergegeben. Cuyàs i Tolosa: erste Person offenbar als Nominativ aufgefaßt, d. h. 2 Dedikanten angenommen. Datierung: Guitart Durán: Ende 1. Jh. v. Chr. / Anfang 1. Jh. n. Chr. Cuyàs i Tolosa: Ende 1. Jh. v. Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0645. (B)</bibl><bibl>J. Guitart Durán, Baetulo (Badalona 1976) 44-45, Nr. 13; lám. 4, 2. (B) - AE 1982.</bibl><bibl>J.M. Cuyàs i Tolosa, Història de Badalona III (Badalona 1977) 327-328. (B) - AE 1982.</bibl><bibl>IRC 1, 147; pl. 50, 147.</bibl><bibl>IRC 5, p. 25.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Dyrrachium &amp;ndash; Durrës (Macedonia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004384</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004384</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Durrës, Ark. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material>Marmor, geädert / farbig</material><dimensions unit="cm"><height>145</height><width>55</width><depth>55</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Macedonia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481818">Dyrrachium</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1931"><placeName type="country" ref="https://www.geonames.org/783754">Albania</placeName><placeName type="modern" ref="http://www.geonames.org/3185728">Durrës</placeName><placeName type="findspot"/><placeName type="region">Qarku i Durrësit</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004384_1" sex="M"><persName><name type="praenomen">Sergius*</name><name type="nomen">Cornelius Castricius</name><name type="cognomen">Saturninus</name></persName></person><person xml:id="HD004384_2" sex="W"><persName><name type="nomen">Castricia</name><name type="cognomen">Nice</name></persName></person><person xml:id="HD004384_3" sex="M"><persName><name type="praenomen">Sergius+*</name><name type="nomen">Cornelius+ Castricius</name><name type="cognomen">Lycario</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-01-07" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020133" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e1b2182c-1553-41e8-8bf8-bd0d6a756617/file/id/780206/file_version/name/small"/><graphic xml:id="F024140" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9dfb2a55-70a8-4d44-8a35-4e6438a9d39b/file/id/784805/file_version/name/small"/><graphic xml:id="F024430" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2d382585-9cc8-4dfa-8201-7c89cce3bdb1/file/id/785095/file_version/name/small"/><graphic xml:id="F024878" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e5f14372-bd0f-430a-bca3-59b422b607f9/file/id/785546/file_version/name/small"/><graphic xml:id="F024879" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/103c8694-31fa-4ab7-8b05-e8524553234e/file/id/785547/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>s</abbr><ex>acrum</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Serg</abbr><ex>io</ex></expan> Corne<lb break="no" n="2"/>lio Castricio <lb n="3"/>Saturnino <expan><abbr>Aug</abbr><ex>ustali</ex></expan> <lb n="4"/>fratri <lb n="5"/>Castriciae Nice <lb n="6"/>matri <lb n="7"/><expan><abbr><supplied reason="lost">S</supplied>erg</abbr><ex>ius</ex></expan> Corne<lb break="no" n="8"/><supplied reason="lost">l</supplied>ius Castrici<lb break="no" n="9"/>us Lycario <expan><abbr>Aug</abbr><ex>ustalis</ex></expan> <lb n="10"/><expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Auf der corona und mit ihr in einem Stück gearbeitet eine Urne, die auf der Vorderseite und den beiden Nebenseiten mit Girlanden, einem Gorgoneion (Vorderseite) und paterae (Nebenseiten) geschmückt ist. Z. 1 befindet sich auf einer Faszie am oberen Rand des Mittelteils. Z. 11: p(osuit) auf Foto nicht zu erkennen. (B): Bruhl; Sestieri, Epigraphica; Sestieri, Studime e Tekste; Koch; AE 1978; AE 1989; Anamali - Ceka - Deniaux: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>A. Bruhl, Albania 5, 1935, 91-92, Nr. 2; pl. 29, 2; fig. 2 (Zeichnung). (B) - AE 1978. AE 1989.</bibl><bibl>P.C. Sestieri, Studime e Tekste 2, 1, 1943, 32-33. 83-84, Nr. 48. (B) - AE 1978. AE 1989.</bibl><bibl>AE 1978, 0739. (B)</bibl><bibl>P.C. Sestieri, Epigraphica 4, 1942, 134, Nr. 8. (B) - AE 1989.</bibl><bibl>G. Koch, Iliria 18, 1, 1988, 157-159; fig. 1-5. (B) - AE 1989.</bibl><bibl>AE 1989, 0650. (B)</bibl><bibl>S. Anamali - H. Ceka - É. Deniaux, Corpus des inscriptions latines d’Albanie (Rome 2009) 58, Nr. 61; Foto. (B)</bibl><bibl>U. Ehmig - R. Haensch, Die lateinischen Inschriften aus Albanien (LIA) (Bonn 2012) 186-188, Nr. 69; Foto u. Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

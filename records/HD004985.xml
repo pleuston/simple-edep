@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Pompeii, bei &amp;ndash; Pompei, bei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004985</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004985</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii, bei</placeName></origPlace><origDate><origDate when-custom="0048" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">48 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170336">Pompei, bei</placeName><placeName type="findspot">Murécine</placeName><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004985_1"><persName><name type="praenomen">L.+</name><name type="nomen">Vitellius+</name></persName></person><person xml:id="HD004985_2"><persName><name type="praenomen">M.</name><name type="nomen">Vipstanus</name><name type="cognomen">Gallus</name></persName></person><person xml:id="HD004985_3"><persName><name type="praenomen">L.</name><name type="nomen">Filenius</name><name type="cognomen">Eumenes</name></persName></person><person xml:id="HD004985_4"><persName><name type="praenomen">C.+</name><name type="nomen">Sentius+</name><name type="cognomen">Saturninus+</name></persName></person><person xml:id="HD004985_5"><persName><name type="praenomen">C.</name><name type="nomen">Sulpicius</name><name type="cognomen">Faustus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2005-05-27" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>L</abbr><ex>ucio</ex></expan> Vite</supplied>llio filio Messala Vip<supplied reason="lost">st</supplied>ano Gallo co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="2"/><supplied reason="lost"><expan><abbr>pr</abbr><ex>idie</ex></expan> No</supplied>nas Septembres <expan><abbr>L</abbr><ex>ucius</ex></expan> Faenius Eumenes scri<lb break="no" n="3"/><supplied reason="lost">psi mihi</supplied> convenisse cum <expan><abbr>C</abbr><ex>aio</ex></expan> Sulpicio Fausto <lb n="4"/><supplied reason="lost">finiendae</supplied> controversiae caussa <note>sic</note> quae mihi <lb n="5"/><supplied reason="lost">cum eo est <expan><abbr>q</abbr><ex>ua</ex></expan></supplied> <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>r</abbr><ex>e</ex></expan> ultro citro cognitores ab nobis <lb n="6"/><supplied reason="lost">dati sunt m</supplied>e id vadimonium quod Sulpici <lb n="7"/><supplied reason="lost">cognitor cum</supplied> cognitore meo Romae haberet <lb n="8"/><supplied reason="lost">remittere et quo</supplied>d is <expan><abbr>C</abbr><ex>aius</ex></expan> Sulpicius Faustus eo nomine <lb n="9"/><supplied reason="lost">iudicatum solvi</supplied> s<supplied reason="lost">at</supplied>is dedit acceptam s<supplied reason="lost">t</supplied>ipulatio<lb break="no" n="10"/><supplied reason="lost">nem et facere</supplied> ideo si <expan><abbr>Ti</abbr><ex>berius</ex></expan> Iulius S<supplied reason="lost">p</supplied>orus <lb n="11"/><supplied reason="lost">vadimonium q</supplied>uod ei cum <expan><abbr>L</abbr><ex>ucio</ex></expan> F<expan><ex>a</ex><abbr>en</abbr></expan><supplied reason="lost">io</supplied> Thall<supplied reason="lost">o</supplied> <lb n="12"/>co<supplied reason="lost">g</supplied>n<supplied reason="lost">itore m</supplied>eo <expan><abbr>K</abbr><ex>alendis</ex></expan> N<supplied reason="lost"><expan><abbr>ovembr</abbr><ex>ibus</ex></expan> primis Romae</supplied> <lb n="13"/>in f<supplied reason="lost">oro A</supplied>ugusto ante s<supplied reason="lost">tatuam <expan><abbr>Cn</abbr><ex>aei</ex></expan> Senti Saturnini</supplied> triumphalem hkora tertia HS <expan><abbr>MMMMM</abbr><ex>quinque milia</ex></expan> est <supplied reason="lost">deseruerit</supplied> <lb n="14"/>neminem ex ea caus cum <expan><abbr>Ti</abbr><ex>berio</ex></expan> Iulio Sp<supplied reason="lost">oro</supplied> <lb n="15"/>aut cum sponsore eius acturum aut <supplied reason="lost">a quo</supplied> <lb n="16"/>eorum petiturum exacturumque quid <supplied reason="lost">es</supplied>se <lb n="17"/>si adversus ea factum erit quanti ea res erit tant<supplied reason="lost">am</supplied> <lb n="18"/>pecuniam dare stipulatus est <expan><abbr>C</abbr><ex>aius</ex></expan> Sulpicius Faustus <lb n="19"/>spopondi <expan><abbr>L</abbr><ex>ucius</ex></expan> Faenius E<supplied reason="lost">ume</supplied>n<supplied reason="lost">es</supplied> quodque <expan><abbr>C</abbr><ex>aius</ex></expan> Sulpicius Faustus eo nomine <expan><abbr>q</abbr><ex>uo</ex></expan> de agitur <lb n="20"/>iudicatum solvi m<supplied reason="lost">i</supplied>hi sa<supplied reason="lost">tis d</supplied>e<supplied reason="lost">d</supplied>it interrogante <lb n="21"/>eo me ei accept<supplied reason="lost">am stipul</supplied>ationem facere <lb n="22"/>actum Puteolis
+            </ab></div>
+            <div type="commentary">
+                <p>Entspricht Tabula Pompeiana 66a. C. Sentius Saturninus ergänzt nach AE 1978, 134.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0132.</bibl><bibl>F. Sbordone, RAAN 51, 1976, 160-161, Nr. 15. - AE 1978.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tarnaiae Nantuatium (Acaunum) &amp;ndash; S.-Maurice (Alpes Poeninae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002120</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002120</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>S.-Maurice, S.-Maurice, Abtei, Glockenturm</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>151</height><width>61</width><depth>50</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Poeninae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177429">Tarnaiae Nantuatium (Acaunum)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1897"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2658864">S.-Maurice</placeName><placeName type="findspot">{S.-Maurice, Abtei, Glockenturm}, sekundär verwendet</placeName><placeName type="region">État du Valais</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002120_1" sex="W"><persName><name type="nomen">Vinelia+</name><name type="cognomen">Vegetina+</name></persName></person><person xml:id="HD002120_2" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Vinelius+</name><name type="cognomen">Amandus+</name></persName></person><person xml:id="HD002120_3" sex="M"><persName><name type="nomen">Nitonius+</name><name type="cognomen">Vegetinus</name></persName></person><person xml:id="HD002120_4" sex="M"><persName><name type="nomen">Nitonius+</name><name type="cognomen">Severus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-24" who="Masci">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">D(is) M(anibus)</supplied> <lb n="2"/>V<supplied reason="lost">ine</supplied>li<supplied reason="lost">a</supplied>e Veg<supplied reason="lost">e</supplied><lb break="no" n="3"/>tin<supplied reason="lost">a</supplied>e <expan><abbr>T</abbr><ex>iti</ex></expan> V<supplied reason="lost">i</supplied>neli <lb n="4"/>Ama<supplied reason="lost">n</supplied>di filiae <lb n="5"/>Nitoniu<supplied reason="lost">s</supplied> Vege<lb break="no" n="6"/>tinus fil<supplied reason="lost">i</supplied>us <lb n="7"/>matri piissi<lb break="no" n="8"/>mae et Niton<lb break="no" n="9"/><supplied reason="lost">ius</supplied> Severus uxo<lb break="no" n="10"/>ri incompar<supplied reason="lost">a</supplied><lb break="no" n="11"/>bi<supplied reason="lost">l</supplied>i <supplied reason="lost" cert="low">s(ub)? a(scia)</supplied> <expan><abbr>d</abbr><ex>edicaverunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1985, Walser: Z. 1: [D(is) M(anibus)] irrtümlich am Anfang ergänzt; AE 1985, Walser: Z. 2: Ti[---]i[---]n(a)e; Z. 10: [p(osuit)]. Auf der linken Nebenseite eine ascia. Vater und Sohn Nutonius durch CIL XII 155 (heute verschollen) bekannt. Auf der linken Nebenseite eine ascia.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0646. (B)</bibl><bibl>P. Collart, RSAA 3, 1941, 65-66, Nr. 13; pl. 21, 14. - AE 1985.</bibl><bibl>G. Walser, Römische Inschriften in der Schweiz 3 (Bern 1980) 76-77, Nr. 281; Foto. (B) - AE 1985.</bibl><bibl>AE 1997, 1015.</bibl><bibl>E. Howald - E. Mayer, Die römische Schweiz (Zürich 1940) 212, Nr. 68. (B)</bibl><bibl>M.-R. Sauter, Préhistoire du Valais. Des origines aux temps mérovingiens (Sion 1950) 129, Nr. 9.</bibl><bibl>F. Wiblé, in: R. Frei Stolba - M.A. Speidel (Hrsg.), Römische Inschriften – Neufunde, Neulesungen und Neuinterpretationen. Festschrift für Hans Lieb (Basel 1995) 275-290. - AE 1997.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

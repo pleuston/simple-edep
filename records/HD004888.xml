@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Boldog (Barbaricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004888</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004888</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Boldog, Mariä Himmelfahrt, Kirche, bei; Komárno, Festung, Bastion 6, Lapidarium (Kopie)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>175</height><width>(76)</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">10-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Barbaricum</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1976"><placeName type="country" ref="https://www.geonames.org/3057568">Slovakia</placeName><placeName type="modern">Boldog</placeName><placeName type="findspot">{Mariä Himmelfahrt, Kirche}, sekundär verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004888_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Atilius</name><name type="cognomen">Primus</name></persName></person><person xml:id="HD004888_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Atilius</name><name type="cognomen">Cogitatus*</name></persName></person><person xml:id="HD004888_3" sex="W"><persName><name type="nomen">Atilia</name><name type="cognomen">Fausta</name></persName></person><person xml:id="HD004888_4" sex="M"><persName><name type="cognomen">Privatus</name></persName></person><person xml:id="HD004888_5" sex="M"><persName><name type="cognomen">Martialis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-08" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uintus</ex></expan> Atilius <lb n="2"/><expan><abbr>Sp</abbr><ex>uri</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Vot</abbr><ex>uria</ex></expan> Pri<lb break="no" n="3"/>mus interrex <lb n="4"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XV idem |(centurio) <lb n="5"/>negotiator <expan><abbr>an</abbr><ex>norum</ex></expan> <lb n="6"/>LXXX <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="7"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Atilius Cog<expan><ex>i</ex><abbr>ta</abbr></expan><lb break="no" n="8"/>tus Atilia <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>l</abbr><ex>iberta</ex></expan> Fau<lb break="no" n="9"/>sta Privatus et <lb n="10"/>Martialis <expan><abbr>hered</abbr><ex>es</ex></expan> <lb n="11"/><expan><abbr>l</abbr><ex>ibentes</ex></expan> <expan><abbr>p</abbr><ex>osuerunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Kolník: Z. 3: inter(p)rex; AE 1978; AE 1988; Mosser: Z. 3: interprex; Hošek: Z. 3: inter tre{x} (cenarios); AE 1978: Z. 4/5: (centurio) negotiator; Z. 6: LXXX / h(ic); Harl - Lőrincz: Z. 8/9: &amp;lt;F=E&amp;gt;au/sta; Mosser: Z. 7/8: Cocta/tus; Z. 8-10: Fau/sta et Martialis; Z. 11: p(osuerunt).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0635. (B)</bibl><bibl>AE 1988, 0938. (B)</bibl><bibl>C.C. Petolescu, in: S. Nemeti u. a. (Hrsg.), Dacia Felix. Studia Michaeli Bărbulescu oblata (Cluj-Napoca 2007) 287-289, Nr. 1.</bibl><bibl>T. Kolník, AAHung 30, 1978, 61-75; Abb. 1-3; Abb. 4 (Zeichnung). (B) - AE 1978.</bibl><bibl>R. Hošek, Tituli Latini Pannoniae superioris annis 1967-1982 in Slovacia reperti (Praha 1985) 78-84, Nr. 35; imag. 45-48. (B) - AE 1988.</bibl><bibl>M. Mosser, Die Steindenkmäler der legio XV Apollinaris (Wien 2003) 171, Nr. 13; Taf. 4, 13. (B)</bibl><bibl>F. Harl - B. Lőrincz, Führer zum römischen Lapidarium in Bastion VI der Festung Komárno (Komárno – Wien 2002) 50, Nr. 58; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

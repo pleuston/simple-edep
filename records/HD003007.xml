@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Pompeii, bei &amp;ndash; Pompei, bei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003007</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003007</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/123">Holz</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii, bei</placeName></origPlace><origDate><origDate notBefore-custom="0044" notAfter-custom="0069" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">44 AD - 69 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170336">Pompei, bei</placeName><placeName type="findspot">Murécine</placeName><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003007_1" sex="M"><persName><name type="cognomen">Trupho+</name></persName></person><person xml:id="HD003007_2" sex="M"><persName><name type="cognomen">Potamo+</name></persName></person><person xml:id="HD003007_3" sex="M"><persName><name type="praenomen">Cn.</name><name type="nomen">Sentius</name><name type="cognomen">Saturninus</name></persName></person><person xml:id="HD003007_4" sex="M"><persName><name type="praenomen">C.+</name><name type="nomen">Sulpicius+</name><name type="cognomen">Cinnamus</name></persName></person><person xml:id="HD003007_5" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD003007_6" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-04" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">Vadimonium factum</supplied> <lb n="2"/><supplied reason="lost">Truphon</supplied>i <supplied reason="lost">Potamoni</supplied>s f<supplied reason="lost"><expan><abbr>il</abbr><ex>io</ex></expan></supplied> <lb n="3"/>Alexandrino <supplied reason="lost">i</supplied>n <expan><abbr>pr</abbr><ex>idie</ex></expan> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Oct</abbr><ex>obres</ex></expan> <lb n="4"/>primas Romae <supplied reason="lost">i</supplied>n foro <lb n="5"/>Augusto ante statuam <lb n="6"/><expan><abbr>Cn</abbr><ex>aei</ex></expan> Senti Saturnini <lb n="7"/>triumphalem hora </ab></div><div n="2" type="textpart"><ab><lb n="1"/> tertia HS |(mille) <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">d</supplied>ari <lb n="2"/>fide rogavi<supplied reason="lost">t <expan><abbr>C</abbr><ex>aius</ex></expan> Sulp</supplied>icius <lb n="3"/>Cinnamus <supplied reason="lost">fide pro</supplied>misit <lb n="4"/>Trupho Po<supplied reason="lost">tamoni</supplied>s filio <note>sic</note> <lb n="5"/>Alexandrin<supplied reason="lost">us</supplied> <lb n="6"/><supplied reason="lost">actum</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> c<supplied reason="lost"><expan><abbr>o</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Tabula Pompeiana 4. Dieses neue Fragment paßt zu tab. 2, pag. 3 mit den Maßen 9 x 15 (Z. 4 ff.). C. Sulpicius Cinnamus, Trupho: bereits aus Tabula Pompeiana 3 bekannt. Datierung: 44 terminus post quem: Auszeichnung des Cn. Sentius Saturninus für Rolle als comes des Claudius in Britannien. Name der Konsuln nicht erhalten. (B): Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0332.</bibl><bibl>G. Camodeca, Labeo 33, 1987, 30-32, Nr. 2. - AE 1988.</bibl><bibl>AE 1984, 0231. (B)</bibl><bibl>G. Camodeca, Puteoli 6, 1982, 27-31, Nr. 2; fig. 5 u. 6. (B) - AE 1984.</bibl><bibl>AE 1974, 0278.</bibl><bibl>J. Triantaphyllopoulos, in: Mélanges helléniques offerts à G. Daux (Paris 1974) 336-338, Nr. 9. - AE 1974.</bibl><bibl>AE 1971, 0091.</bibl><bibl>L. Bove, RAAN 44, 1969, 41, Anm. 42; fig. 6 u. 7. - AE 1971.</bibl><bibl>AE 1969/70, 0097.</bibl><bibl>C. Giordano, RAAN 41, 1966, 113-114, Nr. 4; fig. 5 u. 6 (Zeichnungen). - AE 1969/70.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

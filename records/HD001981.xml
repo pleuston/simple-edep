@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tipasa &amp;ndash; Tipasa (Mauretania Caesariensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001981</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001981</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Tipasa, Musée</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>26</height><width>42</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Mauretania Caesariensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/344519">Tipasa</placeName></origPlace><origDate><origDate when-custom="0265" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">265 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1960"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern" ref="http://www.geonames.org/2476028">Tipasa</placeName><placeName type="findspot">Gräberfeld, südl. Alexanderbasilika</placeName><placeName type="region">Blida</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001981_1" sex="W"><persName><name type="cognomen">Simplicia</name></persName></person><person xml:id="HD001981_2" sex="M"><persName><name type="cognomen">Exupius</name></persName></person><person xml:id="HD001981_3" sex="W"><persName><name type="cognomen">Monnica</name></persName></person><person xml:id="HD001981_4" sex="M"><persName><name type="nomen">Iulius*</name><name type="cognomen">Exupius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-09" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Memoriae Simpliciae <lb n="2"/>coniugis quae <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XXXIII <lb n="3"/><expan><abbr>r</abbr><ex>ecessit</ex></expan> VI Idus Maias (anno) <expan><abbr>p</abbr><ex>rovinciae</ex></expan> CCXXVI item <lb n="4"/>Exupi fili <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> VI <expan><abbr>m</abbr><ex>enses</ex></expan> VIII <expan><abbr>d</abbr><ex>ies</ex></expan> VI <expan><abbr>r</abbr><ex>ecessit</ex></expan> XIII <expan><abbr>K</abbr><ex>alendas</ex></expan> <lb n="5"/><expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptas</ex></expan> (anno) <expan><abbr>p</abbr><ex>rovinciae</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>cripto</ex></expan> et Monnicae <expan><abbr>fil</abbr><ex>iae</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> V <lb n="6"/><expan><abbr>m</abbr><ex>enses</ex></expan> VIIII <expan><abbr>r</abbr><ex>ecessit</ex></expan> XIIII <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Iul</abbr><ex>ias</ex></expan> (anno) <expan><abbr>p</abbr><ex>rovinciae</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>cripto</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Exupius <lb n="7"/>piissimis fecit
+            </ab></div>
+            <div type="commentary">
+                <p>Der Fundort weist auf eine christliche Inschrift. Weitere Todesdaten: 10. 05. 265 (Todestag der Mutter); 18. 06. 265 (Todestag der Tochter). (B): Z. 5: annu.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0986.</bibl><bibl>AE 1969/70, 0729.</bibl><bibl>A. Baghli - P.-A. Février, BAA 3, 1968, 33; fig. 34. - AE 1969/70.</bibl><bibl>S. Lancel, AntAfr 16, 1980, 156-159, Nr. 20; fig. 24 u. 25. (B). - AE 1982.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

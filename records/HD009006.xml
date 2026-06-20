@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquae Statiellae &amp;ndash; Acqui Terme (Liguria (Regio IX))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009006</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009006</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(33)</height><width>(26)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Liguria (Regio IX)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/383574">Aquae Statiellae</placeName></origPlace><origDate><origDate when-custom="0401" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Acqui Terme</placeName><placeName type="findspot">Palazzo Tea, sekundär verwendet</placeName><placeName type="region">Piemonte</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009006_1" sex="M"><persName><name type="nomen">Flavius+*</name><name type="cognomen">Vincentius+</name></persName></person><person xml:id="HD009006_2" sex="M"><persName><name type="nomen">Flavius+*</name><name type="cognomen">Fravitus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-01-18" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>sti Gen<lb break="no" n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> qui vix</supplied>it <expan><abbr>an</abbr><ex>nos</ex></expan> XXX<lb break="no" n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">deposit</supplied>us <expan><abbr>Kal</abbr><ex>endis</ex></expan> <expan><abbr>Se</abbr><ex>ptembribus</ex></expan> <lb n="4"/><supplied reason="lost"><expan><abbr>Fl</abbr><ex>aviis</ex></expan> <expan><abbr>Vinc</abbr><ex>entio</ex></expan> et</supplied> <expan><abbr>Fra</abbr><ex>vito</ex></expan> <expan><abbr>cons</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL: Z. 2 Anfang: [---]t; Z. 4 Ende: con. Keine &amp;lt;span style=&amp;apos;color:red&amp;apos;&amp;gt;Fälschung&amp;lt;/span&amp;gt;; wohl christliche spätantike Grabinschrift. Mit freundlichen Hinweisen von G. Mennella.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1987, 0405.</bibl><bibl>G. Mennella - M.P. Pavese, Epigraphica 49, 1987, 236-238, Nr. 2; fig. 3. - AE 1987.</bibl><bibl>CIL 05, 00799*. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

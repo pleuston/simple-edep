@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Ostia &amp;ndash; Roma, Ostia (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002508</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002508</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Vat. (Lap. Prof. Ex Lat.)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(55)</height><width>(38)</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/422995">Ostia</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1825"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma, Ostia</placeName><placeName type="findspot">Ostia antica, Campus der Magna Mater?</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002508_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Pacceius+</name></persName></person><person xml:id="HD002508_2" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">Sophe</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-08-22" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> Pa<supplied reason="lost">cceio <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <lb n="2"/><expan><abbr>tr</abbr><ex>ibuno</ex></expan> m<supplied reason="lost"><expan><abbr>il</abbr><ex>itum</ex></expan> <expan><abbr>quaest</abbr><ex>ori</ex></expan></supplied> <lb n="3"/>pro <expan><abbr>pr</abbr><ex>aetore</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>patr<supplied reason="lost">ono</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>co<gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> Sophe <lb n="1"/><supplied reason="lost"><expan><abbr>sac</abbr><ex>erdos</ex></expan>? Matr</supplied>is Deum <lb n="2"/><supplied reason="lost">sacellum<certainty locus="name" match="preceding-sibling::text()" cert="low"/> a</supplied> solo <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <lb n="3"/><supplied reason="lost">et signum d</supplied><expan><abbr>endroph</abbr><ex>oris</ex></expan> <lb n="4"/><supplied reason="lost"><expan><abbr>Ost</abbr><ex>iensibus</ex></expan> <expan><abbr>d</abbr><ex>ono</ex></expan> dedi</supplied>t
+            </ab></div></div>
+            <div type="commentary">
+                <p>In zwei Teile gebrochen. Beidseitig beschrieben; Datierung bezieht sich auf die ältere Inschrift (AE 1985, 161a); Datierung der späteren Inschrift (AE 1985, 161b): 151-250 n. Chr. M. Pacceius L.f.: aus weiteren Inschriften bekannt: CIL XIV 3603 = ILS 6171; H. Bloch, NSA 1953, 269f., Nr. 32 = AE 1955, 178. Er war patronus der co[lonia Ostiens(ium)] oder co[llegium navicular(iorum) Ostiens(ium)].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0161.</bibl><bibl>I. Di Stefano Manzella, in: Epigrafia e ordine senatorio 1 (Roma 1982) 521-525; tav. 3, 1 u. 3, 2. - AE 1985.</bibl><bibl>CIL 06, 29725. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005824</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005824</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Alba Iulia, Muz. Unirii</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(81)</height><width>(43)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0107" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">107 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1910"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot">Festung, {S. Michael, katholische Kathedrale}</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005824_1" sex="M"><persName ref="http://romans1by1.com/rpeople/11389"><name type="praenomen">Sex.?</name><name type="nomen">Modestius+</name><name type="cognomen">Secundinus+</name></persName></person><person xml:id="HD005824_2" sex="W"><persName ref="http://romans1by1.com/rpeople/11390"><name type="nomen">[---]inia</name><name type="cognomen">Kalli[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-04-09" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005163" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/77627b1d-cc8d-4b25-8e77-9fc209383c3a/file/id/765940/file_version/name/small"/><graphic xml:id="F036461" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8425420c-2d40-42d8-8391-7ed1852b8f8b/file/id/797319/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/><expan><abbr>S</abbr><ex cert="low">extus</ex></expan> Mod<supplied reason="lost">estius</supplied> <lb n="3"/>Secun<supplied reason="lost">dinus</supplied> <lb n="4"/>cives <gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="5"/><abbr>AR</abbr> <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nis</ex></expan> <gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="6"/>inia Kalli<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>coniug<supplied reason="lost">i <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Unterer linker Teil einer Stele; in späterer Zeit bearbeitet und als Baustein wiederverwendet. Z. 2: S. S(extus) oder S(purius) möglich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0753.</bibl><bibl>I.I. Russu, RevMuz 17, 9, 1980, 46, Nr. 18; fig. 18 (Foto u. Zeichnung). - AE 1980.</bibl><bibl>C. Ciongradi, Grabmonument und sozialer Status in Oberdakien (Cluj-Napoca 2007) 187, Nr. S/A 102; Taf. 58.</bibl><bibl>IDR 3, 5, 557; Foto u. Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from (Civitas Alisinensium) &amp;ndash; Osterburken (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004519</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004519</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>145</height><width>34</width><depth>34</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.0-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118898">(Civitas Alisinensium)</placeName></origPlace><origDate><origDate when-custom="0212" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">212 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1970"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2856637">Osterburken</placeName><placeName type="findspot">{S. Kilian, Kirche} (Vorgängerbau), sekundär verwendet</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004519_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Securius</name><name type="cognomen">Domitianus+</name></persName></person><person xml:id="HD004519_2" sex="M"><persName><name type="cognomen">Asper+</name></persName></person><person xml:id="HD004519_3" sex="M"><persName><name type="cognomen">Asper+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-23" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F034887" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2f59232a-5044-4f40-af89-e73f6936fe0f/file/id/795724/file_version/name/small"/><graphic xml:id="F034888" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7e6b1622-cf64-4fa5-90ad-11749b7ba7ff/file/id/795725/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>Iunon<supplied reason="lost">i</supplied> Regin<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="3"/>Minerv<expan><ex>a</ex><abbr>e</abbr></expan> Bono <lb n="4"/>Even<supplied reason="lost">tui Ge</supplied>nio lo<lb break="no" n="5"/>ci deo patrio <lb n="6"/>Marti Conservatori <lb n="7"/><expan><abbr>d</abbr><ex>is</ex></expan> <expan><abbr>d</abbr><ex>eabusque</ex></expan> <expan><abbr>om</abbr><ex>nibus</ex></expan> <expan><abbr>C</abbr><ex>aius</ex></expan> Securi<lb break="no" n="8"/>us Domit<supplied reason="lost">ia</supplied>nus m<lb break="no" n="9"/><expan><abbr>il</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> VIII <supplied reason="lost"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></supplied> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <expan><abbr>c</abbr><ex>onstantis</ex></expan> <expan><abbr>C</abbr><ex>ommodae</ex></expan> <lb n="10"/>Antonin<supplied reason="lost">ianae <expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan></supplied> <lb n="11"/><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex></expan></supplied><expan><abbr>s</abbr><ex>ularis</ex></expan> pro <supplied reason="lost">se et suis</supplied> <lb n="12"/><supplied reason="lost">ter</supplied>tia <expan><abbr>stat</abbr><ex>ione</ex></expan> <supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> <expan><abbr>Id</abbr><ex>ibus</ex></expan></supplied> <lb n="13"/><expan><abbr>Iul</abbr><ex>iis</ex></expan> <expan><abbr>duob</abbr><ex>us</ex></expan> A<supplied reason="lost">spris <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Gefunden beim Abbruch der Kirche St. Kilian. (B): Schallmayer et al: Z. 10/11: Antonin[ianae] / [b(ene)f(iciarius). AE 1978; Schillinger-Häfele; RSO; Cubaynes: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0525. (B)</bibl><bibl>U. Schillinger-Häfele, FBW 1, 1974, 534-536, Nr. 1; Abb. 1. (B)</bibl><bibl>U. Schillinger-Häfele, BRGK 58, 1977, 480-481, Nr. 44. (B) - AE 1978.</bibl><bibl>RSO 092. (B)</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 158, Nr. 173; Abb. 173. (B)</bibl><bibl>R. Cubaynes, Les hommes de la VIIIe légion Auguste (Autun 2018) 392-393, Nr. 98; Foto. (B)</bibl><bibl>PIR (2. Aufl.) I 182.</bibl><bibl>PIR (2. Aufl.) I 334.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

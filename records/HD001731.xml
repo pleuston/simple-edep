@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Savaria &amp;ndash; Szombathely (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001731</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001731</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>59</height><width>100</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-3.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197498">Savaria</placeName></origPlace><origDate><origDate notBefore-custom="0271" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">271 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1845"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044310">Szombathely</placeName><placeName type="findspot">{S. Márton, Kloster}, bei</placeName><placeName type="region">Vas megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001731_1" sex="M"><persName ref="http://romans1by1.com/rpeople/17208"><name type="nomen">Flavius*</name><name type="cognomen">Dalmatius</name></persName></person><person xml:id="HD001731_2" sex="W"><persName ref="http://romans1by1.com/rpeople/17209"><name type="nomen">Aurelia*</name><name type="cognomen">Iulia</name></persName></person><person xml:id="HD001731_3" sex="M"><persName ref="http://romans1by1.com/rpeople/17210"><name type="cognomen">Volussius (= Volusius)</name></persName></person><person xml:id="HD001731_4" sex="W"><persName ref="http://romans1by1.com/rpeople/17211"><name type="cognomen">Sabatia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-09" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Fl</abbr><ex>avius</ex></expan> Dalmatius <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>p</abbr><ex>erfectissimus</ex></expan> ex pro<supplied reason="lost">tectore</supplied> <lb n="2"/>qui vixit <expan><abbr>an</abbr><ex>nos</ex></expan> XL et <expan><abbr>Aur</abbr><ex>elia</ex></expan> Iulia <expan><abbr>conp</abbr><ex>ar</ex></expan> <expan><abbr>dulc</abbr><ex>issima</ex></expan> <lb n="3"/>qui <note>sic</note> vixit <expan><abbr>an</abbr><ex>nos</ex></expan> XXXV ideoque hunc titulum <lb n="4"/>scripserunt quisquis <expan><abbr>he</abbr><ex>ris</ex></expan> <note>sic</note> post me d<expan><ex>o</ex><abbr>m</abbr><ex>inus</ex></expan> Laris huius <lb n="5"/>et <expan><ex>h</ex><abbr>orti</abbr></expan> vicinas mihi carpe rosas mihi lilia pone <lb n="6"/><supplied reason="lost">ca</supplied>ndeda<surplus>s</surplus> <note>sic</note> <expan><abbr>q</abbr><ex>uae</ex></expan> viridis dabit <expan><ex>h</ex><abbr>ortulus</abbr></expan> ista beatum <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> Volussius <note>sic</note> et Sabatia <expan><abbr>lib</abbr><ex>erti</ex></expan> posuerunt
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente erhalten. Reste von roter Farbe in den Buchstaben. (B): CLE: Z. 1: pro(tectore); CIL 03, 04185: Z. 1: pro[tect(ore)]; ILCV: Z. 1: pro(tectoribus). ILCV; CLE; CLEPann: Z. 2: ann.; d[u]lc.; Nagy: Z. 4: {h}eris post; Tóth: Z. 5: carpe; CLEPann: Z. 6: [can]deda{s}; CIL 03, 04185: Z. 6: [Ca]nded[a]; i[t]a; Balla - Buocz - Kádár - Mócsy - Szentléleky: Z. 6: [can]deda(s); ILCV: Z. 6: [ca]ndeda; CLE; Nagy: Z. 6: [can]dedas; Nagy: Z. 6: i&amp;lt;s&amp;gt;sta; Tóth: Z. 7: posu&amp;lt;e=F&amp;gt;runt. Metrik: ab QVISQVIS (Z. 4) bis BEATVM (Z. 6): daktylische Hexameter.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0722.</bibl><bibl>T. Adamik, AErt 110, 1983, 3-9. - AE 1984.</bibl><bibl>CIL 03, 04185. (B)</bibl><bibl>CLE 0578. (B)</bibl><bibl>CLEPann 025. (B)</bibl><bibl>ILCV 0296. (B)</bibl><bibl>ILCV (Suppl.) 0296.</bibl><bibl>RIU 0080; Abb. 80 (Zeichnung).</bibl><bibl>L. Balla - T.P. Buocz - Z. Kádár - A. Mócsy - T. Szentléleky, Die römischen Steindenkmäler von Savaria (Amsterdam 1971) 117, Nr. 161; Bild 143. (B)</bibl><bibl>M. Nagy, Guide to the archaeological exhibitions in the Hungarian National Museum. Roman stones. Lapidarium (Budapest 2012) 172-173, Nr. 191; Foto. (B)</bibl><bibl>E. Tóth, Lapidarium Savariense. Savaria római feliratos kőemlékei (Szombathely 2011) 192-193, Nr. 145; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

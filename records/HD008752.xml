@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Casilinum &amp;ndash; Capua (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008752</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008752</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/438708">Casilinum</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Capua</placeName><placeName type="findspot"/><placeName type="region">Campania</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-03-12" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F021966" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ae7e924f-f3fd-4599-b0e9-8c8f58e11d42/file/id/782045/file_version/name/small"/><graphic xml:id="F021967" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f915c283-4431-423f-8585-dcc9b66c9c05/file/id/782046/file_version/name/small"/><graphic xml:id="F021968" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b3690882-fb88-4ea7-a639-3fbcc32cbdb5/file/id/782047/file_version/name/small"/><graphic xml:id="F021969" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b0dd1581-7f2a-440f-bf3e-657808a309cc/file/id/782048/file_version/name/small"/><graphic xml:id="F021970" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2ecbd5bd-3e7a-44ce-8584-e740c6636920/file/id/782049/file_version/name/small"/><graphic xml:id="F021971" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c14cbb7e-f7fe-428c-be40-c696f6d74523/file/id/782050/file_version/name/small"/><graphic xml:id="F021972" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f15d629c-c82f-45df-80da-5f694bd29319/file/id/782051/file_version/name/small"/><graphic xml:id="F021973" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d93fa602-2214-4b0c-9968-6e1901cb0de7/file/id/782052/file_version/name/small"/><graphic xml:id="F021975" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/41a95851-12e3-47cd-919a-9b41fae95c55/file/id/782054/file_version/name/small"/><graphic xml:id="F021976" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1f64a8a0-ee64-4bd0-9815-d0593397765f/file/id/782055/file_version/name/small"/><graphic xml:id="F021977" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8dea6344-66fc-4779-a5f9-b560b2e21e8a/file/id/782056/file_version/name/small"/><graphic xml:id="F021978" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6cf7015e-d53a-4101-8a84-b860201841e4/file/id/782057/file_version/name/small"/><graphic xml:id="F021979" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b7d196b0-3ab4-4b85-96aa-bf020e4d8055/file/id/782058/file_version/name/small"/><graphic xml:id="F021974" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e2486cfe-f9e2-40e7-b671-9579f86f4a0a/file/id/782053/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>s</abbr><ex>acrum</ex></expan> <lb n="2"/>Nasenniae <lb n="3"/>Primae <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> Castricius Liberalis <lb n="5"/>co<expan><ex>n</ex><abbr>iugi</abbr></expan> <lb n="6"/>bene merenti </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Anicio Paulino <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> pro<lb break="no" n="2"/>vectori Campania <note>sic</note> qui pri<lb break="no" n="3"/>mus proconsulatus pro<lb break="no" n="4"/>vinciae fasces invexit prae<lb break="no" n="5"/>fecto sacratissimae urbis <lb n="6"/>iustitia auctoritate muni<lb break="no" n="7"/>ficentiaque pollenti sa<lb break="no" n="8"/>lubri provisori origina<lb break="no" n="9"/>li patrono regiones <gap reason="lost" extent="unknown" unit="character"/> <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> collegia posue<lb break="no" n="11"/>runt
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1972, 0075.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Clastidium, bei &amp;ndash; Casteggio, bei (Aemilia (Regio VIII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001993</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001993</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mus. di Antichità di Casteggio</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(100)</height><width>(25)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Aemilia (Regio VIII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/383618">Clastidium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1857"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Casteggio, bei</placeName><placeName type="findspot">Coppa-Brücke, bei</placeName><placeName type="region">Pavia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001993_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Publilius+</name><name type="cognomen">Exsoratus (= Exoratus)</name></persName></person><person xml:id="HD001993_2" sex="W"><persName><name type="cognomen">Secunda</name></persName></person><person xml:id="HD001993_3" sex="W"><persName><name type="cognomen">Uria</name></persName></person><person xml:id="HD001993_4" sex="W"><persName><name type="cognomen">Boia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-06-09" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" quantity="1" unit="character"/><supplied reason="lost">P</supplied>ublilius <lb n="2"/>Exsoratus <note>sic</note> <lb n="3"/>locum sibi <lb n="4"/>et suis <lb n="5"/>in fron<lb break="no" n="6"/>tem <expan><abbr>p</abbr><ex>edes</ex></expan> XX <lb n="7"/>in agrum <lb n="8"/><expan><abbr>p</abbr><ex>edes</ex></expan> XXV <lb n="9"/>et Secun<lb break="no" n="10"/>d<expan><ex>a</ex><abbr>e</abbr></expan> Uriae <lb n="11"/>Boiae <lb n="12"/><expan><abbr>l</abbr><ex>ibertabus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Die Tafel war ursprünglich Teil eines größeren Grabmals. (B): AE 1982: Z. 1: [P]ublilius; CIL V: Z. 1: [--- P]ubl[i]lius; Z. 10: Urini.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0364. (B)</bibl><bibl>L. Boffo, RAComo 161, 1979, 195-197; fig. 9. - AE 1982.</bibl><bibl>CIL 05, 07359. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva, bei &amp;ndash; Eichberg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009260</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009260</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(162)</height><width>106</width><depth>19</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1981"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2772802">Eichberg</placeName><placeName type="findspot">{Lebing}</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009260_1" sex="M"><persName><name type="praenomen">Sex.?</name><name type="nomen">Sacretius</name><name type="cognomen">Priscus</name></persName></person><person xml:id="HD009260_2" sex="W"><persName><name type="nomen">Capitonia*</name><name type="cognomen">Iulia*</name></persName></person><person xml:id="HD009260_3" sex="M"><persName><name type="cognomen">Iustinus</name></persName></person><person xml:id="HD009260_4" sex="M"><persName><name type="cognomen">Similis</name></persName></person><person xml:id="HD009260_5" sex="W"><persName><name type="nomen">Capitonia</name><name type="cognomen">Ingenuina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-09" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>p</abbr><ex>ositum</ex></expan> <expan><abbr>S</abbr><ex cert="low">exto</ex></expan> Sacretio <lb n="2"/>Prisco <expan><abbr>Q</abbr><ex>uirina</ex></expan> <expan><abbr>Sol</abbr><ex>va</ex></expan> genero <lb n="3"/><expan><abbr>p</abbr><ex>ientissimo</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXVI et <expan><abbr>Capit</abbr><ex>oniae</ex></expan> Iuli<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>fil</abbr><ex>iae</ex></expan> <expan><abbr>p</abbr><ex>ientissimae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XX <lb n="4"/>Iustinus Similis et <lb n="5"/>Capitonia Ingenuina <lb n="6"/><expan><abbr>con</abbr><ex>iux</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 3: CAPIT in kleineren Buchstaben zwischen Z. 2 und 3 eingefügt. Z. 1: Praenomen S.: unklar, ob als S(extus) oder als S(purius) aufzulösen. Rekonstruierte Höhe (nach Puhm): 279 cm. (B): AE 1988: abweichende Angabe der Zeilenfälle; ILLPRON: Z. 1: p(ositum) nicht wiedergegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0917. (B)</bibl><bibl>AE 2006, 0990.</bibl><bibl>AE 2007, 1081.</bibl><bibl>ILLPRON 1270. (B)</bibl><bibl>A. Puhm, FuBerÖ 46, 2007, 212-214; Abb. 12 u. 20; Abb. 21 (Zeichnung). - AE 2007.</bibl><bibl>B. Herbert - I. Mirsch, FuBerÖ 44, 2005, 554-557; Abb. 125 (S. 88). - AE 2006.</bibl><bibl>M. Holzner - E. Weber, Tyche 23, 2008, 185, Nr. 19 u. 20. - AE 2006.</bibl><bibl>M. Hainzmann, in: M. Kandler - S. Karwiese - R. Pillinger (Hrsg.), Lebendige Altertumswissenschaft. Festschrift zur Vollendung des 70. Lebensjahres von Hermann Vetters (Wien 1985) 158-160; Taf. 18, 1; Taf. 18, 2 (Zeichnung). - AE 1988.</bibl><bibl>A. Puhm - S. Tiefengruber, in: Österreichisches Bundesdenkmalamt [http://bda.at/text/136/1478/9177] (23.04.2010).</bibl><bibl>E. Weber - R. Selinger, RŒ 19/20, 1991/92, 227, Nr. 310.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

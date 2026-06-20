@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005553</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005553</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, S. Ippolito, Catac.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>31</height><width>(23)</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0256" notAfter-custom="0260" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">256 AD - 260 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">S. Ippolito, Katakombe</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005553_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD005553_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD005553_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD005553_4"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-04-24" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010571" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2cad6c4e-ae33-445f-ab16-5b11e40cd77b/file/id/770091/file_version/name/small"/><graphic xml:id="F026495" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1d378bc9-d91c-4359-8a72-80dd9974a461/file/id/787248/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">--- et --- fortis</supplied>simis <supplied reason="lost" cert="low">Augg(ustis)</supplied> <lb n="2"/><supplied reason="lost" cert="low">et --- nobili</supplied>ssimo C<supplied reason="lost">ae</supplied>sari et <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">Au</supplied>gust</abbr><ex>ae</ex></expan> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">t</supplied>rib</abbr><ex>unus</ex></expan> et |(centuriones duo) co<supplied reason="lost"><expan><abbr>h</abbr><ex>ortis</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>d</abbr><ex>evoti</ex></expan> <expan><abbr>n</abbr><ex>umini</ex></expan> <expan><abbr>m</abbr><ex>aiestatique</ex></expan> <expan><abbr>eor</abbr><ex>um</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Drei Fragmente erhalten, von denen zwei aneinanderpassen. Maße des linken Teils s. oben; Maße des rechten Teils (bestehend aus zwei Fragmenten): 31 x -37 x 2. (B): Ferrua, AE 1980: abweichende Textwiedergabe; keine Angabe der Zeilenfälle.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0104. (B)</bibl><bibl>A. Ferrua, RPAA 50, 1977/78, 114, Nr. 14; fig. 3. (B) - AE 1980.</bibl><bibl>CIL 06, 40701; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

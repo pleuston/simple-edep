@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Edeta sive Liria &amp;ndash; Llíria / Liria (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006635</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006635</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Liria (Llíria)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>81</height><width>62</width><depth>(44)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#">Edeta sive Liria</placeName></origPlace><origDate><origDate when-custom="0171" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Llíria / Liria</placeName><placeName type="findspot">Mura</placeName><placeName type="region">Comunidad Valenciana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006635_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Cornelius</name><name type="cognomen">Potitus</name></persName></person><person xml:id="HD006635_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Cornelius*</name><name type="cognomen">Valerianus</name></persName></person><person xml:id="HD006635_3" sex="W"><persName><name type="nomen">Fulvia*</name><name type="cognomen">Zosime</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-11" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F042530" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6e1d3ffd-0ebe-4295-8324-285a116d135e/file/id/803638/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Cornelio <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/><expan><abbr>Gal</abbr><ex>eria</ex></expan> Potito <lb n="3"/><expan><abbr>honor</abbr><ex>e</ex></expan> <expan><abbr>aedil</abbr><ex>icio</ex></expan> <lb n="4"/>functo qui <expan><abbr>p</abbr><ex>rimus</ex></expan> <expan><abbr>p</abbr><ex>ilus</ex></expan> <lb n="5"/>in bello <lb n="6"/>Maurico periit <expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Cor</abbr><ex>nelius</ex></expan> <lb n="7"/>Valerianus et <expan><abbr>Ful</abbr><ex>via</ex></expan> <lb n="8"/>Zosime <expan><abbr>fil</abbr><ex>io</ex></expan> piissimo
+            </ab></div>
+            <div type="commentary">
+                <p>Mittelteil einer Statuenbasis; hinten für sekundäre Verwendung abgeschnitten. (B): AE 1985, Alföldy, Chiron 15, 1985: Z. 1: [f(ilio)]; AE 1985: Z. 7/8/9: Ful/via / Zosime. Datierung: Nach 171 n. Chr., da sich das erwähnte bellum Mauricum nach G. Alföldy auf den Maureneinfall in diesem Jahr in Hispanien bezieht.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0622. (B)</bibl><bibl>AE 1988, 0830.</bibl><bibl>CIL 02 (2. Aufl.) 14, 00131; tab. 3, 4.</bibl><bibl>G. Alföldy, Chiron 15, 1985, 91-109; Abb. 1. - AE 1985, AE 1988.</bibl><bibl>J. Corell, AEA 57, 1984, 177-178; fig. 1. (B) - AE 1988.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Batavis &amp;ndash; Passau (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001818</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001818</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>München, Arch. Staatsslg.; Passau, Oberhaus-Mus. (Kopie)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(106)</height><width>75</width><depth>47</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.8-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118590">Batavis</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1981"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2855328">Passau</placeName><placeName type="findspot">Altstadt, {Inn, Fluss, Schaiblingsturm, bei}</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001818_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Tenatius</name><name type="cognomen">Essimnus</name></persName></person><person xml:id="HD001818_2" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Tenatius</name><name type="cognomen">Paternus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-07-26" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F035230" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ee3a1865-083c-4fd8-859a-7c4a02f7e5fc/file/id/796078/file_version/name/small"/><graphic xml:id="F035231" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/52403748-41e1-4584-99ef-0cda0df88001/file/id/796079/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>P</abbr><ex>ublio</ex></expan> Tenatio Ess<lb break="no" n="3"/>imno negot<lb break="no" n="4"/>ianti vinar<lb break="no" n="5"/>iario domo <lb n="6"/>Iulia Triden<lb break="no" n="7"/>tum @(obito) <expan><abbr>n<am>n</am></abbr><ex>rum</ex></expan> LVII <lb n="8"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Tenatius Pater<lb break="no" n="9"/>nus patri <lb n="10"/>pientissimo <lb n="11"/>fecit
+            </ab></div>
+            <div type="commentary">
+                <p>Material: heller Marmor mit blau-grauen Einschlüssen. (B): AE 1984: Z. 4/5: keine Angabe des Zeilenfalls.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0707. (B)</bibl><bibl>H. Wolff, BVBl 49, 1984, 87-92; Taf. 20-22; Abb. 1 (Zeichnung). - AE 1984.</bibl><bibl>W. Hameter, Die norischen Inschriften Bayerns (Diss. Wien 1992) 134-135, Nr. 102; Foto.</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 265, Nr. 351.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

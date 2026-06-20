@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Thamugadi &amp;ndash; Timgad (Numidia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002408</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002408</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>83</height><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-7.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Numidia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/334636">Thamugadi</placeName></origPlace><origDate><origDate when-custom="0146" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">146 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1921"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern" ref="http://www.geonames.org/2476409">Timgad</placeName><placeName type="findspot">Byzantinische Festung, Donatistenviertel</placeName><placeName type="region">Batna</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002408_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="praenomen">T.+</name><name type="nomen">Aelius+</name><name type="cognomen">Hadrianus+ Antoninus+</name></persName></person><person xml:id="HD002408_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Prastina+</name><name type="cognomen">Messalinus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-15" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>Caes</abbr><ex>are</ex></expan> <expan><abbr>T</abbr><ex>ito</ex></expan> Aelio Hadr</supplied>iano <supplied reason="lost">Antoni</supplied>no <expan><abbr>Aug</abbr><ex>usto</ex></expan> Pio divi Hadriani f<supplied reason="lost">ilio divi Traiani nepote di</supplied>vi Nerv<supplied reason="lost">ae</supplied> pro<lb break="no" n="2"/><supplied reason="lost">nepote pon</supplied>tifi<supplied reason="lost">ce max</supplied>imo tribuniciae po<supplied reason="lost">testatis VIIII <expan><abbr>imp</abbr><ex>eratore</ex></expan> II <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan></supplied> III<supplied reason="lost">I <expan><abbr>p</abbr><ex>atre</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> Pr<supplied reason="lost">astina Mess</supplied>alinus <supplied reason="lost"><expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied> pro <expan><abbr>pr</abbr><ex>aetore</ex></expan> consul designa<supplied reason="lost">tus patronus</supplied> col<supplied reason="lost">oniae</supplied> universum <lb n="4"/>op<supplied reason="lost">us <gap reason="lost" extent="unknown" unit="character"/> p</supplied>er<supplied reason="lost">duc</supplied>tion<supplied reason="lost">is aq</supplied>uae inchoatum et consummatum ded<supplied reason="lost">icavit</supplied> de<supplied reason="lost">cret</supplied>o decu<supplied reason="lost">r</supplied>ionum <supplied reason="lost">pecuni</supplied>a publica
+            </ab></div>
+            <div type="commentary">
+                <p>Erhalten sind 17 Fragmente; gefunden 1921, 1941/42, 1945, 1948, 1953. Y: Nach Designation von C. Prastina Pacatus Messalinus zum consul und vor 10. 12. 146. Gleicher Inhalt wie AE 1985, 0875b. Bei M. Le Glay - S. Tourrenc Abweichungen zwischen Zeichnung und Text. Wiedergabe nach Text. Material: bläulicher Kalkstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0875a.</bibl><bibl>M. Le Glay - S. Tourrenc, AntAfr 21, 1985, 111-115, Nr. 3, 1; Zeichnung. - AE 1985.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Hatra &amp;ndash; Al Hadr (Syria)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000964</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000964</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bagdad, Museum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(48)</height><width>(52)</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Syria</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/894004">Hatra</placeName></origPlace><origDate><origDate notBefore-custom="0238" notAfter-custom="0246" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">238 AD - 246 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/99237">Iraq</placeName><placeName type="modern">Al Hadr</placeName><placeName type="findspot">9. Heiligtum, antecella</placeName><placeName type="region">Irak</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000964_1" sex="M"><persName><name type="praenomen">Q.+</name><name type="nomen">Petronius+</name><name type="cognomen">Quintianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-30" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Herculi <expan><abbr>sanct</abbr><ex>o</ex></expan> <lb n="2"/>pro salute do<lb break="no" n="3"/>mini nostri Au<supplied reason="lost"><expan><abbr>g</abbr><ex>usti</ex></expan> <expan><abbr>Q</abbr><ex>uintus</ex></expan></supplied> <lb n="4"/>Petronius Qu<supplied reason="lost">in</supplied><lb break="no" n="5"/>tianus <expan><abbr>dom</abbr><ex>o</ex></expan> <supplied reason="lost">Nu</supplied><lb break="no" n="6"/>midia <expan><abbr>trib</abbr><ex>unus</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <lb n="7"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>P</abbr><ex>arthicae</ex></expan> <expan><abbr>trib</abbr><ex>unus</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> IX <lb n="8"/>Gordianae Genio <expan><abbr>coh</abbr><ex>ortis</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 1: Maricq, AE 1958: Erculi sanct(o); Z. 5/6: Maricq, AE 1958: dom(o) [Nico]/midia statt dom(o) [Nu]/midia; Oates: dom[ita] / Midia; ergänzt Z. 3 Ende nicht [Q.].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0935.</bibl><bibl>F. Vattioni, Le iscrizioni di Hatra (Napoli 1981) 109-110, Nr. 3. (B) - AE 1983.</bibl><bibl>AE 1958, 0240. (B)</bibl><bibl>D. Oates, Sumer 11, 1955, 40-43, Nr. 81; fig. 2. (B) - AE 1958.</bibl><bibl>A. Maricq, Syria 34, 1957, 289-294. (B) - AE 1958.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

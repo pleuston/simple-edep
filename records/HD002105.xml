@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Virunum? &amp;ndash; Magdalensberg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002105</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002105</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/73">Brekzie</material><dimensions unit="cm"><height>(21)</height><width>(20)</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197365">Virunum?</placeName></origPlace><origDate><origDate notBefore-custom="-0015" notAfter-custom="0014" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">15 BC - 14 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1997"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2772135">Magdalensberg</placeName><placeName type="findspot">Pischeldorf, Stadt auf dem Magdalensberg, {Haus AA/41}</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002105_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1405"><name type="praenomen">Imp.+?</name><name type="nomen">Caesar+?</name><name type="cognomen">Augustus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-29" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">Imp(eratori)? Caesari? Divi? f(ilio)</supplied> <lb n="2"/><supplied reason="lost" cert="low">Augusto</supplied> <lb n="3"/>N<supplied reason="lost">orici Ambilinei</supplied> <lb n="4"/>Amb<supplied reason="lost"><expan><abbr>idr</abbr><ex>avi</ex></expan> Uperaci <expan><abbr>Saev</abbr><ex>ates</ex></expan></supplied> <lb n="5"/>Laian<supplied reason="lost">ci Ambisontes</supplied> <lb n="6"/><supplied reason="lost">(H)e</supplied>lv<supplied reason="lost"><expan><abbr>eti</abbr><ex>i</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei nicht aneiananderpassende Fragmente. Fundstelle und Maße beziehen sich auf Fragment a. Fragment b: gefunden westlich des AA-Komplexes, wohl in AA/17. Ergänzungsvorschlag nach Piccottini; rekonstruierte Breite: 63 cm. Wohl die Vorderseite einer Statuenbasis und zusammen mit ILLPRON 0236, AE 1953, 0105 = AE 1954, 0100 = ILLPRON 0235, AE 1952, 0212 = AE 1952, 0213 = AE 1952, 0214 = AE 1954, 0100 = ILLPRON 0234 und möglicherweise AE 2005, 1164 zu einer Statuengruppe gehörig. Datierung: nach 15 v. Chr. (Eingliederung von Noricum ins Römische Reich); wegen der vermutlichen Zusammengehörigkeit mit den genannten Inschriften und wegen der Paläographie nicht nach iulisch-claudischer Zeit; bei der vorgeschlagenen Ergänzung nicht nach 14 n. Chr. (Tod des Augustus). nach 14 n. Chr. (Tod des Augustus).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2005, 1163.</bibl><bibl>G. Piccottini, in: F. Beutler - W. Hameter (Hrsg.), "Eine ganz normale Inschrift" ... und ähnliches zum Geburtstag von Ekkehard Weber. Festschrift zum 30. April 2005 (Wien 2005) 394. 397-399; Abb. 12 u. 13 (Fotos u. Zeichnungen); Abb. 14 (Zeichnung). - AE 2005.</bibl><bibl>M. Holzner - E. Weber, Tyche 23, 2008, 205-206, Nr. 168.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

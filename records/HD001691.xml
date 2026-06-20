@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001691</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001691</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Antiq. Celio</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(65)</height><width>(53)</width><depth>77</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0314" notAfter-custom="0320" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">314 AD - 320 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001691_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]mius Ceionius Rufius</name><name type="cognomen">Volusianus+</name></persName></person><person xml:id="HD001691_2" sex="M"><persName><name type="cognomen">Constantinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-02-14" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F024258" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/670c1d2c-f062-4745-bc19-9cdd72f7c37b/file/id/784923/file_version/name/small"/><graphic xml:id="F011003" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/dde30b02-7738-41c4-a653-d23414c99ea2/file/id/770526/file_version/name/small"/><graphic xml:id="F030953" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/52b1503a-ccde-4942-af8a-df62fb5f9dd2/file/id/791710/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>ii <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>mio Ceionio Rufio <lb n="3"/><supplied reason="lost">Volusian</supplied>o <lb n="4"/><supplied reason="lost"><expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> <expan><abbr>praef</abbr><ex>ecto</ex></expan> urbi iudici sacraru</supplied>m cognitionum <lb n="5"/><supplied reason="lost">et consuli ordinario comiti</supplied> <expan><abbr>d</abbr><ex>omini</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> Constantini <lb n="6"/><supplied reason="lost">Maximi Pii Felicis invicti a</supplied>c semper <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="7"/><supplied reason="lost"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> Africae correctori Italiae</supplied> iterum <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>E</abbr><ex cert="low"/></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Ergänzungsvorschlag ab Z. 4 nach Porena. (B): CIL VI 41319: Z. 3: [Volusiano]; AE 1984: Z. 4: Urbi / iudici.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0145. (B)</bibl><bibl>M. Buroni - S. Panciera, in: Atti del Colloquio Internazionale AIEGL su Epigrafia e ordine senatorio 1, Roma 1981, Tituli 4 (Roma 1982) 644-647, Nr. 29; tav. 20, 4. - AE 1984.</bibl><bibl>AE 2003, 0207.</bibl><bibl>P. Porena, Le origini della prefettura del pretorio tardoantico (Roma 2003), 265-266. - AE 2003.</bibl><bibl>CIL 06, 41319; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

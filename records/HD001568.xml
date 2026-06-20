@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Comum &amp;ndash; Como (Transpadana (Regio XI))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001568</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001568</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Como, Mus. Civ. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(87)</height><width>57</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Transpadana (Regio XI)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/383627">Comum</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1834"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Como</placeName><placeName type="findspot"/><placeName type="region">Lombardia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001568_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Verginius</name><name type="cognomen">Macrinus</name></persName></person><person xml:id="HD001568_2" sex="M"><persName><name type="nomen">Verginius</name><name type="cognomen">Secundus</name></persName></person><person xml:id="HD001568_3" sex="M"><persName><name type="nomen">Verginius</name><name type="cognomen">Maximus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-29" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F001304" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/dd756ba7-6e4d-4376-a23e-4964692347cd/file/id/762395/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Verginio <lb n="2"/>Macrino <lb n="3"/><expan><abbr><supplied reason="lost">VI</supplied>vir</abbr><ex>o</ex></expan> Comi <lb n="4"/><expan><abbr>aedit</abbr><ex>uo</ex></expan> <expan><abbr>m<supplied reason="lost">a</supplied>g</abbr><ex>istro</ex></expan> <lb n="5"/>Martis per <lb n="6"/><expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XLV <lb n="7"/><expan><abbr>Vergini</abbr><ex>i</ex></expan> <lb n="8"/>Secundus et <lb n="9"/>Maximus <lb n="10"/><expan><abbr>hered</abbr><ex>es</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Der Stein ist in 2 Teile gebrochen. Die Erben sind wohl 2 Freigelassene oder 2 Neffen des Verstorbenen. Der Patron des Toten war vielleicht L. Verginius Rufus, cos. 63, 69, 97. Es gibt nur wenige Belege für den Titel aedituus magister. (B): CIL: Z. 4: aeditimo; Z. 5 Ende: III; Z. 10: [he]red(es); Sartori: Z. 4: aeditim[o].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0416.</bibl><bibl>G. Alföldy, ZPE 47, 1982, 193-200; Taf. 12b (Zeichnung). - AE 1982.</bibl><bibl>CIL 05, 05306. (B)</bibl><bibl>A. Sartori, Le iscrizioni romane. Guida all'esposizione (Como 1994) 68. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

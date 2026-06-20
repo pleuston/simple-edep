@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vada Sabatia &amp;ndash; Noli (Liguria (Regio IX))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002851</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002851</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Municipio, sala consiliare</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(46)</height><width>(29)</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Liguria (Regio IX)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/383808">Vada Sabatia</placeName></origPlace><origDate><origDate notBefore-custom="0571" notAfter-custom="0630" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">571 AD - 630 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1889"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Noli</placeName><placeName type="findspot">S. Paragorio, Kirche</placeName><placeName type="region">Savona</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002851_1" sex="M"><persName><name type="cognomen">Theodorus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-08-04" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Hic requiesci<supplied reason="lost">t <expan><abbr>b</abbr><ex>onae</ex></expan> <expan><abbr>m</abbr><ex>emoriae</ex></expan></supplied> <lb n="2"/>Theodo<supplied reason="lost">rus qui</supplied> <lb n="3"/>vixit in <supplied reason="lost">hoc sae</supplied><lb break="no" n="4"/>colo <note>sic</note> <expan><abbr>pl</abbr><ex>us</ex></expan> <expan><abbr>m</abbr><ex>inus</ex></expan> <supplied reason="lost">annos</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>eg<supplied reason="lost">i</supplied>t ep<expan><ex>iscop</ex><abbr>at</abbr></expan><supplied reason="lost">us annos</supplied> <lb n="6"/>XII d<expan><ex>e</ex><abbr>p</abbr><ex>ositio</ex></expan> eius <supplied reason="lost" cert="low">sub die</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Lamboglia: Z. 1: requiesc[et]; Z. 3/4: [sae]/clo; Z. 5: C pat[re]; Z. 6 (Anfang): X.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0423.</bibl><bibl>G. Mennella, SupplIt 2 (Roma 1983) 210-211, Nr. 9; Foto. - AE 1984.</bibl><bibl>N. Lamboglia, RSL 12, 1946, 122-123; fig. 5. (B) - AE 1984.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

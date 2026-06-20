@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Sora &amp;ndash; Sora (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003353</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003353</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>110</height><width>73</width><depth>60</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433126">Sora</placeName></origPlace><origDate><origDate notBefore-custom="-0030" notAfter-custom="0014" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC - 14 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Sora</placeName><placeName type="findspot">Forum pecuarium bei der Kirche S. Restituta</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003353_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Baebius</name><name type="cognomen">Secundus</name></persName></person><person xml:id="HD003353_2"><persName><name type="praenomen">M.</name><name type="nomen">Baebius</name><name type="cognomen">Sabinus</name></persName></person><person xml:id="HD003353_3"><persName><name type="praenomen">M.</name><name type="nomen">Valerius</name><name type="cognomen">Septiminus</name></persName></person><person xml:id="HD003353_4"><persName><name type="praenomen">M.</name><name type="nomen">Valerius</name><name type="cognomen">Secundinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2004-05-26" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> Baebio <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/><expan><abbr>Rom</abbr><ex>ilia</ex></expan> Secundo <lb n="3"/><expan><abbr>aed</abbr><ex>ili</ex></expan> <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> <expan><abbr>IIvir</abbr><ex>o</ex></expan> <lb n="4"/><expan><abbr>q</abbr><ex>uin</ex></expan><supplied reason="lost"><expan><abbr>q</abbr><ex>uennali</ex></expan></supplied> viocuro ex <expan><abbr>s</abbr><ex>enatus</ex></expan> <expan><abbr>c</abbr><ex>onsulto</ex></expan> II <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <lb n="5"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Baebius <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Rom</abbr><ex>ilia</ex></expan> Sabinus <lb n="6"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Valerius <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Rom</abbr><ex>ilia</ex></expan> Septiminus <lb n="7"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Valerius <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Rom</abbr><ex>ilia</ex></expan> Secundinus <lb n="8"/><expan><abbr>hered</abbr><ex>es</ex></expan> eius ex <expan><abbr>testament</abbr><ex>o</ex></expan> I<gap reason="lost" extent="unknown" unit="character"/>S <lb n="9"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> cuius <expan><abbr>dedic</abbr><ex>atione</ex></expan> crustum <lb n="10"/>et mulsum populo divisum <lb n="11"/>est
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 4: q(uinquennali).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0267.</bibl><bibl>R. Gelsomino, in: Antichità paleocristiane e altomedievali del Sorano. Atti del Convegno di Studi - Sora 1984 (Sora 1985) 67-70. (B) - AE.</bibl><bibl>CIL 10, 05714.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

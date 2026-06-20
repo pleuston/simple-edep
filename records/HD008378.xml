@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Forum Germanorum &amp;ndash; S. Lorenzo di Caraglio (Liguria (Regio IX))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008378</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008378</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>62</height><width>27</width><depth>8</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.2-5.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Liguria (Regio IX)</placeName><placeName type="ancient" ref="#">Forum Germanorum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">S. Lorenzo di Caraglio</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008378_1"><persName><name type="nomen">Attius+</name><name type="cognomen">Peregrinus</name></persName></person><person xml:id="HD008378_2"><persName><name type="nomen">Attia</name><name type="cognomen">Prima</name></persName></person><person xml:id="HD008378_3"><persName><name type="nomen">Iulia</name><name type="cognomen">Primigenia</name></persName></person><person xml:id="HD008378_4"><persName><name type="nomen">Attia</name><name type="cognomen">Severa</name></persName></person><person xml:id="HD008378_5"><persName><name type="nomen">Attia</name><name type="cognomen">Peregrina</name></persName></person><person xml:id="HD008378_6"><persName><name type="praenomen">M.</name><name type="nomen">Iulius+</name><name type="cognomen">Primigenius</name></persName></person><person xml:id="HD008378_7"><persName><name type="cognomen">Philocalus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1998-11-16" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>V</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <lb n="2"/><supplied reason="lost">A</supplied>ttius Primae <expan><abbr>l</abbr><ex>ibertus</ex></expan> <lb n="3"/>Peregrinus sibi <lb n="4"/>et Attiae Primae <lb n="5"/>patronae Iuliae <lb n="6"/>Primigeniae uxori <lb n="7"/>Attiae Severae matri <lb n="8"/>Attiae Peregrinae sorori <lb n="9"/><expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Iul</abbr><ex>io</ex></expan> Philocali <expan><abbr>lib</abbr><ex>erto</ex></expan> <lb n="10"/>Primigenio
+            </ab></div>
+            <div type="commentary">
+                <p>AE 1988: Z. 9 (Ende): lib(erto); CIL: Z. 2: Attius; Z. 2/3: Prime [l. P]eregrinus; Z. 3 (Ende): si[bi]; Z. 4 (Ende): Prime; Z. 8: Peregrine (Majuskeltext) bzw. Peregrini (Minuskeltext); Z. 9: [--Iul(io)?] Philocali [l]ib.; Z. 10: [P]rimigenio.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0574. (B)</bibl><bibl>CIL 05, 07177. (B)</bibl><bibl>G. Mennella, MEFR 100, 1988, 150-153, Nr. 3; fig. 8. - AE 1988.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

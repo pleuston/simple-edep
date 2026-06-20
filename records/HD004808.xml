@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Sanitium &amp;ndash; Sénez (Alpes Maritimae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004808</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004808</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sénez, römische Straße</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>157</height><width>58</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Maritimae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/157923">Sanitium</placeName></origPlace><origDate><origDate notBefore-custom="0212" notAfter-custom="0213" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">212 AD - 213 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1700"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2975100">Sénez</placeName><placeName type="findspot">{Quartier S.-Pierre}</placeName><placeName type="region">Provence-Alpes-Côte d’Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004808_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.</name><name type="nomen">Aurelius+</name><name type="cognomen">Antoninus+</name></persName></person><person xml:id="HD004808_2" sex="M"><persName><name type="nomen">Iulius*</name><name type="cognomen">Honoratus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-19" who="Cimarosti">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <lb n="2"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Aureli<lb break="no" n="3"/>u<supplied reason="lost">s</supplied> Anto<lb break="no" n="4"/><supplied reason="lost">ni</supplied>nus <expan><abbr>P</abbr><ex>ius</ex></expan> <lb n="5"/>Felix <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <lb n="6"/>Pa<supplied reason="lost"><expan><abbr>rthic</abbr><ex>us</ex></expan> <expan><abbr>m</abbr><ex>aximus</ex></expan></supplied> <lb n="7"/><expan><abbr>Br<supplied reason="lost">i</supplied>tannic</abbr><ex>us</ex></expan> <expan><abbr>m</abbr><ex>aximus</ex></expan> <lb n="8"/><expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>p<supplied reason="lost">o</supplied>t</abbr><ex>estate</ex></expan> XVI c<supplied reason="lost"><expan><abbr>o</abbr><ex>n</ex></expan></supplied><expan><abbr>s</abbr><ex>ul</ex></expan> II<supplied reason="lost">II</supplied> <lb n="9"/><surplus>co(n)s(ul) IIII</surplus> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="10"/>viam vetus<lb break="no" n="11"/>tate <expan><abbr>collabs</abbr><ex>am</ex></expan> <note>sic</note> <lb n="12"/>restituit <lb n="13"/><expan><abbr>cura</abbr><ex>m</ex></expan> agente <lb n="14"/><expan><abbr>Iul</abbr><ex>io</ex></expan> Hono<lb break="no" n="15"/>rato <expan><abbr>proc</abbr><ex>uratore</ex></expan> <lb n="16"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> ex pri<lb break="no" n="17"/>mipilo <lb n="18"/><supplied reason="lost" cert="low">III</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Salviat, AE 1978: Leseabweichungen. sc. [(Santio milia passuum)III?]. Eingemeißelt. Bearbeiterin: V. Pettirossi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0472. (B)</bibl><bibl>F. Salviat, Gallia 35, 1977, 531. - AE. (B)</bibl><bibl>AE 1995, 1020.</bibl><bibl>CIL 12, 05439.</bibl><bibl>CIL 12, 05439 add. p. 857.</bibl><bibl>S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 486-487, Nr. 414; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

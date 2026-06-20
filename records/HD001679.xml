@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001679</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001679</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mentana, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/71">Travertin</material><dimensions unit="cm"><height>29</height><width>172</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1968"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001679_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Eueius</name><name type="cognomen">Felix</name></persName></person><person xml:id="HD001679_2" sex="W"><persName><name type="nomen">Furia</name><name type="cognomen">Flora</name></persName></person><person xml:id="HD001679_3" sex="M"><persName><name type="cognomen">Ascanio</name></persName></person><person xml:id="HD001679_4" sex="M"><persName><name type="cognomen">Bathyllus*</name></persName></person><person xml:id="HD001679_5" sex="M"><persName><name type="cognomen">Gratus</name></persName></person><person xml:id="HD001679_6" sex="M"><persName><name type="cognomen">Mahes</name></persName></person><person xml:id="HD001679_7" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Furius</name><name type="cognomen">Philocalus</name></persName></person><person xml:id="HD001679_8" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Furius</name><name type="cognomen">Mahes</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-06-09" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F042752" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c7919ea3-8700-4262-8b06-ee1d5457fdc9/file/id/803858/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Eueius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> Felix sibi et Furiae <lb n="2"/>Ascanionis <expan><abbr>l</abbr><ex>ibertae</ex></expan> Florae uxori ex testamento <lb n="3"/>HS |(decem milia) arbitratu heredum Bat<expan><ex>h</ex><abbr>ylli</abbr></expan> Grati Mahenis <expan><abbr>l</abbr><ex>ibertorum</ex></expan> <lb n="4"/><expan><abbr>M</abbr><ex>arci</ex></expan> Furi <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>l</abbr><ex>iberti</ex></expan> Philocali <expan><abbr>M</abbr><ex>arci</ex></expan> Furi <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>l</abbr><ex>iberti</ex></expan> Mahenis <lb n="5"/>Bathyllus et Gratus de suo HS DC
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Ferrua, AE 1976: Z. 3: l(ibertorum) fehlt; Z. 5: Bat(h)yllus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0140.</bibl><bibl>P. Cavuoto, in: G. Barbieri (Hrsg.), Il lapidario Zeri di Mentana (Roma 1982) 181-184, Nr. 99; tav. 81,2. - AE 1984.</bibl><bibl>AE 1976, 0025. (B)</bibl><bibl>A. Ferrua, RPAA 48, 1975/76, 367, Nr. 1; fig. 1e (Zeichnung). (B) - AE 1976.</bibl><bibl>H. Solin, Arctos 21, 1987, 137, Nr. 6.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

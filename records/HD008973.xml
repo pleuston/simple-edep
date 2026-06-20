@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Arretium &amp;ndash; Arezzo (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008973</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008973</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>88</height><width>(74)</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">16-10</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413032">Arretium</placeName></origPlace><origDate><origDate when-custom="0117" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">117 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Arezzo</placeName><placeName type="findspot">S. Maria in Gradi, Kirche, sekundär verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008973_1"><persName><name type="praenomen">C.</name><name type="nomen">Cilnius</name><name type="cognomen">Proculus+</name></persName></person><person xml:id="HD008973_2"><persName><name type="cognomen">Hadrianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-09-28" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Cilnio <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr><supplied reason="lost">Po</supplied>m</abbr><ex>ptina</ex></expan> Procul<supplied reason="lost">o <expan><abbr>leg</abbr><ex>ato</ex></expan> divi Traiani <expan><abbr>Parth</abbr><ex>ici</ex></expan> pro <expan><abbr>praet</abbr><ex>ore</ex></expan> <expan><abbr>provinc</abbr><ex>iae</ex></expan> Moesiae <expan><abbr>sup</abbr><ex>erioris</ex></expan></supplied> <lb n="2"/>item provin<supplied reason="lost"><expan><abbr>c</abbr><ex>iae</ex></expan></supplied> Dalmatiae c<supplied reason="lost"><expan><abbr>o</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> donis militaribus ab eodem donato hastis IIII puris vexillis</supplied> <lb n="3"/>IIII argente<supplied reason="lost">is</supplied> corona mu<supplied reason="lost">rali vallari classica aurea comiti divi Traiani et <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> Caesaris</supplied> <lb n="4"/>Hadriani Au<supplied reason="lost"><expan><abbr>g</abbr><ex>usti</ex></expan> le</supplied><expan><abbr>g</abbr><ex>ato</ex></expan> <expan><abbr>eiusd</abbr><ex>em</ex></expan> pro <supplied reason="lost">praetore exercitus qui missus est ad tumultus Sarmatarum in</supplied> <lb n="5"/><supplied reason="lost">pro</supplied>vincia D<supplied reason="lost">acia comprimendos patrono <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Die Inschrift lief ursprünglich über mehrere Platten hinweg; erhalten hatten sich die linke (a) und die nächste ehemals rechts daran anchließende Platte (b), die in ihrem linken Teil jedoch gebrochen ist. Die Maße beziehen sich auf Platte b; Platte a ist verschollen. rekonstruierte Gesamtbreite: ca. 6 m. Zusammengehörigkeit von Platte a (CIL XI) und b (Del Vita, AE 1926) von Halfmann erkannt. Ergänzungsvorschlag nach Halfmann. Der Geehrte ist wahrscheinlich Sohn des gleichnamigen Konsuls von 87 n. Chr. (PIR (2. Aufl.) C732. Datierung: zwischen dem 11.8.117 (Erhebung Hadrians zum Augustus) und Sept./Okt. 117 (Tod des Bassus). (B): Del Vita, AE 1926, AE 1987: Z. 2: [D]almatiae; Z. 5: pro]vincia [.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1987, 0392. (B)</bibl><bibl>AE 1926, 0123. (B)</bibl><bibl>CIL 11, 01833.</bibl><bibl>A. Del Vita, NSA 1925, 224-225; fig. 7. (B) - AE 1926.</bibl><bibl>H. Halfmann, ZPE 61, 1985, 239-250; Zeichnungen. - AE 1987.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

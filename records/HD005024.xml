@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Sentinum &amp;ndash; Sassoferrato (Umbria (Regio VI))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005024</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005024</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Umbria (Regio VI)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413312">Sentinum</placeName></origPlace><origDate><origDate notBefore-custom="0114" notAfter-custom="0117" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">114 AD - 117 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Sassoferrato</placeName><placeName type="findspot">Sentino</placeName><placeName type="region">Marche</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005024_1" sex="M"><persName><name type="praenomen">P.+ T.+</name><name type="nomen">Iuventius+ Aufidius+ Hoenius</name><name type="cognomen">Celsus Severianus+</name></persName></person><person xml:id="HD005024_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1425"><name type="cognomen">Nerva+ Traianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-18" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>P</abbr><ex>ublio</ex></expan> Iu</supplied>ventio <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/><expan><abbr><supplied reason="lost">V</supplied>el</abbr><ex>ina</ex></expan> Celso <lb n="3"/><supplied reason="lost"><expan><abbr>T</abbr><ex>ito</ex></expan> Auf</supplied>idio Hoenio <lb n="4"/><supplied reason="lost">Severia</supplied>no co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> sodali Ti<lb break="no" n="5"/><supplied reason="lost"><expan><abbr>tial</abbr><ex>i</ex></expan> leg</supplied>ato pro<surplus>c</surplus><expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> Cae<lb break="no" n="6"/><supplied reason="lost">saris N</supplied>ervae Traiani Op<supplied reason="lost">ti</supplied><lb break="no" n="7"/><supplied reason="lost" cert="low">mi Augusti Germ(anici)</supplied> Da<supplied reason="lost"><expan><abbr>c</abbr><ex>ici</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Celsus berühmter Jurist und Mitglied des consilium principis unter Hadrian.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0292.</bibl><bibl>G. Paci, AFLM 9, 1976, 377-390; fig. 1 (Zeichnung); tav. 1, 1. - AE 1978.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

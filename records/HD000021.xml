@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Siarum, bei &amp;ndash; Los Palacios y Villafranca (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000021</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000021</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Los Palacios y Villafranca, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>91</height><width>59</width><depth>28</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-2.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/256449">Siarum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0143" notAfter-custom="0145" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">143 AD - 145 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1978"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2514553">Los Palacios y Villafranca</placeName><placeName type="findspot">El Trobal</placeName><placeName type="region">Sevilla</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000021_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Messius Aemilius Iulius Arrius</name><name type="cognomen">Rusticianus Lepidus Celsus Balbinus Proculus</name></persName></person><person xml:id="HD000021_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="praenomen">T.</name><name type="nomen">Aelius</name><name type="cognomen">Hadrianus Antoninus</name></persName></person><person xml:id="HD000021_3" sex="M"><persName><name type="nomen">Aemilius</name><name type="cognomen">Papus</name></persName></person><person xml:id="HD000021_4" sex="M"><persName><name type="nomen">Burbuleius</name><name type="cognomen">Ligarianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-05-16" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> Messio <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/><expan><abbr>Gal</abbr><ex>eria</ex></expan> Rusticiano <lb n="3"/>Aemilio Lepido Iulio <lb n="4"/>Celso Balbino Arrio <lb n="5"/>Proculo <expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>pleb</abbr><ex>is</ex></expan> <expan><abbr>desig</abbr><ex>nato</ex></expan> <lb n="6"/><expan><abbr>q</abbr><ex>uaestori</ex></expan> <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> Caesaris Titi Aelii <lb n="7"/>Hadriani Antonini <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="8"/>Pii <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XV Apol<lb break="no" n="9"/><expan><abbr>linar</abbr><ex>is</ex></expan> et <expan><abbr>leg</abbr><ex>ionis</ex></expan> III Gallicae <lb n="10"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> urbis <expan><abbr>feriar</abbr><ex>um</ex></expan> <expan><abbr>Latinar</abbr><ex>um</ex></expan> <lb n="11"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulatu</ex></expan> Aemili Papi patris <lb n="12"/>Burbulei Ligariani soceri <lb n="13"/>Xviro stlitibus iudicandis <lb n="14"/>res publica Siarensium <lb n="15"/>Aemilius Papus pater hono<lb break="no" n="16"/>re usus sua pecunia <lb n="17"/>posuit
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE: Z.4: Albino statt Balbino; Z.5: design(ato); Z.6: Aeli. (A): Schriftbild nicht actuaria, sondern rustica. Y: Amt des praefectus urbis feriarum Latinarum auf 136 durch Angabe der Konsuln datiert</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0517. (B)</bibl><bibl>J. González - A. Caballos Rufino, ZPE 52, 1983, 157-160; Taf. 5a. (A) - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

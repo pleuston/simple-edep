@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from (Civitas Alisinensium) &amp;ndash; Osterburken (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002060</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002060</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>125</height><width>56</width><depth>35</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118898">(Civitas Alisinensium)</placeName></origPlace><origDate><origDate when-custom="0183" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">183 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1982"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2856637">Osterburken</placeName><placeName type="findspot">{Benefiziarierweihebezirk}, Tempel der Dea Candida, vor</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002060_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aelius*</name><name type="cognomen">Gemellus</name></persName></person><person xml:id="HD002060_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1434"><name type="cognomen">Commodus+++</name></persName></person><person xml:id="HD002060_3" sex="M"><persName><name type="cognomen">Victorinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-01-04" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004474" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/693ed3f1-7041-4bb5-861e-1e8268ef14a8/file/id/765236/file_version/name/small"/><graphic xml:id="F017894" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bb2cfd31-cd8d-4d98-8bb9-3129447d3622/file/id/777505/file_version/name/small"/><graphic xml:id="F028143" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c2ddbdf2-f068-4a6e-bc7a-d28082c0273c/file/id/788900/file_version/name/small"/><graphic xml:id="F028144" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3c52af6e-0675-4593-a4e5-f8d32f8a06da/file/id/788901/file_version/name/small"/><graphic xml:id="F034897" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9505c423-7714-4f0f-b169-cd4d9c2c059e/file/id/795734/file_version/name/small"/><graphic xml:id="F034898" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/11007de0-6934-48b4-92a7-3770cac10aeb/file/id/795735/file_version/name/small"/><graphic xml:id="F034899" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/01e2bbb4-7132-4277-bcae-ee1fe147a556/file/id/795736/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>Iunoni Re<lb break="no" n="3"/>ginae dis <lb n="4"/><expan><abbr>deabusq</abbr><ex>ue</ex></expan> <lb n="5"/>omnibus <lb n="6"/>et Genio <lb n="7"/>loci <expan><abbr>P</abbr><ex>ublius</ex></expan> <expan><abbr>Ae</abbr><ex>lius</ex></expan> <lb n="8"/>Gemellus <lb n="9"/>b<expan><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <del rend="erasure"><expan><abbr>Imp</abbr><ex>eratore</ex></expan></del> <lb n="10"/><del rend="erasure">[Commodo</del>] <lb n="11"/><del rend="erasure">[<expan><abbr>Aug</abbr><ex>usto</ex></expan> et</del>] Victori<lb break="no" n="12"/>no II co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <expan><abbr>Id</abbr><ex>ibus</ex></expan> <expan><abbr>Iul</abbr><ex>iis</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(A): Material: Kalkstein. (B): Schallmayer, AE 1985: Tilgung Z.9-11 nicht (vollständig) angezeigt. Reste von weißem Kalküberzug.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0687. (B)</bibl><bibl>E. Schallmayer, in: Der Keltenfürst von Hochdorf (Stuttgart 1985) 396, Nr. 3; Abb. 596. (B) - AE 1985.</bibl><bibl>PIR (2. Aufl.) A 1393.</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 142, Nr. 155; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

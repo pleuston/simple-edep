@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription? from Volsinii &amp;ndash; Bolsena (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000902</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000902</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Firenze, Mus. Arch. Naz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(76)</height><width>(126)</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413389">Volsinii</placeName></origPlace><origDate><origDate notBefore-custom="0015" notAfter-custom="0016" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">15 AD - 16 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1900"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Bolsena</placeName><placeName type="findspot">Gut Moscini, bei</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000902_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000902_2" sex="W"><persName><name type="nomen">Terentia</name></persName></person><person xml:id="HD000902_3" sex="W"><persName><name type="nomen">Cosconia</name><name type="cognomen">Gallitta</name></persName></person><person xml:id="HD000902_4" sex="M"><persName><name type="cognomen">Lentulus Maluginensis+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-12-27" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>praefectus Aegypt<supplied reason="lost">i et</supplied> <lb n="2"/>Terentia <expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> mater eiu<supplied reason="lost">s et</supplied> <lb n="3"/>Cosconia Lentulii <note>sic</note> Malug<supplied reason="lost">inensis <expan><abbr>f</abbr><ex>ilia</ex></expan></supplied> <lb n="4"/>Gallitta uxor eius ae<supplied reason="lost">dificiis</supplied> <lb n="5"/>emptis et ad solum de<supplied reason="lost">iectis</supplied> <lb n="6"/>balneum cum omn<supplied reason="lost">i ornatu</supplied> <lb n="7"/><supplied reason="lost">Volsiniens</supplied>ibus ded<supplied reason="lost">erunt</supplied> <lb n="8"/><supplied reason="lost">ob publ</supplied>ica co<supplied reason="lost">mmoda</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 6: emptus statt emptis. Es handelt sich wahrscheinlich um L. Seius Strabo, praefectus Aegypti unter Tiberius, wohl nicht um C. Caecina Tuscus (cf. G.V. Sumner). Terentia A.f.: Wohl Schwester des Konsuls A. Terentius Varro; Cosconia Gallitta: Wohl Tochter, nicht Schwester des Ser. Cornelius Lentulus Maluginensis, cos. suff. 10 n.Chr. Inschriftengattung wegen fehlenden Anfangs nicht eindeutig: Bau- oder Weihinschrift.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0398.</bibl><bibl>M. Corbier, MEFR 95, 1983, 749-754; fig. 6. (B) - AE.</bibl><bibl>CIL 11, 07285.</bibl><bibl>ILS 8996.</bibl><bibl>AE 1904, 0037.</bibl><bibl>AE 1904, p. 46 s. n. 170.</bibl><bibl>AE 1904, p. 48 s. n. 177.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

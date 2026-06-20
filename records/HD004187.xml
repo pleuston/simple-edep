@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004187</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004187</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Area Sac. L.go Arg.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(12)</height><width>(21)</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.8-4.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="-022" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">22 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Largo Argentina, Tempel C</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004187_1" sex="M"><persName><name type="praenomen">L.+</name><name type="nomen">Aelius</name><name type="cognomen">Lamia+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-11" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011122" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ff3fccec-1e7e-4b69-9fb0-dd64d858917f/file/id/770645/file_version/name/small"/><graphic xml:id="F011201" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e1efe3b9-7aac-40c7-8f76-1e417d44820d/file/id/770724/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>L</abbr><ex>ucio</ex></expan></supplied> Aelio <supplied reason="lost"><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> La</supplied>miae <expan><abbr>pr</abbr><ex>aetori</ex></expan> <lb n="2"/><expan><abbr><supplied reason="lost">le</supplied>g</abbr><ex>ato</ex></expan> pro <expan><abbr>pr</abbr><ex>aetore</ex></expan> <supplied reason="lost"><expan><abbr>XVvir</abbr><ex>o</ex></expan> <expan><abbr>sacr</abbr><ex>is</ex></expan></supplied> <expan><abbr>fac</abbr><ex>iundis</ex></expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">patrono</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei Fragmente erhalten. Maße des linken Fragments: s.o.; Maße des rechten Fragments: - 16 x -33,5 x 4,2. AE 1981: keine Textwiedergabe. (B): Marchetti Longhi: Z. 1: [A]elio; Z. 2: [leg.] pro p[r. XV vir sac. f]ac.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0043.</bibl><bibl>I. Kajanto - U. Nyberg - M. Steinby, in: L'area sacra di Largo Argentina 1 (Roma 1981) 113, Nr. 28 A; tav. 38,3. - AE 1981.</bibl><bibl>AE 1948, 0093.</bibl><bibl>G. Marchetti Longhi, BCAR 71, 1943-45, 69, Nr. B; fig. 11B. (B) - AE 1948.</bibl><bibl>G. Alföldy, Studi sull'epigrafia augustea e tiberiana di Roma (Roma 1992) 118, Nr. 6; tav. 19, 61a u. b; tav. 21, 68 (Zeichnung). - AE 1992.</bibl><bibl>AE 1949, p. 58 s. n. 181.</bibl><bibl>CIL 06, 41039; fig. α; fig. β (Zeichnung).</bibl><bibl>AE 1992, 0172.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

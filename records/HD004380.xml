@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Falerii (Novi) (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004380</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004380</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Vat. (Lap. Prof. Ex. Lat.)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(129)</height><width>(64)</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">11.5-9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="#">Falerii (Novi)</placeName></origPlace><origDate><origDate notBefore-custom="-0030" notAfter-custom="0014" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC - 14 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern"/><placeName type="findspot"/><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004380_1"><persName><name type="nomen">[---]tia</name><name type="cognomen">Urbana+</name></persName></person><person xml:id="HD004380_2"><persName ref="https://www.wikidata.org/wiki/Q104475"><name type="cognomen">Gallienus+</name></persName></person><person xml:id="HD004380_3"><persName><name type="nomen">Cornelia+</name><name type="cognomen">Salonina+</name></persName></person><person xml:id="HD004380_4"><persName><name type="nomen">Tyrius Septimius</name><name type="cognomen">Azizus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-09-20" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F006140" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4ef6bb91-5d17-4787-89ba-568883347022/file/id/766915/file_version/name/small"/><graphic xml:id="F022943" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c25cd7dd-8af8-479e-95f1-0e633ccd7ea3/file/id/783109/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>tiae Urba<supplied reason="lost">nae</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">colu</supplied>mnis podiu<supplied reason="lost">m</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> theat</supplied>rum lapid<supplied reason="lost">eum<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> signi<supplied reason="lost">s</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> in p</supplied>erpetuum <gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>VMC<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>RAR<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Rectori orbis et domino terra<supplied reason="lost">rum ac redin</supplied><lb break="no" n="2"/>tegratori <expan><abbr>col</abbr><ex>oniae</ex></expan> Faliscorum <expan><abbr>Imp</abbr><ex>eratori</ex></expan> G<supplied reason="lost">allieno Pio</supplied> <lb n="3"/>Felici Invicto <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan> <expan><abbr>Germ</abbr><ex>anico</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> P<supplied reason="lost">arthico <expan><abbr>max</abbr><ex>imo</ex></expan></supplied> <lb n="4"/><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> proco<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> et Corn<supplied reason="lost">eliae</supplied> Salon<supplied reason="lost">inae <expan><abbr>Aug</abbr><ex>ustae</ex></expan></supplied> <lb n="5"/>coniugi <expan><abbr>d</abbr><ex>omini</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> Gallie<supplied reason="lost">ni Invicti Augusti</supplied> <lb n="6"/>ordo et populus <supplied reason="lost"><expan><abbr>col</abbr><ex>oniae</ex></expan> Faliscorum</supplied> <lb n="7"/>ob insignem erga se mun<supplied reason="lost">ificentiam eorum</supplied> <lb n="8"/>curante Tyrio Septimio <supplied reason="lost">Azizo <expan><abbr>v</abbr><ex>ivo</ex></expan> <expan><abbr>p</abbr><ex>erfectissimo</ex></expan> <expan><abbr>cur</abbr><ex>atore</ex></expan> <expan><abbr>r</abbr><ex>ei</ex></expan> <expan><abbr>p</abbr><ex>ublicae</ex></expan></supplied> <lb n="9"/>devotissimo numini <supplied reason="lost"><expan><abbr>maiestatiq</abbr><ex>ue</ex></expan> eorum</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Teile dreier Platten, die von einer großen, zu einem unbekannten Zeitpunkt zerschnittenen Tafel stammen; Platte II u. III außerdem mit einer weiteren, älteren Inschrift auf der Rückseite. Maße beziehen sich auf Platte I; Maße Platte II (in 5 Teile zerschnitten bzw. gebrochen): Teil a: (35) x (72) x 3,5 cm, Teil b: Maße unbekannt, Teil c-e: (65) x (72) x 3,5 cm; Platte III (nur 1 Fragment erhalten): (29) x (29) x 3 cm. Buchstabenhöhe und Datierung beziehen sich auf die frühere Inschrift A. Inschrift B: Buchstabenhöhe 6-11 cm; Datierung: Sommer 260 n. Chr. (Gallien Alleinherrscher) bzw. 265(?) n. Chr. (Annahme des Beinamens Parthicus maximus) bis ca. September 268 n. Chr. (Tod Galliens). Z. 1: rectori steht auf einer Eradierung. (B): Inschrift A: CIL XI 3090: Z. 2: podium; Z. 4: sign[---]; Inschrift B: CIL VI 1109 (= Platte II, Teil b): Z. 3: [Gallie]no Aug(usto); CIL XI 3089: Z. 4: Cor[neliae]; Di Stefano Manzella, CIL p. 4324: Z. 6 u. 7 vertauscht.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0217.</bibl><bibl>I. Di Stefano Manzella, MemPontAcc 12,2, 1979, 63-65.108-113, Nr. 13. 38; fig. 22.54-56. (B) - AE 1979.</bibl><bibl>CIL 11, 03090. (B)</bibl><bibl>CIL 11, 03089. (B)</bibl><bibl>CIL 06, 01109. (B)</bibl><bibl>CIL 06, p. 3778.</bibl><bibl>CIL 06, p. 4324. (B)</bibl><bibl>M. Horster, Bauinschriften römischer Kaiser (Stuttgart 2001) 319-320, Nr. VII 2a.</bibl><bibl>G. Alföldy, Epigraphica 64, 2002, 143-144.</bibl><bibl>I. Di Stefano Manzella, SupplIt 1 (Roma 1981) 115-116.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

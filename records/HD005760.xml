@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Pommern (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005760</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005760</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>15</height><width>22</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.8-2.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109252"/></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1975"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2852762">Pommern</placeName><placeName type="findspot">Martberg, {Heiligtum des Mars Lenus}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005760_1" sex="M"><persName><name type="nomen">Saturninius</name><name type="cognomen">Quintus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-04-15" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017335" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4327f38f-fe05-4622-b5f2-310b0021a5a6/file/id/776944/file_version/name/small"/><graphic xml:id="F017336" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/463c2c0b-a232-4194-bfbc-236523c69c7f/file/id/776945/file_version/name/small"/><graphic xml:id="F017337" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b6887430-10e6-40b4-8051-c6d0e09ea168/file/id/776946/file_version/name/small"/><graphic xml:id="F017338" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b82cede5-9800-4cec-a432-b65c87cfa92f/file/id/776947/file_version/name/small"/><graphic xml:id="F017339" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d9032993-7e2e-455b-8e24-f57e41ee687a/file/id/776948/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> &amp;lt;divinae&amp;gt; Deo <lb n="2"/>Marti Laeno <note>sic</note> <lb n="3"/>Saturninius <lb n="4"/>Quintus ex v<lb break="no" n="5"/>oto posuit <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Kapitell; auf der Vorderseite befindet sich die Inschrift, auf den drei anderen je ein Kopf und weiterer Dekor. Auf der Oberseite ein quadratisches Dübelloch. (B): Merten; AE 1985: Z. 1 (Anfang): [In].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0676.</bibl><bibl>AE 1985, 0679. (B)</bibl><bibl>C.B. Rüger, in: EpStud 12 (Köln 1981) 287-288, Nr. 1; Abb. 1. - AE 1981.</bibl><bibl>H. Merten, TZ 48, 1985, 14-18, Abb. 2-6. (B) - AE 1985.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

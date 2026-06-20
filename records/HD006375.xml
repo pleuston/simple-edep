@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mutina &amp;ndash; Modena (Aemilia (Regio VIII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006375</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006375</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>139</height><width>60</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-3.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Aemilia (Regio VIII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/383715">Mutina</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Modena</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006375_1"><persName><name type="praenomen">M.</name><name type="nomen">Clodius</name><name type="cognomen">Gallus</name></persName></person><person xml:id="HD006375_2"><persName><name type="nomen">Clodia</name><name type="cognomen">Prima</name></persName></person><person xml:id="HD006375_3"><persName><name type="praenomen">M.</name><name type="nomen">Clodius</name><name type="cognomen">Nestor</name></persName></person><person xml:id="HD006375_4"><persName><name type="nomen">Clodia</name><name type="cognomen">Cinura</name></persName></person><person xml:id="HD006375_5"><persName><name type="praenomen">M.</name><name type="nomen">Clodius</name><name type="cognomen">Cataphyllus</name></persName></person><person xml:id="HD006375_6"><persName><name type="nomen">Clodia</name><name type="cognomen">Chia</name></persName></person><person xml:id="HD006375_7"><persName><name type="praenomen">M.</name><name type="nomen">Clodius</name><name type="cognomen">Sabinus</name></persName></person><person xml:id="HD006375_8"><persName><name type="praenomen">M.</name><name type="nomen">Clodius</name><name type="cognomen">Celer</name></persName></person><person xml:id="HD006375_9"><persName><name type="praenomen">M.</name><name type="nomen">Clodius</name><name type="cognomen">Iucundus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-04-14" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Libert</abbr><ex>is</ex></expan> <expan><abbr>libertab</abbr><ex>usque</ex></expan> <lb n="2"/><expan><abbr>M</abbr><ex>arci</ex></expan> Clodi Galli <lb n="3"/>his <expan><abbr>q</abbr><ex>ui</ex></expan> <expan><abbr>i</abbr><ex>nfra</ex></expan> <expan><abbr>s</abbr><ex>cripti</ex></expan> <expan><abbr>s</abbr><ex>unt</ex></expan> <lb n="4"/>Clodiae <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>l</abbr><ex>ibertae</ex></expan> Primae <lb n="5"/><expan><abbr>M</abbr><ex>arco</ex></expan> Clodio Nestori <lb n="6"/>Clodiae <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>l</abbr><ex>ibertae</ex></expan> Cinurae <lb n="7"/><expan><abbr>M</abbr><ex>arco</ex></expan> Clodio Cataphyllo <lb n="8"/>Clodiae <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>l</abbr><ex>ibertae</ex></expan> Chiae <lb n="9"/><expan><abbr>M</abbr><ex>arco</ex></expan> Clodio Sabino <lb n="10"/><expan><abbr>M</abbr><ex>arco</ex></expan> Clodio Celeri <lb n="11"/><expan><abbr>M</abbr><ex>arco</ex></expan> Clodio Iucundo <lb n="12"/>in <expan><abbr>fr</abbr><ex>onte</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> XV <lb n="13"/>in <expan><abbr>agr</abbr><ex>o</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> XVI
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Corradi Cervi: keine Zeilenfälle angegeben; vor Z. 1: D(iis) M(anibus); Z. 3: his quae; Z. 4: Clodiae (Marci) l(ibertae); Z. 5: Clodio [M(arci)] l(iberto) Nestori; Z. 6: Cinurae nicht gelesen; Z. 7 (Ende): [---]philo; Z. 8: Chiae nicht gelesen; Z. 9: M(arco) Clodio M(arci) l(iberto) [---]; Z. 10: M(arco) Clodio M(arci) l(iberto) Cinn[amo]; Z. 11: M(arco) Clodio [M(arci) l(liberto) ---]; Z. 12: in fronte.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1976, 0222.</bibl><bibl>T. Rebecchi, AttiMemModena 4, 1969, 273-276, Nr. 8; tav. 4, 1. - AE 1976.</bibl><bibl>M. Corrradi Cervi, Epigraphica 3, 1941, 250-251, Nr. 1; fig. 8. (B) - AE 1976.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

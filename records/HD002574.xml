@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Septempeda, bei &amp;ndash; San Severino Marche, bei (Picenum (Regio V))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002574</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002574</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Picenum (Regio V)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413314">Septempeda, bei</placeName></origPlace><origDate><origDate notBefore-custom="-0050" notAfter-custom="0014" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">50 BC - 14 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">San Severino Marche, bei</placeName><placeName type="findspot">"Parrochia di Cesolo, contrada di Contro"</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002574_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">NAIRI[---]</name></persName></person><person xml:id="HD002574_2"><persName><name type="praenomen">M.</name><name type="nomen">Vibius</name><name type="cognomen">V[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1991-03-11" who="Scheithauer">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><expan><abbr>Vel</abbr><ex>ina</ex></expan> NAIRI<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>testam<supplied reason="lost">ento</supplied> <lb n="3"/><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Vib</abbr><ex>i</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilii</ex></expan> V<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Vorschlag AE für cognomen von Person 1: Natri[anus].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0352.</bibl><bibl>S.M. Marengo, Picus 3, 1983, 169-174, Nr. 5; fig. 7. - AE.</bibl><bibl>V. Aleandri, NSA 1898, 487-488, Nr. 5; Zeichnung. - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

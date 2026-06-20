@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from (Civitas Alisinensium) &amp;ndash; Elztal (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007860</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007860</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermus.; Bad Homburg/Höhe, Römerkastell Saalburg (Kopie)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>116</height><width>64</width><depth>28</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.8-3.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118862">(Civitas Alisinensium)</placeName></origPlace><origDate><origDate when-custom="0158" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">158 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1982"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2866777">Elztal</placeName><placeName type="findspot">Neckarburken, Numeruslager, bei, {Thermen 2}, Raum 4</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007860_1" sex="M"><persName><name type="nomen">Calpurnius</name><name type="cognomen">Agricola</name></persName></person><person xml:id="HD007860_2" sex="M"><persName><name type="nomen">Veranius</name><name type="cognomen">Saturninus</name></persName></person><person xml:id="HD007860_3" sex="M"><persName><name type="cognomen">Tertullus</name></persName></person><person xml:id="HD007860_4" sex="M"><persName><name type="cognomen">Sacerdos</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-06-02" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017885" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ea3bb5c5-6ff2-4794-abd1-3845575936f0/file/id/777496/file_version/name/small"/><graphic xml:id="F004476" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8ae9b837-6fd4-423f-b60b-5adfddeb9d97/file/id/765238/file_version/name/small"/><graphic xml:id="F040012" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/efe0dd4f-4128-447b-abab-213187695eed/file/id/800894/file_version/name/small"/><graphic xml:id="F040011" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/69d737b5-eeec-4df7-9356-431cad63177d/file/id/800893/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Fortunae Britto<lb break="no" n="2"/>nes Elantienses ba<lb break="no" n="3"/>lineum vetustate <lb n="4"/>conlabsum <note>sic</note> adiec<lb break="no" n="5"/>ta concha et cama<lb break="no" n="6"/>ris opere figlino res<lb break="no" n="7"/>titutis item vasis <lb n="8"/>novis positis iubente <lb n="9"/>Calpurnio Agricola <lb n="10"/><expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> curam <lb n="11"/>agente Veranio Sa<lb break="no" n="12"/>turnino |(centurione) <expan><abbr>leg</abbr><ex>ionis</ex></expan> VIII <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <lb n="13"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olverunt</ex></expan> Tertullo <lb n="14"/>et Sacerdote co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Auf der rechten Nebenseite Kanne, auf der linken Hahn, Opferaxt und Opfermesser.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0523.</bibl><bibl>M.P. Speidel, FBW 11, 1986, 309-311. - AE 1986.</bibl><bibl>E. Schallmayer, FBW 9, 1984, 451-464; Abb. 18 u. 19.</bibl><bibl>C. Schmidt Heidenreich, Le glaive et l'autel. Camps et piété militaires sous le Haut-Empire romain (Rennes 2013) 317, Nr. C206.</bibl><bibl>R. Cubaynes, Les hommes de la VIIIe légion Auguste (Autun 2018) 552-554, Nr. 168 A; Fotos.</bibl><bibl>PIR (2. Aufl.) S 1022.</bibl><bibl>PIR T 172.</bibl><bibl>PIR (2. Aufl.) T 231.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

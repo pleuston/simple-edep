@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Drobeta &amp;ndash; Drobeta - Turnu Severin (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005860</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005860</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/24">relief</objectType><dimensions unit="cm"><height>(62)</height><width>(77)</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207100">Drobeta</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/678817">Drobeta - Turnu Severin</placeName><placeName type="findspot">{Lager}</placeName><placeName type="region">Mehedinți</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005860_1"><persName ref="http://romans1by1.com/rpeople/7639"><name type="nomen">Antonius+?</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-02-04" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">In <expan><abbr>h</abbr><ex>onorem</ex></expan></supplied> <expan><abbr>d</abbr><ex>omus</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>ivinae</ex></expan></supplied> <lb n="2"/><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> Zb<supplied reason="lost" cert="low">elsurdo</supplied> <lb n="3"/>An<supplied reason="lost">tonius<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="4"/>C<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>Q<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Lesung unsicher; Textwiedergabe nach Tudor. Zwei möglicherweise aneinanderpassende Fragmente erhalten. (B): Das unmittelbare Aneinanderpassen im oberen Bereich nach Tudor und IDR 2 und eine Zuweisung an Iuppiter Zbelsurdos wird von Macrea bezweifelt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0770.</bibl><bibl>D. Tudor, Oltenia Romanǎ (Bucureşti 1968) 486, Nr. 24. - AE 1980.</bibl><bibl>CIL 03, 14216, 1.</bibl><bibl>AE 1950, 0019. (B)</bibl><bibl>AE 1950, 0178. (B)</bibl><bibl>IDR 2, 020; Foto u. Zeichnung.</bibl><bibl>M. Macrea, AISC 5, 1949, 338-343; fig. 1; fig. 2 (Zeichnung). (B). - AE 1950, 0019.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

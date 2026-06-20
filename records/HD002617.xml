@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Teate Marrucinorum &amp;ndash; Chieti (Samnium (Regio IV))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002617</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002617</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mus. Chieti</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(69)</height><width>(36)</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.2-1.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Samnium (Regio IV)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413333">Teate Marrucinorum</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1933"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Chieti</placeName><placeName type="findspot">Kirche S. Paolo, entro il primo tempietto</placeName><placeName type="region">Chieti</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002617_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Labeo</name></persName></person><person xml:id="HD002617_10" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Laverna</name></persName></person><person xml:id="HD002617_11" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Cerrinus</name></persName></person><person xml:id="HD002617_12" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Albus</name></persName></person><person xml:id="HD002617_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]us</name></persName></person><person xml:id="HD002617_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]us</name></persName></person><person xml:id="HD002617_4" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]ius</name></persName></person><person xml:id="HD002617_5" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]us</name></persName></person><person xml:id="HD002617_6" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]aus</name><name type="cognomen">Domnio+</name></persName></person><person xml:id="HD002617_7" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Dusmius+</name><name type="cognomen">Figulus+</name></persName></person><person xml:id="HD002617_8" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]us</name><name type="cognomen">Strabo</name></persName></person><person xml:id="HD002617_9" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Pomponius+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2004-07-19" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>f</abbr><ex>ilius</ex></expan> Labeo <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>us <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>us <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ius <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>us <expan><abbr>N</abbr><ex>umeri</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>aus <expan><abbr>Cn</abbr><ex>aei</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Domn<supplied reason="lost">io</supplied> <lb n="7"/><gap reason="lost" quantity="1" unit="character"/><supplied reason="lost">Du</supplied>smius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Figulu<supplied reason="lost">s</supplied> <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>us <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Strabo <lb n="9"/><gap reason="lost" quantity="1" unit="character"/><supplied reason="lost">Pom</supplied>ponius <expan><abbr>Sex</abbr><ex>ti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>N</abbr><ex>umeri</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Laverna <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Cerrinus <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>f</abbr><ex>ilius</ex></expan> Albus <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Namensverzeichnis vielleicht der Mitglieder eines collegium. Personen 2-5 und 9: wohl kein cognomen wegen Ordination der Zeilen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0336.</bibl><bibl>M. Buonocore, SupplIt 2 (Roma 1983) 179-180, Nr. 18; Foto. - AE 1984.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

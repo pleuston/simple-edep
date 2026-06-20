@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Acclamation from Pompeii &amp;ndash; Pompei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002959</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002959</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Regio IX, insula XI, in pila ad d. ostii</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><dimensions unit="cm"><height>65</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">21-10</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii</placeName></origPlace><origDate><origDate notBefore-custom="0075" notAfter-custom="0079" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">75 AD - 79 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170336">Pompei</placeName><placeName type="findspot">Regio IX, Insula XI, in pila ad d. ostii</placeName><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/73">acclamation</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002959_1" sex="M"><persName><name type="cognomen">Valens</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2005-01-18" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Valentem <lb n="2"/>filium <expan><abbr>aed</abbr><ex>ilem</ex></expan> <expan><abbr>o</abbr><ex>ro</ex></expan> <expan><abbr>v</abbr><ex>os</ex></expan> <expan><abbr>f</abbr><ex>aciatis</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Dipinto. (A): AE 1984: falscher Fundort. (B): CIL IV: Z. 2: : Silium aed. Ouf.; AE 1980: Z. 2: filium aed. Ouf. Es handelt sich um D. Lucretius Valens filius (s. CIL IV 7695. 7992). (C): AE 1980: D. Lucretius Valens filius ist der leibliche Sohn von D. Lucretius Satrius Valens. Y: nach Franklin Geburt des Valens Anfang der 50er Jahre.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0203. (A)</bibl><bibl>G. Forni, Vichiana 12, 1983, 188-189, Nr. 1. - AE 1984.</bibl><bibl>AE 1980, 0258. (BC)</bibl><bibl>J.L. Franklin, PP 34, 1979, 405-414. - AE 1980.</bibl><bibl>CIL 04, 07898. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

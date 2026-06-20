@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Belalis Maior &amp;ndash; Henchir el Faouar (Africa Proconsularis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004471</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004471</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Belalis Maior</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>(173)</height><width>(58)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Africa Proconsularis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/314900">Belalis Maior</placeName></origPlace><origDate><origDate notBefore-custom="0220" notAfter-custom="0221" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">220 AD - 221 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2464461">Tunisia</placeName><placeName type="modern">Henchir el Faouar</placeName><placeName type="findspot">Thermes du Forum, sekundär verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004471_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1762"><name type="praenomen">M.++</name><name type="nomen">Aurelius++</name><name type="cognomen">Antoninus++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-01" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F000419" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2193f913-6b35-49bb-b94c-067e80e330c6/file/id/761517/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> divi Mag<lb break="no" n="2"/>ni Antonini <del rend="erasure">filio</del> <lb n="3"/>divi Severi <del rend="erasure">nepoti</del> <lb n="4"/><del rend="erasure"><expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio Antonino</del> <lb n="5"/><del rend="erasure">Pio Felici <expan><abbr>Aug</abbr><ex>usto</ex></expan></del> <lb n="6"/><del rend="erasure">pontifici maximo</del> <lb n="7"/><del rend="erasure">tribuniciae <expan><abbr>pot</abbr><ex>estate</ex></expan> III<certainty locus="name" match="preceding-sibling::text()" cert="low"/></del> <lb n="8"/><del rend="erasure"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> III <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></del> <lb n="9"/>Belalitani maiores <lb n="10"/><expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>p</abbr><ex>ublica</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Datierung: 1.1.220 n. Chr. (Beginn des 3. Konsulats d. Elagabal) bis 9.12.221 n. Chr. (Ende der 4. trib. pot.). Z. 7 (Ende): statt III auch IIII möglich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0842.</bibl><bibl>A. Mahjoubi, Recherches d'histoire et d'archéologie à Henchir el-Faouar (Tunis 1978) 160-161, Nr. 6; fig. 56. - AE 1978.</bibl><bibl>A. Mahjoubi, CRAI 1960, 382-385; Foto. - AE 1961.1978.</bibl><bibl>AE 1961, 0079.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

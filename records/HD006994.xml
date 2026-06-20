@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Corinium Dobunnorum &amp;ndash; Cirencester (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006994</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006994</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cirencester, Corinium Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/70">Oolith</material><dimensions unit="cm"><height>121</height><width>65</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79549">Corinium Dobunnorum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1971"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2652995">Cirencester</placeName><placeName type="findspot">{School Lane}</placeName><placeName type="region">Gloucestershire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006994_1" sex="M"><persName><name type="nomen">Aurelius</name><name type="cognomen">Ingenuus*</name></persName></person><person xml:id="HD006994_2" sex="M"><persName><name type="nomen">Aurelius</name><name type="cognomen">Euticianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-23" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Aurelius <lb n="3"/>Ingennus <lb n="4"/><expan><abbr>vix</abbr><ex>it</ex></expan> annis VI <lb n="5"/>EX MESEX <lb n="6"/>Aurelius <lb n="7"/>Euticianus <lb n="8"/><expan><abbr>par</abbr><ex>ens</ex></expan> pos&amp;lt;s&amp;gt;u<expan><ex>i</ex><abbr>t</abbr></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): ex(acto) me(n)se X statt EX MESEX in Z. 5, aber dafür gibt es keine Parallele.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1975, 0534. (B)</bibl><bibl>R.P. Wright - M.W.C. Hassall, Britannia 3, 1972, 352, Nr. 2; pl. 29 A. - AE 1975.</bibl><bibl>RIB 3060; Foto u. Zeichnung.</bibl><bibl>M. Henig, Roman sculpture from the Cotswold region with Devon and Cornwall, CSIR Great Britain 1, 7 (Oxford 1993) 50, Nr. 144; Pl. 37, 144.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

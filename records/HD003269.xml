@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Buthrotum &amp;ndash; Ksamil, bei (Epirus)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003269</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003269</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Butrinti</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>91</height><width>76</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-5.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Epirus</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/530824">Buthrotum</placeName></origPlace><origDate><origDate notBefore-custom="-0016" notAfter-custom="0025" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">16 BC - 25 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/783754">Albania</placeName><placeName type="modern" ref="http://www.geonames.org/363394">Ksamil, bei</placeName><placeName type="findspot">spätantiker Turm, sekundär verwendet</placeName><placeName type="region">Qarku i Vlorës</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003269_1" sex="M"><persName><name type="praenomen">L.+</name><name type="nomen">Domitius+</name><name type="cognomen">Ahenobarbus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-02-04" who="Ehmig">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019978" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/06f6c488-00d9-4c96-91d3-765de4361e06/file/id/780050/file_version/name/small"/><graphic xml:id="F024729" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/365014c6-ddfa-4e1b-89c4-04c8cf549d12/file/id/785396/file_version/name/small"/><graphic xml:id="F024730" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c9efca6c-e4af-42c4-88a8-40289222052c/file/id/785397/file_version/name/small"/><graphic xml:id="F024731" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4a9c5028-79b1-436c-b4b1-2c6860b14b96/file/id/785398/file_version/name/small"/><graphic xml:id="F024949" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/afbcec22-3f6c-42c0-ac31-5b3e506c8013/file/id/785619/file_version/name/small"/><graphic xml:id="F002466" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ad2ae403-cd2f-40a6-ad15-e16fa03f8104/file/id/763539/file_version/name/small"/><graphic xml:id="F019977" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/675a584f-7089-41f8-a7be-484b13ac9580/file/id/780049/file_version/name/small"/><graphic xml:id="F019979" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f27a8602-67bf-4ab5-88bd-2734cccde3da/file/id/780051/file_version/name/small"/><graphic xml:id="F024728" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/354a033f-682f-44ad-bcb4-ee0bef206594/file/id/785395/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>L</abbr><ex>ucio</ex></expan> Do</supplied>mitio <expan><abbr>Cn</abbr><ex>aei</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Ahenob</abbr><ex>arbo</ex></expan> <lb n="2"/><expan><abbr>pontif</abbr><ex>ici</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <lb n="3"/><expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>patron</abbr><ex>o</ex></expan> colonei
+            </ab></div>
+            <div type="commentary">
+                <p>Gefunden zusammen mit an die hundert, vor allem griechischen Inschriften</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>P.R. Franke, Albanien im Altertum (Mainz 1983) 49; Abb. 96. – AE 1985.</bibl><bibl>H. Freis, ZPE 61, 1985, 224-226, Nr. 1; Taf. 9a. – AE 1985.</bibl><bibl>AE 1985, 0771.</bibl><bibl>P. Cabanes, RA 1986, 1, 123-124.</bibl><bibl>J. Bergemann, Die römische Kolonie von Butrint und die Romanisierung Griechenlands (München 1998) 47-48; Abb. 27.</bibl><bibl>É. Deniaux, in: G. Paci (Hrsg.), Epigrafia Romana in area adriatica. Actes de la IXe Rencontre Franco-Italienne sur l'Épigraphie du Monde Romain, Macerata 1995 (Macerata 1998) 46-47. - AE 1998.</bibl><bibl>É. Deniaux, in: P. Cabanes (Hrsg.), L'Illyrie méridionale et l'Épire dans l'antiquité 3. Actes du IIIe Colloque International de Chantilly, Chantilly 1996 (Paris 1999) 249-254. – AE 1999.</bibl><bibl>AE 1999, 1451.</bibl><bibl>É. Deniaux, in: S. Demougin - X. Loriot - P. Cosme - S. Lefebvre (Hrsg.), H.-G. Pflaum, un historien du XXe siècle. Actes du Colloque International, Paris 2004 (Genève 2006) 365, Nr. 2. – AE 2006.</bibl><bibl>AE 2006, 1353.</bibl><bibl>É. Deniaux, in: J. Dalaison (Hrsg.), Espaces et pouvoirs dans l’antiquité de l’Anatolie à la Gaule (Grenoble 2007) 295.</bibl><bibl>É. Deniaux, in: I.L. Hansen - R. Hodges (Hrsg.), Roman Butrint. An assessment (Oxford 2007) 34-35. – AE 2007.</bibl><bibl>AE 2007, 1289.</bibl><bibl>S. Anamali - H. Ceka - É. Deniaux, Corpus des inscriptions latines d’Albanie (Rome 2009) 196-197, Nr. 275; Foto.</bibl><bibl>I.L. Hansen, Hellenistic and Roman Butrint (London - Tirana 2009) 39; Foto.</bibl><bibl>AE 1998, 1233.</bibl><bibl>U. Ehmig - R. Haensch, Die lateinischen Inschriften aus Albanien (LIA) (Bonn 2012) 602-604, Nr. 253; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

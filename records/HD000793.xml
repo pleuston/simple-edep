@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Sala &amp;ndash; Chellah (Mauretania Tingitana)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000793</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000793</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Chellah, Forum, Curia Ulpia</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(99)</height><width>57</width><depth>143</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Mauretania Tingitana</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/866051">Sala</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1929"><placeName type="country" ref="https://www.geonames.org/2542007">Morocco</placeName><placeName type="modern" ref="http://www.geonames.org/2545977">Chellah</placeName><placeName type="findspot">Forum, Curia Ulpia</placeName><placeName type="region">Rabat</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000793_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Antonius*</name><name type="cognomen">Tranquillus Saturninus</name></persName></person><person xml:id="HD000793_2" sex="M"><persName><name type="nomen">Antonius*</name><name type="cognomen">Priscus</name></persName></person><person xml:id="HD000793_3" sex="W"><persName><name type="nomen">Claudia*</name><name type="cognomen">Caeciliana+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-27" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F039481" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/160414d2-8775-4367-bfd9-c697f2a47f3d/file/id/800360/file_version/name/small"/><graphic xml:id="F039482" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6ec61705-5788-4df7-9a8f-ff0eab959e87/file/id/800361/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uinto</ex></expan> <expan><abbr>Ant</abbr><ex>onio</ex></expan> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Cl</abbr><ex>audia</ex></expan> Tran<lb break="no" n="2"/>quillo <lb n="3"/>Saturnino <lb n="4"/><expan><abbr>n<am>n</am></abbr><ex>um</ex></expan> <expan><abbr>quinq</abbr><ex>ue</ex></expan> <lb n="5"/><expan><abbr>dec</abbr><ex>urioni</ex></expan> <expan><abbr>munic</abbr><ex>ipii</ex></expan> <lb n="6"/>Volubilitani <supplied reason="lost">e</supplied>t <lb n="7"/>Salenses <lb n="8"/><expan><abbr>Ant</abbr><ex>onius</ex></expan> Priscus <lb n="9"/>pater et <lb n="10"/><expan><abbr>Cl</abbr><ex>audia</ex></expan> Caecili<supplied reason="lost">ana</supplied> <lb n="11"/>mate<supplied reason="lost">r</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1931, IAM: Z. 6-7: Volubilitani / Salenses. Boube: 3 Interpretationsmöglichkeiten Z. 5-7: dec(urioni) munic(ipii), / Volubilitani [e]t / Salenses; dec(uriones) munic(ipii) / Volubilitani [e]t / Salenses [AE 1983 hier fälschlicherweise dec(urioni)...]; dec(uriones) munic(ipii Salensium) / Volubilitani [e]t / Salenses. Vorzuziehen ist die erste Variante; d. h. es handelt sich um einen einen 5-jährigen decurio des Municipiums Sala, der von den Bürgern von Volubilis und Sala und von seinen Eltern durch eine Reiterstatue geehrt wurde. Vater des Geehrten war vermutlich C. Antonius Priscus, der in einer Ehreninschrift für M. Sulpicius Felix (IAM 2, 307) aus dem Jahr 144 in der Liste der amici dieses Mannes genannt wird. (C): AE 1983: Name des in IAM 2, 307 Geehrten fälschlicherweise M. Sulpicius Rufus statt M. Sulpicius Felix.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1931, 0056. (B)</bibl><bibl>AE 1983, 0995. (BC)</bibl><bibl>AE 1991, 1748.</bibl><bibl>AE 1998, 1606.</bibl><bibl>IAM 2, 311. (B)</bibl><bibl>J. Boube, BAM 12, 1979/80, 83-97; pl. 2-4. - AE 1983.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

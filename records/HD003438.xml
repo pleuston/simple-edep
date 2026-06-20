@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Atina, bei &amp;ndash; Settignano (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003438</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003438</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/442481">Atina, bei</placeName></origPlace><origDate><origDate notBefore-custom="-0050" notAfter-custom="0014" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">50 BC - 14 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Settignano</placeName><placeName type="findspot">Contrada Settignano, frazione Bologna</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003438_1"><persName><name type="nomen">Plancia+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD003438_2"><persName><name type="praenomen">T.</name><name type="nomen">Plancius+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD003438_3"><persName><name type="nomen">Plancia</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD003438_4"><persName><name type="praenomen">T.</name><name type="nomen">Plancius</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD003438_5"><persName><name type="nomen">Plancia</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD003438_6"><persName><name type="nomen">Plancia</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD003438_7"><persName><name type="praenomen">M.</name><name type="nomen">Marrius+</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-12-21" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Planc<supplied reason="lost">ia <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>l</abbr><ex>iberta</ex></expan>? <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><expan><abbr>T</abbr><ex>itus</ex></expan> Planc<supplied reason="lost">ius <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan>? <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3"/>Plancia <expan><abbr>T</abbr><ex>iti</ex></expan> <supplied reason="lost"><expan><abbr>l</abbr><ex>iberta</ex></expan>? <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="4"/><expan><abbr>T</abbr><ex>itus</ex></expan> Plancius <supplied reason="lost"><expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan>? <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="5"/><expan><abbr>v</abbr><ex>ivit</ex></expan> Plancia <expan><abbr>T</abbr><ex>iti</ex></expan> <supplied reason="lost"><expan><abbr>l</abbr><ex>iberta</ex></expan>? <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="6"/><expan><abbr>v</abbr><ex>ivit</ex></expan> Plancia <expan><abbr>T</abbr><ex>iti</ex></expan> <supplied reason="lost"><expan><abbr>l</abbr><ex>iberta</ex></expan>? <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="7"/><expan><abbr>v</abbr><ex>ivit</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> Marr<supplied reason="lost">ius</supplied><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="8"/>ieis et <supplied reason="lost" cert="low">posteris</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0220.</bibl><bibl>H. Solin, Epigraphica 43, 1981, 90-92, Nr. 3; Foto. - AE 1981.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

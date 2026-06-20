@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Lucus Feroniae &amp;ndash; Lucus Feroniae (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008360</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008360</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><dimensions unit="cm"><height>144</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">15-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413184">Lucus Feroniae</placeName></origPlace><origDate><origDate notBefore-custom="0305" notAfter-custom="0306" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">305 AD - 306 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Lucus Feroniae</placeName><placeName type="findspot">via Tiberina - via Capenate, Kreuzung</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008360_1"><persName><name type="nomen">Flavius Valerius++</name><name type="cognomen">Constantius</name></persName></person><person xml:id="HD008360_2"><persName><name type="nomen">Galerius Valerius</name><name type="cognomen">Maximianus</name></persName></person><person xml:id="HD008360_3"><persName><name type="nomen">Flavius Valerius</name><name type="cognomen">Severus</name></persName></person><person xml:id="HD008360_4"><persName><name type="nomen">Galerius Valerius</name><name type="cognomen">Maximinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2003-08-11" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                XXI <lb n="2"/><expan><abbr>d<am>d</am></abbr><ex>ominis</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostris</ex></expan> Flavio V<del rend="erasure">aleri</del>o <lb n="3"/>Constantio et Galerio <lb n="4"/>Valerio Maximiano <lb n="5"/>invictis et cleme<lb break="no" n="6"/>ntissimis se<expan><ex>m</ex><abbr>per</abbr></expan> <lb n="7"/>Augustis <lb n="8"/>et <expan><abbr>d<am>d</am></abbr><ex>ominis</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostris</ex></expan> Flavio Va<lb break="no" n="9"/>lerio Severo et <lb n="10"/>Galerio Valerio <lb n="11"/>Maximino ac bea<lb break="no" n="12"/>tissimis Caesaribus
+            </ab></div>
+            <div type="commentary">
+                <p>Für den Meilenstein wurde eine Porticussäule vom Forum wiederverwendet. Er bezeichnete die Stelle, an der via Tiberina und via Capenate zusammentreffen. Datierung: 1.5.305 bis 25.7.306 n. Chr. (Zeit der 2. Tetrarchie). (B): AE 1988: Z. 2: V[aleri]o.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0559. (B)</bibl><bibl>L. Sensi, AFLPer 9, 1985/86, 295-296, Nr. 18; tav. 8,18 (Zeichnung). - AE 1988.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

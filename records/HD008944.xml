@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Grumentum &amp;ndash; Grumento (Bruttium et Lucania (Regio III))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008944</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008944</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Bruttium et Lucania (Regio III)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/442603">Grumentum</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Grumento</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1997-07-11" who="Scheithauer">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>C</abbr><ex>aio</ex></expan></supplied> Mulvio <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/><expan><abbr><supplied reason="lost">P</supplied>om</abbr><ex>ptina</ex></expan> Ofillio Rest<supplied reason="lost">i</supplied><lb break="no" n="3"/><supplied reason="lost">t</supplied>uto <expan><abbr>aed</abbr><ex>ili</ex></expan> <expan><abbr>pr</abbr><ex>aetori</ex></expan> <expan><abbr>IIvir</abbr><ex>o</ex></expan> <lb n="4"/><expan><abbr><supplied reason="lost">q</supplied>uin</abbr><ex>quennali</ex></expan> <expan><abbr>q</abbr><ex>uaestori</ex></expan> <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> I <lb n="5"/><expan><abbr><supplied reason="lost">M</supplied>orinor</abbr><ex>um</ex></expan> et Cersia<lb break="no" n="6"/><expan><abbr>cor</abbr><ex>um</ex></expan> <expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> II <lb n="7"/>adiutricis <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> prae<supplied reason="lost"><expan><abbr>f</abbr><ex>ecto</ex></expan></supplied> <lb n="8"/>alae I Vespasianae <lb n="9"/><expan><abbr>Dardanor</abbr><ex>um</ex></expan> <expan><abbr>praef</abbr><ex>ecto</ex></expan> <lb n="10"/><expan><abbr>fabr</abbr><ex>um</ex></expan> II <lb n="11"/><expan><abbr>Aug</abbr><ex>ustales</ex></expan> <expan><abbr>Herc</abbr><ex>ulani</ex></expan> patrono
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1972, 0148.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

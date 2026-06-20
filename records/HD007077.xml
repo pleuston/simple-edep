@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Iatrus &amp;ndash; Cenovo (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007077</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007077</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ruse, Ist. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(65)</height><width>(48)</width><depth>33</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-5.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216846">Iatrus</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729917">Cenovo</placeName><placeName type="findspot">Krivina, {Lager}</placeName><placeName type="region">Ruse</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007077_1" sex="M"><persName ref="http://romans1by1.com/rpeople/14769"><name type="praenomen">Ti.</name><name type="nomen">Claudios (= Claudius)</name><name type="cognomen">Zenodotos (= Zenodotus)</name></persName></person><person xml:id="HD007077_2" sex="M"><persName ref="http://romans1by1.com/rpeople/14770"><name type="nomen">Iunius</name><name type="cognomen">Pacatus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-02-09" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Invicto <lb n="2"/><expan><abbr>Ti</abbr><ex>berius</ex></expan> Claudios <note>sic</note> <lb n="3"/>Z&amp;lt;e=Η&amp;gt;nodotos <note>sic</note> <lb n="4"/>si&amp;lt;g=C&amp;gt;(nifer) |(centuriae) Iuni Pac<lb break="no" n="5"/>ati <expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>Ital</abbr><ex>icae</ex></expan> <lb n="6"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>Gefunden in Wiederverwendung für das spätantike Kastell. Zeilenlinien für die Beschriftung. Z. 3: Buchstabe E als griechisches Η geschrieben. Z. 6 (Ende): von M nur die linke obere Ecke erhalten; Kolendo: a(nimo). (B): Wachtel - Najdenova; AE 1985; Kolendo: Z. 4: sig(nifer).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0762. (B)</bibl><bibl>K. Wachtel - V. Najdenova, Arch(Sofia) 26, 1, 1984, 41, Nr. 3; obr. 3. (B) - AE 1985.</bibl><bibl>AE 1993, 1365.</bibl><bibl>J. Kolendo, ActaTorunHist 27, 1992, 101, Nr. 4. (B) - AE 1993.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

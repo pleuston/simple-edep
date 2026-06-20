@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bononia &amp;ndash; Bologna (Aemilia (Regio VIII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002039</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002039</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Soprintendenza Antichità</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>216</height><width>51</width><depth>28</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.4-3.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Aemilia (Regio VIII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109008">Bononia</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Bologna</placeName><placeName type="findspot">Due Madonne</placeName><placeName type="region">Bologna</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002039_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">R[-]el[-]cn(---) Apronus+</name></persName></person><person xml:id="HD002039_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Helvacius</name><name type="cognomen">Primus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-05-24" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> R<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>el<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><abbr>cn</abbr> <lb n="2"/>Apronu<supplied reason="lost">s v</supplied><expan><abbr>iv</abbr><ex>us</ex></expan> <lb n="3"/>fecit sibi <supplied reason="lost">e</supplied>t suis <lb n="4"/>a <expan><abbr>l</abbr><ex>imite</ex></expan> <expan><abbr>f</abbr><ex>undi</ex></expan> in <expan><abbr>f</abbr><ex>ronte</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> <expan><abbr>q</abbr><ex>uoquoversus</ex></expan> XV <lb n="5"/><expan><abbr>M</abbr><ex>arco</ex></expan> Helvacio <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>l</abbr><ex>iberto</ex></expan> <lb n="6"/>Primo <expan><abbr>sagar</abbr><ex>io</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1982, Mansuelli: Z. 1: V(ivus) P(ublius); Susini - Pincelli: Z. 1: A(uli) l(ibertus) R[---]; AE 1982, Mansuelli: Z. 2: Apro[nius?]; Susini - Pincelli: Z. 2: Apronu[s vivus]; AE 1982, Mansuelli: Z. 3: P[-]t[-]u[s] si[bi et] sui[s]; Susini - Pincelli: Z. 3: fecit sib[i] e[t] suis; AE 1982, Mansuelli: Z. 4: [---]LE INER[--]C[--]; Susini - Pincelli; Z. 4: a l(imite) f(undi) in f(rontem) p(edes) q(uadrati) X[-].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0359. (B)</bibl><bibl>G.A. Mansuelli, Epigraphica 3, 1941, 94-95, Nr. 9. (B) - AE 1982.</bibl><bibl>AE 1945, 0051.</bibl><bibl>G. Susini - R. Pincelli, Il lapidario (Bologna 1960) 167-168, Nr. 3. (B)</bibl><bibl>G. Susini, ASPR 7, 1955/56, 333-335, Nr.2.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

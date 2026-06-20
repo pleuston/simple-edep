@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Pozo Cañada, bei (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001813</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001813</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Pozo Cañada, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(61)</height><width>(50)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0213" notAfter-custom="0217" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">213 AD - 217 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1976"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Pozo Cañada, bei</placeName><placeName type="findspot">Estrecho de Pozo Cañada</placeName><placeName type="region">Albacete</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001813_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.+</name><name type="nomen">Aurelius+</name><name type="cognomen">Antoninus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-02-28" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan></supplied> <lb n="2"/><supplied reason="lost">divi Severi Pii filio</supplied> <lb n="3"/><supplied reason="lost">divi Marci Antonini nepoti</supplied> <lb n="4"/><supplied reason="lost">divi Antonini Pii pronepoti</supplied> <lb n="5"/><supplied reason="lost">divi Hadriani abnepoti</supplied> <lb n="6"/><supplied reason="lost">divi Traiani P</supplied>ar<supplied reason="lost">thici et</supplied> <lb n="7"/><supplied reason="lost">divi Nervae</supplied> ab<supplied reason="lost">nepoti</supplied> <lb n="8"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio An</supplied>ton<supplied reason="lost">ino</supplied> <lb n="9"/><supplied reason="lost">Pio Felici</supplied> Au<supplied reason="lost"><expan><abbr>g</abbr><ex>usto</ex></expan> Parthico</supplied> <lb n="10"/><supplied reason="lost"><expan><abbr>max</abbr><ex>imo</ex></expan> Britannico</supplied> <expan><abbr>max</abbr><ex>imo</ex></expan> <supplied reason="lost">Germa</supplied><lb break="no" n="11"/><supplied reason="lost">nico <expan><abbr>max</abbr><ex>imo</ex></expan> pon</supplied>tifi<supplied reason="lost">ci <expan><abbr>max</abbr><ex>imo</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Ursprünglicher Durchmesser: etwa 50 cm. Antonini, die ihre Ahnenreihe häufig bis zur 4. Generation nennen: Mark Aurel, Commodus, Caracalla. Datierung: in die Zeit Caracallas, weil er größere Aktivitäten als Marcus und Commodus im Straßenbau in Spanien entwickelte. Die Buchstaben AB in der 2. erhaltenen Zeile könnten zu Siegerbeinamen [Adi]ab[enicus] oder [Ar]ab[icus] ergänzt werden; wegen der Buchstaben TON in der nächsten Zeile, die wahrscheinlich auf [An]ton[ino] zu ergänzen sind, ist Ergänzung ab[nepos] wahrscheinlicher. Material: gelblich-weißer Kalkstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0622.</bibl><bibl>P. Sillières, in: Cronica del XV congreso arqueológico nacional. Lugo 1977 (Zaragoza 1979) 1078-1081, Nr. 1, 2; pl. 2 (Foto u. Zeichnung). - AE 1982.</bibl><bibl>J. Lostal Pros, Los miliarios de la provincia tarraconense (conventos tarraconense, cesaraugustano, cluniense y cartaginense) (Zaragoza 1992) 101-102, Nr. 99; fig. 55 (Zeichnung), lám. 44.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

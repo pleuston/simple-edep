@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Carthago Nova - Castulo, inter &amp;ndash; Cúllar de Baza, bei (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001828</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001828</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Pfarrkirche Cúllar de Baza, Chor</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(150)</height><width>62</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-10</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#">Carthago Nova - Castulo, inter</placeName></origPlace><origDate><origDate notBefore-custom="-0008" notAfter-custom="-0007" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">8 BC - 7 BC</origDate></origDate></origin>
+                        <provenance type="found" when="1973"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Cúllar de Baza, bei</placeName><placeName type="findspot">Rambla de Venta Quemada bei Kapelle Pulpite</placeName><placeName type="region">Granada</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001828_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1405"><name type="praenomen">Imp.</name><name type="nomen">Caesar*</name><name type="cognomen">Augustus+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-02-28" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> Divi <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/><expan><abbr>Au<supplied reason="lost">g</supplied>u</abbr><ex>stus</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> XI <lb n="3"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XVI <expan><abbr>imp</abbr><ex>erator</ex></expan> <lb n="4"/>XIIII <expan><abbr>pon</abbr><ex>tifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Meilenstein der via Augusta zwischen Carthago Nova und Castulo. Material: weiß-gräulicher Kalkstein. Datierung: trib.pot. XVI: 26.6.8 v.Chr. - 25.6.7 v.Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0627.</bibl><bibl>P. Sillières, in: Actas del I congreso di historia de Andalucia.</bibl><bibl>Diciembre de 1976 (Córdoba 1978) 355-362; pl. 1 u. 2; fig. 1 u. 2 (Zeichnungen). - AE 1982.</bibl><bibl>AE 1984, 0598.</bibl><bibl>J. Alvar, HAnt 9/10, 1979/80, 231-232, Nr. 1; Fotos. - AE 1984.</bibl><bibl>AE 1977, 0450.</bibl><bibl>J. Lostal Pros, Los miliarios de la provincia tarraconense (conventos tarraconense, cesaraugustano, cluniense y cartaginense) (Zaragoza 1992) 35, Nr. 27; fig. 19 (Zeichnung), lám. 17.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Apameia Bithyniae, bei &amp;ndash; Mudanya, bei (Asia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001191</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001191</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>İstanbul, Ark. Müz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>69</height><width>71</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.9-3.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Asia</placeName><placeName type="ancient" ref="#">Apameia Bithyniae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/298795">Turkey</placeName><placeName type="modern">Mudanya, bei</placeName><placeName type="findspot">Theater, orchestra</placeName><placeName type="region">Bursa</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001191_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Catilius+</name><name type="cognomen">Longus+</name></persName></person><person xml:id="HD001191_2" sex="M"><persName><name type="nomen">Claudius</name></persName></person><person xml:id="HD001191_3" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1419"><name type="cognomen">Vespasianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-06-09" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Ca</supplied>tilio <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Clu</abbr><ex>stumina</ex></expan> Lon<supplied reason="lost">g</supplied>o <lb n="2"/><expan><abbr><supplied reason="lost">t</supplied>rib</abbr><ex>uno</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> IIII <expan><abbr>Scythic</abbr><ex>ae</ex></expan> <lb n="3"/>beneficio divi Claudi <lb n="4"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> III <expan><abbr>sagittar</abbr><ex>iorum</ex></expan> <lb n="5"/>adlecto inter <expan><abbr>praetor</abbr><ex>ios</ex></expan> <lb n="6"/><supplied reason="lost">a</supplied>b <expan><abbr>Imp</abbr><ex>eratore</ex></expan> Vespasiano <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="7"/><expan><abbr><supplied reason="lost">l</supplied>eg</abbr><ex>ato</ex></expan> pro <expan><abbr>pr</abbr><ex>aetore</ex></expan> provinciae Asiae <lb n="8"/><expan><abbr><supplied reason="lost">c</supplied>ol</abbr><ex>onia</ex></expan> <expan><abbr>Iul</abbr><ex>ia</ex></expan> <expan><abbr>Conc</abbr><ex>ordia</ex></expan> Apamea <lb n="9"/>patrono suo
+            </ab></div>
+            <div type="commentary">
+                <p>W. Eck vermutet in dem Geehrten einen älteren Verwandten des traianisch-hadrianischen Senators L. Catilius Severus Iulianus Claudius Reginus. Z. 1: Statt [Ca]tilius auch [A]tilius möglich. (B): Z. 1 Ende: Lol[---]o, CIL; Z. 4 Ende: Sagitt., AE; Z. 7 Ende: Asia, CIL.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0860. (B)</bibl><bibl>W. Eck, ZPE 42, 1981, 242-244; Taf. 9a. - AE 1982.</bibl><bibl>CIL 03, 00335. (B)</bibl><bibl>CIL 03, 06991. (B)</bibl><bibl>CIL 03, 14188, 1. (B)</bibl><bibl>IK 32, 0002.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

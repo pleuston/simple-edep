@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tergeste &amp;ndash; Trieste (Venetia et Histria (Regio X))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004877</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004877</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Trieste, Civ. Mus. Stor. Arte Orto Lap.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Venetia et Histria (Regio X)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187578">Tergeste</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Trieste</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004877_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Seugonius</name><name type="cognomen">Agrippinus</name><name type="supernomen">Sperantius</name></persName></person><person xml:id="HD004877_2"><persName><name type="nomen">Sextilia</name><name type="cognomen">Maximilla</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-11-28" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F007135" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c09b78be-076e-4a45-9261-8e53da574111/file/id/767547/file_version/name/small"/><graphic xml:id="F012117" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/21109817-09d7-41a1-ada1-5fe078e8cbd3/file/id/771644/file_version/name/small"/><graphic xml:id="F030720" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/77c6b8c4-82dc-4e1c-8ec6-b55a6ee7c52e/file/id/791477/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>uci</ex></expan> Seugoni Agrippini <expan><abbr>evok</abbr><ex>ati</ex></expan> <lb n="2"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> <expan><abbr><supplied reason="lost">c</supplied>oh</abbr><ex>ortis</ex></expan> VIIII <expan><abbr>praet</abbr><ex>oriae</ex></expan> <lb n="3"/><expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>v</abbr><ex>indicis</ex></expan> <expan><abbr>S<supplied reason="lost">ev</supplied>erian</abbr><ex>ae</ex></expan> Sextilia <lb n="4"/>Maximilla heres <lb n="5"/><expan><abbr>itemq</abbr><ex>ue</ex></expan> uxor <expan><abbr>coniug</abbr><ex>i</ex></expan> <lb n="6"/>rarissimo <lb n="7"/>Speranti
+            </ab></div>
+            <div type="commentary">
+                <p>Speranti, nach Mommsen als Partizip von sperare zu verstehen ïdeo quod mortuus est eo ipso tempore, quo fieri debebat centurio&amp;quot;&amp;quot;, wird von Alföldy als signum erklärt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0355.</bibl><bibl>G. Alföldy, AttiMusTrieste 9, 1976/77, 64-66, Nr. 3; Abb. 5. - AE.</bibl><bibl>CIL 05, 00543.</bibl><bibl>InscrIt 10, 4, 0046.</bibl><bibl>ILS 2147a.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Caesena &amp;ndash; Cesena (Aemilia (Regio VIII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004871</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004871</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/147">tile</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><dimensions unit="cm"><height>29</height><width>45</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.1-0.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Aemilia (Regio VIII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/393397">Caesena</placeName></origPlace><origDate><origDate notBefore-custom="-0200" notAfter-custom="-0001" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">200 BC - 1 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Cesena</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004871_1"><persName><name type="praenomen">L.</name><name type="nomen">Numisius</name></persName></person><person xml:id="HD004871_2"><persName><name type="praenomen">C.</name><name type="nomen">Comicius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2004-09-16" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>uci</ex></expan> Numisi <lb n="2"/><expan><abbr>C</abbr><ex>ai</ex></expan> Comici <lb n="3"/><del rend="erasure">CC<gap reason="lost" extent="unknown" unit="character"/>R<certainty locus="name" match="preceding-sibling::text()" cert="low"/></del> <lb n="4"/><del rend="erasure">R<certainty locus="name" match="preceding-sibling::text()" cert="low"/>[<gap reason="lost" extent="unknown" unit="character"/></del>] <lb n="5"/>figulos <lb n="6"/>bonos
+            </ab></div>
+            <div type="commentary">
+                <p>Inschrift als Graffito. Datierung aufgrund der Paläographie nach Susini. (B): AE 1978: Kein Hinweis auf die eradierten Zeilen 3 u. 4.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0334. (B)</bibl><bibl>M. Malavolta, ArchClass 29, 1977; tav. 49. - AE 1978.</bibl><bibl>G. Susini, StudRomagn 16, 1965, 3-9; fig. 1. - AE 1978.</bibl><bibl>AE 1991, 0701.</bibl><bibl>F. Cenerini, SupplIt 8 (Roma 1991) 107-108, Nr. 9; Foto u. Zeichnung. - AE 1991.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Ostia, bei &amp;ndash; Tor dei Cenci (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007600</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007600</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(46)</height><width>(23)</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/422995">Ostia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0211" notAfter-custom="0213" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">211 AD - 213 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Tor dei Cenci</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007600_1"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.+</name><name type="nomen">Aurelius+</name><name type="cognomen">Antoninus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2006-09-25" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F030157" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ffab5b08-dfdb-4321-952a-956ee8c76c85/file/id/790914/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> Aurelius</supplied> <lb n="2"/><supplied reason="lost">Antoninu</supplied>s Piu<supplied reason="lost">s Felix <expan><abbr>Aug</abbr><ex>ustus</ex></expan></supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>Parth</abbr><ex>icus</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan></supplied> Brita<supplied reason="lost"><expan><abbr>nn</abbr><ex>icus</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan></supplied> <lb n="4"/><expan><abbr><supplied reason="lost">ponti</supplied>f</abbr><ex>ex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <lb n="5"/>t<supplied reason="lost" cert="low">rib(unicia) pot(estate) XIV</supplied> <lb n="6"/><supplied reason="lost" cert="low">co(n)s(ul) III</supplied> <expan><abbr>imp</abbr><ex>erator</ex></expan> II <supplied reason="lost"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Horster: Z. 4/5: unterschiedliche Ergänzungen auf den Seiten 93 und 275; Buonocore, AE 1979: abweichende Textwiedergabe. Datierung nach G. Alföldy; als Iterationsziffern sind noch trib. pot. XV oder XVI und cos. IIII möglich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0096.</bibl><bibl>M. Buonocore, in: MGR 6 (Roma 1978) 435-437; Foto. (B) - AE 1979.</bibl><bibl>M. Horster, Bauinschriften römischer Kaiser (Stuttgart 2001) 93. 275- 276, Nr. Ia 11,10. (B) - AE 2002.</bibl><bibl>G. Alföldy, Epigraphica 64, 2002, 124-125, Nr. 14. - AE 2002.</bibl><bibl>AE 2002, 0282.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

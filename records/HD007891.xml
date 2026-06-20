@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Aquileia, bei &amp;ndash; Torviscosa (Venetia et Histria (Regio X))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007891</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007891</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Venetia et Histria (Regio X)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118569">Aquileia, bei</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Torviscosa</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1997-06-30" who="Scheithauer">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan></supplied> <lb n="2"/><del rend="erasure">[<expan><abbr>C</abbr><ex>aius</ex></expan> Iulius</del>] <lb n="3"/><del rend="erasure">[Verus</del>] <lb n="4"/><del rend="erasure">[Maximinus <expan><abbr>P</abbr><ex>ius</ex></expan> <expan><abbr>F</abbr><ex>elix</ex></expan></del>] <lb n="5"/><supplied reason="lost">Invictus <expan><abbr>Aug</abbr><ex>ustus</ex></expan></supplied> <lb n="6"/><supplied reason="lost">A</supplied>quile<supplied reason="lost">iensium</supplied> <lb n="7"/>restit<supplied reason="lost">utor</supplied> <lb n="8"/><supplied reason="lost">et</supplied> conditor <lb n="9"/>viam quoque <lb n="10"/>Anniam a porta <lb n="11"/>usque ad <lb n="12"/>miliarium <lb n="13"/>septimum per <lb n="14"/>tiron<supplied reason="lost">es</supplied> <lb n="15"/><expan><abbr><supplied reason="lost">iu</supplied>ventut</abbr><ex>is</ex></expan> novae <lb n="16"/><supplied reason="lost">Ital</supplied>icae <supplied reason="lost">sua</supplied>e <lb n="17"/><supplied reason="lost">d</supplied>ilectus <supplied reason="lost">pos</supplied>terio<lb break="no" n="18"/><supplied reason="lost">ris longi temporis</supplied> <lb n="19"/><supplied reason="lost">labe conruptam</supplied> <lb n="20"/><supplied reason="lost">munivit ac</supplied> <lb n="21"/><supplied reason="lost">restituit</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0257.</bibl><bibl>AE 1990, 0384.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

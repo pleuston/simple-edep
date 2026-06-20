@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000616</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000616</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Port Sunlight, Lady Lever Art Gallery</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>91</height><width>56</width><depth>48</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.2-1.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0100" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">100 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">S. Maria Maggiore, Kirche</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000616_1" sex="M"><persName><name type="cognomen">Donatus</name></persName></person><person xml:id="HD000616_2" sex="W"><persName><name type="cognomen">Pedana</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-12-21" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ingratae Venaeri <note>sic</note> <lb n="2"/>spondebam munera <lb n="3"/>supplex erepta co<expan><ex>n</ex><abbr>iux</abbr></expan> <lb n="4"/>virginitate tibi Persepho<lb break="no" n="5"/>ne votis invidit pallida nos<lb break="no" n="6"/>tris et praematuro funae<lb break="no" n="7"/>re <note>sic</note> te rapuit suppremum <note>sic</note> <lb n="8"/>versus munus Donatus <lb n="9"/>et aram et gratam scal<lb break="no" n="10"/>psit docta Pedana <lb n="11"/>chelyn me nunc torquet <lb n="12"/>amor tibi tristis cura <lb n="13"/>recessit Letihaeoque <note>sic</note> <lb n="14"/>iaces condita sarcophago
+            </ab></div>
+            <div type="commentary">
+                <p>Material: Der Marmor stammt möglicherweise aus Griechenland. Ca. 1750 verschwand der Altar aus Rom, um 1850 tauchte er in England auf. In der Neuzeit teilweise restauriert (Maße: restaurierter Zustand). Altar vermutlich aus julisch-claudischer Zeit; Inschrift aus dem frühen 2. Jh. n. Chr. Datierung: AE 1983: 1. Jh. n. Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0026.</bibl><bibl>G.B. Waywell, AJA 86, 1982, 238-242; pl. 36,1-3; pl. 37, 4 u. 37, 5 (Zeichnungen). - AE 1983.</bibl><bibl>CIL 06, 17050.</bibl><bibl>CLE 1301.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

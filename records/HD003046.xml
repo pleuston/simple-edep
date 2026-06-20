@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Pompeii, bei &amp;ndash; Pompei, bei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003046</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003046</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/123">Holz</material><dimensions unit="cm"><height>11</height><width>15</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii, bei</placeName></origPlace><origDate><origDate when-custom="0037" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">37 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1959"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170336">Pompei, bei</placeName><placeName type="findspot">Murécine</placeName><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003046_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1409"><name type="praenomen">C.</name><name type="nomen">Caesar</name><name type="cognomen">Germanicus Augustus</name></persName></person><person xml:id="HD003046_10" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Fal(---)</name><name type="cognomen">Iulius*</name></persName></person><person xml:id="HD003046_11" sex="M"><persName><name type="cognomen">[---]us</name></persName></person><person xml:id="HD003046_12" sex="M"><persName><name type="cognomen">[---]nus</name></persName></person><person xml:id="HD003046_13" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Senecio</name></persName></person><person xml:id="HD003046_14" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD003046_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1411"><name type="praenomen">Ti.</name><name type="nomen">Claudius</name><name type="cognomen">Nero Germanicus</name></persName></person><person xml:id="HD003046_3" sex="M"><persName><name type="cognomen">Diognetus</name></persName></person><person xml:id="HD003046_4" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Novius</name><name type="cognomen">Cypaerus</name></persName></person><person xml:id="HD003046_5" sex="M"><persName><name type="cognomen">Hesicus</name></persName></person><person xml:id="HD003046_6" sex="M"><persName><name type="cognomen">Euenus</name></persName></person><person xml:id="HD003046_7" sex="M"><persName ref="https://www.wikidata.org/wiki/Q319410"><name type="praenomen">Ti.</name><name type="nomen">Iulius</name><name type="cognomen">Augustus</name></persName></person><person xml:id="HD003046_8" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Novius</name><name type="cognomen">Eunus</name></persName></person><person xml:id="HD003046_9" sex="M"><persName><name type="cognomen">A[---]cuus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-04" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Caesare Germanico Augusto <lb n="2"/><expan><abbr>Ti</abbr><ex>berio</ex></expan> Claudio Nerone Germanico co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="3"/>VI <expan><abbr>Non</abbr><ex>as</ex></expan> Iulias <lb n="4"/>Diognetus <expan><abbr>C</abbr><ex>ai</ex></expan> Novi Cypaeri <expan><abbr>ser</abbr><ex>vus</ex></expan> <lb n="5"/>scripsi ius<expan><ex>s</ex><abbr>u</abbr></expan> Cypaeri domini <lb n="6"/>mei <expan><abbr>cora</abbr><ex>m</ex></expan> ipsum me locasse <lb n="7"/>Hesico <expan><abbr>Ti</abbr><ex>beri</ex></expan> Iulii Augusti <expan><abbr>libert</abbr><ex>i</ex></expan> <lb n="8"/><surplus>PR</surplus> Eueni <expan><abbr>ser</abbr><ex>vo</ex></expan> horreum XII <lb n="9"/>in horreis Bassianis publicis Puteolano<lb break="no" n="10"/>rum medis in quo repositu<supplied reason="lost">m</supplied> <lb n="11"/>est triticum <expan><abbr>Alexandrini</abbr><ex>um</ex></expan> <lb n="12"/>quod pignori accepit </ab></div><div n="2" type="textpart"><ab><lb n="1"/> hodie ab <expan><abbr>C</abbr><ex>aio</ex></expan> Novio Euno item in isdem horreis <lb n="2"/>imis intercolumnia ube <note>sic</note> <lb n="3"/>repositos habet saccos legu<lb break="no" n="4"/>menum <note>sic</note> ducentos quos <lb n="5"/>pignori accepit ab aeodem <note>sic</note> <lb n="6"/>Eunum <lb n="7"/>ex <expan><abbr>K</abbr><ex>alendis</ex></expan> Iulis in menses singulos <lb n="8"/>sestertis singulis nummis <lb n="9"/><expan><abbr>act</abbr><ex>um</ex></expan> Puteolis </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>ai</ex></expan> Novii </ab></div><div n="4" type="textpart"><ab><lb n="1"/> Cypaeri <lb n="2"/>A<gap reason="lost" extent="unknown" unit="character"/>cui </ab></div><div n="5" type="textpart"><ab><lb n="1"/> <expan><abbr>A</abbr><ex>uli</ex></expan> <abbr>Fal</abbr> Iuli <lb n="2"/>Diogneti </ab></div><div n="6" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>ai</ex></expan> Novii Cypaeri <expan><abbr>ser</abbr><ex>vi</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>ai</ex></expan> Novii </ab></div><div n="7" type="textpart"><ab><lb n="1"/> Cypaeri <expan><abbr>l</abbr><ex>iberti</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>i <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ni </ab></div><div n="8" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>ai</ex></expan> Iuli Senecionis <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="9" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>ai</ex></expan> <supplied reason="lost">N</supplied>ovii Cipaeri <note>sic</note> <expan><abbr>ser</abbr><ex>vi</ex></expan> </ab></div><div n="10" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>aio</ex></expan> Caes<supplied reason="lost">a</supplied>re Germ<supplied reason="lost">an</supplied>ico Augusto <lb n="2"/><expan><abbr>Ti</abbr><ex>berio</ex></expan> Claudio Nerone Germanico <expan><abbr>c<supplied reason="lost">o</supplied></abbr><ex>n</ex>s</expan>(ulibus) <lb n="3"/>sextum Nonas Iulias Diognetus <expan><abbr>C</abbr><ex>ai</ex></expan> Novi <lb n="4"/>Cypaeri servus scripsi iussu Cypaeri domini <lb n="5"/>mei coram ipso <supplied reason="lost">me</supplied> locasse Hesycho <lb n="6"/><expan><abbr>Ti</abbr><ex>beri</ex></expan> Iuli Augus<supplied reason="lost">t</supplied>i <expan><abbr>l</abbr><ex>iberti</ex></expan> Eueni <expan><abbr>ser</abbr><ex>vo</ex></expan> horreum <lb n="7"/>duodecimum in horreis Bassianis publicis <lb n="8"/>Puteolanorum med<supplied reason="lost">i</supplied>s in quo repositum <lb n="9"/>est t<supplied reason="lost">r</supplied>iticum Alexandrinum quod pignori <lb n="10"/>accepit hodie a <expan><abbr>C</abbr><ex>aio</ex></expan> Novio Euno item <lb n="11"/>in isdem horreis imis inter<lb break="no" n="12"/>columnia ubi reposit<supplied reason="lost">os</supplied> habet saccos <lb n="13"/><supplied reason="lost">l</supplied>eguminum ducen<supplied reason="lost">to</supplied>s quos pignori accepit ab <lb n="14"/>eodem Euno ex <expan><abbr>Kal</abbr><ex>endis</ex></expan> Iulis in men<supplied reason="lost">ses</supplied> <lb n="15"/>singulos sestertiis singulis <supplied reason="lost">n</supplied>ummis <expan><abbr>act</abbr><ex>um</ex></expan> P<supplied reason="lost">u</supplied>teolis </ab></div><div n="11" type="textpart"><ab><lb n="1"/> chir<supplied reason="lost">ograph</supplied>um <supplied reason="lost">tri</supplied></ab></div><div n="12" type="textpart"><ab><lb n="1"/>tic<supplied reason="lost">i</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">locatio</supplied>nis hor</ab></div><div n="13" type="textpart"><ab><lb n="1"/>rei XII in Bassianis <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="14" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/> a <expan><abbr>C</abbr><ex>aio</ex></expan> Novio Euno
+            </ab></div></div>
+            <div type="commentary">
+                <p>Tabula Pompeiana 7. Maße von tab. 3, pag. 5: 12 x 14,5 cm. Signatores nach AE 1973, 143 angegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0239.</bibl><bibl>F. Serrao, in: Sodalitas. Scritti in onore di Antonio Guarino 7 (Napoli 1984) 3605-3618. - AE 1984.</bibl><bibl>AE 1969/70, 0100. (B)</bibl><bibl>C. Giordano, RAAN 41, 1966, 115-118, Nr. 7; fig. 9-11 (Zeichnungen) - (B) - AE 1969/70.</bibl><bibl>AE 1971, 0091.</bibl><bibl>L. Bove, RAAN 44, 1969, 43-49; fig. 8-10. - AE 1971.</bibl><bibl>AE 1973, 0143. (B)</bibl><bibl>C. Giordano, RAAN 45, 1970, 229-231; tav. 21-24. (B) - AE 1973.</bibl><bibl>AE 1998, 0355.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

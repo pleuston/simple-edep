@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Centelles (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000326</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000326</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Vic, Mus. Episcopal</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(58)</height><width>48</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">13.4-11.1</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0282" notAfter-custom="0285" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">282 AD - 285 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1842"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3125442">Centelles</placeName><placeName type="findspot">Molino de Les Canes</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000326_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q187004"><name type="praenomen">M.+</name><name type="nomen">Aurelius+*</name><name type="cognomen">Karinus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-03-13" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> C<expan><ex>a</ex><abbr>es</abbr><ex>ari</ex></expan> <lb n="2"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arco</ex></expan> A</supplied><expan><abbr>ur</abbr><ex>elio</ex></expan> Kar<supplied reason="lost" cert="low">ino</supplied> <lb n="3"/><expan><abbr>P</abbr><ex>io</ex></expan> Felici <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 2/3: statt Ka/[rino auch Ka/[o möglich. (B): CIL 02, 06345a, ILER: Z. 2/3: Aur. Kar/o; CIL 02, 06345a, ILER, IRC 1: Z. 3: fehlt. AE 1983: Z.3: felici. Datierung: Regierungszeit des Karus oder Karinus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0624. (B)</bibl><bibl>G. Fabre - M. Mayer - I. Rodà, Ausa 10, 1982, 307, Nr. 7; lám. 9. - AE AE 1983.</bibl><bibl>CIL 02, 06345a. (B)</bibl><bibl>ILER 1990. (B)</bibl><bibl>I. Rodà i de Llanza, Catàleg de l'epigrafia i de l'escultura clàssiques del Museu Episcopal de Vic (Vic 1989) 38, Nr. 18; Foto.</bibl><bibl>IRC 1, 169; pl. 59, 169 u. pl. 62. (B)</bibl><bibl>J. Lostal Pros, Los miliarios de la provincia tarraconense (conventos tarraconense, cesaraugustano, cluniense y cartaginense) (Zaragoza 1992) 144-145, Nr. 140; fig. 79 (Zeichnung), lám. 80; fig. 179 (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

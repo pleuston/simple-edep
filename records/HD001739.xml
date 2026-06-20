@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001739</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001739</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Rip. X</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>38</height><width>(75)</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="-0005" notAfter-custom="-0002" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">5 BC - 2 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Theater des Marcellus</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001739_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Caesar+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD001739_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1405"><name type="cognomen">Augustus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-06-09" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010382" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/412be7e1-5dbb-48b1-910a-d6eff1647348/file/id/769902/file_version/name/small"/><graphic xml:id="F026130" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f43f808b-85d5-4074-a5e6-4d1d8e01d35b/file/id/786882/file_version/name/small"/><graphic xml:id="F042904" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c691adf4-c598-4fb0-8c1e-2eb389522738/file/id/804010/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/> Caesari Augusti filio Divi I</supplied>ulii nepoti <lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>desig</abbr><ex>nato</ex></expan> principi</supplied> iuventutis a se <lb n="3"/><supplied reason="lost">appellato post deposita p</supplied>ueritiae insignia <lb n="4"/><supplied reason="lost">equester ordo pe</supplied>rmissu senatus
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Malavolta - Re - Vasori, AE 1973, Vassileiou: Z. 2: [i]uventutis.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0030.</bibl><bibl>A. Vassileiou, in: Hommages à Lucien Lerat 2 (Paris 1984) 829-839. - AE 1984.</bibl><bibl>AE 1973, 0034. (B)</bibl><bibl>M. Malavolta - R. Re - O. Vasori, RAL 28, 1973, 129, Nr. 1; tav. 1,1. (B) - AE 1973.</bibl><bibl>CIL 06, 40326.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

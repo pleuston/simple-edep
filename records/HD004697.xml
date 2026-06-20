@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ferentium &amp;ndash; Ferento (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004697</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004697</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><dimensions unit="cm"><width>219</width><depth>70</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413132">Ferentium</placeName></origPlace><origDate><origDate notBefore-custom="-0023" notAfter-custom="0030" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">23 BC - 30 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Ferento</placeName><placeName type="findspot">Grab der Salvii</placeName><placeName type="region">Viterbo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004697_1" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Salvius</name><name type="cognomen">Crispinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-04-13" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F015952" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f2c83909-f956-41ae-9e86-bd4d95409771/file/id/775530/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>A</abbr><ex>ulus</ex></expan> Salvius <expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>n</abbr><ex>epos</ex></expan> Crispinus <lb n="2"/>an<expan><ex>n</ex><abbr>orum</abbr></expan> LI he<supplied reason="lost">ic</supplied> <lb n="3"/>conditus est <lb n="4"/>gessit Ferenteis <lb n="5"/><expan><abbr>IIIIvir</abbr><ex>atum</ex></expan> quater <lb n="6"/>sum<expan><ex>m</ex><abbr>o</abbr></expan> supremo <lb n="7"/>die cena et viscera <lb n="8"/>municipibus
+            </ab></div></div>
+            <div type="commentary">
+                <p>Die Inschrift befindet sich auf der rechten Schmalseite. Z. 1 steht auf dem Deckel, Z. 2-9 auf dem Kasten des Sarkophags. Reste roter Farbe in den Buchstaben erhalten. (B): AE 1963: Z. 3: annorum L.l. hi(c); Z. 3/4: Zeilennfall nicht angegeben; CIL I, Zei, AE 1922: Z. 3 (Ende): hic; ILLRP, Degrassi, AE 1963: Z. 3 (Ende): hi&amp;lt;c&amp;gt;; CIL I, ILLRP, Zei, AE 1922, Degrassi, AE 1963: Z. 5: Ferentei; CIL I, Zei, AE 1922, Degrassi: Z. 8: die CENAEIVIC VTA; ILLRP, AE 1963: Z. 8: die oena ei vixit a; CIL I, Zei, AE 1922: Z. 9: murocieisus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0305.</bibl><bibl>L. Gasperini, in: L. Gasperini, ArchClass 29, 1977, 114-127; tav. 30; fig. 1 (Zeichnung). - AE 1978.</bibl><bibl>AE 1922, 0090. (B)</bibl><bibl>C. Zei, NSA 1921, 220, Nr. 2-3. (B) - AE 1922.</bibl><bibl>ILLRP 0588. (B)</bibl><bibl>ILLRP, Imagines 172-173, Nr. 237a u. b.</bibl><bibl>AE 1963, 0033. (B)</bibl><bibl>A. Degrassi, RPAA 34, 1961/62, 65-70; fig. 5. - AE 1963.</bibl><bibl>CIL 01 (2. Aufl.) 02, 02634.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

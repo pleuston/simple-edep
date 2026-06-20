@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Sarsina &amp;ndash; Sarsina (Umbria (Regio VI))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004000</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004000</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Umbria (Regio VI)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413306">Sarsina</placeName></origPlace><origDate><origDate notBefore-custom="0014" notAfter-custom="0068" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">14 AD - 68 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Sarsina</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004000_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]us</name><name type="cognomen">[---]llus</name></persName></person><person xml:id="HD004000_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]r?</name><name type="cognomen">Nepotianus+?</name></persName></person><person xml:id="HD004000_3" sex="W"><persName><name type="cognomen">Rufa</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-11" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>us <expan><abbr>C</abbr><ex>ai</ex></expan> fi<supplied reason="lost"><expan><abbr>l</abbr><ex>ius</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>llus <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">fla</supplied><lb break="no" n="3"/><supplied reason="lost">m</supplied>en Augu<supplied reason="lost"><expan><abbr>st</abbr><ex>alis</ex></expan></supplied> <lb n="4"/><expan><abbr>q</abbr><ex>uaestor</ex></expan> <expan><abbr>pontif</abbr><ex>ex</ex></expan> C<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>IIvir <expan><abbr>it</abbr><ex>erum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>r Nepot<supplied reason="lost">ianus</supplied> <lb n="7"/>Rufa <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Fundumstände des Steins unbekannt. Der Stein weist Spuren von sekundärer Verwendung auf. [---]llus: [Marce]llus; [Mete]llus; [Lucu]llus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0417.</bibl><bibl>G. Susini, RAL 10, 1955, 254-256, Nr. 11; fig. 10. - AE 1980.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Anazarbus, bei &amp;ndash; Dilekkaya, bei (Cilicia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004498</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004498</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dilekkaya, Museum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>(54)</height><width>50</width><depth>44</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-1.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Cilicia</placeName><placeName type="ancient" ref="#">Anazarbus, bei</placeName></origPlace><origDate><origDate notBefore-custom="0197" notAfter-custom="0218" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">197 AD - 218 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/298795">Turkey</placeName><placeName type="modern">Dilekkaya, bei</placeName><placeName type="findspot">Yesildam Köyü, Nekropole</placeName><placeName type="region">Adana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004498_1" sex="M"><persName><name type="nomen">Flaccius* / Φλάκιος</name><name type="cognomen">Septiminus / Σεπτίμινος</name></persName></person><person xml:id="HD004498_2" sex="M"><persName><name type="nomen">Iulius* / Ἰούλιος*</name><name type="cognomen">Simplex+ / Σίμπλιξ</name></persName></person><person xml:id="HD004498_3" sex="M"><persName><name type="nomen">Audacius+ / Αὐδάκιος</name><name type="cognomen">Victor / Οὐίκτωρ</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-12-10" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020581" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5b625ec9-0d18-423d-9a7d-1162fb1c747a/file/id/780654/file_version/name/small"/><graphic xml:id="F020583" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bf74332a-d64f-4f1d-86fe-a2dbec84a5d6/file/id/780656/file_version/name/small"/><graphic xml:id="F020585" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6257727b-13b9-45ed-aa6f-1cea4650f0e3/file/id/780658/file_version/name/small"/><graphic xml:id="F020586" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0949bb66-6ee5-4797-8095-b6de69f7ae96/file/id/780659/file_version/name/small"/><graphic xml:id="F020582" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b9a260cb-baef-4e7b-b342-91e6e18f70b5/file/id/780655/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>o</abbr><ex>mnibus</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Flac</abbr><ex>cius</ex></expan> Septiminus <lb n="2"/><expan><abbr><supplied reason="lost">e</supplied>q</abbr><ex>ues</ex></expan> <expan><abbr>sing</abbr><ex>ularis</ex></expan> <expan><abbr>dom</abbr><ex>inorum</ex></expan> <expan><abbr>n</abbr><ex>ostrorum</ex></expan> <expan><abbr>Imp</abbr><ex>eratorum</ex></expan> <lb n="3"/><expan><abbr><supplied reason="lost">mi</supplied>lit</abbr><ex>avit</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XIII vixit <lb n="4"/><supplied reason="lost"><expan><abbr>ann</abbr><ex>os</ex></expan> XXX cura</supplied>verun<supplied reason="lost">t</supplied> <lb n="5"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Sim<supplied reason="lost">plex <expan><abbr>dup</abbr><ex>licarius</ex></expan> et Audacius</supplied> <lb n="6"/>Victor hered<supplied reason="lost">es eius</supplied> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Φλάκιος Σεπτίμινος ἱππεὺς ν(ουμέρου) <lb n="2"/>Βατάων τῶν κυρίων Αὐτοκρα<lb break="no" n="3"/>τόρων ἐστρατεύσατο ἔτη ιγʹ ἔζησεν <lb n="4"/>ἔτη λʹ· ἐφρόντισαν Ἰούλι(ος) Σίμπλιξ διπλο<supplied reason="lost">κ</supplied>(άριος) <lb n="5"/>καὶ Αὐδάκιος Οὐίκτωρ οἱ κληρονόμοι αὐτοῦ
+            </ab></div></div>
+            <div type="commentary">
+                <p>Es handelt sich möglicherweise um einen sekundär verwendeten Stein. Datierung: 197-202 oder 217-218. Die angegebenen Maße beziehen sich auf das obere Fragment (a). Maße des unteren Fragments (b): (53) x 50 x 47cm. Dekor: zwischen Text 2 Z. 1 und 2: Totenmahlszene. Text 1 befindet sich auf der Bekrönung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0812.</bibl><bibl>G. Dagron - J. Marcillet-Jaubert, Belleten 42, 1978, 384-385, Nr. 9. - AE 1978.</bibl><bibl>AE 1991, 1550.</bibl><bibl>M.H. Sayar, EA 17, 1991, 21-25, Nr. 1; Taf. 2. - AE 1991.</bibl><bibl>SEG 41, 1402.</bibl><bibl>IK 56, 0063; Taf. 22 u. 31.</bibl><bibl>M.P. Speidel, Die Denkmäler der Kaiserreiter. Equites singulares Augusti (Köln - Bonn 1994) 369-371, Nr. 688; Foto</bibl></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

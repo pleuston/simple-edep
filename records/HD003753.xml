@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Tingi &amp;ndash; Tanger (Mauretania Tingitana)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003753</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003753</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Mauretania Tingitana</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/275736">Tingi</placeName></origPlace><origDate><origDate when-custom="0051" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2542007">Morocco</placeName><placeName type="modern">Tanger</placeName><placeName type="findspot">Socco, hinter, altes Kino Olympia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003753_1"><persName><name type="praenomen">Ti.+</name><name type="nomen">Claudius+* Caesar+*</name><name type="cognomen">Augustus+* Germanicus+</name></persName></person><person xml:id="HD003753_2"><persName><name type="praenomen">C.</name><name type="nomen">Rutilius</name><name type="cognomen">Secundus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1991-10-01" who="Scheithauer">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Ti</abbr><ex>berius</ex></expan> <expan><abbr>Claud</abbr><ex>ius</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Ge</supplied>rmanicus <lb n="2"/><supplied reason="lost"><expan><abbr>pontif</abbr><ex>ex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> X <expan><abbr>imp</abbr><ex>erator</ex></expan> X</supplied>XI <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>cens</abbr><ex>or</ex></expan> co<expan><ex>n</ex><abbr>sul</abbr></expan> V <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>T <expan><abbr>C</abbr><ex>aius</ex></expan> Rutilius Secundus <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">posui</supplied>t idemque dedicavit
+            </ab></div>
+            <div type="commentary">
+                <p>Y: Datierung zwischen 1. und 25.1. 51. (B): Z. 1: civi amicus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0993.</bibl><bibl>M. Christol - S. Demougin, ZPE 59, 1985, 283-290. - AE.</bibl><bibl>IAM 2, 003.</bibl><bibl>AE 1942/43, 0043. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

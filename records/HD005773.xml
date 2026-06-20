@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Drobeta &amp;ndash; Drobeta - Turnu Severin (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005773</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005773</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Drobeta - Turnu Severin, Muz. Reg. Porţilor de Fier</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><dimensions unit="cm"><height>(57)</height><width>(48)</width><depth>(35)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207100">Drobeta</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/678817">Drobeta - Turnu Severin</placeName><placeName type="findspot"/><placeName type="region">Mehedinți</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005773_1"><persName ref="http://romans1by1.com/rpeople/7630"><name type="praenomen">T.</name><name type="nomen">Aelius*</name><name type="cognomen">Aelianus</name></persName></person><person xml:id="HD005773_2"><persName ref="http://romans1by1.com/rpeople/7631"><name type="praenomen">T.</name><name type="nomen">Aelius*</name><name type="cognomen">Zeuxis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-02-04" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>ito</ex></expan> <expan><abbr>Ael</abbr><ex>io</ex></expan> <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>Ael</abbr><ex>i</ex></expan> Zeuxi <expan><abbr>fil</abbr><ex>io</ex></expan> Pa<supplied reason="lost"><expan><abbr>p</abbr><ex>iria</ex></expan></supplied> <lb n="2"/>Aeliano <expan><abbr>IIvir</abbr><ex>o</ex></expan> fla<supplied reason="lost"><expan><abbr>m</abbr><ex>ini</ex></expan></supplied> <lb n="3"/>patrono <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Drob</abbr><ex>etae</ex></expan> <expan><abbr>eq</abbr><ex>uo</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>ublico</ex></expan></supplied> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>NORC<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Tudor, AE 1959, IDR, ILD: abweichende Lesungen / Ergänzungen. Z. 3-5: Ergänzungsvorschlag Tudor, IDR, wiederholt in ILD: ... eq[uestrem] / [statuam pos(uit) ho]nore c[ont(entus)] / [sumptum remisit].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0718.</bibl><bibl>AE 1959, 0317. (B)</bibl><bibl>I. Piso, Apulum 19, 1981, 125-126; fig. 1 (Zeichnung). - AE 1981.</bibl><bibl>D. Tudor, Oltenia Romanǎ (Bucureşti 1958) 387-388, Nr. 41. (B) - AE 1959.</bibl><bibl>IDR 2, 013; Foto. (B)</bibl><bibl>ILD 057. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

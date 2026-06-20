@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002240</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002240</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(36)</height><width>(46)</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0037" notAfter-custom="0038" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">37 AD - 38 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Forum Romanum?</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002240_1" sex="M"><persName><name type="praenomen">C.+</name><name type="nomen">Silius+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD002240_10" sex="M"><persName><name type="praenomen">Sisenna</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD002240_11" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD002240_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Antistius+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD002240_3" sex="M"><persName><name type="praenomen">Cn.+</name><name type="nomen">Acerronius</name><name type="cognomen">Proculus+</name></persName></person><person xml:id="HD002240_4" sex="M"><persName><name type="praenomen">C.+</name><name type="nomen">Pontius+</name><name type="cognomen">Nigrinus+</name></persName></person><person xml:id="HD002240_5" sex="M"><persName><name type="praenomen">M.</name><name type="cognomen">Silanus</name></persName></person><person xml:id="HD002240_6" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Nonius</name><name type="cognomen">Asprenas+</name></persName></person><person xml:id="HD002240_7" sex="M"><persName><name type="praenomen">M.+</name><name type="nomen">Aquila+</name><name type="cognomen">Iulianus+</name></persName></person><person xml:id="HD002240_8" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Silius</name><name type="cognomen">Maximus+</name></persName></person><person xml:id="HD002240_9" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Antistius</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-01-07" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><expan><abbr>C</abbr><ex>aius</ex></expan></supplied> Sil<supplied reason="lost">ius <gap reason="lost" extent="unknown" unit="character"/> loco <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Antist<supplied reason="lost">ius <gap reason="lost" extent="unknown" unit="character"/> loco <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3"/><expan><abbr><supplied reason="lost">C</supplied>n</abbr><ex>aeo</ex></expan> Acerronio <supplied reason="lost">Proculo <expan><abbr>C</abbr><ex>aio</ex></expan> Pontio Nigrino <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <lb n="4"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Silanus <expan><abbr>M</abbr><ex>arci</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan> loco <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="5"/><expan><abbr>P</abbr><ex>ublio</ex></expan> Nonio Aspr<supplied reason="lost">enate <expan><abbr>M</abbr><ex>arco</ex></expan> Aquila Iuliano <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <lb n="6"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Silius Max<supplied reason="lost">imus <gap reason="lost" extent="unknown" unit="character"/> loco <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="7"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Antistius <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> loco <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="8"/>Sisenna <supplied reason="lost"> <gap reason="lost" extent="unknown" unit="character"/> loco <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="9"/><expan><abbr>P</abbr><ex>ublius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Fasti der salii Palatini; das Fragment umfaßt die Jahre 36-38 n. Chr. (B): AE 1985: Z. 9: PP. Z. 9: P ist vielleicht ist das praenomen des Cornelius Dolabella.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0041. (B)</bibl><bibl>G. Fransoni, in: Atti del Colloquio Internazionale AIEGL su Epigrafia e ordine senatorio 1, Roma 1981, Tituli 4 (Roma 1982) 606-609, Nr. 8; tav. 14, 1. - AE 1985.</bibl><bibl>PIR (2. Aufl.) N 121.</bibl><bibl>PIR (2. Aufl.) A 982.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Torre di Nolfi, bei (Samnium (Regio IV))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002653</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002653</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sulmona, Mus. Civ.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>190</height><width>88</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-22</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Samnium (Regio IV)</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1966"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Torre di Nolfi, bei</placeName><placeName type="findspot">Landstraße Torre di Nolfi - Campo di Fano, bei, Grab, sek.</placeName><placeName type="region">Abruzzo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002653_1" sex="M"><persName><name type="nomen">Statorius</name><name type="cognomen">Aper</name></persName></person><person xml:id="HD002653_2" sex="M"><persName><name type="cognomen">Insequens</name></persName></person><person xml:id="HD002653_3" sex="M"><persName><name type="cognomen">Quartio</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-08-12" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F002475" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/61f341ab-b853-46f8-95c3-c3f2e5fc80ef/file/id/763548/file_version/name/small"/><graphic xml:id="F013507" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/13a3093d-eb57-4577-abe9-5790463d6e0e/file/id/773035/file_version/name/small"/><graphic xml:id="F030719" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/781e60c3-f547-43be-8856-e2d608541147/file/id/791476/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Statori Apri <lb n="2"/>Insequens <lb n="3"/>Quartio <lb n="4"/><expan><abbr>f</abbr><ex>ilii</ex></expan> <expan><abbr>r</abbr><ex>everentissimi</ex></expan> <expan><abbr>p</abbr><ex>osuerunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Erhalten sind 3 anpassende Teile. Zweitverwendung der Stele in spätrömischem Grab. Statori Apri entweder Gentiliz und Cognomen des Vaters im Genitiv oder Statori Dativ vor dem Genitiv Apri (= dominus des Stator).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0328.</bibl><bibl>F. van Wonterghem, Superaequum, Corfinium, Sulmo, Forma Italiae, Regio IV 1 (Firenze 1984) 289, Nr. 212,1; fig. 417. (C) - AE 1984.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

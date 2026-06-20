@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Çamsaray (Cappadocia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005844</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005844</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(136)</height><width>39</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Cappadocia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0247" notAfter-custom="0249" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">247 AD - 249 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/298795">Turkey</placeName><placeName type="modern" ref="http://www.geonames.org/749814">Çamsaray</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005844_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Iulius*</name><name type="cognomen">Philippus</name></persName></person><person xml:id="HD005844_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Iulius*</name><name type="cognomen">Philippus</name></persName></person><person xml:id="HD005844_3" sex="W"><persName><name type="nomen">Marcia* Otalicia*</name><name type="cognomen">Severa+</name></persName></person><person xml:id="HD005844_4" sex="M"><persName/></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-12-21" who="Cowey">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Iul</abbr><ex>io</ex></expan> Philip<lb break="no" n="2"/>po <expan><abbr>P</abbr><ex>io</ex></expan> <expan><abbr>F</abbr><ex>elici</ex></expan> I<supplied reason="lost">nvi</supplied>cto <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="3"/>V proco<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> et <lb n="4"/><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Iul</abbr><ex>io</ex></expan> Philip<lb break="no" n="5"/>p&amp;lt;o=C&amp;gt; <expan><abbr>P</abbr><ex>io</ex></expan> <expan><abbr>F</abbr><ex>elici</ex></expan> <expan><abbr>Invict</abbr><ex>o</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="6"/>II proco<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> tr<supplied reason="lost"><expan><abbr>ib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan></supplied> <lb n="7"/><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> et <expan><abbr>M</abbr><ex>arciae</ex></expan> <expan><abbr>Otacil</abbr><ex>iae</ex></expan> S<supplied reason="lost">e</supplied><lb break="no" n="8"/>verae <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <expan><abbr>n</abbr><ex>ostrae</ex></expan> et m<supplied reason="lost">a</supplied><lb break="no" n="9"/>tri castrorum <lb n="10"/>curante <expan><abbr>Cl</abbr><ex>audio</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> Tibe<lb break="no" n="11"/><expan><abbr>ri</abbr><ex>o</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>e</abbr><ex>gregio</ex></expan> <expan><abbr>praes</abbr><ex>ide</ex></expan> <expan><abbr>p</abbr><ex>rovinciae</ex></expan> <expan><abbr>P</abbr><ex>onti</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> κεʹ 
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0654.</bibl><bibl>D. H. French, ZPE 43, 1981, 153, Nr. 5. - AE 1986.</bibl><bibl>M. Christol - X. Loriot, in: B. Rémy (Hg.), Centre Jean Palerne, Mém. 7 (Saint-Etienne 1986) 24-29. - AE 1986.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

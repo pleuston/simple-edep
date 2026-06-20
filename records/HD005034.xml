@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005034</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005034</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>46</height><width>72</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-1.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005034_1" sex="W"><persName><name type="nomen">Saccaria</name><name type="cognomen">Zosime</name></persName></person><person xml:id="HD005034_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Iunius</name><name type="cognomen">Eutychus</name></persName></person><person xml:id="HD005034_3" sex="W"><persName><name type="nomen">Domitia</name><name type="cognomen">Hygia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-09-02" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F043027" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/081c34aa-825e-4149-9785-39e3687bbaa0/file/id/804136/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Memoriae <lb n="2"/>Saccariae Zosime <lb n="3"/>filiae optimae et pien<supplied reason="lost">ti</supplied>ssimae <lb n="4"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XIX <expan><abbr>m</abbr><ex>enses</ex></expan> VII <lb n="5"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Iunius Eutychus et <lb n="6"/>Domitia Hygia <lb n="7"/>parentes fecerunt et sib<supplied reason="lost">i</supplied> et suis <lb n="8"/><expan><abbr>libert</abbr><ex>is</ex></expan> <expan><abbr>libertab</abbr><ex>us</ex></expan> <expan><abbr>posterisq</abbr><ex>ue</ex></expan> eorum
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0148.</bibl><bibl>A. Ferrua, RAC 57, 1981, 29-31; fig. 13 (Zeichnung). - AE 1981.</bibl><bibl>CIL 06, 25737. (B)</bibl><bibl>AE 1990, 0024.</bibl><bibl>P. Fortini, Epigraphica 52, 1990, 135-137, Nr. 2; fig. 2; fig. 3 (Zeichnung). - AE 1990.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

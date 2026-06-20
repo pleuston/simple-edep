@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Puteoli &amp;ndash; Pozzuoli (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004766</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004766</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/432815">Puteoli</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Pozzuoli</placeName><placeName type="findspot"/><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004766_1" sex="M"><persName><name type="supernomen">Gregorius</name></persName></person><person xml:id="HD004766_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Ulpius*</name><name type="cognomen">Nicephorus</name></persName></person><person xml:id="HD004766_3" sex="W"><persName><name type="nomen">Ulpia</name><name type="cognomen">Profutura</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-08-23" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Gregorio <lb n="3"/><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Ulp</abbr><ex>i</ex></expan> Nicephori <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>lib</abbr><ex>erti</ex></expan> <expan><abbr>prox</abbr><ex>imi</ex></expan> <expan><abbr>comm</abbr><ex>entariorum</ex></expan> <lb n="4"/><expan><abbr>n<am>n</am></abbr><ex>onae</ex></expan> qui vixit <expan><abbr>n<am>n</am></abbr><ex>is</ex></expan> XVIII <expan><abbr>m</abbr><ex>ensibus</ex></expan> VIII <lb n="5"/><expan><abbr>d</abbr><ex>iebus</ex></expan> XI Nicephorus et Ulpia Pro<lb break="no" n="6"/>futura parentes miseri <lb n="7"/>filio piissimo
+            </ab></div>
+            <div type="commentary">
+                <p>(C): Weaver wertet Gregorius als cognomen, nicht als supernomen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0117.</bibl><bibl>P.R.C. Weaver, Antichthon 5, 1971, 77-84. (C) - AE.</bibl><bibl>CIL 10, 01729.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

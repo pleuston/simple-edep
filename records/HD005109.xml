@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Boundary inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005109</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005109</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, P.zzo Farn.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/85">cippus</objectType><dimensions unit="cm"><height>(105)</height><width>65</width><depth>38</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="-054" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">54 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/96">boundary inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005109_1" sex="M"><persName><name type="praenomen">P.+</name><name type="nomen">Serveilius+</name><name type="cognomen">Isauricus+</name></persName></person><person xml:id="HD005109_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Valerius</name><name type="cognomen">Messalla*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-11-20" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010691" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/48e96a69-b641-43b8-bc79-17c80a133bc7/file/id/770211/file_version/name/small"/><graphic xml:id="F026675" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b5be3219-3f8a-42ac-b0ec-4782602918f3/file/id/787427/file_version/name/small"/><graphic xml:id="F031507" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9c20d3ec-ad0c-400b-9284-2a4b15db1d20/file/id/792270/file_version/name/small"/><graphic xml:id="F031508" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/78a2b547-ab40-4126-84b0-48aa172090e6/file/id/792271/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>P</abbr><ex>ublius</ex></expan> Serveilius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <lb n="2"/><supplied reason="lost">I</supplied>sauricus <lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Valerius <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="4"/>M'(ani) <expan><abbr>n</abbr><ex>epos</ex></expan> <expan><abbr>Messal</abbr><ex>la</ex></expan> <expan><abbr>cens</abbr><ex>ores</ex></expan> <lb n="5"/>ex <expan><abbr>s</abbr><ex>enatus</ex></expan> <expan><abbr>c</abbr><ex>onsulto</ex></expan> <expan><abbr>termina</abbr><ex>verunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1977: Z. 2/3: keine Angabe des Zeilenfalls; Z. 2: [Is]auricus; Broise u. a.: Z. 2: [Is]auricus; Z. 3: [M.] Valerius M. [f.].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1977, 0017. (B)</bibl><bibl>H. Broise - R. Hanoune - P. Pomey - Y. Thébert - J.-P. Thuillier, MEFR 89, 1977, 754-757; fig. 19. 20. (B) - AE 1977.</bibl><bibl>J. Le Gall, Le Tibre (Paris 1953) 151. - AE 1977.</bibl><bibl>F. de Navenne, Rome (Paris 1914) 15-16, Nr. 3; Zeichnung. - AE 1977.</bibl><bibl>CIL 06, 40858; Foto.</bibl><bibl>CIL 01 (2. Aufl.) 02, 00766u.</bibl><bibl>CIL 01 (2. Aufl.) 02, 00766u add. p. 947.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Roma? &amp;ndash; Roma? (Roma?)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002308</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002308</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Getty Mus., Malibu</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>68</height><width>85</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma?</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma?</placeName></origPlace><origDate><origDate notBefore-custom="-0050" notAfter-custom="0030" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">50 BC - 30 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma?</placeName><placeName type="findspot"/><placeName type="region">Lazio?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002308_1" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Livius</name><name type="cognomen">Hilarus</name></persName></person><person xml:id="HD002308_10" sex="W"><persName><name type="nomen">Quintia</name><name type="cognomen">Egloge</name></persName></person><person xml:id="HD002308_11" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Livius</name><name type="cognomen">Pietas</name></persName></person><person xml:id="HD002308_12" sex="W"><persName><name type="nomen">Livia</name><name type="cognomen">Hilara</name></persName></person><person xml:id="HD002308_13" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Livius</name><name type="cognomen">Apollonius</name></persName></person><person xml:id="HD002308_14" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Livius</name><name type="cognomen">Statius</name></persName></person><person xml:id="HD002308_15" sex="W"><persName><name type="nomen">Quintia</name><name type="cognomen">Philaenis</name></persName></person><person xml:id="HD002308_16" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Livius</name><name type="cognomen">Primigenius</name></persName></person><person xml:id="HD002308_2" sex="M"><persName><name type="praenomen">Cn.</name><name type="nomen">Quintius</name><name type="cognomen">Stephanus</name></persName></person><person xml:id="HD002308_3" sex="W"><persName><name type="nomen">Quintia</name><name type="cognomen">Hilara</name></persName></person><person xml:id="HD002308_4" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Livius</name><name type="cognomen">Isidorus</name></persName></person><person xml:id="HD002308_5" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Livius</name><name type="cognomen">Isa</name></persName></person><person xml:id="HD002308_6" sex="W"><persName><name type="nomen">Quintia</name><name type="cognomen">Heraclea</name></persName></person><person xml:id="HD002308_7" sex="W"><persName><name type="nomen">Livia</name><name type="cognomen">Cara</name></persName></person><person xml:id="HD002308_8" sex="W"><persName><name type="nomen">Quintia</name><name type="cognomen">Isias</name></persName></person><person xml:id="HD002308_9" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Livius</name><name type="cognomen">Felix</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-12-27" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>A</abbr><ex>ulus</ex></expan> Livius |(mulieris) <expan><abbr>l</abbr><ex>ibertus</ex></expan> Hilarus <lb n="2"/><expan><abbr>Cn</abbr><ex>aeus</ex></expan> Quintius <expan><abbr>Cn</abbr><ex>aei</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> <lb n="3"/>Stephanus <lb n="4"/>Quintia |(mulieris) <expan><abbr>l</abbr><ex>iberta</ex></expan> Hilara <lb n="5"/>concubina <lb n="6"/><expan><abbr>A</abbr><ex>ulus</ex></expan> Livius <expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>Cn</abbr><ex>aei</ex></expan> <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> <lb n="7"/>Isidorus <lb n="8"/><expan><abbr>A</abbr><ex>ulus</ex></expan> Livius <expan><abbr>A</abbr><ex>uli</ex></expan> et <lb n="9"/>Quintiae <expan><abbr>l</abbr><ex>ibertus</ex></expan> Isa <lb n="10"/>Quintia <expan><abbr>A</abbr><ex>uli</ex></expan> et Livi <expan><abbr>l</abbr><ex>iberta</ex></expan> <lb n="11"/>Heraclea <lb n="12"/>Livia <expan><abbr>Sp</abbr><ex>uri</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> Cara <lb n="13"/>Quintia <expan><abbr>Cn</abbr><ex>aei</ex></expan> <expan><abbr>l</abbr><ex>iberta</ex></expan> Isias </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>A</abbr><ex>ulus</ex></expan> Livius <expan><abbr>A</abbr><ex>uli</ex></expan> et <lb n="2"/>Quintiae <expan><abbr>l</abbr><ex>ibertus</ex></expan> Felix <lb n="3"/>Quintia |(mulieris) <expan><abbr>l</abbr><ex>iberta</ex></expan> Egloge <lb n="4"/><expan><abbr>A</abbr><ex>ulus</ex></expan> Livius <expan><abbr>Sp</abbr><ex>uri</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Pietas <lb n="5"/>Livia <expan><abbr>A</abbr><ex>uli</ex></expan> et Quintiae <expan><abbr>l</abbr><ex>iberta</ex></expan> <lb n="6"/>Hilara <lb n="7"/><expan><abbr>A</abbr><ex>ulus</ex></expan> Livius <expan><abbr>A</abbr><ex>uli</ex></expan> et Quintiae <expan><abbr>l</abbr><ex>ibertus</ex></expan> <lb n="8"/>Apollonius <lb n="9"/><expan><abbr>A</abbr><ex>ulus</ex></expan> Livius <expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>A</abbr><ex>uli</ex></expan> et ||(mulierum) <lb n="10"/>Quintiae <expan><abbr>l</abbr><ex>ibertus</ex></expan> Statius <lb n="11"/>Quintia |(mulieris) et <expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>l</abbr><ex>iberta</ex></expan> <lb n="12"/>Philaenis <lb n="13"/><expan><abbr>A</abbr><ex>ulus</ex></expan> Livius <expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>A</abbr><ex>uli</ex></expan> et Quintiae <lb n="14"/><expan><abbr>libert</abbr><ex>us</ex></expan> Primigenius
+            </ab></div></div>
+            <div type="commentary">
+                <p>Tafel aus Fragmenten zusammengesetzt. (B): Z. 27 (2. col.): l(ibertus).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0954. (B)</bibl><bibl>S. Treggiari, GettyMusJ 10, 1982, 181-184, Nr. 1; fig. 1. - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

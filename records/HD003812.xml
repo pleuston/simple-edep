@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Casilinum? &amp;ndash; Capua? (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003812</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003812</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/438708">Casilinum?</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Capua?</placeName><placeName type="findspot"/><placeName type="region">Campania</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003812_1"><persName><name type="praenomen">A.</name><name type="nomen">Varius</name><name type="cognomen">Anti[---]</name></persName></person><person xml:id="HD003812_2"><persName><name type="praenomen">A.</name><name type="nomen">Varius</name><name type="cognomen">Dionysius+</name></persName></person><person xml:id="HD003812_3"><persName><name type="praenomen">A.</name><name type="nomen">Varius</name><name type="cognomen">Antiochus+</name></persName></person><person xml:id="HD003812_4"><persName><name type="nomen">Terentia+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD003812_5"><persName><name type="nomen">Novia</name><name type="cognomen">E[---]</name></persName></person><person xml:id="HD003812_6"><persName><name type="nomen">Varia</name><name type="cognomen">C[---]</name></persName></person><person xml:id="HD003812_7"><persName><name type="nomen">Varia+?</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-03-12" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>A</abbr><ex>ulus</ex></expan> Varius Anti<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>A</abbr><ex>ulo</ex></expan> Vario Diony<supplied reason="lost">sio</supplied> <lb n="3"/><expan><abbr>A</abbr><ex>ulo</ex></expan> Vario Antioc<supplied reason="lost">ho</supplied> <lb n="4"/>Terentia<supplied reason="lost">e</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>Noviae E<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>Variae C<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>Va<supplied reason="lost">riae<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1987, 0256.</bibl><bibl>H. Solin, Arctos 19, 1985, 191-192, Nr. 4. - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

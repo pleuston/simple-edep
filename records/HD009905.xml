@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009905</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009905</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, S. Pietro, Bas., Grotte</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><dimensions unit="cm"><height>(128)</height><width>(67)</width><depth>(10)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3164670">Vatican City State</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">S. Pietro, Basilika, sekundär verwendet</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009905_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Magius</name><name type="cognomen">Pius</name></persName></person><person xml:id="HD009905_2" sex="W"><persName><name type="nomen">Flavia</name><name type="cognomen">Pia</name></persName></person><person xml:id="HD009905_3" sex="W"><persName><name type="nomen">Magia</name><name type="cognomen">Pia</name></persName></person><person xml:id="HD009905_4" sex="W"><persName><name type="nomen">Magia</name><name type="cognomen">Severa</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-12-28" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010990" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/48198515-0c08-4381-ac97-df69d1fe341d/file/id/770510/file_version/name/small"/><graphic xml:id="F029931" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6fd03451-dd28-46f2-a417-d3f4ec34308a/file/id/790688/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>L</abbr><ex>ucio</ex></expan> Magio <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Palatin</abbr><ex>a</ex></expan> <lb n="3"/>Pio ex <expan><abbr>eq</abbr><ex>uo</ex></expan> <expan><abbr>publ</abbr><ex>ico</ex></expan> <lb n="4"/>vixit <expan><abbr>n<am>n</am></abbr><ex>is</ex></expan> XXIII <lb n="5"/>di&amp;lt;e=I&amp;gt;<expan><abbr>b</abbr><ex>us</ex></expan> XXIIII <lb n="6"/>Flavia Pia avia <lb n="7"/>et Magiae <lb n="8"/>Pia et Severa sorores <lb n="9"/>dulcissimo 
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1987: Z. 5: debus; Eck: Z. 5: deb(us). Z. 5: Die Querhasten des E im Wort dieb(us) waren wohl aufgemalt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1987, 0139. (B)</bibl><bibl>W. Eck, ZPE 65, 1986, 285-286, Nr. 37. (B) - AE 1987.</bibl><bibl>CIL 06, 41299; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

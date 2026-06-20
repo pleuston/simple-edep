@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Möhn, bei (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000337</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000337</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Trier, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/53">base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><width>(15)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Belgica</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1887"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern">Möhn, bei</placeName><placeName type="findspot">Heiligtum</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000337_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">G(---)</name><name type="cognomen">Sec[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-09-21" who="Cowey">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Marti Sme<supplied reason="lost">rtuli</supplied>t<supplied reason="lost">a</supplied>no et <supplied reason="lost">Anc</supplied>amnae <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> <abbr>G</abbr> Sec<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL 13, 4119, Z.1: Marti Sme[rtut]io (?) et ..manae. Hettner erwägt Beinamen Smertatius; AE übersieht et [---] in Z.3. Ergänzung des Beinamens Sme[rtuli]t[a]nus aufgrund eines 1980 in diesem Heiligtum gefundenen Votivtäfelchens, auf dem [---]/itano [---] zu lesen ist, und der Nennung dieses Namens in CIL 13, 6230. Breite des zweiten Fragments: 13 cm. Z.3: Reste nicht identifizierbarer Buchstaben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0718. (B)</bibl><bibl>W. Binsfeld, TZ 46, 1983, 153-155; Abb. 1; Abb. 3 (Zeichnung). - AE 1983.</bibl><bibl>CIL 13, 04119. (B)</bibl><bibl>F. Hettner, Die römischen Steindenkmäler des Provinzialmuseums zu Trier mit Ausschluss der Neumagener Monumente (Trier 1893) 43, Nr. 61; Zeichnung. (B)</bibl><bibl>W. Binsfeld - K. Goethert-Polaschek - L. Schwinden, Katalog der römischen Steindenkmäler des Rheinischen Landesmuseums Trier. 1. Götter- und Weihedenkmäler,</bibl><bibl>CSIR Deutschland 4, 3 (Mainz 1988) 101, Nr. 193; Taf. 50, 193.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

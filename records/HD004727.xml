@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004727</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004727</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, S. Callisto, Catac.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>(58)</height><width>(37)</width><depth>(17)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.2-2.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">S. Callisto, Katakombe</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004727_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]cius</name><name type="cognomen">Velox+</name></persName></person><person xml:id="HD004727_2"><persName><name type="cognomen">An[---]</name></persName></person><person xml:id="HD004727_3"><persName><name type="nomen">Licinia Cornelia+ Volusia</name><name type="cognomen">Torquata+</name></persName></person><person xml:id="HD004727_4"><persName><name type="praenomen">L.</name><name type="nomen">Volusius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-02-27" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010833" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6705ee79-7d68-4b8c-9d7d-2dcaef4eaaa0/file/id/770353/file_version/name/small"/><graphic xml:id="F039728" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/70394401-a132-4a08-adf5-9755c78fc375/file/id/800607/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>] <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>cio Vel<supplied reason="lost" cert="low">oci fil(io)</supplied> <lb n="2"/>dulcissimo An<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Liciniae Corn<supplied reason="lost">eliae <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan></supplied> <lb n="4"/>Volusiae Tor<supplied reason="lost">quatae</supplied> <lb n="5"/><expan><abbr>L</abbr><ex>ucii</ex></expan> Volusi ser<supplied reason="lost" cert="low">va posuit</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B):Buonocore: Z. 2: am[ico]; AE 1978: Z. 3: Corn[eliae] M. f.; Ferrua, AE 1978: Z. 4: To[rquatae]; Z. 5 (Ende): Sep[timini].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0017. (B)</bibl><bibl>A. Ferrua, RAC 54, 1978, 224. (B) - AE 1978.</bibl><bibl>M. Buonocore, Schiavi e liberti dei Volusi Saturnini (Roma 1984) 141, Nr. 112; tav. 9, 25.</bibl><bibl>CIL 06, 41079; Foto.</bibl><bibl>PIR (2. Aufl.) L 263.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

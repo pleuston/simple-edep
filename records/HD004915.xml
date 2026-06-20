@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Dyrrachium &amp;ndash; Durrës (Macedonia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004915</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004915</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Durrës, Ark. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>115</height><width>50</width><depth>55</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Macedonia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481818">Dyrrachium</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/783754">Albania</placeName><placeName type="modern" ref="http://www.geonames.org/3185728">Durrës</placeName><placeName type="findspot"/><placeName type="region">Qarku i Durrësit</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004915_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Novellius+</name><name type="cognomen">Lucifer</name></persName></person><person xml:id="HD004915_2" sex="W"><persName><name type="nomen">Novia</name><name type="cognomen">Scodrina</name></persName></person><person xml:id="HD004915_3"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD004915_4" sex="W"><persName><name type="nomen">Novellia</name><name type="cognomen">Trophime</name></persName></person><person xml:id="HD004915_5" sex="M"><persName><name type="cognomen">Crotus</name></persName></person><person xml:id="HD004915_6" sex="M"><persName><name type="cognomen">Lucifer</name></persName></person><person xml:id="HD004915_7" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Seppius</name><name type="cognomen">Crescens</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-01-07" who="Ehmig">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F024488" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8ba09866-ea07-4f32-b0ae-f4b9ee74c854/file/id/785153/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Novelliu<supplied reason="lost">s</supplied> <lb n="2"/>Lucifer praeco <lb n="3"/>have <lb n="4"/>Novia Scodrina <lb n="5"/>coniunx mil<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> ma<supplied reason="lost" cert="low">--</supplied> <lb n="6"/>have <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>er <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>es have <lb n="9"/>Novellia Trophime <lb n="10"/>mater <expan><abbr>q</abbr><ex>uae</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> LV vale <lb n="11"/>Crotus pater Luci<lb break="no" n="12"/>feri <expan><abbr>lib</abbr><ex>ertus</ex></expan> medicus <lb n="13"/><expan><abbr>q</abbr><ex>ui</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> LXVII vale <lb n="14"/><expan><abbr>C</abbr><ex>aius</ex></expan> Seppius Crescens <lb n="15"/><expan><abbr>vitric</abbr><ex>us</ex></expan> <expan><abbr>q</abbr><ex>ui</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> LXXX vale
+            </ab></div>
+            <div type="commentary">
+                <p>In zwei Teile gebrochen. (B): Sestieri, BCAR; AE 1948; Sestieri, Studime; AE 1978; Remy; Anamali - Ceca - Deniaux: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>P.C. Sestieri, Studime e Tekste 2, 1, 1943, 93-94, Nr. 70. (B) - AE 1978.</bibl><bibl>AE 1948, 0087.</bibl><bibl>AE 1978, 0749. (B)</bibl><bibl>B. Remy, Epigraphica 49, 1987, 262, Nr. 439. (B)</bibl><bibl>S. Anamali - H. Ceka - É. Deniaux, Corpus des inscriptions latines d’Albanie (Rome 2009) 76-77, Nr. 83; Fotos. (B)</bibl><bibl>P.C. Sestieri, BCAR 70, 1942, 126, Nr. 2. (B)</bibl><bibl>U. Ehmig - R. Haensch, Die lateinischen Inschriften aus Albanien (LIA) (Bonn 2012) 258-260, Nr. 99; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

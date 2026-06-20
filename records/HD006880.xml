@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006880</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006880</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>29</height><width>41</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-1.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006880_1" sex="M"><persName><name type="praenomen">C.++</name><name type="nomen">Minucius+++</name><name type="cognomen">Scaevola+++?</name></persName></person><person xml:id="HD006880_2" sex="M"><persName><name type="praenomen">L.++</name><name type="nomen">Minucius+++</name><name type="cognomen">Philargyrus+++</name></persName></person><person xml:id="HD006880_3" sex="W"><persName><name type="nomen">Vibia++</name><name type="cognomen">Secunda++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-02-13" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <del rend="erasure"><expan><abbr>C</abbr><ex>aio</ex></expan> M<supplied reason="lost">inucio Scae<certainty locus="name" match="preceding-sibling::text()" cert="low"/></supplied>volae</del> <lb n="0"/>[<gap reason="lost" quantity="1" unit="line"/>] <lb n="2"/><del rend="erasure"><expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> Minu<supplied reason="lost">cius Phi</supplied>largyrus</del> <lb n="3"/><del rend="erasure"><expan><abbr>v</abbr><ex>iva</ex></expan> Vibia <gap reason="lost" extent="unknown" unit="character"/> Secunda</del> <lb n="4"/><del rend="erasure">sibi fece<supplied reason="lost">ru</supplied>nt et suis</del> <lb n="5"/><del rend="erasure">in <expan><abbr>front</abbr><ex>e</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> XII<supplied reason="lost">I i</supplied>n agro <expan><abbr>p</abbr><ex>edes</ex></expan> XV</del>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 4: AE 1975: v(iva) Vibia [-]l(iberta) Secunda. Zwei Fragmente erhalten, Mittelteil fehlt. Inschrift eradiert, Tafel wiederverwendet und auf der Rückseite mit figürlicher und gegenständlicher Darstellung versehen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1975, 0108. (B)</bibl><bibl>G. Geraci, La collezione Di Bagno: le iscrizioni greche e latine (Faenza 1975) 194, Nr. 171; tav. 154 u. 155. - AE 1975.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

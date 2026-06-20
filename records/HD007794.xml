@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Orolaunum &amp;ndash; Arlon (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007794</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007794</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Arlon, Mus. Luxembourgeois</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>125</height><width>91</width><depth>60</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Belgica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109232">Orolaunum</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2802361">Belgium</placeName><placeName type="modern" ref="http://www.geonames.org/2803073">Arlon</placeName><placeName type="findspot">Rue du Marché-au-Beurre 5</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007794_1"><persName><name type="nomen">Secundius</name><name type="cognomen">Attianus</name></persName></person><person xml:id="HD007794_2"><persName><name type="cognomen">Censorinia</name></persName></person><person xml:id="HD007794_3"><persName><name type="cognomen">Trausus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2006-04-04" who="Garcia">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F023680" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5b54a2a5-2e24-43f8-bd66-7e9ab7b26941/file/id/784340/file_version/name/small"/><graphic xml:id="F023681" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c927f335-7e6a-4b62-a2ae-8f39b2a66749/file/id/784341/file_version/name/small"/><graphic xml:id="F023682" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2e8655c4-9022-4ab7-89bb-a582cc8bfaab/file/id/784342/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/>Secundius Attia<lb break="no" n="3"/>nus et Censorinia Ma<lb break="no" n="4"/>trausus co<expan><ex>n</ex><abbr>i</abbr><ex>ugi</ex></expan> et) <expan><abbr>fili</abbr><ex>o</ex></expan> <expan><abbr>def</abbr><ex>unctis</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Reliefdarstelllung von drei Figuren in einer Nische.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0497.</bibl><bibl>ILB (2. Aufl.) 102; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

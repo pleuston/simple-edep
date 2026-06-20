@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Boundary inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001512</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001512</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, P.te Milvio, bei</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/85">cippus</objectType><dimensions unit="cm"><height>(103)</height><width>62</width><depth>44</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="-054" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">54 BC</origDate></origDate></origin>
+                        <provenance type="found" when="1819"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Ponte Milvio, bei, rechtes Ufer</placeName><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/96">boundary inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001512_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Valerius</name><name type="cognomen">Messalla*</name></persName></person><person xml:id="HD001512_2" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Serveilius</name><name type="cognomen">Isauricus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-06-10" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010690" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3cdc25b7-90bb-428c-be27-6e2f200ed446/file/id/770210/file_version/name/small"/><graphic xml:id="F026674" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0051e35a-28df-4e6f-8b01-79d37fbed4c5/file/id/787426/file_version/name/small"/><graphic xml:id="F042960" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/699cdc52-4413-41af-af79-a9923ed578c3/file/id/804067/file_version/name/small"/><graphic xml:id="F042961" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/41594a01-5216-4615-a38a-f015f513ed59/file/id/804068/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> Valerius <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/><expan><abbr>M</abbr><ex>ani</ex></expan> <expan><abbr>n</abbr><ex>epos</ex></expan> <expan><abbr>Messal</abbr><ex>la</ex></expan> <lb n="3"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Serveilius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="4"/>Isauricus ce<expan><ex>n</ex><abbr>s</abbr><ex>ores</ex></expan> <lb n="5"/>ex <expan><abbr>s</abbr><ex>enatus</ex></expan> <expan><abbr>c</abbr><ex>onsulto</ex></expan> <expan><abbr>termin</abbr><ex>averunt</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>P</abbr><ex>ublius</ex></expan> Serveilius <supplied reason="lost"><expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <lb n="2"/>Isauricus <lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Valerius <supplied reason="lost"><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <lb n="4"/><expan><abbr>M</abbr><ex>ani</ex></expan> <expan><abbr>n</abbr><ex>epos</ex></expan> <expan><abbr>Messall</abbr><ex>a</ex></expan> <lb n="5"/><expan><abbr>cens</abbr><ex>ores</ex></expan> <lb n="6"/>ex <expan><abbr>s</abbr><ex>enatus</ex></expan> <expan><abbr>c</abbr><ex>onsulto</ex></expan> <expan><abbr>termi</abbr><ex>naverunt</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Der Stein gehört zu einer Serie von 20 beinahe gleichen Grenzsteinen, die am Tiber zwischen Ponte Milvio und San Paolo fuori le mura gefunden wurden; sie stammen von der Tiberbegrenzung des Jahres 55 v. Chr. nach Überschwemmung. Dieser Stein ist auf Vorder- und Rückseite beschrieben. Gesamthöhe: etwa 223,4. (B): AE 1984: Rückseite Z. 4/5/6: keine Angaben der Zeilenfälle.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0045. (B)</bibl><bibl>N. Petrucci, in: Atti del Colloquio Internazionale AIEGL su Epigrafia e ordine senatorio 1, Roma 1981, Tituli 4 (Roma 1982) 592-594, Nr. 2; tav. 11, 2 u. 11, 3. (B) - AE 1984.</bibl><bibl>CIL 01, 00613.</bibl><bibl>CIL 01 (2. Aufl.) 02, 00766a.</bibl><bibl>CIL 01 (2. Aufl.) 02, 00766a add. p. 947; tab. 136, 4 u. 136, 5.</bibl><bibl>CIL 06, 01234 a.</bibl><bibl>CIL 06, 31540 a.</bibl><bibl>CIL 06, 40857; fig. α u. β.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

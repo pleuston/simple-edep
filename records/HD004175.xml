@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004175</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004175</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Area Sac. L.go Arg.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(18)</height><width>(19)</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-4.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="-022" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">22 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Largo Argentina, Tempel C</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004175_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Aelius+</name><name type="cognomen">Lamia+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-11" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011119" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5a96ca26-52a3-422a-a33f-e7c65936ccee/file/id/770642/file_version/name/small"/><graphic xml:id="F011196" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e5adbb63-dbf7-4949-869e-c5be355483d9/file/id/770719/file_version/name/small"/><graphic xml:id="F011197" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/71f29158-8227-434b-a395-3b15f1c1ac11/file/id/770720/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> A<supplied reason="lost">elio <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> Lamiae <expan><abbr>pr</abbr><ex>aetori</ex></expan></supplied> <lb n="2"/><expan><abbr>XVvir</abbr><ex>o</ex></expan> <supplied reason="lost"><expan><abbr>sacr</abbr><ex>is</ex></expan> <expan><abbr>fac</abbr><ex>iundis</ex></expan> <expan><abbr>leg</abbr><ex>ato</ex></expan> pr</supplied>o <expan><abbr>pr</abbr><ex>aetore</ex></expan> <lb n="3"/>Carietes V<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">patrono</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Insgesamt fünf Fagmente erhalten, von denen drei aneinanderpassen; Maße: s.o.; Maße des mittleren großen Fragments: -24 x -26,5 x 2,7; Maße des rechten Fragments: -5 x -7 x 4. (B): Marchetti Longhi, Kajanto - Nyberg - Steinby: Leseabweichungen, Zusammengehörigkeit der Fragmente nicht erkannt. Y: 24-22 v.Chr.: Lamia legatus pro praetore in Hispania citerior. Inschrift unmittelbar nach seiner Rückkehr nach Rom gesetzt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0043e.</bibl><bibl>I. Kajanto - U. Nyberg - M. Steinby, in: L'area sacra di Largo Argentina 1 (Roma 1981) 114, Nr. 28 E-G; tav. 40,1-3. (B) - AE 1981.</bibl><bibl>G. Alföldy, Studi sull'epigrafia augustea e tiberiana di Roma (Roma 1992) 117, Nr. 3; tav. 18, 57; tav. 20, 65 (Zeichnung). - AE 1992.</bibl><bibl>C. Marchetti Longhi, BCAR 71, 1943-45, 69, Nr. D u. G; fig. 11 D,9 u. G. (B) - AE 1948.</bibl><bibl>AE 1948, 0093.</bibl><bibl>CIL 06, 41036; fig. α u. β; fig. γ.</bibl><bibl>(Zeichnung).</bibl><bibl>AE 1992, 0169.</bibl><bibl>AE 1949, p. 58 s. n. 181.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

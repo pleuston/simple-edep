@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Matrica &amp;ndash; Százhalombatta (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006024</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006024</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Százhalombatta, Matrica Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197372">Matrica</placeName></origPlace><origDate><origDate notBefore-custom="0267" notAfter-custom="0268" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">267 AD - 268 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044821">Százhalombatta</placeName><placeName type="findspot">{Lager}, bei, Militärvicus</placeName><placeName type="region">Pest megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006024_1" sex="M"><persName><name type="nomen">Aelius*</name><name type="cognomen">Victor+</name></persName></person><person xml:id="HD006024_2" sex="M"><persName><name type="cognomen">Paternus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-19" who="Feraudi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011732" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a8e5ec13-3c07-4bcf-9647-be31c0e4813b/file/id/771254/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost">pro salute</supplied> <lb n="2"/>civerom<supplied reason="lost">an</supplied><lb break="no" n="3"/><expan><abbr>or</abbr><ex>um</ex></expan> <note>sic</note> <expan><abbr>territ</abbr><ex>orii</ex></expan> <lb n="4"/>Matric<lb break="no" n="5"/>ensium <lb n="6"/><expan><abbr>Ael</abbr><ex>ius</ex></expan> Vic<supplied reason="lost">t</supplied><lb break="no" n="7"/>or <expan><abbr>vet</abbr><ex>eranus</ex></expan> <supplied reason="lost"><expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied> <lb n="8"/>II ad<supplied reason="lost"><expan><abbr>i</abbr><ex>utricis</ex></expan></supplied> <lb n="9"/>Pater<supplied reason="lost">no et</supplied> <lb n="10"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <lb n="11"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Textwiedergabe nach G. Alföldy (Autopsie). (B): AE 1980, RIU: am Anfang bzw. Ende teilweise abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0712. (B)</bibl><bibl>A. Mócsy, in: W. Eck - H. Galsterer - H. Wolf (Hrsg.), Studien zur antiken Sozialgeschichte (Köln - Wiesbaden 1980) 365-376; Abb. 4; Abb. 5 (Zeichnung). - AE 1980.</bibl><bibl>RIU 1429; Abb. 1429 (Foto u. Zeichnung). (B)</bibl><bibl>G. Alföldy, SpNov 16, 2000, 63. - AE 2001.</bibl><bibl>AE 2001, 1685d.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

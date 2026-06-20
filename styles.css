@@ -404,3 +404,9 @@ body.has-fullscreen-editor .edition-fs-hint { display: block; }
 /* docs tip box */
 .docs-tip { background: #fbf4f4; border-left: 3px solid var(--accent); padding: 0.7rem 0.9rem; border-radius: 0 4px 4px 0; }
 .docs-tip kbd { background: #fff; border: 1px solid var(--line); border-radius: 3px; padding: 0 0.3rem; font-size: 0.85em; }
+
+/* register pager ellipsis + bibliography citations */
+.reg-ell { color: var(--muted); padding: 0 0.2rem; }
+.bib-cite { font-family: var(--serif-body); font-size: 1rem; line-height: 1.5; color: var(--ink); }
+.bib-cite em { font-style: italic; }
+.bib-cite .bib-author { font-weight: 600; }

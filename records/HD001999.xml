@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Ferentinum &amp;ndash; Ferentino (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001999</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001999</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kathedrale</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/71">Travertin</material><dimensions unit="cm"><height>(33)</height><width>(13)</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.8-2.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/438734">Ferentinum</placeName></origPlace><origDate><origDate notBefore-custom="-0100" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">100 BC - 50 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Ferentino</placeName><placeName type="findspot">Kathedrale</placeName><placeName type="region">Frosinone</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1990-12-06" who="Scheithauer">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>IURI<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>VAM IN<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ITATION<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>EREDEL</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>IAEAE</abbr><ex cert="low"/></expan> AM<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>que exem<supplied reason="lost">plum</supplied> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>NEM NOM<gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>LINI</abbr><ex cert="low"/></expan> ob <gap reason="lost" extent="unknown" unit="character"/> <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> quod <gap reason="lost" extent="unknown" unit="character"/> <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>REI</abbr><ex cert="low"/></expan> fin<supplied reason="lost">es</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="11"/><supplied reason="lost">rest</supplied>itui <gap reason="lost" extent="unknown" unit="character"/> <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>decem</abbr><ex cert="low"/></expan> <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> SECUND<gap reason="lost" extent="unknown" unit="character"/> <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/>IPI POL<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(A): AE: Zuweisung des Fundortes in falsche Regio Italiae. (B): Z. 3: [---]tation[---]; Z. 12: [---] ideo er[ga] statt [---] decem; Z. 13: [---]eouni[---]. Spätere Wiederverwendung des Blocks in der Kathedrale.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0323. (AB)</bibl><bibl>H. Solin, SupplIt 1 (Roma 1981) 59, Nr. 43; Foto. - AE.</bibl><bibl>A. Bartoli, RAL 9, 1954, 498, Nr. 11; fig. 8. (B) - AE.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

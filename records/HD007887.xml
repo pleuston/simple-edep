@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Castra Regina &amp;ndash; Regensburg (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007887</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007887</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Regensburg, Hist. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>82</height><width>(325)</width><depth>(42)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9-7.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118929">Castra Regina</placeName></origPlace><origDate><origDate when-custom="0179" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">179 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1873"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2849483">Regensburg</placeName><placeName type="findspot">{Legionslager, Porta principalis dextra}</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007887_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1430"><name type="praenomen">M.+</name><name type="nomen">Aurelius+</name><name type="cognomen">Antoninus+</name></persName></person><person xml:id="HD007887_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1434"><name type="praenomen">L.+++</name><name type="nomen">Aelius+++ Aurelius+++</name><name type="cognomen">Commodus+++</name></persName></person><person xml:id="HD007887_3" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1430"><name type="cognomen">Antoninus+++</name></persName></person><person xml:id="HD007887_4" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1434"><name type="praenomen">M.+</name><name type="nomen">Aurelius+</name><name type="cognomen">Commodus+ Antoninus+</name></persName></person><person xml:id="HD007887_5" sex="M"><persName><name type="praenomen">P.+++</name><name type="nomen">Salvius+++</name><name type="cognomen">Iulianus+++</name></persName></person><person xml:id="HD007887_6" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Helvius</name><name type="cognomen">Clemens+ Dextrianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-01" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F007371" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/110b57e0-87d9-45d2-bebc-7a3ec9bfc299/file/id/767742/file_version/name/small"/><graphic xml:id="F017934" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/548921b8-ffc4-4221-a813-b13ad9a034a8/file/id/777545/file_version/name/small"/><graphic xml:id="F028366" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/48593873-20ee-4695-9017-4a878f0d6b0c/file/id/789123/file_version/name/small"/><graphic xml:id="F028367" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5b2ee39b-d210-4aa4-83e0-e436558e91c9/file/id/789124/file_version/name/small"/><graphic xml:id="F028368" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5209e98e-e904-438b-9905-ce7dbfc77213/file/id/789125/file_version/name/small"/><graphic xml:id="F028369" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b03de67e-36d3-456e-9159-01661c9b442c/file/id/789126/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Antonini Pii filius divi Veri Parthici Maximi</supplied> frater divi Hadriani nepos divi Traiani Pa<supplied reason="lost">rthici pronepos divi</supplied> <lb n="2"/><supplied reason="lost">Nervae abnepos <expan><abbr>M</abbr><ex>arcus</ex></expan> Aurelius Antoninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Germanicus Sarma</supplied>ticus pontifex maximus <expan><abbr>trib</abbr><ex>uniciae</ex></expan> potestatis XXX&amp;lt;III=VI&amp;gt; i<supplied reason="lost"><expan><abbr>mp</abbr><ex>erator</ex></expan> VIIII <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> et</supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar <expan><abbr>M</abbr><ex>arcus</ex></expan> Aurelius Commodus Antoninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Sarmat</supplied>icus Germanicus Maximus Antonini <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <supplied reason="lost">filius divi Pii nepos divi</supplied> <lb n="4"/><supplied reason="lost">[Hadriani <expan><abbr>pronep</abbr><ex>os</ex></expan> divi Traiani Parthici <expan><abbr>abn</abbr><ex>epos</ex></expan> divi Nervae <expan><abbr>adn</abbr><ex>epos</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> IIII i</supplied><expan><abbr>mp</abbr><ex>erator</ex></expan> II co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan>] II vallum cum portis et turribus &amp;lt;l=E&amp;gt;<expan><abbr>eg</abbr><ex>ioni</ex></expan> I<supplied reason="lost">II Italicae Concordi</supplied> <lb n="5"/><supplied reason="lost">fecerunt curante</supplied> <expan><abbr>M</abbr><ex>arco</ex></expan> Helvio C<supplied reason="lost">le</supplied>mente Dextriano <expan><abbr>leg</abbr><ex>ato</ex></expan> Au<supplied reason="lost"><expan><abbr>gg</abbr><ex>ustorum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> eiusdem</supplied> 
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 3 u. Z. 4 (bis zur Zeilenmitte) sauber und flach eradiert und mit neuem Text überschrieben. Spuren des eradierten Textes führen zu folgender Rekonstruktion der ursprünglichen Textfassung: Imp(erator) Caesar L(ucius) Aelius Aurelius Commodus Aug(ustus) Antonini Imp(eratoris) filius divi Pii nepos divi Hadriani pronepos divi Traiani Parthici abnepos / divi Nervae adnepos Germanicus Sarmaticus trib(unicia) pot(estate) IIII imp(erator) II co(n)s(ul) II p(ater) p(atriae). Ähnliche Rasur auch in Z. 5 bis zur Zeilenmitte. Ursprünglicher Text etwa: fecerunt curantibus P. Salvio Iuliano leg(ato) Augustorum p(ro) pr(aetore). Neufassung frühestens 182 n. Chr. (B): abweichende Textwiedergabe u. Ergänzungen bzw. Zweifel an der Zusammengehörigkeit der erhaltenen Fragmente zu einer Inschrift.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0533. (B)</bibl><bibl>AE 1971, 0292. (B)</bibl><bibl>CIL 03, 11965.</bibl><bibl>IBR 362. (B)</bibl><bibl>AE 1987, 0791. (B)</bibl><bibl>T. Bechert, BJ 171, 1971, 242-246; fig. 15 (Zeichnung). (B) - AE 1971.</bibl><bibl>J.E. Bogaers, in: Studien zu den Militärgrenzen Roms 3, 13. Internationaler Limeskongreß, Aalen 1983. Vorträge (Stuttgart 1986) 127-129; Abb. 1-3. (B) - AE 1986. AE 1987.</bibl><bibl>K. Dietz - T. Fischer, Die Römer in Regensburg (Regensburg 1996) 84-87; Abb. 28; Farbabb. 1.</bibl><bibl>G. Kaschuba, Lagertorinschriften im Imperium Romanum. Von claudisch-neronischer bis in diokletianische Zeit (Diss. Regensburg 1994) 101-107, Nr. 48; Abb. 46. (B)</bibl><bibl>PIR (2. Aufl.) S 135.</bibl><bibl>PIR H 070.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

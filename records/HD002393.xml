@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Thamugadi &amp;ndash; Timgad (Numidia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002393</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002393</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Timgad (Thamugadi), röm. Stadt</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>118</height><width>110</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">11</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Numidia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/334636">Thamugadi</placeName></origPlace><origDate><origDate notBefore-custom="0140" notAfter-custom="0141" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">140 AD - 141 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern" ref="http://www.geonames.org/2476409">Timgad</placeName><placeName type="findspot">Forum</placeName><placeName type="region">Batna</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002393_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="praenomen">T.+</name><name type="nomen">Aelius+</name><name type="cognomen">Hadrianus+ Antoninus+</name></persName></person><person xml:id="HD002393_2" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Caesernius+</name><name type="cognomen">Statius+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-15" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F003226" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c8b04a1d-bb99-4c6e-9401-2df21a91bd50/file/id/764114/file_version/name/small"/><graphic xml:id="F007312" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/89db7405-a763-459f-adb2-8cc5cfbc0e3e/file/id/767709/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></supplied> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <supplied reason="lost"><expan><abbr>T</abbr><ex>ito</ex></expan> Ael</supplied>io Hadri<supplied reason="lost">ano A</supplied>ntonino <expan><abbr>Aug</abbr><ex>usto</ex></expan> Pio di<supplied reason="lost">vi</supplied> <lb n="2"/><supplied reason="lost">Ha</supplied>dri<supplied reason="lost">ani <expan><abbr>fil</abbr><ex>io</ex></expan></supplied> divi Traia<supplied reason="lost">ni Par</supplied><expan><abbr>t</abbr><ex>hici</ex></expan> ne<supplied reason="lost">poti</supplied> divi Nerva<supplied reason="lost">e</supplied> <lb n="3"/>pr<supplied reason="lost">one</supplied>po<supplied reason="lost">ti po</supplied>nti<supplied reason="lost"><expan><abbr>f</abbr><ex>ici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> potest</supplied>ate IIII co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> II<supplied reason="lost">I <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="4"/><expan><abbr>T</abbr><ex>itus</ex></expan> C<supplied reason="lost">ae</supplied>sernius St<supplied reason="lost">atius <expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied> pro <expan><abbr>pr</abbr><ex>aetore</ex></expan> co<supplied reason="lost">nsul</supplied> <lb n="5"/><expan><abbr>d<supplied reason="lost">esi</supplied>g</abbr><ex>natus</ex></expan> patronu<supplied reason="lost">s coloniae dedica</supplied>vit <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>ublica</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Maße (Höhe x Breite) = Maße CIL 8, 02361 c = 8, 17849 f. Erhalten sind 9 Fragmente, 6 davon stammen vom Forum; 3 aus der byzantin. Festung (sek. verbaut). Die 6 Fragmente sind bereits im CIL publiziert. Y: Vor Antritt des Konsulates durch den Statthalter und nach dem 9. Dezember 140. Inschrift textgleich CIL 8, 17850. Material: bläulicher Kalkstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0874.</bibl><bibl>M. Le Glay - S. Tourrenc, AntAfr 21, 1985, 109-110, Nr. 2; Zeichnung. - AE 1985.</bibl><bibl>CIL 08, 17849.</bibl><bibl>CIL 08, 02361.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

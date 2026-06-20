@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Thamugadi &amp;ndash; Timgad (Numidia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004621</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004621</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/67">fortification</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Numidia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/334636">Thamugadi</placeName></origPlace><origDate><origDate when-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern" ref="http://www.geonames.org/2476409">Timgad</placeName><placeName type="findspot"/><placeName type="region">Batna</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004621_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1425"><name type="cognomen">Nerva+ Traianus+</name></persName></person><person xml:id="HD004621_2" sex="M"><persName><name type="praenomen">L.+</name><name type="nomen">Munatius+</name><name type="cognomen">Gallus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-12-10" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan></supplied> Ca<supplied reason="lost">esa</supplied>r d<supplied reason="lost">ivi</supplied> <lb n="2"/><supplied reason="lost">Nerv</supplied>ae <supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan> Nerva</supplied> Traia<lb break="no" n="3"/><supplied reason="lost">nus A</supplied><expan><abbr>ug</abbr><ex>ustus</ex></expan> <supplied reason="lost">Ger</supplied>ma<supplied reason="lost">ni</supplied>cus <expan><abbr>pontif</abbr><ex>ex</ex></expan> <lb n="4"/>m<supplied reason="lost"><expan><abbr>ax</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> po</supplied><expan><abbr>t</abbr><ex>estate</ex></expan> IIII <expan><abbr><supplied reason="lost">c</supplied>o</abbr><ex>n</ex>s</expan>(ul) III <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/><supplied reason="lost"><expan><abbr>col</abbr><ex>oniam</ex></expan> Marci</supplied>anam Traia<lb break="no" n="6"/><supplied reason="lost">nam Tha</supplied>mugadi per <del rend="erasure"><expan><abbr>leg</abbr><ex>ionem</ex></expan></del> <lb n="7"/><del rend="erasure">[III</del>] <expan><abbr>Aug</abbr><ex>ustam</ex></expan> <expan><abbr>fec</abbr><ex>it</ex></expan> <lb n="8"/><supplied reason="lost"><expan><abbr>L</abbr><ex>ucio</ex></expan> Munatio</supplied> Gal<supplied reason="lost">l</supplied>o le<supplied reason="lost"><expan><abbr>g</abbr><ex>ato</ex></expan></supplied> <expan><abbr>Aug</abbr><ex>usti</ex></expan> pro <expan><abbr>pr</abbr><ex>aetore</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1891, 0132.</bibl><bibl>CIL 08, 17843.</bibl><bibl>R. Cagnat, CRAI 19, 1891, 209-210. - AE 1891.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

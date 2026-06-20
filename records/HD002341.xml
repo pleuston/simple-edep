@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Caudiel (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002341</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002341</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Lapidarium, neben Pfarrkirche</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>55</height><width>(75)</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0131" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 131 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1955"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2519682">Caudiel</placeName><placeName type="findspot">südl. Dorfrand</placeName><placeName type="region">Castellón</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002341_1" sex="M"><persName><name type="praenomen">L.+?</name><name type="nomen">Quintius+</name><name type="cognomen">Lupus+</name></persName></person><person xml:id="HD002341_2" sex="W"><persName><name type="nomen">Claudia+</name><name type="cognomen">Egnatilla+?</name></persName></person><person xml:id="HD002341_3" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Quintius*</name><name type="cognomen">Lupus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-02-28" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>L</abbr><ex>ucius</ex></expan>? Qui</supplied>ntius Lu<lb break="no" n="2"/><supplied reason="lost">pus</supplied> <expan><abbr>an</abbr><ex>norum</ex></expan> LXXX <lb n="3"/><supplied reason="lost">hic</supplied> <expan><abbr>s</abbr><ex>itus</ex></expan> est <lb n="4"/><supplied reason="lost">Cla</supplied>udia <lb n="5"/><supplied reason="lost" cert="low">Egn</supplied>atilla <lb n="6"/><supplied reason="lost"><expan><abbr>an</abbr><ex>norum</ex></expan></supplied> LXXX <lb n="7"/><supplied reason="lost"><expan><abbr>h</abbr><ex>ic</ex></expan></supplied> <expan><abbr>s</abbr><ex>ita</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Q</abbr><ex>uintius</ex></expan> <lb n="2"/>Lup<supplied reason="lost">us</supplied> <lb n="3"/><expan><abbr>h</abbr><ex>ic</ex></expan> <supplied reason="lost"><expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan></supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Material: grauer Kalkstein. Zwei gerahmte Inschriftfelder nebeneinander. (B): HAEp 1453: Z. 4: [---]DIA; HAEp 1454: Z. 9: VR; Z. 10: H S.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0602.</bibl><bibl>G. Alföldy, ZPE 54, 1984, 234-235; Taf. 12a. - AE 1984.</bibl><bibl>HAE 1453. (B)</bibl><bibl>HAE 1454. (B)</bibl><bibl>CIL 02 (2. Aufl.) 14, 00272.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

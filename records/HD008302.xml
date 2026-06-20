@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Porolissum &amp;ndash; Creaca (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008302</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008302</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(90)</height><width>(85)</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207361">Porolissum</placeName></origPlace><origDate><origDate notBefore-custom="0128" notAfter-custom="0129" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">128 AD - 129 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1943"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/675302">Creaca</placeName><placeName type="findspot">Jac, {Lager, porta principalis sinistra}</placeName><placeName type="region">Sălaj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008302_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1427"><name type="cognomen">Traianus+ Hadrianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-02-03" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Tr</supplied>a<lb break="no" n="2"/><supplied reason="lost">iani Parthici <expan><abbr>f</abbr><ex>ilius</ex></expan> di</supplied>vi <lb n="3"/><supplied reason="lost">Nervae nepos</supplied> Traia<lb break="no" n="4"/><supplied reason="lost">nus Hadri</supplied>anus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <lb n="5"/><supplied reason="lost"><expan><abbr>p</abbr><ex>ontifex</ex></expan> <expan><abbr>m</abbr><ex>aximus</ex></expan> <expan><abbr>trib</abbr><ex>uniciae</ex></expan> pot</supplied><expan><abbr>est</abbr><ex>atis</ex></expan> XIII co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <lb n="6"/><supplied reason="lost" cert="low">III p(ater) p(atriae) portam</supplied> per <expan><abbr>coh</abbr><ex>ortem</ex></expan> <lb n="7"/><supplied reason="lost">I <expan><abbr>Ulp</abbr><ex>iam</ex></expan> Brittonum</supplied> f<supplied reason="lost">ec</supplied>it
+            </ab></div>
+            <div type="commentary">
+                <p>Tabula ansata; rekonstruierte Breite etwa 170 cm. Gefunden im Bereich der porta principalis sinistra des Lagers. (B): Tóth; AE 1979; ILD: Abweichungen in der Lesung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0489. (B)</bibl><bibl>ILD 656. (B)</bibl><bibl>E. Tóth, Porolissum. Das castellum in Moigrad. Ausgrabungen von A. Radnóti, 1943 (Budapest 1978) 17-18, Nr. 4; Taf. 4, Abb. 4a u. 4b (Zeichnungen). (B) - AE 1979.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mór (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009661</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009661</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Eger, Dobó István Vármúz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(82)</height><width>(83)</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0222" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3047927">Mór</placeName><placeName type="findspot"/><placeName type="region">Fejér megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009661_1" sex="M"><persName><name type="nomen">Aelius*</name><name type="cognomen">Nigrinus</name></persName></person><person xml:id="HD009661_2" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Victor</name></persName></person><person xml:id="HD009661_3" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Modestus*</name></persName></person><person xml:id="HD009661_4" sex="W"><persName><name type="nomen">Aurelia*</name><name type="cognomen">Scenua*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-02-05" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>Ael</abbr><ex>ius</ex></expan> Nigrinus <expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> I <lb n="3"/><expan><abbr>ad</abbr><ex>iutricis</ex></expan> <expan><abbr>Se</abbr><ex>verianae</ex></expan> <expan><abbr>stra</abbr><ex>tor</ex></expan> <expan><abbr>con</abbr><ex>sularis</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> Vic<lb break="no" n="4"/>tori fratri qui vi&amp;lt;c=G&amp;gt;(sit) <note>sic</note> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> <lb n="5"/>XXVIII <expan><abbr>mer</abbr><ex>enti</ex></expan> opto &amp;lt;s=R&amp;gt;(it) &amp;lt;t=I&amp;gt;ibi te<lb break="no" n="6"/><supplied reason="lost"><expan><abbr>r</abbr><ex>ra</ex></expan></supplied> &amp;lt;l=I&amp;gt;<expan><abbr>ev</abbr><ex>is</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> Mode<expan><ex>s</ex><abbr>to</abbr></expan> <expan><abbr>vet</abbr><ex>erano</ex></expan> le<lb break="no" n="7"/><supplied reason="lost"><expan><abbr>g</abbr><ex>ionis</ex></expan> I</supplied> <expan><abbr>ad</abbr><ex>iutricis</ex></expan> <expan><abbr>Se</abbr><ex>verianae</ex></expan> et <expan><abbr>Aur</abbr><ex>eliae</ex></expan> S&amp;lt;c=G&amp;gt;enu<expan><ex>a</ex><abbr>e</abbr></expan> m<lb break="no" n="8"/><supplied reason="lost"><expan><abbr>atr</abbr><ex>i</ex></expan></supplied> vi<expan><ex>v</ex><abbr>us</abbr></expan> vivis <expan><abbr>par</abbr><ex>entibus</ex></expan> suis <lb n="9"/><gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <expan><abbr>po</abbr><ex>suit</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>Auf dem rechten Rahmen des Inschriftfeldes eine Efeuranke. Lesung nach G. Alföldy. (B): Tóth, AE 1972, RIU, AE 2004: abweichende Textwiedergaben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1972, 0439. (B)</bibl><bibl>AE 2004, 1167. (B)</bibl><bibl>RIU 1407; Abb. 1407 (Foto u. Zeichnung). (B)</bibl><bibl>I. Tóth, AnMusAgri 8/9, 1972, 48-49, Nr. 2; 2 ábra. (B) - AE 1972.</bibl><bibl>G. Alföldy, SpNov 18, 2004, 19-20, Nr. 19. - AE 2004.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

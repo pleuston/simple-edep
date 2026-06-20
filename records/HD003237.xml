@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Rusellae &amp;ndash; Roselle (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003237</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003237</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Grosseto, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>(32)</height><width>(20)</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.1</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413288">Rusellae</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0151" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 151 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1966"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roselle</placeName><placeName type="findspot">Forum, "Vano Statue"</placeName><placeName type="region">Toscana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003237_1" sex="M"><persName><name type="praenomen">Cn.+</name><name type="nomen">A[---]</name><name type="cognomen">C[---]?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-04-08" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr><supplied reason="lost">C</supplied>n</abbr><ex>aeo</ex></expan> A<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>Arn</abbr><ex>ensi</ex></expan> <expan><abbr>C</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>pr</abbr><ex>aetori</ex></expan> Etr<supplied reason="lost">uriae</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>curio<supplied reason="lost">ni</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><expan><abbr>tr</abbr><ex>ibuno</ex></expan> m<supplied reason="lost"><expan><abbr>il</abbr><ex>itum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="6"/>qu<supplied reason="lost"><expan><abbr>aest</abbr><ex>ori</ex></expan>? <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>5 aneinaderpassende Fragmente erhalten. Z. 2 (Ende): statt C auch G, O oder Q möglich. (B): AE 1980: Z. 2 (Ende): C(?) nicht angegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0460. (B)</bibl><bibl>V. Saladino, ZPE 39, 1980, 234-236, Nr. 27; Taf. 11, 27. - AE 1980.</bibl><bibl>AE 1998, 0459.</bibl><bibl>S. Conti, SupplIt 16 (Roma 1998) 134-135, Nr. 42; Foto. - AE 1998.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

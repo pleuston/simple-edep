@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Canusium &amp;ndash; Canosa di Puglia (Apulia et Calabria (Regio II))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001956</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001956</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ipogeo Lagrasta, Garten</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>50</height><width>59</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Apulia et Calabria (Regio II)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/442525">Canusium</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1972"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Canosa di Puglia</placeName><placeName type="findspot">Contrada Donna Giovannella</placeName><placeName type="region">Bari</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001956_1" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Baebius</name><name type="cognomen">Anoptes</name></persName></person><person xml:id="HD001956_2" sex="W"><persName><name type="nomen">Antonia</name><name type="cognomen">Chreste</name></persName></person><person xml:id="HD001956_3" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Baebius</name><name type="cognomen">Hilarus</name></persName></person><person xml:id="HD001956_4" sex="W"><persName><name type="nomen">Antonia</name><name type="cognomen">Calityche</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-15" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>A</abbr><ex>ulus</ex></expan> Baebius <expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> <lb n="2"/>Anoptes <lb n="3"/>Antonia |(mulieris) <expan><abbr>l</abbr><ex>iberta</ex></expan> Chreste <lb n="4"/><expan><abbr>A</abbr><ex>ulus</ex></expan> Baebius <expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> <lb n="5"/>Hilarus <lb n="6"/>Antonia |(mulieris) <expan><abbr>l</abbr><ex>iberta</ex></expan> <lb n="7"/>Calityche
+            </ab></div>
+            <div type="commentary">
+                <p>Zahlreiche Zeugnisse für gens Baebia in Canusium; dort auch gens Antonia in severischer Zeit bezeugt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0244.</bibl><bibl>M. Chelotti - R. Gaeta - V. Morizio - M. Silvestrini, in: Atti del Colloquio Internazionale AIEGL su Epigrafia e Ordine Senatorio I, Roma 1981 (Roma 1982) 561-563, Nr. 2; tav. 5, 3. - AE 1984.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

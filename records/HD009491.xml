@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tomi &amp;ndash; Constanţa (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009491</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009491</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Constanţa, Muz. Ist. Naţ. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material>Gesteine</material><dimensions unit="cm"><height>175</height><width>(53)</width><depth>35</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217016">Tomi</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/680963">Constanţa</placeName><placeName type="findspot">{große Basilica}, bei</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009491_1" sex="M"><persName><name type="nomen">Ulpius+</name><name type="cognomen">Hortensius</name></persName></person><person xml:id="HD009491_2" sex="M"><persName><name type="nomen">Ulpius</name><name type="cognomen">Balimber</name></persName></person><person xml:id="HD009491_3" sex="W"><persName><name type="nomen">Cocceia</name><name type="cognomen">Hortensia</name></persName></person><person xml:id="HD009491_4" sex="M"><persName><name type="nomen">Cocceius</name><name type="cognomen">Hortensius</name></persName></person><person xml:id="HD009491_5" sex="M"><persName><name type="nomen">Ulpius</name><name type="cognomen">Balimber+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-08-15" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">U</supplied>lpius Hor<lb break="no" n="2"/>tensius <expan><abbr>vix</abbr><ex>it</ex></expan> <lb n="3"/><expan><abbr>an</abbr><ex>nos</ex></expan> XX et Ul<lb break="no" n="4"/>pius Balimber <lb n="5"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XVIII <lb n="6"/>Cocceia Hor<lb break="no" n="7"/>tensia Coccei <lb n="8"/>Hortensi |(centurionis) <lb n="9"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <expan><abbr>Cl</abbr><ex>audiae</ex></expan> <expan><abbr>fil</abbr><ex>ia</ex></expan> <lb n="10"/>Ulpi Balim<supplied reason="lost">beris</supplied> <lb n="11"/>principis l<supplied reason="lost"><expan><abbr>eg</abbr><ex>ionis</ex></expan> I</supplied> <lb n="12"/><expan><abbr>Italic</abbr><ex>ae</ex></expan> ux<supplied reason="lost">or</supplied> <lb n="13"/>fili<expan><ex>i</ex><abbr>s</abbr></expan> piiss<supplied reason="lost">imis</supplied> <lb n="14"/><expan><abbr>fec</abbr><ex>it</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Altarform mit hexagonalem Querschnitt. (B): Rădulescu: Z. 14: fe(cit?) c[(uravit?)]. Tatsächlich folgt C mit einem Abstand auf FE.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 1003.</bibl><bibl>A. Rădulescu, StCercIstorV 14, 1963, 97-98, Nr. 15; fig. 15. (B) - AE 1988.</bibl><bibl>IScM 2, 260; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription? from Thamugadi &amp;ndash; Timgad (Numidia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002955</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002955</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>103</height><width>(160)</width><depth>29</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">15</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Numidia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/334636">Thamugadi</placeName></origPlace><origDate><origDate notBefore-custom="0158" notAfter-custom="0159" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">158 AD - 159 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1940"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern" ref="http://www.geonames.org/2476409">Timgad</placeName><placeName type="findspot">Forum u. byzantin. Festung, sekundär verwendet</placeName><placeName type="region">Batna</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002955_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="praenomen">T.+</name><name type="nomen">Aelius+</name><name type="cognomen">Hadrianus+ Antoninus+</name></persName></person><person xml:id="HD002955_2" sex="M"><persName><name type="praenomen">L.+</name><name type="nomen">Matuccius+</name><name type="cognomen">Fuscinus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-15" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>Caes</abbr><ex>are</ex></expan> divi Hadriani <expan><abbr>fil</abbr><ex>io</ex></expan> divi</supplied> Traiani nepo<supplied reason="lost">te</supplied> <lb n="2"/><supplied reason="lost">divi Nervae pronepote <expan><abbr>T</abbr><ex>ito</ex></expan> Aelio H</supplied>adriano Ant<supplied reason="lost">oni</supplied><lb break="no" n="3"/><supplied reason="lost">no <expan><abbr>Aug</abbr><ex>usto</ex></expan> Pio <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> IIII tribunicia</supplied>e potestatis X<supplied reason="lost" cert="low">XI</supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>L</abbr><ex>ucius</ex></expan> Matuccius Fuscinus <expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> de</supplied><expan><abbr>sig</abbr><ex>natus</ex></expan> <expan><abbr>patr</abbr><ex>onus</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>d</abbr><ex>edicavit</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>p</abbr><ex>ublica</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Ursprünglich mehr als 6 m lang. CIL 8, 2376 um ein in der byzantin. Festung im Jahr 1940 gefundenes Fragment ergänzt; CIL 8, 2376 wurde 1962 wiedergefunden. (B) :Z.1: nep[ote]; Z.2: Ant[onino]. Y: Tribunicia potestas Angabe unvollständig. Material: bläulicher Kalkstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0877b. (B)</bibl><bibl>M. Le Glay - S. Tourrenc, AntAfr 21, 1985, 120-121, Nr. 5,2; Zeichnung. (B) - AE.</bibl><bibl>CIL 08, 02376.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

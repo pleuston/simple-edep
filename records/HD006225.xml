@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Herculaneum &amp;ndash; Ercolano (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006225</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006225</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>36</height><width>530</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9.2-7.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/432873">Herculaneum</placeName></origPlace><origDate><origDate notBefore-custom="0075" notAfter-custom="0076" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">75 AD - 76 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Ercolano</placeName><placeName type="findspot"/><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006225_1"><persName ref="https://www.wikidata.org/wiki/Q1419"><name type="cognomen">Vespasianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2002-08-13" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> C<supplied reason="lost">aesar V</supplied>espa<supplied reason="lost">sianu</supplied>s <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <supplied reason="lost">V</supplied>II i<supplied reason="lost"><expan><abbr>mp</abbr><ex>erator</ex></expan> XVII</supplied> <supplied reason="lost"><expan><abbr>p</abbr><ex>ater</ex></expan></supplied> <expan><abbr>p</abbr><ex>atriae</ex></expan> c<supplied reason="lost"><expan><abbr>o</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> VII <expan><abbr>des</abbr><ex>ignatus</ex></expan> VIII censor</supplied> <lb n="2"/>C<gap reason="lost" extent="unknown" unit="character"/>GE<gap reason="lost" extent="unknown" unit="character"/> municipi<supplied reason="lost">o</supplied> He<supplied reason="lost">rc</supplied>ulane<supplied reason="lost">nsium</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Textwiedergabe nach G. Alföldy. Die angegebenen Maße beziehen sich auf die rekonstruierte Gesamtgröße. (B): Horster, Guadagno: abweichende Textwiedergabe/ Rekonstruktion.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0170.</bibl><bibl>G. Guadagno, CronErc 8, 1978, 134-136, Nr. 2. - AE 1979.</bibl><bibl>AE 1996, 0408.</bibl><bibl>G. Guadagno, in: Colloquium, Boscoreale 1993 (München 1995) 119-122; fig. 2 (Zeichnung). - AE 1996.</bibl><bibl>M. Horster, Bauinschriften römischer Kaiser (Stuttgart 2001) 80. 283, Nr. Ib 3, 2. (B)</bibl><bibl>G. Alföldy, Epigraphica 64, 2002, 140.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

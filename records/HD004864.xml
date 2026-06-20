@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Callatis, bei &amp;ndash; Cobadin, bei (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004864</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004864</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Constanţa, Muz. Ist. Naţ. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(18)</height><width>(18)</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216744">Callatis, bei</placeName></origPlace><origDate><origDate notBefore-custom="0098" notAfter-custom="0117" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">98 AD - 117 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1976"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/681257">Cobadin, bei</placeName><placeName type="findspot"/><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-11-02" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> a lapide quadragensimo et secundo <gap reason="lost" extent="unknown" unit="character"/></supplied>rs<supplied reason="lost">u</supplied>m rig<supplied reason="lost">ore recto <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> ad lapidem quadrage</supplied>nsimum tertium <supplied reason="lost"><expan><abbr>p</abbr><ex>edes</ex></expan> <gap reason="lost" quantity="1" unit="character"/> a lapide qua</supplied><lb break="no" n="3"/><supplied reason="lost">dragensimo et tertio rigore recto ad lapidem</supplied> quadragensi<supplied reason="lost">mum et quartum <expan><abbr>p</abbr><ex>edes</ex></expan> <expan><abbr>I</abbr><ex>mille</ex></expan></supplied> <lb n="4"/><supplied reason="lost">a lapide quadragensimo et quarto rigore rect</supplied>o ad lapidem qu<supplied reason="lost">adragensimum</supplied> <lb n="5"/><supplied reason="lost">et quintum <expan><abbr>p</abbr><ex>edes</ex></expan> <expan><abbr>I</abbr><ex>mille</ex></expan> a lapide quadragensimo et quint</supplied>o rigore recto <supplied reason="lost">ad lapidem qua</supplied><lb break="no" n="6"/><supplied reason="lost">dragensimum et sextum qui est in flexu inter <gap reason="lost" extent="unknown" unit="character"/></supplied>mylen et P<supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>p</abbr><ex>edes</ex></expan> <gap reason="lost" quantity="1" unit="character"/> a</supplied> <lb n="7"/><supplied reason="lost">lapide quadragensimo et sexto <gap reason="lost" extent="unknown" unit="character"/> ad la</supplied>pidem qu<supplied reason="lost">adragensimum et</supplied> <lb n="8"/><supplied reason="lost">septimum <expan><abbr>p</abbr><ex>edes</ex></expan> <gap reason="lost" quantity="1" unit="character"/> a lapide quadragensimo et septimo rig</supplied>ore r<supplied reason="lost">ecto ad lapidem qua</supplied><lb break="no" n="9"/><supplied reason="lost">dragensimum et octavum qui est in flexu inter <gap reason="lost" extent="unknown" unit="character"/></supplied>n Pyrg[on et ------
+            </ab></div>
+            <div type="commentary">
+                <p>Verzeichnis der Meilensteine von Callatis; weitere Fragmente von verschiedenen Fassungen des Verzeichnisses: AE 1993, 1372 B = AE 1896, 69 = CIL III 13214, 33; AE 1993, 1372 C = AE 1963, 0176bis. (B): Bărbulescu-Munteanu; AE 1978; IScM III; Avram: Abweichungen in der Lesung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0717. (B)</bibl><bibl>M. Bărbulescu-Munteanu, Pontica 11, 1978, 127-132, Nr. 1; Foto; fig. 1 (Zeichnung). (B) - AE 1978.</bibl><bibl>AE 1993, 1372E.</bibl><bibl>A. Avram, Dacia 35, 1991, 113-114, Nr. E. (B) - AE 1993.</bibl><bibl>IScM 3, 055; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

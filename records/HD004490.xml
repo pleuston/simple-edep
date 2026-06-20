@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004490</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004490</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>190</height><width>74</width><depth>36</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="-0013" notAfter-custom="0043" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">13 BC - 43 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1966"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Saarstraße}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004490_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Tallius</name><name type="cognomen">Priscus</name></persName></person><person xml:id="HD004490_2" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Atilius</name><name type="cognomen">Crispus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-01-17" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017166" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/26dee11d-0a27-4cab-b497-571d4b9f6a2a/file/id/776772/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Tallius <lb n="2"/><expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>Fab</abbr><ex>ia</ex></expan> Pris<lb break="no" n="3"/>cus vetera<lb break="no" n="4"/>nus ex <expan><abbr>leg</abbr><ex>ione</ex></expan> XIIII <lb n="5"/><expan><abbr>gem</abbr><ex>ina</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>rum</ex></expan> <lb n="6"/>XLIIX <expan><abbr>stip</abbr><ex>endiorum</ex></expan> XXVII <lb n="7"/>vexsillo <note>sic</note> <expan><abbr>P</abbr><ex>ubli</ex></expan> Atili <lb n="8"/>Crispi <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="9"/>frater pro pi<lb break="no" n="10"/>etate pos<expan><ex>u</ex><abbr>it</abbr></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb der Inschrift Lot, Winkelmaß und Zirkel oder Stichmeißel; über den Giebelschrägen zwei Delphine. (B): AE 1979: Z. 7: vex[s]illo.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0433. (B)</bibl><bibl>P. Herz, MZ 73/74, 1978/79, 285-286, Nr. 19; Taf. 53, 19. - AE 1979.</bibl><bibl>U. Schillinger-Häfele, BRGK 58, 1977, 502, Nr. 88.</bibl><bibl>W. Boppert, Militärische Grabdenkmäler aus Mainz und Umgebung, CSIR Deutschland 2, 5 (Mainz 1992) 228-229, Nr. 117; Tafel 85.</bibl><bibl>W. Selzer, Römische Steindenkmäler. Mainz in römischer Zeit. Katalog zur Sammlung in der Steinhalle (Mainz 1988) 129, Nr. 32; Foto; Abb. 21.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

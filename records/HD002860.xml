@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vada Sabatia &amp;ndash; Finale Ligure (Liguria (Regio IX))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002860</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002860</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Finale Ligure, Pieve, Krypta</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Marmor, geädert / farbig</material><dimensions unit="cm"><height>43</height><width>(52)</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Liguria (Regio IX)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/383808">Vada Sabatia</placeName></origPlace><origDate><origDate when-custom="0517" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">517 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1946"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Finale Ligure</placeName><placeName type="findspot">Pieve, sekundär verwendet</placeName><placeName type="region">Liguria</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002860_1" sex="W"><persName><name type="cognomen">Paula</name></persName></person><person xml:id="HD002860_2" sex="M"><persName><name type="cognomen">Agapitus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-01-18" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Par do<supplied reason="lost" cert="low">lor</supplied> in na<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>grat<supplied reason="lost">i</supplied>a tu superas <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">requ</supplied>iesc<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>a <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ex</supplied>tremisqu<supplied reason="lost">e</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><expan><abbr>dI</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/>nt medio te Paula <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><expan><abbr>depo</abbr><ex>sita</ex></expan> <expan><abbr>d</abbr><ex>ie</ex></expan> II <expan><abbr>Kal</abbr><ex>endas</ex></expan> <expan><abbr>Mai</abbr><ex>as</ex></expan> Agapi<supplied reason="lost" cert="low">to v(iro) c(larissimo) co(n)s(ule)</supplied> <lb n="6"/>bisit <note>sic</note> annos <note>sic</note> I m<supplied reason="lost">enses</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>14 größtenteils aneinanderpassende Fragmente erhalten. Ursprüngliche Breite: ca. 75 cm. Material: grau geäderter Marmor. (B): Lamboglia: Z. 2: grat[ia] tu superas [J]hesu [---]; AE 1984: Z. 4 (Anfang): d[3]nt; Lamboglia: Z. 4: di[--- a]ninredio [f]ilia la[---]; AE 1984: Z. 6: annos VI. Zeilen 1-4 mit Metrum komponiert.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0422. (B)</bibl><bibl>G. Mennella, SupplIt 2 (Roma 1983) 209-210, Nr. 8; Foto. - AE 1984.</bibl><bibl>N. Lamboglia, RSL 22, 1956, 226-231. (B) - AE 1984.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

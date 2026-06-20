@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription? from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004138</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004138</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, S. Agnese</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(62)</height><width>(29)</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-3.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0150" notAfter-custom="0160" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">150 AD - 160 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">S. Agnese, Coemeterium</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004138_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Cassius+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-07-31" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010854" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c7a94b28-30c7-4fed-965d-2ee7571e8bdf/file/id/770374/file_version/name/small"/><graphic xml:id="F042969" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9036d514-8614-4e7e-b9e3-98275f55a1eb/file/id/804076/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> Men<supplied reason="lost"><expan><abbr>en</abbr><ex>ia</ex></expan></supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> Cassi<supplied reason="lost">o</supplied> <lb n="3"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex></expan></supplied><expan><abbr>s</abbr><ex>uli</ex></expan> pont<supplied reason="lost"><expan><abbr>if</abbr><ex>ici</ex></expan></supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> pro</supplied><expan><abbr>v</abbr><ex>inciae</ex></expan> <expan><abbr>Belgic</abbr><ex>ae</ex></expan> <lb n="5"/><supplied reason="lost" cert="low">leg(ato) leg(ionis)</supplied><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">p</supplied>r</abbr><ex>aetori</ex></expan> <expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>pl</abbr><ex>ebis</ex></expan> <lb n="6"/><supplied reason="lost"><expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>prov</abbr><ex>inciae</ex></expan> Asi</supplied>ae <expan><abbr>q</abbr><ex>uaestori</ex></expan> <expan><abbr>urb</abbr><ex>ano</ex></expan> <lb n="7"/><supplied reason="lost"><expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>laticl</abbr><ex>avio</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> VI</supplied> <expan><abbr>victric</abbr><ex>is</ex></expan> <supplied reason="lost">in <expan><abbr>prov</abbr><ex>incia</ex></expan> Britanni</supplied><expan><abbr>a</abbr><ex cert="low"/></expan> <lb n="8"/>Xviro <lb n="9"/><supplied reason="lost"><expan><abbr>stlitib</abbr><ex>us</ex></expan> iudica</supplied><expan><abbr>nd</abbr><ex>is</ex></expan> <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>o et <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Ferrua, AE 1980: abweichende Textwiedergabe und Ergänzungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0117. (B)</bibl><bibl>A. Ferrua, RAL 35, 1980, 91, Nr. 28; tav. 3,2. (B) - AE 1980.</bibl><bibl>CIL 06, 41104; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

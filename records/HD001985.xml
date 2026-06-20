@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Aelia Capitolina &amp;ndash; Jerusalem (Iudaea)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001985</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001985</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(110)</height><width>97</width><depth>34</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">12-9.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Iudaea</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/687928">Aelia Capitolina</placeName></origPlace><origDate><origDate notBefore-custom="0198" notAfter-custom="0209" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">198 AD - 209 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1969"><placeName type="country" ref="https://www.geonames.org/294640">Isreal</placeName><placeName type="modern">Jerusalem</placeName><placeName type="findspot">Tempelberg, sekundär verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001985_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="praenomen">L.+</name><name type="nomen">Septimius+*</name><name type="cognomen">Severus+ Pertinax+</name></persName></person><person xml:id="HD001985_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Antoninus+</name></persName></person><person xml:id="HD001985_3" sex="M"><persName ref="https://www.wikidata.org/wiki/Q183089"><name type="praenomen">L.+</name><name type="nomen">Septimius+</name><name type="cognomen">Geta+</name></persName></person><person xml:id="HD001985_4" sex="W"><persName><name type="nomen">Iulia</name></persName></person><person xml:id="HD001985_5" sex="W"><persName><name type="nomen">Fulvia+?</name><name type="cognomen">Plautilla+?</name></persName></person><person xml:id="HD001985_6" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD001985_7" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-06-11" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>L</abbr><ex>ucio</ex></expan> Septimio Severo Pio Pertinaci <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>Arab</abbr><ex>ico</ex></expan></supplied> <expan><abbr>Adiab</abbr><ex>enico</ex></expan> <expan><abbr>Parth</abbr><ex>ico</ex></expan> <lb n="2"/><supplied reason="lost"><expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>imp</abbr><ex>eratori</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> III <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> et <expan><abbr>Imp</abbr><ex>eratori</ex></expan></supplied> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> <lb n="3"/><supplied reason="lost">Antonino <expan><abbr>Aug</abbr><ex>usto</ex></expan> et <expan><abbr>L</abbr><ex>ucio</ex></expan> Septimio Getae nobilissimo <expan><abbr>Caes</abbr><ex>ari</ex></expan></supplied> et Iuliae <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <lb n="4"/><supplied reason="lost">matri castorum<certainty locus="name" match="preceding-sibling::text()" cert="low"/> et<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Fulviae<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Plautillae<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>Aug</abbr><ex>ustae</ex></expan>? <expan><abbr>col</abbr><ex>onia</ex></expan> Ael</supplied>ia <expan><abbr>Kap</abbr><ex>itolina</ex></expan> Commo<lb break="no" n="5"/><supplied reason="lost" cert="low">diana Pia? Felix? prop</supplied>rio sumptu <lb n="6"/><supplied reason="lost" cert="low">fecit dedicante</supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"><expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Augg</abbr><ex>ustorum</ex></expan> pro</supplied> <expan><abbr>pr</abbr><ex>aetore</ex></expan> curante <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Die Inschrift verlief ursprünglich wohl über mehrere Tafeln hinweg und stammt nach Cotton - Eck möglicherweise von einem Ehrenbogen. Lesung und Ergänzungen nach Cotton - Eck. Rekonstruierte Breite der Inschrift: circa 6 m. (B): Lifshitz: Z. 1 u. 2 nicht wiedergegeben; Avi-Yonah, AE 1984, Lifshitz: Z. 5: [---]I [---] sumptu; Lifshitz: Z. 6: [---]FR curante. Datierung: vermutlich vor der Erhebung Getas zum Augustus; falls Plautilla genannt war, zwischen 202 und 205 n. Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0914. (B)</bibl><bibl>AE 1997, 1562.</bibl><bibl>M. Avi-Yonah, in: B. Mazar - M. Avi-Yonah, The excavations in the old city of Jerusalem (Jerusalem 1969) 22-24; pl. 12, 6. (B) - AE 1984. 1997.</bibl><bibl>B. Lifshitz, ANRW 2, 8 (Berlin - New York 1977) 485-486. (B)</bibl><bibl>H. M. Cotton - W. Eck, in: E. Dąbrowa (Hrsg.), Donum amicitiae. Studies in history published on occasion of the 75th anniversary of foundation of the Department of Ancient History of the Jagiellonian University (Kraków 1997) 11-20; Taf. 1. - AE 1997.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

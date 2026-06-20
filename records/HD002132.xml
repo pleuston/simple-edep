@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Augusta Treverorum &amp;ndash; Trier (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002132</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002132</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Trier, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Belgica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108894">Augusta Treverorum</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1913"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2821164">Trier</placeName><placeName type="findspot">Marstempel vor dem Balduinshäuschen</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002132_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Serotinius</name><name type="cognomen">Iustus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-06-27" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F026730" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0d8798c9-3d90-49f6-96cc-bb33497b9d81/file/id/787483/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">I</supplied>n <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> Marti <lb n="2"/>et Ancamnae <lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> Serotinius <lb n="4"/>Iustus ex voto <lb n="5"/>posuit
+            </ab></div>
+            <div type="commentary">
+                <p>Von demselben Dedikanten und Fundort stammt Finke, BRGK 17, 1927, 4, Nr. 13 (von AE nicht aufgenommen). Diese Weihung gilt zusätzlich dem Genius pagi. Dedikant keltischer Herkunft.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1915, 0071.</bibl><bibl>C. Jullian, REA 17, 1915, 70. - AE 1915.</bibl><bibl>AE 1916, 0027.</bibl><bibl>A. Héron de Villefosse, BSAF 1915, 186-190, Nr. 2. - AE 1916.</bibl><bibl>AE 1985, 0680.</bibl><bibl>H. Merten, TZ 48, 1985, 47-48. - AE 1985.</bibl><bibl>H. Finke, BRGK 17, 1927, 4, Nr. 12. - AE 1985.</bibl><bibl>W. Binsfeld - K. Goethert-Polaschek - L. Schwinden, Katalog der römischen Steindenkmäler des Rheinischen Landesmuseums Trier. 1. Götter- und Weihedenkmäler, CSIR Deutschland 4, 3 (Mainz 1988) 102, Nr. 194; Taf. 50, 194.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

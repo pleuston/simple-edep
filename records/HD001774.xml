@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001774</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001774</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Alba Iulia, katholischer Bischofssitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(46)</height><width>(43)</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1961"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot">Festung, {S. Michael, katholische Kathedrale}, sekundär verwendet</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001774_1" sex="M"><persName ref="http://romans1by1.com/rpeople/11512"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD001774_2" sex="M"><persName ref="http://romans1by1.com/rpeople/11513"><name type="cognomen">[---]us</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-03-11" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005166" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d28d14ac-a264-45f6-85f9-7f38f86ea928/file/id/765943/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>NI</abbr><ex cert="low"/></expan><supplied reason="lost" cert="low">-? domo</supplied> <lb n="2"/>Siscia <supplied reason="lost">mil</supplied><lb break="no" n="3"/>es <expan><abbr>leg</abbr><ex>ionis</ex></expan> X<supplied reason="lost">III <expan><abbr>g</abbr><ex>eminae</ex></expan></supplied> <lb n="4"/>posuit <gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="5"/>us <expan><abbr>eq</abbr><ex>ues</ex></expan> <supplied reason="lost">bene</supplied> <lb n="6"/>mer<supplied reason="lost">enti</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 1: nur die untere Hälfte der Buchstaben erhalten. Berciu - Popa, Apulum; AE 1965; Berciu - Popa, in: Bibauw (Hrsg.), Hommages; AE 1972 ordnen das Fragment zusammen mit AE 1982, 826a = IDR 3, 5, 482) irrtümlich einer einzigen Inschrift zu. (B): Berciu - Popa, Apulum; AE 1965; Berciu - Popa, in: Bibauw (Hrsg.), Hommages; Russu; AE 1980; Forni; AE 1982: Lesung abweichend / unvollständig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0826b. (B)</bibl><bibl>G. Forni, ZPE 46, 1982, 190, Nr. 2. (B) - AE 1982.</bibl><bibl>AE 1980, 0747. (B)</bibl><bibl>I.I. Russu, RevMuz 17, 9, 1980, 42, Nr. 12; fig. 12 (Foto u. Zeichnung). (B) - AE 1980.</bibl><bibl>AE 1972, 0458.</bibl><bibl>I. Berciu - A. Popa, in: J. Bibauw (Hrsg.), Hommages à Marcel Renard 2 (Bruxelles 1969) 78-81, Nr. 3; pl. 6, 3b. (B) - AE 1972.</bibl><bibl>AE 1965, 0035. (B)</bibl><bibl>I. Berciu - A. Popa, Apulum 5, 1964, 195-197, Nr. 12; fig. 11. (B) - AE 1965.</bibl><bibl>C. Ciongradi, Grabmonument und sozialer Status in Oberdakien (Cluj-Napoca 2007) 173-174, Nr. S/A 47; Taf. 49.</bibl><bibl>IDR 3, 5, 624; Foto u. Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

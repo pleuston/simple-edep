@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Colonia Augusta Aroe Patrae Naupactus &amp;ndash; Náfpaktos (Achaia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004440</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004440</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><width>56</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Achaia</placeName><placeName type="ancient" ref="#">Colonia Augusta Aroe Patrae Naupactus</placeName></origPlace><origDate><origDate notBefore-custom="-0030" notAfter-custom="0030" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC - 30 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1972"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern" ref="http://www.geonames.org/256639">Náfpaktos</placeName><placeName type="findspot">Basilika, altchristliche, sekundär verwendet</placeName><placeName type="region">Dytikí Elláda</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004440_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Maedius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-02-09" who="Cowey">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> Maedio <expan><abbr>P</abbr><ex>ubli</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Qui</abbr><ex>rina</ex></expan> <expan><abbr>vet</abbr><ex>erano</ex></expan></supplied> <lb n="2"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XII f<supplied reason="lost"><expan><abbr>ulm</abbr><ex>inatae</ex></expan></supplied> <lb n="3"/>ex testamento <supplied reason="lost" cert="low">fieri</supplied><supplied reason="lost">fieri</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(C): Datierung: 1. Jh. (B): Abweichende Textgestaltung am Ende der Z. 3.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0587. (B) (C)</bibl><bibl>M. Šašel Kos, Inscriptiones Latinae in Graecia repertae. Additamenta ad CIL III (Faenza 1979) 109, Nr. 255. (C) - AE 1979.</bibl><bibl>G. Molisani, AD 28 B, 1973, 395. (C) - AE.</bibl><bibl>A.D. Rizakis, Achaïe II. La cité de Patras: épigraphie et histoire (Athènes 1998) 303-304, Nr. 369.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

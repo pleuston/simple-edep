@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Luceria, bei &amp;ndash; Lucera, bei (Apulia et Calabria (Regio II))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000211</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000211</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Lucera, Mus. Civ. ""Giuseppe Fiorelli""</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Gesteine unbestimmt</material><dimensions unit="cm"><height>34</height><width>37</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.3-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Apulia et Calabria (Regio II)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/442640">Luceria, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1968"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Lucera, bei</placeName><placeName type="findspot">Castello Svevo, bei</placeName><placeName type="region">Puglia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000211_1" sex="W"><persName><name type="nomen">Caecilia</name><name type="cognomen">Pyrallis</name></persName></person><person xml:id="HD000211_2" sex="M"><persName><name type="cognomen">Birro</name></persName></person><person xml:id="HD000211_3" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Laelius</name><name type="cognomen">Donatus</name></persName></person><person xml:id="HD000211_4" sex="W"><persName><name type="nomen">Caecilia</name><name type="cognomen">Felicula</name></persName></person><person xml:id="HD000211_5" sex="W"><persName><name type="nomen">Caecilia</name><name type="cognomen">Faustilla</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-06" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Caeciliae Birronis <lb n="2"/><expan><abbr>l</abbr><ex>ibertae</ex></expan> Pyrallidi <lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Laelius <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> Donatus <lb n="4"/>et Caecilia Felicula et <lb n="5"/>Caecilia Faustilla <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <expan><abbr>f</abbr><ex>ecerunt</ex></expan> <lb n="6"/>in <expan><abbr>fr</abbr><ex>onte</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> XII <lb n="7"/>in <expan><abbr>agr</abbr><ex>o</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>p</abbr><ex>edes</ex></expan> XII
+            </ab></div></div>
+            <div type="commentary">
+                <p>Buchstaben mit Ruß nachgezogen. (B): in fr(onte) in agr(o) p(edes) XII statt in fr(onte) p(edes) XII in agr(o) p(edes) XII. Sistrum auf Stein deutet wohl auf Verbindung der Genannten zum Isis-Kult hin.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0230.</bibl><bibl>M. Bàlice, ASP 34, 1981, 19-20, Nr. 20; Foto. (B) - AE 1983.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

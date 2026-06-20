@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Castiglione della Pescáia (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005117</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005117</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Castiglione della Pescáia</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-04-14" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F015970" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5bbe258b-460e-4045-a0d6-63465e011119/file/id/775548/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Me</abbr><ex>mento</ex></expan> <expan><abbr>mo</abbr><ex>ri</ex></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> Felicitati <lb n="3"/><expan><abbr><supplied reason="lost">c</supplied>o</abbr><ex>n</ex>iugi</expan> <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <expan><abbr>dul</abbr><ex>cissimae</ex></expan> <lb n="4"/><supplied reason="lost">m</supplied>atri filiorum <lb n="5"/><supplied reason="lost"><expan><abbr>v</abbr><ex>ixit</ex></expan></supplied> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> L <expan><abbr>m</abbr><ex>enses</ex></expan> III <lb n="6"/><expan><abbr>d</abbr><ex>ies</ex></expan> X Agapome<lb break="no" n="7"/>nus <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> <expan><abbr>ver</abbr><ex>na</ex></expan> <lb n="8"/><expan><abbr>fec</abbr><ex>i</ex></expan> <expan><abbr>q</abbr><ex>uae</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> mec<supplied reason="lost">um</supplied> <lb n="9"/><expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXXV <expan><abbr>m</abbr><ex>enses</ex></expan> XI <lb n="10"/><expan><abbr>d</abbr><ex>ies</ex></expan> X cum fide et <lb n="11"/>castitate
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0431.</bibl><bibl>V. Saladino, ZPE 38, 1980, 159, Anm. 6. - AE 1980.</bibl><bibl>C.B. Curri, Vetulonia, Forma Italiae, Regio VII 5, 1 (Firenze 1978) 174. - AE 1980.</bibl><bibl>AE 1974, 0323. (B)</bibl><bibl>A. Mazzolai, MDAI(R) 66, 1959, 216-217; Taf. 61, 1. (BC) - AE 1974.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

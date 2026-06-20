@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Petronell-Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004585</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004585</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Deutsch-Altenburg, Arch. Mus. Carnuntinum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>176</height><width>70</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.0-6.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0097" notAfter-custom="0101" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">97 AD - 101 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="findspot">{Gräberstraße}</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004585_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Comagius+</name><name type="cognomen">Severinus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-17" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004356" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b6992600-5d7f-47b8-bd1d-a90dd45645d5/file/id/765118/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Comagiu<supplied reason="lost">s <gap reason="lost" quantity="1" unit="character"/> <expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <lb n="2"/><expan><abbr>Vol</abbr><ex>tinia</ex></expan> Sever<supplied reason="lost"><expan><abbr>in</abbr><ex>us</ex></expan></supplied> <lb n="3"/><expan><abbr>Aven</abbr><ex>nione</ex></expan> <expan><abbr>mil</abbr><ex>es</ex></expan> l<supplied reason="lost"><expan><abbr>eg</abbr><ex>ionis</ex></expan></supplied> <lb n="4"/>XIIII <expan><abbr>g</abbr><ex>eminae</ex></expan> <expan><abbr>M</abbr><ex>artiae</ex></expan> <expan><abbr>v</abbr><ex>ictricis</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> <lb n="5"/>XXXIX <expan><abbr>stip</abbr><ex>endiorum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <expan><abbr>t</abbr><ex>estamento</ex></expan> <expan><abbr>f</abbr><ex>ieri</ex></expan> <expan><abbr>i</abbr><ex>ussit</ex></expan> <lb n="7"/><expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Mehrere, aneinanderpassende Fragmente. Im Giebelfeld Volutenkrater mit Ranken. Zeile 1: O klein in C eingeschrieben, MA-Ligatur. Zeile 2: VE-Ligatur. Betz: Teilpublikation der Inschrift. (B): AE 1978; Vorbeck; Genser: Z. 1: Comag[ius]; Z. 6: AE 1978; Vorbeck; Krüger; Genser: [e(st) t(estamento)]; Mosser: Z. 1: Comag[ius---]; Z. 2: Seve[rinus]; Z. 6: [e(st) t(estamento)]. Hild: Abweichungen in Lesung/Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0629. (B)</bibl><bibl>E. Vorbeck, Freilichtmuseum Carnuntum. Lapidarium (Wien 1971) 11, Nr. 21. - AE 1978.</bibl><bibl>A. Betz, JŒAI (Beibl.) 29, 1935, 305, Nr. 197. - AE 1978.</bibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Niederösterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 105-106, Nr. 159. (B)</bibl><bibl>M.-L. Krüger, Die Reliefs des Stadtgebietes von Carnuntum 2. Die dekorativen Reliefs, CSIR Österreich 1, 4 (Wien 1972) 15, Nr. 401; Taf. 7, 401. (B)</bibl><bibl>K. Genser, Römische Steindenkmäler aus Carnuntum I (Wien 2005) 18-19.</bibl><bibl>M. Mosser, in: F. Lang - S. Traxler - E.M. Ruprechtsberger - W. Wohlmayer (Hrsg.), Ein kräftiges Halali aus der Römerzeit! Norbert Heger zum 75.</bibl><bibl>Geburtstag (Salzburg 2014) 206, Nr. 4; Abb. 2, Kat. Nr. 4. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

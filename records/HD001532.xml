@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Clastidium, bei &amp;ndash; Casteggio, bei (Aemilia (Regio VIII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001532</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001532</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Economato del Municipio di Voghera</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>(53)</height><width>(69)</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Aemilia (Regio VIII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/383618">Clastidium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1840"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Casteggio, bei</placeName><placeName type="findspot">Redavalle, Gut des sig. Priora</placeName><placeName type="region">Pavia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001532_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Catius</name></persName></person><person xml:id="HD001532_2" sex="M"><persName><name type="cognomen">Tertius</name></persName></person><person xml:id="HD001532_3" sex="W"><persName><name type="nomen">Catia</name><name type="cognomen">Proba</name></persName></person><person xml:id="HD001532_4" sex="W"><persName><name type="cognomen">Maxsuma (= Maxima)</name></persName></person><person xml:id="HD001532_5" sex="W"><persName><name type="nomen">Catia</name><name type="cognomen">Polla Pia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2004-07-26" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>itus</ex></expan> Catius Terti <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/><expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> Catiae <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> <lb n="3"/>Maxsumae <note>sic</note> <expan><abbr>f</abbr><ex>iliae</ex></expan> <lb n="4"/>Probae <lb n="5"/>Catiae <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> Pollae <lb n="6"/>Piae
+            </ab></div>
+            <div type="commentary">
+                <p>Dreieckige Interpunktion. (B): CIL V: Z. 1: L(ucius) Catius.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0363.</bibl><bibl>L. Boffo, RAComo 161, 1979, 191-192. - AE 1982.</bibl><bibl>CIL 05, 07351. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

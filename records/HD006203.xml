@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Iulia Concordia &amp;ndash; Concordia Sagittaria (Venetia et Histria (Regio X))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006203</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006203</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Venetia et Histria (Regio X)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/393441">Iulia Concordia</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3178203">Concordia Sagittaria</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-01-17" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F014429" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/13cc710e-e651-415d-9bba-e31f71f80c22/file/id/773963/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">In</supplied>fans bima iacet bis denis aucta diebus <lb n="2"/><supplied reason="lost">qua</supplied>m nova lux animae servat et alma fides <lb n="3"/><supplied reason="lost">impr</supplied>udens <expan><abbr>corpusq</abbr><ex>ue</ex></expan> decens dulcissima verba <lb n="4"/><supplied reason="lost">con</supplied>det hic tumulus cetera sancta Deus <lb n="5"/><supplied reason="lost">novit</supplied> praecipuo vernans fringylla canore <lb n="6"/><supplied reason="lost">gar</supplied>rulitas pia <expan><abbr>culi</abbr><ex>s</ex></expan> <note>sic</note> sub meliore polo <lb n="7"/><supplied reason="lost">heu</supplied> Tarsilla tuum numen pro nomine ferres <lb n="8"/><supplied reason="lost">att</supplied>amen sanctis sidus habenda tuis <lb n="9"/><expan><abbr>dep</abbr><ex>osita</ex></expan> III <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Iul</abbr><ex>ias</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1976, 0243. (B)</bibl><bibl>P. Cugusi, Per un nuovo corpus dei Carmina Latina Epigraphica. Materiale e discussioni, MAL 22 (Roma 2007) 46-47. 203.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

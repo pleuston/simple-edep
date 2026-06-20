@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Beneventum &amp;ndash; Benevento (Apulia et Calabria (Regio II))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008929</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008929</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Apulia et Calabria (Regio II)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/432721">Beneventum</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Benevento</placeName><placeName type="findspot"/><placeName type="region">Campania</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1997-07-11" who="Scheithauer">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F021857" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7f777ef9-48c9-4853-a65b-82332472872d/file/id/781936/file_version/name/small"/><graphic xml:id="F021858" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6dce458a-158c-40ed-8385-8a34639fb3b1/file/id/781937/file_version/name/small"/><graphic xml:id="F021859" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4cba63cf-6db8-46db-bcc0-29941b410e92/file/id/781938/file_version/name/small"/><graphic xml:id="F021860" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ebc79817-7672-48ce-8556-6570b697ae7c/file/id/781939/file_version/name/small"/><graphic xml:id="F021861" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/da99a7ab-9844-483b-bf86-9982484dc654/file/id/781940/file_version/name/small"/><graphic xml:id="F021876" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/29b42f22-a9ca-45b2-b838-a68b83f9261b/file/id/781955/file_version/name/small"/><graphic xml:id="F021877" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1e89444c-e698-466f-83ab-94dcaf30de64/file/id/781956/file_version/name/small"/><graphic xml:id="F021878" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/51f450b7-cf93-4f32-8dca-69ef4704f93e/file/id/781957/file_version/name/small"/><graphic xml:id="F021875" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7160770c-e01e-43a1-addd-48a817090875/file/id/781954/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Pontio Proserio Paulino <lb n="2"/><expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> <expan><abbr>cons</abbr><ex>ulari</ex></expan> <expan><abbr>Camp</abbr><ex>aniae</ex></expan> <lb n="3"/><supplied reason="lost">p</supplied>atrono originali <lb n="4"/>restitutori suo <lb n="5"/>splendidus ordo <expan><abbr>Cap</abbr><ex>uensium</ex></expan> <lb n="6"/>semper obsecundante <lb n="7"/>etiam eius posteris <lb n="8"/>debita clientela <lb n="9"/>statuam conlocavit
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1972, 0143.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

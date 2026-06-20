@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Gelduba &amp;ndash; Krefeld (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005386</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005386</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Krefeld, Mus. Burg Linn</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(42)</height><width>(71)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-3.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109002">Gelduba</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1977"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2921502">Krefeld</placeName><placeName type="findspot">Gellep-Stratum, {Lager}, bei Hafen</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005386_1" sex="M"><persName><name type="nomen">Albinius</name><name type="cognomen">Gratinus</name></persName></person><person xml:id="HD005386_2" sex="M"><persName><name type="nomen">Albinius</name><name type="cognomen">Albulus</name></persName></person><person xml:id="HD005386_3" sex="M"><persName><name type="nomen">Albinius</name><name type="cognomen">Ursulus</name></persName></person><person xml:id="HD005386_4" sex="M"><persName><name type="nomen">Albinius</name><name type="cognomen">Paternus</name></persName></person><person xml:id="HD005386_5" sex="M"><persName><name type="nomen">Oglannius</name><name type="cognomen">Lubainus</name></persName></person><person xml:id="HD005386_6" sex="M"><persName><name type="nomen">Oglannius+</name><name type="cognomen">Messor</name></persName></person><person xml:id="HD005386_7" sex="M"><persName><name type="nomen">[--]issinius</name><name type="cognomen">Verinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-10-14" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F035083" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2efd8f9e-1c69-439b-b4cb-bd955f6ec688/file/id/795929/file_version/name/small"/><graphic xml:id="F035084" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/841865cb-3f06-4593-9974-165ba33b2a61/file/id/795930/file_version/name/small"/><graphic xml:id="F035085" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8f4b90df-7de6-44c1-b69d-c22c66de39e6/file/id/795931/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Matribus Octocannis <lb n="2"/>Albinius Gratinus Albinius <lb n="3"/>Albulus Albinius Ursulus <lb n="4"/>Albinius Paternus milis <note>sic</note> <lb n="5"/>Oglannius Lubainus <expan><abbr>mil</abbr><ex>es</ex></expan> <lb n="6"/><supplied reason="lost">O</supplied>glannius Messor milis <note>sic</note> <lb n="7"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>issinius Verinus <lb n="8"/>pro se et suis ex iussu ip<lb break="no" n="9"/>sarum <expan><abbr>v</abbr><ex>ota</ex></expan> <expan><abbr>s</abbr><ex>olverunt</ex></expan> <expan><abbr>l</abbr><ex>ibentes</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0686.</bibl><bibl>C.B. Rüger, in: EpStud 12 (Köln 1981) 302-304, Nr. 16; Abb. 16. - AE 1981.</bibl><bibl>CF-GeI-84 [hdl.handle.net/11471/504.50.84] (22.02.2019).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

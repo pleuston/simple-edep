@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Patara &amp;ndash; Kelemiş (Lycia et Pamphylia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005054</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005054</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lycia et Pamphylia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/639042">Patara</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/298795">Turkey</placeName><placeName type="modern">Kelemiş</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005054_1" sex="M"><persName><name type="praenomen">T. / Τ.</name><name type="nomen">Aelius / Αἴλιος</name><name type="cognomen">Vitalis / Οὐειτάλιος</name></persName></person><person xml:id="HD005054_2" sex="M"><persName><name type="nomen">Aelius / Αἴλιος</name><name type="cognomen">Sosias / Σωσίας+</name></persName></person><person xml:id="HD005054_3" sex="M"><persName><name type="nomen">Aelius / Αἴλιος</name><name type="cognomen">Epagathus+ / Ἐπάγαθος+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-17" who="Cowey">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>T</abbr><ex>ito</ex></expan> Aelio <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>l</abbr><ex>iberto</ex></expan> Vitali vice <expan><abbr>proc</abbr><ex>uratoris</ex></expan> XX hereditatium</supplied> <lb n="2"/><expan><abbr>reg</abbr><ex>ionis</ex></expan> Lyciacae heres <note>sic</note> <lb n="3"/>eius <expan><abbr>cura</abbr><ex>m</ex></expan> agente <lb n="4"/>cum <expan><abbr>lib</abbr><ex>ertis</ex></expan> eius Aeli<supplied reason="lost">o</supplied> <lb n="5"/>Sosia et Aelio Epag<supplied reason="lost">a</supplied><lb break="no" n="6"/>tho </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Θ(εοῖς) Δ(αίμοσιν) <lb n="2"/>Τ(ίτῳ) Αἰλίῳ Σεβ(αστοῦ) ἀπελευ<lb break="no" n="3"/>θ(έρῳ) Οὐειτ̣αλίῳ ἀν<lb break="no" n="4"/>τεπιτρόπῳ κʹ κλη<lb break="no" n="5"/>ρονομιῶν ἐπαρχε<supplied reason="lost">ί</supplied><lb break="no" n="6"/><supplied reason="lost">ας Λ</supplied>υ̣κίας κληρο<supplied reason="lost">νό</supplied><lb break="no" n="7"/><supplied reason="lost">μος αὐ</supplied>τοῦ ἐπ̣<supplied reason="lost">ιμελ(ούμενος)</supplied> <lb n="8"/><supplied reason="lost">συ</supplied>νπ̣ρ(ασσόντ<certainty match="preceding-sibling::node()" locus="value"/>ων ἀπ<supplied reason="lost">ελευθ(έρων)</supplied> <lb n="9"/>αὐτοῦ Αἰλί<supplied reason="lost">ου Σωσ</supplied><lb break="no" n="10"/>ία καὶ Αἰλίου Ἐ̣<supplied reason="lost">παγ</supplied><lb break="no" n="11"/>άθου
+            </ab></div></div>
+            <div type="commentary">
+                <p>Der erhaltene Teil der griechischen Entsprechung erlaubt die Ergänzung der ersten vier völlig unleserlichen, vielleicht absichtlich getilgten Zeilen des lateinischen Textes.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1889, 0173.</bibl><bibl>CIL 03, 14180.</bibl><bibl>TAM 2, 0460.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

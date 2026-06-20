@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Savaria, bei &amp;ndash; Horitschon (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008805</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008805</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sopron, Soproni Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>240</height><width>85</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197498">Savaria, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1888"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2762729">Horitschon</placeName><placeName type="findspot">{Unterpetersdorf}</placeName><placeName type="region">Burgenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008805_1" sex="M"><persName ref="http://romans1by1.com/rpeople/17237"><name type="praenomen">P.</name><name type="nomen">Domatius</name></persName></person><person xml:id="HD008805_2" sex="W"><persName ref="http://romans1by1.com/rpeople/17238"><name type="nomen">Domatia</name><name type="cognomen">Vimpia</name></persName></person><person xml:id="HD008805_3" sex="M"><persName ref="http://romans1by1.com/rpeople/17239"><name type="praenomen">P.</name><name type="nomen">Domatius</name><name type="cognomen">Peregrinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-01-26" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F025821" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/841f5f9a-f6f9-430b-bd79-eb64a1b3d1c8/file/id/786573/file_version/name/small"/><graphic xml:id="F025822" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b4600a53-94df-4e77-a0ef-4c445b48a0fe/file/id/786574/file_version/name/small"/><graphic xml:id="F003163" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/17833db1-51c0-477b-b852-9d5f5c1b6a14/file/id/764050/file_version/name/small"/><graphic xml:id="F011763" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3ddf50d4-d908-4683-b556-fc5ac7a7bd3b/file/id/771285/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublius</ex></expan> Domatius <lb n="2"/><expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Ter</abbr><ex>etina</ex></expan> Citio <lb n="3"/>negotiator <lb n="4"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="5"/>et Domatiae <lb n="6"/><expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>l</abbr><ex>ibertae</ex></expan> Vimpiae <lb n="7"/>coniugi eius <lb n="8"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Domatius <lb n="9"/>Peregrinus <lb n="10"/>parentibus <lb n="11"/>posuit
+            </ab></div>
+            <div type="commentary">
+                <p>Aufbewahrung nach lupa 455; Krüger: Sopron, Liszt Ferenc Múz. Oberhalb des Inschriftfeldes Fries mit einem Löwen, der einen Hirsch jagt; darüber ein Pfau. Textwiedergabe nach Autopsie Alföldy. (B): CIL 03, 04251: Z. 2: P. [f.] Tergitio; Krüger: Z. 2: P. f. Tergitio.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1393.</bibl><bibl>CIL 03, 04251. (B)</bibl><bibl>M.-L. Krüger, Die Reliefs der Stadtgebiete von Scarbantia und Savaria, CSIR Österreich 1, 5 (Wien 1974) 38, Nr. 15; Taf. 6, 15. (B)</bibl><bibl>G. Alföldy, ZPE 81, 1990, 207-212; Taf. 4a. - AE 1992.</bibl><bibl>E. Weber - R. Selinger, RŒ 19/20, 1991/92, 184, Nr. 61. - AE 1992.</bibl><bibl>Z. Mráv - G. Gabrieli, Arrabona 49, 2011, 226-228; kép. 17.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

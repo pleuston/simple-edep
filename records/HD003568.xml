@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Morsano (Venetia et Histria (Regio X))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003568</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003568</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Venetia et Histria (Regio X)</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Morsano</placeName><placeName type="findspot">Pars di Morsano al Tagliamento, particella catast. nr. 3293</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003568_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Varienus+</name><name type="cognomen">Dotus+?</name></persName></person><person xml:id="HD003568_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Varienus*</name><name type="cognomen">Iucundus+</name></persName></person><person xml:id="HD003568_3" sex="W"><persName><name type="nomen">Erbonia</name><name type="cognomen">Iucunda+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-27" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> Varien<supplied reason="lost">us <gap reason="lost" quantity="1" unit="character"/> <expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <lb n="2"/><expan><abbr>Sab</abbr><ex>atina</ex></expan> Dotu<supplied reason="lost">s<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> sibi et</supplied> <lb n="3"/><expan><abbr>G</abbr><ex>aio</ex></expan> <expan><abbr>Varien</abbr><ex>o</ex></expan> Iu<supplied reason="lost">cundo <expan><abbr>f</abbr><ex>ilio</ex></expan> et</supplied> <lb n="4"/>Erboniae <supplied reason="lost">uxori</supplied> <lb n="5"/><expan><abbr>S</abbr><ex>puri</ex></expan> <expan><abbr>l</abbr><ex>ibertae</ex></expan> Iuc<supplied reason="lost" cert="low">undae</supplied> <lb n="6"/>in <expan><abbr>f</abbr><ex>ronte</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> XI <expan><abbr>r</abbr><ex>etro</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>edes</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>M. Varienus Dotus? stammt nicht aus Concordia (Zugehörigkeit zur Sabatina tribus), sondern aus Mittelitalien oder Mantua.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0396.</bibl><bibl>M. Buora, AAAd 16, 1980, 52-60; fig. 1 u. 2. - AE 1981.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

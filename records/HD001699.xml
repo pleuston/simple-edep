@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Pompeii &amp;ndash; Pompei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001699</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001699</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Deposito dell'Ufficio Scavi Pompei</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/123">Holz</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0079" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 79 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170336">Pompei</placeName><placeName type="findspot"/><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001699_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Trebonius+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD001699_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Sulpicius+</name><name type="cognomen">Cinnamus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2005-05-27" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> Trebon<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><lb break="no" n="1"/>us <gap reason="lost" extent="unknown" unit="character"/> XIII <expan><abbr>K</abbr><ex>alendas</ex></expan> Decembres <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Treboni<supplied reason="lost">us</supplied><gap reason="lost" extent="unknown" unit="character"/> eg<supplied reason="lost">o</supplied> scripsi m<supplied reason="lost">e ac</supplied>ce<lb break="no" n="3"/>pisse ab <expan><abbr>C</abbr><ex>aio</ex></expan> Su<supplied reason="lost">l</supplied>pi<supplied reason="lost">cio</supplied> Cinnamo s<supplied reason="lost">est</supplied>ertia <lb n="4"/>quina <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">mi</supplied>lia num<lb break="no" n="5"/>mum
+            </ab></div>
+            <div type="commentary">
+                <p>Tabula Pompeiana. Vielleicht handelt es sich um den aus Cicero bekannten C. Trebonius; vgl. RE VI A 2 (1937) 2274ff. Nr. 6. (B): AE 1982: Z. 1: Trebon[---] fehlt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0194. (B)</bibl><bibl>F. Sbordone, RAAN 53, 1978, 253-254, Nr. 13. - AE 1982.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

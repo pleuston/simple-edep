@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription? from Londinium &amp;ndash; London (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002087</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002087</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>London, Mus. of London</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(31)</height><width>(23)</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-2.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79574">Londinium</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1984"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2643743">London</placeName><placeName type="findspot">Southwark, {Winchester Palace}</placeName><placeName type="region">London</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002087_1" sex="M"><persName><name type="cognomen">Philippus+</name></persName></person><person xml:id="HD002087_10" sex="M"><persName><name type="nomen">[---]</name><name type="cognomen">Martinus</name></persName></person><person xml:id="HD002087_11" sex="M"><persName><name type="nomen">Aurelius+*</name><name type="cognomen">Gerontius (?)</name></persName></person><person xml:id="HD002087_12" sex="M"><persName><name type="nomen">Aurerius+*</name><name type="cognomen">Aemilius+</name></persName></person><person xml:id="HD002087_13" sex="M"><persName><name type="nomen">Vibius+*</name><name type="cognomen">Claudianus</name></persName></person><person xml:id="HD002087_14" sex="M"><persName><name type="nomen">Iulius+*</name><name type="cognomen">Primus+</name></persName></person><person xml:id="HD002087_15" sex="M"><persName><name type="nomen">Victorius*</name><name type="cognomen">Firmus+</name></persName></person><person xml:id="HD002087_16" sex="M"><persName><name type="nomen">Favonius</name><name type="cognomen">Postumus+</name></persName></person><person xml:id="HD002087_17" sex="M"><persName><name type="nomen">Cottius*</name><name type="cognomen">Fortunatus+</name></persName></person><person xml:id="HD002087_18" sex="M"><persName><name type="nomen">Aurelius+*</name><name type="cognomen">Vitalis+</name></persName></person><person xml:id="HD002087_19" sex="M"><persName><name type="nomen">[---]lius*</name><name type="cognomen">Flor[---]</name></persName></person><person xml:id="HD002087_2" sex="M"><persName><name type="nomen">Valerius+*</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD002087_20" sex="M"><persName><name type="nomen">[---]lius*</name><name type="cognomen">Ve[---]</name></persName></person><person xml:id="HD002087_21" sex="M"><persName><name type="nomen">Petronius+*</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD002087_22" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD002087_23" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD002087_3" sex="M"><persName><name type="nomen">Aurelius+*</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD002087_4" sex="M"><persName><name type="nomen">Vi[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD002087_5" sex="M"><persName><name type="nomen">Li[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD002087_6" sex="M"><persName><name type="nomen">A[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD002087_7" sex="M"><persName><name type="nomen">A[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD002087_8" sex="M"><persName><name type="nomen">Ap[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD002087_9" sex="M"><persName><name type="nomen">[Secun]dius* (?)</name><name type="cognomen">Severus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-04-23" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>M et S<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>runt <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>I Philippu<supplied reason="lost">s</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Va<supplied reason="lost"><expan><abbr>l</abbr><ex>erius</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>Au<supplied reason="lost"><expan><abbr>r</abbr><ex>elius</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Vi<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>Li<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>A<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>A<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>Ap<gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>coh</abbr><ex>ortis</ex></expan></supplied> <expan><abbr>III</abbr><ex cert="low"/></expan> <lb n="2"/><supplied reason="lost" cert="low">Secun</supplied><expan><abbr>d</abbr><ex>ius</ex></expan> Severus <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> Martinus <lb n="4"/><expan><abbr><supplied reason="lost">A</supplied>ur</abbr><ex>elius</ex></expan> <expan><abbr>G</abbr><ex cert="low">er</ex>ontius</expan> <lb n="5"/><expan><abbr><supplied reason="lost">Au</supplied>r</abbr><ex>elius</ex></expan> Aem<supplied reason="lost">il</supplied>ius <lb n="6"/><expan><abbr><supplied reason="lost">V</supplied>ib</abbr><ex>ius</ex></expan> Clau<supplied reason="lost">dianus</supplied> <lb n="7"/><expan><abbr><supplied reason="lost">I</supplied>ul</abbr><ex>ius</ex></expan> Prim<supplied reason="lost">us</supplied> <lb n="8"/><expan><abbr>Vict</abbr><ex>orius</ex></expan> Firmu<supplied reason="lost">s</supplied> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <expan><abbr>IIII</abbr><ex cert="low"/></expan> <lb n="2"/><expan><abbr>Favon</abbr><ex>ius</ex></expan> <supplied reason="lost" cert="low">Postu</supplied>mus <lb n="3"/><expan><abbr>Cott</abbr><ex>ius</ex></expan> <supplied reason="lost">Fortu</supplied>natus <lb n="4"/><expan><abbr><supplied reason="lost">Au</supplied>r</abbr><ex>elius</ex></expan> Vita<supplied reason="lost">li</supplied>s <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><abbr>l</abbr> Flor<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><abbr>l</abbr> VE<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><expan><abbr>Pet<supplied reason="lost">r</supplied></abbr><ex>onius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="9"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="10"/>co<supplied reason="lost"><expan><abbr>h</abbr><ex>ortis</ex></expan> V</supplied> </ab></div><div n="5" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>us II <supplied reason="lost"><expan><abbr>p</abbr><ex>ilus</ex></expan> </supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>s IX <expan><abbr>p</abbr><ex>ilus</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>X <expan><abbr>p</abbr><ex>ilus</ex></expan> po<supplied reason="lost"><expan><abbr>st</abbr><ex>erior</ex></expan></supplied> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>us II <expan><abbr>pr</abbr><ex>inceps</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="6" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/>LIA<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>PI<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Fragment b: (11) x (33) x 2,2; B-Höhe: 2,2. - Fragmente c-g: B-Höhe: 2,5-4,2; Frg. c: (39,5) x (35,5) x 0,95; Frg. d: (6) x (12) x 0,9; Frg. e: (18) x (20) x 2; Frg. f: (14) x (17) x 2,4; Frg. g: (13) x (14) x 1,5; Frg. h: (12) x (11) x 2,5; Frg. i: (3) x (4,5) x 0,6. Die erwähnten Personen gehören wohl zu einer vexillatio, die aus Soldaten verschiedener cohortes einer legio stammen (leg. XX oder legio XX Augusta). In Z. 1 von Fragment a möglicherweise: [balnea]m et S[---]. In RIB 3017 in Z. 2 und Z. 4 ist jeweils entweder pr(ior) oder po(sterior) zu ergänzen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0637.</bibl><bibl>M.W.C. Hassall - R.S.O. Tomlin, Britannia 16, 1985, 317-322, Nr. 1; pl. 26 u. 27; fig. 1-3 (Zeichnungen). - AE 1985.</bibl><bibl>AE 1992, 1118.</bibl><bibl>N. Crowley - I.M. Betts, Britannia 23, 1992, 218-222. - AE 1992.</bibl><bibl>AE 1998, 0811.</bibl><bibl>B. Yule - B. Rankov, in: B. Watson (Hrsg.) Roman London recent archaeological work including papers given at a seminar held in the Museum of London on 16 November, 1996 (London 1998) 69-77; Fig. 16 (Zeichnung). - AE 1998.</bibl><bibl>AE 2006, 0736.</bibl><bibl>B. Yule, in: B. Yule u. a., A prestigious Roman building complex on the Southwark waterfront. Excavations at Winchester Palace, London, 1983-90 (London 2005) 69-71; fig. 55-59. - AE 2006.</bibl><bibl>RIB 3016; Foto u. Zeichnung.</bibl><bibl>RIB 3017; Foto u. Zeichnung.</bibl><bibl>RIB 3018; Foto u. Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

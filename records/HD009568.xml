@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Savaria? &amp;ndash; Szombathely? (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009568</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009568</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Szombathely, Savaria Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(65)</height><width>(55)</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.8-4.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197498">Savaria?</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044310">Szombathely?</placeName><placeName type="findspot"/><placeName type="region">Vas megye?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009568_1" sex="M"><persName ref="http://romans1by1.com/rpeople/17277"><name type="praenomen">C.</name><name type="nomen">Vicirius*</name><name type="cognomen">Messor*</name></persName></person><person xml:id="HD009568_2"><persName ref="http://romans1by1.com/rpeople/17278"><name type="nomen">Claudius/a*</name><name type="cognomen">Val(---)</name></persName></person><person xml:id="HD009568_3" sex="W"><persName ref="http://romans1by1.com/rpeople/17279"><name type="nomen">Vicirillia</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD009568_4"><persName ref="http://romans1by1.com/rpeople/17280"><name type="nomen">Viciri(---)*</name><name type="cognomen">Al[---]?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-10" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Vicir</abbr><ex>ius</ex></expan> Mes<expan><ex>s</ex><abbr>or</abbr></expan> <lb n="3"/><expan><abbr>an</abbr><ex>norum</ex></expan> <expan><abbr>Cl</abbr><ex>audi--</ex></expan> <abbr>Val</abbr> <expan><abbr>an</abbr><ex>norum</ex></expan> <lb n="4"/>XL Vicirilliae <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><expan><abbr><supplied reason="lost">a</supplied>n</abbr><ex>norum</ex></expan> XV <expan><abbr>Vicir</abbr><ex>i--</ex></expan> <expan><abbr>AL</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Links des Inschriftfeldes noch der Rest einer tordierten Halbsäule; darüber Fries mit Vögeln und kleiner Rest vom unteren Teil der Büste eines Kindes. Buchstabe A ohne Querhaste. Z. 3: spatium zwischen AN und CL. Z. 5 (Ende): von L(?) nur das obere Ende erhalten. (B): Balla - Buocz - Kádár - Mócsy - Szentléleky, AE 1972; RIU 0116: Z. 2: Vicer(ius); Z. 4: XI Vicerilliae; Z. 5: Vicer(i--); Tóth: Z. 5 (Ende): M[---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1972, 0405. (B)</bibl><bibl>RIU 0116; Abb. 116 (Zeichnung). (B)</bibl><bibl>L. Balla - T.P. Buocz - Z. Kádár - A. Mócsy - T. Szentléleky, Die römischen Steindenkmäler von Savaria (Amsterdam 1971) 107, Nr. 119; Bild 102. (B) - AE 1972.</bibl><bibl>E. Tóth, Lapidarium Savariense. Savaria római feliratos kőemlékei (Szombathely 2011) 176-177, Nr. 125; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

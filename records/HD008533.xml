@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Gholaia &amp;ndash; Abū Nujaym (Africa Proconsularis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008533</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008533</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Africa Proconsularis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/344377">Gholaia</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2215636">Libya</placeName><placeName type="modern" ref="http://www.geonames.org/2220431">Abū Nujaym</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-06-02" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Octavio Festho <note>sic</note> <expan><abbr>dec</abbr><ex>urioni</ex></expan> p<expan><ex>rae</ex><abbr>p</abbr><ex>osito</ex></expan> meo <lb n="2"/>Aemilius Aemilianus m<supplied reason="lost"><expan><abbr>il</abbr><ex>es</ex></expan> salutem</supplied> <lb n="3"/>transmisi at <note>sic</note> te domi<supplied reason="lost">ne per</supplied> <lb n="4"/>Macargum siddipia trid<supplied reason="lost">ici</supplied> <lb n="5"/>dua <expan><abbr>q</abbr><ex>uae</ex></expan> <expan><abbr>f</abbr><ex>iunt</ex></expan> viginti qua<supplied reason="lost">ttuor</supplied> <lb n="6"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> futuris post Thusc<supplied reason="lost">o et</supplied> <lb n="7"/>Basso co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <expan><abbr>acc</abbr><ex>epta</ex></expan> XII <expan><abbr>Kal</abbr><ex>endas</ex></expan> <expan><abbr>Febr</abbr><ex>uarias</ex></expan> <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>IT I
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0644.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

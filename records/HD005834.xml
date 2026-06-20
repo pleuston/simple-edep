@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Albingaunum &amp;ndash; Albenga (Liguria (Regio IX))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005834</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005834</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>30</height><width>30</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Liguria (Regio IX)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/157803">Albingaunum</placeName></origPlace><origDate><origDate when-custom="0515" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">515 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Albenga</placeName><placeName type="findspot">S. Vittore Nekropole</placeName><placeName type="region">Liguria</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005834_1" sex="M"><persName><name type="cognomen">Maioranus</name></persName></person><person xml:id="HD005834_2" sex="M"><persName><name type="cognomen">Florentius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-12" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Deposisio <note>sic</note> Maio<lb break="no" n="2"/>riani <expan><abbr>pos</abbr><ex>ita</ex></expan> VIII K<expan><ex>a</ex><abbr>l</abbr><ex>endas</ex></expan> <lb n="3"/>Iulias co<expan><ex>n</ex><abbr>iuro</abbr></expan> <lb n="4"/>per CX<expan><ex>Christu</ex><abbr>m</abbr></expan> ne <lb n="5"/>apereas l<supplied reason="lost">o</supplied><lb break="no" n="6"/>cum istu<supplied reason="lost">m</supplied> <lb n="7"/>Florentio <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> <expan><abbr>c</abbr><ex>onsule</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Fünf aneinanderpassende Fragmente erhalten. (B): AE 1975: Z. 3/4: Zeilenfall nicht angegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1975, 0406. (B)</bibl><bibl>N. Lamboglia, RII 11, 1956, 2; fig. 2. - AE 1975.</bibl><bibl>N. Lamboglia, RII 13, 1958, 166; fig. 6. - AE 1975.</bibl><bibl>N. Lamboglia, RII 27, 1972, 135; fig. c. - AE 1975.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

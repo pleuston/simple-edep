@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Casilinum, bei &amp;ndash; Aversa (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005279</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005279</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/438708">Casilinum, bei</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Aversa</placeName><placeName type="findspot"/><placeName type="region">Campania</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-03-12" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Caesonio Ovinio Manlio <lb n="2"/>Rufiniano Basso <expan><abbr>c</abbr><ex>larissimo</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>cons</abbr><ex>uli</ex></expan> II <lb n="3"/><expan><abbr>pontif</abbr><ex>ici</ex></expan> maiori <expan><abbr>pontif</abbr><ex>ici</ex></expan> dei <lb n="4"/>Solis salio Palatino prae<lb break="no" n="5"/>fecto urbis comiti <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <lb n="6"/>iudici sacrarum cognitio<lb break="no" n="7"/>num vice Caesaris sine appel<lb break="no" n="8"/>lationem <note>sic</note> cognoscendi inter <lb n="9"/>fiscum et privatis <note>sic</note> item inter <lb n="10"/>privatos Roma et in <expan><abbr>provinc</abbr><ex>ia</ex></expan> <lb n="11"/>Africa electo a divo Probo <lb n="12"/>ad pr<expan><ex>a</ex><abbr>e</abbr></expan><supplied reason="lost">side</supplied>ndum <expan><abbr>iud</abbr><ex>icio</ex></expan> <expan><abbr>mag</abbr><ex>no</ex></expan> <lb n="13"/>proco<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>provinc</abbr><ex>iae</ex></expan> <expan><abbr>Afric</abbr><ex>ae</ex></expan> tertium <lb n="14"/><expan><abbr>curat</abbr><ex>ori</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Carthag</abbr><ex>iniensium</ex></expan> <expan><abbr>leg</abbr><ex>ato</ex></expan> pro<lb break="no" n="15"/><expan><abbr>vinc</abbr><ex>iae</ex></expan> <expan><abbr>Afric</abbr><ex>ae</ex></expan> <expan><abbr>Carthag</abbr><ex>iniensis</ex></expan> <expan><abbr>curat</abbr><ex>ori</ex></expan> <lb n="16"/>albei <note>sic</note> <expan><abbr>Tiberi</abbr><ex>s</ex></expan> et cluacarum <note>sic</note> <lb n="17"/><expan><abbr>sac</abbr><ex>rae</ex></expan> <expan><abbr>urb</abbr><ex>is</ex></expan> <expan><abbr>curat</abbr><ex>ori</ex></expan> <expan><abbr>r</abbr><ex>ei</ex></expan> <expan><abbr>p</abbr><ex>ublicae</ex></expan> <expan><abbr>Venevent</abbr><ex>anorum</ex></expan> <note>sic</note> <lb n="18"/><expan><abbr>praet</abbr><ex>ori</ex></expan> <expan><abbr>cand</abbr><ex>idato</ex></expan> <expan><abbr>quaes</abbr><ex>tori</ex></expan> <expan><abbr>cand</abbr><ex>idato</ex></expan> <lb n="19"/>seviro turmae deducendae <lb n="20"/>triumviro kapitali <lb n="21"/>patrono praestantissimo <lb n="22"/>Caesonius Achilleus lib<supplied reason="lost">ert</supplied>us <expan><abbr>pos</abbr><ex>uit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0215.</bibl><bibl>G. Barbieri, in: D.M. Pippidi (Hrsg.), Actes du VII congrès international d'epigraphie grecque et latine (Bucareşti - Paris 1979) 329-330. - AE 1980.</bibl><bibl>L. Polverini, ANRW 2, 2 (Berlin - New York 1975) 1025, Anm. 42. - AE 1980.</bibl><bibl>T.D. Barnes, CQ 64, 1970, 198-203. (B) - AE 1980.</bibl><bibl>AE 1964, 0223.</bibl><bibl>G. Barbieri, in: Akte des IV. Internationalen Kongresses für griechische und lateinische Epigraphik (Wien 1964) 40-50; tav. 1. - AE 1964.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

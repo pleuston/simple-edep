@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Arelate &amp;ndash; Arles (Narbonensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001629</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001629</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Arles</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>97</height><width>74</width><depth>47</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Narbonensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/148217">Arelate</placeName></origPlace><origDate><origDate notBefore-custom="0161" notAfter-custom="0169" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">161 AD - 169 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern">Arles</placeName><placeName type="findspot"/><placeName type="region">Provence-Alpes-Côte d’Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001629_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Cominius Laelius+</name><name type="cognomen">Bonus Agricola Aper</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-25" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F001349" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0f6c3aea-f76f-482a-b262-37d9e006cb7f/file/id/762438/file_version/name/small"/><graphic xml:id="F028480" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/86e82fc9-1103-44ee-a601-af556227dfde/file/id/789237/file_version/name/small"/><graphic xml:id="F028481" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/25e44f3e-a8d0-40af-931a-e18004441f70/file/id/789238/file_version/name/small"/><graphic xml:id="F027648" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/03de7938-f6e5-45c9-b8fa-11f2975744c6/file/id/788405/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> Cominio <lb n="2"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Claud</abbr><ex>ia</ex></expan> Bono <lb n="3"/>Agricolae L<supplied reason="lost">a</supplied>elio <lb n="4"/>Apro <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr><supplied reason="lost">c</supplied>ohort</abbr><ex>is</ex></expan> <lb n="5"/><expan><abbr>tert</abbr><ex>iae</ex></expan> <expan><abbr>Bracaraugustano</abbr><ex>rum</ex></expan> <lb n="6"/><expan><abbr>tribun</abbr><ex>o</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <supplied reason="lost">I</supplied> <expan><abbr>adiut</abbr><ex>ricis</ex></expan> <expan><abbr>procur</abbr><ex>atori</ex></expan> <lb n="7"/>Augustorum ad annonam <lb n="8"/>provinciae Narbonensis <lb n="9"/>et Liguriae <expan><abbr>praef</abbr><ex>ecto</ex></expan> a<supplied reason="lost">lae</supplied> miliariae <lb n="10"/>in Mauretania Caesariensi <lb n="11"/><expan><abbr>navic</abbr><ex>ulariorum</ex></expan> <expan><abbr>marin</abbr><ex>orum</ex></expan> <expan><abbr>Arel</abbr><ex>atensium</ex></expan> <lb n="12"/><expan><abbr>corp</abbr><ex>ora</ex></expan> <expan><abbr>quinq</abbr><ex>ue</ex></expan> <expan><abbr>patron</abbr><ex>o</ex></expan> <lb n="13"/>optimo et innocentis<lb break="no" n="14"/>simo
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z.2/3: AE, Christol: [- f(ilio) C]laud(ia) Bo[v]io / Agricol[ae Aur]elio. CIL: BO[--]I[--] Agricola[e Aur]elio; ILS: Agricola[e Aur]elio. (C): Datierung Ende 2.Jh./Anfang 3.Jh. Y: Die Prokuratur fällt in die Regierungszeit von M. Aurel u. Verus. Material: grauer Kalkstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0631. (BC)</bibl><bibl>M. Christol - S. Demougin, ZPE 57, 1984, 163-170. (BC) - AE 1984.</bibl><bibl>CIL 12, 00672. (B)</bibl><bibl>ILS 1432. (B)</bibl><bibl>G. Alföldy, AN 51, 1980, 278-285, Nr. 3. - AE 1981.</bibl><bibl>G. Alföldy, ZPE 63, 1986, 173-180; Abb. 1 (Zeichnung). - AE 1986.</bibl><bibl>AE 1981, 0400.</bibl><bibl>AE 1986, 0479.</bibl><bibl>AE 1987, 0753.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

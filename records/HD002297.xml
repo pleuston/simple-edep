@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Lambaesis &amp;ndash; Tazoult-Lambèse (Numidia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002297</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002297</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><dimensions unit="cm"><height>(51)</height><width>(120)</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Numidia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/334570">Lambaesis</placeName></origPlace><origDate><origDate notBefore-custom="0283" notAfter-custom="0284" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">283 AD - 284 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern" ref="http://www.geonames.org/2477528">Tazoult-Lambèse</placeName><placeName type="findspot">Byzantinische Festung, teilweise</placeName><placeName type="region">Batna</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002297_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q190097"><name type="cognomen">Carinus</name></persName></person><person xml:id="HD002297_10" sex="M"><persName><name type="nomen">Valerius+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD002297_11" sex="M"><persName><name type="nomen">[---]us+</name><name type="cognomen">Titianus</name></persName></person><person xml:id="HD002297_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q46821"><name type="cognomen">Numerianus</name></persName></person><person xml:id="HD002297_3" sex="M"><persName><name type="praenomen">M.+</name><name type="nomen">Aurelius+</name><name type="cognomen">Decimus+</name></persName></person><person xml:id="HD002297_4" sex="M"><persName><name type="nomen">Servaeus+</name><name type="cognomen">Avitus</name></persName></person><person xml:id="HD002297_5" sex="M"><persName><name type="nomen">Modius</name><name type="cognomen">Paulus</name></persName></person><person xml:id="HD002297_6" sex="M"><persName><name type="nomen">Aelius+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD002297_7" sex="M"><persName><name type="nomen">[---]</name><name type="cognomen">Ianuarius+?</name></persName></person><person xml:id="HD002297_8" sex="M"><persName><name type="nomen">Aurelius</name><name type="cognomen">Syriacus+?</name></persName></person><person xml:id="HD002297_9" sex="M"><persName><name type="nomen">Cocceius</name><name type="cognomen">Gemellus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-23" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Felicissimo ac</supplied> florentissimo saec<supplied reason="lost">ulo <expan><abbr>dd</abbr><ex>ominorum</ex></expan> <expan><abbr>nn</abbr><ex>ostrorum</ex></expan> Carini et Numeriani <expan><abbr>Augg</abbr><ex>ustorum</ex></expan> por</supplied>ticum a fundamen<supplied reason="lost">t</supplied>is inchoatam disp<supplied reason="lost">onente</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio Deci</supplied>mo <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>p</abbr><ex>erfectissimo</ex></expan> <expan><abbr>pr</abbr><ex>aeside</ex></expan> <expan><abbr>pr</abbr><ex>ovinciae</ex></expan> <expan><abbr>N</abbr><ex>umidiae</ex></expan> ex principe <supplied reason="lost">peregrinorum perfici<certainty locus="name" match="preceding-sibling::text()" cert="low"/> curaverunt<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Ser</supplied>vaeus Avitus <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>e</abbr><ex>gregius</ex></expan> Modius Pau<supplied reason="lost">l</supplied>us <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>e</abbr><ex>gregius</ex></expan> Aeliu<supplied reason="lost">s <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3"/><supplied reason="lost" cert="low">v(ir) e(gregius) --- Ianu</supplied>arius <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>e</abbr><ex>gregius</ex></expan> Aurelius Syri<supplied reason="lost">acus<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/> a</supplied> <expan><abbr>mil</abbr><ex>itiis</ex></expan> Cocceius Gemellus <expan><abbr>fl</abbr><ex>amen</ex></expan> p<expan><ex>er</ex><abbr>p</abbr><ex>etuus</ex></expan> <expan><abbr>imm</abbr><ex>unis</ex></expan> Vale<supplied reason="lost">rius <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="4"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/>u</supplied>s Titianus augur im<supplied reason="lost" cert="low">m(unis)</supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">sine sump</supplied>tu vel impendio rei <expan><abbr>p</abbr><ex>ublicae</ex></expan> admirabili mat<supplied reason="lost" cert="low">uritate</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Denkmaltyp: Architrav.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0871.</bibl><bibl>J. Marcillet-Jaubert, ZPE 54, 1984, 165-168. - AE 1985. 1989.</bibl><bibl>CIL 08, 02760.</bibl><bibl>CIL 08, 18342.</bibl><bibl>CIL 08, 18354.</bibl><bibl>CIL 08, 03315.</bibl><bibl>CIL 08, 18181.</bibl><bibl>CIL 08, p. 1739.</bibl><bibl>AE 1989, 0869.</bibl><bibl>X. Depuis, AntAfr 25, 1989, 177-190; fig. 1 (Zeichnung). - AE 1989.</bibl><bibl>B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 192-193, Nr. 73e.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

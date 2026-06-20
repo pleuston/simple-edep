@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Qasr el Uweinid (Syria)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004660</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004660</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Syria</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0198" notAfter-custom="0211" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">198 AD - 211 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/248816">Jordan</placeName><placeName type="modern">Qasr el Uweinid</placeName><placeName type="findspot">Castellum, Tor, bei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004660_1"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="praenomen">L.</name><name type="nomen">Septimius</name><name type="cognomen">Severus</name></persName></person><person xml:id="HD004660_2"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.+</name><name type="nomen">Aurelius</name><name type="cognomen">Antoninus++</name></persName></person><person xml:id="HD004660_3"><persName ref="https://www.wikidata.org/wiki/Q183089"><name type="praenomen">P.++</name><name type="nomen">Septimius++*</name><name type="cognomen">Geta++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-09-03" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Pro salute et <supplied reason="lost">in</supplied>columitate domi<lb break="no" n="2"/>norum <supplied reason="lost"><expan><abbr>nn</abbr><ex>ostrorum</ex></expan></supplied> <expan><abbr>Impp</abbr><ex>eratorum</ex></expan> <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> Septimi Se<lb break="no" n="3"/>veri Pii Pertinaci<supplied reason="lost">s</supplied> et <supplied reason="lost"><expan><abbr>M</abbr><ex>arci</ex></expan></supplied> Aurelii An<lb break="no" n="4"/><del rend="erasure">tonini Pii Felicis et <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>Sept</abbr><ex>imi</ex></expan> Getae</del> <lb n="5"/>Fl<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>e<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>t<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>no<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> Severia[n------
+            </ab></div>
+            <div type="commentary">
+                <p>Y: Mac Dermott und Parker bevorzugen Datierung zwischen 209 und 211, als Geta bereits Augustus ist. Status von Geta nicht eindeutig bestimmbar: Caesar oder Augustus. (B): Z. 1: incolumitate.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0827. (B)</bibl><bibl>P.M. Mac Dermott - S.T. Parker, ZPE 28, 1978, 62-66; Taf. 10. - AE 1978.</bibl><bibl>AE 2001, 1977.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

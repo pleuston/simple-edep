@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Abusina &amp;ndash; Neustadt/Donau (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009227</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009227</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118539">Abusina</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2931741">Neustadt/Donau</placeName><placeName type="findspot">{Eining}</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-11-08" who="Osnabrügge">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> et I B</supplied><expan><abbr>reuc</abbr><ex>orum</ex></expan> <supplied reason="lost">et I et II <expan><abbr>Raet</abbr><ex>orum</ex></expan> et II</supplied> <expan><abbr>Aquitan</abbr><ex>orum</ex></expan> <lb n="2"/>et III <expan><abbr>Bracaraug</abbr><ex>ustanorum</ex></expan> <supplied reason="lost">et III <expan><abbr>Thr</abbr><ex>acum</ex></expan> <expan><abbr>vet</abbr><ex>erana</ex></expan> e</supplied>t III <expan><abbr>Thr</abbr><ex>acum</ex></expan> <lb n="3"/><expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et III <expan><abbr>Britan</abbr><ex>norum</ex></expan> <supplied reason="lost">et IV <expan><abbr>Gall</abbr><ex>orum</ex></expan> et V B</supplied>racar<lb break="no" n="4"/><expan><abbr>aug</abbr><ex>ustanorum</ex></expan> et VI Lusita<supplied reason="lost"><expan><abbr>n</abbr><ex>orum</ex></expan> et IX <expan><abbr>Batav</abbr><ex>orum</ex></expan> ve</supplied><expan><abbr>xil</abbr><ex>latio</ex></expan> et <lb n="5"/>sunt in Raetia <supplied reason="lost">sub</supplied><gap reason="lost" extent="unknown" unit="character"/>o <expan><abbr>proc</abbr><ex>uratore</ex></expan> <lb n="6"/>quinque et vig<supplied reason="lost">inti stipendis</supplied> emeri<lb break="no" n="7"/>tis dimissis ho<supplied reason="lost">nesta missione</supplied> quorum <lb n="8"/>nomina subscr<supplied reason="lost">ipta sunt civita</supplied>tem Ro<supplied reason="lost">manam qui eorum non haberen</supplied>t dede<lb break="no" n="9"/><supplied reason="lost">runt et conubium cum uxoribus</supplied> quas <lb n="10"/>[tunc habuissent ------ </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar M</supplied>arcus Aurel<supplied reason="lost">ius Antoninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan></supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> t</supplied><expan><abbr>rib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> X<supplied reason="lost">V <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III et</supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar Luc</supplied>ius Aureliu<supplied reason="lost">s Verus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> II</supplied> divi Anton<supplied reason="lost">ini <expan><abbr>f</abbr><ex>ilii</ex></expan> divi Hadriani</supplied> <lb n="4"/><supplied reason="lost">nepotes divi</supplied> Traiani P<supplied reason="lost">arthici pronepo</supplied><lb break="no" n="5"/><supplied reason="lost">tes divi Nerv</supplied>ae a<supplied reason="lost">bnepotes</supplied> <lb n="6"/><supplied reason="lost">equitibus et p</supplied>editibus <supplied reason="lost">qui militaverunt</supplied> <lb n="7"/><supplied reason="lost">in alis III qua</supplied>e appellant<supplied reason="lost">ur II <expan><abbr>Fl</abbr><ex>avia</ex></expan> |(miliaria) <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> et I <expan><abbr>Fl</abbr><ex>avia</ex></expan></supplied> <lb n="8"/><supplied reason="lost"><expan><abbr>Gemell</abbr><ex>iana</ex></expan> et I <expan><abbr>Fl</abbr><ex>avia</ex></expan> s</supplied><expan><abbr>ingul</abbr><ex>arium</ex></expan> et coho<supplied reason="lost">rtibus XIII I <expan><abbr>Fl</abbr><ex>avia</ex></expan></supplied> <lb n="9"/>[<expan><abbr>Canath</abbr><ex>enorum</ex></expan> |(miliaria) et I <expan><abbr>Breuc</abbr><ex>orum</ex></expan> ------
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0904.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

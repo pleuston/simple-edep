@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007896</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007896</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/157">table</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>(25)</height><width>(60)</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0451" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">451 AD - 500 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1897"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">Marusinac, nördliches Heiligtum, {Grab A}, bei</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007896_1" sex="M"><persName><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-11" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033961" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fd58f17a-7813-4d76-ab9a-16f276198408/file/id/794770/file_version/name/small"/><graphic xml:id="F033962" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/336f0b56-007f-4c44-bf04-9bf639080952/file/id/794771/file_version/name/small"/><graphic xml:id="F033963" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ac065a5d-3bd7-4df6-b3e1-a3d3c82e6b76/file/id/794772/file_version/name/small"/><graphic xml:id="F033964" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d5e6bb1a-710b-4fbd-b749-68471dc55fed/file/id/794773/file_version/name/small"/><graphic xml:id="F033965" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cd150bf4-547c-4212-993b-eaa27c5213a8/file/id/794774/file_version/name/small"/><graphic xml:id="F033966" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/30998755-0ab1-43c3-ac10-a5468dc65cb7/file/id/794775/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Dep</abbr><ex>ositio</ex></expan>? s</supplied><expan><abbr>anc</abbr><ex>tae</ex></expan> m<supplied reason="lost">emoriae <gap reason="lost" extent="unknown" unit="character"/> e</supplied><expan><abbr>pisc</abbr><ex>opi</ex></expan> die II <expan><abbr>Kal</abbr><ex>endas</ex></expan> <expan><abbr>Aug</abbr><ex>ustas</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>7 Fragmente, davon 2 aneinanderpassend; die erhaltene Inschrift befindet sich auf 2 Fragmenten auf dem unteren Rahmen des Inschriftfeldes (die Maßangaben beziehen sich auf das größere Fragment). Fundjahre: 1897-1898, 1931 und 1935. Kreuzförmige Worttrenner. Buchstabe A mit spitz nach unten zeigender Querhaste. (B): Egger: [m(emoriae) ---.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0545.</bibl><bibl>N. Duval, BAHD 77, 1984, 218-220, Nr. 1; pl. 32, 4; fig. 16 (Zeichnung). - AE 1986.</bibl><bibl>ILJug 2700.</bibl><bibl>R. Egger, in: E. Dyggve - R. Egger, Der altchristliche Friedhof Marusinac, Forschungen in Salona 3 (Wien 1939) 154, Nr. 26a; Taf. 8, H1 (Zeichnung). (B)</bibl><bibl>E. Marin u. a., Salona 4. Inscriptions de Salone chrétienne, IVe-VIIe siècles (Rome - Split 2010) 270-271, Nr. 77; Fotos.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

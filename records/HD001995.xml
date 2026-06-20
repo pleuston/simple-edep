@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Pompeii, bei &amp;ndash; Pompei, bei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001995</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001995</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii, bei</placeName></origPlace><origDate><origDate notBefore-custom="0040" notAfter-custom="0065" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">40 AD - 65 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170336">Pompei, bei</placeName><placeName type="findspot">Murécine</placeName><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001995_1"><persName><name type="praenomen">Q.</name><name type="nomen">Baebius</name><name type="cognomen">Eros+</name></persName></person><person xml:id="HD001995_2"><persName><name type="praenomen">C.</name><name type="nomen">Sulpicius</name><name type="cognomen">Faustus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2005-05-27" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Vadimoni<supplied reason="lost">um f</supplied>ac<supplied reason="lost">tum</supplied> <lb n="2"/><expan><abbr>Q</abbr><ex>uinto</ex></expan> Baebio Erot<supplied reason="lost">i in</supplied> <lb n="3"/>V Id<supplied reason="lost">us</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>Puteolis in foro <supplied reason="lost">ante</supplied> <lb n="5"/>aram Augusti Hord<supplied reason="lost"><expan><abbr>ion</abbr><ex>ianam</ex></expan></supplied> <lb n="6"/>hora tertia HS I<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>et HS M<supplied reason="lost">MMMM (quinque milia)</supplied> <lb n="8"/>dari stipulatus est <expan><abbr>C</abbr><ex>aius</ex></expan> <lb n="9"/>Sulpicius Faustus <lb n="10"/>sp<supplied reason="lost">opo</supplied>ndi<supplied reason="lost">t</supplied> <lb n="11"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> B<supplied reason="lost">aebius</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Tabula Pompeiana 36. (B): Wesentlich weniger gelesen; Leseabweichungen. Y: Tagesdatum nicht vollständig erhalten: V Id[us ---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0240. (B)</bibl><bibl>T. Giménez-Candela, in: Studi in onore di Cesare Sanfilippo (Milano 1982) 181-189. (B) - AE 1984.</bibl><bibl>AE 1986, 0173.</bibl><bibl>G. Camodeca, Puteoli 7/8, 1983/84, 44-45, Nr. 5. - AE 1986.</bibl><bibl>AE 1973, 0158. (B)</bibl><bibl>C. Giordano, RAAN 46, 1971, 189, Nr. 9; tav. 9. (B) - AE 1973.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

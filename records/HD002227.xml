@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Scupi, bei &amp;ndash; Kumanovo (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002227</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002227</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>205</height><width>74</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481987">Scupi, bei</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/718075">Macedonia</placeName><placeName type="modern" ref="http://www.geonames.org/785354">Kumanovo</placeName><placeName type="findspot">{Studena Bara}</placeName><placeName type="region">Skopski region</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002227_1" sex="M"><persName ref="http://romans1by1.com/rpeople/14011"><name type="praenomen">M.</name><name type="nomen">Iulius</name><name type="cognomen">Bellus</name></persName></person><person xml:id="HD002227_2" sex="M"><persName ref="http://romans1by1.com/rpeople/14012"><name type="praenomen">[-]</name><name type="nomen">Iulius</name><name type="cognomen">Gallus+?</name></persName></person><person xml:id="HD002227_3" sex="W"><persName ref="http://romans1by1.com/rpeople/14013"><name type="nomen">Lumia</name><name type="cognomen">Andia</name></persName></person><person xml:id="HD002227_4" sex="M"><persName><name type="cognomen">Dasius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-11-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> Iulius <lb n="2"/>Bellus |(centurio) c<expan><ex>o</ex><abbr>ho</abbr><ex>rtis</ex></expan> <lb n="3"/>primae T&amp;lt;hr=RH&amp;gt;acum <lb n="4"/><expan><abbr>vet</abbr><ex>eranus</ex></expan> c<expan><ex>o</ex><abbr>ho</abbr><ex>rtis</ex></expan> eiusd<supplied reason="lost">em</supplied> <lb n="5"/>vixit annis LX <lb n="6"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="7"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Iulius Ga<supplied reason="lost" cert="low">ll</supplied>us <lb n="8"/>Lumia Andia Dasi <expan><abbr>f</abbr><ex>ilia</ex></expan> <lb n="9"/>fratres et heredes mei <lb n="10"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uraverunt</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>(B): IMS: Z. 8: f(iliae).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0787.</bibl><bibl>IMS 6, 233; Foto. (B) - AE 1984.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Scupi, bei &amp;ndash; Skopje, Kisela Voda (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002085</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002085</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Skopje, Arh. Muz. Mak.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(223)</height><width>82</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-10</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481987">Scupi, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1952"><placeName type="country" ref="https://www.geonames.org/718075">Macedonia</placeName><placeName type="modern" ref="http://www.geonames.org/791131">Skopje, Kisela Voda</placeName><placeName type="findspot">{Dračevo}, "Pintija", spätantike Gräber, sekundär verwendet</placeName><placeName type="region">Skopski region</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002085_1" sex="M"><persName ref="http://romans1by1.com/rpeople/13573"><name type="praenomen">Ti.</name><name type="nomen">Claudius</name><name type="cognomen">Germanus</name></persName></person><person xml:id="HD002085_2" sex="M"><persName ref="http://romans1by1.com/rpeople/13575"><name type="nomen">Claudius*</name><name type="cognomen">Crispus</name></persName></person><person xml:id="HD002085_3" sex="W"><persName ref="http://romans1by1.com/rpeople/13574"><name type="nomen">Claudia*</name><name type="cognomen">Tuta</name></persName></person><person xml:id="HD002085_4" sex="M"><persName ref="http://romans1by1.com/rpeople/13575"><name type="nomen">Claudius*</name><name type="cognomen">Crispus</name></persName></person><person xml:id="HD002085_5" sex="W"><persName ref="http://romans1by1.com/rpeople/13576"><name type="nomen">Claudia*</name><name type="cognomen">Vera</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-10-23" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ti</abbr><ex>berius</ex></expan> Claudius <lb n="2"/><expan><abbr>Cl</abbr><ex>audi</ex></expan> Crispi <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Quir</abbr><ex>ina</ex></expan> <lb n="3"/>Germanus <expan><abbr>vix</abbr><ex>it</ex></expan> <lb n="4"/><expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> LXV <lb n="5"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="6"/><expan><abbr>Cl</abbr><ex>audia</ex></expan> Tuta uxor <lb n="7"/>et <expan><abbr>Cl</abbr><ex>audius</ex></expan> Crispus et <lb n="8"/><expan><abbr>Cl</abbr><ex>audia</ex></expan> Vera <expan><abbr>fili</abbr><ex>i</ex></expan> <lb n="9"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uraverunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Gefunden an der Stelle Pintija in Zweitverwendung für ein spätantikes Grab. In zwei Teile gebrochen, oberhalb des Inschriftfeldes zwei Bukranien mit einer Girlande dazwischen, darüber Rosette.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0765.</bibl><bibl>ILJug 0044.</bibl><bibl>IMS 6, 104; Foto.</bibl><bibl>B. Josifovska, ZAnt 6, 1956, 278-282, Nr. 1; sl. 2. - AE 1984.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

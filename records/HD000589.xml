@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from S. Miniato, bei (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000589</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000589</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Seminario von San Miniato</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>82</height><width>58</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.9-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">S. Miniato, bei</placeName><placeName type="findspot">Kirche</placeName><placeName type="region">Pisa</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000589_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Lauselius</name><name type="cognomen">Maxsimus (= Maximus)</name></persName></person><person xml:id="HD000589_2" sex="W"><persName><name type="nomen">Caulia</name><name type="cognomen">Thyche (= Tyche)</name></persName></person><person xml:id="HD000589_3" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Lauselius</name><name type="cognomen">Tacitus</name></persName></person><person xml:id="HD000589_4" sex="W"><persName><name type="nomen">Lauselia</name><name type="cognomen">Tacita</name></persName></person><person xml:id="HD000589_5" sex="W"><persName><name type="nomen">Faesonia</name><name type="cognomen">Sabina</name></persName></person><person xml:id="HD000589_6" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Lauselius</name><name type="cognomen">Sabinus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1997-08-23" who="Niquet">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>M</abbr><ex>arco</ex></expan> Lauselio Maxsimo <note>sic</note> <lb n="2"/>et Cauliae Thyche <note>sic</note> <lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Lauselius <lb n="4"/>Tacitus <lb n="5"/>et Lauselia Tacita <lb n="6"/>parentibus et <lb n="7"/>Faesonia Sabina <lb n="8"/>et <expan><abbr>M</abbr><ex>arcus</ex></expan> Lauselius <lb n="9"/>Sabinu<supplied reason="lost">s</supplied> <lb n="10"/>neptes <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erentibus</ex></expan> <lb n="11"/>posu<supplied reason="lost">eru</supplied>nt
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): D(is) M(anibus) statt Dis [M(anibus)]; Z. 10: Sabinus statt Sabinu[s]; Z. 12: posu[erun]t statt posu[eru]nt. Verwendung als Altartisch in der Kirche von Corniano, dann nach Florenz gebracht.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0381.</bibl><bibl>G. Ciampoltrini, Epigraphica 42, 1980, 164-165, Nr. 2; fig. 3. - AE.</bibl><bibl>CIL 11, 01734. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

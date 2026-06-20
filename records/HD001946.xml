@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Comama &amp;ndash; Ürkütlü (Lycia et Pamphylia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001946</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001946</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ürkütlü, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(55)</height><width>45</width><depth>53</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lycia et Pamphylia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/638812">Comama</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/298795">Turkey</placeName><placeName type="modern">Ürkütlü</placeName><placeName type="findspot"/><placeName type="region">Burdur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001946_1" sex="M"><persName><name type="praenomen">L.+</name><name type="nomen">Paccius</name><name type="cognomen">Montanus+</name></persName></person><person xml:id="HD001946_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Paccius+</name><name type="cognomen">Ap[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-15" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>L</abbr><ex>ucium</ex></expan></supplied> Paccium <expan><abbr>M</abbr><ex>arci</ex></expan> fi<supplied reason="lost"><expan><abbr>l</abbr><ex>ium</ex></expan></supplied> <lb n="2"/><expan><abbr><supplied reason="lost">F</supplied>ab</abbr><ex>ia</ex></expan> Montanu<supplied reason="lost">m</supplied> <lb n="3"/><expan><abbr><supplied reason="lost">tr</supplied>ib</abbr><ex>unum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> IIII <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>F<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost">honoravit <expan><abbr>col</abbr><ex>onia</ex></expan></supplied> <lb n="6"/><supplied reason="lost"><expan><abbr>Iul</abbr><ex>ia</ex></expan> <expan><abbr>Aug</abbr><ex>usta</ex></expan> prima fi</supplied><lb break="no" n="7"/>da <supplied reason="lost">Co</supplied>mama d<supplied reason="lost">e</supplied><lb break="no" n="8"/>curionem su<supplied reason="lost">um</supplied> <lb n="9"/>pro meritis ei<supplied reason="lost">us</supplied> <lb n="10"/>qu<expan><ex>a</ex><abbr>e</abbr></expan> in eam con<supplied reason="lost">tu</supplied><lb break="no" n="11"/>lit positionem <lb n="12"/>statuae omni<supplied reason="lost">aque</supplied> <lb n="13"/>inpendia praes<supplied reason="lost">tante</supplied> <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">P</supplied>accio Ap<gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Maße des 2. dazu passenden Fragments (CIL 3, 12151): 36 x 55,5 x 55. (B): Z.1: M.[f.]; Z.3: LEG III; Z.4 fehlt. Material: weißer Kalkstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0892.</bibl><bibl>D.H. French, in: St. Mitchell (Hg.), Armies and Frontiers in Roman and Byzantine Anatolia (Oxford 1983) 47-51; pl. 5,1. - AE.</bibl><bibl>CIL 03, 12151. (B)</bibl><bibl>V. Bérard, BCH 16, 1892, 420, Nr. 44. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

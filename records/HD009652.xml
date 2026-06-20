@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Gorsium &amp;ndash; Tác (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009652</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009652</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Tác, Gorsium Szabadtéri Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(181)</height><width>73</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197287">Gorsium</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044199">Tác</placeName><placeName type="findspot">{Gorsium}, Gebäude IV</placeName><placeName type="region">Fejér megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009652_1" sex="W"><persName><name type="nomen">Aurelia</name><name type="cognomen">Sura</name></persName></person><person xml:id="HD009652_2" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Fortunio</name></persName></person><person xml:id="HD009652_3" sex="W"><persName><name type="nomen">Aurelia</name><name type="cognomen">Candida*</name></persName></person><person xml:id="HD009652_4" sex="W"><persName><name type="nomen">Aurelia</name><name type="cognomen">Lucilla</name></persName></person><person xml:id="HD009652_5" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Maximianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-12-19" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012069" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/420fd53c-65e5-4f9e-8b81-c342bb739dbc/file/id/771596/file_version/name/small"/><graphic xml:id="F004592" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/26317d85-1c4f-4ebd-8d43-788d67210159/file/id/765351/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Aurelia Sura qu<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="2"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XXXV <expan><abbr>me</abbr><ex>nses</ex></expan> X <lb n="3"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Fortunio qui <lb n="4"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XIIII <expan><abbr>me</abbr><ex>nses</ex></expan> XI <lb n="5"/>Aureliae Candid<expan><ex>a</ex><abbr>e</abbr></expan> viv<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="6"/>Aurelia Lucilla libertis <lb n="7"/>carissimis <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aur</abbr><ex>elius</ex></expan> <lb n="8"/>Maximianus nutri<lb break="no" n="9"/>ci pientis<expan><ex>s</ex><abbr>im</abbr><ex>a</ex><abbr>e</abbr></expan> <lb n="10"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uraverunt</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Lesung nach G. Alföldy. (B): Fitz, AE 1972, RIU: abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1972, 0434. (B)</bibl><bibl>J. Fitz, AAntHung 24, 1972, 50-51. (B) - AE 1972.</bibl><bibl>RIU 1543; Abb. 1543 (Foto u. Zeichnung). (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Trebula Suffenas &amp;ndash; Ciciliano (Samnium (Regio IV))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002908</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002908</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/71">Travertin</material><dimensions unit="cm"><height>85</height><width>69</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Samnium (Regio IV)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423103">Trebula Suffenas</placeName></origPlace><origDate><origDate notBefore-custom="-0050" notAfter-custom="-0001" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">50 BC - 1 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Ciciliano</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002908_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Plautius</name><name type="cognomen">Silvanus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-11" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> Plautio <expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Silvan</abbr><ex>o</ex></expan> <lb n="2"/><expan><abbr>pr</abbr><ex>aetori</ex></expan> <expan><abbr>VIIvi</abbr><ex>ro</ex></expan> <lb n="3"/><expan><abbr>epulon</abbr><ex>um</ex></expan> dedit <lb n="4"/><expan><abbr>patron</abbr><ex>o</ex></expan> ex <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(C): Identifikation von M. Plautius A.f. Silvanus mit dem Prätor des Jahres 24 (vgl. Tac.ann. 4, 22), Sohn eines unbekannten Bruders des Konsuls 2 v. Chr. U. Vogel-Weidemann korrigiert Stemma der Plautii, identifiziert Plautius Silvanus mit dem Vater des Konsuls 2 v. Chr., Ehemann von Urgulania (vgl. Tac.ann. 2, 34; 4, 21).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0177.</bibl><bibl>U. Vogel-Weidemann, AClass 19, 1976, 135-138. - AE 1984.</bibl><bibl>AE 1972, 0162. (C)</bibl><bibl>L. Berni Brizio, in: Centro Studi e Documentazione sull'Italia Romana, Atti 2, 1969/1970 (Varese - Milano 1971) 145-148, Nr. 9; fig. 9. (C) - AE 1972.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

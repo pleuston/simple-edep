@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004999</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004999</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>69</height><width>280</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.2-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004999_1"><persName><name type="cognomen">Alcimus</name></persName></person><person xml:id="HD004999_2"><persName><name type="cognomen">Ingenuus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2000-11-14" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F042816" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2a48dbe6-6477-4ac2-9e57-2dde5526352a/file/id/803922/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Alcimo <expan><abbr>Caes</abbr><ex>aris</ex></expan> <lb n="3"/><expan><abbr>n</abbr><ex>ostri</ex></expan> <expan><abbr>ser</abbr><ex>vo</ex></expan> structori <lb n="4"/>Ingen<expan><ex>u</ex><abbr>us</abbr></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <lb n="5"/><expan><abbr>n</abbr><ex>ostri</ex></expan> <expan><abbr>ser</abbr><ex>vus</ex></expan> a cura <lb n="6"/>amicorum <lb n="7"/>fratri <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <expan><abbr>fec</abbr><ex>it</ex></expan> <lb n="8"/>in <expan><abbr>fr</abbr><ex>onte</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> VI in <expan><abbr>agr</abbr><ex>o</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> VI </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Alcimo <expan><abbr>Caes</abbr><ex>aris</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Links unterhalb der eingemeißelten Inschrift das Graffito: Alcimo Caes(aris). (B): CIL, ILS: Graffito nicht registriert; AE 1980: fälschliche Wiedergabe der Lokalisierung des Graffitos durch Di Stefano Manzella (ïn basso a sinistra&amp;quot;&amp;quot;) als &amp;quot;&amp;quot;en bas et à gauche&amp;quot;&amp;quot;.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0043. (B)</bibl><bibl>I. Di Stefano Manzella, RPAA 50, 1977/78, 129-134; fig. 1-2; fig. 3 (Zeichnung). - AE 1980.</bibl><bibl>CIL 06, 08795. (B)</bibl><bibl>ILS 1809. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

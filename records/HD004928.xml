@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Pompeii, bei &amp;ndash; Pompei, bei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004928</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004928</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii, bei</placeName></origPlace><origDate><origDate when-custom="0048" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">48 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170336">Pompei, bei</placeName><placeName type="findspot">Murécine</placeName><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004928_1"><persName><name type="praenomen">A.+</name><name type="nomen">Vitellius+</name></persName></person><person xml:id="HD004928_2"><persName><name type="praenomen">L.+</name><name type="nomen">Vipstanus</name><name type="cognomen">Poplicola</name></persName></person><person xml:id="HD004928_3"><persName><name type="praenomen">C.</name><name type="nomen">Sulpicius</name><name type="cognomen">Cinnamus+</name></persName></person><person xml:id="HD004928_4"><persName><name type="praenomen">C.+</name><name type="nomen">Sulpicius+</name><name type="cognomen">Faustus+</name></persName></person><person xml:id="HD004928_5"><persName><name type="cognomen">Higinus</name></persName></person><person xml:id="HD004928_6"><persName><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Prudens</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2005-05-27" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>A</abbr><ex>ulo</ex></expan></supplied> V<supplied reason="lost">i</supplied>tellio <supplied reason="lost"><expan><abbr>L</abbr><ex>ucio</ex></expan></supplied> Vipstano Poplicola co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Pru<supplied reason="lost">den</supplied>s scripsi me rogasse <expan><abbr>C</abbr><ex>aium</ex></expan> Sulpicium <lb n="3"/>Cinnam<supplied reason="lost">um si</supplied>ve <lb n="4"/>mandasse ei<surplus>s</surplus> quantam <lb n="5"/><supplied reason="lost">pe</supplied>cuniam is aut Eros aut <gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>aut si q<expan><ex>ui</ex><abbr>d</abbr><ex>am</ex></expan> eius aut Martialis <expan><abbr>ser</abbr><ex>vus</ex></expan> eius aut <supplied reason="lost"><expan><abbr>C</abbr><ex>aius</ex></expan></supplied> Sulpiciu<supplied reason="lost">s</supplied> <lb n="7"/>Faustu<supplied reason="lost">s a</supplied>liusve quis iussu rogatu mandatuve <lb n="8"/>cuius eor<supplied reason="lost">u</supplied>m semel saepiusve sua in <expan><abbr>i</abbr><ex>ure</ex></expan> meo aut <lb n="9"/>Higin<supplied reason="lost">i fra</supplied>ter ali<expan><ex>i</ex><abbr>ve</abbr></expan> cui iussu cuius eorum <lb n="10"/>m<supplied reason="lost">andatu</supplied>m dedisset aut pro quo eorum promisisset <lb n="11"/>spopo<supplied reason="lost">ndisset</supplied> iure ut sua esse iussisset aliove quo <lb n="12"/>n<supplied reason="lost">omine o</supplied>bligatus esset quantaque ea pecunia <lb n="13"/><supplied reason="lost">erit quae</supplied> ita data credita et cuiusque <lb n="14"/><supplied reason="lost">pec</supplied>uniae obligatio quoque nomine ita uti s<lb break="no" n="15"/><supplied reason="lost">upra</supplied> co<expan><ex>m</ex><abbr>prehensum</abbr></expan> est facta erit <expan><abbr>t</abbr><ex>antam</ex></expan> <expan><abbr>p</abbr><ex>ecuniam</ex></expan> <expan><abbr>d</abbr><ex>ari</ex></expan> <lb n="16"/><supplied reason="lost">dolu</supplied>mque malum <supplied reason="lost">ei</supplied> rei promissionique </ab></div><div n="2" type="textpart"><ab><lb n="1"/> abesse afuturumque es<supplied reason="lost">se</supplied> a me heredeque <lb n="2"/>meo et ali<expan><ex>i</ex><abbr>s</abbr></expan> omnibus ad q<supplied reason="lost">u</supplied>os ea res <expan><abbr>q</abbr><ex>ua</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>r</abbr><ex>e</ex></expan></supplied> <expan><abbr>a</abbr><ex>gitur</ex></expan> pertinet <lb n="3"/>cui rei ita dolus malus no<supplied reason="lost">n a</supplied>dest non aderit <lb n="4"/>quanti ea res erit <expan><abbr>t</abbr><ex>antam</ex></expan> <expan><abbr>p</abbr><ex>ecuniam</ex></expan> <expan><abbr>d</abbr><ex>ari</ex></expan> <lb n="5"/>haec sic recte dari plurium stipulatus est <lb n="6"/><expan><abbr>C</abbr><ex>aius</ex></expan> Sulpicius Cinnamus spopo<supplied reason="lost">ndit</supplied> <expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Prudens <lb n="7"/>actum <supplied reason="lost">Pu</supplied>t<supplied reason="lost">eo</supplied>l<supplied reason="lost">is</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Tabula Pompeiana. (B): Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0120.</bibl><bibl>J. Crook, ZPE 29, 1978, 237-239, Nr. 3. (B) - AE 1978.</bibl><bibl>AE 1974, 0277.</bibl><bibl>F. Sbordone, RAAN 47, 1972, 307-310. - AE 1974.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

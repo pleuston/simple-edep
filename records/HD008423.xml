@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Chiunsano di Gaiba (Venetia et Histria (Regio X))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008423</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008423</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Venetia et Histria (Regio X)</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Chiunsano di Gaiba</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1997-05-13" who="Niquet">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> divi Ant</supplied>onini Magni Pii <expan><abbr>fil</abbr><ex>ius</ex></expan> <lb n="2"/><supplied reason="lost">divi Severi Pi</supplied>i <expan><abbr>nep</abbr><ex>os</ex></expan> <lb n="3"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arcus</ex></expan> Aurelius Severus</supplied> Alexander Pius Felix <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <lb n="4"/><supplied reason="lost"><expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> tr</supplied><expan><abbr>ib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> V co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> II <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/><supplied reason="lost">iis qui militaverunt i</supplied>n classe praetoria Se<lb break="no" n="6"/><supplied reason="lost">veriana <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>v</abbr><ex>indice</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied>e qu<expan><ex>a</ex><abbr>e</abbr></expan> est sub Mevio Ho<lb break="no" n="7"/><supplied reason="lost">noratiano <expan><abbr>praef</abbr><ex>ecto</ex></expan> oc</supplied>tonis et vicenis stipen<lb break="no" n="8"/><supplied reason="lost">diis emeritis dimiss</supplied>is honesta missione <lb n="9"/><supplied reason="lost">quorum nomina subs</supplied>cripta sunt ipsis filis<lb break="no" n="10"/>[que eorum quos susceperint ex mulieribus ------ </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>descript</abbr><ex>um</ex></expan> et r<supplied reason="lost"><expan><abbr>ecognit</abbr><ex>um</ex></expan> ex <expan><abbr>tab</abbr><ex>ula</ex></expan> aerea <expan><abbr>qu</abbr><ex>a</ex>e</expan></supplied> <lb n="2"/>fixa est Ro<supplied reason="lost">mae in muro post templum</supplied> <lb n="3"/>divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> <supplied reason="lost">ad Minervam</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0598.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

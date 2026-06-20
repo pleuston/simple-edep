@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Calendar from Cupra Maritima, bei &amp;ndash; Montefiore dell'Aso (Picenum (Regio V))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002110</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002110</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ripatransone, Mus. Civ. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(28)</height><width>(24)</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Picenum (Regio V)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413112">Cupra Maritima, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1968"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Montefiore dell'Aso</placeName><placeName type="findspot">S. Giovanni</placeName><placeName type="region">Ascoli Piceno</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/3">calendar</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-04-30" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004692" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/54bcb2a5-ba22-4415-a568-37b570556411/file/id/765447/file_version/name/small"/><graphic xml:id="F004245" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c6139427-4b8f-45ee-97d7-dd4a38b26def/file/id/765007/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost">D XIIII <expan><abbr>n</abbr><ex>efastus</ex></expan></supplied> Ludi <lb n="2"/><supplied reason="lost">E XIII C</supplied><expan><abbr>er</abbr><ex>ialia</ex></expan> <expan><abbr>n</abbr><ex>efastus</ex></expan> <expan><abbr>p</abbr><ex>ublicus</ex></expan> in cir<supplied reason="lost">co</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><supplied reason="lost">F XII <expan><abbr>n</abbr><ex>efastus</ex></expan></supplied> <lb n="4"/><supplied reason="lost">G XI <expan><abbr>Par</abbr><ex>ilia</ex></expan></supplied> <expan><abbr>n</abbr><ex>efastus</ex></expan> <expan><abbr>p</abbr><ex>ublicus</ex></expan> Feriae Pa<supplied reason="lost">li</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost">H X <expan><abbr>n</abbr><ex>efastus</ex></expan></supplied> <lb n="6"/><supplied reason="lost">A VIIII <expan><abbr>Vin</abbr><ex>alia</ex></expan> <expan><abbr>f</abbr><ex>astus</ex></expan> Io</supplied>vi Ve<supplied reason="lost">neri</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Die Fundumstände des Fragments sind unbekannt. AE 1982: nur Wiedergabe des Textes v. 21.-23.4. Das vorliegende Fragment bezieht sich auf die Tage vom 18.-23.4.; zu ihm gehören noch weitere Fragmente: eines mit dem 30./31.1., eines mit dem 23.8., eines, dessen Zugehörigkeit zu einem Monat nicht klar ist: es gehört zu einem Monat zwischen Februar und Dezember. (B): Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0235.</bibl><bibl>G. Paci, AFLM 13, 1980, 281-292; tav. 1; fig. 1 u. 2 (Zeichnungen). - AE 1982.</bibl><bibl>AE 1975, 0359. (B)</bibl><bibl>CIL 09, 05286.</bibl><bibl>InscrIt 13, 2, 0009; tav. 12.</bibl><bibl>CIL 09, 05287.</bibl><bibl>CIL 09, 05288.</bibl><bibl>B. Bonvicini, RAL 27, 1972, 204-205, Nr. 8; tav. 5,3. (B) - AE 1975.</bibl><bibl>CIL 01 (2. Aufl.) 01, p. 251 n. XIX 2.</bibl><bibl>CIL 01 (2. Aufl.) 01, p. 62 n. Va.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

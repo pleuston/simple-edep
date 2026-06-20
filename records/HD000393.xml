@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Spoletium, bei &amp;ndash; Spoleto, bei (Umbria (Regio VI))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000393</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000393</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>87</height><width>67</width><depth>35</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Umbria (Regio VI)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413320">Spoletium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1958"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Spoleto, bei</placeName><placeName type="findspot">Grundstück des Camillo Piccioli</placeName><placeName type="region">Umbria</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000393_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Annius</name><name type="cognomen">Gelasus*</name></persName></person><person xml:id="HD000393_2" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Annius+</name><name type="cognomen">Philargurus* (= Philargyrus)</name></persName></person><person xml:id="HD000393_3" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Annius+</name><name type="cognomen">Secundus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-11" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ubli</ex></expan> Anni |(mulieris) <expan><abbr>l</abbr><ex>iberti</ex></expan> <expan><abbr>Gelas</abbr><ex>i</ex></expan> <lb n="2"/><expan><abbr>P</abbr><ex>ubli</ex></expan> &amp;lt;Anni&amp;gt; <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>l</abbr><ex>iberti</ex></expan> <expan><abbr>Philargur</abbr><ex>i</ex></expan> <note>sic</note> <lb n="3"/><expan><abbr>P</abbr><ex>ubli</ex></expan> &amp;lt;Anni&amp;gt; <expan><abbr>PP</abbr><ex>ubliorum</ex></expan> <expan><abbr>l</abbr><ex>iberti</ex></expan> Secundi
+            </ab></div>
+            <div type="commentary">
+                <p>Inschrift auf einem Grundstück a.d. Straße von Fabbreria n. Bazzano gefunden. (B): Rambaldi: Z.1: Gelas AE: P(ublius) Anni(us) (mulieris)l(ibertus) Gelas / P(ubli) l(ibertus) Philargur(us) / P(ubli) PP(ubliorum) l(iberti) Secundi. Z. 2/3: nach Praenomen Freiraum, offensichtlich war Gentiliz hier eingemeißelt; mit Farbe nachgetragen? Material: rötlicher Kalkstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0350. (B)</bibl><bibl>A. Rambaldi, Spoletium 11, 1962, 4, Nr. 5. (B) - AE 1983.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

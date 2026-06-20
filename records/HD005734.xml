@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Valentia &amp;ndash; Valence (Narbonensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005734</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005734</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Narbonensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/442845">Valentia</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern">Valence</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1997-08-13" who="Niquet">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">D(is)? M(anibus)</supplied> <lb n="2"/><supplied reason="lost">in honorem</supplied> <lb n="3"/><expan><abbr>M</abbr><ex>arc--</ex></expan> Bucc<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>Galer<supplied reason="lost" cert="low">ianus</supplied> <lb n="5"/><expan><abbr>omnib</abbr><ex>us</ex></expan> <supplied reason="lost">honoribus apud suos</supplied> <lb n="6"/>funct<supplied reason="lost">i sacerdotis ad aram</supplied> <lb n="7"/><expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> tri<supplied reason="lost">um provinciarum</supplied> <lb n="8"/>Galliaru<supplied reason="lost">m Luguduni flami</supplied><lb break="no" n="9"/>nis divo<supplied reason="lost">rum <expan><abbr>eodemq</abbr><ex>ue</ex></expan> tempo</supplied><lb break="no" n="10"/>re sacer[dotis ------
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0624.</bibl><bibl>AE 1952, 0023.</bibl><bibl>AE 1979, 0403.</bibl><bibl>AE 1989, 0506.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

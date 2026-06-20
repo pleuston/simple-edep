@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from (Civitas Alisinensium) &amp;ndash; Osterburken (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004516</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004516</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(62)</height><width>(30)</width><depth>(20)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-6.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118898">(Civitas Alisinensium)</placeName></origPlace><origDate><origDate when-custom="0213" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">213 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1971"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2856637">Osterburken</placeName><placeName type="findspot">{S. Kilian, Kirche} (Vorgängerbau), sekundär verwendet</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004516_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]innu[---]?</name><name type="cognomen">Calenus+</name></persName></person><person xml:id="HD004516_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="cognomen">Antoninus+</name></persName></person><person xml:id="HD004516_3" sex="M"><persName><name type="nomen">Caelius</name><name type="cognomen">Balbinus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-24" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F034889" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/16815be2-00ca-4a7b-81c4-edc81bc99083/file/id/795726/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>INNV<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><supplied reason="lost" cert="low">--</supplied> Calen<supplied reason="lost">us</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><supplied reason="lost" cert="low">--</supplied>tius b<expan><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied> <lb n="4"/><supplied reason="lost">VI</supplied>II <expan><abbr>Aug</abbr><ex>ustae</ex></expan> An<supplied reason="lost">toninia</supplied><lb break="no" n="5"/><supplied reason="lost">n</supplied>ae <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <expan><abbr>c</abbr><ex>onstantis</ex></expan> <expan><abbr>C</abbr><ex>ommodae</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><supplied reason="lost"><expan><abbr>d</abbr><ex>omino</ex></expan></supplied> <expan><abbr>n</abbr><ex>ostro</ex></expan> Anton<supplied reason="lost">ino <expan><abbr>Aug</abbr><ex>usto</ex></expan> IIII</supplied> <lb n="7"/>et Caelio <supplied reason="lost">Balbino II</supplied> <lb n="8"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <expan><abbr>Id</abbr><ex>ibus</ex></expan> <expan><abbr>Ian</abbr><ex>uariis</ex></expan> <supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Beim Abbruch der Kirche St. Kilian gefunden. Auf der rechten Nebenseite Akanthusornament. (B):AE 1978; Schillinger-Häfele 1977: Z. 1: ---]inniu(?)[s? ---]; Schallmayer et al.; RSO: kleinere Abweichungen in Lesung/Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0526. (B)</bibl><bibl>U. Schillinger-Häfele, FBW 1, 1974, 536-538, Nr. 2; Abb. 2.</bibl><bibl>U. Schillinger-Häfele, BRGK 58, 1977, 481-482, Nr. 45. (B) - AE 1978.</bibl><bibl>RSO 093. (B)</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott. - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 157-158, Nr. 172; Abb. 172. (B)</bibl><bibl>PIR (2. Aufl.) C 126.</bibl><bibl>R. Cubaynes, Les hommes de la VIIIe légion Auguste (Autun 2018) 414-415, Nr. 106; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

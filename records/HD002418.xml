@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002418</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002418</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mentana, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(23)</height><width>(31)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002418_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD002418_2" sex="W"><persName><name type="nomen">Iunia</name><name type="cognomen">Proba</name></persName></person><person xml:id="HD002418_3" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Lucrinius</name><name type="cognomen">Felix</name></persName></person><person xml:id="HD002418_4" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Salinator</name><name type="cognomen">Marcellus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-09-03" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F023481" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/44f9b0c9-797f-4ee5-99c0-4fda2d0e8149/file/id/784140/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/>ae<gap reason="lost" extent="unknown" unit="character"/> <lb n="1"/><supplied reason="lost">v</supplied>ixit annis XVII me<expan><ex>n</ex><abbr>s</abbr><ex>ibus</ex></expan> XI f<supplied reason="lost">ece</supplied><lb break="no" n="2"/><supplied reason="lost">run</supplied>t Iunia Proba mate<supplied reason="lost" cert="low">r et</supplied> <lb n="3"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Lucrinius Felix pate<supplied reason="lost">r</supplied> <lb n="4"/><supplied reason="lost">c</supplied>oncessum sibi ex parte sin<supplied reason="lost">is</supplied><lb break="no" n="5"/><supplied reason="lost">t</supplied>ra cubiculum con <note>sic</note> adito <note>sic</note> <lb n="6"/><supplied reason="lost">a</supplied> <expan><abbr>M</abbr><ex>arco</ex></expan> Salinatore Mar<supplied reason="lost">c</supplied><lb break="no" n="7"/>ello domino rei
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0127.</bibl><bibl>P. Cavuoto, in: G. Barbieri (Hrsg.), Il lapidario Zeri di Mentana (Roma 1982) 215-217, Nr. 129; tav. 102,2. - AE 1985.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

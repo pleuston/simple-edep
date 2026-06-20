@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Savaria, bei &amp;ndash; Acsád (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009613</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009613</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Szombathely, Savaria Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(192)</height><width>93</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.8-5.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197498">Savaria, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1930"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3056435">Acsád</placeName><placeName type="findspot"/><placeName type="region">Vas megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009613_1" sex="M"><persName ref="http://romans1by1.com/rpeople/17310"><name type="praenomen">M.</name><name type="nomen">Sempronius</name><name type="cognomen">Severus</name></persName></person><person xml:id="HD009613_2" sex="W"><persName ref="http://romans1by1.com/rpeople/17311"><name type="nomen">Blassia</name><name type="cognomen">Severa</name></persName></person><person xml:id="HD009613_3" sex="M"><persName ref="http://romans1by1.com/rpeople/17312"><name type="praenomen">M.</name><name type="nomen">Sempronius</name><name type="cognomen">Vibius</name></persName></person><person xml:id="HD009613_4" sex="W"><persName ref="http://romans1by1.com/rpeople/17313"><name type="nomen">Sempronia</name><name type="cognomen">Quarta</name></persName></person><person xml:id="HD009613_5" sex="M"><persName ref="http://romans1by1.com/rpeople/17314"><name type="praenomen">C.</name><name type="nomen">Sempronius</name><name type="cognomen">Praesens</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-06-01" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> Sempronius <lb n="2"/><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Vel</abbr><ex>ina</ex></expan> Severus <lb n="3"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> LX <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> et <lb n="4"/>Blassiae <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> Sever<lb break="no" n="5"/>ae <expan><abbr>con</abbr><ex>iugi</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> Sempr<lb break="no" n="6"/>onius Vibius et <lb n="7"/>Sempronia <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> <lb n="8"/>Quarta <expan><abbr>fili</abbr><ex>i</ex></expan> <expan><abbr>p</abbr><ex>arentibus</ex></expan> <expan><abbr>p</abbr><ex>iissimis</ex></expan> <expan><abbr>arb</abbr><ex>itratu</ex></expan> <lb n="9"/><expan><abbr>C</abbr><ex>ai</ex></expan> Semproni Praesentis
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftfeld von mit Blüten geschmückten Pilastern eingefasst; darüber Rankenfries und Giebel mit Gorgoneion und Rosetten; über den Giebelschrägen Delphine; unterhalb des Inschriftfeldes Girlande mit Bukranien. (B): Z. 2: Tóth: filius; Z. 9: Praes(e)ntis.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1972, 0419.</bibl><bibl>RIU 0155; Abb. 155 (Foto u. Zeichnung).</bibl><bibl>L. Balla - T.P. Buocz - Z. Kádár - A. Mócsy - T. Szentléleky, Die römischen Steindenkmäler von Savaria (Amsterdam 1971) 102, Nr. 100; Abb. 83. - AE 1972.</bibl><bibl>E. Tóth, Lapidarium Savariense. Savaria római feliratos kőemlékei (Szombathely 2011) 217, Nr. 185; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

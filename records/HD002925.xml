@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Athenae &amp;ndash; Athínai (Achaia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002925</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002925</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Athínai, Epigr. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(20)</height><width>(41)</width><depth>(15)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Achaia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/579885">Athenae</placeName></origPlace><origDate><origDate when-custom="0132" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">132 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern">Athínai</placeName><placeName type="findspot">"Stoa Hadriani" (CIL)</placeName><placeName type="region">Attikí</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002925_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1427"><name type="cognomen">Traianus+ Hadrianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-04-04" who="Cowey">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> Caesari divi Traiani</supplied> <lb n="2"/><supplied reason="lost">Parthici <expan><abbr>f</abbr><ex>ilio</ex></expan> divi Nervae <expan><abbr>nep</abbr><ex>oti</ex></expan></supplied> <lb n="3"/><supplied reason="lost">Traiano Ha</supplied>d<supplied reason="lost">riano <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan></supplied> <lb n="4"/><expan><abbr><supplied reason="lost">t</supplied>r</abbr><ex>ibunicia</ex></expan> <expan><abbr>p</abbr><ex>otestate</ex></expan> XVI co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> III <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <supplied reason="lost">Olympio</supplied> <lb n="5"/><supplied reason="lost">C</supplied>aesarea Antio<supplied reason="lost">chia ob multa</supplied> <lb n="6"/><supplied reason="lost">be</supplied>neficia quae <supplied reason="lost">viritim quae</supplied> <lb n="7"/><supplied reason="lost">publice praestitit coloniae</supplied> <lb n="8"/>[per legat------
+            </ab></div>
+            <div type="commentary">
+                <p>Rekonstruktion des Inschriftentextes nach CIL III 7281 und 7282.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 06102.</bibl><bibl>CIL 03, 07283.</bibl><bibl>AE 1984, 0822.</bibl><bibl>G. Molisani, ASAA 52/53, 1974/1975, 401-409; fig. 3. - AE 1984.</bibl><bibl>M. Šašel Kos, Inscriptiones Latinae in Graecia repertae. Additamenta ad CIL III (Faenza 1979) 59, Nr. 134.</bibl><bibl>M.C.J. Miller, Inscriptiones Atticae. Supplementum inscriptionum Atticarum 6 (Chicago 1992) 46-47, Nr. 19.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

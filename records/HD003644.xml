@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Arelate, bei &amp;ndash; Arles, bei (Narbonensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003644</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003644</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Narbonensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/148217">Arelate, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern">Arles, bei</placeName><placeName type="findspot">De la Pointe</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003644_1" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Pompeius</name><name type="cognomen">Pius</name></persName></person><person xml:id="HD003644_2" sex="W"><persName><name type="nomen">Kareia</name><name type="cognomen">Ingenua</name></persName></person><person xml:id="HD003644_3" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Kareius</name><name type="cognomen">Amomus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-27" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F027604" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cb897bb0-2143-4c29-a160-f5112ea13afd/file/id/788361/file_version/name/small"/><graphic xml:id="F027605" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4a6c3121-3623-417f-9e78-7e188eed3afe/file/id/788362/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>A</abbr><ex>ulo</ex></expan> Pompeio <expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/><expan><abbr>Sabat</abbr><ex>ina</ex></expan> Pio <expan><abbr>aed</abbr><ex>ili</ex></expan> <lb n="3"/>Kareia <expan><abbr>Sex</abbr><ex>ti</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> Ingenua <lb n="4"/>mater <expan><abbr>t</abbr><ex>estamento</ex></expan> <expan><abbr>f</abbr><ex>ieri</ex></expan> <expan><abbr>r</abbr><ex>ogavit</ex></expan> <lb n="5"/><expan><abbr>A</abbr><ex>ulus</ex></expan> Kareius Amomus <lb n="6"/><expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>p</abbr><ex>onendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan> <expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> testamento <lb n="2"/>sibi fieri iussit
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): Unterschiede in Lesung und Auflösung der Abkürzungen - Piton. Zeile 5: Aminus als cognomen - AE.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0859. (B)</bibl><bibl>J. Piton, in: Du nouveau sur l'Arles antique, Revue d'Arles 1 (Arles 1987) 110-111; Foto. (B) - AE 1988.</bibl><bibl>AE 1992, 1182.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

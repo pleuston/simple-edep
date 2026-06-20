@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Prizren (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006438</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006438</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Skopje, Arh. Muz. Mak.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>58</height><width>28</width><depth>23</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/831053">Kosovo</placeName><placeName type="modern" ref="http://www.geonames.org/786712">Prizren</placeName><placeName type="findspot"/><placeName type="region">Prizren</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006438_1" sex="M"><persName><name type="nomen">So[---]</name><name type="cognomen">Surus</name></persName></person><person xml:id="HD006438_2" sex="M"><persName><name type="cognomen">Heraclitus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-02-10" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                As<lb break="no" n="2"/>clep<supplied reason="lost">i</supplied><lb break="no" n="3"/>o </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">Teles</supplied><lb break="no" n="2"/><supplied reason="lost">phoro</supplied> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <supplied reason="lost">Hy</supplied><lb break="no" n="2"/><supplied reason="lost">giae</supplied> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> So<gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="5" type="textpart"><ab><lb n="1"/> Heracliti Su<lb break="no" n="2"/>rus et pro <lb n="3"/>Genio Dolic<expan><ex>h</ex><abbr>eni</abbr></expan> <lb n="4"/>paterno Deo et <expan><abbr>Gen</abbr><ex>io</ex></expan> <lb n="5"/>co<expan><ex>ho</ex><abbr>rtis</abbr></expan> votum libies <note>sic</note> <expan><abbr>f</abbr><ex>ecit</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): Z. 7: Speidel, ILJug, CCID: Gen(io) I(ovis) O(ptimi) Doliceni.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0739.</bibl><bibl>M.P. Speidel, AArchSlov 31, 1980, 182-185; Fotos. (B) - AE 1981.</bibl><bibl>ILJug 1438. (B)</bibl><bibl>N. Vulić, Spomenik 71, 1931, 133, Nr. 322; Foto. - AE 1981.</bibl><bibl>CCID 126; Taf. 28, 126. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

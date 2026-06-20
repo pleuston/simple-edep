@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Aquincum, bei &amp;ndash; Rácalmás (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000984</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000984</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Székesfehérvár, Szent István Király Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>202</height><width>49</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.3-4.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum, bei</placeName></origPlace><origDate><origDate when-custom="0198" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">198 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1951"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3046036">Rácalmás</placeName><placeName type="findspot">Bahnhof, nördlich</placeName><placeName type="region">Fejér megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000984_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="praenomen">L.</name><name type="nomen">Septimius*</name><name type="cognomen">Severus Pertinax</name></persName></person><person xml:id="HD000984_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Antoninus</name></persName></person><person xml:id="HD000984_3" sex="M"><persName ref="https://www.wikidata.org/wiki/Q183089"><name type="praenomen">P.++</name><name type="nomen">Septimius++*</name><name type="cognomen">Geta++</name></persName></person><person xml:id="HD000984_4" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Claudius*</name><name type="cognomen">Claudianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-03" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>L</abbr><ex>ucio</ex></expan> <expan><abbr>Septim</abbr><ex>io</ex></expan> <lb n="2"/>Severo <expan><abbr>P</abbr><ex>io</ex></expan> Pertinaci <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="3"/>Arabico <expan><abbr>Adiab</abbr><ex>enico</ex></expan> Part<expan><ex>h</ex><abbr>i</abbr><ex>co</ex></expan> <expan><abbr>maxi</abbr><ex>mo</ex></expan> <lb n="4"/>divi <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Aurel</abbr><ex>i</ex></expan> divi Commodi <lb n="5"/>fratri divi Antonini Pii <expan><abbr>nep</abbr><ex>oti</ex></expan> <lb n="6"/>divi Hadriani <expan><abbr>pronep</abbr><ex>oti</ex></expan> <lb n="7"/>divi Traiani Parthici <expan><abbr>abnep</abbr><ex>oti</ex></expan> <lb n="8"/>divi Nervae <expan><abbr>adnep</abbr><ex>oti</ex></expan> <expan><abbr>imp</abbr><ex>eratori</ex></expan> XI <lb n="9"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>potes</abbr><ex>tate</ex></expan> VI co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> II proco<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <lb n="10"/><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aurel</abbr><ex>io</ex></expan> Antonino <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="11"/><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>Sep</abbr><ex>timi</ex></expan> Severo <note>sic</note> <expan><abbr>P</abbr><ex>ii</ex></expan> <expan><abbr>Pertenaci</abbr><ex>s</ex></expan> <note>sic</note> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="12"/><expan><abbr>n</abbr><ex>ostri</ex></expan> filio divi Antonini <expan><abbr>nepot</abbr><ex>i</ex></expan> <lb n="13"/>divi Antonini Pii <expan><abbr>pronep</abbr><ex>oti</ex></expan> <lb n="14"/>divi Hadriani <expan><abbr>abnep</abbr><ex>oti</ex></expan> <lb n="15"/>divi Traiani Parthici et <lb n="16"/>divi Nervae <expan><abbr>adnep</abbr><ex>oti</ex></expan> et <lb n="17"/><del rend="erasure"><expan><abbr>P</abbr><ex>ublio</ex></expan> <expan><abbr>Sept</abbr><ex>imio</ex></expan> Getae <expan><abbr>Caes</abbr><ex>ari</ex></expan></del> <lb n="18"/><del rend="erasure"><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> filio</del> curante <lb n="19"/><expan><abbr>Ti</abbr><ex>berio</ex></expan> <expan><abbr>Cl</abbr><ex>audio</ex></expan> Claudi<surplus>di</surplus>ano <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <lb n="20"/>ab <expan><abbr>Aq</abbr><ex>uinco</ex></expan> <expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> <lb n="21"/>XLIII
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 1: Fitz 1956. 1967/68. 1982, AE 1969/70: Caes. Septim.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0811.</bibl><bibl>J. Fitz, AErt 83, 1956, 197-206; Zeichnung. (B) - AE 1957.</bibl><bibl>J. Fitz, Das Jahrhundert der Pannonier (193-284) (Budapest 1982) 79, Foto 3. (B) - AE 1982.</bibl><bibl>AE 1957, 0021.</bibl><bibl>AE 1969/70, 0528. (B)</bibl><bibl>J. Fitz, Alba Regia 8/9, 1967/68, 205-207, Nr. 34; Abb. 21 (Zeichnung). (B) - AE 1969/70.</bibl><bibl>PIR (2. Aufl.) C 834.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

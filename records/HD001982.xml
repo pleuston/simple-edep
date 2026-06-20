@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Barbesula &amp;ndash; San Roque (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001982</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001982</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cádiz, Mus. Arqueológico</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>94</height><width>67</width><depth>55</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/256017">Barbesula</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1971"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">San Roque</placeName><placeName type="findspot"/><placeName type="region">Sevilla</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001982_1" sex="W"><persName><name type="nomen">Alfia Domitia</name><name type="cognomen">Severiana</name></persName></person><person xml:id="HD001982_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius Alfius</name><name type="cognomen">Theseus</name></persName></person><person xml:id="HD001982_3" sex="W"><persName><name type="nomen">Alfia Domitia</name><name type="cognomen">Tertullina</name></persName></person><person xml:id="HD001982_4" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Alfius Iulius</name><name type="cognomen">Severus Optatianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-01-12" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Iunoni <expan><abbr>Aug</abbr><ex>ustae</ex></expan> sacrum <lb n="2"/>in honorem Alfiae <lb n="3"/>Domitiae Severianae <lb n="4"/>flaminicae perpetuae <lb n="5"/>ex decreto splendidissimi <lb n="6"/>ordinis cui <lb n="7"/>statuam argenteam <lb n="8"/>ex argenti <expan><abbr>p</abbr><ex>ondo</ex></expan> C poni <expan><abbr>decr</abbr><ex>everat</ex></expan> <lb n="9"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Alfius Theseus et <lb n="10"/>Alfia Domitia Tertullina <lb n="11"/>parentes et <expan><abbr>Q</abbr><ex>uintus</ex></expan> Alfius <lb n="12"/>Iulius Severus Optatianus <lb n="13"/><supplied reason="lost">fra</supplied>ter ex argenti <expan><abbr>p</abbr><ex>ondo</ex></expan> C <lb n="14"/><supplied reason="lost">faciendum curaverunt</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Alle Seiten des Mittelteils von korinthischen Pilastern eingefaßt; zwischen den Kapitellen je eine Girlande; darüber Architrav. Puncta triangularia.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0528.</bibl><bibl>J. González Fernández, in: Producción y comercio del aceite en la Antigüedad. Segundo Congreso International Sevilla 24-28 Febrero 1982 (Madrid 1983) 188-191. - AE 1984.</bibl><bibl>J. González Fernández, Inscripciones romanas de la provincia de Cádiz (Cádiz 1982) 55-57, Nr. 80. - AE 1984.</bibl><bibl>AE 1979, 0339.</bibl><bibl>HEpOl 00582.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
