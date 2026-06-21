@@ -22,6 +22,22 @@
     var dt;
     searchEl.addEventListener("input", function () { clearTimeout(dt); dt = setTimeout(function () { PAGE = 0; renderList(); }, 180); });
     if (sortEl) sortEl.addEventListener("change", function () { PAGE = 0; renderList(); });
+
+    // right-side reading panel: open records in place instead of navigating away
+    document.getElementById("rp-close").addEventListener("click", closePanel);
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") closePanel(); });
+    listEl.addEventListener("click", function (ev) {
+      var a = ev.target.closest ? ev.target.closest('a[href^="viewer.html"]') : null;
+      if (!a || ev.button !== 0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+      ev.preventDefault();
+      var u = new URL(a.getAttribute("href"), location.href);
+      var id = (u.searchParams.get("id") || "").replace(/[^A-Za-z0-9_\-.]/g, "");
+      var col = (u.searchParams.get("col") || "local").replace(/[^a-z]/g, "");
+      Array.prototype.forEach.call(listEl.querySelectorAll(".catalog-item.selected"), function (x) { x.classList.remove("selected"); });
+      var item = a.closest(".catalog-item"); if (item) item.classList.add("selected");
+      openPanel(id, col);
+    });
+
     var params = new URLSearchParams(location.search);
     var editId = params.get("edit");
     if (editId) { openInEditor(editId.replace(/[^A-Za-z0-9_\-.]/g, "") + ".xml", params.get("col") || "local"); return; }
@@ -35,6 +51,29 @@
     EpiCollections.loadCatalog()
       .then(function (idx) { ENTRIES = idx || []; buildFacets(); renderList(); })
       .catch(function () { showError("Could not load the catalogue."); });
+  }
+
+  function openPanel(id, col) {
+    var panel = document.getElementById("rec-panel");
+    var tb = document.querySelector(".topbar");
+    panel.style.top = (tb ? tb.offsetHeight : 56) + "px";
+    document.getElementById("rp-id").textContent = id + (col === "edh" ? " · EDH" : "");
+    document.getElementById("rp-full").href = "viewer.html?id=" + encodeURIComponent(id) + "&col=" + encodeURIComponent(col);
+    panel.classList.add("open"); panel.setAttribute("aria-hidden", "false");
+    document.body.classList.add("rp-open");
+    RecordView.load({
+      id: id, col: col,
+      reading: document.getElementById("rp-reading"),
+      imageHost: document.getElementById("rp-image"),
+      thumbs: document.getElementById("rp-thumbs"),
+      credit: document.getElementById("rp-credit")
+    });
+  }
+  function closePanel() {
+    var panel = document.getElementById("rec-panel");
+    panel.classList.remove("open"); panel.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("rp-open");
+    Array.prototype.forEach.call(listEl.querySelectorAll(".catalog-item.selected"), function (x) { x.classList.remove("selected"); });
   }
 
   // ---- faceted filter (EDH-style dropdowns) ------------------------------
