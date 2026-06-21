@@ -9,7 +9,7 @@
  * for every page — the list below is kept so a page can be re-gated if needed. */
 (function () {
   var UNGATED = ["login.html", "index.html", "catalog.html", "viewer.html",
-                 "map.html", "docs.html", "about.html", "people.html",
+                 "map.html", "docs.html", "dev.html", "about.html", "people.html",
                  "bibliography.html", "photos.html", "logs.html", "editor.html",
                  "favorites.html", ""];
   var USERNAME_KEY = "edep_gh_username";

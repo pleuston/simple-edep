@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>simple-edep · Developer guide</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="auth.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <a href="index.html" class="brand-home">simple<span class="brand-edep">EDEP</span></a>
+      </div>
+      <nav class="sitenav sitenav-editor">
+        <a href="catalog.html" class="sitenav-link">Inscriptions</a>
+        <a href="map.html" class="sitenav-link">Geodata</a>
+        <a href="people.html" class="sitenav-link">People</a>
+        <a href="photos.html" class="sitenav-link">Photos</a>
+        <a href="bibliography.html" class="sitenav-link">Bibliography</a>
+      </nav>
+      <div class="topbar-right">
+      <nav class="sitenav-right">
+        <a href="favorites.html" class="sitenav-link sitenav-icon" aria-label="Favorites" title="Favorites"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></a>
+        <a href="logs.html" class="sitenav-link">Log</a>
+        <a href="about.html" class="sitenav-link">About</a>
+        <a href="docs.html" class="sitenav-link">Guide</a>
+      </nav>
+        <div class="lang-box"><span>Language</span>
+          <select aria-label="Interface language"><option>English</option></select>
+        </div>
+        <a class="account-link" data-account href="login.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="8.5" r="3.5"/><path d="M5 20c0-3.6 3.1-5.5 7-5.5s7 1.9 7 5.5"/></svg>
+          <span class="account-label">Login</span>
+        </a>
+      </div>
+    </header>
+
+    <main class="docs-pane">
+      <div class="docs-section">
+        <h1>Developer guide</h1>
+        <p>How to continue building simple-edep — with or without an AI coding tool.
+        The second half of this guide focuses on working with <strong>Claude Code</strong>
+        specifically, with concrete examples drawn from this project's own development history.</p>
+        <p>Source:
+          <a href="https://github.com/pleuston/simple-edep" target="_blank" rel="noopener">pleuston/simple-edep</a>
+          (app) ·
+          <a href="https://github.com/pleuston/simple-edep-edh" target="_blank" rel="noopener">pleuston/simple-edep-edh</a>
+          (data)
+        </p>
+      </div>
+
+      <!-- ===== ARCHITECTURE ===== -->
+      <div class="docs-section">
+        <h2>1 · Architecture</h2>
+        <p>simple-edep is a <strong>no-build-step static site</strong>. There is no bundler, no
+        transpiler, no framework — plain HTML, CSS, and ES5 JavaScript served directly by GitHub
+        Pages. The only exception is the <a href="https://github.com/JinnElements/jinn-codemirror"
+        target="_blank" rel="noopener">jinn-codemirror</a> web component, which is loaded as a
+        native ES module from a vendored bundle.</p>
+
+        <h3>Two-repo split</h3>
+        <p>The corpus data (82 k EpiDoc records, index, people, photos, bibliography, geodata) lives
+        in a <strong>separate data repo</strong>
+        (<a href="https://github.com/pleuston/simple-edep-edh" target="_blank" rel="noopener">simple-edep-edh</a>)
+        and is served by <strong>jsDelivr CDN</strong> at
+        <code>https://cdn.jsdelivr.net/gh/pleuston/simple-edep-edh@main/…</code>. This keeps the
+        app repo lean (no large binary blobs, fast Pages builds) while jsDelivr provides CORS
+        headers, gzip compression, and global caching.</p>
+
+        <table class="docs-table">
+          <thead><tr><th>Repo</th><th>What it contains</th><th>How it is served</th></tr></thead>
+          <tbody>
+            <tr><td><code>simple-edep</code></td><td>HTML, CSS, JS, vendor libraries, build scripts</td><td>GitHub Pages (direct)</td></tr>
+            <tr><td><code>simple-edep-edh</code></td><td>EpiDoc XML records, JSON indexes, people, photos, geo</td><td>jsDelivr CDN (CORS, gzip)</td></tr>
+          </tbody>
+        </table>
+
+        <p class="docs-tip"><strong>jsDelivr cache TTL:</strong> the <code>@main</code> tag has a
+        roughly 12-hour CDN cache. After pushing to the data repo, changes may not be visible on
+        the live site for up to 12 hours. To bypass the cache during development, use a commit SHA
+        in the URL, e.g. <code>@a1b2c3d</code>. During local development, point
+        <code>collections.js</code> directly at the data repo's local path instead of jsDelivr.</p>
+      </div>
+
+      <!-- ===== FILE MAP ===== -->
+      <div class="docs-section">
+        <h2>2 · Key files</h2>
+        <table class="docs-table">
+          <thead><tr><th>File</th><th>Role</th></tr></thead>
+          <tbody>
+            <tr><td><code>styles.css</code></td><td>All styles. Single flat file, no preprocessor. EDEP typographic theme (two serif variables + accent red).</td></tr>
+            <tr><td><code>auth.js</code></td><td>GitHub session. Checks localStorage for a stored PAT and username. Loaded first on every page via <code>&lt;script src="auth.js"&gt;</code> (synchronous, before DOMContentLoaded). Exposes <code>EpiAuth.isSignedIn()</code>, <code>EpiAuth.getUser()</code>, <code>EpiAuth.signOut()</code>.</td></tr>
+            <tr><td><code>collections.js</code></td><td>Collection registry. Defines EDH and I.Sicily base URLs, URL resolvers (<code>EpiCollections.recordUrl()</code>), the merged catalog loader (<code>EpiCollections.loadCatalog()</code>), and <code>EpiCollections.getJSON()</code> for cached fetches.</td></tr>
+            <tr><td><code>catalog.js</code></td><td>Inscriptions register: load index, filter/sort/paginate, row HTML, open-in-editor logic, XML→form parser (<code>parseRecord()</code>).</td></tr>
+            <tr><td><code>people.js</code></td><td>Persons register: load people.json, filter by name components (praenomen, nomen, cognomen…), sex, social state, occupation.</td></tr>
+            <tr><td><code>map.js</code></td><td>Geodata: 3-column layout (filter sidebar, entry list, Leaflet map). Filters sync between list and map markers.</td></tr>
+            <tr><td><code>app.js</code></td><td>Editor form. A <code>SECTIONS</code> array drives the entire metadata form via <code>render()</code> / <code>fieldControl()</code>. To add a metadata field, add an entry to the array.</td></tr>
+            <tr><td><code>generator.js</code></td><td>EpiDoc/TEI serializer. <code>EpiDocGen.buildEpiDoc(state)</code> turns the form state object into well-formed XML.</td></tr>
+            <tr><td><code>reading.js</code></td><td>EpiDoc→HTML renderer. Converts the EpiDoc XML to a reading view with critical apparatus, translation, find-spot, and bibliography.</td></tr>
+            <tr><td><code>panel.js</code> / <code>recordview.js</code></td><td>Right-side reading panel used by the Inscriptions and People registers. <code>RecordPanel.open(id, col)</code> fetches and displays a record without leaving the page.</td></tr>
+            <tr><td><code>favorites.js</code></td><td>localStorage-backed starred inscriptions and named collections. <code>EpiFav.button()</code> renders the ★ button inline in register rows.</td></tr>
+            <tr><td><code>scripts/import-edh.js</code></td><td>Node build script. Reads EDH CSV/JSON exports from <code>~/Downloads/edh/</code> and writes slim JSON to the data repo. Run once when source data changes.</td></tr>
+            <tr><td><code>scripts/build-index.js</code></td><td>Node build script. Scans <code>records/*.xml</code> and writes <code>collections/edh/index-*.json</code>. Run after adding or editing EpiDoc records.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- ===== LOCAL DEV ===== -->
+      <div class="docs-section">
+        <h2>3 · Running locally</h2>
+        <p>Because the site uses <code>fetch()</code> calls that require an HTTP context (not
+        <code>file://</code>), run a local server from the app repo root:</p>
+        <pre class="docs-code">cd ~/repos/simple-edep
+python3 -m http.server 8765
+# open http://localhost:8765</pre>
+
+        <p>By default, <code>collections.js</code> reads the data from jsDelivr. To test data
+        changes before pushing, temporarily swap the base URL:</p>
+        <pre class="docs-code">// in collections.js, change:
+base: "https://cdn.jsdelivr.net/gh/pleuston/simple-edep-edh@main"
+// to:
+base: "http://localhost:8766"  // second server on the data repo</pre>
+        <pre class="docs-code">cd ~/repos/simple-edep-edh
+python3 -m http.server 8766</pre>
+
+        <h3>Build scripts</h3>
+        <pre class="docs-code"># regenerate all JSON registers from the EDH CSVs in ~/Downloads/edh/
+node scripts/import-edh.js
+
+# regenerate the inscription index from records/*.xml
+node scripts/build-index.js</pre>
+
+        <p>Both scripts write into <code>../simple-edep-edh/</code> (the sibling data repo
+        directory). Commit and push the data repo after running them.</p>
+      </div>
+
+      <!-- ===== CLAUDE CODE ===== -->
+      <div class="docs-section">
+        <h2>4 · Working with Claude Code</h2>
+        <p><a href="https://claude.ai/code" target="_blank" rel="noopener">Claude Code</a> is
+        Anthropic's agentic coding tool. It can read files, run shell commands, edit code, and
+        commit to git — all from a conversation. You describe what you want; it investigates,
+        proposes, and implements.</p>
+
+        <h3>Setup</h3>
+        <ol class="docs-list">
+          <li>Install the Claude desktop app or the CLI: <code>npm i -g @anthropic/claude-code</code></li>
+          <li>Open a terminal in the app repo root and run <code>claude</code>.</li>
+          <li>Claude reads the directory structure and git history automatically. No project
+          configuration file is required, though a <code>CLAUDE.md</code> at the repo root
+          can pre-load important constraints (like "no bundler, no build step").</li>
+        </ol>
+
+        <h3>Memory</h3>
+        <p>Claude Code maintains a <strong>persistent memory</strong> in
+        <code>~/.claude/projects/&lt;repo-path&gt;/memory/</code>. Across sessions it remembers
+        project facts, constraints, and your preferences. You can ask it to "remember" anything
+        important, or it records things automatically when you correct its behaviour.</p>
+
+        <h3>What it can do in this project</h3>
+        <ul class="docs-list">
+          <li>Read any file, run <code>grep</code>, check git log.</li>
+          <li>Edit HTML, CSS, JS — understanding how the pieces connect.</li>
+          <li>Run the build scripts (<code>node scripts/import-edh.js</code>) and commit results.</li>
+          <li>Push to GitHub when you say "push".</li>
+          <li>Take and read browser screenshots (via the Preview panel in the desktop app) to verify visual changes.</li>
+        </ul>
+      </div>
+
+      <!-- ===== PROMPTING ===== -->
+      <div class="docs-section">
+        <h2>5 · Prompting effectively</h2>
+
+        <h3>Describe what you see, not what to code</h3>
+        <p>You do not need to know the implementation. Describe the problem or the desired outcome
+        in plain language and let Claude read the code to figure out how to achieve it.</p>
+
+        <table class="docs-table">
+          <thead><tr><th>Less effective</th><th>More effective</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>"add filter dropdowns to people.html and update people.js to filter by nomen and cognomen"</td>
+              <td>"the people section is still very hard to navigate and understand. allow to filter and search like on the EDEP site form (screenshot attached) and make it much more compact"</td>
+            </tr>
+            <tr>
+              <td>"change the CSS grid to three columns"</td>
+              <td>"geodata also needs a dedicated search and filter form left to the map, then entries list, then map"</td>
+            </tr>
+            <tr>
+              <td>"gate the edit button on EpiAuth.isSignedIn()"</td>
+              <td>"each entry and person needs to be editable after login"</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Attach screenshots</h3>
+        <p>Claude can read images. A screenshot of another site you want to emulate (like the
+        original EDEP person form) is worth a paragraph of prose. Drop it into the conversation
+        alongside your message. Claude will inspect the UI, infer the fields and layout, and
+        implement a matching version.</p>
+
+        <h3>One change at a time</h3>
+        <p>Multi-part requests ("redesign the layout AND add filters AND change the nav AND push")
+        work, but each part is done sequentially. For complex tasks, it is easier to verify each
+        step before moving on. In practice, short telegraphic follow-ups work well:</p>
+        <ul class="docs-list">
+          <li>"looks good, now push"</li>
+          <li>"also gate the edit button on login"</li>
+          <li>"add tribus as a dropdown too"</li>
+        </ul>
+
+        <h3>Let it read before it acts</h3>
+        <p>Claude reads the relevant files first before writing anything. If you interrupt a
+        reading step, it may propose a change without the full context. Let it finish the
+        investigation before saying "go ahead".</p>
+      </div>
+
+      <!-- ===== EXAMPLES ===== -->
+      <div class="docs-section">
+        <h2>6 · Worked examples from this project</h2>
+
+        <h3>Example A — People register: name-component filters</h3>
+        <p><strong>Prompt:</strong> "for the persons also filter for the values of Deity, Praenomen,
+        Nomen Gentile, Cognomen, Supernomen, Tribus, Origo, Sex — like in P000001 some are empty"
+        (with an EDEP screenshot attached)</p>
+
+        <p><strong>What Claude did:</strong></p>
+        <ol class="docs-list">
+          <li>Read <code>people.js</code> and found the current data only stored the combined
+          <code>name</code> string — no individual components.</li>
+          <li>Read <code>scripts/import-edh.js</code> to see how the CSV is parsed.</li>
+          <li>Checked the CSV headers (<code>praenomen</code>, <code>nomen</code>,
+          <code>cognomen</code>, <code>supernomen</code>, <code>tribus</code>,
+          <code>origo</code> columns exist).</li>
+          <li>Updated the import script to write those six fields to each JSON record.</li>
+          <li>Re-ran <code>node scripts/import-edh.js</code> — regenerated 93,643 records (18 MB).</li>
+          <li>Committed and pushed the data repo.</li>
+          <li>Updated <code>people.html</code> to add nine filter inputs/selects.</li>
+          <li>Rewrote <code>people.js</code> to wire each field, filter, and display
+          the structured name components in rows.</li>
+          <li>Committed and pushed the app repo.</li>
+        </ol>
+        <p>Total clock time: a few minutes. Without an AI tool, steps 1–9 would each require
+        opening files, understanding the data model, writing code, and testing — easily an hour
+        or more.</p>
+
+        <h3>Example B — Geodata: 3-column layout</h3>
+        <p><strong>Prompt:</strong> "geodata also needs a dedicated search and filter form left to
+        the map then entries list then map"</p>
+
+        <p><strong>What Claude did:</strong></p>
+        <ol class="docs-list">
+          <li>Read <code>map.html</code> (single <code>&lt;div id="map"&gt;</code>, no filters)
+          and <code>map.js</code> (markers loaded once, no interaction with a list).</li>
+          <li>Checked the catalog and people pages for the existing filter sidebar CSS pattern
+          (<code>.with-facets</code>, <code>.facet-side</code>).</li>
+          <li>Rewrote <code>map.html</code>: three-column grid — filter sidebar, scrollable list,
+          map panel.</li>
+          <li>Rewrote <code>map.js</code>: filter state, filter predicate, paginated list render,
+          cluster marker sync (filtering hides markers for non-matching results), bidirectional
+          link (clicking a list row pans the map; clicking a marker scrolls the list).</li>
+          <li>Added CSS for the <code>.map-layout</code> grid and responsive collapse.</li>
+          <li>Took a browser screenshot to verify the layout before committing.</li>
+        </ol>
+
+        <h3>Example C — Secondary nav restructure</h3>
+        <p><strong>Prompt:</strong> "Favorites / Log / About / Instructions [shall go to the right].
+        favorites only an icon. instructions shall become Guide"</p>
+
+        <p><strong>What Claude did:</strong></p>
+        <ol class="docs-list">
+          <li>Listed all HTML pages (12 files).</li>
+          <li>Used a single <code>perl</code> one-liner to remove the four links from every
+          primary nav and inject the new secondary <code>&lt;nav class="sitenav-right"&gt;</code>
+          block into every <code>.topbar-right</code> — one command, all pages.</li>
+          <li>Added CSS for <code>.sitenav-right</code> and the icon-only Favorites button.</li>
+          <li>Delegated active-state marking to <code>auth.js</code>, which already had the
+          <code>page</code> variable derived from <code>pathname.split("/").pop()</code>.</li>
+        </ol>
+        <p class="docs-tip"><strong>Lesson:</strong> when the same change needs to be applied to
+        many files, Claude will reach for sed/perl/awk rather than editing each file manually.
+        Tell it the number of pages if it is not obvious from a directory listing.</p>
+      </div>
+
+      <!-- ===== RECIPES ===== -->
+      <div class="docs-section">
+        <h2>7 · Common development recipes</h2>
+
+        <h3>Add a filter to a register page (People / Inscriptions / Geodata)</h3>
+        <ol class="docs-list">
+          <li>Check whether the data field already exists in the JSON (read a sample record
+          in the browser console: <code>EpiCollections.getJSON(…).then(d => console.log(d[0]))</code>).</li>
+          <li>If not: add the field to <code>scripts/import-edh.js</code>,
+          run <code>node scripts/import-edh.js</code>, push the data repo.</li>
+          <li>Add an <code>&lt;input&gt;</code> or <code>&lt;select&gt;</code> to the facet
+          sidebar in the HTML.</li>
+          <li>In the JS: grab the element, add an event listener that calls <code>render()</code>,
+          extend the <code>matches()</code> function.</li>
+          <li>For a select: populate it after data loads by collecting unique values with
+          <code>forEach</code> and appending <code>&lt;option&gt;</code> elements.</li>
+        </ol>
+
+        <h3>Add a metadata field to the editor</h3>
+        <ol class="docs-list">
+          <li>Add an entry to the <code>SECTIONS</code> array in <code>app.js</code>.
+          Each entry has a <code>key</code> (state property name), a <code>label</code>,
+          and a <code>type</code> (<code>text</code>, <code>select</code>, <code>textarea</code>,
+          <code>datalist</code>, <code>row</code>, etc.).</li>
+          <li>Add the corresponding serialization in <code>generator.js</code> —
+          find where the parent element is built and add the new child element.</li>
+          <li>Add the corresponding deserialization in <code>catalog.js</code>'s
+          <code>parseRecord()</code> function, so records round-trip correctly when opened
+          for editing.</li>
+        </ol>
+
+        <h3>Update the corpus data</h3>
+        <pre class="docs-code"># 1. Place updated CSVs / zips in ~/Downloads/edh/
+# 2. Regenerate JSON registers
+node scripts/import-edh.js
+
+# 3. Regenerate inscription index (if EpiDoc XML changed)
+node scripts/build-index.js
+
+# 4. Commit and push data repo
+cd ../simple-edep-edh
+git add collections/
+git commit -m "Refresh EDH data"
+git push</pre>
+
+        <h3>Test a data change without waiting for jsDelivr</h3>
+        <pre class="docs-code"># Terminal A — data repo
+cd ~/repos/simple-edep-edh
+python3 -m http.server 8766
+
+# Terminal B — app repo
+cd ~/repos/simple-edep
+# Temporarily edit collections.js: change the base URL to http://localhost:8766
+python3 -m http.server 8765
+# Open http://localhost:8765 in the browser
+# Remember to revert collections.js before pushing!</pre>
+      </div>
+
+      <!-- ===== CONSTRAINTS ===== -->
+      <div class="docs-section">
+        <h2>8 · Constraints to keep in mind</h2>
+        <ul class="docs-list">
+          <li><strong>No bundler, no transpiler.</strong> All JS must be valid ES5 (or plain
+          ES2015 at most — but avoid <code>import</code>/<code>export</code> outside the
+          one <code>type=module</code> script tag for jinn-codemirror). Arrow functions, template
+          literals, <code>const</code>/<code>let</code>, and destructuring are fine in modern
+          browsers; <code>import()</code> dynamic imports are not used.</li>
+          <li><strong>No external runtime dependencies.</strong> Leaflet, OpenSeadragon, and
+          jinn-codemirror are vendored under <code>vendor/</code>. Adding a new library means
+          copying it there, not adding a <code>package.json</code> dependency.</li>
+          <li><strong>CORS.</strong> Every <code>fetch()</code> must target a CORS-enabled
+          endpoint. jsDelivr, the GitHub API (<code>api.github.com</code>), and heidICON IIIF
+          all send <code>Access-Control-Allow-Origin: *</code>. Raw <code>raw.githubusercontent.com</code>
+          URLs do not — use jsDelivr instead.</li>
+          <li><strong>Large JSON files.</strong> <code>people.json</code> (18 MB) and the
+          split index files are large. Always paginate; never load all 93 k people into the DOM
+          at once. jsDelivr gzip brings transfer sizes down to a few MB, but parsing still
+          takes a noticeable moment.</li>
+          <li><strong>heidICON images are not re-hosted.</strong> Photographs from the
+          Epigraphische Fotothek Heidelberg are hotlinked via the heidICON IIIF server and
+          attributed on every display. Do not copy them into either repository.</li>
+          <li><strong>I.Sicily IIIF images are not embeddable.</strong> I.Sicily records are
+          displayed without images; only EDH records have IIIF photo access via heidICON.</li>
+        </ul>
+      </div>
+
+      <!-- ===== TIPS ===== -->
+      <div class="docs-section">
+        <h2>9 · Tips from experience</h2>
+
+        <h3>Give Claude the "why", not just the "what"</h3>
+        <p>This codebase's constraints (no bundler, two-repo split, jsDelivr cache) are not
+        obvious from the code alone. State them explicitly in your first message of a session,
+        or keep them in the project memory. Claude will otherwise sometimes propose solutions
+        that introduce a build step or rely on Node at runtime.</p>
+
+        <h3>Use browser screenshots to verify UI changes</h3>
+        <p>The Claude desktop app has a preview panel that can take screenshots of a running
+        local server. After a UI change, ask Claude to "take a screenshot and check it" before
+        committing. This catches layout bugs (collapsed maps, hidden elements, wrong column widths)
+        without leaving the conversation.</p>
+
+        <h3>Ask for a plan before complex changes</h3>
+        <p>For multi-file changes — like adding a new register page or restructuring the editor
+        form — ask Claude to "outline what files you'll change and why" before it starts editing.
+        This surfaces misunderstandings early and lets you redirect without undoing committed work.</p>
+
+        <h3>Commit frequently, push when stable</h3>
+        <p>Claude commits after each logical unit of work. You can push manually ("push when
+        ready") or say "push" at the end of a session. The git log becomes a readable history
+        of each feature step.</p>
+
+        <h3>The memory system is your handoff document</h3>
+        <p>Claude stores project facts, your preferences, and non-obvious constraints in
+        <code>~/.claude/projects/…/memory/</code>. Before ending a session, ask it to "save
+        anything new you learned about the project." The next session will start with that
+        context already loaded.</p>
+
+        <h3>Check jsDelivr cache after data pushes</h3>
+        <p>After pushing to the data repo, the live site may show stale data for up to 12 hours.
+        To force a refresh during development, append <code>?v=1</code> to fetch calls (jsDelivr
+        ignores it but the browser treats it as a new URL). For a permanent fix, use a specific
+        commit SHA in the CDN URL instead of <code>@main</code>.</p>
+      </div>
+
+      <div class="docs-section">
+        <p style="font-size:0.85rem; color: var(--muted);">
+          This guide was written with Claude Code and reflects the actual development history of this site.
+          See <a href="https://github.com/pleuston/simple-edep/commits/main" target="_blank" rel="noopener">the commit log</a>
+          for a step-by-step record.
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
