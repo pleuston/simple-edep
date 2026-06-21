@@ -16,9 +16,17 @@ the safe place for that credential.
 commits `submissions/<id>-<timestamp>-<rand>.xml` and returns
 `{ ok, path, html_url, commit }`.
 
-Safeguards: TEI/EpiDoc shape check, 256 KB size cap, filename sanitization,
-collision-proof names, a honeypot field, CORS locked to the site origin, and an
-optional per-IP hourly rate limit.
+Safeguards: cross-site browser writes are rejected (server-side Origin check);
+the body is stream-capped at 256 KB **before** it is parsed; a TEI/EpiDoc shape
+check; sanitized, collision-proof filenames; a honeypot field; CORS limited to
+the site origin; and — when the `RL` KV namespace is bound — a per-IP hourly
+limit plus a global daily ceiling.
+
+> A public, anonymous write endpoint is inherently reachable by direct
+> (non-browser) clients, which can spoof/omit the `Origin` header. So **bind the
+> `RL` namespace** (step 4) for any public deployment, keep submissions in the
+> isolated `submissions/` folder for moderation, and consider adding Cloudflare
+> Turnstile or WAF rate-limiting rules for stronger protection.
 
 ## Deploy (once)
 
@@ -39,8 +47,10 @@ optional per-IP hourly rate limit.
    wrangler secret put GH_TOKEN      # paste the PAT when prompted
    ```
 
-4. **(Optional) rate limiting.** Create a KV namespace and uncomment the
-   `[[kv_namespaces]]` block in `wrangler.toml` with the returned id:
+4. **Rate limiting (recommended).** Create a KV namespace and uncomment the
+   `[[kv_namespaces]]` block in `wrangler.toml` with the returned id. This turns
+   on the per-IP hourly limit and the global daily ceiling; without it the relay
+   accepts unlimited writes.
    ```bash
    wrangler kv namespace create RL
    ```

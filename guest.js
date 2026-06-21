@@ -17,12 +17,13 @@
   // ↓↓↓ after deploying the Worker, put its URL here (or set the localStorage key)
   var DEFAULT_ENDPOINT = "";
   var TARGET = { owner: "pleuston", repo: "simple-edep", branch: "main", dir: "submissions" };
-  var PR_URL_MAX = 6000;     // GitHub's prefilled-URL value is length-limited
+  var PR_URL_MAX = 8000;     // browsers/GitHub cap the prefilled new-file URL
 
   function esc(s) { return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
   function endpoint() { return (localStorage.getItem("edep_guest_endpoint") || DEFAULT_ENDPOINT || "").replace(/\/+$/, ""); }
   function cleanId(id) { return String(id || "").replace(/\.xml$/i, "").replace(/[^A-Za-z0-9_\-]/g, "").slice(0, 60) || "inscription"; }
-  function prTooLong(xml) { return String(xml || "").length > PR_URL_MAX; }
+  // gauge the ACTUAL encoded URL length (encodeURIComponent inflates it), not raw chars
+  function prTooLong(xml, id) { return prUrl(xml, id).length > PR_URL_MAX; }
 
   function submit(xml, id) {
     var ep = endpoint();
@@ -40,7 +41,8 @@
   }
 
   function prUrl(xml, id) {
-    var path = TARGET.dir + "/" + cleanId(id) + ".xml";
+    // collision-proof filename, like the relay (so two guests don't target the same path)
+    var path = TARGET.dir + "/" + cleanId(id) + "-" + Date.now().toString(36) + ".xml";
     return "https://github.com/" + TARGET.owner + "/" + TARGET.repo + "/new/" + TARGET.branch +
       "?filename=" + encodeURIComponent(path) + "&value=" + encodeURIComponent(xml);
   }
@@ -89,7 +91,7 @@
 
     // PR route: prefilled new-file page (disabled if the record is too big for a URL)
     function refreshPr() {
-      if (prTooLong(xml)) {
+      if (prTooLong(xml, idInput.value)) {
         pr.removeAttribute("href"); pr.classList.add("disabled");
         pr.title = "Too large for the prefilled-URL route — use anonymous submission or sign in.";
       } else {
@@ -103,7 +105,8 @@
       anon.disabled = true; anon.textContent = "Submitting…";
       submit(xml, idInput.value).then(function (j) {
         result.className = "login-ok";
-        result.innerHTML = "Submitted. " + (j.html_url ? '<a href="' + esc(j.html_url) + '" target="_blank" rel="noopener">View your submission ↗</a>' : "Thank you!");
+        var url = (j.html_url && /^https?:\/\//i.test(j.html_url)) ? j.html_url : "";
+        result.innerHTML = "Submitted. " + (url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener">View your submission ↗</a>' : "Thank you!");
         anon.textContent = "Submitted ✓";
       }).catch(function (err) {
         result.className = "login-error"; result.textContent = err.message;

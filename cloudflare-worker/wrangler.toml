@@ -2,7 +2,9 @@ name = "simple-edep-guest-relay"
 main = "worker.js"
 compatibility_date = "2024-11-01"
 
-# Optional: per-IP rate limiting. Create the namespace, then uncomment and paste
+# STRONGLY RECOMMENDED for any public deployment: bind a KV namespace named RL to
+# enable the per-IP hourly limit AND the global daily ceiling. Without it the
+# relay accepts unlimited writes. Create the namespace, then uncomment and paste
 # the id:
 #   wrangler kv namespace create RL
 # [[kv_namespaces]]
