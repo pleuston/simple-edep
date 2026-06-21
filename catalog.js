@@ -44,6 +44,14 @@
     document.addEventListener("epifav:change", function () { if (window.EpiFav) EpiFav.refresh(document); });
     bindControls();
     loadList();
+
+    // When the editor (in another tab) saves an inscription or creates a collection,
+    // reload the list so the new entry and collection appear immediately.
+    window.addEventListener("storage", function (e) {
+      if (e.key === "edep_pending_entries" || e.key === "edep_user_cols") {
+        loadList();
+      }
+    });
   });
 
   // Merge the local demo records with the EDH collection (jsDelivr CDN). Each
