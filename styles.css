@@ -371,6 +371,9 @@ a.btn.disabled { opacity: 0.5; cursor: default; pointer-events: none; }
 .sitenav-link { font-family: var(--serif-body); font-size: 1.02rem; color: var(--ink); border: 0; padding: 0.3rem 0.7rem; }
 .sitenav-link:hover { border: 0; color: var(--accent); }
 .sitenav-link.active { color: var(--accent); font-weight: 600; }
+.sitenav-right { display: flex; align-items: center; padding-right: 0.4rem; border-right: 1px solid var(--line); margin-right: 0.4rem; }
+.sitenav-icon { display: inline-flex; align-items: center; padding: 0.3rem 0.5rem; }
+.sitenav-icon svg { width: 18px; height: 18px; }
 
 /* topbar right: language + login */
 .topbar-right { display: flex; align-items: center; gap: 1.4rem; }

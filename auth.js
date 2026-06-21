@@ -29,6 +29,12 @@
     if (sessionStorage.getItem(SESSION_KEY) !== username) { redirect(); return; }
   }
 
+  // Mark active link in the secondary (right-side) nav
+  document.addEventListener("DOMContentLoaded", function () {
+    var secLink = document.querySelector('.sitenav-right a[href="' + page + '"]');
+    if (secLink) secLink.classList.add('active');
+  });
+
   // Patch the topbar account control (and legacy sign-out button) after DOM loads
   document.addEventListener("DOMContentLoaded", function () {
     var u = localStorage.getItem(USERNAME_KEY);
