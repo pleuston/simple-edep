@@ -31,6 +31,9 @@ var pleiades = {};
 // set of hd numbers that have a photo
 var hasPhoto = {};
 try { JSON.parse(fs.readFileSync(path.join(collDir, "photos.json"), "utf8")).forEach(function (p) { if (p.hd) hasPhoto[p.hd] = 1; }); } catch (e) {}
+// hd -> TM (for cross-collection reconciliation)
+var tmMap = {};
+try { tmMap = JSON.parse(fs.readFileSync(path.join(collDir, "tm.json"), "utf8")) || {}; } catch (e) {}
 
 var files = fs.readdirSync(recDir).filter(function (f) { return /\.xml$/i.test(f); }).sort();
 var index = files.map(function (f) {
@@ -71,7 +74,9 @@ var index = files.map(function (f) {
   if (country) e.country = country;
   if (nb !== null) e.nb = nb;
   if (na !== null) e.na = na;
-  if (hasPhoto[f.replace(/\.xml$/, "")]) e.photo = 1;
+  var hd = f.replace(/\.xml$/, "");
+  if (tmMap[hd]) e.tm = tmMap[hd];
+  if (hasPhoto[hd]) e.photo = 1;
   return e;
 });
 

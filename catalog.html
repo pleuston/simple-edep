@@ -34,6 +34,13 @@
 
     <div class="catalog-wrap with-facets">
       <aside class="facet-side" id="cat-facets">
+        <div class="facet collections-picker" id="cat-collections">
+          <span class="facet-label">Collections</span>
+          <label class="col-check"><input type="checkbox" data-col="edh" /> <span class="col-dot col-edh"></span> EDH</label>
+          <label class="col-check"><input type="checkbox" data-col="isic" /> <span class="col-dot col-isic"></span> I.Sicily</label>
+          <label class="col-check"><input type="checkbox" data-col="local" /> <span class="col-dot col-local"></span> My records</label>
+          <label class="col-check reconcile"><input type="checkbox" id="c-reconcile" /> Reconcile duplicates</label>
+        </div>
         <label class="facet">Search<input id="cat-search" type="search" placeholder="title, place, type…" /></label>
         <label class="facet">Sort by
           <select id="cat-sort">

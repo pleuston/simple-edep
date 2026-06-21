@@ -480,3 +480,15 @@ a.catalog-tag:hover { border-color: var(--accent); }
 .img-presets button { font-family: var(--serif-body); font-size: 0.78rem; width: 1.7rem; height: 1.5rem; border: 0; background: transparent; cursor: pointer; border-radius: 3px; color: var(--ink); }
 .img-presets button.on { background: var(--accent); color: #fff; }
 @media (max-width: 560px) { .record-panel { width: 100vw; } }
+
+/* collection selector + badges */
+.collections-picker { border-bottom: 1px solid var(--line); padding-bottom: 0.7rem; margin-bottom: 0.2rem; }
+.collections-picker .facet-label { font-size: 0.72rem; color: var(--muted); display: block; margin-bottom: 0.35rem; }
+.col-check { display: flex; align-items: center; gap: 0.35rem; font-size: 0.92rem; color: var(--ink); padding: 0.12rem 0; cursor: pointer; }
+.col-check input { width: auto; margin: 0; }
+.col-check.reconcile { margin-top: 0.35rem; padding-top: 0.4rem; border-top: 1px dashed var(--line); color: var(--accent); font-size: 0.86rem; }
+.col-dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; flex: 0 0 auto; }
+.col-dot.col-edh { background: #cc0000; } .col-dot.col-isic { background: #127a4f; } .col-dot.col-local { background: #6e1423; }
+.col-badge { font-size: 0.7rem; padding: 0 0.32rem; border-radius: 3px; color: #fff; }
+.col-badge.col-edh { background: #cc0000; } .col-badge.col-isic { background: #127a4f; } .col-badge.col-local { background: #6e1423; }
+.catalog-tag.tag-also { color: #127a4f; border-color: #127a4f; }

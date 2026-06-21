@@ -41,6 +41,7 @@
     var params = new URLSearchParams(location.search);
     var editId = params.get("edit");
     if (editId) { openInEditor(editId.replace(/[^A-Za-z0-9_\-.]/g, "") + ".xml", params.get("col") || "local"); return; }
+    bindControls();
     loadList();
   });
 
@@ -80,27 +81,51 @@
   function fv(id) { var el = document.getElementById(id); return el ? el.value : ""; }
   function escAttr(s) { return String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;"); }
 
+  // (re)populate the facet dropdown options from the current ENTRIES, keeping
+  // any current selection valid. Listeners are bound once in bindControls().
   function buildFacets() {
     ["province", "country", "textType", "objectType", "material"].forEach(function (key) {
       var sel = document.getElementById("f-" + key);
       if (!sel) return;
+      var cur = sel.value;
       var counts = {};
       ENTRIES.forEach(function (e) { var v = e[key]; if (v) counts[v] = (counts[v] || 0) + 1; });
       var vals = Object.keys(counts).sort(function (a, b) { return a.localeCompare(b); });
       sel.innerHTML = '<option value="">All</option>' + vals.map(function (v) {
         return '<option value="' + escAttr(v) + '">' + esc(v) + " (" + counts[v] + ")</option>";
       }).join("");
-      sel.addEventListener("change", function () { PAGE = 0; renderList(); });
+      if (cur && counts[cur]) sel.value = cur;
     });
-    var dt;
+  }
+
+  var _dt;
+  function bindControls() {
+    ["province", "country", "textType", "objectType", "material"].forEach(function (key) {
+      var sel = document.getElementById("f-" + key);
+      if (sel) sel.addEventListener("change", function () { PAGE = 0; renderList(); });
+    });
     ["f-from", "f-to"].forEach(function (id) {
       var el = document.getElementById(id);
-      if (el) el.addEventListener("input", function () { clearTimeout(dt); dt = setTimeout(function () { PAGE = 0; renderList(); }, 220); });
+      if (el) el.addEventListener("input", function () { clearTimeout(_dt); _dt = setTimeout(function () { PAGE = 0; renderList(); }, 220); });
     });
     var ph = document.getElementById("f-photo");
     if (ph) ph.addEventListener("change", function () { PAGE = 0; renderList(); });
     var rs = document.getElementById("f-reset");
     if (rs) rs.addEventListener("click", resetFacets);
+
+    // collection selector
+    var active = EpiCollections.getActive();
+    Array.prototype.forEach.call(document.querySelectorAll('#cat-collections input[data-col]'), function (cb) {
+      cb.checked = active.indexOf(cb.getAttribute("data-col")) !== -1;
+      cb.addEventListener("change", function () {
+        var sel = Array.prototype.filter.call(document.querySelectorAll('#cat-collections input[data-col]'), function (x) { return x.checked; })
+          .map(function (x) { return x.getAttribute("data-col"); });
+        if (!sel.length) { cb.checked = true; return; }
+        EpiCollections.setActive(sel); PAGE = 0; loadList();
+      });
+    });
+    var rec = document.getElementById("c-reconcile");
+    if (rec) { rec.checked = EpiCollections.isReconcile(); rec.addEventListener("change", function () { EpiCollections.setReconcile(rec.checked); PAGE = 0; loadList(); }); }
   }
 
   function facetMatch(e) {
@@ -180,6 +205,7 @@
     });
   }
 
+  function colLabel(col) { var c = EpiCollections.get(col); return c && c.short && c.short !== "—" ? c.short : ""; }
   function rowHtml(e) {
     var id = e.file.replace(/\.xml$/, "");
     var col = e.col || "local";
@@ -187,9 +213,14 @@
     var tags = [e.objectType, e.textType, e.material].filter(Boolean)
       .map(function (t) { return '<span class="catalog-tag">' + esc(t) + "</span>"; }).join("");
     if (e.photo) tags = '<span class="catalog-tag tag-photo">📷 photo</span>' + tags;
+    if (e._also && e._also.length) {
+      var also = e._also.map(colLabel).filter(Boolean).join(", ");
+      if (also) tags = '<span class="catalog-tag tag-also">＝ also in ' + esc(also) + "</span>" + tags;
+    }
+    var cl = colLabel(col);
     var meta = [e.settlement, e.region, e.date].filter(Boolean).join(" · ");
     return '<div class="catalog-item"><div class="catalog-monument"><div class="catalog-info">' +
-      '<span class="catalog-filename">' + esc(e.file) + (col === "edh" ? " · EDH" : "") + "</span>" +
+      '<span class="catalog-filename">' + esc(e.file) + (cl ? ' · <span class="col-badge col-' + col + '">' + esc(cl) + "</span>" : "") + "</span>" +
       '<div class="catalog-title"><a href="viewer.html?' + q + '">' + esc(e.titleEn || id) + "</a></div>" +
       (meta ? '<span class="catalog-meta">' + esc(meta) + "</span>" : "") +
       (tags ? '<div class="catalog-tags">' + tags + "</div>" : "") +

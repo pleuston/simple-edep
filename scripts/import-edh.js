@@ -118,8 +118,18 @@ function importBiblio() {
   write("bibliography.json", out);
 }
 
+// ---- hd -> TM cross-reference (for cross-collection reconciliation) ------
+function importXref() {
+  var rows = readTable("edh_data_text.csv");
+  var map = {};
+  rows.forEach(function (r) { if (r.hd_nr && r.tm_nr) map[r.hd_nr] = r.tm_nr; });
+  fs.writeFileSync(path.join(COLL, "tm.json"), JSON.stringify(map));
+  console.log("  wrote collections/edh/tm.json — " + Object.keys(map).length + " HD→TM");
+}
+
 console.log("importing EDH collection registers into " + COLL);
 importPeople();
+importXref();
 var nPhotos = importPhotos();
 importGeo();
 importProvinces();
