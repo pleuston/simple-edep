@@ -14,8 +14,7 @@
 (function () {
   "use strict";
 
-  // ↓↓↓ after deploying the Worker, put its URL here (or set the localStorage key)
-  var DEFAULT_ENDPOINT = "";
+  var DEFAULT_ENDPOINT = "https://simple-edep-guest-relay.dedicated-foxglove.workers.dev";
   var TARGET = { owner: "pleuston", repo: "simple-edep", branch: "main", dir: "submissions" };
   var PR_URL_MAX = 8000;     // browsers/GitHub cap the prefilled new-file URL
 
