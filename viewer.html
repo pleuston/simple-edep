@@ -16,6 +16,7 @@
         <a href="catalog.html" class="sitenav-link">Inscriptions</a>
         <a href="map.html" class="sitenav-link">Geodata</a>
         <a href="people.html" class="sitenav-link">People</a>
+        <a href="photos.html" class="sitenav-link">Photos</a>
         <a href="bibliography.html" class="sitenav-link">Bibliography</a>
         <a href="about.html" class="sitenav-link">About</a>
         <a href="docs.html" class="sitenav-link">Instructions</a>
@@ -33,7 +34,9 @@
 
     <main class="viewer-layout">
       <section class="viewer-pane image-pane">
-        <div id="image-host"><div class="viewer-noimage">No image for this record.</div></div>
+        <div id="image-host"><div class="viewer-noimage">Loading…</div></div>
+        <div id="iiif-thumbs" class="iiif-thumbs"></div>
+        <div id="iiif-credit" class="iiif-credit"></div>
       </section>
       <section class="viewer-pane reading-pane">
         <div class="viewer-actions">
@@ -46,32 +49,61 @@
     </main>
 
     <div id="toast" role="status" aria-live="polite"></div>
+    <script src="collections.js"></script>
     <script src="reading.js"></script>
+    <script src="vendor/openseadragon/openseadragon.min.js"></script>
     <script>
       (function () {
-        var id = new URLSearchParams(location.search).get("id") || "";
+        var params = new URLSearchParams(location.search);
+        var id = (params.get("id") || "").replace(/[^A-Za-z0-9_\-.]/g, "");
+        var col = (params.get("col") || "local").replace(/[^a-z]/g, "");
         if (!id) { document.getElementById("reading").innerHTML = "<p>No record specified.</p>"; return; }
-        id = id.replace(/[^A-Za-z0-9_\-.]/g, "");
-        var recEl = document.getElementById("rec-id"); if (recEl) recEl.textContent = id;
-        var url = "records/" + id + ".xml";
+        var url = EpiCollections.recordUrl(id + ".xml", col);
         document.getElementById("btn-xml").href = url;
-        document.getElementById("btn-edit").href = "catalog.html"; // edit via catalogue (loads into editor)
+        document.getElementById("btn-edit").href = "catalog.html?edit=" + encodeURIComponent(id) + "&col=" + encodeURIComponent(col);
+
         fetch(url).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
-          .then(function (xml) {
-            document.getElementById("reading").innerHTML = EpiDocReader.render(xml);
-            var m = xml.match(/<graphic url="([^"]+)"/);
-            if (m) {
-              document.getElementById("image-host").innerHTML =
-                '<img class="viewer-image" src="' + m[1].replace(/"/g, "&quot;") + '" alt="Facsimile of ' + id + '">';
-            }
-            // wire Edit to round-trip via the catalogue loader
-            document.getElementById("btn-edit").addEventListener("click", function (e) {
-              e.preventDefault();
-              try { sessionStorage.setItem("edep_view_edit", id); } catch (x) {}
-              location.href = "catalog.html?edit=" + encodeURIComponent(id);
-            });
-          })
+          .then(function (xml) { document.getElementById("reading").innerHTML = EpiDocReader.render(xml); loadPhotos(xml); })
           .catch(function (e) { document.getElementById("reading").innerHTML = "<p>Could not load record: " + e.message + "</p>"; });
+
+        // photos: join the EDH photo database by HD number; show in OpenSeadragon (IIIF deep zoom)
+        function loadPhotos(xml) {
+          var host = document.getElementById("image-host");
+          if (col !== "edh") { fallbackGraphic(xml, host); return; }
+          EpiCollections.getJSON(EpiCollections.get("edh").photos).then(function (all) {
+            var photos = (all || []).filter(function (p) { return p.hd === id && p.iiif; });
+            if (!photos.length) { fallbackGraphic(xml, host); return; }
+            host.innerHTML = '<div id="osd-host"></div>';
+            document.getElementById("iiif-credit").innerHTML =
+              'Photo: Epigraphische Fotothek Heidelberg / <a href="' + (photos[0].detail || "https://heidicon.ub.uni-heidelberg.de/") + '" target="_blank" rel="noopener">heidICON</a> (Free Access)';
+            var osd = OpenSeadragon({ id: "osd-host", prefixUrl: "vendor/openseadragon/images/", showNavigator: false, tileSources: photos[0].iiif + "/info.json" });
+            osd.addHandler("open-failed", function () { imgFallback(photos[0], host); });
+            renderThumbs(photos, osd);
+          }).catch(function () { fallbackGraphic(xml, host); });
+        }
+        function renderThumbs(photos, osd) {
+          if (photos.length < 2) return;
+          var t = document.getElementById("iiif-thumbs");
+          t.innerHTML = photos.map(function (p, i) {
+            return '<img class="iiif-thumb' + (i === 0 ? " on" : "") + '" data-i="' + i + '" src="' + (p.thumb || p.iiif + "/full/!120,120/0/default.jpg") + '" alt="">';
+          }).join("");
+          Array.prototype.forEach.call(t.querySelectorAll(".iiif-thumb"), function (el) {
+            el.addEventListener("click", function () {
+              var i = +el.getAttribute("data-i");
+              osd.open(photos[i].iiif + "/info.json");
+              Array.prototype.forEach.call(t.querySelectorAll(".iiif-thumb"), function (x) { x.classList.remove("on"); });
+              el.classList.add("on");
+            });
+          });
+        }
+        function imgFallback(p, host) {
+          host.innerHTML = '<img class="viewer-image" src="' + (p.iiif + "/full/!1200,1200/0/default.jpg") + '" alt="Photo of ' + id + '">';
+        }
+        function fallbackGraphic(xml, host) {
+          var m = xml.match(/<graphic url="([^"#][^"]*)"/);
+          if (m) host.innerHTML = '<img class="viewer-image" src="' + m[1].replace(/"/g, "&quot;") + '" alt="Facsimile of ' + id + '">';
+          else host.innerHTML = '<div class="viewer-noimage">No image for this record.</div>';
+        }
       })();
     </script>
   </body>

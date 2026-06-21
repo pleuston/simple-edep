@@ -9,7 +9,7 @@
     searchEl = document.getElementById("bib-search");
     pagerEl = document.getElementById("bib-pager");
     searchEl.addEventListener("input", function () { PAGE = 0; render(); });
-    fetch("data/bibliography.json").then(function (r) { return r.ok ? r.json() : []; })
+    EpiCollections.getJSON(EpiCollections.get("edh").bibliography)
       .then(function (b) { ENTRIES = b || []; render(); })
       .catch(function () { listEl.innerHTML = '<div class="catalog-empty">Could not load the bibliography.</div>'; });
   });

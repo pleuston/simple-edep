@@ -3,29 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>simple-edep · Geodata</title>
+    <title>simple-edep · Photos</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
-    <link rel="stylesheet" href="vendor/leaflet/MarkerCluster.css" />
-    <link rel="stylesheet" href="vendor/leaflet/MarkerCluster.Default.css" />
     <script src="auth.js"></script>
   </head>
   <body>
     <header class="topbar">
-      <div class="brand">
-        <a href="index.html" class="brand-home">simple-edep</a>
-      </div>
+      <div class="brand"><a href="index.html" class="brand-home">simple-edep</a></div>
       <nav class="sitenav sitenav-editor">
         <a href="catalog.html" class="sitenav-link">Inscriptions</a>
-        <a href="map.html" class="sitenav-link active">Geodata</a>
+        <a href="map.html" class="sitenav-link">Geodata</a>
         <a href="people.html" class="sitenav-link">People</a>
-        <a href="photos.html" class="sitenav-link">Photos</a>
+        <a href="photos.html" class="sitenav-link active">Photos</a>
         <a href="bibliography.html" class="sitenav-link">Bibliography</a>
         <a href="about.html" class="sitenav-link">About</a>
         <a href="docs.html" class="sitenav-link">Instructions</a>
       </nav>
       <div class="topbar-right">
-        <span id="map-count" class="catalog-meta"></span>
         <div class="lang-box"><span>Language</span>
           <select aria-label="Interface language"><option>English</option></select>
         </div>
@@ -35,10 +29,20 @@
         </a>
       </div>
     </header>
-    <div class="map-wrap"><div id="map"></div></div>
+
+    <div class="catalog-wrap">
+      <h1 class="page-title">Photos</h1>
+      <p class="photo-credit">Images: Epigraphische Fotothek Heidelberg / <a href="https://heidicon.ub.uni-heidelberg.de/" target="_blank" rel="noopener">heidICON</a> — Rights Reserved, Free Access. Shown via the heidICON IIIF server.</p>
+      <div class="register-controls">
+        <label class="field-col">Search
+          <input id="ph-search" type="search" placeholder="find spot, HD no., CIL…" />
+        </label>
+      </div>
+      <div class="register-pager" id="ph-count"></div>
+      <div id="ph-grid" class="photo-grid"><div class="catalog-loading">Loading the photo database…</div></div>
+    </div>
+
     <script src="collections.js"></script>
-    <script src="vendor/leaflet/leaflet.js"></script>
-    <script src="vendor/leaflet/leaflet.markercluster.js"></script>
-    <script src="map.js"></script>
+    <script src="photos.js"></script>
   </body>
 </html>

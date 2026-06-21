@@ -19,19 +19,20 @@
     searchEl = document.getElementById("cat-search");
     sortEl = document.getElementById("cat-sort");
     pagerEl = document.getElementById("cat-pager");
-    searchEl.addEventListener("input", function () { PAGE = 0; renderList(); });
+    var dt;
+    searchEl.addEventListener("input", function () { clearTimeout(dt); dt = setTimeout(function () { PAGE = 0; renderList(); }, 180); });
     if (sortEl) sortEl.addEventListener("change", function () { PAGE = 0; renderList(); });
-    var editId = new URLSearchParams(location.search).get("edit");
-    if (editId) { openInEditor(editId.replace(/[^A-Za-z0-9_\-.]/g, "") + ".xml"); return; }
+    var params = new URLSearchParams(location.search);
+    var editId = params.get("edit");
+    if (editId) { openInEditor(editId.replace(/[^A-Za-z0-9_\-.]/g, "") + ".xml", params.get("col") || "local"); return; }
     loadList();
   });
 
-  // The committed index is authoritative — it covers the whole corpus (the
-  // GitHub Contents API only lists the first 1000 files in a directory, so it
-  // can't enumerate a ~10k-record corpus). Rebuild it with build-index.js after
-  // bulk changes.
+  // Merge the local demo records with the EDH collection (jsDelivr CDN). Each
+  // entry is tagged with .col so links resolve to the right source.
   function loadList() {
-    fetch("data/records-index.json").then(function (r) { return r.ok ? r.json() : []; })
+    listEl.innerHTML = '<div class="catalog-loading">Loading the corpus…</div>';
+    EpiCollections.loadCatalog()
       .then(function (idx) { ENTRIES = idx || []; renderList(); })
       .catch(function () { showError("Could not load the catalogue."); });
   }
@@ -91,17 +92,20 @@
 
   function rowHtml(e) {
     var id = e.file.replace(/\.xml$/, "");
+    var col = e.col || "local";
+    var q = "id=" + encodeURIComponent(id) + "&col=" + encodeURIComponent(col);
     var tags = [e.objectType, e.textType, e.material].filter(Boolean)
       .map(function (t) { return '<span class="catalog-tag">' + esc(t) + "</span>"; }).join("");
+    if (e.photo) tags = '<span class="catalog-tag tag-photo">📷 photo</span>' + tags;
     var meta = [e.settlement, e.region, e.date].filter(Boolean).join(" · ");
     return '<div class="catalog-item"><div class="catalog-monument"><div class="catalog-info">' +
-      '<span class="catalog-filename">' + esc(e.file) + "</span>" +
-      '<div class="catalog-title"><a href="viewer.html?id=' + encodeURIComponent(id) + '">' + esc(e.titleEn || id) + "</a></div>" +
+      '<span class="catalog-filename">' + esc(e.file) + (col === "edh" ? " · EDH" : "") + "</span>" +
+      '<div class="catalog-title"><a href="viewer.html?' + q + '">' + esc(e.titleEn || id) + "</a></div>" +
       (meta ? '<span class="catalog-meta">' + esc(meta) + "</span>" : "") +
       (tags ? '<div class="catalog-tags">' + tags + "</div>" : "") +
       "</div><div class=\"catalog-actions\">" +
-      '<a class="btn small" href="viewer.html?id=' + encodeURIComponent(id) + '">View</a>' +
-      '<button class="btn small" data-edit="' + esc(e.file) + '">Edit</button>' +
+      '<a class="btn small" href="viewer.html?' + q + '">View</a>' +
+      '<button class="btn small" data-edit="' + esc(e.file) + '" data-col="' + esc(col) + '">Edit</button>' +
       "</div></div></div>";
   }
 
@@ -110,14 +114,12 @@
     document.addEventListener("click", function (ev) {
       var b = ev.target.closest && ev.target.closest("[data-edit]");
       if (!b) return;
-      openInEditor(b.getAttribute("data-edit"));
+      openInEditor(b.getAttribute("data-edit"), b.getAttribute("data-col"));
     });
   }
 
-  function recordUrl(file) { return "records/" + file; }
-
-  function openInEditor(file) {
-    fetch(recordUrl(file)).then(function (r) {
+  function openInEditor(file, col) {
+    fetch(EpiCollections.recordUrl(file, col)).then(function (r) {
       if (!r.ok) throw new Error("HTTP " + r.status);
       return r.text();
     }).then(function (xml) {

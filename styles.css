@@ -410,3 +410,24 @@ body.has-fullscreen-editor .edition-fs-hint { display: block; }
 .bib-cite { font-family: var(--serif-body); font-size: 1rem; line-height: 1.5; color: var(--ink); }
 .bib-cite em { font-style: italic; }
 .bib-cite .bib-author { font-weight: 600; }
+
+/* photos gallery */
+.photo-credit { font-size: 0.82rem; color: var(--muted); margin: -0.4rem 0 1rem; }
+.photo-credit a { color: var(--accent); }
+.photo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 0.8rem; }
+.photo-tile { display: flex; flex-direction: column; text-decoration: none; border: 1px solid var(--line); border-radius: 4px; overflow: hidden; background: #faf8f4; }
+.photo-tile:hover { border-color: var(--accent); }
+.photo-tile img { width: 100%; height: 150px; object-fit: cover; background: #eee; display: block; }
+.photo-noimg { height: 150px; display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 0.8rem; }
+.photo-cap { font-size: 0.74rem; color: var(--ink); padding: 0.3rem 0.4rem; line-height: 1.3; }
+a.catalog-tag { text-decoration: none; }
+a.catalog-tag:hover { border-color: var(--accent); }
+.catalog-tag.tag-photo { color: var(--accent); border-color: var(--accent); }
+
+/* IIIF viewer in the inscription viewer */
+#osd-host { width: 100%; height: 62vh; min-height: 340px; background: #1f2023; border: 1px solid var(--line); border-radius: 5px; }
+.iiif-thumbs { display: flex; gap: 0.4rem; flex-wrap: wrap; margin: 0.6rem 0 0.3rem; }
+.iiif-thumb { width: 62px; height: 62px; object-fit: cover; border: 2px solid transparent; border-radius: 3px; cursor: pointer; background: #eee; }
+.iiif-thumb.on { border-color: var(--accent); }
+.iiif-credit { font-size: 0.76rem; color: var(--muted); margin-top: 0.4rem; }
+.iiif-credit a { color: var(--accent); }
