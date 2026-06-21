@@ -68,11 +68,17 @@
   function fv(id) { var el = document.getElementById(id); return el ? el.value : ""; }
   function escAttr(s) { return String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;"); }
 
+  function getUserCols() {
+    try { return JSON.parse(localStorage.getItem("edep_user_cols") || "[]"); } catch (e) { return []; }
+  }
+
   // (re)populate the facet dropdown options from the current ENTRIES, keeping
   // any current selection valid. Listeners are bound once in bindControls().
   function buildFacets() {
-    // Show "Collection" facet only when at least one local entry has a collection tag
-    var hasUserCols = ENTRIES.some(function (e) { return (e.col || "local") === "local" && e.collection; });
+    var userCols = getUserCols();
+    // Show "Collection" facet if the user has created any collections, even empty ones
+    var hasUserCols = userCols.length > 0 ||
+      ENTRIES.some(function (e) { return (e.col || "local") === "local" && e.collection; });
     var colWrap = document.getElementById("f-collection-wrap");
     if (colWrap) colWrap.style.display = hasUserCols ? "" : "none";
 
@@ -89,16 +95,17 @@
       if (cur && counts[cur]) sel.value = cur;
     });
 
-    // collection facet — only local entries can have one
+    // collection facet — all user-created collections (even empty) + any tagged in entries
     var colSel = document.getElementById("f-collection");
     if (colSel) {
       var curCol = colSel.value;
       var colCounts = {};
+      userCols.forEach(function (c) { colCounts[c.name] = 0; });
       ENTRIES.forEach(function (e) { if ((e.col || "local") === "local" && e.collection) colCounts[e.collection] = (colCounts[e.collection] || 0) + 1; });
       colSel.innerHTML = '<option value="">All</option>' + Object.keys(colCounts).sort().map(function (v) {
         return '<option value="' + escAttr(v) + '">' + esc(v) + " (" + colCounts[v] + ")</option>";
       }).join("");
-      if (curCol && colCounts[curCol]) colSel.value = curCol;
+      if (curCol && curCol in colCounts) colSel.value = curCol;
     }
   }
 
