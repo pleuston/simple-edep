@@ -57,6 +57,9 @@ function importPeople() {
     var age = [r.l_jahre && r.l_jahre + "y", r.l_monate && r.l_monate + "m", r.l_tage && r.l_tage + "d"].filter(Boolean).join(" ");
     return {
       hd: r.hd_nr || "", name: name.trim(),
+      praenomen: r.praenomen || "", nomen: r.nomen || "",
+      cognomen: r.cognomen || "", supernomen: r.supernomen || "",
+      tribus: r.tribus || "", origo: r.origo || "",
       role: r.funktion || r.beruf || "", status: r.status || "",
       gender: r.geschlecht || "", age: age, pir: r.pir || "", uri: r.uri || ""
     };

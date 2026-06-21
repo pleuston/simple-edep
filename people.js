@@ -1,38 +1,47 @@
-/* people.js — register of persons from the EDH collection (edh_data_pers),
- * searchable and filterable by sex, social state, and occupation. */
+/* people.js — register of persons from the EDH collection (edh_data_pers).
+ * Filterable by individual name components, sex, social state, and occupation. */
 (function () {
   "use strict";
-  var listEl, searchEl, pagerEl, PEOPLE = [], PAGE = 0, PER = 60;
-  var fSex, fStatus, fRole;
+  var listEl, pagerEl, PEOPLE = [], PAGE = 0, PER = 60;
+  var fPraenomen, fNomen, fCognomen, fSupernomen, fTribus, fOrigo, fSex, fStatus, fRole;
 
   document.addEventListener("DOMContentLoaded", function () {
-    listEl   = document.getElementById("ppl-list");
-    searchEl = document.getElementById("ppl-search");
-    pagerEl  = document.getElementById("ppl-count");
-    fSex     = document.getElementById("ppl-sex");
-    fStatus  = document.getElementById("ppl-status");
-    fRole    = document.getElementById("ppl-role");
+    listEl    = document.getElementById("ppl-list");
+    pagerEl   = document.getElementById("ppl-count");
+    fPraenomen  = document.getElementById("ppl-praenomen");
+    fNomen      = document.getElementById("ppl-nomen");
+    fCognomen   = document.getElementById("ppl-cognomen");
+    fSupernomen = document.getElementById("ppl-supernomen");
+    fTribus     = document.getElementById("ppl-tribus");
+    fOrigo      = document.getElementById("ppl-origo");
+    fSex        = document.getElementById("ppl-sex");
+    fStatus     = document.getElementById("ppl-status");
+    fRole       = document.getElementById("ppl-role");
 
     var dt;
     function rerender() { PAGE = 0; render(); }
-    searchEl.addEventListener("input", function () { clearTimeout(dt); dt = setTimeout(rerender, 180); });
-    fSex.addEventListener("change", rerender);
-    fStatus.addEventListener("change", rerender);
-    fRole.addEventListener("change", rerender);
+    function debounced() { clearTimeout(dt); dt = setTimeout(rerender, 180); }
 
-    var rst = document.getElementById("ppl-reset");
-    if (rst) rst.addEventListener("click", function () {
-      searchEl.value = ""; fSex.value = ""; fStatus.value = ""; fRole.value = "";
+    [fPraenomen, fNomen, fCognomen, fSupernomen, fOrigo].forEach(function (el) {
+      el.addEventListener("input", debounced);
+    });
+    [fTribus, fSex, fStatus, fRole].forEach(function (el) {
+      el.addEventListener("change", rerender);
+    });
+
+    document.getElementById("ppl-reset").addEventListener("click", function () {
+      [fPraenomen, fNomen, fCognomen, fSupernomen, fOrigo].forEach(function (el) { el.value = ""; });
+      [fTribus, fSex, fStatus, fRole].forEach(function (el) { el.value = ""; });
       rerender();
     });
 
-    // resolve a person to their inscription in the right-side reading panel
+    // open inscription in reading panel when clicking a row link
     listEl.addEventListener("click", function (ev) {
       var a = ev.target.closest ? ev.target.closest('a[href^="viewer.html"]') : null;
       if (!a || ev.button !== 0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
       ev.preventDefault();
       var u = new URL(a.getAttribute("href"), location.href);
-      var id = (u.searchParams.get("id") || "").replace(/[^A-Za-z0-9_\-.]/g, "");
+      var id  = (u.searchParams.get("id")  || "").replace(/[^A-Za-z0-9_\-.]/g, "");
       var col = (u.searchParams.get("col") || "edh").replace(/[^a-z]/g, "");
       Array.prototype.forEach.call(listEl.querySelectorAll(".ppl-row.selected"), function (x) { x.classList.remove("selected"); });
       var item = a.closest(".ppl-row"); if (item) item.classList.add("selected");
@@ -46,22 +55,26 @@
         populateFilters();
         render();
       })
-      .catch(function () { listEl.innerHTML = '<div class="catalog-empty">Could not load the persons register.</div>'; });
+      .catch(function () {
+        listEl.innerHTML = '<div class="catalog-empty">Could not load the persons register.</div>';
+      });
   });
 
   function byName(a, b) { return (a.name || "").localeCompare(b.name || ""); }
 
   function populateFilters() {
-    var sexes = {}, statuses = {}, roles = {};
+    var tribes = {}, sexes = {}, statuses = {}, roles = {};
     PEOPLE.forEach(function (p) {
-      if (p.gender) sexes[p.gender] = true;
-      if (p.status) statuses[p.status] = true;
-      if (p.role)   roles[p.role] = true;
+      if (p.tribus)  tribes[p.tribus]    = true;
+      if (p.gender)  sexes[p.gender]     = true;
+      if (p.status)  statuses[p.status]  = true;
+      if (p.role)    roles[p.role]       = true;
     });
     var SEX_LABEL = { M: "Male", W: "Female", F: "Female" };
-    fill(fSex, Object.keys(sexes).sort(), function (v) { return SEX_LABEL[v] || v; });
+    fill(fTribus, Object.keys(tribes).sort());
+    fill(fSex,    Object.keys(sexes).sort(),    function (v) { return SEX_LABEL[v] || v; });
     fill(fStatus, Object.keys(statuses).sort());
-    fill(fRole, Object.keys(roles).sort());
+    fill(fRole,   Object.keys(roles).sort());
   }
 
   function fill(sel, vals, labelFn) {
@@ -72,12 +85,21 @@
     });
   }
 
+  function sub(field, val) {
+    if (!val) return true;
+    return (field || "").toLowerCase().indexOf(val.toLowerCase()) !== -1;
+  }
+
   function matches(p) {
-    var q = (searchEl.value || "").toLowerCase().trim();
-    if (q && (p.name + " " + p.role + " " + (p.hd || "")).toLowerCase().indexOf(q) === -1) return false;
-    if (fSex.value && p.gender !== fSex.value) return false;
-    if (fStatus.value && p.status !== fStatus.value) return false;
-    if (fRole.value && p.role !== fRole.value) return false;
+    if (!sub(p.praenomen,  fPraenomen.value.trim()))  return false;
+    if (!sub(p.nomen,      fNomen.value.trim()))      return false;
+    if (!sub(p.cognomen,   fCognomen.value.trim()))   return false;
+    if (!sub(p.supernomen, fSupernomen.value.trim())) return false;
+    if (!sub(p.origo,      fOrigo.value.trim()))      return false;
+    if (fTribus.value && p.tribus  !== fTribus.value)  return false;
+    if (fSex.value    && p.gender  !== fSex.value)     return false;
+    if (fStatus.value && p.status  !== fStatus.value)  return false;
+    if (fRole.value   && p.role    !== fRole.value)    return false;
     return true;
   }
 
@@ -96,10 +118,12 @@
   }
 
   function rowHtml(p) {
-    var chips = [p.role, p.status, genderLabel(p.gender)].filter(Boolean).join(" · ");
+    var parts = [p.praenomen, p.nomen, p.cognomen, p.supernomen].filter(Boolean);
+    var nameParts = parts.length ? parts.join(" ") : p.name;
+    var chips = [p.origo, genderLabel(p.gender)].filter(Boolean).join(" · ");
     var nameHtml = p.hd
-      ? '<a class="ppl-name" href="viewer.html?id=' + encodeURIComponent(p.hd) + '&col=edh">' + esc(p.name) + "</a>"
-      : '<span class="ppl-name">' + esc(p.name) + "</span>";
+      ? '<a class="ppl-name" href="viewer.html?id=' + encodeURIComponent(p.hd) + '&col=edh">' + esc(nameParts) + "</a>"
+      : '<span class="ppl-name">' + esc(nameParts) + "</span>";
     var tags = "";
     if (p.hd) {
       if (window.EpiAuth && EpiAuth.isSignedIn()) {
