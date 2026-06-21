@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <!-- English title -->
+        <title xml:lang="en">asfdasdfa</title>
         <editor role="editor"/>
       </titleStmt>
       <publicationStmt>
