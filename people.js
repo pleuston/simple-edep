@@ -63,14 +63,16 @@
   function byName(a, b) { return (a.name || "").localeCompare(b.name || ""); }
 
   var TRIBUS_LABEL = {
-    AEM: "Aemilia", ANI: "Aniensis", ARN: "Arnensis", CAM: "Camilia",
-    CLA: "Claudia", COL: "Collina",  COR: "Cornelia", FAB: "Fabia",
-    FAL: "Falerna", GAL: "Galeria",  "GAL+": "Galeria (uncertain)",
-    LEM: "Lemonia", MAE: "Maecia",   MEN: "Menenia",  OUF: "Oufentina",
-    PAL: "Palatina", PAP: "Papiria", POL: "Pollia",   POM: "Pomptina",
-    PUB: "Publilia", PUP: "Pupinia", QUI: "Quirina",  SAB: "Sabatina",
-    SCA: "Scaptia",  SER: "Sergia",  STE: "Stellatina", TER: "Teretina",
-    TRO: "Tromentina", VEL: "Velina", VOL: "Voltinia"
+    AEM: "Aemilia",  AEL: "Aelia",    ANI: "Aniensis",  ARN: "Arnensis",
+    CAM: "Camilia",  CLA: "Claudia",  CLU: "Clustumina",COL: "Collina",
+    COR: "Cornelia", ESQ: "Esquilina",FAB: "Fabia",      FAL: "Falerna",
+    GAL: "Galeria",  HOR: "Horatia",  LEM: "Lemonia",   MAE: "Maecia",
+    MEN: "Menenia",  OUF: "Oufentina",PAL: "Palatina",  PAP: "Papiria",
+    POL: "Pollia",   POM: "Pomptina", POP: "Poplilia",  PUB: "Publilia",
+    PUP: "Pupinia",  QUI: "Quirina",  ROM: "Romilia",   SAB: "Sabatina",
+    SCA: "Scaptia",  SER: "Sergia",   STE: "Stellatina",SUC: "Succusana",
+    TER: "Teretina", TRO: "Tromentina",ULP: "Ulpia",    VEL: "Velina",
+    VOL: "Voltinia", VOT: "Voturia"
   };
 
   var STATUS_LABEL = {
@@ -86,6 +88,28 @@
 
   var SEX_LABEL = { M: "Male", W: "Female", F: "Female", "M?": "Male (uncertain)", "W?": "Female (uncertain)" };
 
+  /* funktion: Amtsträger / Berufstätige / Kultpersonal / Dienstpersonal
+     beruf: J = "Ja, Beruf genannt" (occupation documented in inscription) */
+  var ROLE_LABEL = {
+    "A": "officeholder (Amtsträger)",
+    "A*": "officeholder, attr. (A*)",
+    "A*?": "officeholder, attr. uncertain (A*?)",
+    "A?": "officeholder, uncertain (A?)",
+    "A+": "officeholder + (A+)",
+    "B": "professional worker (Berufstätiger)",
+    "B*": "professional, attr. (B*)",
+    "B?": "professional, uncertain (B?)",
+    "C": "cult/religious (Kultpersonal)",
+    "C*": "cult/religious, attr. (C*)",
+    "C?": "cult/religious, uncertain (C?)",
+    "D": "domestic staff (Dienstpersonal)",
+    "AC": "officeholder + cult (AC)",
+    "A*C*": "officeholder + cult, attr. (A*C*)",
+    "A?C": "officeholder (?) + cult (A?C)",
+    "J": "occupation documented",
+    "J?": "occupation possibly documented (J?)"
+  };
+
   function populateFilters() {
     var tribes = {}, sexes = {}, statuses = {}, roles = {};
     PEOPLE.forEach(function (p) {
@@ -96,14 +120,24 @@
     });
     fill(fTribus, Object.keys(tribes).sort(), function (v) { return TRIBUS_LABEL[v] ? TRIBUS_LABEL[v] + " (" + v + ")" : v; });
     fill(fSex,    Object.keys(sexes).sort(),  function (v) { return SEX_LABEL[v] || v; });
-    fill(fStatus, Object.keys(statuses).sort(statusSort), function (v) { return STATUS_LABEL[v] ? STATUS_LABEL[v] + " (" + v + ")" : v; });
-    fill(fRole,   Object.keys(roles).sort());
+    fill(fStatus, Object.keys(statuses).sort(statusSort), statusLabel);
+    fill(fRole,   Object.keys(roles).sort(), function (v) { return ROLE_LABEL[v] || v; });
   }
 
   function statusSort(a, b) {
     var ai = parseInt(a, 10), bi = parseInt(b, 10);
     if (!isNaN(ai) && !isNaN(bi)) return ai - bi;
     return a.localeCompare(b);
+  }
+
+  function statusLabel(v) {
+    if (STATUS_LABEL[v]) return STATUS_LABEL[v] + " (" + v + ")";
+    var stripped = v.replace(/[*?]/g, "");
+    if (stripped.length >= 2 && /^\d+$/.test(stripped)) {
+      var parts = stripped.split("").map(function (d) { return STATUS_LABEL[d] || d; });
+      return parts.join(" + ") + " (" + v + ")";
+    }
+    return v;
   }
 
   function fill(sel, vals, labelFn) {
