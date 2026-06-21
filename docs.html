@@ -116,14 +116,15 @@
 
       <div class="docs-section">
         <h2>6 · Save and export</h2>
-        <p><strong>② Save to GitHub</strong> commits the record to <code>records/&lt;file&gt;.xml</code> in
-        the public repository
-        <a href="https://github.com/pleuston/simple-edep" target="_blank" rel="noopener">pleuston/simple-edep</a>,
-        served back as a static file; you can also <strong>Copy XML</strong> or <strong>Download</strong> and
-        commit by hand. Every record is emitted with the EpiDoc RNG/Schematron processing instructions and
-        follows the <a href="https://epidoc.stoa.org/gl/latest/" target="_blank" rel="noopener">EpiDoc Guidelines</a>.
-        The Inscriptions list and Geodata map read <code>data/records-index.json</code>; after bulk edits,
-        rebuild it with <code>node scripts/build-index.js</code>.</p>
+        <p>Before saving, you can assign the record to a <strong>Collection</strong> using the dropdown
+        in the toolbar — pick an existing collection or choose <em>+ New collection…</em> to create one.
+        Collections let you group related inscriptions and filter them in the
+        <a href="catalog.html">Inscriptions</a> catalogue.</p>
+        <p><strong>② Save to GitHub</strong> commits the record to <code>records/&lt;file&gt;.xml</code>
+        and updates the catalogue index immediately so the record appears in the list without any delay.
+        Every record follows the <a href="https://epidoc.stoa.org/gl/latest/" target="_blank" rel="noopener">EpiDoc Guidelines</a>
+        and is emitted with RNG/Schematron processing instructions.
+        You can also <strong>Copy XML</strong> or <strong>Download</strong> and commit by hand.</p>
       </div>
 
       <div class="docs-section">
@@ -165,76 +166,49 @@
       </div>
 
       <div class="docs-section">
-        <h2>8 · Submitting without a token</h2>
-        <p>You can contribute records without a GitHub account. The editor button changes to
-        <strong>② Submit as guest</strong> when you are not signed in. Clicking it opens a modal with two
-        routes:</p>
-
-        <table class="docs-table">
-          <thead>
-            <tr><th>Route</th><th>What happens</th><th>Result</th></tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><strong>Submit anonymously</strong></td>
-              <td>The record is relayed through a small server-side proxy and committed to <code>submissions/</code> in the project repository.</td>
-              <td>A link to the new file on GitHub is shown. A maintainer can review and move it to <code>records/</code>.</td>
-            </tr>
-            <tr>
-              <td><strong>Propose as pull request</strong></td>
-              <td>GitHub's new-file editor opens in a new tab with your XML pre-filled. You need a GitHub account but no token.</td>
-              <td>You submit the PR yourself; GitHub shows the diff for review before merge.</td>
-            </tr>
-          </tbody>
-        </table>
-
-        <p>Both routes write to <code>submissions/</code>, not directly to <code>records/</code>, so a
-        maintainer can review before the record goes live. If the anonymous relay is not configured for
-        this deployment, only the pull-request route is available.</p>
-
-        <p class="docs-tip"><strong>Tip — large records.</strong> GitHub's URL length limit caps how much
-        XML can be pre-filled for the PR route. Very long records (complex transcriptions, extensive
-        apparatus) may be truncated. In that case, use <strong>Download</strong> to save the XML locally
-        and attach it to a GitHub issue instead.</p>
+        <h2>8 · Saving without an account</h2>
+        <p>Saving records to the corpus requires a GitHub account. If you are not signed in, the editor
+        shows <strong>② Sign in to save</strong>. Clicking it opens a prompt with two options:</p>
+        <ul class="docs-list">
+          <li><strong>Create a free GitHub account ↗</strong> — opens github.com/signup in a new tab.
+          Sign-up takes under a minute and no payment is required.</li>
+          <li><strong>Already have one? Sign in →</strong> — goes to the login page where you paste
+          your personal access token.</li>
+        </ul>
+        <p>You can still <strong>Copy XML</strong> or <strong>Download</strong> at any time without
+        an account, and share or commit the file manually later.</p>
       </div>
 
       <div class="docs-section">
-        <h2>9 · Favorites and user collections</h2>
-        <p>You can save any inscription to a personal list or a named collection — no account needed.
-        Everything is stored in your browser only and is never uploaded anywhere.</p>
+        <h2>9 · Collections and favorites</h2>
+        <p>There are two independent ways to group inscriptions, with different scopes:</p>
 
-        <h3>Star an inscription</h3>
+        <h3>Editor collections — group your own records</h3>
+        <p>When you save an inscription to GitHub you can tag it with a named collection. Use the
+        <strong>Collection:</strong> dropdown in the editor toolbar — pick an existing group or
+        choose <em>+ New collection…</em> and type a name. The collection is stored in your browser and
+        written into the catalogue index when the record is saved, so it immediately appears as a
+        filter in <a href="catalog.html">Inscriptions → Collection</a>. Collections created in the
+        editor are visible in the <em>Collection</em> facet even before any records are assigned to them.</p>
+        <ul class="docs-list">
+          <li>The collection filter sits at the top of the <a href="catalog.html">Inscriptions</a>
+          sidebar, below the Corpora section. It is hidden until you have created at least one collection.</li>
+          <li>If you have the catalogue open in another tab while saving, it refreshes automatically.</li>
+        </ul>
+
+        <h3>Favorites — bookmark any inscription</h3>
         <p>Every row in <a href="catalog.html">Inscriptions</a> has a <strong>★</strong> button at the
-        right. The same button appears in the header of the reading panel when you open a record. Click it
-        to save the inscription to your Favorites.</p>
+        right. The same button appears in the reading panel header. Click it to save the inscription to
+        your Favorites — works for records from any corpus (EDH, I.Sicily, or your own) without an account.</p>
+        <p>Click <strong>★ → Save to…</strong> to open the collection popover and add the inscription to
+        one or more named bookmark lists. Create a new bookmark list by typing a name at the bottom of the
+        popover and pressing Enter. Open <a href="favorites.html">Favorites</a> to manage all saved
+        inscriptions and bookmark lists in one place.</p>
 
-        <h3>Collections</h3>
-        <p>Click the <strong>★</strong> button and then <strong>Save to…</strong> to open the collection
-        popover. It shows your Favorites list and any named collections you have created. Tick or untick a
-        collection to add or remove the inscription from it. You can save the same record to multiple
-        collections at once.</p>
-        <ul class="docs-list">
-          <li><strong>New collection</strong> — type a name in the field at the bottom of the popover and press Enter (or click <em>Add</em>). The new collection is created and the record is saved into it immediately.</li>
-          <li>Close the popover by clicking anywhere outside it or pressing <kbd>Esc</kbd>.</li>
-        </ul>
-
-        <h3>Manage on the Favorites page</h3>
-        <p>Open <a href="favorites.html">Favorites</a> from the top navigation to see all saved inscriptions
-        and your collections in one place.</p>
-        <ul class="docs-list">
-          <li>Each collection has <strong>Rename</strong> and <strong>Delete</strong> buttons in its header. Deleting a collection removes the collection and its saved list but does not affect records in other collections or in Favorites.</li>
-          <li>Each saved row has its own <strong>★</strong> button — click it to remove the inscription from that collection without leaving the page.</li>
-          <li>Click an inscription title to open it in the reading panel.</li>
-        </ul>
-
-        <h3>Cross-tab sync</h3>
-        <p>Favorites are stored in <code>localStorage</code>. If you have the site open in more than one
-        tab, starring or removing an inscription in one tab is reflected immediately in the other.</p>
-
-        <p class="docs-tip"><strong>Note — browser-local only.</strong> Favorites are not backed up to
-        GitHub and are not shared between devices or browsers. If you clear your browser's site data,
-        your collections will be lost. For a lasting record, use <strong>Copy XML</strong> or commit
-        the records you care about to your own GitHub repository.</p>
+        <p class="docs-tip"><strong>Browser-local only.</strong> Both editor collections and favorites
+        are stored in <code>localStorage</code> and are not shared between devices or browsers. Editor
+        collections are also written into the GitHub index when you save, so they persist as long as
+        the record exists in the repository. Favorites are lost if you clear your browser's site data.</p>
       </div>
     </main>
   </body>
