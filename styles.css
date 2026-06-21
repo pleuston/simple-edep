@@ -431,6 +431,18 @@ a.btn.disabled { opacity: 0.5; cursor: default; pointer-events: none; }
   .register-two-col .catalog-item { border-top: 0; border-bottom: 1px solid var(--line); }
 }
 
+/* compact people register rows */
+.ppl-list { display: flex; flex-direction: column; }
+.ppl-row { display: flex; align-items: baseline; gap: 0.5rem; padding: 0.28rem 0; border-bottom: 1px solid var(--line); min-width: 0; }
+.ppl-row:hover { background: #fafafa; }
+.ppl-row.selected { background: #fbf4f4; }
+.ppl-name { font-family: var(--serif-body); font-size: 0.95rem; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; flex: 0 1 auto; }
+a.ppl-name { color: var(--accent); text-decoration: none; }
+a.ppl-name:hover { text-decoration: underline; }
+.ppl-chips { font-size: 0.78rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1 1 0; min-width: 0; }
+.ppl-tags { display: flex; gap: 0.25rem; flex-shrink: 0; margin-left: auto; }
+.ppl-hd { white-space: nowrap; }
+
 /* buttons in serif */
 .btn { font-family: var(--serif-body); }
 .btn.primary { background: var(--accent); border-color: var(--accent); }

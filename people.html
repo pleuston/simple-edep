@@ -37,14 +37,29 @@
       </div>
     </header>
 
-    <div class="catalog-wrap register-two-col">
-      <div class="register-controls">
-        <label class="field-col">Search
+    <div class="catalog-wrap with-facets">
+      <aside class="facet-side" id="ppl-facets">
+        <label class="facet">Search
           <input id="ppl-search" type="search" placeholder="name, role, place…" />
         </label>
+        <label class="facet">Sex
+          <select id="ppl-sex"><option value="">All</option></select>
+        </label>
+        <label class="facet">Social state
+          <select id="ppl-status"><option value="">All</option></select>
+        </label>
+        <label class="facet">Occupation
+          <select id="ppl-role"><option value="">All</option></select>
+        </label>
+        <button id="ppl-reset" class="btn small" type="button">Reset filters</button>
+      </aside>
+
+      <div class="catalog-main">
+        <div class="register-head">
+          <div class="register-pager" id="ppl-count"></div>
+        </div>
+        <div id="ppl-list"><div class="catalog-loading">Loading…</div></div>
       </div>
-      <div class="register-pager" id="ppl-count"></div>
-      <div id="ppl-list"><div class="catalog-loading">Loading…</div></div>
     </div>
 
     <aside class="record-panel" id="rec-panel" aria-hidden="true">
