@@ -54,8 +54,23 @@ var index = files.map(function (f) {
     if (pref && pleiades[pref]) { lat = pleiades[pref][0]; lng = pleiades[pref][1]; }
   }
 
+  // faceting fields: Roman province, modern country, numeric date bounds
+  var province = pick(xml, /<placeName type="province"[^>]*>([\s\S]*?)<\/placeName>/);
+  var country = pick(xml, /<placeName type="country"[^>]*>([\s\S]*?)<\/placeName>/) || pick(xml, /<country[^>]*>([\s\S]*?)<\/country>/);
+  function yr(m) { if (!m) return null; var n = parseInt(m[1], 10); return isNaN(n) ? null : n; }
+  var nb = yr(xml.match(/notBefore-custom="([^"]+)"/)) ;
+  if (nb === null) nb = yr(xml.match(/notBefore="([^"]+)"/));
+  if (nb === null) nb = yr(xml.match(/\bwhen(?:-custom)?="([^"]+)"/));
+  var na = yr(xml.match(/notAfter-custom="([^"]+)"/));
+  if (na === null) na = yr(xml.match(/notAfter="([^"]+)"/));
+  if (na === null) na = nb;
+
   var e = { file: f, titleEn: title, settlement: settlement, region: region,
             date: date, textType: textType, objectType: objectType, material: material, lat: lat, lng: lng };
+  if (province) e.province = province;
+  if (country) e.country = country;
+  if (nb !== null) e.nb = nb;
+  if (na !== null) e.na = na;
   if (hasPhoto[f.replace(/\.xml$/, "")]) e.photo = 1;
   return e;
 });

@@ -431,3 +431,14 @@ a.catalog-tag:hover { border-color: var(--accent); }
 .iiif-thumb.on { border-color: var(--accent); }
 .iiif-credit { font-size: 0.76rem; color: var(--muted); margin-top: 0.4rem; }
 .iiif-credit a { color: var(--accent); }
+
+/* faceted filter bar (EDH-style dropdowns) */
+.facet-bar { display: flex; flex-wrap: wrap; gap: 0.5rem 0.9rem; align-items: flex-end; margin: 0.2rem 0 0.6rem; padding: 0.6rem 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.facet { display: flex; flex-direction: column; font-size: 0.72rem; color: var(--muted); gap: 0.15rem; }
+.facet select { font-family: var(--serif-body); font-size: 0.95rem; color: var(--ink); border: 0; border-bottom: 1px solid var(--line); border-radius: 0; background: transparent; padding: 0.2rem 0.1rem; max-width: 210px; }
+.facet select:focus { outline: 0; border-bottom-color: var(--accent); }
+.facet-date span { display: flex; align-items: center; gap: 0.3rem; color: var(--ink); }
+.facet .yr { width: 4.4rem; font-size: 0.95rem; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; background: transparent; padding: 0.2rem 0.1rem; }
+.facet-check { flex-direction: row; align-items: center; gap: 0.3rem; font-size: 0.92rem; color: var(--ink); }
+.facet-check input { width: auto; }
+#f-reset { align-self: center; }

@@ -46,6 +46,16 @@
           <input id="cat-search" type="search" placeholder="title, place, type…" />
         </label>
       </div>
+      <div class="facet-bar" id="cat-facets">
+        <label class="facet">Province<select id="f-province"><option value="">All</option></select></label>
+        <label class="facet">Country<select id="f-country"><option value="">All</option></select></label>
+        <label class="facet">Text type<select id="f-textType"><option value="">All</option></select></label>
+        <label class="facet">Object type<select id="f-objectType"><option value="">All</option></select></label>
+        <label class="facet">Material<select id="f-material"><option value="">All</option></select></label>
+        <label class="facet facet-date">Dating<span><input id="f-from" class="yr" type="number" placeholder="from" /> – <input id="f-to" class="yr" type="number" placeholder="to" /></span></label>
+        <label class="facet facet-check"><input id="f-photo" type="checkbox" /> with photo</label>
+        <button id="f-reset" class="btn small" type="button">Reset filters</button>
+      </div>
       <a class="btn-new" href="editor.html"><span class="plus">+</span> New inscription</a>
       <div class="register-pager" id="cat-pager"></div>
       <div id="cat-list"><div class="catalog-loading">Loading…</div></div>

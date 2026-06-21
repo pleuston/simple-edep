@@ -33,15 +33,66 @@
   function loadList() {
     listEl.innerHTML = '<div class="catalog-loading">Loading the corpus…</div>';
     EpiCollections.loadCatalog()
-      .then(function (idx) { ENTRIES = idx || []; renderList(); })
+      .then(function (idx) { ENTRIES = idx || []; buildFacets(); renderList(); })
       .catch(function () { showError("Could not load the catalogue."); });
+  }
+
+  // ---- faceted filter (EDH-style dropdowns) ------------------------------
+  function fv(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+  function escAttr(s) { return String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;"); }
+
+  function buildFacets() {
+    ["province", "country", "textType", "objectType", "material"].forEach(function (key) {
+      var sel = document.getElementById("f-" + key);
+      if (!sel) return;
+      var counts = {};
+      ENTRIES.forEach(function (e) { var v = e[key]; if (v) counts[v] = (counts[v] || 0) + 1; });
+      var vals = Object.keys(counts).sort(function (a, b) { return a.localeCompare(b); });
+      sel.innerHTML = '<option value="">All</option>' + vals.map(function (v) {
+        return '<option value="' + escAttr(v) + '">' + esc(v) + " (" + counts[v] + ")</option>";
+      }).join("");
+      sel.addEventListener("change", function () { PAGE = 0; renderList(); });
+    });
+    var dt;
+    ["f-from", "f-to"].forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) el.addEventListener("input", function () { clearTimeout(dt); dt = setTimeout(function () { PAGE = 0; renderList(); }, 220); });
+    });
+    var ph = document.getElementById("f-photo");
+    if (ph) ph.addEventListener("change", function () { PAGE = 0; renderList(); });
+    var rs = document.getElementById("f-reset");
+    if (rs) rs.addEventListener("click", resetFacets);
+  }
+
+  function facetMatch(e) {
+    if (fv("f-province") && e.province !== fv("f-province")) return false;
+    if (fv("f-country") && e.country !== fv("f-country")) return false;
+    if (fv("f-textType") && e.textType !== fv("f-textType")) return false;
+    if (fv("f-objectType") && e.objectType !== fv("f-objectType")) return false;
+    if (fv("f-material") && e.material !== fv("f-material")) return false;
+    var ph = document.getElementById("f-photo");
+    if (ph && ph.checked && !e.photo) return false;
+    var from = parseInt(fv("f-from"), 10), to = parseInt(fv("f-to"), 10);
+    if (!isNaN(from) && (e.na == null || e.na < from)) return false;
+    if (!isNaN(to) && (e.nb == null || e.nb > to)) return false;
+    return true;
+  }
+
+  function resetFacets() {
+    ["f-province", "f-country", "f-textType", "f-objectType", "f-material", "f-from", "f-to"].forEach(function (id) {
+      var el = document.getElementById(id); if (el) el.value = "";
+    });
+    var ph = document.getElementById("f-photo"); if (ph) ph.checked = false;
+    if (searchEl) searchEl.value = "";
+    PAGE = 0; renderList();
   }
 
   function renderList() {
     var q = (searchEl.value || "").toLowerCase().trim();
     var rows = ENTRIES.filter(function (e) {
+      if (!facetMatch(e)) return false;
       if (!q) return true;
-      return [e.titleEn, e.settlement, e.region, e.textType, e.objectType, e.file].join(" ").toLowerCase().indexOf(q) !== -1;
+      return [e.titleEn, e.settlement, e.region, e.province, e.country, e.textType, e.objectType, e.file].join(" ").toLowerCase().indexOf(q) !== -1;
     });
     rows.sort(sorter(sortEl ? sortEl.value : "title"));
     var total = rows.length;
