@@ -64,7 +64,7 @@
         in a <strong>separate data repo</strong>
         (<a href="https://github.com/pleuston/simple-edep-edh" target="_blank" rel="noopener">simple-edep-edh</a>)
         and is served by <strong>jsDelivr CDN</strong> at
-        <code>https://cdn.jsdelivr.net/gh/pleuston/simple-edep-edh@main/…</code>. This keeps the
+        <code>https://github.com/pleuston/simple-edep-edh</code>. This keeps the
         app repo lean (no large binary blobs, fast Pages builds) while jsDelivr provides CORS
         headers, gzip compression, and global caching.</p>
 
@@ -118,7 +118,7 @@ python3 -m http.server 8765
         <p>By default, <code>collections.js</code> reads the data from jsDelivr. To test data
         changes before pushing, temporarily swap the base URL:</p>
         <pre class="docs-code">// in collections.js, change:
-base: "https://cdn.jsdelivr.net/gh/pleuston/simple-edep-edh@main"
+base: "https://github.com/pleuston/simple-edep-edh"
 // to:
 base: "http://localhost:8766"  // second server on the data repo</pre>
         <pre class="docs-code">cd ~/repos/simple-edep-edh

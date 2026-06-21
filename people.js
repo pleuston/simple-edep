@@ -62,6 +62,30 @@
 
   function byName(a, b) { return (a.name || "").localeCompare(b.name || ""); }
 
+  var TRIBUS_LABEL = {
+    AEM: "Aemilia", ANI: "Aniensis", ARN: "Arnensis", CAM: "Camilia",
+    CLA: "Claudia", COL: "Collina",  COR: "Cornelia", FAB: "Fabia",
+    FAL: "Falerna", GAL: "Galeria",  "GAL+": "Galeria (uncertain)",
+    LEM: "Lemonia", MAE: "Maecia",   MEN: "Menenia",  OUF: "Oufentina",
+    PAL: "Palatina", PAP: "Papiria", POL: "Pollia",   POM: "Pomptina",
+    PUB: "Publilia", PUP: "Pupinia", QUI: "Quirina",  SAB: "Sabatina",
+    SCA: "Scaptia",  SER: "Sergia",  STE: "Stellatina", TER: "Teretina",
+    TRO: "Tromentina", VEL: "Velina", VOL: "Voltinia"
+  };
+
+  var STATUS_LABEL = {
+    "0": "unknown", "0?": "unknown (?)",
+    "1": "ingenuus/a", "1?": "ingenuus/a (?)", "1*": "ingenuus/a (attr.)",
+    "2": "libertus/a", "2?": "libertus/a (?)", "2*": "libertus/a (attr.)",
+    "3": "servus/a",   "3?": "servus/a (?)",   "3*": "servus/a (attr.)",
+    "4": "peregrinus/a","4?": "peregrinus/a (?)","5": "civis Latinus/a",
+    "6": "miles",      "6?": "miles (?)",       "6*": "miles (attr.)",
+    "7": "eques",      "7?": "eques (?)",       "7*": "eques (attr.)",
+    "8": "senatorial order", "9": "not specified", "9?": "not specified (?)"
+  };
+
+  var SEX_LABEL = { M: "Male", W: "Female", F: "Female", "M?": "Male (uncertain)", "W?": "Female (uncertain)" };
+
   function populateFilters() {
     var tribes = {}, sexes = {}, statuses = {}, roles = {};
     PEOPLE.forEach(function (p) {
@@ -70,11 +94,16 @@
       if (p.status)  statuses[p.status]  = true;
       if (p.role)    roles[p.role]       = true;
     });
-    var SEX_LABEL = { M: "Male", W: "Female", F: "Female" };
-    fill(fTribus, Object.keys(tribes).sort());
-    fill(fSex,    Object.keys(sexes).sort(),    function (v) { return SEX_LABEL[v] || v; });
-    fill(fStatus, Object.keys(statuses).sort());
+    fill(fTribus, Object.keys(tribes).sort(), function (v) { return TRIBUS_LABEL[v] ? TRIBUS_LABEL[v] + " (" + v + ")" : v; });
+    fill(fSex,    Object.keys(sexes).sort(),  function (v) { return SEX_LABEL[v] || v; });
+    fill(fStatus, Object.keys(statuses).sort(statusSort), function (v) { return STATUS_LABEL[v] ? STATUS_LABEL[v] + " (" + v + ")" : v; });
     fill(fRole,   Object.keys(roles).sort());
+  }
+
+  function statusSort(a, b) {
+    var ai = parseInt(a, 10), bi = parseInt(b, 10);
+    if (!isNaN(ai) && !isNaN(bi)) return ai - bi;
+    return a.localeCompare(b);
   }
 
   function fill(sel, vals, labelFn) {
