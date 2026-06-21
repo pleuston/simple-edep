@@ -148,6 +148,17 @@ jinn-epidoc-editor[valid="false"] { border-color: var(--bad); }
 .save-target-wrap { font-size: 0.78rem; color: var(--muted); }
 #save-target { font-size: 0.74rem; background: var(--field-bg); border: 1px solid var(--line); border-radius: 3px; padding: 0.05rem 0.35rem; color: var(--ink); }
 
+/* collection picker in editor toolbar */
+.col-picker-wrap { display: flex; align-items: center; gap: 0.35rem; }
+.col-picker-label { font-size: 0.8rem; color: var(--muted); white-space: nowrap; }
+.col-picker {
+  font-size: 0.78rem; height: 1.9rem;
+  border: 1px solid var(--line); border-radius: 4px;
+  background: var(--field-bg); color: var(--ink);
+  padding: 0 0.5rem; cursor: pointer;
+  max-width: 160px;
+}
+
 .foot { padding: 0.5rem 1rem; font-size: 0.72rem; color: var(--muted); border-top: 1px solid var(--line); }
 .foot a { color: var(--accent); }
 

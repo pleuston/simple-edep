@@ -71,6 +71,11 @@
   // (re)populate the facet dropdown options from the current ENTRIES, keeping
   // any current selection valid. Listeners are bound once in bindControls().
   function buildFacets() {
+    // Show "Collection" facet only when at least one local entry has a collection tag
+    var hasUserCols = ENTRIES.some(function (e) { return (e.col || "local") === "local" && e.collection; });
+    var colWrap = document.getElementById("f-collection-wrap");
+    if (colWrap) colWrap.style.display = hasUserCols ? "" : "none";
+
     ["province", "country", "textType", "objectType", "material"].forEach(function (key) {
       var sel = document.getElementById("f-" + key);
       if (!sel) return;
@@ -83,11 +88,23 @@
       }).join("");
       if (cur && counts[cur]) sel.value = cur;
     });
+
+    // collection facet — only local entries can have one
+    var colSel = document.getElementById("f-collection");
+    if (colSel) {
+      var curCol = colSel.value;
+      var colCounts = {};
+      ENTRIES.forEach(function (e) { if ((e.col || "local") === "local" && e.collection) colCounts[e.collection] = (colCounts[e.collection] || 0) + 1; });
+      colSel.innerHTML = '<option value="">All</option>' + Object.keys(colCounts).sort().map(function (v) {
+        return '<option value="' + escAttr(v) + '">' + esc(v) + " (" + colCounts[v] + ")</option>";
+      }).join("");
+      if (curCol && colCounts[curCol]) colSel.value = curCol;
+    }
   }
 
   var _dt;
   function bindControls() {
-    ["province", "country", "textType", "objectType", "material"].forEach(function (key) {
+    ["province", "country", "textType", "objectType", "material", "collection"].forEach(function (key) {
       var sel = document.getElementById("f-" + key);
       if (sel) sel.addEventListener("change", function () { PAGE = 0; renderList(); });
     });
@@ -141,6 +158,8 @@
     if (fv("f-material") && e.material !== fv("f-material")) return false;
     var ph = document.getElementById("f-photo");
     if (ph && ph.checked && !e.photo) return false;
+    var colF = fv("f-collection");
+    if (colF && ((e.col || "local") !== "local" || e.collection !== colF)) return false;
     var from = parseInt(fv("f-from"), 10), to = parseInt(fv("f-to"), 10);
     if (!isNaN(from) && (e.na == null || e.na < from)) return false;
     if (!isNaN(to) && (e.nb == null || e.nb > to)) return false;
@@ -148,7 +167,7 @@
   }
 
   function resetFacets() {
-    ["f-province", "f-country", "f-textType", "f-objectType", "f-material", "f-from", "f-to"].forEach(function (id) {
+    ["f-province", "f-country", "f-textType", "f-objectType", "f-material", "f-collection", "f-from", "f-to"].forEach(function (id) {
       var el = document.getElementById(id); if (el) el.value = "";
     });
     var ph = document.getElementById("f-photo"); if (ph) ph.checked = false;

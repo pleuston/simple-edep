@@ -146,9 +146,11 @@
     if (geo) { var gp = geo.split(/\s+/); lat = gp[0] || ""; lng = gp[1] || ""; }
     var nb = "", na = "", dm = xml.match(/notBefore-custom="([^"]+)"[^>]*notAfter-custom="([^"]+)"/);
     if (dm) { nb = parseInt(dm[1], 10) || ""; na = parseInt(dm[2], 10) || ""; }
+    var col = window.EpiColMgr ? EpiColMgr.selected() : null;
     return { file: filename, titleEn: title, settlement: settlement, region: region,
              country: country, date: date, textType: textType,
-             objectType: objectType, material: material, lat: lat, lng: lng, nb: nb, na: na };
+             objectType: objectType, material: material, lat: lat, lng: lng, nb: nb, na: na,
+             collection: col ? col.name : "" };
   }
 
   function updateLocalIndex(meta, s, headers) {
