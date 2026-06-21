@@ -10,6 +10,20 @@
     pagerEl = document.getElementById("ppl-count");
     var dt;
     searchEl.addEventListener("input", function () { clearTimeout(dt); dt = setTimeout(function () { PAGE = 0; render(); }, 180); });
+
+    // resolve a person to their inscription in the right-side reading panel
+    listEl.addEventListener("click", function (ev) {
+      var a = ev.target.closest ? ev.target.closest('a[href^="viewer.html"]') : null;
+      if (!a || ev.button !== 0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+      ev.preventDefault();
+      var u = new URL(a.getAttribute("href"), location.href);
+      var id = (u.searchParams.get("id") || "").replace(/[^A-Za-z0-9_\-.]/g, "");
+      var col = (u.searchParams.get("col") || "edh").replace(/[^a-z]/g, "");
+      Array.prototype.forEach.call(listEl.querySelectorAll(".catalog-item.selected"), function (x) { x.classList.remove("selected"); });
+      var item = a.closest(".catalog-item"); if (item) item.classList.add("selected");
+      RecordPanel.open(id, col, {});
+    });
+
     listEl.innerHTML = '<div class="catalog-loading">Loading the persons register…</div>';
     EpiCollections.getJSON(EpiCollections.get("edh").people)
       .then(function (p) { PEOPLE = (p || []).sort(byName); render(); })

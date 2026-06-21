@@ -24,8 +24,6 @@
     if (sortEl) sortEl.addEventListener("change", function () { PAGE = 0; renderList(); });
 
     // right-side reading panel: open records in place instead of navigating away
-    document.getElementById("rp-close").addEventListener("click", closePanel);
-    document.addEventListener("keydown", function (e) { if (e.key === "Escape") closePanel(); });
     listEl.addEventListener("click", function (ev) {
       var a = ev.target.closest ? ev.target.closest('a[href^="viewer.html"]') : null;
       if (!a || ev.button !== 0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
@@ -35,7 +33,8 @@
       var col = (u.searchParams.get("col") || "local").replace(/[^a-z]/g, "");
       Array.prototype.forEach.call(listEl.querySelectorAll(".catalog-item.selected"), function (x) { x.classList.remove("selected"); });
       var item = a.closest(".catalog-item"); if (item) item.classList.add("selected");
-      openPanel(id, col);
+      var e = entryFor(id, col);
+      RecordPanel.open(id, col, e ? { lat: e.lat, lng: e.lng } : {});
     });
 
     var params = new URLSearchParams(location.search);
@@ -54,27 +53,13 @@
       .catch(function () { showError("Could not load the catalogue."); });
   }
 
-  function openPanel(id, col) {
-    var panel = document.getElementById("rec-panel");
-    var tb = document.querySelector(".topbar");
-    panel.style.top = (tb ? tb.offsetHeight : 56) + "px";
-    document.getElementById("rp-id").textContent = id + (col === "edh" ? " · EDH" : "");
-    document.getElementById("rp-full").href = "viewer.html?id=" + encodeURIComponent(id) + "&col=" + encodeURIComponent(col);
-    panel.classList.add("open"); panel.setAttribute("aria-hidden", "false");
-    document.body.classList.add("rp-open");
-    RecordView.load({
-      id: id, col: col,
-      reading: document.getElementById("rp-reading"),
-      imageHost: document.getElementById("rp-image"),
-      thumbs: document.getElementById("rp-thumbs"),
-      credit: document.getElementById("rp-credit")
-    });
-  }
-  function closePanel() {
-    var panel = document.getElementById("rec-panel");
-    panel.classList.remove("open"); panel.setAttribute("aria-hidden", "true");
-    document.body.classList.remove("rp-open");
-    Array.prototype.forEach.call(listEl.querySelectorAll(".catalog-item.selected"), function (x) { x.classList.remove("selected"); });
+  // find the loaded index entry for a record (to pass its find-spot coords)
+  function entryFor(id, col) {
+    for (var i = 0; i < ENTRIES.length; i++) {
+      var e = ENTRIES[i];
+      if ((e.col || "local") === col && e.file.replace(/\.xml$/, "") === id) return e;
+    }
+    return null;
   }
 
   // ---- faceted filter (EDH-style dropdowns) ------------------------------

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>simple-edep · Inscription</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
     <script src="auth.js"></script>
   </head>
   <body>
@@ -33,11 +34,6 @@
     </header>
 
     <main class="viewer-layout">
-      <section class="viewer-pane image-pane">
-        <div id="image-host"><div class="viewer-noimage">Loading…</div></div>
-        <div id="iiif-thumbs" class="iiif-thumbs"></div>
-        <div id="iiif-credit" class="iiif-credit"></div>
-      </section>
       <section class="viewer-pane reading-pane">
         <div class="viewer-actions">
           <a id="btn-edit" href="#" class="btn small">Edit</a>
@@ -46,27 +42,38 @@
         </div>
         <div id="reading"><p class="catalog-loading">Loading…</p></div>
       </section>
+      <section class="viewer-pane image-pane">
+        <div id="image-host"><div class="viewer-noimage">Loading…</div></div>
+        <div id="iiif-thumbs" class="iiif-thumbs"></div>
+        <div id="iiif-credit" class="iiif-credit"></div>
+      </section>
+      <section class="viewer-pane map-pane">
+        <div id="viewer-map" class="viewer-map"></div>
+      </section>
     </main>
 
     <div id="toast" role="status" aria-live="polite"></div>
     <script src="collections.js"></script>
     <script src="reading.js"></script>
     <script src="vendor/openseadragon/openseadragon.min.js"></script>
+    <script src="vendor/leaflet/leaflet.js"></script>
     <script src="recordview.js"></script>
     <script>
       (function () {
         var params = new URLSearchParams(location.search);
         var id = (params.get("id") || "").replace(/[^A-Za-z0-9_\-.]/g, "");
         var col = (params.get("col") || "local").replace(/[^a-z]/g, "");
+        var lat = params.get("lat"), lng = params.get("lng");
         if (!id) { document.getElementById("reading").innerHTML = "<p>No record specified.</p>"; return; }
         document.getElementById("btn-xml").href = EpiCollections.recordUrl(id + ".xml", col);
         document.getElementById("btn-edit").href = "catalog.html?edit=" + encodeURIComponent(id) + "&col=" + encodeURIComponent(col);
         RecordView.load({
-          id: id, col: col,
+          id: id, col: col, lat: lat, lng: lng,
           reading: document.getElementById("reading"),
           imageHost: document.getElementById("image-host"),
           thumbs: document.getElementById("iiif-thumbs"),
-          credit: document.getElementById("iiif-credit")
+          credit: document.getElementById("iiif-credit"),
+          map: document.getElementById("viewer-map")
         });
       })();
     </script>

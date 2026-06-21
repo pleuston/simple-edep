@@ -27,6 +27,7 @@
       people: EDH_BASE + "/collections/edh/people.json",
       photos: EDH_BASE + "/collections/edh/photos.json",
       bibliography: EDH_BASE + "/collections/edh/bibliography.json",
+      geo: EDH_BASE + "/collections/edh/geo.json",
       provinces: EDH_BASE + "/collections/edh/provinces.json" },
     isic: { id: "isic", title: "I.Sicily", short: "I.Sicily", color: "#127a4f",
       records: ISIC_RECORDS, index: "collections/isic/index.json", manifest: "collections/isic/manifest.json" }
