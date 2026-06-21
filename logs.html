@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>simple-edep · Log</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="auth.js"></script>
+    <style>
+      .logs-main { max-width: 980px; margin: 0 auto; padding: 1.6rem 1.6rem 4rem; overflow: auto; }
+      .logs-sub { font-size: 0.85rem; color: var(--muted); margin: 0 0 1.2rem; }
+      .logs-sub code { font-size: 0.8rem; background: var(--field-bg); border: 1px solid var(--line); border-radius: 3px; padding: 0 0.3rem; }
+      .logs-tabs { display: flex; gap: 0.3rem; margin-bottom: 1.1rem; border-bottom: 1px solid var(--line); }
+      .logs-tab { padding: 0.45rem 1rem; font-family: var(--serif-body); font-size: 0.86rem; background: none; border: 0;
+        cursor: pointer; color: var(--muted); border-bottom: 2px solid transparent; margin-bottom: -1px; }
+      .logs-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+      .logs-tab:hover:not(.active) { color: var(--ink); }
+      .logs-pane { display: none; }
+      .logs-pane.active { display: block; }
+      .logs-desc { font-size: 0.82rem; color: var(--muted); margin: 0 0 0.8rem; }
+      .lt-head, .ltrow { display: grid; grid-template-columns: 96px 170px 1fr 74px; gap: 0.6rem; align-items: center; }
+      .lt-head { padding: 0.3rem 0.5rem; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.07em;
+        text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--line); }
+      .ltrow { padding: 0.5rem 0.5rem; border-bottom: 1px solid var(--line); font-size: 0.86rem; }
+      .ltrow:hover { background: var(--field-bg); }
+      .lt-date { color: var(--muted); font-size: 0.8rem; font-family: "SF Mono", Menlo, monospace; }
+      .lt-author { display: flex; align-items: center; gap: 0.4rem; min-width: 0; }
+      .lt-author span:last-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+      .lt-av { width: 20px; height: 20px; border-radius: 50%; flex: 0 0 20px; object-fit: cover; }
+      .lt-av-init { width: 20px; height: 20px; border-radius: 50%; flex: 0 0 20px; background: var(--line);
+        display: flex; align-items: center; justify-content: center; font-size: 0.72rem; color: var(--muted); }
+      .lt-msg { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+      .lt-sha { text-align: right; font-family: "SF Mono", Menlo, monospace; font-size: 0.78rem; color: var(--accent); text-decoration: none; }
+      .lt-sha:hover { text-decoration: underline; }
+      .log-status { color: var(--muted); font-size: 0.85rem; font-style: italic; padding: 1.1rem 0.5rem; }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <a href="index.html" class="brand-home">simple-edep</a>
+      </div>
+      <nav class="sitenav sitenav-editor">
+        <a href="catalog.html" class="sitenav-link">Inscriptions</a>
+        <a href="map.html" class="sitenav-link">Geodata</a>
+        <a href="people.html" class="sitenav-link">People</a>
+        <a href="photos.html" class="sitenav-link">Photos</a>
+        <a href="bibliography.html" class="sitenav-link">Bibliography</a>
+        <a href="logs.html" class="sitenav-link active">Log</a>
+        <a href="about.html" class="sitenav-link">About</a>
+        <a href="docs.html" class="sitenav-link">Instructions</a>
+      </nav>
+      <div class="topbar-right">
+        <div class="lang-box"><span>Language</span>
+          <select aria-label="Interface language"><option>English</option></select>
+        </div>
+        <a class="account-link" data-account href="login.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="8.5" r="3.5"/><path d="M5 20c0-3.6 3.1-5.5 7-5.5s7 1.9 7 5.5"/></svg>
+          <span class="account-label">Login</span>
+        </a>
+      </div>
+    </header>
+
+    <main class="logs-main">
+      <p class="logs-sub">Commit history of the save repository <code id="logs-repo">pleuston/simple-edep</code> — every record you add or edit is committed here. <a href="login.html" id="logs-signin" style="display:none">Sign in</a> to track your own repository.</p>
+
+      <div class="logs-tabs" role="tablist">
+        <button class="logs-tab active" data-tab="records" type="button">Record edits</button>
+        <button class="logs-tab" data-tab="all" type="button">All commits</button>
+      </div>
+
+      <section id="tab-records" class="logs-pane active">
+        <p class="logs-desc">Commits that added or updated inscription XML in <code id="logs-path">records/</code>.</p>
+        <div class="lt-head"><span>Date</span><span>Author</span><span>Message</span><span style="text-align:right">SHA</span></div>
+        <div id="records-list"><div class="log-status">Loading…</div></div>
+      </section>
+
+      <section id="tab-all" class="logs-pane">
+        <p class="logs-desc">Every commit in the repository — records, registers, and application code.</p>
+        <div class="lt-head"><span>Date</span><span>Author</span><span>Message</span><span style="text-align:right">SHA</span></div>
+        <div id="all-list"><div class="log-status">Loading…</div></div>
+      </section>
+    </main>
+
+    <div id="toast" role="status" aria-live="polite"></div>
+    <script src="changelog.js"></script>
+    <script>
+      (function () {
+        "use strict";
+        function esc(s) { return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+
+        // reflect the configured save repo / path
+        var c = EpiChangelog.cfg();
+        document.getElementById("logs-repo").textContent = c.owner + "/" + c.repo;
+        document.getElementById("logs-path").textContent = (c.path || "records") + "/";
+        if (window.EpiAuth && !EpiAuth.isSignedIn()) document.getElementById("logs-signin").style.display = "";
+
+        // tabs
+        Array.prototype.forEach.call(document.querySelectorAll(".logs-tab"), function (btn) {
+          btn.addEventListener("click", function () {
+            Array.prototype.forEach.call(document.querySelectorAll(".logs-tab"), function (b) { b.classList.remove("active"); });
+            Array.prototype.forEach.call(document.querySelectorAll(".logs-pane"), function (p) { p.classList.remove("active"); });
+            btn.classList.add("active");
+            document.getElementById("tab-" + btn.getAttribute("data-tab")).classList.add("active");
+          });
+        });
+
+        function renderRows(commits) {
+          return commits.map(function (c) {
+            var commit = c.commit || {};
+            var ga = commit.author || {};            // git-author block is nullable
+            var date = ga.date || "";
+            var msg = (commit.message || "").split("\n")[0];
+            if (msg.length > 96) msg = msg.slice(0, 93) + "…";
+            var login = (c.author && c.author.login) || ga.name || "?";
+            var avatar = c.author ? c.author.avatar_url : null;
+            var avHtml = avatar
+              ? '<img class="lt-av" src="' + esc(avatar) + '" alt="' + esc(login) + '">'
+              : '<span class="lt-av-init">' + esc(String(login).charAt(0).toUpperCase()) + "</span>";
+            return '<div class="ltrow">' +
+              '<span class="lt-date" title="' + esc(date) + '">' + esc(EpiChangelog.timeAgo(date)) + "</span>" +
+              '<span class="lt-author">' + avHtml + "<span>" + esc(login) + "</span></span>" +
+              '<span class="lt-msg" title="' + esc(commit.message || "") + '">' + esc(msg) + "</span>" +
+              '<a class="lt-sha" href="' + esc(c.html_url || "#") + '" target="_blank" rel="noopener">' + esc(String(c.sha || "").slice(0, 7)) + " ↗</a>" +
+            "</div>";
+          }).join("");
+        }
+        function status(msg) { return '<div class="log-status">' + esc(msg) + "</div>"; }
+        function fail(id) { return function () { document.getElementById(id).innerHTML = status("Could not load commits from " + c.owner + "/" + c.repo + " (GitHub may be rate-limiting anonymous requests — sign in to raise the limit)."); }; }
+
+        EpiChangelog.fetchRecords(100).then(function (rows) {
+          document.getElementById("records-list").innerHTML = rows.length ? renderRows(rows) : status("No record edits found in " + c.owner + "/" + c.repo + ".");
+        }).catch(fail("records-list"));
+        EpiChangelog.fetchAll(200).then(function (rows) {
+          document.getElementById("all-list").innerHTML = rows.length ? renderRows(rows) : status("No commits found in " + c.owner + "/" + c.repo + ".");
+        }).catch(fail("all-list"));
+      })();
+    </script>
+  </body>
+</html>

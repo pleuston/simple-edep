@@ -9,7 +9,7 @@
 (function () {
   var UNGATED = ["login.html", "index.html", "catalog.html", "viewer.html",
                  "map.html", "docs.html", "about.html", "people.html",
-                 "bibliography.html", "photos.html", ""];
+                 "bibliography.html", "photos.html", "logs.html", ""];
   var USERNAME_KEY = "edep_gh_username";
   var SESSION_KEY  = "edep_authed";
   var LOGIN        = "login.html";
@@ -42,6 +42,13 @@
         acct.removeAttribute("href");
         acct.title = name + " · click to sign out";
         acct.onclick = function (e) { e.preventDefault(); EpiAuth.signOut(); };
+        // swap the generic person icon for the user's GitHub avatar (epiwen-style)
+        var icon = acct.querySelector("svg");
+        if (icon && av) {
+          var img = document.createElement("img");
+          img.src = av; img.alt = "@" + u; img.className = "account-avatar"; img.width = 20; img.height = 20;
+          icon.parentNode.replaceChild(img, icon);
+        }
       } else {
         if (label) label.textContent = "Login";
         acct.setAttribute("href", LOGIN);
