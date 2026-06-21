@@ -1,15 +1,16 @@
-/* auth.js — GitHub-identity session gate.
- * Runs immediately on every protected page.
+/* auth.js — GitHub-identity session helper.
  * Identity is established at login.html via GET /user with the stored PAT.
  * localStorage holds the identity across browser restarts;
  * sessionStorage holds the live session (cleared when the tab/browser closes).
  *
- * NOTE: browsing the public catalog/map/viewer works WITHOUT a token, so those
- * pages are ungated. Only the editor (which saves) requires sign-in. */
+ * NOTE: the whole site is public to browse AND to edit. Signing in lets you
+ * save records straight to your GitHub repo; guests can still contribute via
+ * the editor's "Submit as guest" flow (see guest.js). Gating is therefore off
+ * for every page — the list below is kept so a page can be re-gated if needed. */
 (function () {
   var UNGATED = ["login.html", "index.html", "catalog.html", "viewer.html",
                  "map.html", "docs.html", "about.html", "people.html",
-                 "bibliography.html", "photos.html", "logs.html", ""];
+                 "bibliography.html", "photos.html", "logs.html", "editor.html", ""];
   var USERNAME_KEY = "edep_gh_username";
   var SESSION_KEY  = "edep_authed";
   var LOGIN        = "login.html";

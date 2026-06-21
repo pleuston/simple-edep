@@ -281,6 +281,9 @@ jinn-epidoc-editor[valid="false"] { border-color: var(--bad); }
 .text-input { width: 100%; padding: 0.45rem 0.6rem; border: 1px solid var(--line); border-radius: 5px; background: var(--field-bg); font: inherit; font-size: 0.88rem; }
 .text-input:focus { outline: 2px solid var(--accent); border-color: var(--accent); background: #fff; }
 .login-error { color: var(--bad); font-size: 0.82rem; min-height: 1.1em; margin: 0.5rem 0 0; }
+.login-ok { color: #2e7d32; font-size: 0.82rem; min-height: 1.1em; margin: 0.5rem 0 0; }
+.login-ok a { color: #2e7d32; font-weight: 600; }
+a.btn.disabled { opacity: 0.5; cursor: default; pointer-events: none; }
 .login-note { font-size: 0.78rem; color: var(--muted); margin: 0.8rem 0 0; line-height: 1.5; }
 .login-note a { color: var(--accent); }
 .login-change { margin-top: 0.8rem; font-size: 0.83rem; text-align: center; }

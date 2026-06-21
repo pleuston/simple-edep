@@ -495,10 +495,18 @@
   }
 
   function refreshSaveTarget() {
+    var signedIn = !!(window.EpiAuth && EpiAuth.isSignedIn());
+    var btn = document.getElementById("btn-save-github");
+    if (btn && !btn.disabled) btn.textContent = signedIn ? "② Save to GitHub" : "② Submit as guest";
     var t = document.getElementById("save-target");
-    if (!t || !window.EpiGitHub) return;
-    var s = EpiGitHub.getSettings();
-    t.textContent = s.owner + "/" + s.repo + " · " + (s.path || "records/");
+    if (!t) return;
+    if (signedIn && window.EpiGitHub) {
+      var s = EpiGitHub.getSettings();
+      t.textContent = s.owner + "/" + s.repo + " · " + (s.path || "records/");
+    } else if (window.EpiGuest) {
+      var g = EpiGuest.target;
+      t.textContent = g.owner + "/" + g.repo + " · " + g.dir + "/ (guest)";
+    }
   }
 
   // ---- example & reset ---------------------------------------------------
@@ -582,8 +590,13 @@
       a.download = name; a.click(); URL.revokeObjectURL(a.href);
     });
     document.getElementById("btn-save-github").addEventListener("click", function () {
-      if (window.EpiAuth && !EpiAuth.isSignedIn()) { window.location.href = "login.html?r=" + encodeURIComponent(location.href); return; }
       syncEditionsFromComponents();
+      // guests (no token) submit through the relay / PR flow; signed-in users save directly
+      if (window.EpiAuth && !EpiAuth.isSignedIn()) {
+        if (window.EpiGuest) EpiGuest.open(build(), state.filename || "inscription");
+        else window.location.href = "login.html?r=" + encodeURIComponent(location.href);
+        return;
+      }
       EpiGitHub.save(build(), state.filename || "inscription");
     });
     document.getElementById("btn-view-xml").addEventListener("click", function () { setView("xml"); });
