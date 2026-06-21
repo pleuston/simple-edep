@@ -17,7 +17,8 @@
     edh: {
       id: "edh", title: "Epigraphic Database Heidelberg", base: EDH_BASE,
       records:      EDH_BASE + "/records/",
-      index:        EDH_BASE + "/collections/edh/index.json",
+      coll:         EDH_BASE + "/collections/edh/",
+      indexParts:   EDH_BASE + "/collections/edh/index-parts.json",
       people:       EDH_BASE + "/collections/edh/people.json",
       photos:       EDH_BASE + "/collections/edh/photos.json",
       geo:          EDH_BASE + "/collections/edh/geo.json",
@@ -35,13 +36,18 @@
 
   function getJSON(url) { return fetch(url).then(function (r) { return r.ok ? r.json() : []; }).catch(function () { return []; }); }
 
-  // merged catalogue list: local demo records + the EDH collection; each entry tagged .col
+  // merged catalogue list: local demo records + the EDH collection; each entry
+  // tagged .col. The EDH index is split into chunks (jsDelivr caps files at
+  // 20 MB), listed in index-parts.json and fetched in parallel.
   function loadCatalog() {
     function tag(arr, col) { (arr || []).forEach(function (e) { e.col = col; }); return arr || []; }
-    return Promise.all([
-      getJSON(COLLECTIONS.local.index).then(function (a) { return tag(a, "local"); }),
-      getJSON(COLLECTIONS.edh.index).then(function (a) { return tag(a, "edh"); })
-    ]).then(function (parts) { return parts[0].concat(parts[1]); });
+    var local = getJSON(COLLECTIONS.local.index).then(function (a) { return tag(a, "local"); });
+    var edh = getJSON(COLLECTIONS.edh.indexParts).then(function (pm) {
+      var parts = (pm && pm.parts) || [];
+      return Promise.all(parts.map(function (name) { return getJSON(COLLECTIONS.edh.coll + name); }))
+        .then(function (chunks) { var all = []; chunks.forEach(function (c) { all = all.concat(tag(c, "edh")); }); return all; });
+    });
+    return Promise.all([local, edh]).then(function (p) { return p[0].concat(p[1]); });
   }
 
   window.EpiCollections = {

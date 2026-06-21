@@ -75,7 +75,20 @@ var index = files.map(function (f) {
   return e;
 });
 
-fs.writeFileSync(indexFile, JSON.stringify(index));
-console.log("wrote " + path.relative(OUT, indexFile) + " — " + index.length + " records (" +
-  index.filter(function (r) { return r.lat; }).length + " geolocated, " +
-  index.filter(function (r) { return r.photo; }).length + " with photo)");
+var stats = "(" + index.filter(function (r) { return r.lat; }).length + " geolocated, " +
+  index.filter(function (r) { return r.photo; }).length + " with photo)";
+if (mode === "demo") {
+  fs.writeFileSync(indexFile, JSON.stringify(index));
+  console.log("wrote " + path.relative(OUT, indexFile) + " — " + index.length + " records " + stats);
+} else {
+  // Chunk the large index: jsDelivr serves files up to 20 MB only.
+  var CHUNK = 25000, parts = [];
+  for (var i = 0; i < index.length; i += CHUNK) {
+    var name = "index-" + parts.length + ".json";
+    fs.writeFileSync(path.join(collDir, name), JSON.stringify(index.slice(i, i + CHUNK)));
+    parts.push(name);
+  }
+  fs.writeFileSync(path.join(collDir, "index-parts.json"), JSON.stringify({ parts: parts, count: index.length }));
+  try { fs.unlinkSync(path.join(collDir, "index.json")); } catch (e) {}
+  console.log("wrote " + parts.length + " index chunks + index-parts.json — " + index.length + " records " + stats);
+}
