@@ -49,19 +49,36 @@
     var name = String(file).replace(/^.*\//, "").replace(/\.xml$/i, "") + ".xml";
     return c.records + name;
   }
-  function getJSON(url) { return fetch(url).then(function (r) { return r.ok ? r.json() : []; }).catch(function () { return []; }); }
+  function getJSON(url, noCache) {
+    var opts = noCache ? { cache: "no-store" } : {};
+    return fetch(url, opts).then(function (r) { return r.ok ? r.json() : []; }).catch(function () { return []; });
+  }
 
   function loadIndex(id) {
     var c = COLLECTIONS[id];
     if (!c) return Promise.resolve([]);
+    var isLocal = id === "local";
     var p;
     if (c.indexParts) {
       p = getJSON(c.indexParts).then(function (pm) {
         return Promise.all(((pm && pm.parts) || []).map(function (n) { return getJSON(c.coll + n); }))
           .then(function (chunks) { var all = []; chunks.forEach(function (ch) { all = all.concat(ch); }); return all; });
       });
-    } else { p = getJSON(c.index); }
-    return p.then(function (a) { (a || []).forEach(function (e) { e.col = id; }); return a || []; });
+    } else { p = getJSON(c.index, isLocal); }
+    return p.then(function (a) {
+      a = a || [];
+      if (isLocal) {
+        // Merge entries saved to localStorage immediately after a save (before GitHub Pages refreshes)
+        try {
+          var pending = JSON.parse(localStorage.getItem("edep_pending_entries") || "[]");
+          pending.forEach(function (pe) {
+            if (!a.some(function (e) { return e.file === pe.file; })) a.push(pe);
+          });
+        } catch (e) {}
+      }
+      a.forEach(function (e) { e.col = id; });
+      return a;
+    });
   }
 
   // Eliminate duplicates that share an authority id (TM, EDH/HD-number, EDCS).

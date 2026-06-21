@@ -153,6 +153,19 @@
              collection: col ? col.name : "" };
   }
 
+  var PENDING_KEY = "edep_pending_entries";
+  function cacheEntryLocally(meta) {
+    try {
+      var arr = JSON.parse(localStorage.getItem(PENDING_KEY) || "[]");
+      var found = false;
+      for (var i = 0; i < arr.length; i++) {
+        if (arr[i].file === meta.file) { arr[i] = meta; found = true; break; }
+      }
+      if (!found) arr.push(meta);
+      localStorage.setItem(PENDING_KEY, JSON.stringify(arr));
+    } catch (e) {}
+  }
+
   function updateLocalIndex(meta, s, headers) {
     var indexUrl = "https://api.github.com/repos/" + s.owner + "/" + s.repo +
                    "/contents/data/records-index.json?ref=" + encodeURIComponent(s.branch);
@@ -251,7 +264,9 @@
         toast((isNew ? "Added" : "Updated") + ": " + filename);
         try { sessionStorage.setItem("edep_fresh:" + filename, xml); } catch (e) {}
         setBtnState(false);
-        updateLocalIndex(extractMeta(xml, filename), s, headers);
+        var meta = extractMeta(xml, filename);
+        updateLocalIndex(meta, s, headers);
+        cacheEntryLocally(meta);
         if (onDone) onDone();
       })
       .catch(function (err) {
