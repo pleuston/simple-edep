@@ -10,7 +10,8 @@
 (function () {
   var UNGATED = ["login.html", "index.html", "catalog.html", "viewer.html",
                  "map.html", "docs.html", "about.html", "people.html",
-                 "bibliography.html", "photos.html", "logs.html", "editor.html", ""];
+                 "bibliography.html", "photos.html", "logs.html", "editor.html",
+                 "favorites.html", ""];
   var USERNAME_KEY = "edep_gh_username";
   var SESSION_KEY  = "edep_authed";
   var LOGIN        = "login.html";

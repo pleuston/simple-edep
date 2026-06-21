@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>simple-edep · Favorites</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="auth.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <a href="index.html" class="brand-home">simple<span class="brand-edep">EDEP</span></a>
+      </div>
+      <nav class="sitenav sitenav-editor">
+        <a href="catalog.html" class="sitenav-link">Inscriptions</a>
+        <a href="map.html" class="sitenav-link">Geodata</a>
+        <a href="people.html" class="sitenav-link">People</a>
+        <a href="photos.html" class="sitenav-link">Photos</a>
+        <a href="bibliography.html" class="sitenav-link">Bibliography</a>
+        <a href="favorites.html" class="sitenav-link active">Favorites</a>
+        <a href="logs.html" class="sitenav-link">Log</a>
+        <a href="about.html" class="sitenav-link">About</a>
+        <a href="docs.html" class="sitenav-link">Instructions</a>
+      </nav>
+      <div class="topbar-right">
+        <div class="lang-box"><span>Language</span>
+          <select aria-label="Interface language"><option>English</option></select>
+        </div>
+        <a class="account-link" data-account href="login.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="8.5" r="3.5"/><path d="M5 20c0-3.6 3.1-5.5 7-5.5s7 1.9 7 5.5"/></svg>
+          <span class="account-label">Login</span>
+        </a>
+      </div>
+    </header>
+
+    <main class="fav-main">
+      <div class="fav-head">
+        <p class="fav-intro">Your saved inscriptions and collections, kept in this browser. Star any inscription in the <a href="catalog.html">catalogue</a> to add it here.</p>
+        <form id="fav-newcoll" class="fav-newcoll">
+          <input id="fav-newcoll-name" type="text" placeholder="New collection name…" maxlength="60" />
+          <button class="btn small" type="submit">+ Create collection</button>
+        </form>
+      </div>
+      <div id="fav-body"><div class="catalog-loading">Loading…</div></div>
+    </main>
+
+    <div id="toast" role="status" aria-live="polite"></div>
+    <script src="favorites.js"></script>
+    <script>
+      (function () {
+        "use strict";
+        var esc = EpiFav.esc, body = document.getElementById("fav-body");
+
+        function rowHtml(it) {
+          var meta = [it.place, it.date].filter(Boolean).join(" · ");
+          var href = "viewer.html?id=" + encodeURIComponent(it.id) + "&col=" + encodeURIComponent(it.col || "local");
+          var tag = it.col === "edh" ? "EDH" : it.col === "isic" ? "I.Sicily" : "";
+          return '<div class="fav-row" data-id="' + esc(it.id) + '" data-col="' + esc(it.col || "local") + '">' +
+            EpiFav.button(it) +
+            '<div class="fav-row-info"><a class="catalog-title" href="' + href + '">' + esc(it.title || it.id) + "</a>" +
+            (meta || tag ? '<div class="fav-row-meta">' + (tag ? '<span class="catalog-tag">' + tag + "</span> " : "") + esc(meta) + "</div>" : "") +
+            "</div></div>";
+        }
+
+        function section(opts) {
+          var items = opts.items || [];
+          var head = '<div class="fav-sec-head"><h2 class="fav-sec-title">' + (opts.star ? '<span class="fav-pop-star">★</span> ' : "") + esc(opts.name) +
+            ' <span class="fav-sec-count">' + items.length + "</span></h2>";
+          if (opts.cid) head += '<div class="fav-sec-actions">' +
+            '<button class="btn small" data-act="rename" data-cid="' + esc(opts.cid) + '">Rename</button>' +
+            '<button class="btn small" data-act="delete" data-cid="' + esc(opts.cid) + '">Delete</button></div>';
+          head += "</div>";
+          var list = items.length ? items.map(rowHtml).join("")
+            : '<div class="fav-empty">Nothing here yet.</div>';
+          return '<section class="fav-sec">' + head + '<div class="fav-sec-list">' + list + "</div></section>";
+        }
+
+        function render() {
+          var d = EpiFav.read();
+          var html = section({ name: "Favorites", star: true, items: d.fav });
+          html += d.colls.map(function (c) { return section({ name: c.name, cid: c.id, items: c.items }); }).join("");
+          body.innerHTML = html;
+          EpiFav.refresh(body);
+        }
+
+        // unstar/uncheck via the star button re-renders so removed items disappear
+        body.addEventListener("click", function (e) {
+          var act = e.target.closest ? e.target.closest("[data-act]") : null;
+          if (act) {
+            var cid = act.getAttribute("data-cid");
+            if (act.getAttribute("data-act") === "delete") {
+              if (confirm("Delete this collection? The inscriptions stay in the catalogue.")) { EpiFav.deleteCollection(cid); render(); }
+            } else {
+              var name = prompt("Rename collection:");
+              if (name != null) { EpiFav.renameCollection(cid, name); render(); }
+            }
+            return;
+          }
+        });
+        // re-render whenever the saved sets change (popover toggles, new collection)
+        document.addEventListener("epifav:change", function () { clearTimeout(render._t); render._t = setTimeout(render, 60); });
+
+        document.getElementById("fav-newcoll").addEventListener("submit", function (e) {
+          e.preventDefault();
+          var inp = document.getElementById("fav-newcoll-name");
+          if (EpiFav.createCollection(inp.value)) { inp.value = ""; render(); }
+        });
+
+        render();
+        // re-render if another tab changed the saved sets
+        window.addEventListener("storage", function (e) { if (e.key === "edep_fav_v1") render(); });
+      })();
+    </script>
+  </body>
+</html>

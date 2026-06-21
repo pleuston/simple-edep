@@ -34,12 +34,14 @@
       Array.prototype.forEach.call(listEl.querySelectorAll(".catalog-item.selected"), function (x) { x.classList.remove("selected"); });
       var item = a.closest(".catalog-item"); if (item) item.classList.add("selected");
       var e = entryFor(id, col);
-      RecordPanel.open(id, col, e ? { lat: e.lat, lng: e.lng } : {});
+      RecordPanel.open(id, col, e ? { lat: e.lat, lng: e.lng, title: e.titleEn || id,
+        place: [e.settlement, e.region].filter(Boolean).join(", "), date: e.date } : {});
     });
 
     var params = new URLSearchParams(location.search);
     var editId = params.get("edit");
     if (editId) { openInEditor(editId.replace(/[^A-Za-z0-9_\-.]/g, "") + ".xml", params.get("col") || "local"); return; }
+    document.addEventListener("epifav:change", function () { if (window.EpiFav) EpiFav.refresh(document); });
     bindControls();
     loadList();
   });
@@ -153,6 +155,7 @@
       return;
     }
     listEl.innerHTML = rows.slice(PAGE * PER, PAGE * PER + PER).map(rowHtml).join("");
+    if (window.EpiFav) EpiFav.refresh(listEl);
     renderPager(total, pages);
   }
 
@@ -210,6 +213,7 @@
       (meta ? '<span class="catalog-meta">' + esc(meta) + "</span>" : "") +
       (tags ? '<div class="catalog-tags">' + tags + "</div>" : "") +
       "</div><div class=\"catalog-actions\">" +
+      (window.EpiFav ? EpiFav.button({ id: id, col: col, title: e.titleEn || id, place: [e.settlement, e.region].filter(Boolean).join(", "), date: e.date }) : "") +
       '<a class="btn small" href="viewer.html?' + q + '">View</a>' +
       '<button class="btn small" data-edit="' + esc(e.file) + '" data-col="' + esc(col) + '">Edit</button>' +
       "</div></div></div>";

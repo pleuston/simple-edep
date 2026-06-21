@@ -22,6 +22,10 @@
     panel.style.top = (tb ? tb.offsetHeight : 56) + "px";
     var label = col === "edh" ? " · EDH" : col === "isic" ? " · I.Sicily" : "";
     el("rp-id").textContent = id + label;
+    var favEl = el("rp-fav");
+    if (favEl && window.EpiFav) {
+      favEl.innerHTML = EpiFav.button({ id: id, col: col, title: opts.title || id, place: opts.place || "", date: opts.date || "" });
+    }
     var q = "id=" + encodeURIComponent(id) + "&col=" + encodeURIComponent(col) +
       (opts.lat != null && opts.lat !== "" && opts.lng != null && opts.lng !== "" ? "&lat=" + opts.lat + "&lng=" + opts.lng : "");
     el("rp-full").href = "viewer.html?" + q;

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap');
 
 :root {
   --bg: #ffffff;
@@ -12,7 +12,7 @@
   --field-bg: #fafafa;
   --ok: #1a7f37;
   --bad: #b42318;
-  --serif-display: "Cinzel", "Trajan Pro", Georgia, serif;
+  --serif-display: "Fraunces", "Cinzel", Georgia, serif;
   --serif-body: "EB Garamond", Georgia, "Times New Roman", serif;
   font-size: 16px;
 }
@@ -274,7 +274,7 @@ jinn-epidoc-editor[valid="false"] { border-color: var(--bad); }
 .login-main { width: 100%; max-width: 400px; padding: 2rem 1rem; }
 .login-card { border: 1px solid var(--line); border-radius: 0.6rem; padding: 2rem 2rem 1.6rem; background: var(--bg); }
 .login-title { font-size: 1.3rem; font-weight: 700; margin: 0 0 0.4rem; }
-.login-title a { color: var(--accent); text-decoration: none; }
+.login-title a { color: var(--ink); text-decoration: none; }
 .login-subtitle { font-size: 0.82rem; color: var(--muted); margin: 0 0 1.4rem; }
 .login-mode-label { font-weight: 600; margin: 0 0 0.5rem; font-size: 0.97rem; }
 .field-label { font-size: 0.8rem; font-weight: 600; display: block; margin-bottom: 0.25rem; }
@@ -284,6 +284,42 @@ jinn-epidoc-editor[valid="false"] { border-color: var(--bad); }
 .login-ok { color: #2e7d32; font-size: 0.82rem; min-height: 1.1em; margin: 0.5rem 0 0; }
 .login-ok a { color: #2e7d32; font-weight: 600; }
 a.btn.disabled { opacity: 0.5; cursor: default; pointer-events: none; }
+
+/* ---- favorites & collections ---- */
+.fav-btn { background: transparent; border: 0; cursor: pointer; padding: 0.2rem; line-height: 0; color: var(--muted); display: inline-flex; }
+.fav-btn svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+.fav-btn:hover { color: #e0a500; }
+.fav-btn.saved { color: #e0a500; }
+.fav-btn.saved svg { fill: currentColor; }
+.rp-fav { display: inline-flex; align-items: center; margin-right: 0.2rem; }
+.rp-fav .fav-btn svg { width: 20px; height: 20px; }
+
+.fav-pop { position: fixed; z-index: 1100; background: #fff; border: 1px solid var(--line); border-radius: 8px; box-shadow: 0 12px 32px rgba(0,0,0,0.16); padding: 0.4rem; min-width: 200px; max-width: 250px; font-family: var(--serif-body); }
+.fav-pop-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); padding: 0.2rem 0.4rem 0.4rem; }
+.fav-pop-row { display: flex; align-items: center; gap: 0.45rem; padding: 0.32rem 0.4rem; font-size: 0.9rem; border-radius: 5px; cursor: pointer; }
+.fav-pop-row:hover { background: var(--field-bg); }
+.fav-pop-star { color: #e0a500; }
+.fav-pop-new { display: flex; gap: 0.3rem; padding: 0.45rem 0.4rem 0.2rem; border-top: 1px solid var(--line); margin-top: 0.3rem; }
+.fav-pop-new input { flex: 1; min-width: 0; border: 1px solid var(--line); border-radius: 5px; padding: 0.28rem 0.4rem; font: inherit; font-size: 0.85rem; }
+.fav-pop-new button { border: 0; background: var(--accent); color: #fff; border-radius: 5px; padding: 0.28rem 0.6rem; cursor: pointer; font: inherit; font-size: 0.82rem; }
+
+.fav-main { max-width: 900px; margin: 0 auto; padding: 1.6rem 1.6rem 4rem; }
+.fav-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+.fav-intro { font-size: 0.88rem; color: var(--muted); max-width: 520px; margin: 0; line-height: 1.55; }
+.fav-intro a { color: var(--accent); }
+.fav-newcoll { display: flex; gap: 0.4rem; }
+.fav-newcoll input { border: 1px solid var(--line); border-radius: 6px; padding: 0.3rem 0.55rem; font: inherit; font-size: 0.9rem; min-width: 200px; }
+.fav-sec { margin-bottom: 2rem; }
+.fav-sec-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; border-bottom: 1px solid var(--line); padding-bottom: 0.4rem; margin-bottom: 0.5rem; }
+.fav-sec-title { font-family: var(--serif-display); font-weight: 600; font-size: 1.15rem; color: var(--ink); margin: 0; display: flex; align-items: baseline; gap: 0.5rem; }
+.fav-sec-count { font-family: var(--serif-body); font-size: 0.8rem; color: var(--muted); font-weight: 400; }
+.fav-sec-actions { display: flex; gap: 0.3rem; flex-shrink: 0; }
+.fav-row { display: flex; align-items: flex-start; gap: 0.5rem; padding: 0.55rem 0.2rem; border-bottom: 1px solid var(--line); }
+.fav-row .fav-btn { margin-top: 0.1rem; }
+.fav-row-info { min-width: 0; }
+.fav-row-info .catalog-title { font-size: 1rem; }
+.fav-row-meta { font-size: 0.82rem; color: var(--muted); margin-top: 0.15rem; }
+.fav-empty { color: var(--muted); font-style: italic; font-size: 0.85rem; padding: 0.6rem 0.2rem; }
 .login-note { font-size: 0.78rem; color: var(--muted); margin: 0.8rem 0 0; line-height: 1.5; }
 .login-note a { color: var(--accent); }
 .login-change { margin-top: 0.8rem; font-size: 0.83rem; text-align: center; }
@@ -318,8 +354,9 @@ a.btn.disabled { opacity: 0.5; cursor: default; pointer-events: none; }
 
 /* topbar / identity */
 .topbar { padding: 0.7rem 1.5rem; align-items: center; }
-.brand-home { font-family: var(--serif-display); font-weight: 700; font-size: 1.6rem; color: var(--accent); letter-spacing: 0.01em; }
-.brand-sep, .brand span:not(.brand-home) { font-family: var(--serif-body); color: var(--muted); font-weight: 400; }
+.brand-home { font-family: var(--serif-display); font-weight: 600; font-size: 1.55rem; color: var(--ink); letter-spacing: -0.01em; }
+.brand-edep { color: var(--accent); font-weight: 700; }
+.brand-sep, .brand span:not(.brand-home):not(.brand-edep) { font-family: var(--serif-body); color: var(--muted); font-weight: 400; }
 .sitenav { gap: 0.1rem; }
 .sitenav-editor { margin-left: 1.6rem; }
 .sitenav-link { font-family: var(--serif-body); font-size: 1.02rem; color: var(--ink); border: 0; padding: 0.3rem 0.7rem; }
@@ -343,7 +380,7 @@ a.btn.disabled { opacity: 0.5; cursor: default; pointer-events: none; }
 .docs-section h1 { font-family: var(--serif-display); font-weight: 600; color: var(--ink); }
 .docs-section h2 { font-family: var(--serif-display); font-weight: 600; text-transform: none; letter-spacing: 0.02em; color: var(--accent); font-size: 1.1rem; }
 .docs-section p, .docs-list { font-size: 1.02rem; line-height: 1.6; }
-.landing-hero h1 { font-family: var(--serif-display); font-weight: 700; color: var(--accent); }
+.landing-hero h1 { font-family: var(--serif-display); font-weight: 700; color: var(--ink); }
 .landing-sub { font-family: var(--serif-body); }
 .landing-intro { font-size: 1.05rem; }
 
