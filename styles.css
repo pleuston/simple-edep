@@ -175,6 +175,8 @@ jinn-epidoc-editor[valid="false"] { border-color: var(--bad); }
 .landing-hero h1 { font-size: 2.6rem; color: var(--accent); margin: 0 0 0.25rem; letter-spacing: -0.02em; }
 .landing-sub { font-size: 1.05rem; color: var(--muted); margin: 0 0 1.5rem; }
 .landing-actions { display: flex; gap: 0.6rem; justify-content: center; margin-top: 1.6rem; flex-wrap: wrap; }
+.landing-guide-link { margin: 1rem 0 0; font-size: 0.9rem; }
+.landing-guide-link a { color: var(--accent); }
 .landing-credits { max-width: 640px; width: 100%; margin: 2.8rem auto 0; padding-top: 1.4rem; border-top: 1px solid var(--line); }
 .landing-credits h2 { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0 0 0.65rem; }
 .landing-credits ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.28rem; }
