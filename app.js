@@ -497,15 +497,14 @@
   function refreshSaveTarget() {
     var signedIn = !!(window.EpiAuth && EpiAuth.isSignedIn());
     var btn = document.getElementById("btn-save-github");
-    if (btn && !btn.disabled) btn.textContent = signedIn ? "② Save to GitHub" : "② Submit as guest";
+    if (btn && !btn.disabled) btn.textContent = signedIn ? "② Save to GitHub" : "② Sign in to save";
     var t = document.getElementById("save-target");
     if (!t) return;
     if (signedIn && window.EpiGitHub) {
       var s = EpiGitHub.getSettings();
       t.textContent = s.owner + "/" + s.repo + " · " + (s.path || "records/");
-    } else if (window.EpiGuest) {
-      var g = EpiGuest.target;
-      t.textContent = g.owner + "/" + g.repo + " · " + g.dir + "/ (guest)";
+    } else {
+      t.textContent = "sign in required";
     }
   }
 
