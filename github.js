@@ -124,6 +124,62 @@
     document.body.style.overflow = "";
   }
 
+  // ---- Index helpers ---------------------------------------------------------
+
+  function extractMeta(xml, filename) {
+    function pick(re) {
+      var m = xml.match(re);
+      return m ? m[1].replace(/<[^>]*>/g, "").trim() : "";
+    }
+    var title = pick(/<title[^>]*>([\s\S]*?)<\/title>/);
+    var settlement = pick(/<settlement>([\s\S]*?)<\/settlement>/) ||
+                     pick(/<placeName type="modern">([\s\S]*?)<\/placeName>/);
+    var region  = pick(/<placeName type="region">([\s\S]*?)<\/placeName>/);
+    var country = pick(/<country[^>]*>([\s\S]*?)<\/country>/);
+    var textType   = pick(/<rs type="textType"[^>]*>([\s\S]*?)<\/rs>/) ||
+                     pick(/<term ref="[^"]*typeins[^"]*"[^>]*>([\s\S]*?)<\/term>/);
+    var objectType = pick(/<objectType[^>]*>([\s\S]*?)<\/objectType>/);
+    var material   = pick(/<material[^>]*>([\s\S]*?)<\/material>/);
+    var date       = pick(/<origDate[^>]*>([\s\S]*?)<\/origDate>/);
+    var geo = pick(/<geo>([\s\S]*?)<\/geo>/);
+    var lat = "", lng = "";
+    if (geo) { var gp = geo.split(/\s+/); lat = gp[0] || ""; lng = gp[1] || ""; }
+    var nb = "", na = "", dm = xml.match(/notBefore-custom="([^"]+)"[^>]*notAfter-custom="([^"]+)"/);
+    if (dm) { nb = parseInt(dm[1], 10) || ""; na = parseInt(dm[2], 10) || ""; }
+    return { file: filename, titleEn: title, settlement: settlement, region: region,
+             country: country, date: date, textType: textType,
+             objectType: objectType, material: material, lat: lat, lng: lng, nb: nb, na: na };
+  }
+
+  function updateLocalIndex(meta, s, headers) {
+    var indexUrl = "https://api.github.com/repos/" + s.owner + "/" + s.repo +
+                   "/contents/data/records-index.json?ref=" + encodeURIComponent(s.branch);
+    fetch(indexUrl, { headers: headers })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (existing) {
+        if (!existing || !existing.content) return;
+        var index = JSON.parse(atob(existing.content.replace(/\s/g, "")));
+        var found = false;
+        for (var i = 0; i < index.length; i++) {
+          if (index[i].file === meta.file) { index[i] = meta; found = true; break; }
+        }
+        if (!found) index.push(meta);
+        var putUrl = "https://api.github.com/repos/" + s.owner + "/" + s.repo +
+                     "/contents/data/records-index.json";
+        return fetch(putUrl, {
+          method: "PUT",
+          headers: Object.assign({ "Content-Type": "application/json" }, headers),
+          body: JSON.stringify({
+            message: "Update index: " + meta.file,
+            content: b64(JSON.stringify(index, null, 2)),
+            sha: existing.sha,
+            branch: s.branch
+          })
+        });
+      })
+      .catch(function () {}); // best-effort; don't surface index errors to the user
+  }
+
   // ---- GitHub Contents API save ----------------------------------------------
 
   function b64(str) {
@@ -193,6 +249,7 @@
         toast((isNew ? "Added" : "Updated") + ": " + filename);
         try { sessionStorage.setItem("edep_fresh:" + filename, xml); } catch (e) {}
         setBtnState(false);
+        updateLocalIndex(extractMeta(xml, filename), s, headers);
         if (onDone) onDone();
       })
       .catch(function (err) {
