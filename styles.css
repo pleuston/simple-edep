@@ -442,3 +442,19 @@ a.catalog-tag:hover { border-color: var(--accent); }
 .facet-check { flex-direction: row; align-items: center; gap: 0.3rem; font-size: 0.92rem; color: var(--ink); }
 .facet-check input { width: auto; }
 #f-reset { align-self: center; }
+
+/* faceted catalogue: left facet sidebar + results column */
+.catalog-wrap.with-facets { display: grid; grid-template-columns: 232px 1fr; gap: 1.8rem; align-items: start; }
+.facet-side { display: flex; flex-direction: column; gap: 0.85rem; position: sticky; top: 0.8rem; }
+.facet-side .facet { width: 100%; }
+.facet-side .facet select, .facet-side .facet input[type="search"], .facet-side .facet input[type="number"] { max-width: none; width: 100%; }
+.facet-side .facet-date span { display: flex; align-items: center; gap: 0.3rem; }
+.facet-side .facet-date .yr { width: 4.4rem; }
+.facet-side #f-reset { align-self: flex-start; margin-top: 0.2rem; }
+.catalog-main { min-width: 0; }
+.register-head { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 0.4rem; }
+.register-head .register-pager { margin: 0; }
+@media (max-width: 820px) {
+  .catalog-wrap.with-facets { grid-template-columns: 1fr; }
+  .facet-side { position: static; }
+}

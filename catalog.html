@@ -32,21 +32,16 @@
       </div>
     </header>
 
-    <div class="catalog-wrap">
-      <h1 class="page-title">Inscriptions</h1>
-      <div class="register-controls">
-        <label class="field-col">Sort by
+    <div class="catalog-wrap with-facets">
+      <aside class="facet-side" id="cat-facets">
+        <label class="facet">Search<input id="cat-search" type="search" placeholder="title, place, type…" /></label>
+        <label class="facet">Sort by
           <select id="cat-sort">
             <option value="title">Title</option>
             <option value="date">Date</option>
             <option value="place">Place</option>
           </select>
         </label>
-        <label class="field-col">Search
-          <input id="cat-search" type="search" placeholder="title, place, type…" />
-        </label>
-      </div>
-      <div class="facet-bar" id="cat-facets">
         <label class="facet">Province<select id="f-province"><option value="">All</option></select></label>
         <label class="facet">Country<select id="f-country"><option value="">All</option></select></label>
         <label class="facet">Text type<select id="f-textType"><option value="">All</option></select></label>
@@ -55,10 +50,14 @@
         <label class="facet facet-date">Dating<span><input id="f-from" class="yr" type="number" placeholder="from" /> – <input id="f-to" class="yr" type="number" placeholder="to" /></span></label>
         <label class="facet facet-check"><input id="f-photo" type="checkbox" /> with photo</label>
         <button id="f-reset" class="btn small" type="button">Reset filters</button>
+      </aside>
+      <div class="catalog-main">
+        <div class="register-head">
+          <a class="btn-new" href="editor.html"><span class="plus">+</span> New inscription</a>
+          <div class="register-pager" id="cat-pager"></div>
+        </div>
+        <div id="cat-list"><div class="catalog-loading">Loading…</div></div>
       </div>
-      <a class="btn-new" href="editor.html"><span class="plus">+</span> New inscription</a>
-      <div class="register-pager" id="cat-pager"></div>
-      <div id="cat-list"><div class="catalog-loading">Loading…</div></div>
     </div>
 
     <div id="toast" role="status" aria-live="polite"></div>
