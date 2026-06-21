@@ -38,11 +38,16 @@
     <div class="catalog-wrap with-facets">
       <aside class="facet-side" id="cat-facets">
         <div class="facet collections-picker" id="cat-collections">
-          <span class="facet-label">Collections</span>
-          <label class="col-check"><input type="checkbox" data-col="edh" /> <span class="col-dot col-edh"></span> EDH</label>
-          <label class="col-check"><input type="checkbox" data-col="isic" /> <span class="col-dot col-isic"></span> I.Sicily</label>
-          <label class="col-check"><input type="checkbox" data-col="local" /> <span class="col-dot col-local"></span> My records</label>
-          <label class="col-check reconcile"><input type="checkbox" id="c-reconcile" /> Reconcile duplicates</label>
+          <button class="facet-label col-toggle" type="button" aria-expanded="true">
+            Collections<span class="col-count"></span>
+            <svg class="col-chevron" viewBox="0 0 10 6" width="10" height="6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 1l4 4 4-4"/></svg>
+          </button>
+          <div class="col-body">
+            <label class="col-check"><input type="checkbox" data-col="edh" /> <span class="col-dot col-edh"></span> EDH</label>
+            <label class="col-check"><input type="checkbox" data-col="isic" /> <span class="col-dot col-isic"></span> I.Sicily</label>
+            <label class="col-check"><input type="checkbox" data-col="local" /> <span class="col-dot col-local"></span> My records</label>
+            <label class="col-check reconcile"><input type="checkbox" id="c-reconcile" /> Reconcile duplicates</label>
+          </div>
         </div>
         <label class="facet">Search<input id="cat-search" type="search" placeholder="title, place, type…" /></label>
         <label class="facet">Sort by

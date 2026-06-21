@@ -101,6 +101,23 @@
     if (rs) rs.addEventListener("click", resetFacets);
 
     // collection selector
+    function updateColCount() {
+      var n = Array.prototype.filter.call(
+        document.querySelectorAll('#cat-collections input[data-col]'),
+        function (x) { return x.checked; }
+      ).length;
+      var el = document.querySelector('#cat-collections .col-count');
+      if (el) el.textContent = ' (' + n + ')';
+    }
+    var colToggleBtn = document.querySelector('#cat-collections .col-toggle');
+    if (colToggleBtn) {
+      colToggleBtn.addEventListener('click', function () {
+        var picker = document.getElementById('cat-collections');
+        var collapsed = picker.classList.toggle('collapsed');
+        colToggleBtn.setAttribute('aria-expanded', String(!collapsed));
+        updateColCount();
+      });
+    }
     var active = EpiCollections.getActive();
     Array.prototype.forEach.call(document.querySelectorAll('#cat-collections input[data-col]'), function (cb) {
       cb.checked = active.indexOf(cb.getAttribute("data-col")) !== -1;
@@ -109,6 +126,7 @@
           .map(function (x) { return x.getAttribute("data-col"); });
         if (!sel.length) { cb.checked = true; return; }
         EpiCollections.setActive(sel); PAGE = 0; loadList();
+        updateColCount();
       });
     });
     var rec = document.getElementById("c-reconcile");

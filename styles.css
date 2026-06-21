@@ -558,7 +558,12 @@ a.catalog-tag:hover { border-color: var(--accent); }
 
 /* collection selector + badges */
 .collections-picker { border-bottom: 1px solid var(--line); padding-bottom: 0.7rem; margin-bottom: 0.2rem; }
-.collections-picker .facet-label { font-size: 0.72rem; color: var(--muted); display: block; margin-bottom: 0.35rem; }
+.col-toggle { background: none; border: none; padding: 0; cursor: pointer; font-size: 0.72rem; color: var(--muted); width: 100%; text-align: left; display: flex; align-items: center; margin-bottom: 0.35rem; font-family: inherit; }
+.col-toggle:hover { color: var(--ink); }
+.col-count { color: var(--ink); margin-left: 0.15em; }
+.col-chevron { margin-left: auto; flex-shrink: 0; transition: transform 0.18s; }
+.collections-picker.collapsed .col-chevron { transform: rotate(-90deg); }
+.collections-picker.collapsed .col-body { display: none; }
 .col-check { display: flex; align-items: center; gap: 0.35rem; font-size: 0.92rem; color: var(--ink); padding: 0.12rem 0; cursor: pointer; }
 .col-check input { width: auto; margin: 0; }
 .col-check.reconcile { margin-top: 0.35rem; padding-top: 0.4rem; border-top: 1px dashed var(--line); color: var(--accent); font-size: 0.86rem; }
