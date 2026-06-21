@@ -122,6 +122,117 @@
         The Inscriptions list and Geodata map read <code>data/records-index.json</code>; after bulk edits,
         rebuild it with <code>node scripts/build-index.js</code>.</p>
       </div>
+
+      <div class="docs-section">
+        <h2>7 · GitHub sign-in</h2>
+        <p>Signing in lets you commit records straight to GitHub under your own account. No password is
+        stored — only a <strong>Personal Access Token</strong> (PAT) you generate once.</p>
+
+        <h3>Create a token</h3>
+        <ol class="docs-list">
+          <li>Go to <a href="https://github.com/settings/tokens/new?scopes=public_repo&description=simple-edep" target="_blank" rel="noopener">GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)</a>.</li>
+          <li>Give it any name (e.g. <em>simple-edep</em>). Set <strong>No expiration</strong> or a date you can remember.</li>
+          <li>Tick the <strong><code>public_repo</code></strong> scope (write access to public repos). Use <strong><code>repo</code></strong> instead if your corpus is in a private repository.</li>
+          <li>Click <strong>Generate token</strong> and copy it — GitHub shows it only once.</li>
+        </ol>
+
+        <h3>Sign in</h3>
+        <ol class="docs-list">
+          <li>Open <a href="login.html">Login</a> (or click <em>Login</em> in the top-right).</li>
+          <li>Paste your token and click <strong>Sign in</strong>. The app calls <code>GET /user</code> on the GitHub API to verify the token and retrieve your username, display name, and avatar.</li>
+          <li>You are returned to the page you came from. Your avatar and <code>@username</code> appear in the top-right corner on every page.</li>
+          <li>Your identity and token are kept in <strong>browser storage only</strong> — they are never sent to any server other than <code>api.github.com</code>.</li>
+        </ol>
+
+        <h3>Returning visits</h3>
+        <p>Your identity persists across browser restarts (localStorage). When you reopen the site after a break,
+        the topbar shows a <em>Welcome back, @username</em> chip; click it to confirm or sign out without
+        having to re-enter your token.</p>
+
+        <h3>Sign out</h3>
+        <p>Click your <strong>avatar / @username</strong> in the top-right. This ends the session immediately.
+        Your saved token and identity are kept for the next visit — the Welcome-back chip will appear.
+        To remove your token and identity completely (e.g. to switch accounts), click <strong>Sign out</strong>
+        on the Login page.</p>
+
+        <p class="docs-tip"><strong>Tip — token scope.</strong> If you are committing to a private fork or
+        corpus repository, the <code>public_repo</code> scope is not enough. Generate a second token with
+        the full <code>repo</code> scope for that repo, or use a fine-grained token scoped to only that
+        repository.</p>
+      </div>
+
+      <div class="docs-section">
+        <h2>8 · Submitting without a token</h2>
+        <p>You can contribute records without a GitHub account. The editor button changes to
+        <strong>② Submit as guest</strong> when you are not signed in. Clicking it opens a modal with two
+        routes:</p>
+
+        <table class="docs-table">
+          <thead>
+            <tr><th>Route</th><th>What happens</th><th>Result</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Submit anonymously</strong></td>
+              <td>The record is relayed through a small server-side proxy and committed to <code>submissions/</code> in the project repository.</td>
+              <td>A link to the new file on GitHub is shown. A maintainer can review and move it to <code>records/</code>.</td>
+            </tr>
+            <tr>
+              <td><strong>Propose as pull request</strong></td>
+              <td>GitHub's new-file editor opens in a new tab with your XML pre-filled. You need a GitHub account but no token.</td>
+              <td>You submit the PR yourself; GitHub shows the diff for review before merge.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>Both routes write to <code>submissions/</code>, not directly to <code>records/</code>, so a
+        maintainer can review before the record goes live. If the anonymous relay is not configured for
+        this deployment, only the pull-request route is available.</p>
+
+        <p class="docs-tip"><strong>Tip — large records.</strong> GitHub's URL length limit caps how much
+        XML can be pre-filled for the PR route. Very long records (complex transcriptions, extensive
+        apparatus) may be truncated. In that case, use <strong>Download</strong> to save the XML locally
+        and attach it to a GitHub issue instead.</p>
+      </div>
+
+      <div class="docs-section">
+        <h2>9 · Favorites and user collections</h2>
+        <p>You can save any inscription to a personal list or a named collection — no account needed.
+        Everything is stored in your browser only and is never uploaded anywhere.</p>
+
+        <h3>Star an inscription</h3>
+        <p>Every row in <a href="catalog.html">Inscriptions</a> has a <strong>★</strong> button at the
+        right. The same button appears in the header of the reading panel when you open a record. Click it
+        to save the inscription to your Favorites.</p>
+
+        <h3>Collections</h3>
+        <p>Click the <strong>★</strong> button and then <strong>Save to…</strong> to open the collection
+        popover. It shows your Favorites list and any named collections you have created. Tick or untick a
+        collection to add or remove the inscription from it. You can save the same record to multiple
+        collections at once.</p>
+        <ul class="docs-list">
+          <li><strong>New collection</strong> — type a name in the field at the bottom of the popover and press Enter (or click <em>Add</em>). The new collection is created and the record is saved into it immediately.</li>
+          <li>Close the popover by clicking anywhere outside it or pressing <kbd>Esc</kbd>.</li>
+        </ul>
+
+        <h3>Manage on the Favorites page</h3>
+        <p>Open <a href="favorites.html">Favorites</a> from the top navigation to see all saved inscriptions
+        and your collections in one place.</p>
+        <ul class="docs-list">
+          <li>Each collection has <strong>Rename</strong> and <strong>Delete</strong> buttons in its header. Deleting a collection removes the collection and its saved list but does not affect records in other collections or in Favorites.</li>
+          <li>Each saved row has its own <strong>★</strong> button — click it to remove the inscription from that collection without leaving the page.</li>
+          <li>Click an inscription title to open it in the reading panel.</li>
+        </ul>
+
+        <h3>Cross-tab sync</h3>
+        <p>Favorites are stored in <code>localStorage</code>. If you have the site open in more than one
+        tab, starring or removing an inscription in one tab is reflected immediately in the other.</p>
+
+        <p class="docs-tip"><strong>Note — browser-local only.</strong> Favorites are not backed up to
+        GitHub and are not shared between devices or browsers. If you clear your browser's site data,
+        your collections will be lost. For a lasting record, use <strong>Copy XML</strong> or commit
+        the records you care about to your own GitHub repository.</p>
+      </div>
     </main>
   </body>
 </html>

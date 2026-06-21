@@ -260,6 +260,7 @@ jinn-epidoc-editor[valid="false"] { border-color: var(--bad); }
 .docs-section { margin-top: 1.8rem; }
 .docs-section h1 { font-size: 1.3rem; margin: 0 0 0.5rem; }
 .docs-section h2 { font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--accent); border-bottom: 1px solid var(--line); padding-bottom: 0.3rem; margin: 0 0 0.8rem; }
+.docs-section h3 { font-size: 0.85rem; font-weight: 700; color: var(--ink); margin: 1rem 0 0.35rem; }
 .docs-section p { font-size: 0.88rem; line-height: 1.65; margin: 0 0 0.55rem; }
 .docs-section a { color: var(--accent); }
 .docs-list { font-size: 0.88rem; line-height: 1.6; margin: 0; padding-left: 1.3rem; }
@@ -379,6 +380,7 @@ a.btn.disabled { opacity: 0.5; cursor: default; pointer-events: none; }
 .section-title { font-family: var(--serif-display); font-weight: 600; text-transform: none; letter-spacing: 0.02em; color: var(--accent); font-size: 0.95rem; }
 .docs-section h1 { font-family: var(--serif-display); font-weight: 600; color: var(--ink); }
 .docs-section h2 { font-family: var(--serif-display); font-weight: 600; text-transform: none; letter-spacing: 0.02em; color: var(--accent); font-size: 1.1rem; }
+.docs-section h3 { font-family: var(--serif-display); font-weight: 600; color: var(--ink); font-size: 0.97rem; margin: 1.2rem 0 0.4rem; }
 .docs-section p, .docs-list { font-size: 1.02rem; line-height: 1.6; }
 .landing-hero h1 { font-family: var(--serif-display); font-weight: 700; color: var(--ink); }
 .landing-sub { font-family: var(--serif-body); }
