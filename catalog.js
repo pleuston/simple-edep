@@ -233,7 +233,7 @@
       "</div><div class=\"catalog-actions\">" +
       (window.EpiFav ? EpiFav.button({ id: id, col: col, title: e.titleEn || id, place: [e.settlement, e.region].filter(Boolean).join(", "), date: e.date }) : "") +
       '<a class="btn small" href="viewer.html?' + q + '">View</a>' +
-      '<button class="btn small" data-edit="' + esc(e.file) + '" data-col="' + esc(col) + '">Edit</button>' +
+      (window.EpiAuth && EpiAuth.isSignedIn() ? '<button class="btn small" data-edit="' + esc(e.file) + '" data-col="' + esc(col) + '">Edit</button>' : '') +
       "</div></div></div>";
   }
 

@@ -101,7 +101,12 @@
       ? '<a class="ppl-name" href="viewer.html?id=' + encodeURIComponent(p.hd) + '&col=edh">' + esc(p.name) + "</a>"
       : '<span class="ppl-name">' + esc(p.name) + "</span>";
     var tags = "";
-    if (p.hd)  tags += '<a class="catalog-tag ppl-hd" href="viewer.html?id=' + encodeURIComponent(p.hd) + '&col=edh">' + esc(p.hd) + "</a>";
+    if (p.hd) {
+      if (window.EpiAuth && EpiAuth.isSignedIn()) {
+        tags += '<a class="btn small ppl-edit" href="editor.html?id=' + encodeURIComponent(p.hd) + '&col=edh">Edit</a>';
+      }
+      tags += '<a class="catalog-tag ppl-hd" href="viewer.html?id=' + encodeURIComponent(p.hd) + '&col=edh">' + esc(p.hd) + "</a>";
+    }
     if (p.pir) tags += '<span class="catalog-tag">PIR ' + esc(p.pir) + "</span>";
     return '<div class="ppl-row">' + nameHtml +
       (chips ? '<span class="ppl-chips">' + esc(chips) + "</span>" : "") +

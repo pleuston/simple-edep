@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="vendor/leaflet/MarkerCluster.Default.css" />
     <script src="auth.js"></script>
   </head>
-  <body>
+  <body class="map-page">
     <header class="topbar">
       <div class="brand">
         <a href="index.html" class="brand-home">simple<span class="brand-edep">EDEP</span></a>
@@ -29,7 +29,6 @@
         <a href="about.html" class="sitenav-link">About</a>
         <a href="docs.html" class="sitenav-link">Guide</a>
       </nav>
-        <span id="map-count" class="catalog-meta"></span>
         <div class="lang-box"><span>Language</span>
           <select aria-label="Interface language"><option>English</option></select>
         </div>
@@ -39,7 +38,36 @@
         </a>
       </div>
     </header>
-    <div class="map-wrap"><div id="map"></div></div>
+
+    <div class="map-layout">
+      <!-- left: filters -->
+      <aside class="map-facets" id="map-facets">
+        <label class="facet">Search<input id="m-search" type="search" placeholder="title, place, type…" /></label>
+        <label class="facet">Province<select id="m-province"><option value="">All</option></select></label>
+        <label class="facet">Country<select id="m-country"><option value="">All</option></select></label>
+        <label class="facet">Text type<select id="m-textType"><option value="">All</option></select></label>
+        <label class="facet facet-date">Dating<span>
+          <input id="m-from" class="yr" type="number" placeholder="from" />
+          –
+          <input id="m-to" class="yr" type="number" placeholder="to" />
+        </span></label>
+        <button id="m-reset" class="btn small" type="button">Reset filters</button>
+      </aside>
+
+      <!-- middle: paginated entry list -->
+      <div class="map-list-col">
+        <div class="map-list-head">
+          <div class="register-pager" id="m-pager"></div>
+        </div>
+        <div class="map-list-body" id="m-list">
+          <div class="catalog-loading">Loading…</div>
+        </div>
+      </div>
+
+      <!-- right: the map -->
+      <div id="map"></div>
+    </div>
+
     <script src="collections.js"></script>
     <script src="vendor/leaflet/leaflet.js"></script>
     <script src="vendor/leaflet/leaflet.markercluster.js"></script>
