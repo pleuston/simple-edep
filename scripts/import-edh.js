@@ -60,6 +60,7 @@ function importPeople() {
       praenomen: r.praenomen || "", nomen: r.nomen || "",
       cognomen: r.cognomen || "", supernomen: r.supernomen || "",
       tribus: r.tribus || "", origo: r.origo || "",
+      filiation: r.filiation || "",
       role: r.funktion || r.beruf || "", status: r.status || "",
       gender: r.geschlecht || "", age: age, pir: r.pir || "", uri: r.uri || ""
     };
@@ -83,18 +84,28 @@ function importPhotos() {
   return out.length;
 }
 
-// ---- geographic gazetteer (edhGeographicData.json) -> coords by pleiades --
+// ---- geographic gazetteer (edh_data_geo.csv) --------------------------------
 function importGeo() {
-  var p = path.join(SRC, "edhGeographicData.json");
-  if (!fs.existsSync(p)) { console.log("  (missing edhGeographicData.json)"); return; }
-  var fc = JSON.parse(fs.readFileSync(p, "utf8")), out = [];
-  (fc.features || []).forEach(function (f) {
-    var g = f.geometry, pr = f.properties || {};
-    if (!g || g.type !== "Point" || !g.coordinates) return;
-    var lng = +g.coordinates[0], lat = +g.coordinates[1];
-    if (isNaN(lng) || isNaN(lat)) return;
-    out.push({ name: pr.ancient_findspot || "", lat: Math.round(lat * 1e5) / 1e5, lng: Math.round(lng * 1e5) / 1e5,
-      pleiades: pr.pleiades_uri || "", tm: pr.trismegistos_geo_uri || "" });
+  var rows = readTable("edh_data_geo.csv");
+  var out = [];
+  rows.forEach(function (r) {
+    if (!r.koordinaten_1) return;
+    var parts = r.koordinaten_1.split(",");
+    var lat = parseFloat(parts[0]), lng = parseFloat(parts[1]);
+    if (isNaN(lat) || isNaN(lng)) return;
+    var name = r.fo_antik || r.fo_modern || "";
+    if (!name) return;
+    out.push({
+      id: r.id || "",
+      name: name,
+      modern: r.fo_modern || "",
+      lat: Math.round(lat * 1e5) / 1e5,
+      lng: Math.round(lng * 1e5) / 1e5,
+      pleiades: r.pleiades_id_1 ? "https://pleiades.stoa.org/places/" + r.pleiades_id_1 : "",
+      tm: r.trismegistos_geo_id ? "https://www.trismegistos.org/place/" + r.trismegistos_geo_id : "",
+      province: r.provinz || "",
+      country: r.land || ""
+    });
   });
   write("geo.json", out);
 }

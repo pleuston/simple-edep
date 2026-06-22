@@ -22,11 +22,19 @@ function decode(s) {
 }
 function pick(xml, re) { var m = xml.match(re); return m ? decode(m[1].replace(/<[^>]+>/g, "")).replace(/\s+/g, " ").trim() : ""; }
 
-// pleiades URI -> [lat, lng] from the collection gazetteer
-var pleiades = {};
+// pleiades URI -> {lat, lng, geo_id} and coord key -> geo_id from the gazetteer
+var pleiades = {}, coordGeoId = {};
 [path.join(collDir, "geo.json"), path.join(__dirname, "..", "data", "geo.json")].some(function (g) {
-  try { JSON.parse(fs.readFileSync(g, "utf8")).forEach(function (x) { if (x.pleiades) pleiades[x.pleiades] = [x.lat, x.lng]; }); return true; }
-  catch (e) { return false; }
+  try {
+    JSON.parse(fs.readFileSync(g, "utf8")).forEach(function (x) {
+      if (x.pleiades) pleiades[x.pleiades] = { lat: x.lat, lng: x.lng, id: x.id || "" };
+      if (x.id && x.lat && x.lng) {
+        var key = Math.round(+x.lat * 1e3) / 1e3 + "," + Math.round(+x.lng * 1e3) / 1e3;
+        if (!coordGeoId[key]) coordGeoId[key] = x.id;
+      }
+    });
+    return true;
+  } catch (e) { return false; }
 });
 // set of hd numbers that have a photo
 var hasPhoto = {};
@@ -49,12 +57,17 @@ var index = files.map(function (f) {
   var objectType = pick(xml, /<objectType[^>]*>([\s\S]*?)<\/objectType>/);
   var material = pick(xml, /<material[^>]*>([\s\S]*?)<\/material>/);
 
-  var lat = "", lng = "";
+  var lat = "", lng = "", geoId = "";
+  var pref = (xml.match(/<placeName[^>]*ref="(https:\/\/pleiades\.stoa\.org\/places\/\d+)"[^>]*>/) || [])[1];
   var geo = pick(xml, /<geo>([^<]+)<\/geo>/);
   if (geo) { var p = geo.split(/\s+/); lat = p[0] || ""; lng = p[1] || ""; }
-  else {
-    var pref = (xml.match(/<placeName[^>]*ref="(https:\/\/pleiades\.stoa\.org\/places\/\d+)"[^>]*>/) || [])[1];
-    if (pref && pleiades[pref]) { lat = pleiades[pref][0]; lng = pleiades[pref][1]; }
+  if (pref && pleiades[pref]) {
+    if (!lat) { lat = pleiades[pref].lat; lng = pleiades[pref].lng; }
+    if (pleiades[pref].id) geoId = pleiades[pref].id;
+  }
+  if (!geoId && lat && lng) {
+    var ck = Math.round(+lat * 1e3) / 1e3 + "," + Math.round(+lng * 1e3) / 1e3;
+    geoId = coordGeoId[ck] || "";
   }
 
   // faceting fields: Roman province, modern country, numeric date bounds
@@ -77,6 +90,7 @@ var index = files.map(function (f) {
   var hd = f.replace(/\.xml$/, "");
   if (tmMap[hd]) e.tm = tmMap[hd];
   if (hasPhoto[hd]) e.photo = 1;
+  if (geoId) e.geo_id = geoId;
   return e;
 });
 

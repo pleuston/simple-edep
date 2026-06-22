@@ -2,7 +2,7 @@
  * Filterable by individual name components, sex, social state, and occupation. */
 (function () {
   "use strict";
-  var listEl, pagerEl, PEOPLE = [], PAGE = 0, PER = 60;
+  var listEl, pagerEl, PEOPLE = [], RENDERED = [], PAGE = 0, PER = 60;
   var fPraenomen, fNomen, fCognomen, fSupernomen, fTribus, fOrigo, fSex, fStatus, fRole;
 
   document.addEventListener("DOMContentLoaded", function () {
@@ -35,8 +35,18 @@
       rerender();
     });
 
-    // open inscription in reading panel when clicking a row link
     listEl.addEventListener("click", function (ev) {
+      // person name → toggle inline detail
+      if (ev.button === 0 && !ev.metaKey && !ev.ctrlKey && !ev.shiftKey && !ev.altKey) {
+        var nbtn = ev.target.closest ? ev.target.closest("button.ppl-name") : null;
+        if (nbtn) {
+          var row = nbtn.closest(".ppl-row");
+          var idx = parseInt(nbtn.getAttribute("data-ppl"), 10);
+          if (row && !isNaN(idx)) toggleDetail(row, RENDERED[idx]);
+          return;
+        }
+      }
+      // inscription link → open reading panel
       var a = ev.target.closest ? ev.target.closest('a[href^="viewer.html"]') : null;
       if (!a || ev.button !== 0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
       ev.preventDefault();
@@ -174,24 +184,20 @@
       listEl.innerHTML = '<div class="catalog-empty">No people match the current filters.</div>';
       pagerEl.innerHTML = ""; return;
     }
+    RENDERED = rows.slice(PAGE * PER, PAGE * PER + PER);
     listEl.innerHTML = '<div class="ppl-list">' +
-      rows.slice(PAGE * PER, PAGE * PER + PER).map(rowHtml).join("") +
+      RENDERED.map(rowHtml).join("") +
       '</div>';
     renderPager(total, pages);
   }
 
-  function rowHtml(p) {
+  function rowHtml(p, i) {
     var parts = [p.praenomen, p.nomen, p.cognomen, p.supernomen].filter(Boolean);
     var nameParts = parts.length ? parts.join(" ") : p.name;
     var chips = [p.origo, genderLabel(p.gender)].filter(Boolean).join(" · ");
-    var nameHtml = p.hd
-      ? '<a class="ppl-name" href="viewer.html?id=' + encodeURIComponent(p.hd) + '&col=edh">' + esc(nameParts) + "</a>"
-      : '<span class="ppl-name">' + esc(nameParts) + "</span>";
+    var nameHtml = '<button class="ppl-name" data-ppl="' + i + '">' + esc(nameParts) + '</button>';
     var tags = "";
     if (p.hd) {
-      if (window.EpiAuth && EpiAuth.isSignedIn()) {
-        tags += '<a class="btn small ppl-edit" href="editor.html?id=' + encodeURIComponent(p.hd) + '&col=edh">Edit</a>';
-      }
       tags += '<a class="catalog-tag ppl-hd" href="viewer.html?id=' + encodeURIComponent(p.hd) + '&col=edh">' + esc(p.hd) + "</a>";
     }
     if (p.pir) tags += '<span class="catalog-tag">PIR ' + esc(p.pir) + "</span>";
@@ -199,6 +205,52 @@
       (chips ? '<span class="ppl-chips">' + esc(chips) + "</span>" : "") +
       (tags ? '<span class="ppl-tags">' + tags + "</span>" : "") +
       "</div>";
+  }
+
+  function toggleDetail(row, p) {
+    var was = row.classList.contains("expanded");
+    Array.prototype.forEach.call(listEl.querySelectorAll(".ppl-row.expanded"), function (r) {
+      r.classList.remove("expanded");
+      var d = r.nextElementSibling;
+      if (d && d.classList.contains("ppl-detail")) d.remove();
+    });
+    if (was || !p) return;
+    row.classList.add("expanded");
+    var det = document.createElement("div");
+    det.className = "ppl-detail";
+    det.innerHTML = personDetailHtml(p);
+    row.parentNode.insertBefore(det, row.nextSibling);
+  }
+
+  function personDetailHtml(p) {
+    var fields = [];
+    if (p.praenomen)  fields.push(["Praenomen",  p.praenomen]);
+    if (p.nomen)      fields.push(["Nomen",       p.nomen]);
+    if (p.cognomen)   fields.push(["Cognomen",    p.cognomen]);
+    if (p.supernomen) fields.push(["Supernomen",  p.supernomen]);
+    if (p.filiation)  fields.push(["Filiation",   p.filiation]);
+    if (p.tribus)     fields.push(["Tribus",      TRIBUS_LABEL[p.tribus] || p.tribus]);
+    if (p.origo)      fields.push(["Origo",       p.origo]);
+    if (p.gender)     fields.push(["Sex",         SEX_LABEL[p.gender] || p.gender]);
+    if (p.status)     fields.push(["Status",      statusLabel(p.status)]);
+    if (p.role)       fields.push(["Role",        ROLE_LABEL[p.role] || p.role]);
+    if (p.age)        fields.push(["Age category", p.age]);
+    if (p.pir)        fields.push(["PIR",         p.pir]);
+    var dl = '<dl class="ppl-detail-dl">' +
+      fields.map(function (f) { return "<dt>" + esc(f[0]) + "</dt><dd>" + esc(f[1]) + "</dd>"; }).join("") +
+      "</dl>";
+    var actions = [];
+    if (p.hd) {
+      var q = "id=" + encodeURIComponent(p.hd) + "&col=edh";
+      actions.push('<a class="btn small" href="viewer.html?' + q + '">Open inscription ' + esc(p.hd) + " →</a>");
+      if (window.EpiAuth && EpiAuth.isSignedIn()) {
+        actions.push('<a class="btn small" href="editor.html?' + q + '">Edit</a>');
+      }
+    }
+    if (p.uri) {
+      actions.push('<a class="btn small" href="' + esc(p.uri) + '" target="_blank" rel="noopener">External link ↗</a>');
+    }
+    return dl + (actions.length ? '<div class="ppl-detail-actions">' + actions.join("") + "</div>" : "");
   }
 
   function genderLabel(g) { return g === "M" ? "male" : g === "W" || g === "F" ? "female" : ""; }

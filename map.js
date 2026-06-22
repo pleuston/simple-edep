@@ -3,6 +3,8 @@
 (function () {
   "use strict";
   var ALL = [], FILTERED = [], PAGE = 0, PER = 40;
+  var GEO = [], GEO_FILT = [], GEO_PAGE = 0, GEO_PER = 40;
+  var VIEW = "inscriptions"; // "inscriptions" or "places"
   var map, cluster, activeMarker;
   var markerMap = {}; // file -> L.marker
 
@@ -36,7 +38,10 @@
 
     // --- filter events ---
     var dt;
-    function rerender() { PAGE = 0; applyFilters(); }
+    function rerender() {
+      PAGE = 0; GEO_PAGE = 0;
+      if (VIEW === "places") { filterGeo(); } else { applyFilters(); }
+    }
     fSearch.addEventListener("input", function () { clearTimeout(dt); dt = setTimeout(rerender, 200); });
     fProvince.addEventListener("change", rerender);
     fCountry.addEventListener("change", rerender);
@@ -48,11 +53,43 @@
       fFrom.value = ""; fTo.value = ""; rerender();
     });
 
-    // --- list click: open reading panel (if panel.js available) or navigate ---
+    document.getElementById("mt-inscr").addEventListener("click", function () {
+      if (VIEW === "inscriptions") return;
+      VIEW = "inscriptions";
+      this.classList.add("active");
+      document.getElementById("mt-places").classList.remove("active");
+      fSearch.placeholder = "title, place, type…";
+      applyFilters();
+    });
+    document.getElementById("mt-places").addEventListener("click", function () {
+      if (VIEW === "places") return;
+      VIEW = "places";
+      this.classList.add("active");
+      document.getElementById("mt-inscr").classList.remove("active");
+      fSearch.placeholder = "place name…";
+      if (!GEO.length) loadGeo(); else filterGeo();
+    });
+
+    // --- list click ---
     listEl.addEventListener("click", function (ev) {
+      // find-spot click in Places mode
+      if (VIEW === "places") {
+        var geoRow = ev.target.closest && ev.target.closest(".geo-entry");
+        if (geoRow && !ev.target.closest("a")) {
+          var lat = parseFloat(geoRow.getAttribute("data-lat"));
+          var lng = parseFloat(geoRow.getAttribute("data-lng"));
+          var gid = geoRow.getAttribute("data-gid");
+          Array.prototype.forEach.call(listEl.querySelectorAll(".geo-entry.selected"), function (x) { x.classList.remove("selected"); });
+          geoRow.classList.add("selected");
+          if (!isNaN(lat) && !isNaN(lng)) map.setView([lat, lng], 10);
+          if (gid) showInscriptionsForPlace(gid, lat, lng);
+        }
+        return;
+      }
+      // inscription row click
       var row = ev.target.closest && ev.target.closest(".map-entry[data-file]");
       if (!row) return;
-      if (ev.target.closest(".btn")) return; // let View/Edit handle themselves
+      if (ev.target.closest(".btn")) return;
       var file = row.getAttribute("data-file"), col = row.getAttribute("data-col") || "edh";
       highlightRow(file);
       panTo(file);
@@ -70,6 +107,103 @@
       listEl.innerHTML = '<div class="catalog-empty">Could not load geodata.</div>';
     });
   });
+
+  // ---------------------------------------------------------------------------
+  // Find-spots tab (geo.json)
+  function loadGeo() {
+    listEl.innerHTML = '<div class="catalog-loading">Loading find spots…</div>';
+    EpiCollections.getJSON(EpiCollections.get("edh").geo).then(function (g) {
+      GEO = (g || []).sort(function (a, b) { return a.name.localeCompare(b.name); });
+      filterGeo();
+    }).catch(function () {
+      listEl.innerHTML = '<div class="catalog-empty">Could not load find spots.</div>';
+    });
+  }
+
+  function filterGeo() {
+    var q = (fSearch.value || "").toLowerCase().trim();
+    GEO_FILT = q ? GEO.filter(function (g) {
+      return (g.name || "").toLowerCase().indexOf(q) !== -1 ||
+             (g.modern || "").toLowerCase().indexOf(q) !== -1;
+    }) : GEO;
+    GEO_PAGE = 0;
+    renderGeoList();
+  }
+
+  function renderGeoList() {
+    var total = GEO_FILT.length, pages = Math.max(1, Math.ceil(total / GEO_PER));
+    if (GEO_PAGE >= pages) GEO_PAGE = 0;
+    if (!total) { listEl.innerHTML = '<div class="catalog-empty">No find spots match.</div>'; pagerEl.innerHTML = ""; return; }
+    listEl.innerHTML = GEO_FILT.slice(GEO_PAGE * GEO_PER, GEO_PAGE * GEO_PER + GEO_PER).map(geoEntryHtml).join("");
+    renderGeoPager(total, pages);
+  }
+
+  function geoEntryHtml(g) {
+    var meta = [g.modern && g.modern !== g.name ? g.modern : "", g.province, g.country].filter(Boolean).join(" · ");
+    var links = "";
+    if (g.pleiades) links += '<a class="catalog-tag" href="' + esc(g.pleiades) + '" target="_blank" rel="noopener">Pleiades</a>';
+    if (g.tm)       links += '<a class="catalog-tag" href="' + esc(g.tm)       + '" target="_blank" rel="noopener">TM</a>';
+    return '<div class="geo-entry" data-gid="' + esc(g.id || "") + '" data-lat="' + g.lat + '" data-lng="' + g.lng + '">' +
+      '<div class="geo-entry-body">' +
+        '<span class="geo-name">' + esc(g.name) + (g.id ? ' <span class="catalog-tag geo-gid">' + esc(g.id) + '</span>' : '') + '</span>' +
+        (meta ? '<span class="geo-meta">' + esc(meta) + '</span>' : '') +
+      '</div>' +
+      (links ? '<span class="geo-links">' + links + '</span>' : '') +
+      '</div>';
+  }
+
+  function showInscriptionsForPlace(gid, lat, lng) {
+    var matches = ALL.filter(function (e) { return e.geo_id === gid; });
+    if (!matches.length && lat && lng) {
+      var THRESH = 0.01;
+      matches = ALL.filter(function (e) {
+        return e.lat && e.lng && Math.abs(+e.lat - lat) < THRESH && Math.abs(+e.lng - lng) < THRESH;
+      });
+    }
+    if (!matches.length) return;
+    FILTERED = matches; PAGE = 0;
+    updateMapMarkers();
+    // Show inscription sub-list in a detail div appended below the geo list
+    var sel = listEl.querySelector(".geo-entry.selected");
+    var existing = listEl.querySelector(".geo-place-inscr");
+    if (existing) existing.remove();
+    if (!sel) return;
+    var div = document.createElement("div");
+    div.className = "geo-place-inscr";
+    div.innerHTML = '<div class="geo-place-inscr-head">' + matches.length + ' inscription' + (matches.length !== 1 ? 's' : '') + ' at this site</div>' +
+      matches.slice(0, 10).map(function (e) {
+        var id = (e.file || "").replace(/\.xml$/, ""), col = e.col || "edh";
+        var q = "id=" + encodeURIComponent(id) + "&col=" + encodeURIComponent(col);
+        return '<div class="geo-inscr-row"><a href="viewer.html?' + q + '">' + esc(e.titleEn || id) + '</a>' +
+          (e.date ? ' <span class="catalog-meta">' + esc(e.date) + '</span>' : '') + '</div>';
+      }).join("") +
+      (matches.length > 10 ? '<div class="geo-more">' + (matches.length - 10) + ' more → see map</div>' : '');
+    sel.parentNode.insertBefore(div, sel.nextSibling);
+  }
+
+  function renderGeoPager(total, pages) {
+    function btn(pg, label, on, dis) {
+      return '<button data-gpg="' + pg + '"' + (on ? ' class="on"' : "") + (dis ? " disabled" : "") + ">" + label + "</button>";
+    }
+    var html = "";
+    if (pages > 1) {
+      html += btn("first", "|&lt;", false, GEO_PAGE === 0) + btn(Math.max(0, GEO_PAGE - 1), "&lt;", false, GEO_PAGE === 0);
+      var start = Math.max(0, GEO_PAGE - 2), end = Math.min(pages - 1, GEO_PAGE + 2);
+      if (start > 0) html += '<span class="reg-ell">…</span>';
+      for (var i = start; i <= end; i++) html += btn(i, i + 1, i === GEO_PAGE, false);
+      if (end < pages - 1) html += '<span class="reg-ell">…</span>';
+      html += btn(Math.min(pages - 1, GEO_PAGE + 1), "&gt;", false, GEO_PAGE === pages - 1) + btn("last", "&gt;|", false, GEO_PAGE === pages - 1);
+    }
+    html += '<span class="register-count">' + (pages > 1 ? "Page " + (GEO_PAGE + 1) + " / " + pages + " · " : "") + total.toLocaleString() + " sites</span>";
+    pagerEl.innerHTML = html;
+    Array.prototype.forEach.call(pagerEl.querySelectorAll("button[data-gpg]"), function (b) {
+      b.addEventListener("click", function () {
+        var v = b.getAttribute("data-gpg");
+        GEO_PAGE = v === "first" ? 0 : v === "last" ? pages - 1 : parseInt(v, 10);
+        renderGeoList(); listEl.parentElement.scrollTop = 0;
+      });
+    });
+  }
 
   // ---------------------------------------------------------------------------
   function populateFilters() {
