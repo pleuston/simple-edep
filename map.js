@@ -4,6 +4,7 @@
   "use strict";
   var ALL = [], FILTERED = [], PAGE = 0, PER = 40;
   var GEO = [], GEO_FILT = [], GEO_PAGE = 0, GEO_PER = 40;
+  var GEO_DETAIL = false; // true while showing a place detail view
   var map, cluster, activeMarker;
   var markerMap = {}; // file -> L.marker
 
@@ -47,7 +48,7 @@
     document.getElementById("m-reset").addEventListener("click", function () {
       fSearch.value = ""; fProvince.value = ""; fCountry.value = ""; fTextType.value = "";
       fFrom.value = ""; fTo.value = "";
-      GEO_PAGE = 0; filterGeo(); applyFilters();
+      applyFilters();
     });
 
     // --- list click (always in find-spots mode) ---
@@ -69,6 +70,7 @@
           gObj = { id: gid, lat: glat, lng: glng, name: nameEl ? nameEl.textContent.trim() : "", modern: "", province: "", country: "", pleiades: "", tm: "" };
         }
         if (!isNaN(gObj.lat) && !isNaN(gObj.lng)) map.setView([gObj.lat, gObj.lng], 10);
+        GEO_DETAIL = true;
         showInscriptionsForPlace(gObj);
       }
     });
@@ -101,12 +103,33 @@
 
   function filterGeo() {
     var q = (fSearch.value || "").toLowerCase().trim();
-    GEO_FILT = q ? GEO.filter(function (g) {
-      return (g.name || "").toLowerCase().indexOf(q) !== -1 ||
-             (g.modern || "").toLowerCase().indexOf(q) !== -1;
-    }) : GEO;
+    var prov = fProvince.value, cty = fCountry.value, tt = fTextType.value;
+    var hasInscFilter = prov || cty || tt || fFrom.value || fTo.value;
+
+    // build fast-lookup sets from the already-filtered inscription set
+    var filtGeoIds = {}, filtCoords = {};
+    if (hasInscFilter) {
+      FILTERED.forEach(function (e) {
+        if (e.geo_id) filtGeoIds[e.geo_id] = true;
+        if (e.lat && e.lng) {
+          var k = Math.round(+e.lat * 100) / 100 + "," + Math.round(+e.lng * 100) / 100;
+          filtCoords[k] = true;
+        }
+      });
+    }
+
+    GEO_FILT = GEO.filter(function (g) {
+      if (q && (g.name || "").toLowerCase().indexOf(q) === -1 &&
+               (g.modern || "").toLowerCase().indexOf(q) === -1) return false;
+      if (hasInscFilter) {
+        if (g.id && filtGeoIds[g.id]) return true;
+        var gk = Math.round(g.lat * 100) / 100 + "," + Math.round(g.lng * 100) / 100;
+        return !!filtCoords[gk];
+      }
+      return true;
+    });
     GEO_PAGE = 0;
-    renderGeoList();
+    if (!GEO_DETAIL) renderGeoList();
   }
 
   function renderGeoList() {
@@ -181,6 +204,7 @@
       inscHtml;
 
     document.getElementById("geo-back").addEventListener("click", function () {
+      GEO_DETAIL = false;
       FILTERED = ALL; updateMapMarkers();
       filterGeo();
     });
@@ -273,6 +297,9 @@
     });
 
     updateMapMarkers();
+    // when inscription filters change, leave detail view and refresh the geo list
+    GEO_DETAIL = false;
+    filterGeo();
   }
 
   function dateYear(d) {
