@@ -494,12 +494,11 @@ a.ppl-name:hover { text-decoration: underline; }
 .ppl-tags { display: flex; gap: 0.25rem; flex-shrink: 0; margin-left: auto; }
 .ppl-hd { white-space: nowrap; }
 .ppl-edit { font-size: 0.72rem; padding: 0.1rem 0.4rem; }
-/* person name as accordion toggle */
+/* person name — opens right panel */
 button.ppl-name { background: none; border: none; padding: 0; cursor: pointer; font-family: var(--serif-body); font-size: 0.95rem; color: var(--accent); text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; flex: 0 1 auto; }
 button.ppl-name:hover { text-decoration: underline; }
-.ppl-row.expanded { background: #fbf4f4; }
-.ppl-detail { background: #fbf4f4; padding: 0.5rem 0.7rem 0.6rem; border-bottom: 1px solid var(--line); }
-.ppl-detail-dl { display: grid; grid-template-columns: 7rem 1fr; gap: 0.1rem 0.5rem; margin-bottom: 0.55rem; font-size: 0.85rem; }
+/* person detail inside the right panel */
+.ppl-detail-dl { display: grid; grid-template-columns: 7rem 1fr; gap: 0.12rem 0.5rem; margin-bottom: 0.7rem; font-size: 0.88rem; }
 .ppl-detail-dl dt { color: var(--muted); font-size: 0.8rem; }
 .ppl-detail-dl dd { margin: 0; }
 .ppl-detail-actions { display: flex; gap: 0.4rem; flex-wrap: wrap; }
@@ -517,10 +516,13 @@ button.ppl-name:hover { text-decoration: underline; }
 .geo-gid { font-size: 0.72rem; }
 .geo-meta { font-size: 0.78rem; color: var(--muted); display: block; }
 .geo-links { flex-shrink: 0; display: flex; gap: 0.2rem; flex-direction: column; align-items: flex-end; }
-.geo-place-inscr { background: #f5f0f0; border-bottom: 2px solid var(--accent); padding: 0.4rem 0.6rem; font-size: 0.85rem; }
-.geo-place-inscr-head { font-size: 0.78rem; color: var(--muted); margin-bottom: 0.3rem; }
-.geo-inscr-row { padding: 0.15rem 0; }
-.geo-more { color: var(--muted); font-size: 0.8rem; margin-top: 0.2rem; }
+.geo-place-head { display: flex; align-items: center; gap: 0.5rem; padding: 0.4rem 0.2rem 0.4rem; border-bottom: 2px solid var(--accent); margin-bottom: 0.2rem; }
+.geo-back-btn { background: none; border: 1px solid var(--line); border-radius: 3px; padding: 0.15rem 0.5rem; cursor: pointer; font-family: var(--serif-body); font-size: 0.8rem; color: var(--muted); white-space: nowrap; flex-shrink: 0; }
+.geo-back-btn:hover { border-color: var(--accent); color: var(--accent); }
+.geo-place-title { font-family: var(--serif-body); font-size: 0.9rem; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.geo-place-meta { font-size: 0.78rem; color: var(--muted); padding: 0.2rem 0.2rem 0.3rem; }
+.geo-place-count { font-size: 0.78rem; color: var(--muted); padding: 0.1rem 0.2rem 0.3rem; border-bottom: 1px solid var(--line); margin-bottom: 0.1rem; }
+.geo-place-more { font-size: 0.78rem; color: var(--muted); padding: 0.5rem 0.2rem; border-top: 1px solid var(--line); margin-top: 0.3rem; }
 
 /* buttons in serif */
 .btn { font-family: var(--serif-body); }

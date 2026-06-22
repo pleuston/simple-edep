@@ -35,26 +35,25 @@
       rerender();
     });
 
+    // person name button → open detail in right panel
     listEl.addEventListener("click", function (ev) {
-      // person name → toggle inline detail
-      if (ev.button === 0 && !ev.metaKey && !ev.ctrlKey && !ev.shiftKey && !ev.altKey) {
-        var nbtn = ev.target.closest ? ev.target.closest("button.ppl-name") : null;
-        if (nbtn) {
-          var row = nbtn.closest(".ppl-row");
-          var idx = parseInt(nbtn.getAttribute("data-ppl"), 10);
-          if (row && !isNaN(idx)) toggleDetail(row, RENDERED[idx]);
-          return;
-        }
+      if (ev.button !== 0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+      var nbtn = ev.target.closest ? ev.target.closest("button.ppl-name") : null;
+      if (nbtn) {
+        var idx = parseInt(nbtn.getAttribute("data-ppl"), 10);
+        if (!isNaN(idx)) openPersonPanel(RENDERED[idx], nbtn.closest(".ppl-row"));
       }
-      // inscription link → open reading panel
-      var a = ev.target.closest ? ev.target.closest('a[href^="viewer.html"]') : null;
-      if (!a || ev.button !== 0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+    });
+
+    // inscription links inside the right panel → load inscription
+    document.addEventListener("click", function (ev) {
+      if (ev.button !== 0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+      var a = ev.target.closest ? ev.target.closest('#rec-panel a[href^="viewer.html"]') : null;
+      if (!a) return;
       ev.preventDefault();
       var u = new URL(a.getAttribute("href"), location.href);
       var id  = (u.searchParams.get("id")  || "").replace(/[^A-Za-z0-9_\-.]/g, "");
       var col = (u.searchParams.get("col") || "edh").replace(/[^a-z]/g, "");
-      Array.prototype.forEach.call(listEl.querySelectorAll(".ppl-row.selected"), function (x) { x.classList.remove("selected"); });
-      var item = a.closest(".ppl-row"); if (item) item.classList.add("selected");
       RecordPanel.open(id, col, {});
     });
 
@@ -207,19 +206,43 @@
       "</div>";
   }
 
-  function toggleDetail(row, p) {
-    var was = row.classList.contains("expanded");
-    Array.prototype.forEach.call(listEl.querySelectorAll(".ppl-row.expanded"), function (r) {
-      r.classList.remove("expanded");
-      var d = r.nextElementSibling;
-      if (d && d.classList.contains("ppl-detail")) d.remove();
+  function openPersonPanel(p, row) {
+    if (!p) return;
+    // highlight row
+    Array.prototype.forEach.call(listEl.querySelectorAll(".ppl-row.selected"), function (r) { r.classList.remove("selected"); });
+    if (row) row.classList.add("selected");
+
+    var panel = document.getElementById("rec-panel");
+    var tb = document.querySelector(".topbar");
+    if (!panel) return;
+    panel.style.top = (tb ? tb.offsetHeight : 56) + "px";
+
+    // header
+    var idEl = document.getElementById("rp-id");
+    if (idEl) idEl.textContent = p.name || "";
+
+    // fav — not applicable for persons
+    var favEl = document.getElementById("rp-fav");
+    if (favEl) favEl.innerHTML = "";
+
+    // "Open full" → inscription viewer
+    var fullEl = document.getElementById("rp-full");
+    if (fullEl) {
+      if (p.hd) { fullEl.href = "viewer.html?id=" + encodeURIComponent(p.hd) + "&col=edh"; fullEl.style.display = ""; }
+      else fullEl.style.display = "none";
+    }
+
+    // clear image/map areas
+    ["rp-image", "rp-thumbs", "rp-credit", "rp-map"].forEach(function (id) {
+      var el = document.getElementById(id); if (el) el.innerHTML = "";
     });
-    if (was || !p) return;
-    row.classList.add("expanded");
-    var det = document.createElement("div");
-    det.className = "ppl-detail";
-    det.innerHTML = personDetailHtml(p);
-    row.parentNode.insertBefore(det, row.nextSibling);
+
+    // person detail content
+    var readEl = document.getElementById("rp-reading");
+    if (readEl) readEl.innerHTML = personDetailHtml(p);
+
+    panel.classList.add("open"); panel.setAttribute("aria-hidden", "false");
+    document.body.classList.add("rp-open");
   }
 
   function personDetailHtml(p) {
@@ -234,11 +257,11 @@
     if (p.gender)     fields.push(["Sex",         SEX_LABEL[p.gender] || p.gender]);
     if (p.status)     fields.push(["Status",      statusLabel(p.status)]);
     if (p.role)       fields.push(["Role",        ROLE_LABEL[p.role] || p.role]);
-    if (p.age)        fields.push(["Age category", p.age]);
+    if (p.age)        fields.push(["Age",         p.age]);
     if (p.pir)        fields.push(["PIR",         p.pir]);
-    var dl = '<dl class="ppl-detail-dl">' +
+    var dl = fields.length ? '<dl class="ppl-detail-dl">' +
       fields.map(function (f) { return "<dt>" + esc(f[0]) + "</dt><dd>" + esc(f[1]) + "</dd>"; }).join("") +
-      "</dl>";
+      "</dl>" : "";
     var actions = [];
     if (p.hd) {
       var q = "id=" + encodeURIComponent(p.hd) + "&col=edh";
