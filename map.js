@@ -76,7 +76,8 @@
     });
 
     // --- load data: inscription index → map markers; geo.json → center list ---
-    EpiCollections.loadCatalog().then(function (idx) {
+    // always use the EDH index only — geo.json, G-IDs and province data are EDH-specific
+    EpiCollections.loadIndex("edh").then(function (idx) {
       ALL = (idx || []).filter(function (e) {
         return e.lat !== "" && e.lng !== "" && !isNaN(+e.lat) && !isNaN(+e.lng);
       });
