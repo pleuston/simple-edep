@@ -298,6 +298,9 @@ jinn-epidoc-editor[valid="false"] { border-color: var(--bad); }
 .map-facets .facet input:focus { outline: 0; border-bottom-color: var(--accent); }
 .map-facets .facet-date span { display: flex; align-items: center; gap: 0.3rem; }
 .map-facets .facet-date .yr { width: 4.4rem; }
+.site-notice { font-size: 0.8rem; color: var(--muted); background: #fdf8f0; border-bottom: 1px solid #e8d8b0; padding: 0.5rem 0.8rem; line-height: 1.45; }
+.site-notice code { font-size: 0.78rem; background: rgba(0,0,0,0.06); padding: 0.05rem 0.25rem; border-radius: 2px; }
+.site-notice-map { flex-shrink: 0; }
 .map-list-col { display: flex; flex-direction: column; overflow: hidden; border-right: 1px solid var(--line); }
 .map-list-head { padding: 0.4rem 0.8rem; border-bottom: 1px solid var(--line); background: var(--bg); flex-shrink: 0; }
 .map-list-body { overflow-y: auto; flex: 1 1 0; padding: 0 0.5rem; }
