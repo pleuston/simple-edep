@@ -502,11 +502,6 @@ button.ppl-name:hover { text-decoration: underline; }
 .ppl-detail-dl dt { color: var(--muted); font-size: 0.8rem; }
 .ppl-detail-dl dd { margin: 0; }
 .ppl-detail-actions { display: flex; gap: 0.4rem; flex-wrap: wrap; }
-/* map tabs */
-.map-tabs { display: flex; gap: 0.3rem; margin-bottom: 0.3rem; }
-.map-tab { background: none; border: 1px solid var(--line); border-radius: 3px; padding: 0.15rem 0.55rem; cursor: pointer; font-family: var(--serif-body); font-size: 0.82rem; color: var(--muted); }
-.map-tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
-.map-tab:hover:not(.active) { border-color: var(--accent); color: var(--accent); }
 /* find-spot entries */
 .geo-entry { display: flex; align-items: flex-start; gap: 0.4rem; padding: 0.3rem 0.1rem; border-bottom: 1px solid var(--line); cursor: pointer; }
 .geo-entry:hover { background: #fafafa; }
