@@ -91,7 +91,8 @@
   function loadGeo() {
     listEl.innerHTML = '<div class="catalog-loading">Loading find spots…</div>';
     EpiCollections.getJSON(EpiCollections.get("edh").geo).then(function (g) {
-      GEO = (g || []).sort(function (a, b) { return a.name.localeCompare(b.name); });
+      GEO = (g || []).filter(function (x) { return x.name; })
+                     .sort(function (a, b) { return a.name.localeCompare(b.name); });
       filterGeo();
     }).catch(function () {
       listEl.innerHTML = '<div class="catalog-empty">Could not load find spots.</div>';
@@ -131,7 +132,7 @@
   }
 
   function showInscriptionsForPlace(g) {
-    // only filter by G-ID when it is non-empty, to avoid matching all entries with no geo_id
+    // only filter by G-ID when non-empty, to avoid matching all entries with no geo_id
     var matches = g.id ? ALL.filter(function (e) { return e.geo_id === g.id; }) : [];
     if (!matches.length && !isNaN(g.lat) && !isNaN(g.lng)) {
       var THRESH = 0.01;
@@ -142,26 +143,41 @@
     FILTERED = matches; PAGE = 0;
     updateMapMarkers();
 
-    var title = esc(g.name) + (g.id ? ' <span class="catalog-tag">' + esc(g.id) + '</span>' : '');
-    var meta = [g.modern && g.modern !== g.name ? g.modern : "", g.province, g.country].filter(Boolean).join(" · ");
-    var extLinks = "";
-    if (g.pleiades) extLinks += '<a class="catalog-tag" href="' + esc(g.pleiades) + '" target="_blank" rel="noopener">Pleiades ↗</a> ';
-    if (g.tm)       extLinks += '<a class="catalog-tag" href="' + esc(g.tm)       + '" target="_blank" rel="noopener">TM ↗</a>';
+    // place detail card
+    var fields = [];
+    if (g.modern && g.modern !== g.name)  fields.push(["Modern name",  g.modern]);
+    if (g.province)                        fields.push(["Province",     g.province]);
+    if (g.country)                         fields.push(["Country",      g.country]);
+    if (g.id)                              fields.push(["G-ID",         g.id]);
+    if (!isNaN(g.lat) && !isNaN(g.lng))   fields.push(["Coordinates",  g.lat + ", " + g.lng]);
+    var detailDl = fields.length
+      ? '<dl class="geo-detail-dl">' + fields.map(function (f) {
+          return '<dt>' + esc(f[0]) + '</dt><dd>' + esc(f[1]) + '</dd>';
+        }).join("") + '</dl>'
+      : '';
+    var extLinks = [];
+    if (g.pleiades) extLinks.push('<a class="btn small" href="' + esc(g.pleiades) + '" target="_blank" rel="noopener">Pleiades ↗</a>');
+    if (g.tm)       extLinks.push('<a class="btn small" href="' + esc(g.tm)       + '" target="_blank" rel="noopener">Trismegistos ↗</a>');
+    var detailLinks = extLinks.length ? '<div class="geo-detail-links">' + extLinks.join(" ") + '</div>' : '';
 
+    // inscription list
     var CAP = 50;
     var shown = matches.slice(0, CAP);
     var more = matches.length > CAP ? matches.length - CAP : 0;
     var inscHtml = matches.length
-      ? shown.map(entryHtml).join("") + (more ? '<div class="geo-place-more">' + more + ' more — zoom into the map to explore</div>' : '')
-      : '<div class="catalog-empty">No inscriptions recorded at this site.</div>';
+      ? '<div class="geo-inscr-head">' + matches.length + ' inscription' + (matches.length !== 1 ? 's' : '') + '</div>' +
+        shown.map(entryHtml).join("") +
+        (more ? '<div class="geo-place-more">' + more + ' more — zoom into the map to explore</div>' : '')
+      : '<div class="catalog-empty">No inscriptions linked to this site.</div>';
 
     listEl.innerHTML =
       '<div class="geo-place-head">' +
         '<button class="geo-back-btn" id="geo-back">← Find spots</button>' +
-        '<span class="geo-place-title">' + title + '</span>' +
       '</div>' +
-      (meta || extLinks ? '<div class="geo-place-meta">' + (meta ? '<span>' + esc(meta) + '</span> ' : '') + extLinks + '</div>' : '') +
-      (matches.length ? '<div class="geo-place-count">' + matches.length + ' inscription' + (matches.length !== 1 ? 's' : '') + '</div>' : '') +
+      '<div class="geo-detail-card">' +
+        '<h2 class="geo-detail-name">' + esc(g.name) + '</h2>' +
+        detailDl + detailLinks +
+      '</div>' +
       inscHtml;
 
     document.getElementById("geo-back").addEventListener("click", function () {

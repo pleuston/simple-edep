@@ -511,12 +511,18 @@ button.ppl-name:hover { text-decoration: underline; }
 .geo-gid { font-size: 0.72rem; }
 .geo-meta { font-size: 0.78rem; color: var(--muted); display: block; }
 .geo-links { flex-shrink: 0; display: flex; gap: 0.2rem; flex-direction: column; align-items: flex-end; }
-.geo-place-head { display: flex; align-items: center; gap: 0.5rem; padding: 0.4rem 0.2rem 0.4rem; border-bottom: 2px solid var(--accent); margin-bottom: 0.2rem; }
+.geo-place-head { display: flex; align-items: center; gap: 0.5rem; padding: 0.35rem 0.2rem; border-bottom: 1px solid var(--line); margin-bottom: 0; }
 .geo-back-btn { background: none; border: 1px solid var(--line); border-radius: 3px; padding: 0.15rem 0.5rem; cursor: pointer; font-family: var(--serif-body); font-size: 0.8rem; color: var(--muted); white-space: nowrap; flex-shrink: 0; }
 .geo-back-btn:hover { border-color: var(--accent); color: var(--accent); }
 .geo-place-title { font-family: var(--serif-body); font-size: 0.9rem; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.geo-place-meta { font-size: 0.78rem; color: var(--muted); padding: 0.2rem 0.2rem 0.3rem; }
-.geo-place-count { font-size: 0.78rem; color: var(--muted); padding: 0.1rem 0.2rem 0.3rem; border-bottom: 1px solid var(--line); margin-bottom: 0.1rem; }
+/* find-spot detail card */
+.geo-detail-card { padding: 0.6rem 0.3rem 0.5rem; border-bottom: 2px solid var(--accent); margin-bottom: 0.4rem; }
+.geo-detail-name { font-family: var(--serif-display); font-size: 1.15rem; font-weight: 600; color: var(--ink); margin: 0 0 0.4rem; }
+.geo-detail-dl { display: grid; grid-template-columns: 8rem 1fr; gap: 0.1rem 0.5rem; font-size: 0.85rem; margin-bottom: 0.5rem; }
+.geo-detail-dl dt { color: var(--muted); font-size: 0.78rem; }
+.geo-detail-dl dd { margin: 0; }
+.geo-detail-links { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+.geo-inscr-head { font-size: 0.78rem; color: var(--muted); padding: 0.3rem 0.1rem 0.3rem; border-bottom: 1px solid var(--line); margin-bottom: 0.1rem; }
 .geo-place-more { font-size: 0.78rem; color: var(--muted); padding: 0.5rem 0.2rem; border-top: 1px solid var(--line); margin-top: 0.3rem; }
 
 /* buttons in serif */
