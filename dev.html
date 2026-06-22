@@ -63,10 +63,12 @@
         <p>The corpus data (82 k EpiDoc records, index, people, photos, bibliography, geodata) lives
         in a <strong>separate data repo</strong>
         (<a href="https://github.com/pleuston/simple-edep-edh" target="_blank" rel="noopener">simple-edep-edh</a>)
-        and is served by <strong>jsDelivr CDN</strong> at
-        <code>https://github.com/pleuston/simple-edep-edh</code>. This keeps the
-        app repo lean (no large binary blobs, fast Pages builds) while jsDelivr provides CORS
-        headers, gzip compression, and global caching.</p>
+        and is served by <strong>jsDelivr</strong>, a free <strong>CDN</strong> (Content Delivery
+        Network — a global network of servers that cache and distribute files faster than a
+        single origin server). jsDelivr mirrors public GitHub repos automatically; the app fetches
+        data from <code>cdn.jsdelivr.net/gh/pleuston/simple-edep-edh@main/…</code> rather than
+        from GitHub directly. This keeps the app repo lean (no large binary blobs, fast Pages
+        builds) while jsDelivr provides CORS headers, gzip compression, and global caching.</p>
 
         <table class="docs-table">
           <thead><tr><th>Repo</th><th>What it contains</th><th>How it is served</th></tr></thead>
