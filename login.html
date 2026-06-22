@@ -45,6 +45,12 @@
           You only need to sign in to <strong>save</strong>. Browse the
           <a href="catalog.html">catalogue</a> and <a href="map.html">map</a> without an account.
         </div>
+
+        <div class="login-request">
+          <p class="login-request-label">Need write access to save records?</p>
+          <button id="btn-request" type="button" class="btn btn-wide">Request collaborator access ↗</button>
+          <p class="login-request-note">Opens a request on GitHub. Sign in first so your username is pre-filled.</p>
+        </div>
       </div>
     </main>
 
@@ -129,6 +135,19 @@
               .catch(function (err) { showError(err.message); });
           });
         }
+
+        // request-access button — opens a pre-filled GitHub issue
+        document.getElementById("btn-request").addEventListener("click", function () {
+          var user = localStorage.getItem(LS.username) || "";
+          var body = user
+            ? "GitHub username: @" + user + "\n\nPlease add me as a collaborator to the simple-edep repository so I can save records."
+            : "GitHub username: @(please fill in)\n\nPlease add me as a collaborator to the simple-edep repository so I can save records.";
+          var url = "https://github.com/pleuston/simple-edep/issues/new" +
+            "?title=" + encodeURIComponent("Collaborator access request") +
+            "&body="  + encodeURIComponent(body) +
+            "&labels=" + encodeURIComponent("access request");
+          window.open(url, "_blank", "noopener");
+        });
       })();
     </script>
   </body>
